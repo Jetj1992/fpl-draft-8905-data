@@ -1,0 +1,128 @@
+{
+  "137879": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": 14,
+      "id": 137879,
+      "league_set": [
+        8905
+      ],
+      "name": "AGF 2. hold",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "137912": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": 2,
+      "id": 137912,
+      "league_set": [
+        8905
+      ],
+      "name": "Grove Løjer",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "138032": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": 11,
+      "id": 138032,
+      "league_set": [
+        8905
+      ],
+      "name": "Hyggemix",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "138139": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": null,
+      "id": 138139,
+      "league_set": [
+        8905
+      ],
+      "name": "Jyllands Rubin",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "250589": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": null,
+      "id": 250589,
+      "league_set": [
+        8905
+      ],
+      "name": "Senile Supersubs",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "318564": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": null,
+      "id": 318564,
+      "league_set": [
+        8905
+      ],
+      "name": "La Liga es la mejor",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  },
+  "42888": {
+    "entry": {
+      "event_points": null,
+      "favourite_team": 19,
+      "id": 42888,
+      "league_set": [
+        8905
+      ],
+      "name": "AGFs Førstehold",
+      "overall_points": null,
+      "region_code_long": "DNK",
+      "region_code_short": "DK",
+      "region_name": "Denmark",
+      "started_event": 1,
+      "transactions_event": 0,
+      "transactions_total": 0
+    }
+  }
+}

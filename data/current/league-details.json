@@ -1,0 +1,103 @@
+{
+  "league": {
+    "admin_entry": 42888,
+    "closed": false,
+    "draft_dt": "2026-08-21T10:00:00Z",
+    "draft_pick_time_limit": 90,
+    "draft_status": "pre",
+    "draft_tz_show": "Europe/Copenhagen",
+    "drafts": [
+      {
+        "draft_completed": null,
+        "draft_dt": "2026-08-21T10:00:00Z",
+        "draft_started": false,
+        "event": 1,
+        "id": 9516,
+        "league": 8905,
+        "order_method": "random"
+      },
+      {
+        "draft_completed": null,
+        "draft_dt": "2027-01-31T23:00:00Z",
+        "draft_started": false,
+        "event": 24,
+        "id": 9517,
+        "league": 8905,
+        "order_method": "rank"
+      }
+    ],
+    "id": 8905,
+    "is_renewed": false,
+    "ko_rounds": 0,
+    "make_code_public": false,
+    "max_entries": 12,
+    "min_entries": 2,
+    "name": "OK Data Liga",
+    "scoring": "h",
+    "start_event": 1,
+    "stop_event": 38,
+    "trades": "y",
+    "transaction_mode": "not-drafted",
+    "variety": "x"
+  },
+  "league_entries": [
+    {
+      "entry_id": 42888,
+      "entry_name": "AGFs Førstehold",
+      "id": 42948,
+      "joined_time": "2026-08-05T12:39:55.071855Z",
+      "short_name": "JT",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 137879,
+      "entry_name": "AGF 2. hold",
+      "id": 138487,
+      "joined_time": "2026-08-11T11:29:12.952808Z",
+      "short_name": "TM",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 137912,
+      "entry_name": "Grove Løjer",
+      "id": 138520,
+      "joined_time": "2026-08-11T11:31:27.084838Z",
+      "short_name": "MB",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 138032,
+      "entry_name": "Hyggemix",
+      "id": 138641,
+      "joined_time": "2026-08-11T11:37:28.899545Z",
+      "short_name": "MB1",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 138139,
+      "entry_name": "Jyllands Rubin",
+      "id": 138748,
+      "joined_time": "2026-08-11T11:46:28.071105Z",
+      "short_name": "NH",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 250589,
+      "entry_name": "Senile Supersubs",
+      "id": 252790,
+      "joined_time": "2026-08-17T06:54:43.000930Z",
+      "short_name": "VD",
+      "waiver_pick": null
+    },
+    {
+      "entry_id": 318564,
+      "entry_name": "La Liga es la mejor",
+      "id": 321694,
+      "joined_time": "2026-08-19T10:15:42.012006Z",
+      "short_name": "AK",
+      "waiver_pick": null
+    }
+  ],
+  "matches": [],
+  "standings": []
+}

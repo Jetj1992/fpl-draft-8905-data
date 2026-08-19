@@ -1,0 +1,163 @@
+{
+  "endpoint_status": {
+    "bootstrap_dynamic": {
+      "ok": true,
+      "path": "/bootstrap-dynamic",
+      "status": 200
+    },
+    "bootstrap_static": {
+      "ok": true,
+      "path": "/bootstrap-static",
+      "status": 200
+    },
+    "choices": {
+      "error": "HTTP 404",
+      "ok": false,
+      "path": "/draft/league/8905/choices"
+    },
+    "element_status": {
+      "ok": true,
+      "path": "/league/8905/element-status",
+      "status": 200
+    },
+    "entry_137879_public": {
+      "ok": true,
+      "path": "/entry/137879/public",
+      "status": 200
+    },
+    "entry_137879_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/137879/transactions"
+    },
+    "entry_137912_public": {
+      "ok": true,
+      "path": "/entry/137912/public",
+      "status": 200
+    },
+    "entry_137912_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/137912/transactions"
+    },
+    "entry_138032_public": {
+      "ok": true,
+      "path": "/entry/138032/public",
+      "status": 200
+    },
+    "entry_138032_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/138032/transactions"
+    },
+    "entry_138139_public": {
+      "ok": true,
+      "path": "/entry/138139/public",
+      "status": 200
+    },
+    "entry_138139_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/138139/transactions"
+    },
+    "entry_250589_public": {
+      "ok": true,
+      "path": "/entry/250589/public",
+      "status": 200
+    },
+    "entry_250589_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/250589/transactions"
+    },
+    "entry_318564_public": {
+      "ok": true,
+      "path": "/entry/318564/public",
+      "status": 200
+    },
+    "entry_318564_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/318564/transactions"
+    },
+    "entry_42888_public": {
+      "ok": true,
+      "path": "/entry/42888/public",
+      "status": 200
+    },
+    "entry_42888_transactions": {
+      "error": "HTTP 403",
+      "ok": false,
+      "path": "/draft/entry/42888/transactions"
+    },
+    "game": {
+      "ok": true,
+      "path": "/game",
+      "status": 200
+    },
+    "league_details": {
+      "ok": true,
+      "path": "/league/8905/details",
+      "status": 200
+    },
+    "pl_event_status": {
+      "error": "HTTP 404",
+      "ok": false,
+      "path": "/pl/event-status"
+    },
+    "trades": {
+      "ok": true,
+      "path": "/draft/league/8905/trades",
+      "status": 200
+    }
+  },
+  "entries": [
+    {
+      "entry_id": 42888,
+      "entry_name": "AGFs Førstehold",
+      "id": 42948,
+      "short_name": "JT"
+    },
+    {
+      "entry_id": 137879,
+      "entry_name": "AGF 2. hold",
+      "id": 138487,
+      "short_name": "TM"
+    },
+    {
+      "entry_id": 137912,
+      "entry_name": "Grove Løjer",
+      "id": 138520,
+      "short_name": "MB"
+    },
+    {
+      "entry_id": 138032,
+      "entry_name": "Hyggemix",
+      "id": 138641,
+      "short_name": "MB1"
+    },
+    {
+      "entry_id": 138139,
+      "entry_name": "Jyllands Rubin",
+      "id": 138748,
+      "short_name": "NH"
+    },
+    {
+      "entry_id": 250589,
+      "entry_name": "Senile Supersubs",
+      "id": 252790,
+      "short_name": "VD"
+    },
+    {
+      "entry_id": 318564,
+      "entry_name": "La Liga es la mejor",
+      "id": 321694,
+      "short_name": "AK"
+    }
+  ],
+  "latest_complete_gameweek": null,
+  "league_id": 8905,
+  "league_name": "OK Data Liga",
+  "number_of_entries": 7,
+  "schema_version": 1
+}
