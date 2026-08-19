@@ -1,0 +1,48 @@
+name: FPL Draft 8905 Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 3 hours, offset from the top of the hour to avoid peak scheduler load.
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fpl-draft-8905-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Validate fetcher
+        run: python -m py_compile scripts/fetch_fpl_draft.py
+
+      - name: Fetch FPL Draft data
+        run: python scripts/fetch_fpl_draft.py --league-id 8905
+
+      - name: Commit changed data
+        shell: bash
+        run: |
+          if [ -z "$(git status --porcelain -- data/)" ]; then
+            echo "No FPL Draft data changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "data: update FPL Draft league 8905"
+          git push
