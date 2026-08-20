@@ -1,0 +1,524 @@
+{
+  "events": [
+    {
+      "data_checked": false,
+      "deadline_time": "2026-08-21T17:30:00Z",
+      "deadline_time_epoch": 1787333400,
+      "finished": false,
+      "id": 1,
+      "is_current": false,
+      "is_next": true,
+      "is_previous": false,
+      "name": "Gameweek 1"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-08-28T17:30:00Z",
+      "deadline_time_epoch": 1787938200,
+      "finished": false,
+      "id": 2,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 2"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-09-04T17:30:00Z",
+      "deadline_time_epoch": 1788543000,
+      "finished": false,
+      "id": 3,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 3"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-09-12T12:30:00Z",
+      "deadline_time_epoch": 1789216200,
+      "finished": false,
+      "id": 4,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 4"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-09-18T17:30:00Z",
+      "deadline_time_epoch": 1789752600,
+      "finished": false,
+      "id": 5,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 5"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-10-10T10:00:00Z",
+      "deadline_time_epoch": 1791626400,
+      "finished": false,
+      "id": 6,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 6"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-10-17T10:00:00Z",
+      "deadline_time_epoch": 1792231200,
+      "finished": false,
+      "id": 7,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 7"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-10-23T17:30:00Z",
+      "deadline_time_epoch": 1792776600,
+      "finished": false,
+      "id": 8,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 8"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-10-31T11:00:00Z",
+      "deadline_time_epoch": 1793444400,
+      "finished": false,
+      "id": 9,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 9"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-11-07T13:30:00Z",
+      "deadline_time_epoch": 1794058200,
+      "finished": false,
+      "id": 10,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 10"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-11-21T13:30:00Z",
+      "deadline_time_epoch": 1795267800,
+      "finished": false,
+      "id": 11,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 11"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-11-28T13:30:00Z",
+      "deadline_time_epoch": 1795872600,
+      "finished": false,
+      "id": 12,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 12"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-02T18:30:00Z",
+      "deadline_time_epoch": 1796236200,
+      "finished": false,
+      "id": 13,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 13"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-05T13:30:00Z",
+      "deadline_time_epoch": 1796477400,
+      "finished": false,
+      "id": 14,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 14"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-12T13:30:00Z",
+      "deadline_time_epoch": 1797082200,
+      "finished": false,
+      "id": 15,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 15"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-19T13:30:00Z",
+      "deadline_time_epoch": 1797687000,
+      "finished": false,
+      "id": 16,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 16"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-26T13:30:00Z",
+      "deadline_time_epoch": 1798291800,
+      "finished": false,
+      "id": 17,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 17"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2026-12-30T18:30:00Z",
+      "deadline_time_epoch": 1798655400,
+      "finished": false,
+      "id": 18,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 18"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-01-02T13:30:00Z",
+      "deadline_time_epoch": 1798896600,
+      "finished": false,
+      "id": 19,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 19"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-01-06T18:30:00Z",
+      "deadline_time_epoch": 1799260200,
+      "finished": false,
+      "id": 20,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 20"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-01-16T13:30:00Z",
+      "deadline_time_epoch": 1800106200,
+      "finished": false,
+      "id": 21,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 21"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-01-23T13:30:00Z",
+      "deadline_time_epoch": 1800711000,
+      "finished": false,
+      "id": 22,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 22"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-01-30T13:30:00Z",
+      "deadline_time_epoch": 1801315800,
+      "finished": false,
+      "id": 23,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 23"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-02-06T13:30:00Z",
+      "deadline_time_epoch": 1801920600,
+      "finished": false,
+      "id": 24,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 24"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-02-10T18:30:00Z",
+      "deadline_time_epoch": 1802284200,
+      "finished": false,
+      "id": 25,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 25"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-02-20T13:30:00Z",
+      "deadline_time_epoch": 1803130200,
+      "finished": false,
+      "id": 26,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 26"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-02-27T13:30:00Z",
+      "deadline_time_epoch": 1803735000,
+      "finished": false,
+      "id": 27,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 27"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-03-03T18:30:00Z",
+      "deadline_time_epoch": 1804098600,
+      "finished": false,
+      "id": 28,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 28"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-03-13T13:30:00Z",
+      "deadline_time_epoch": 1804944600,
+      "finished": false,
+      "id": 29,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 29"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-03-20T13:30:00Z",
+      "deadline_time_epoch": 1805549400,
+      "finished": false,
+      "id": 30,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 30"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-04-10T12:30:00Z",
+      "deadline_time_epoch": 1807360200,
+      "finished": false,
+      "id": 31,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 31"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-04-17T12:30:00Z",
+      "deadline_time_epoch": 1807965000,
+      "finished": false,
+      "id": 32,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 32"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-04-24T12:30:00Z",
+      "deadline_time_epoch": 1808569800,
+      "finished": false,
+      "id": 33,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 33"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-05-01T12:30:00Z",
+      "deadline_time_epoch": 1809174600,
+      "finished": false,
+      "id": 34,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 34"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-05-08T12:30:00Z",
+      "deadline_time_epoch": 1809779400,
+      "finished": false,
+      "id": 35,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 35"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-05-15T12:30:00Z",
+      "deadline_time_epoch": 1810384200,
+      "finished": false,
+      "id": 36,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 36"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-05-23T12:30:00Z",
+      "deadline_time_epoch": 1811075400,
+      "finished": false,
+      "id": 37,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 37"
+    },
+    {
+      "data_checked": false,
+      "deadline_time": "2027-05-30T13:30:00Z",
+      "deadline_time_epoch": 1811683800,
+      "finished": false,
+      "id": 38,
+      "is_current": false,
+      "is_next": false,
+      "is_previous": false,
+      "name": "Gameweek 38"
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Arsenal",
+      "short_name": "ARS"
+    },
+    {
+      "id": 2,
+      "name": "Aston Villa",
+      "short_name": "AVL"
+    },
+    {
+      "id": 3,
+      "name": "Bournemouth",
+      "short_name": "BOU"
+    },
+    {
+      "id": 4,
+      "name": "Brentford",
+      "short_name": "BRE"
+    },
+    {
+      "id": 5,
+      "name": "Brighton",
+      "short_name": "BHA"
+    },
+    {
+      "id": 6,
+      "name": "Chelsea",
+      "short_name": "CHE"
+    },
+    {
+      "id": 7,
+      "name": "Coventry City",
+      "short_name": "COV"
+    },
+    {
+      "id": 8,
+      "name": "Crystal Palace",
+      "short_name": "CRY"
+    },
+    {
+      "id": 9,
+      "name": "Everton",
+      "short_name": "EVE"
+    },
+    {
+      "id": 10,
+      "name": "Fulham",
+      "short_name": "FUL"
+    },
+    {
+      "id": 11,
+      "name": "Hull City",
+      "short_name": "HUL"
+    },
+    {
+      "id": 12,
+      "name": "Ipswich Town",
+      "short_name": "IPS"
+    },
+    {
+      "id": 13,
+      "name": "Leeds",
+      "short_name": "LEE"
+    },
+    {
+      "id": 14,
+      "name": "Liverpool",
+      "short_name": "LIV"
+    },
+    {
+      "id": 15,
+      "name": "Man City",
+      "short_name": "MCI"
+    },
+    {
+      "id": 16,
+      "name": "Man Utd",
+      "short_name": "MUN"
+    },
+    {
+      "id": 17,
+      "name": "Newcastle",
+      "short_name": "NEW"
+    },
+    {
+      "id": 18,
+      "name": "Nott'm Forest",
+      "short_name": "NFO"
+    },
+    {
+      "id": 19,
+      "name": "Spurs",
+      "short_name": "TOT"
+    },
+    {
+      "id": 20,
+      "name": "Sunderland",
+      "short_name": "SUN"
+    }
+  ]
+}

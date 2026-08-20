@@ -109,6 +109,12 @@
       "ok": false,
       "path": "/draft/entry/42888/transactions"
     },
+    "fpl_bootstrap_static": {
+      "host": "https://fantasy.premierleague.com/api",
+      "ok": true,
+      "path": "/bootstrap-static/",
+      "status": 200
+    },
     "game": {
       "host": "https://draft.premierleague.com/api",
       "ok": true,
@@ -119,6 +125,12 @@
       "host": "https://draft.premierleague.com/api",
       "ok": true,
       "path": "/league/8905/details",
+      "status": 200
+    },
+    "pl_fixtures_gw_1": {
+      "host": "https://fantasy.premierleague.com/api",
+      "ok": true,
+      "path": "/fixtures/?event=1",
       "status": 200
     },
     "trades": {
@@ -175,10 +187,15 @@
   "latest_complete_gameweek": null,
   "league_id": 8905,
   "league_name": "OK Data Liga",
-  "next_deadline": null,
-  "next_gameweek": null,
+  "next_deadline": {
+    "deadline_time_copenhagen": "2026-08-21T19:30:00+02:00",
+    "deadline_time_utc": "2026-08-21T17:30:00Z",
+    "gameweek": 1,
+    "name": "Gameweek 1"
+  },
+  "next_gameweek": 1,
   "number_of_entries": 7,
   "previous_gameweek": null,
-  "schema_version": 2,
-  "upcoming_gameweek": null
+  "schema_version": 3,
+  "upcoming_gameweek": 1
 }
