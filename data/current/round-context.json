@@ -1,0 +1,16 @@
+{
+  "gameweeks": {
+    "current": null,
+    "latest_complete": null,
+    "next": null,
+    "previous": null,
+    "upcoming": null
+  },
+  "next_deadline": null,
+  "rounds": {
+    "current": null,
+    "next": null,
+    "previous": null,
+    "upcoming": null
+  }
+}
