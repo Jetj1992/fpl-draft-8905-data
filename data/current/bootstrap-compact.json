@@ -1380,8 +1380,8 @@
       "element_type": 4,
       "id": 136,
       "minutes": 2249,
-      "news": "",
-      "status": "a",
+      "news": "Unspecified injury - 75% chance of playing",
+      "status": "d",
       "team": 6,
       "total_points": 126,
       "web_name": "Welbeck"
@@ -1720,8 +1720,8 @@
       "element_type": 4,
       "id": 170,
       "minutes": 0,
-      "news": "Hamstring injury - 75% chance of playing",
-      "status": "d",
+      "news": "",
+      "status": "a",
       "team": 6,
       "total_points": 0,
       "web_name": "Emegha"
@@ -2000,8 +2000,8 @@
       "element_type": 1,
       "id": 198,
       "minutes": 3330,
-      "news": "",
-      "status": "a",
+      "news": "Ankle injury - 75% chance of playing",
+      "status": "d",
       "team": 8,
       "total_points": 131,
       "web_name": "Henderson"
@@ -4060,8 +4060,8 @@
       "element_type": 3,
       "id": 404,
       "minutes": 1623,
-      "news": "",
-      "status": "a",
+      "news": "Has joined Al Qadsiah permanently",
+      "status": "u",
       "team": 15,
       "total_points": 92,
       "web_name": "Reijnders"
@@ -5350,8 +5350,8 @@
       "element_type": 2,
       "id": 533,
       "minutes": 2784,
-      "news": "Knock - 75% chance of playing",
-      "status": "d",
+      "news": "",
+      "status": "a",
       "team": 20,
       "total_points": 151,
       "web_name": "Mukiele"
@@ -5370,8 +5370,8 @@
       "element_type": 2,
       "id": 535,
       "minutes": 2797,
-      "news": "Knock - 75% chance of playing",
-      "status": "d",
+      "news": "",
+      "status": "a",
       "team": 20,
       "total_points": 125,
       "web_name": "Alderete"
@@ -5430,8 +5430,8 @@
       "element_type": 2,
       "id": 541,
       "minutes": 0,
-      "news": "Knock - 75% chance of playing",
-      "status": "d",
+      "news": "",
+      "status": "a",
       "team": 20,
       "total_points": 0,
       "web_name": "Meunier"
@@ -5480,8 +5480,8 @@
       "element_type": 3,
       "id": 546,
       "minutes": 649,
-      "news": "",
-      "status": "a",
+      "news": "Ankle injury - Unknown return date",
+      "status": "i",
       "team": 20,
       "total_points": 34,
       "web_name": "Adingra"
@@ -5975,6 +5975,46 @@
       "team": 17,
       "total_points": 0,
       "web_name": "Dedić"
+    },
+    {
+      "element_type": 2,
+      "id": 596,
+      "minutes": 0,
+      "news": "",
+      "status": "a",
+      "team": 2,
+      "total_points": 0,
+      "web_name": "Ruggeri"
+    },
+    {
+      "element_type": 1,
+      "id": 597,
+      "minutes": 0,
+      "news": "",
+      "status": "a",
+      "team": 2,
+      "total_points": 0,
+      "web_name": "Suzuki"
+    },
+    {
+      "element_type": 4,
+      "id": 598,
+      "minutes": 0,
+      "news": "",
+      "status": "a",
+      "team": 7,
+      "total_points": 0,
+      "web_name": "Cherif"
+    },
+    {
+      "element_type": 2,
+      "id": 599,
+      "minutes": 0,
+      "news": "",
+      "status": "a",
+      "team": 13,
+      "total_points": 0,
+      "web_name": "Elvedi"
     }
   ],
   "events": [
