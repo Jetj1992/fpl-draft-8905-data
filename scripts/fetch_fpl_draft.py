@@ -296,10 +296,21 @@ def main() -> int:
 
     endpoint_status: dict[str, Any] = {}
 
-    bootstrap, status = fetch_json(DRAFT_BASE_URL, "/bootstrap-static", required=True)
+    # Draft bootstrap is useful for Draft player/team metadata. It does NOT reliably
+    # expose the standard FPL event calendar before the season starts, so deadlines
+    # and previous/current/next GW state are sourced separately from the regular FPL API.
+    draft_bootstrap, status = fetch_json(DRAFT_BASE_URL, "/bootstrap-static", required=True)
     endpoint_status["bootstrap_static"] = status
-    assert isinstance(bootstrap, dict)
-    write_json(current_dir / "bootstrap-compact.json", compact_bootstrap(bootstrap))
+    assert isinstance(draft_bootstrap, dict)
+    write_json(current_dir / "bootstrap-compact.json", compact_bootstrap(draft_bootstrap))
+
+    fpl_calendar, status = fetch_json(FPL_BASE_URL, "/bootstrap-static/", required=True)
+    endpoint_status["fpl_bootstrap_static"] = status
+    assert isinstance(fpl_calendar, dict)
+    write_json(current_dir / "fpl-calendar.json", {
+        "events": compact_bootstrap(fpl_calendar).get("events", []),
+        "teams": compact_bootstrap(fpl_calendar).get("teams", []),
+    })
 
     details, status = fetch_json(
         DRAFT_BASE_URL, f"/league/{league_id}/details", required=True
@@ -351,7 +362,7 @@ def main() -> int:
 
     # Pull PL fixture lists for the adjacent rounds. This gives the recap actual
     # PL results and the preview kickoff schedule/opponents.
-    ids = gameweek_ids(bootstrap, details)
+    ids = gameweek_ids(fpl_calendar, details)
     fixture_events = sorted({gw for gw in ids.values() if isinstance(gw, int)})
     pl_fixtures: dict[int, Any] = {}
     for gw in fixture_events:
@@ -361,7 +372,7 @@ def main() -> int:
             pl_fixtures[gw] = payload
             write_json(current_dir / f"pl-fixtures-gw-{gw:02d}.json", payload)
 
-    round_context = build_round_context(bootstrap, details, pl_fixtures)
+    round_context = build_round_context(fpl_calendar, details, pl_fixtures)
     write_json(current_dir / "round-context.json", round_context)
 
     latest_gw = ids["latest_complete"]
@@ -389,7 +400,7 @@ def main() -> int:
             write_json(current_dir / "latest-entry-events.json", entry_events)
 
     summary = {
-        "schema_version": 2,
+        "schema_version": 3,
         "league_id": league_id,
         "league_name": league_name(details),
         "number_of_entries": len(entries),
