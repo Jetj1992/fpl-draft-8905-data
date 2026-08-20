@@ -1,4 +1,4 @@
-name: FPL Draft 8905 Sync
+name: FPL Draft 8905 Sync + Pages
 
 on:
   workflow_dispatch:
@@ -8,6 +8,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: fpl-draft-8905-sync
@@ -46,3 +48,37 @@ jobs:
           git add data/
           git commit -m "data: update FPL Draft league 8905"
           git push
+
+  deploy-pages:
+    needs: sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out latest data
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Build public JSON site
+        shell: bash
+        run: |
+          rm -rf _site
+          mkdir -p _site/data
+          cp -R data/. _site/data/
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
