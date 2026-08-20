@@ -3569,6 +3569,30 @@
       "in_accepted_trade": false,
       "owner": null,
       "status": "a"
+    },
+    {
+      "element": 596,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "l"
+    },
+    {
+      "element": 597,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "l"
+    },
+    {
+      "element": 598,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "l"
+    },
+    {
+      "element": 599,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "l"
     }
   ]
 }
