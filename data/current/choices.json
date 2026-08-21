@@ -4437,6 +4437,12 @@
       "status": "l"
     },
     {
+      "element": 600,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "l"
+    },
+    {
       "element": 229,
       "in_accepted_trade": false,
       "owner": 42888,
