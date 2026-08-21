@@ -1,72 +1,209 @@
 # FPL Draft 8905 data sync
 
-Denne repo-pakke henter offentligt tilgængelige data for FPL Draft-liga **8905** og gemmer dem som JSON i GitHub.
+Denne repo-pakke henter offentligt tilgængelige data for FPL Draft-liga **8905 – OK Data Liga** og gemmer dem som sanitiseret JSON i GitHub.
 
-Formålet er at give et stabilt mellemled:
+Formålet er:
 
-**FPL Draft API -> GitHub Action -> JSON i repo -> ChatGPT recap**
+**FPL Draft API → GitHub Action → recap-klare JSON-filer → ChatGPT**
 
-## Hvad bliver hentet?
+Versionen indeholder både:
+
+- automatisk **draft recap** efter den første draft
+- fast **🔎 Wirtz Watch** i hver afsluttet gameweek
+- ligaens waivers, free-agent-transfers og trades, når API-dataene dokumenterer dem
+- faste historiksnapshots, så senere spillerskift ikke omskriver gamle recaps
+
+## Nye hovedfunktioner
+
+### 1. Draft recap
+
+Efter draften oprettes:
+
+- `data/current/draft-recap.json`
+- `data/draft/initial/draft-recap.json`
+
+Det første dokument opdateres, indtil draften er komplet. Når alle hold har en komplet trup, fryses et initialt snapshot under `data/draft/initial/`.
+
+Draft-recap-filen indeholder blandt andet:
+
+- draftstatus og afslutningstidspunkt
+- draftorden, når `/api/draft/{LEAGUE_ID}/choices` leverer den
+- samtlige valg og trupper
+- spiller, klub, position og officiel Draft Rank
+- forskel mellem faktisk valgnummer og officiel Draft Rank
+- første valgte målmand, forsvarer, midtbanespiller og angriber
+- mulige value/reach-kandidater baseret på Draft Rank-forskellen
+- hvilket hold der draftede Wirtz og ved hvilket valg
+- et stabilt `draft_fingerprint`, som kan bruges til kun at sende én recap
+
+Hvis choices-endpointet ikke kan læses, rekonstrueres trupperne fra `element-status`. I så fald opfindes draftordenen ikke.
+
+### 2. Wirtz Watch
+
+Efter hver afsluttet gameweek oprettes:
+
+- `data/current/watched-players.json`
+- `data/history/gw-XX/watched-players.json`
+
+Wirtz identificeres dynamisk via spillernavnet – der hardcodes ikke et sæsonafhængigt element-ID.
+
+Filen samler:
+
+- ejer i den konkrete gameweek
+- startopstilling, bænk eller indskiftet via autosub
+- position i fantasy-opstillingen og multiplier
+- minutter og samlede Draft-point
+- mål, assists, bonus, kort, clean sheet, BPS og øvrige tilgængelige stats
+- om pointene talte eller lå på bænken
+- Premier League-modstander og resultat, når fixture-data findes
+- ejerens H2H-modstander, score, resultat og margin
+
+Gameweek-ejeren findes først ved at scanne de gemte `entry-events`. Det er vigtigt, fordi den aktuelle `element-status` kan være ændret af et waiver eller en free-agent-transfer efter rundens afslutning.
+
+### 3. Waivers, free agents og trades
+
+Pakken bruger ligaens offentlige transaktionsendpoint:
+
+- `/api/draft/league/{LEAGUE_ID}/transactions`
+
+Det gemmes som:
+
+- `data/current/transactions.json` – rå API-data
+- `data/current/transactions-enriched.json` – spiller- og holdnavne tilføjet
+- tilsvarende filer i hvert gameweek-snapshot
+
+En bevægelse kaldes kun `waiver`, `free_agent`, `trade` eller `draft`, hvis API-recorden har en genkendelig eksplicit type. Ukendte records mærkes ikke ved gæt.
+
+Bekræftede direkte trades hentes desuden fra:
+
+- `/api/draft/league/{LEAGUE_ID}/trades`
+
+## Hentede endpoints
 
 Kerne-endpoints:
 
 - `/api/bootstrap-static`
-- `/api/league/8905/details`
-- `/api/league/8905/element-status`
-- `/api/draft/league/8905/trades`
-- `/api/draft/league/8905/choices`
-- `/api/draft/entry/{Team_ID}/transactions`
-- `/api/entry/{Team_ID}/public`
+- `/api/league/{LEAGUE_ID}/details`
+- `/api/league/{LEAGUE_ID}/element-status`
+- `/api/draft/{LEAGUE_ID}/choices`
+- `/api/draft/league/{LEAGUE_ID}/transactions`
+- `/api/draft/league/{LEAGUE_ID}/trades`
+- `/api/entry/{TEAM_ID}/public`
 - `/api/event/{GW}/live`
-- `/api/entry/{Team_ID}/event/{GW}`
+- `/api/entry/{TEAM_ID}/event/{GW}`
 
-Derudover prøves nogle hjælpe-endpoints. Hvis et valgfrit endpoint returnerer 401, 403 eller 404, fortsætter syncen uden at fejle hele jobbet.
+Fra den almindelige FPL API:
 
-`bootstrap-static` gemmes i en kompakt udgave for at undgå unødvendig repo-vækst.
+- `/api/bootstrap-static/`
+- `/api/fixtures/?event={GW}`
 
-## Privatliv
-
-Pakken er lavet til et **offentligt GitHub-repo**, så ChatGPT kan læse data uden login. Derfor fjernes felter som managerens fornavn, efternavn og e-mail automatisk, før data skrives til disk. Fantasy-holdnavne (`entry_name`) bevares.
-
-Hvis I ikke ønsker holdnavnene offentligt, skal repoet ikke publiceres, før scriptet er tilpasset yderligere.
-
-## Opsætning
-
-1. Opret et nyt GitHub-repo, fx `fpl-draft-8905-data`.
-2. Gør repoet **Public**, hvis ChatGPT skal kunne læse JSON-filerne via web.
-3. Upload **indholdet** af denne pakke til roden af repoet. Det er vigtigt, at `.github/workflows/fpl-draft-sync.yml` ender på netop den sti.
-4. Gå til **Actions -> FPL Draft 8905 Sync -> Run workflow** og kør den manuelt første gang.
-5. Kontroller efter kørslen, at `data/summary.json` findes.
-
-Workflowet kører derefter hver 3. time ved minut 17. Det gør ikke noget, hvis data ikke har ændret sig: i så fald laves der ingen commit.
-
-## Hvis `git push` fejler
-
-Workflow-filen beder om `contents: write`. Hvis repository/organization-politikken stadig blokerer write-tokenet, så gå til:
-
-**Settings -> Actions -> General -> Workflow permissions**
-
-og tillad den nødvendige write-adgang for `GITHUB_TOKEN`.
+Valgfrie endpoints må gerne returnere 401, 403 eller 404. Syncen fortsætter, og manglen beskrives i `data/summary.json`.
 
 ## Vigtige filer
 
-- `data/summary.json` - kompakt oversigt: liganavn, antal hold, Team IDs og seneste færdige gameweek.
-- `data/current/league-details.json` - aktuelle H2H-kampe, standings og league entries.
-- `data/current/element-status.json` - spillerstatus/ejerstatus, når endpointet er tilgængeligt.
-- `data/current/transactions.json` - waivers/free agents pr. Team ID, når endpointet er tilgængeligt.
-- `data/current/latest-entry-events.json` - holddata for seneste afsluttede GW.
-- `data/current/latest-event-live.json` - spillerpoint for seneste afsluttede GW.
-- `data/history/gw-XX/` - ét fast snapshot pr. afsluttet gameweek.
+- `data/summary.json` – trigger- og statusfil, schema version 4
+- `data/current/draft-recap.json` – recap-klart billede af den første draft
+- `data/draft/initial/draft-recap.json` – frosset initial draft
+- `data/current/watched-players.json` – seneste Wirtz Watch
+- `data/history/gw-XX/watched-players.json` – Wirtz Watch for en bestemt runde
+- `data/current/transactions-enriched.json` – læsbare transaktioner
+- `data/current/league-details.json` – liga, kampe og stilling
+- `data/current/latest-entry-events.json` – seneste afsluttede GW-opstillinger
+- `data/current/latest-event-live.json` – seneste afsluttede GW-spillerpoint
+- `data/history/gw-XX/` – uforanderligt recap-input pr. afsluttet runde
 
-## Test lokalt
+Se også `SCHEMA.md`.
 
-```bash
-python tests/test_logic.py
-python scripts/fetch_fpl_draft.py --league-id 8905
+## Installation i det eksisterende repo
+
+Upload eller erstat disse filer:
+
+```text
+.github/workflows/fpl-draft-sync.yml
+scripts/fetch_fpl_draft.py
+tests/test_logic.py
+README.md
+SCHEMA.md
+AUTOMATION_PROMPT.md
 ```
 
-Det lokale miljø skal selvfølgelig kunne nå `draft.premierleague.com`.
+Slet den gamle `test_logic.py` fra repoets rod, hvis den stadig ligger der. Den korrekte testfil ligger nu i `tests/`.
 
-## Næste trin med ChatGPT
+Behold den eksisterende `data/`-mappe. Den nye kode kan fortsætte oven på den og backfiller de nye afledte filer, når det er sikkert.
 
-Når første Action-kørsel er grøn, send repo-linket til ChatGPT. Derefter kan den eksisterende liga-automation ændres til at læse `data/summary.json`, `data/current/` og `data/history/gw-XX/` fra GitHub i stedet for at kalde FPL Draft direkte.
+## Kør lokalt
+
+```bash
+python -m py_compile scripts/fetch_fpl_draft.py
+python tests/test_logic.py
+python scripts/fetch_fpl_draft.py --league-id 8905 --watch-player Wirtz
+```
+
+Der bruges kun Python-standardbiblioteket.
+
+Flere overvågede spillere kan tilføjes:
+
+```bash
+python scripts/fetch_fpl_draft.py \
+  --league-id 8905 \
+  --watch-player Wirtz \
+  --watch-player Isak
+```
+
+Hvis `--watch-player` udelades, overvåges Wirtz som standard.
+
+## Kør i GitHub
+
+Gå til:
+
+**Actions → FPL Draft 8905 Sync + Pages → Run workflow**
+
+Workflowet:
+
+1. kompilerer scriptet
+2. kører alle offline-tests
+3. henter data
+4. committer kun ændringer under `data/`
+5. publicerer JSON-filerne via GitHub Pages
+
+Det planlagte job kører hver tredje time ved minut 17.
+
+## Kontrol efter første kørsel
+
+Efter draften bør følgende være opfyldt i `data/summary.json`:
+
+```json
+{
+  "draft": {
+    "recap_ready": true,
+    "recap_fingerprint": "...",
+    "snapshot_recap_path": "data/draft/initial/draft-recap.json"
+  }
+}
+```
+
+Når en gameweek er færdig, bør følgende være udfyldt:
+
+```json
+{
+  "latest_complete_gameweek": 1,
+  "watched_players": {
+    "configured": ["Wirtz"],
+    "latest_gameweek": 1,
+    "current_path": "data/current/watched-players.json"
+  }
+}
+```
+
+## Privatliv
+
+Repoet er beregnet til at være offentligt. Managerens fornavn, efternavn og e-mail fjernes rekursivt før skrivning. Fantasy-holdnavne og korte initialer bevares, fordi de bruges i liga-recaps.
+
+## ChatGPT-automation
+
+`AUTOMATION_PROMPT.md` indeholder en samlet prompt til:
+
+- én draft recap pr. nyt `draft_fingerprint`
+- én gameweek-recap pr. ny `latest_complete_gameweek`
+- fast `🔎 Wirtz Watch`
+- waivers/free agents/trades uden gæt
