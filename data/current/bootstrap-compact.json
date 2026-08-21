@@ -33,12 +33,12 @@
       "element_type": 1,
       "first_name": "David",
       "id": 1,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Raya Martín",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 6,
       "web_name": "Raya"
     },
     {
@@ -78,12 +78,12 @@
       "element_type": 2,
       "first_name": "Gabriel",
       "id": 4,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "dos Santos Magalhães",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 5,
       "web_name": "Gabriel"
     },
     {
@@ -123,12 +123,12 @@
       "element_type": 3,
       "first_name": "Myles",
       "id": 7,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Lewis-Skelly",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 3,
       "web_name": "Lewis-Skelly"
     },
     {
@@ -138,12 +138,12 @@
       "element_type": 2,
       "first_name": "Riccardo",
       "id": 8,
-      "minutes": 31,
+      "minutes": 80,
       "news": "",
       "second_name": "Calafiori",
       "status": "a",
       "team": 1,
-      "total_points": 4,
+      "total_points": 9,
       "web_name": "Calafiori"
     },
     {
@@ -153,12 +153,12 @@
       "element_type": 2,
       "first_name": "Piero",
       "id": 9,
-      "minutes": 0,
+      "minutes": 9,
       "news": "",
       "second_name": "Hincapié",
       "status": "a",
       "team": 1,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Hincapie"
     },
     {
@@ -168,12 +168,12 @@
       "element_type": 2,
       "first_name": "Benjamin",
       "id": 10,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "White",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 11,
       "web_name": "White"
     },
     {
@@ -183,12 +183,12 @@
       "element_type": 2,
       "first_name": "Cristhian",
       "id": 11,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Mosquera",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 6,
       "web_name": "Mosquera"
     },
     {
@@ -198,12 +198,12 @@
       "element_type": 3,
       "first_name": "Bukayo",
       "id": 12,
-      "minutes": 31,
+      "minutes": 67,
       "news": "",
       "second_name": "Saka",
       "status": "a",
       "team": 1,
-      "total_points": 8,
+      "total_points": 9,
       "web_name": "Saka"
     },
     {
@@ -213,12 +213,12 @@
       "element_type": 3,
       "first_name": "Declan",
       "id": 13,
-      "minutes": 31,
+      "minutes": 67,
       "news": "",
       "second_name": "Rice",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 3,
       "web_name": "Rice"
     },
     {
@@ -228,12 +228,12 @@
       "element_type": 3,
       "first_name": "Eberechi",
       "id": 14,
-      "minutes": 0,
+      "minutes": 14,
       "news": "",
       "second_name": "Eze",
       "status": "a",
       "team": 1,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Eze"
     },
     {
@@ -243,12 +243,12 @@
       "element_type": 3,
       "first_name": "Martin",
       "id": 15,
-      "minutes": 31,
+      "minutes": 75,
       "news": "",
       "second_name": "Ødegaard",
       "status": "a",
       "team": 1,
-      "total_points": 1,
+      "total_points": 11,
       "web_name": "Ødegaard"
     },
     {
@@ -258,12 +258,12 @@
       "element_type": 3,
       "first_name": "Noni",
       "id": 16,
-      "minutes": 0,
+      "minutes": 22,
       "news": "",
       "second_name": "Madueke",
       "status": "a",
       "team": 1,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Madueke"
     },
     {
@@ -273,12 +273,12 @@
       "element_type": 3,
       "first_name": "Mikel",
       "id": 17,
-      "minutes": 0,
+      "minutes": 14,
       "news": "",
       "second_name": "Merino Zazón",
       "status": "a",
       "team": 1,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Merino"
     },
     {
@@ -303,12 +303,12 @@
       "element_type": 3,
       "first_name": "Martín",
       "id": 19,
-      "minutes": 0,
+      "minutes": 22,
       "news": "",
       "second_name": "Zubimendi Ibáñez",
       "status": "a",
       "team": 1,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Zubimendi"
     },
     {
@@ -408,12 +408,12 @@
       "element_type": 4,
       "first_name": "Kai",
       "id": 26,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Havertz",
       "status": "a",
       "team": 1,
-      "total_points": 8,
+      "total_points": 6,
       "web_name": "Havertz"
     },
     {
@@ -1578,12 +1578,12 @@
       "element_type": 3,
       "first_name": "Frank",
       "id": 104,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Onyeka",
       "status": "a",
       "team": 7,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Onyeka"
     },
     {
@@ -1668,12 +1668,12 @@
       "element_type": 1,
       "first_name": "Carl",
       "id": 110,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Rushworth",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Rushworth"
     },
     {
@@ -1984,7 +1984,7 @@
       "first_name": "Carlos",
       "id": 131,
       "minutes": 0,
-      "news": "Ankle injury - Expected back 23 Aug",
+      "news": "Ankle injury - Unknown return date",
       "second_name": "Baleba",
       "status": "i",
       "team": 5,
@@ -2613,12 +2613,12 @@
       "element_type": 2,
       "first_name": "Bobby",
       "id": 173,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Thomas",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Thomas"
     },
     {
@@ -2643,12 +2643,12 @@
       "element_type": 2,
       "first_name": "Milan",
       "id": 175,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "van Ewijk",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "van Ewijk"
     },
     {
@@ -2658,12 +2658,12 @@
       "element_type": 2,
       "first_name": "Jay",
       "id": 176,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Dasilva",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Dasilva"
     },
     {
@@ -2748,12 +2748,12 @@
       "element_type": 2,
       "first_name": "Aurèle",
       "id": 182,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Amenda",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Amenda"
     },
     {
@@ -2763,12 +2763,12 @@
       "element_type": 3,
       "first_name": "Jack",
       "id": 183,
-      "minutes": 0,
+      "minutes": 20,
       "news": "",
       "second_name": "Rudoni",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Rudoni"
     },
     {
@@ -2778,12 +2778,12 @@
       "element_type": 3,
       "first_name": "Matt",
       "id": 184,
-      "minutes": 31,
+      "minutes": 90,
       "news": "",
       "second_name": "Grimes",
       "status": "a",
       "team": 7,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Grimes"
     },
     {
@@ -2838,12 +2838,12 @@
       "element_type": 3,
       "first_name": "Victor",
       "id": 188,
-      "minutes": 0,
+      "minutes": 28,
       "news": "",
       "second_name": "Torp",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Torp"
     },
     {
@@ -2868,12 +2868,12 @@
       "element_type": 3,
       "first_name": "Loum",
       "id": 190,
-      "minutes": 31,
+      "minutes": 81,
       "news": "",
       "second_name": "Tchaouna",
       "status": "a",
       "team": 7,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Tchaouna"
     },
     {
@@ -2928,12 +2928,12 @@
       "element_type": 4,
       "first_name": "Brandon",
       "id": 194,
-      "minutes": 31,
+      "minutes": 69,
       "news": "",
       "second_name": "Thomas-Asante",
       "status": "a",
       "team": 7,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Thomas-Asante"
     },
     {
@@ -2943,12 +2943,12 @@
       "element_type": 4,
       "first_name": "Ellis",
       "id": 195,
-      "minutes": 31,
+      "minutes": 69,
       "news": "",
       "second_name": "Simms",
       "status": "a",
       "team": 7,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Simms"
     },
     {
@@ -7398,12 +7398,12 @@
       "element_type": 4,
       "first_name": "Taiwo",
       "id": 492,
-      "minutes": 0,
+      "minutes": 20,
       "news": "",
       "second_name": "Awoniyi",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Awoniyi"
     },
     {
@@ -8328,12 +8328,12 @@
       "element_type": 3,
       "first_name": "Christos",
       "id": 554,
-      "minutes": 31,
+      "minutes": 75,
       "news": "",
       "second_name": "Tzolis",
       "status": "a",
       "team": 1,
-      "total_points": 5,
+      "total_points": 6,
       "web_name": "Tzolis"
     },
     {
@@ -8628,12 +8628,12 @@
       "element_type": 3,
       "first_name": "Caleb",
       "id": 574,
-      "minutes": 31,
+      "minutes": 61,
       "news": "",
       "second_name": "Yirenkyi",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Yirenkyi"
     },
     {
@@ -8778,12 +8778,12 @@
       "element_type": 3,
       "first_name": "Gustavo",
       "id": 584,
-      "minutes": 0,
+      "minutes": 8,
       "news": "",
       "second_name": "Hamer",
       "status": "a",
       "team": 7,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Hamer"
     },
     {

@@ -1,14 +1,14 @@
 {
   "137879": {
     "entry": {
-      "event_points": 0,
+      "event_points": 6,
       "favourite_team": 14,
       "id": 137879,
       "league_set": [
         8905
       ],
       "name": "AGF 2. hold",
-      "overall_points": 0,
+      "overall_points": 6,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -37,14 +37,14 @@
   },
   "138032": {
     "entry": {
-      "event_points": 0,
+      "event_points": 12,
       "favourite_team": 11,
       "id": 138032,
       "league_set": [
         8905
       ],
       "name": "Hyggemix",
-      "overall_points": 0,
+      "overall_points": 12,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -55,14 +55,14 @@
   },
   "138139": {
     "entry": {
-      "event_points": 0,
+      "event_points": 26,
       "favourite_team": null,
       "id": 138139,
       "league_set": [
         8905
       ],
       "name": "Jyllands Rubin",
-      "overall_points": 0,
+      "overall_points": 26,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -73,14 +73,14 @@
   },
   "250589": {
     "entry": {
-      "event_points": 0,
+      "event_points": 12,
       "favourite_team": null,
       "id": 250589,
       "league_set": [
         8905
       ],
       "name": "Senile Supersubs",
-      "overall_points": 0,
+      "overall_points": 12,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -91,14 +91,14 @@
   },
   "318564": {
     "entry": {
-      "event_points": 0,
+      "event_points": 5,
       "favourite_team": null,
       "id": 318564,
       "league_set": [
         8905
       ],
       "name": "La Liga es la mejor",
-      "overall_points": 0,
+      "overall_points": 5,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
