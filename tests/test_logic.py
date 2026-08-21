@@ -303,6 +303,58 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(recap["watched_players"][0]["entry_name"], "AGFs Førstehold")
         self.assertIsNone(recap["watched_players"][0]["overall_pick"])
 
+    def test_live_choices_shape_uses_index_and_ignores_vacant_entry_shell(self) -> None:
+        details = base_details()
+        details["league_entries"].append(
+            {
+                "id": 420622,
+                "entry_id": None,
+                "entry_name": None,
+                "short_name": "AV",
+            }
+        )
+        bootstrap = base_bootstrap(30)
+        choices = {"choices": []}
+        statuses = []
+        for overall_pick in range(1, 31):
+            round_number = (overall_pick - 1) // 2 + 1
+            pick_in_round = (overall_pick - 1) % 2 + 1
+            if round_number % 2 == 1:
+                owner = 42888 if pick_in_round == 1 else 138032
+            else:
+                owner = 138032 if pick_in_round == 1 else 42888
+            choices["choices"].append(
+                {
+                    "index": overall_pick,
+                    "pick": pick_in_round,
+                    "round": round_number,
+                    "element": overall_pick,
+                    "entry": owner,
+                }
+            )
+            league_entry_owner = 42948 if owner == 42888 else 138641
+            statuses.append({"element": overall_pick, "owner": league_entry_owner})
+
+        recap = MODULE.build_draft_recap(
+            league_id=8905,
+            details=details,
+            bootstrap=bootstrap,
+            element_status={"element_status": statuses},
+            choices=choices,
+            transactions={"transactions": []},
+            watch_names=("Wirtz",),
+        )
+
+        self.assertTrue(recap["recap_ready"])
+        self.assertEqual(recap["data_quality"]["expected_picks"], 30)
+        self.assertEqual(recap["data_quality"]["resolved_picks"], 30)
+        self.assertTrue(recap["data_quality"]["pick_order_available"])
+        self.assertEqual(recap["data_quality"]["pick_order_source"], "explicit_choice_field")
+        self.assertEqual(recap["picks"][2]["overall_pick"], 3)
+        self.assertEqual(recap["picks"][2]["pick_in_round"], 1)
+        self.assertEqual(len(recap["teams"]), 2)
+        self.assertNotIn(420622, {team["league_entry_id"] for team in recap["teams"]})
+
     def test_transactions_are_typed_only_from_explicit_kind(self) -> None:
         transactions = {
             "transactions": [
