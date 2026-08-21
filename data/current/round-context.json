@@ -21,42 +21,62 @@
         "gameweek": 1,
         "name": "Gameweek 1"
       },
-      "draft_h2h_matches": [],
+      "draft_h2h_matches": [
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 252790,
+          "league_entry_1_points": 0,
+          "league_entry_2": 42948,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 321694,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138748,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 420622,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138641,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 138487,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138520,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        }
+      ],
       "event": {
-        "average_entry_score": 0,
-        "can_enter": true,
-        "can_manage": true,
-        "chip_plays": [],
-        "cup_leagues_created": false,
         "data_checked": false,
         "deadline_time": "2026-08-21T17:30:00Z",
         "deadline_time_epoch": 1787333400,
-        "deadline_time_game_offset": 0,
         "finished": false,
-        "h2h_ko_matches_created": false,
-        "highest_score": null,
-        "highest_scoring_entry": null,
         "id": 1,
         "is_current": false,
         "is_next": true,
         "is_previous": false,
-        "most_captained": null,
-        "most_selected": null,
-        "most_transferred_in": null,
-        "most_vice_captained": null,
-        "name": "Gameweek 1",
-        "overrides": {
-          "element_types": [],
-          "pick_multiplier": null,
-          "rules": {},
-          "scoring": {}
-        },
-        "ranked_count": 0,
-        "release_time": null,
-        "released": true,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0
+        "name": "Gameweek 1"
       },
       "gameweek": 1,
       "premier_league_fixtures": [
@@ -260,42 +280,62 @@
         "gameweek": 1,
         "name": "Gameweek 1"
       },
-      "draft_h2h_matches": [],
+      "draft_h2h_matches": [
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 252790,
+          "league_entry_1_points": 0,
+          "league_entry_2": 42948,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 321694,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138748,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 420622,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138641,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 1,
+          "finished": false,
+          "league_entry_1": 138487,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138520,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        }
+      ],
       "event": {
-        "average_entry_score": 0,
-        "can_enter": true,
-        "can_manage": true,
-        "chip_plays": [],
-        "cup_leagues_created": false,
         "data_checked": false,
         "deadline_time": "2026-08-21T17:30:00Z",
         "deadline_time_epoch": 1787333400,
-        "deadline_time_game_offset": 0,
         "finished": false,
-        "h2h_ko_matches_created": false,
-        "highest_score": null,
-        "highest_scoring_entry": null,
         "id": 1,
         "is_current": false,
         "is_next": true,
         "is_previous": false,
-        "most_captained": null,
-        "most_selected": null,
-        "most_transferred_in": null,
-        "most_vice_captained": null,
-        "name": "Gameweek 1",
-        "overrides": {
-          "element_types": [],
-          "pick_multiplier": null,
-          "rules": {},
-          "scoring": {}
-        },
-        "ranked_count": 0,
-        "release_time": null,
-        "released": true,
-        "top_element": null,
-        "top_element_info": null,
-        "transfers_made": 0
+        "name": "Gameweek 1"
       },
       "gameweek": 1,
       "premier_league_fixtures": [
