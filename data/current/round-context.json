@@ -1,20 +1,19 @@
 {
   "gameweeks": {
-    "current": null,
+    "current": 1,
     "latest_complete": null,
-    "next": 1,
+    "next": 2,
     "previous": null,
-    "upcoming": 1
+    "upcoming": 2
   },
   "next_deadline": {
-    "deadline_time_copenhagen": "2026-08-21T19:30:00+02:00",
-    "deadline_time_utc": "2026-08-21T17:30:00Z",
-    "gameweek": 1,
-    "name": "Gameweek 1"
+    "deadline_time_copenhagen": "2026-08-28T19:30:00+02:00",
+    "deadline_time_utc": "2026-08-28T17:30:00Z",
+    "gameweek": 2,
+    "name": "Gameweek 2"
   },
   "rounds": {
-    "current": null,
-    "next": {
+    "current": {
       "deadline": {
         "deadline_time_copenhagen": "2026-08-21T19:30:00+02:00",
         "deadline_time_utc": "2026-08-21T17:30:00Z",
@@ -29,7 +28,7 @@
           "league_entry_1_points": 0,
           "league_entry_2": 42948,
           "league_entry_2_points": 0,
-          "started": false,
+          "started": true,
           "winning_league_entry": null,
           "winning_method": null
         },
@@ -40,7 +39,7 @@
           "league_entry_1_points": 0,
           "league_entry_2": 138748,
           "league_entry_2_points": 0,
-          "started": false,
+          "started": true,
           "winning_league_entry": null,
           "winning_method": null
         },
@@ -51,7 +50,7 @@
           "league_entry_1_points": 0,
           "league_entry_2": 138641,
           "league_entry_2_points": 0,
-          "started": false,
+          "started": true,
           "winning_league_entry": null,
           "winning_method": null
         },
@@ -62,7 +61,7 @@
           "league_entry_1_points": 0,
           "league_entry_2": 138520,
           "league_entry_2_points": 0,
-          "started": false,
+          "started": true,
           "winning_league_entry": null,
           "winning_method": null
         }
@@ -73,8 +72,8 @@
         "deadline_time_epoch": 1787333400,
         "finished": false,
         "id": 1,
-        "is_current": false,
-        "is_next": true,
+        "is_current": true,
+        "is_next": false,
         "is_previous": false,
         "name": "Gameweek 1"
       },
@@ -87,17 +86,261 @@
           "finished_provisional": false,
           "id": 1,
           "kickoff_time": "2026-08-21T19:00:00Z",
-          "minutes": 0,
+          "minutes": 31,
           "provisional_start_time": false,
           "pulse_id": 0,
-          "started": false,
-          "stats": [],
+          "started": true,
+          "stats": [
+            {
+              "a": [],
+              "h": [
+                {
+                  "element": 12,
+                  "value": 1
+                },
+                {
+                  "element": 26,
+                  "value": 1
+                }
+              ],
+              "identifier": "goals_scored"
+            },
+            {
+              "a": [],
+              "h": [
+                {
+                  "element": 8,
+                  "value": 1
+                },
+                {
+                  "element": 557,
+                  "value": 1
+                }
+              ],
+              "identifier": "assists"
+            },
+            {
+              "a": [],
+              "h": [],
+              "identifier": "own_goals"
+            },
+            {
+              "a": [],
+              "h": [],
+              "identifier": "penalties_saved"
+            },
+            {
+              "a": [],
+              "h": [],
+              "identifier": "penalties_missed"
+            },
+            {
+              "a": [
+                {
+                  "element": 575,
+                  "value": 1
+                }
+              ],
+              "h": [],
+              "identifier": "yellow_cards"
+            },
+            {
+              "a": [],
+              "h": [],
+              "identifier": "red_cards"
+            },
+            {
+              "a": [],
+              "h": [],
+              "identifier": "saves"
+            },
+            {
+              "a": [],
+              "h": [
+                {
+                  "element": 26,
+                  "value": 3
+                },
+                {
+                  "element": 12,
+                  "value": 2
+                },
+                {
+                  "element": 557,
+                  "value": 1
+                }
+              ],
+              "identifier": "bonus"
+            },
+            {
+              "a": [
+                {
+                  "element": 173,
+                  "value": 5
+                },
+                {
+                  "element": 184,
+                  "value": 4
+                },
+                {
+                  "element": 190,
+                  "value": 4
+                },
+                {
+                  "element": 194,
+                  "value": 4
+                },
+                {
+                  "element": 104,
+                  "value": 3
+                },
+                {
+                  "element": 195,
+                  "value": 2
+                },
+                {
+                  "element": 575,
+                  "value": -2
+                },
+                {
+                  "element": 110,
+                  "value": -5
+                },
+                {
+                  "element": 176,
+                  "value": -5
+                },
+                {
+                  "element": 182,
+                  "value": -5
+                },
+                {
+                  "element": 175,
+                  "value": -8
+                }
+              ],
+              "h": [
+                {
+                  "element": 26,
+                  "value": 29
+                },
+                {
+                  "element": 12,
+                  "value": 24
+                },
+                {
+                  "element": 557,
+                  "value": 19
+                },
+                {
+                  "element": 8,
+                  "value": 16
+                },
+                {
+                  "element": 13,
+                  "value": 7
+                },
+                {
+                  "element": 7,
+                  "value": 6
+                },
+                {
+                  "element": 4,
+                  "value": 5
+                },
+                {
+                  "element": 11,
+                  "value": 4
+                },
+                {
+                  "element": 15,
+                  "value": 4
+                },
+                {
+                  "element": 1,
+                  "value": 3
+                },
+                {
+                  "element": 10,
+                  "value": 2
+                }
+              ],
+              "identifier": "bps"
+            },
+            {
+              "a": [
+                {
+                  "element": 173,
+                  "value": 4
+                },
+                {
+                  "element": 104,
+                  "value": 2
+                },
+                {
+                  "element": 194,
+                  "value": 2
+                },
+                {
+                  "element": 575,
+                  "value": 2
+                },
+                {
+                  "element": 175,
+                  "value": 1
+                },
+                {
+                  "element": 182,
+                  "value": 1
+                },
+                {
+                  "element": 184,
+                  "value": 1
+                }
+              ],
+              "h": [
+                {
+                  "element": 7,
+                  "value": 5
+                },
+                {
+                  "element": 8,
+                  "value": 4
+                },
+                {
+                  "element": 557,
+                  "value": 3
+                },
+                {
+                  "element": 10,
+                  "value": 2
+                },
+                {
+                  "element": 12,
+                  "value": 2
+                },
+                {
+                  "element": 13,
+                  "value": 2
+                },
+                {
+                  "element": 15,
+                  "value": 2
+                },
+                {
+                  "element": 11,
+                  "value": 1
+                }
+              ],
+              "identifier": "defensive_contribution"
+            }
+          ],
           "team_a": 7,
           "team_a_difficulty": 5,
-          "team_a_score": null,
+          "team_a_score": 0,
           "team_h": 1,
           "team_h_difficulty": 2,
-          "team_h_score": null
+          "team_h_score": 2
         },
         {
           "code": 2645198,
@@ -272,54 +515,53 @@
         }
       ]
     },
-    "previous": null,
-    "upcoming": {
+    "next": {
       "deadline": {
-        "deadline_time_copenhagen": "2026-08-21T19:30:00+02:00",
-        "deadline_time_utc": "2026-08-21T17:30:00Z",
-        "gameweek": 1,
-        "name": "Gameweek 1"
+        "deadline_time_copenhagen": "2026-08-28T19:30:00+02:00",
+        "deadline_time_utc": "2026-08-28T17:30:00Z",
+        "gameweek": 2,
+        "name": "Gameweek 2"
       },
       "draft_h2h_matches": [
         {
-          "event": 1,
+          "event": 2,
           "finished": false,
-          "league_entry_1": 252790,
+          "league_entry_1": 42948,
           "league_entry_1_points": 0,
-          "league_entry_2": 42948,
+          "league_entry_2": 138487,
           "league_entry_2_points": 0,
           "started": false,
           "winning_league_entry": null,
           "winning_method": null
         },
         {
-          "event": 1,
+          "event": 2,
           "finished": false,
-          "league_entry_1": 321694,
+          "league_entry_1": 138520,
           "league_entry_1_points": 0,
-          "league_entry_2": 138748,
+          "league_entry_2": 420622,
           "league_entry_2_points": 0,
           "started": false,
           "winning_league_entry": null,
           "winning_method": null
         },
         {
-          "event": 1,
+          "event": 2,
           "finished": false,
-          "league_entry_1": 420622,
+          "league_entry_1": 138641,
           "league_entry_1_points": 0,
-          "league_entry_2": 138641,
+          "league_entry_2": 321694,
           "league_entry_2_points": 0,
           "started": false,
           "winning_league_entry": null,
           "winning_method": null
         },
         {
-          "event": 1,
+          "event": 2,
           "finished": false,
-          "league_entry_1": 138487,
+          "league_entry_1": 138748,
           "league_entry_1_points": 0,
-          "league_entry_2": 138520,
+          "league_entry_2": 252790,
           "league_entry_2_points": 0,
           "started": false,
           "winning_league_entry": null,
@@ -328,204 +570,463 @@
       ],
       "event": {
         "data_checked": false,
-        "deadline_time": "2026-08-21T17:30:00Z",
-        "deadline_time_epoch": 1787333400,
+        "deadline_time": "2026-08-28T17:30:00Z",
+        "deadline_time_epoch": 1787938200,
         "finished": false,
-        "id": 1,
+        "id": 2,
         "is_current": false,
         "is_next": true,
         "is_previous": false,
-        "name": "Gameweek 1"
+        "name": "Gameweek 2"
       },
-      "gameweek": 1,
+      "gameweek": 2,
       "premier_league_fixtures": [
         {
-          "code": 2645195,
-          "event": 1,
+          "code": 2645209,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 1,
-          "kickoff_time": "2026-08-21T19:00:00Z",
+          "id": 11,
+          "kickoff_time": "2026-08-28T19:00:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 7,
-          "team_a_difficulty": 5,
+          "team_a": 15,
+          "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 1,
-          "team_h_difficulty": 2,
-          "team_h_score": null
-        },
-        {
-          "code": 2645198,
-          "event": 1,
-          "finished": false,
-          "finished_provisional": false,
-          "id": 4,
-          "kickoff_time": "2026-08-22T11:30:00Z",
-          "minutes": 0,
-          "provisional_start_time": false,
-          "pulse_id": 0,
-          "started": false,
-          "stats": [],
-          "team_a": 16,
-          "team_a_difficulty": 2,
-          "team_a_score": null,
-          "team_h": 11,
+          "team_h": 8,
           "team_h_difficulty": 4,
           "team_h_score": null
         },
         {
-          "code": 2645197,
-          "event": 1,
+          "code": 2645211,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 3,
-          "kickoff_time": "2026-08-22T14:00:00Z",
+          "id": 14,
+          "kickoff_time": "2026-08-29T11:30:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 8,
-          "team_a_difficulty": 3,
+          "team_a": 18,
+          "team_a_difficulty": 4,
           "team_a_score": null,
-          "team_h": 9,
+          "team_h": 14,
           "team_h_difficulty": 3,
           "team_h_score": null
         },
         {
-          "code": 2645199,
-          "event": 1,
+          "code": 2645205,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 5,
-          "kickoff_time": "2026-08-22T14:00:00Z",
+          "id": 12,
+          "kickoff_time": "2026-08-29T14:00:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 20,
+          "team_a": 9,
+          "team_a_difficulty": 3,
+          "team_a_score": null,
+          "team_h": 3,
+          "team_h_difficulty": 3,
+          "team_h_score": null
+        },
+        {
+          "code": 2645208,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 13,
+          "kickoff_time": "2026-08-29T14:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 11,
           "team_a_difficulty": 2,
           "team_a_score": null,
-          "team_h": 12,
+          "team_h": 7,
           "team_h_difficulty": 2,
           "team_h_score": null
         },
         {
-          "code": 2645200,
-          "event": 1,
+          "code": 2645214,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 6,
-          "kickoff_time": "2026-08-22T14:00:00Z",
+          "id": 15,
+          "kickoff_time": "2026-08-29T16:30:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 13,
+          "team_a": 17,
           "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 18,
+          "team_h": 19,
           "team_h_difficulty": 2,
           "team_h_score": null
         },
         {
-          "code": 2645196,
-          "event": 1,
+          "code": 2645207,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 2,
-          "kickoff_time": "2026-08-22T16:30:00Z",
+          "id": 16,
+          "kickoff_time": "2026-08-30T13:00:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 19,
+          "team_a": 5,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 6,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645210,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 17,
+          "kickoff_time": "2026-08-30T13:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 4,
           "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 4,
+          "team_h": 13,
           "team_h_difficulty": 3,
           "team_h_score": null
         },
         {
-          "code": 2645201,
-          "event": 1,
+          "code": 2645213,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 7,
-          "kickoff_time": "2026-08-23T13:00:00Z",
+          "id": 19,
+          "kickoff_time": "2026-08-30T13:00:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 2,
+          "team_a": 10,
           "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 5,
-          "team_h_difficulty": 3,
+          "team_h": 20,
+          "team_h_difficulty": 2,
           "team_h_score": null
         },
         {
-          "code": 2645202,
-          "event": 1,
+          "code": 2645212,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 8,
-          "kickoff_time": "2026-08-23T13:00:00Z",
+          "id": 18,
+          "kickoff_time": "2026-08-30T15:30:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 3,
-          "team_a_difficulty": 5,
+          "team_a": 12,
+          "team_a_difficulty": 4,
           "team_a_score": null,
-          "team_h": 15,
-          "team_h_difficulty": 3,
+          "team_h": 16,
+          "team_h_difficulty": 2,
           "team_h_score": null
         },
         {
-          "code": 2645203,
-          "event": 1,
+          "code": 2645206,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 9,
-          "kickoff_time": "2026-08-23T15:30:00Z",
+          "id": 20,
+          "kickoff_time": "2026-08-31T19:00:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 14,
+          "team_a": 1,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 2,
+          "team_h_difficulty": 4,
+          "team_h_score": null
+        }
+      ]
+    },
+    "previous": null,
+    "upcoming": {
+      "deadline": {
+        "deadline_time_copenhagen": "2026-08-28T19:30:00+02:00",
+        "deadline_time_utc": "2026-08-28T17:30:00Z",
+        "gameweek": 2,
+        "name": "Gameweek 2"
+      },
+      "draft_h2h_matches": [
+        {
+          "event": 2,
+          "finished": false,
+          "league_entry_1": 42948,
+          "league_entry_1_points": 0,
+          "league_entry_2": 138487,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 2,
+          "finished": false,
+          "league_entry_1": 138520,
+          "league_entry_1_points": 0,
+          "league_entry_2": 420622,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 2,
+          "finished": false,
+          "league_entry_1": 138641,
+          "league_entry_1_points": 0,
+          "league_entry_2": 321694,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        },
+        {
+          "event": 2,
+          "finished": false,
+          "league_entry_1": 138748,
+          "league_entry_1_points": 0,
+          "league_entry_2": 252790,
+          "league_entry_2_points": 0,
+          "started": false,
+          "winning_league_entry": null,
+          "winning_method": null
+        }
+      ],
+      "event": {
+        "data_checked": false,
+        "deadline_time": "2026-08-28T17:30:00Z",
+        "deadline_time_epoch": 1787938200,
+        "finished": false,
+        "id": 2,
+        "is_current": false,
+        "is_next": true,
+        "is_previous": false,
+        "name": "Gameweek 2"
+      },
+      "gameweek": 2,
+      "premier_league_fixtures": [
+        {
+          "code": 2645209,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 11,
+          "kickoff_time": "2026-08-28T19:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 15,
           "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 17,
+          "team_h": 8,
           "team_h_difficulty": 4,
           "team_h_score": null
         },
         {
-          "code": 2645204,
-          "event": 1,
+          "code": 2645211,
+          "event": 2,
           "finished": false,
           "finished_provisional": false,
-          "id": 10,
-          "kickoff_time": "2026-08-24T19:00:00Z",
+          "id": 14,
+          "kickoff_time": "2026-08-29T11:30:00Z",
           "minutes": 0,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": false,
           "stats": [],
-          "team_a": 6,
+          "team_a": 18,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 14,
+          "team_h_difficulty": 3,
+          "team_h_score": null
+        },
+        {
+          "code": 2645205,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 12,
+          "kickoff_time": "2026-08-29T14:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 9,
           "team_a_difficulty": 3,
           "team_a_score": null,
-          "team_h": 10,
+          "team_h": 3,
+          "team_h_difficulty": 3,
+          "team_h_score": null
+        },
+        {
+          "code": 2645208,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 13,
+          "kickoff_time": "2026-08-29T14:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 11,
+          "team_a_difficulty": 2,
+          "team_a_score": null,
+          "team_h": 7,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645214,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 15,
+          "kickoff_time": "2026-08-29T16:30:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 17,
+          "team_a_difficulty": 3,
+          "team_a_score": null,
+          "team_h": 19,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645207,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 16,
+          "kickoff_time": "2026-08-30T13:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 5,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 6,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645210,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 17,
+          "kickoff_time": "2026-08-30T13:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 4,
+          "team_a_difficulty": 3,
+          "team_a_score": null,
+          "team_h": 13,
+          "team_h_difficulty": 3,
+          "team_h_score": null
+        },
+        {
+          "code": 2645213,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 19,
+          "kickoff_time": "2026-08-30T13:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 10,
+          "team_a_difficulty": 3,
+          "team_a_score": null,
+          "team_h": 20,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645212,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 18,
+          "kickoff_time": "2026-08-30T15:30:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 12,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 16,
+          "team_h_difficulty": 2,
+          "team_h_score": null
+        },
+        {
+          "code": 2645206,
+          "event": 2,
+          "finished": false,
+          "finished_provisional": false,
+          "id": 20,
+          "kickoff_time": "2026-08-31T19:00:00Z",
+          "minutes": 0,
+          "provisional_start_time": false,
+          "pulse_id": 0,
+          "started": false,
+          "stats": [],
+          "team_a": 1,
+          "team_a_difficulty": 4,
+          "team_a_score": null,
+          "team_h": 2,
           "team_h_difficulty": 4,
           "team_h_score": null
         }

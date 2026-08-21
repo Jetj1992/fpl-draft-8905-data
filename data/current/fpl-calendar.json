@@ -6,8 +6,8 @@
       "deadline_time_epoch": 1787333400,
       "finished": false,
       "id": 1,
-      "is_current": false,
-      "is_next": true,
+      "is_current": true,
+      "is_next": false,
       "is_previous": false,
       "name": "Gameweek 1"
     },
@@ -18,7 +18,7 @@
       "finished": false,
       "id": 2,
       "is_current": false,
-      "is_next": false,
+      "is_next": true,
       "is_previous": false,
       "name": "Gameweek 2"
     },
