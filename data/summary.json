@@ -4,11 +4,11 @@
     "completed_at": "2026-08-21T10:53:57.421344Z",
     "current_recap_path": "data/current/draft-recap.json",
     "draft_id": 9516,
-    "pick_order_available": false,
-    "recap_fingerprint": null,
-    "recap_ready": false,
+    "pick_order_available": true,
+    "recap_fingerprint": "3738a1e63be6a5175a7a227267f371419d7117f30a0b0c782bec0ad57c65e4d3",
+    "recap_ready": true,
     "resolved_picks": 105,
-    "snapshot_recap_path": null,
+    "snapshot_recap_path": "data/draft/initial/draft-recap.json",
     "status": "post"
   },
   "endpoint_status": {
@@ -164,16 +164,9 @@
       "id": 321694,
       "short_name": "AK",
       "waiver_pick": 3
-    },
-    {
-      "entry_id": null,
-      "entry_name": null,
-      "id": 420622,
-      "short_name": "AV",
-      "waiver_pick": null
     }
   ],
-  "generated_at": "2026-08-21T12:02:17.361232Z",
+  "generated_at": "2026-08-21T12:13:12.288805Z",
   "latest_complete_gameweek": null,
   "league_id": 8905,
   "league_name": "OK Data Liga",
@@ -184,7 +177,7 @@
     "name": "Gameweek 1"
   },
   "next_gameweek": 1,
-  "number_of_entries": 8,
+  "number_of_entries": 7,
   "previous_gameweek": null,
   "schema_version": 4,
   "upcoming_gameweek": 1,
