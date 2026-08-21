@@ -444,20 +444,34 @@ def build_round_context(
     }
 
 
+def active_league_entries(details: dict[str, Any]) -> list[dict[str, Any]]:
+    """Return only active fantasy teams with both public identifiers.
+
+    The Draft API can retain a vacant/removed league-entry shell whose
+    ``entry_id`` is null. It must not count as a squad when validating the
+    draft or calculating the expected number of picks.
+    """
+    output: list[dict[str, Any]] = []
+    for item in details.get("league_entries") or []:
+        if not isinstance(item, dict):
+            continue
+        if as_int(item.get("id")) is None or as_int(item.get("entry_id")) is None:
+            continue
+        output.append(item)
+    return output
+
+
 def entry_indexes(
     details: dict[str, Any],
 ) -> tuple[dict[int, dict[str, Any]], dict[int, dict[str, Any]]]:
     by_league_entry: dict[int, dict[str, Any]] = {}
     by_entry: dict[int, dict[str, Any]] = {}
-    for item in details.get("league_entries") or []:
-        if not isinstance(item, dict):
-            continue
+    for item in active_league_entries(details):
         league_entry_id = as_int(item.get("id"))
         entry_id = as_int(item.get("entry_id"))
-        if league_entry_id is not None:
-            by_league_entry[league_entry_id] = item
-        if entry_id is not None:
-            by_entry[entry_id] = item
+        assert league_entry_id is not None and entry_id is not None
+        by_league_entry[league_entry_id] = item
+        by_entry[entry_id] = item
     return by_league_entry, by_entry
 
 
@@ -968,13 +982,16 @@ def normalize_choice_records(
             unresolved.append(source_index)
             continue
 
+        # The live public choices endpoint uses ``index`` for the global
+        # overall selection number and ``pick`` for the slot inside the round.
+        # Treating ``pick`` as the overall number creates duplicates from round 2.
         explicit_pick = first_int(
             raw,
             (
                 "overall_pick",
                 "overallPick",
+                "index",
                 "choice",
-                "pick",
                 "rank",
                 "draft_pick",
                 "draftPick",
@@ -985,7 +1002,8 @@ def normalize_choice_records(
         overall_pick = explicit_pick or source_index
         round_number = first_int(raw, ("round", "round_number", "roundNumber"))
         pick_in_round = first_int(
-            raw, ("pick_in_round", "pickInRound", "round_pick", "roundPick")
+            raw,
+            ("pick_in_round", "pickInRound", "round_pick", "roundPick", "pick"),
         )
         if number_of_entries:
             round_number = round_number or ((overall_pick - 1) // number_of_entries + 1)
@@ -1162,9 +1180,7 @@ def group_draft_teams(
         if as_int(item.get("league_entry_id")) is not None
     }
     teams_output: list[dict[str, Any]] = []
-    for entry in details.get("league_entries") or []:
-        if not isinstance(entry, dict):
-            continue
+    for entry in active_league_entries(details):
         league_entry_id = as_int(entry.get("id"))
         if league_entry_id is None:
             continue
@@ -1289,9 +1305,7 @@ def build_draft_recap(
     transactions: Any,
     watch_names: Iterable[str],
 ) -> dict[str, Any]:
-    entries = [
-        item for item in details.get("league_entries") or [] if isinstance(item, dict)
-    ]
+    entries = active_league_entries(details)
     expected_picks = len(entries) * EXPECTED_SQUAD_SIZE
     choices_picks, choices_quality = normalize_choice_records(
         choices, details, bootstrap
@@ -1544,9 +1558,7 @@ def main() -> int:
         if payload is not None:
             write_json(current_dir / f"{key.replace('_', '-')}.json", payload)
 
-    entries = [
-        item for item in details.get("league_entries") or [] if isinstance(item, dict)
-    ]
+    entries = active_league_entries(details)
     entry_public: dict[str, Any] = {}
     for entry in entries:
         entry_id = as_int(entry.get("entry_id"))
