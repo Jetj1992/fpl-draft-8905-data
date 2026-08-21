@@ -30,10 +30,15 @@ jobs:
           python-version: "3.13"
 
       - name: Validate fetcher
-        run: python -m py_compile scripts/fetch_fpl_draft.py
+        run: |
+          python -m py_compile scripts/fetch_fpl_draft.py
+          python tests/test_logic.py
 
       - name: Fetch FPL Draft data
-        run: python scripts/fetch_fpl_draft.py --league-id 8905
+        run: |
+          python scripts/fetch_fpl_draft.py \
+            --league-id 8905 \
+            --watch-player Wirtz
 
       - name: Commit changed data
         shell: bash
