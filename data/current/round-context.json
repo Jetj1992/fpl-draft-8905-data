@@ -203,11 +203,11 @@
                 },
                 {
                   "element": 173,
-                  "value": 12
+                  "value": 11
                 },
                 {
                   "element": 190,
-                  "value": 9
+                  "value": 11
                 },
                 {
                   "element": 194,
@@ -247,7 +247,7 @@
                 },
                 {
                   "element": 176,
-                  "value": -3
+                  "value": -4
                 },
                 {
                   "element": 175,
@@ -297,7 +297,7 @@
                 },
                 {
                   "element": 13,
-                  "value": 9
+                  "value": 10
                 },
                 {
                   "element": 16,
@@ -326,6 +326,10 @@
               "a": [
                 {
                   "element": 173,
+                  "value": 10
+                },
+                {
+                  "element": 104,
                   "value": 9
                 },
                 {
@@ -333,19 +337,15 @@
                   "value": 9
                 },
                 {
-                  "element": 104,
-                  "value": 8
-                },
-                {
-                  "element": 184,
-                  "value": 8
-                },
-                {
                   "element": 190,
                   "value": 8
                 },
                 {
                   "element": 175,
+                  "value": 7
+                },
+                {
+                  "element": 184,
                   "value": 7
                 },
                 {
@@ -399,6 +399,10 @@
                   "value": 6
                 },
                 {
+                  "element": 13,
+                  "value": 6
+                },
+                {
                   "element": 557,
                   "value": 6
                 },
@@ -411,12 +415,8 @@
                   "value": 5
                 },
                 {
-                  "element": 13,
-                  "value": 5
-                },
-                {
                   "element": 4,
-                  "value": 3
+                  "value": 4
                 },
                 {
                   "element": 19,
