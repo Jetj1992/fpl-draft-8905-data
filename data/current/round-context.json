@@ -25,9 +25,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 252790,
-          "league_entry_1_points": 12,
+          "league_entry_1_points": 21,
           "league_entry_2": 42948,
-          "league_entry_2_points": 0,
+          "league_entry_2_points": 27,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -36,9 +36,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 321694,
-          "league_entry_1_points": 5,
+          "league_entry_1_points": 11,
           "league_entry_2": 138748,
-          "league_entry_2_points": 26,
+          "league_entry_2_points": 40,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -47,9 +47,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 420622,
-          "league_entry_1_points": 8,
+          "league_entry_1_points": 21,
           "league_entry_2": 138641,
-          "league_entry_2_points": 12,
+          "league_entry_2_points": 20,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -58,9 +58,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 138487,
-          "league_entry_1_points": 6,
+          "league_entry_1_points": 14,
           "league_entry_2": 138520,
-          "league_entry_2_points": 0,
+          "league_entry_2_points": 19,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -926,7 +926,7 @@
               "a": [
                 {
                   "element": 214,
-                  "value": 26
+                  "value": 25
                 },
                 {
                   "element": 210,
@@ -949,12 +949,12 @@
                   "value": 12
                 },
                 {
-                  "element": 203,
+                  "element": 241,
                   "value": 11
                 },
                 {
-                  "element": 241,
-                  "value": 11
+                  "element": 203,
+                  "value": 9
                 },
                 {
                   "element": 204,
@@ -1007,16 +1007,16 @@
                   "value": 34
                 },
                 {
-                  "element": 229,
-                  "value": 27
-                },
-                {
                   "element": 230,
                   "value": 27
                 },
                 {
                   "element": 233,
                   "value": 27
+                },
+                {
+                  "element": 229,
+                  "value": 25
                 },
                 {
                   "element": 244,
@@ -1028,11 +1028,11 @@
                 },
                 {
                   "element": 242,
-                  "value": 14
+                  "value": 13
                 },
                 {
                   "element": 246,
-                  "value": 13
+                  "value": 12
                 },
                 {
                   "element": 243,
@@ -1122,11 +1122,11 @@
                   "value": 12
                 },
                 {
-                  "element": 246,
-                  "value": 10
+                  "element": 229,
+                  "value": 9
                 },
                 {
-                  "element": 229,
+                  "element": 246,
                   "value": 9
                 },
                 {
@@ -1310,15 +1310,15 @@
                 },
                 {
                   "element": 545,
-                  "value": 20
-                },
-                {
-                  "element": 542,
-                  "value": 15
+                  "value": 18
                 },
                 {
                   "element": 534,
                   "value": 14
+                },
+                {
+                  "element": 542,
+                  "value": 13
                 },
                 {
                   "element": 536,
@@ -1330,7 +1330,7 @@
                 },
                 {
                   "element": 541,
-                  "value": 7
+                  "value": 5
                 },
                 {
                   "element": 532,
@@ -1403,16 +1403,16 @@
                   "value": 12
                 },
                 {
-                  "element": 562,
-                  "value": 7
+                  "element": 305,
+                  "value": 10
                 },
                 {
                   "element": 259,
-                  "value": 6
+                  "value": 7
                 },
                 {
-                  "element": 305,
-                  "value": 6
+                  "element": 562,
+                  "value": 7
                 },
                 {
                   "element": 323,
@@ -1437,11 +1437,11 @@
               "a": [
                 {
                   "element": 544,
-                  "value": 12
+                  "value": 13
                 },
                 {
                   "element": 532,
-                  "value": 8
+                  "value": 9
                 },
                 {
                   "element": 536,
@@ -1494,6 +1494,10 @@
                   "value": 9
                 },
                 {
+                  "element": 591,
+                  "value": 8
+                },
+                {
                   "element": 305,
                   "value": 7
                 },
@@ -1503,10 +1507,6 @@
                 },
                 {
                   "element": 315,
-                  "value": 7
-                },
-                {
-                  "element": 591,
                   "value": 7
                 },
                 {
@@ -1683,7 +1683,7 @@
                 },
                 {
                   "element": 338,
-                  "value": 17
+                  "value": 18
                 },
                 {
                   "element": 337,
@@ -1717,7 +1717,7 @@
                 },
                 {
                   "element": 472,
-                  "value": 14
+                  "value": 15
                 },
                 {
                   "element": 469,
@@ -1725,15 +1725,15 @@
                 },
                 {
                   "element": 467,
+                  "value": 11
+                },
+                {
+                  "element": 480,
                   "value": 10
                 },
                 {
                   "element": 488,
                   "value": 10
-                },
-                {
-                  "element": 480,
-                  "value": 9
                 },
                 {
                   "element": 491,
@@ -1749,7 +1749,7 @@
                 },
                 {
                   "element": 471,
-                  "value": 3
+                  "value": 4
                 },
                 {
                   "element": 490,
@@ -1777,20 +1777,20 @@
                   "value": 16
                 },
                 {
+                  "element": 338,
+                  "value": 13
+                },
+                {
+                  "element": 327,
+                  "value": 12
+                },
+                {
                   "element": 332,
                   "value": 12
                 },
                 {
-                  "element": 327,
-                  "value": 11
-                },
-                {
-                  "element": 338,
-                  "value": 11
-                },
-                {
                   "element": 329,
-                  "value": 8
+                  "value": 7
                 },
                 {
                   "element": 334,
@@ -1820,11 +1820,11 @@
               "h": [
                 {
                   "element": 472,
-                  "value": 13
+                  "value": 14
                 },
                 {
                   "element": 474,
-                  "value": 9
+                  "value": 8
                 },
                 {
                   "element": 486,
