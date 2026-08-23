@@ -3013,6 +3013,18 @@
       "status": "a"
     },
     {
+      "element": 608,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "a"
+    },
+    {
+      "element": 609,
+      "in_accepted_trade": false,
+      "owner": null,
+      "status": "a"
+    },
+    {
       "element": 229,
       "in_accepted_trade": false,
       "owner": 42888,
