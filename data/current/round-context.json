@@ -25,9 +25,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 252790,
-          "league_entry_1_points": 21,
+          "league_entry_1_points": 23,
           "league_entry_2": 42948,
-          "league_entry_2_points": 27,
+          "league_entry_2_points": 38,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -36,9 +36,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 321694,
-          "league_entry_1_points": 11,
+          "league_entry_1_points": 33,
           "league_entry_2": 138748,
-          "league_entry_2_points": 40,
+          "league_entry_2_points": 59,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -47,9 +47,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 420622,
-          "league_entry_1_points": 21,
+          "league_entry_1_points": 33,
           "league_entry_2": 138641,
-          "league_entry_2_points": 20,
+          "league_entry_2_points": 24,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -58,9 +58,9 @@
           "event": 1,
           "finished": false,
           "league_entry_1": 138487,
-          "league_entry_1_points": 14,
+          "league_entry_1_points": 23,
           "league_entry_2": 138520,
-          "league_entry_2_points": 19,
+          "league_entry_2_points": 33,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -2502,6 +2502,10 @@
                   "value": 3
                 },
                 {
+                  "element": 605,
+                  "value": 3
+                },
+                {
                   "element": 138,
                   "value": -3
                 }
@@ -2785,6 +2789,10 @@
                   "value": 8
                 },
                 {
+                  "element": 608,
+                  "value": 6
+                },
+                {
                   "element": 76,
                   "value": 5
                 },
@@ -2926,6 +2934,10 @@
                 {
                   "element": 72,
                   "value": 1
+                },
+                {
+                  "element": 608,
+                  "value": 1
                 }
               ],
               "h": [
@@ -2996,27 +3008,53 @@
           "code": 2645203,
           "event": 1,
           "finished": false,
-          "finished_provisional": false,
+          "finished_provisional": true,
           "id": 9,
           "kickoff_time": "2026-08-23T15:30:00Z",
-          "minutes": 21,
+          "minutes": 90,
           "provisional_start_time": false,
           "pulse_id": 0,
           "started": true,
           "stats": [
             {
-              "a": [],
+              "a": [
+                {
+                  "element": 367,
+                  "value": 1
+                },
+                {
+                  "element": 368,
+                  "value": 1
+                }
+              ],
               "h": [
                 {
                   "element": 454,
+                  "value": 1
+                },
+                {
+                  "element": 460,
                   "value": 1
                 }
               ],
               "identifier": "goals_scored"
             },
             {
-              "a": [],
+              "a": [
+                {
+                  "element": 371,
+                  "value": 1
+                },
+                {
+                  "element": 377,
+                  "value": 1
+                }
+              ],
               "h": [
+                {
+                  "element": 464,
+                  "value": 1
+                },
                 {
                   "element": 465,
                   "value": 1
@@ -3040,8 +3078,42 @@
               "identifier": "penalties_missed"
             },
             {
-              "a": [],
-              "h": [],
+              "a": [
+                {
+                  "element": 356,
+                  "value": 1
+                },
+                {
+                  "element": 357,
+                  "value": 1
+                },
+                {
+                  "element": 358,
+                  "value": 1
+                }
+              ],
+              "h": [
+                {
+                  "element": 456,
+                  "value": 1
+                },
+                {
+                  "element": 457,
+                  "value": 1
+                },
+                {
+                  "element": 459,
+                  "value": 1
+                },
+                {
+                  "element": 464,
+                  "value": 1
+                },
+                {
+                  "element": 567,
+                  "value": 1
+                }
+              ],
               "identifier": "yellow_cards"
             },
             {
@@ -3050,11 +3122,16 @@
               "identifier": "red_cards"
             },
             {
-              "a": [],
+              "a": [
+                {
+                  "element": 350,
+                  "value": 3
+                }
+              ],
               "h": [
                 {
                   "element": 567,
-                  "value": 1
+                  "value": 5
                 }
               ],
               "identifier": "saves"
@@ -3063,6 +3140,10 @@
               "a": [
                 {
                   "element": 367,
+                  "value": 3
+                },
+                {
+                  "element": 368,
                   "value": 1
                 }
               ],
@@ -3070,10 +3151,6 @@
                 {
                   "element": 454,
                   "value": 3
-                },
-                {
-                  "element": 465,
-                  "value": 2
                 }
               ],
               "identifier": "bonus"
@@ -3082,52 +3159,72 @@
               "a": [
                 {
                   "element": 367,
-                  "value": 7
-                },
-                {
-                  "element": 366,
-                  "value": 6
+                  "value": 31
                 },
                 {
                   "element": 368,
-                  "value": 6
-                },
-                {
-                  "element": 369,
-                  "value": 4
+                  "value": 29
                 },
                 {
                   "element": 371,
-                  "value": 3
+                  "value": 28
+                },
+                {
+                  "element": 366,
+                  "value": 16
+                },
+                {
+                  "element": 377,
+                  "value": 15
+                },
+                {
+                  "element": 362,
+                  "value": 9
+                },
+                {
+                  "element": 369,
+                  "value": 9
+                },
+                {
+                  "element": 356,
+                  "value": 8
+                },
+                {
+                  "element": 350,
+                  "value": 7
+                },
+                {
+                  "element": 372,
+                  "value": 7
                 },
                 {
                   "element": 379,
+                  "value": 6
+                },
+                {
+                  "element": 381,
+                  "value": 4
+                },
+                {
+                  "element": 357,
                   "value": 3
                 },
                 {
                   "element": 358,
-                  "value": 1
+                  "value": 3
                 },
                 {
-                  "element": 350,
-                  "value": -1
-                },
-                {
-                  "element": 356,
-                  "value": -1
-                },
-                {
-                  "element": 357,
-                  "value": -1
-                },
-                {
-                  "element": 362,
-                  "value": -2
+                  "element": 579,
+                  "value": 3
                 }
               ],
               "h": [
                 {
                   "element": 454,
+                  "value": 31
+                },
+                {
+                  "element": 460,
                   "value": 26
                 },
                 {
@@ -3135,40 +3232,52 @@
                   "value": 18
                 },
                 {
-                  "element": 449,
-                  "value": 6
-                },
-                {
-                  "element": 567,
-                  "value": 6
-                },
-                {
-                  "element": 593,
-                  "value": 4
-                },
-                {
-                  "element": 447,
-                  "value": 3
-                },
-                {
                   "element": 459,
-                  "value": 3
-                },
-                {
-                  "element": 462,
-                  "value": 3
-                },
-                {
-                  "element": 464,
-                  "value": 3
-                },
-                {
-                  "element": 445,
-                  "value": 2
+                  "value": 13
                 },
                 {
                   "element": 453,
-                  "value": 2
+                  "value": 12
+                },
+                {
+                  "element": 567,
+                  "value": 12
+                },
+                {
+                  "element": 449,
+                  "value": 8
+                },
+                {
+                  "element": 464,
+                  "value": 7
+                },
+                {
+                  "element": 462,
+                  "value": 5
+                },
+                {
+                  "element": 559,
+                  "value": 5
+                },
+                {
+                  "element": 447,
+                  "value": 4
+                },
+                {
+                  "element": 456,
+                  "value": 1
+                },
+                {
+                  "element": 446,
+                  "value": -1
+                },
+                {
+                  "element": 457,
+                  "value": -1
+                },
+                {
+                  "element": 593,
+                  "value": -1
                 }
               ],
               "identifier": "bps"
@@ -3176,53 +3285,105 @@
             {
               "a": [
                 {
-                  "element": 367,
-                  "value": 5
+                  "element": 356,
+                  "value": 11
                 },
                 {
-                  "element": 358,
-                  "value": 4
+                  "element": 367,
+                  "value": 11
                 },
                 {
                   "element": 371,
-                  "value": 2
+                  "value": 9
                 },
                 {
-                  "element": 356,
-                  "value": 1
-                },
-                {
-                  "element": 366,
-                  "value": 1
+                  "element": 358,
+                  "value": 7
                 },
                 {
                   "element": 368,
+                  "value": 7
+                },
+                {
+                  "element": 366,
+                  "value": 5
+                },
+                {
+                  "element": 579,
+                  "value": 4
+                },
+                {
+                  "element": 362,
+                  "value": 3
+                },
+                {
+                  "element": 369,
+                  "value": 3
+                },
+                {
+                  "element": 372,
+                  "value": 3
+                },
+                {
+                  "element": 357,
+                  "value": 2
+                },
+                {
+                  "element": 379,
+                  "value": 1
+                },
+                {
+                  "element": 381,
                   "value": 1
                 }
               ],
               "h": [
                 {
-                  "element": 449,
-                  "value": 3
-                },
-                {
-                  "element": 465,
-                  "value": 3
-                },
-                {
                   "element": 445,
-                  "value": 2
-                },
-                {
-                  "element": 447,
-                  "value": 2
-                },
-                {
-                  "element": 453,
-                  "value": 2
+                  "value": 15
                 },
                 {
                   "element": 459,
+                  "value": 13
+                },
+                {
+                  "element": 447,
+                  "value": 11
+                },
+                {
+                  "element": 449,
+                  "value": 11
+                },
+                {
+                  "element": 593,
+                  "value": 9
+                },
+                {
+                  "element": 453,
+                  "value": 8
+                },
+                {
+                  "element": 464,
+                  "value": 8
+                },
+                {
+                  "element": 456,
+                  "value": 6
+                },
+                {
+                  "element": 465,
+                  "value": 5
+                },
+                {
+                  "element": 460,
+                  "value": 3
+                },
+                {
+                  "element": 454,
+                  "value": 2
+                },
+                {
+                  "element": 457,
                   "value": 2
                 },
                 {
@@ -3230,16 +3391,8 @@
                   "value": 2
                 },
                 {
-                  "element": 464,
+                  "element": 559,
                   "value": 2
-                },
-                {
-                  "element": 593,
-                  "value": 2
-                },
-                {
-                  "element": 454,
-                  "value": 1
                 }
               ],
               "identifier": "defensive_contribution"
@@ -3247,10 +3400,10 @@
           ],
           "team_a": 14,
           "team_a_difficulty": 3,
-          "team_a_score": 0,
+          "team_a_score": 2,
           "team_h": 17,
           "team_h_difficulty": 4,
-          "team_h_score": 1
+          "team_h_score": 2
         },
         {
           "code": 2645204,
