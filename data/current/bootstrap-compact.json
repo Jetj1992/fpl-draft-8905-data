@@ -7212,16 +7212,16 @@
       "web_name": "Bindon"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": null,
       "draft_rank": 8,
       "element_type": 3,
       "first_name": "Morgan",
       "id": 480,
       "minutes": 90,
-      "news": "",
+      "news": "Knee injury - 75% chance of playing",
       "second_name": "Gibbs-White",
-      "status": "a",
+      "status": "d",
       "team": 18,
       "total_points": 2,
       "web_name": "Gibbs-White"
