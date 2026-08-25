@@ -2322,16 +2322,16 @@
       "web_name": "Disasi"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": null,
       "draft_rank": 4,
       "element_type": 3,
       "first_name": "Cole",
       "id": 154,
       "minutes": 82,
-      "news": "",
+      "news": "Calf injury - 75% chance of playing",
       "second_name": "Palmer",
-      "status": "a",
+      "status": "d",
       "team": 6,
       "total_points": 13,
       "web_name": "Palmer"
