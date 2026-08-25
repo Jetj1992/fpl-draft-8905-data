@@ -1,14 +1,14 @@
 {
   "137879": {
     "entry": {
-      "event_points": 30,
+      "event_points": 31,
       "favourite_team": 14,
       "id": 137879,
       "league_set": [
         8905
       ],
       "name": "AGF 2. hold",
-      "overall_points": 30,
+      "overall_points": 31,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -19,14 +19,14 @@
   },
   "137912": {
     "entry": {
-      "event_points": 34,
+      "event_points": 39,
       "favourite_team": 2,
       "id": 137912,
       "league_set": [
         8905
       ],
       "name": "Grove Løjer",
-      "overall_points": 34,
+      "overall_points": 39,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -91,14 +91,14 @@
   },
   "318564": {
     "entry": {
-      "event_points": 35,
+      "event_points": 36,
       "favourite_team": null,
       "id": 318564,
       "league_set": [
         8905
       ],
       "name": "La Liga es la mejor",
-      "overall_points": 35,
+      "overall_points": 36,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
