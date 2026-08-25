@@ -1512,16 +1512,16 @@
       "web_name": "Milambo"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
       "draft_rank": 311,
       "element_type": 3,
       "first_name": "Fábio",
       "id": 100,
       "minutes": 0,
-      "news": "Lack of match fitness - 75% chance of playing",
+      "news": "",
       "second_name": "Freitas Gouveia Carvalho",
-      "status": "d",
+      "status": "a",
       "team": 4,
       "total_points": 0,
       "web_name": "Carvalho"
@@ -6987,16 +6987,16 @@
       "web_name": "Wissa"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 50,
       "chance_of_playing_this_round": null,
       "draft_rank": 91,
       "element_type": 4,
       "first_name": "William",
       "id": 465,
       "minutes": 55,
-      "news": "",
+      "news": "Knock - 50% chance of playing",
       "second_name": "Osula",
-      "status": "a",
+      "status": "d",
       "team": 17,
       "total_points": 4,
       "web_name": "Osula"
@@ -8427,16 +8427,16 @@
       "web_name": "Targett"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 50,
       "draft_rank": 381,
       "element_type": 3,
       "first_name": "Hidemasa",
       "id": 561,
       "minutes": 0,
-      "news": "Calf injury - 75% chance of playing",
+      "news": "",
       "second_name": "Morita",
-      "status": "d",
+      "status": "a",
       "team": 11,
       "total_points": 0,
       "web_name": "Morita"
@@ -8802,16 +8802,16 @@
       "web_name": "Herrington"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": null,
       "draft_rank": 605,
       "element_type": 2,
       "first_name": "Nobel",
       "id": 586,
       "minutes": 63,
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "",
       "second_name": "Mendy",
-      "status": "d",
+      "status": "a",
       "team": 11,
       "total_points": 15,
       "web_name": "Mendy"
