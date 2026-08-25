@@ -7497,16 +7497,16 @@
       "web_name": "Senesi"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 0,
       "draft_rank": 124,
       "element_type": 2,
       "first_name": "Pedro",
       "id": 499,
       "minutes": 0,
-      "news": "Lack of match fitness - 75% chance of playing",
+      "news": "",
       "second_name": "Porro Sauceda",
-      "status": "d",
+      "status": "a",
       "team": 19,
       "total_points": 0,
       "web_name": "Pedro Porro"
@@ -7557,16 +7557,16 @@
       "web_name": "Robertson"
     },
     {
-      "chance_of_playing_next_round": 50,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 0,
       "draft_rank": 237,
       "element_type": 2,
       "first_name": "Micky",
       "id": 503,
       "minutes": 0,
-      "news": "Unspecified injury - 50% chance of playing",
+      "news": "",
       "second_name": "van de Ven",
-      "status": "d",
+      "status": "a",
       "team": 19,
       "total_points": 0,
       "web_name": "Van de Ven"
@@ -7737,16 +7737,16 @@
       "web_name": "Tel"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": null,
       "draft_rank": 51,
       "element_type": 3,
       "first_name": "James",
       "id": 515,
       "minutes": 22,
-      "news": "",
+      "news": "Shoulder injury - 75% chance of playing",
       "second_name": "Maddison",
-      "status": "a",
+      "status": "d",
       "team": 19,
       "total_points": 1,
       "web_name": "Maddison"
