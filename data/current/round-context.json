@@ -67,10 +67,10 @@
         }
       ],
       "event": {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-08-21T17:30:00Z",
         "deadline_time_epoch": 1787333400,
-        "finished": false,
+        "finished": true,
         "id": 1,
         "is_current": true,
         "is_next": false,
@@ -4119,10 +4119,10 @@
         }
       ],
       "event": {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-08-21T17:30:00Z",
         "deadline_time_epoch": 1787333400,
-        "finished": false,
+        "finished": true,
         "id": 1,
         "is_current": true,
         "is_next": false,
