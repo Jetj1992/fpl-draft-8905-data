@@ -1,8 +1,8 @@
 {
-  "current_gameweek": 1,
+  "current_gameweek": 2,
   "current_state": {
     "current_rosters_path": "data/current/current-rosters.json",
-    "free_agent_count": 511,
+    "free_agent_count": 515,
     "free_agents_path": "data/current/free-agents.json",
     "owned_player_count": 105
   },
@@ -162,6 +162,12 @@
       "path": "/fixtures/?event=2",
       "status": 200
     },
+    "pl_fixtures_gw_3": {
+      "host": "https://fantasy.premierleague.com/api",
+      "ok": true,
+      "path": "/fixtures/?event=3",
+      "status": 200
+    },
     "trades": {
       "host": "https://draft.premierleague.com/api",
       "ok": true,
@@ -226,17 +232,17 @@
       "waiver_pick": 3
     }
   ],
-  "generated_at": "2026-08-28T01:04:58.969976Z",
+  "generated_at": "2026-08-28T21:55:26.413947Z",
   "latest_complete_gameweek": 1,
   "league_id": 8905,
   "league_name": "OK Data Liga",
   "next_deadline": {
-    "deadline_time_copenhagen": "2026-08-28T19:30:00+02:00",
-    "deadline_time_utc": "2026-08-28T17:30:00Z",
-    "gameweek": 2,
-    "name": "Gameweek 2"
+    "deadline_time_copenhagen": "2026-09-04T19:30:00+02:00",
+    "deadline_time_utc": "2026-09-04T17:30:00Z",
+    "gameweek": 3,
+    "name": "Gameweek 3"
   },
-  "next_gameweek": 2,
+  "next_gameweek": 3,
   "number_of_entries": 7,
   "previous_gameweek": 1,
   "proposed_waivers": {
@@ -245,7 +251,7 @@
     "source_available": true
   },
   "schema_version": 4,
-  "upcoming_gameweek": 2,
+  "upcoming_gameweek": 3,
   "watched_players": {
     "configured": [
       "Wirtz"

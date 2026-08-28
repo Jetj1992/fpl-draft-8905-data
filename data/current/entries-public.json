@@ -1,7 +1,7 @@
 {
   "137879": {
     "entry": {
-      "event_points": 31,
+      "event_points": 0,
       "favourite_team": 14,
       "id": 137879,
       "league_set": [
@@ -13,13 +13,13 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 1,
+      "transactions_event": 0,
       "transactions_total": 1
     }
   },
   "137912": {
     "entry": {
-      "event_points": 39,
+      "event_points": 0,
       "favourite_team": 2,
       "id": 137912,
       "league_set": [
@@ -31,13 +31,13 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 3,
+      "transactions_event": 0,
       "transactions_total": 6
     }
   },
   "138032": {
     "entry": {
-      "event_points": 51,
+      "event_points": 0,
       "favourite_team": 11,
       "id": 138032,
       "league_set": [
@@ -55,7 +55,7 @@
   },
   "138139": {
     "entry": {
-      "event_points": 59,
+      "event_points": 0,
       "favourite_team": null,
       "id": 138139,
       "league_set": [
@@ -73,7 +73,7 @@
   },
   "250589": {
     "entry": {
-      "event_points": 24,
+      "event_points": 0,
       "favourite_team": null,
       "id": 250589,
       "league_set": [
@@ -85,13 +85,13 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 2,
+      "transactions_event": 0,
       "transactions_total": 2
     }
   },
   "318564": {
     "entry": {
-      "event_points": 36,
+      "event_points": 0,
       "favourite_team": null,
       "id": 318564,
       "league_set": [
@@ -103,13 +103,13 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 1,
+      "transactions_event": 0,
       "transactions_total": 1
     }
   },
   "42888": {
     "entry": {
-      "event_points": 51,
+      "event_points": 0,
       "favourite_team": 19,
       "id": 42888,
       "league_set": [
@@ -121,7 +121,7 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 2,
+      "transactions_event": 0,
       "transactions_total": 2
     }
   }
