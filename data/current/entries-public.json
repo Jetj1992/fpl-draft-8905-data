@@ -13,8 +13,8 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 0,
-      "transactions_total": 0
+      "transactions_event": 1,
+      "transactions_total": 1
     }
   },
   "137912": {
@@ -31,8 +31,8 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 0,
-      "transactions_total": 3
+      "transactions_event": 3,
+      "transactions_total": 6
     }
   },
   "138032": {
@@ -85,8 +85,8 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 0,
-      "transactions_total": 0
+      "transactions_event": 2,
+      "transactions_total": 2
     }
   },
   "318564": {
@@ -103,8 +103,8 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 0,
-      "transactions_total": 0
+      "transactions_event": 1,
+      "transactions_total": 1
     }
   },
   "42888": {
@@ -121,8 +121,8 @@
       "region_code_short": "DK",
       "region_name": "Denmark",
       "started_event": 1,
-      "transactions_event": 0,
-      "transactions_total": 0
+      "transactions_event": 2,
+      "transactions_total": 2
     }
   }
 }
