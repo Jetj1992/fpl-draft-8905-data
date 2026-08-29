@@ -372,16 +372,16 @@
       "web_name": "Fábio Vieira"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
       "draft_rank": 198,
       "element_type": 3,
       "first_name": "Reiss",
       "id": 24,
       "minutes": 0,
-      "news": "",
+      "news": "has departed the club as a free agent.",
       "second_name": "Nelson",
-      "status": "a",
+      "status": "u",
       "team": 1,
       "total_points": 0,
       "web_name": "Nelson"
@@ -2262,16 +2262,16 @@
       "web_name": "Colwill"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
       "draft_rank": 472,
       "element_type": 2,
       "first_name": "Mamadou",
       "id": 150,
       "minutes": 0,
-      "news": "",
+      "news": "Has joined Real Sociedad on loan for the rest of the season",
       "second_name": "Sarr",
-      "status": "a",
+      "status": "u",
       "team": 6,
       "total_points": 0,
       "web_name": "M.Sarr"
@@ -2512,7 +2512,7 @@
       "news": "",
       "second_name": "Jackson",
       "status": "a",
-      "team": 6,
+      "team": 2,
       "total_points": 0,
       "web_name": "N.Jackson"
     },
@@ -2727,16 +2727,16 @@
       "web_name": "Woolfenden"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
       "draft_rank": 575,
       "element_type": 2,
       "first_name": "Miguel",
       "id": 181,
       "minutes": 0,
-      "news": "",
+      "news": "Has joined Academico de Viseu on loan for the rest of the season",
       "second_name": "Brau",
-      "status": "a",
+      "status": "u",
       "team": 7,
       "total_points": 0,
       "web_name": "Brau"
@@ -2892,16 +2892,16 @@
       "web_name": "Borges Rodrigues"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
       "draft_rank": 498,
       "element_type": 3,
       "first_name": "Kai",
       "id": 192,
       "minutes": 0,
-      "news": "",
+      "news": "Has joined Oxford United on loan for the rest of the season",
       "second_name": "Andrews",
-      "status": "a",
+      "status": "u",
       "team": 7,
       "total_points": 0,
       "web_name": "Andrews"
@@ -5607,16 +5607,16 @@
       "web_name": "Mac Allister"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 75,
       "draft_rank": 150,
       "element_type": 3,
       "first_name": "Curtis",
       "id": 373,
       "minutes": 0,
-      "news": "Hip injury - 75% chance of playing",
+      "news": "Has joined Internazionale permanently",
       "second_name": "Jones",
-      "status": "d",
+      "status": "u",
       "team": 14,
       "total_points": 0,
       "web_name": "C.Jones"
@@ -8067,16 +8067,16 @@
       "web_name": "Reinildo"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
       "draft_rank": 479,
       "element_type": 2,
       "first_name": "Jenson",
       "id": 537,
       "minutes": 0,
-      "news": "",
+      "news": "Has joined Swansea City on loan for the rest of the season",
       "second_name": "Seelt",
-      "status": "a",
+      "status": "u",
       "team": 20,
       "total_points": 0,
       "web_name": "Seelt"

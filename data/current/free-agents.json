@@ -1029,13 +1029,13 @@
       "web_name": "Hutchinson"
     },
     {
-      "availability_status": "d",
+      "availability_status": "u",
       "club_id": 14,
       "club_name": "Liverpool",
       "club_short_name": "LIV",
       "element_id": 373,
       "first_name": "Curtis",
-      "news": "Hip injury - 75% chance of playing",
+      "news": "Has joined Internazionale permanently",
       "official_draft_rank": 150,
       "position": "MID",
       "position_id": 3,
@@ -1631,13 +1631,13 @@
       "web_name": "George"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 1,
       "club_name": "Arsenal",
       "club_short_name": "ARS",
       "element_id": 24,
       "first_name": "Reiss",
-      "news": "",
+      "news": "has departed the club as a free agent.",
       "official_draft_rank": 198,
       "position": "MID",
       "position_id": 3,
@@ -5131,13 +5131,13 @@
       "web_name": "Howell"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 6,
       "club_name": "Chelsea",
       "club_short_name": "CHE",
       "element_id": 150,
       "first_name": "Mamadou",
-      "news": "",
+      "news": "Has joined Real Sociedad on loan for the rest of the season",
       "official_draft_rank": 472,
       "position": "DEF",
       "position_id": 2,
@@ -5229,13 +5229,13 @@
       "web_name": "Scarlett"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 20,
       "club_name": "Sunderland",
       "club_short_name": "SUN",
       "element_id": 537,
       "first_name": "Jenson",
-      "news": "",
+      "news": "Has joined Swansea City on loan for the rest of the season",
       "official_draft_rank": 479,
       "position": "DEF",
       "position_id": 2,
@@ -5495,13 +5495,13 @@
       "web_name": "Borges Rodrigues"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
       "element_id": 192,
       "first_name": "Kai",
-      "news": "",
+      "news": "Has joined Oxford United on loan for the rest of the season",
       "official_draft_rank": 498,
       "position": "MID",
       "position_id": 3,
@@ -6573,13 +6573,13 @@
       "web_name": "Woolfenden"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
       "element_id": 181,
       "first_name": "Miguel",
-      "news": "",
+      "news": "Has joined Academico de Viseu on loan for the rest of the season",
       "official_draft_rank": 575,
       "position": "DEF",
       "position_id": 2,
@@ -7245,7 +7245,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-29T00:21:02.038798Z",
+  "generated_at": "2026-08-29T03:21:14.118522Z",
   "league_id": 8905,
   "schema_version": 1
 }

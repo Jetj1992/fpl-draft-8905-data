@@ -6,7 +6,7 @@
     "source_available": true,
     "typed_records": 25
   },
-  "generated_at": "2026-08-29T00:21:02.036096Z",
+  "generated_at": "2026-08-29T03:21:14.115801Z",
   "schema_version": 1,
   "transactions": [
     {
@@ -383,9 +383,9 @@
     {
       "element_in": {
         "availability_status": "a",
-        "club_id": 6,
-        "club_name": "Chelsea",
-        "club_short_name": "CHE",
+        "club_id": 2,
+        "club_name": "Aston Villa",
+        "club_short_name": "AVL",
         "element_id": 166,
         "first_name": "Nicolas",
         "news": "",
