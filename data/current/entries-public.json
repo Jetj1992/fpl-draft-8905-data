@@ -19,14 +19,14 @@
   },
   "137912": {
     "entry": {
-      "event_points": 0,
+      "event_points": 7,
       "favourite_team": 2,
       "id": 137912,
       "league_set": [
         8905
       ],
       "name": "Grove Løjer",
-      "overall_points": 39,
+      "overall_points": 46,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -37,14 +37,14 @@
   },
   "138032": {
     "entry": {
-      "event_points": 0,
+      "event_points": 9,
       "favourite_team": 11,
       "id": 138032,
       "league_set": [
         8905
       ],
       "name": "Hyggemix",
-      "overall_points": 51,
+      "overall_points": 60,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -55,14 +55,14 @@
   },
   "138139": {
     "entry": {
-      "event_points": 0,
+      "event_points": 5,
       "favourite_team": null,
       "id": 138139,
       "league_set": [
         8905
       ],
       "name": "Jyllands Rubin",
-      "overall_points": 59,
+      "overall_points": 64,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -91,14 +91,14 @@
   },
   "318564": {
     "entry": {
-      "event_points": 0,
+      "event_points": 19,
       "favourite_team": null,
       "id": 318564,
       "league_set": [
         8905
       ],
       "name": "La Liga es la mejor",
-      "overall_points": 36,
+      "overall_points": 55,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -109,14 +109,14 @@
   },
   "42888": {
     "entry": {
-      "event_points": 0,
+      "event_points": 2,
       "favourite_team": 19,
       "id": 42888,
       "league_set": [
         8905
       ],
       "name": "AGFs Førstehold",
-      "overall_points": 51,
+      "overall_points": 53,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",

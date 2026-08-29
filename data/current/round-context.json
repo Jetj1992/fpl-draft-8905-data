@@ -25,7 +25,7 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 42948,
-          "league_entry_1_points": 0,
+          "league_entry_1_points": 2,
           "league_entry_2": 138487,
           "league_entry_2_points": 0,
           "started": true,
@@ -36,9 +36,9 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138520,
-          "league_entry_1_points": 0,
+          "league_entry_1_points": 7,
           "league_entry_2": 420622,
-          "league_entry_2_points": 0,
+          "league_entry_2_points": 6,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -47,9 +47,9 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138641,
-          "league_entry_1_points": 0,
+          "league_entry_1_points": 9,
           "league_entry_2": 321694,
-          "league_entry_2_points": 0,
+          "league_entry_2_points": 19,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -58,7 +58,7 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138748,
-          "league_entry_1_points": 0,
+          "league_entry_1_points": 5,
           "league_entry_2": 252790,
           "league_entry_2_points": 0,
           "started": true,
@@ -233,7 +233,7 @@
                 },
                 {
                   "element": 391,
-                  "value": 19
+                  "value": 18
                 },
                 {
                   "element": 393,
@@ -290,11 +290,11 @@
                   "value": 16
                 },
                 {
-                  "element": 224,
-                  "value": 8
+                  "element": 588,
+                  "value": 9
                 },
                 {
-                  "element": 588,
+                  "element": 224,
                   "value": 8
                 },
                 {
@@ -316,6 +316,10 @@
                 {
                   "element": 207,
                   "value": 1
+                },
+                {
+                  "element": 203,
+                  "value": -1
                 },
                 {
                   "element": 153,
