@@ -105,13 +105,13 @@
       "web_name": "Grealish"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 19,
       "club_name": "Spurs",
       "club_short_name": "TOT",
       "element_id": 512,
       "first_name": "Mohammed",
-      "news": "Thigh injury - 75% chance of playing",
+      "news": "",
       "official_draft_rank": 43,
       "position": "MID",
       "position_id": 3,
@@ -6727,13 +6727,13 @@
       "web_name": "Ajayi"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 11,
       "club_name": "Hull City",
       "club_short_name": "HUL",
       "element_id": 280,
       "first_name": "Lewie",
-      "news": "",
+      "news": "Unspecified injury - 75% chance of playing",
       "official_draft_rank": 586,
       "position": "DEF",
       "position_id": 2,
@@ -7245,7 +7245,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-29T15:20:45.619324Z",
+  "generated_at": "2026-08-29T18:21:01.108484Z",
   "league_id": 8905,
   "schema_version": 1
 }
