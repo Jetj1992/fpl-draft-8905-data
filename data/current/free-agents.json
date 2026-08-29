@@ -2,9 +2,9 @@
   "data_quality": {
     "active_league_entries": 7,
     "complete_rosters": true,
-    "element_status_records": 622
+    "element_status_records": 623
   },
-  "free_agent_count": 517,
+  "free_agent_count": 518,
   "free_agents": [
     {
       "availability_status": "a",
@@ -7231,6 +7231,20 @@
       "web_name": "De Fougerolles"
     },
     {
+      "availability_status": "a",
+      "club_id": 7,
+      "club_name": "Coventry City",
+      "club_short_name": "COV",
+      "element_id": 623,
+      "first_name": "Dan",
+      "news": "",
+      "official_draft_rank": 622,
+      "position": "GKP",
+      "position_id": 1,
+      "second_name": "Bentley",
+      "web_name": "Bentley"
+    },
+    {
       "availability_status": "u",
       "club_id": 20,
       "club_name": "Sunderland",
@@ -7238,14 +7252,14 @@
       "element_id": 538,
       "first_name": "Leo Fuhr",
       "news": "Has joined KV Mechelen on loan for the rest of the season",
-      "official_draft_rank": 622,
+      "official_draft_rank": 623,
       "position": "DEF",
       "position_id": 2,
       "second_name": "Hjelde",
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-29T18:21:01.108484Z",
+  "generated_at": "2026-08-29T21:20:46.151926Z",
   "league_id": 8905,
   "schema_version": 1
 }

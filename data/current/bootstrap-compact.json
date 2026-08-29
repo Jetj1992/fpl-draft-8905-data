@@ -1043,7 +1043,7 @@
       "second_name": "Tavernier",
       "status": "a",
       "team": 3,
-      "total_points": 13,
+      "total_points": 11,
       "web_name": "Tavernier"
     },
     {
@@ -3618,7 +3618,7 @@
       "element_type": 3,
       "first_name": "Tim",
       "id": 240,
-      "minutes": 3,
+      "minutes": 4,
       "news": "",
       "second_name": "Iroegbunam",
       "status": "a",
@@ -3663,7 +3663,7 @@
       "element_type": 3,
       "first_name": "Carlos",
       "id": 243,
-      "minutes": 4,
+      "minutes": 5,
       "news": "",
       "second_name": "Alcaraz Durán",
       "status": "a",
@@ -3708,7 +3708,7 @@
       "element_type": 3,
       "first_name": "Merlin",
       "id": 246,
-      "minutes": 176,
+      "minutes": 175,
       "news": "",
       "second_name": "Röhl",
       "status": "a",
@@ -6933,12 +6933,12 @@
       "element_type": 3,
       "first_name": "Bazoumana",
       "id": 461,
-      "minutes": 0,
+      "minutes": 1,
       "news": "",
       "second_name": "Touré",
       "status": "a",
       "team": 17,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Touré"
     },
     {
@@ -8084,7 +8084,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 622,
+      "draft_rank": 623,
       "element_type": 2,
       "first_name": "Leo Fuhr",
       "id": 538,
@@ -9355,6 +9355,21 @@
       "team": 15,
       "total_points": 1,
       "web_name": "Braithwaite"
+    },
+    {
+      "chance_of_playing_next_round": null,
+      "chance_of_playing_this_round": null,
+      "draft_rank": 622,
+      "element_type": 1,
+      "first_name": "Dan",
+      "id": 623,
+      "minutes": 0,
+      "news": "",
+      "second_name": "Bentley",
+      "status": "a",
+      "team": 7,
+      "total_points": 0,
+      "web_name": "Bentley"
     }
   ],
   "events": [],
