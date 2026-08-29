@@ -1813,13 +1813,13 @@
       "web_name": "Wright"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 9,
       "club_name": "Everton",
       "club_short_name": "EVE",
       "element_id": 247,
       "first_name": "Hayden",
-      "news": "Ankle injury - 50% chance of playing",
+      "news": "",
       "official_draft_rank": 211,
       "position": "MID",
       "position_id": 3,
@@ -2429,13 +2429,13 @@
       "web_name": "Lerma"
     },
     {
-      "availability_status": "i",
+      "availability_status": "a",
       "club_id": 9,
       "club_name": "Everton",
       "club_short_name": "EVE",
       "element_id": 240,
       "first_name": "Tim",
-      "news": "Thigh injury - Unknown return date",
+      "news": "",
       "official_draft_rank": 270,
       "position": "MID",
       "position_id": 3,
@@ -5579,13 +5579,13 @@
       "web_name": "Dowell"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 11,
       "club_name": "Hull City",
       "club_short_name": "HUL",
       "element_id": 289,
       "first_name": "Matt",
-      "news": "",
+      "news": "Thigh injury - 75% chance of playing",
       "official_draft_rank": 504,
       "position": "MID",
       "position_id": 3,
@@ -6279,13 +6279,13 @@
       "web_name": "A.García"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 3,
       "club_name": "Bournemouth",
       "club_short_name": "BOU",
       "element_id": 66,
       "first_name": "Julio",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "",
       "official_draft_rank": 554,
       "position": "DEF",
       "position_id": 2,
@@ -7245,7 +7245,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-29T12:20:58.853247Z",
+  "generated_at": "2026-08-29T15:20:45.619324Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
