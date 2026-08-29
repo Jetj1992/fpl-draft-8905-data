@@ -5268,12 +5268,12 @@
       "element_type": 1,
       "first_name": "Alisson",
       "id": 350,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Becker",
       "status": "a",
       "team": 14,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "A.Becker"
     },
     {
@@ -5358,12 +5358,12 @@
       "element_type": 2,
       "first_name": "Virgil",
       "id": 356,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "van Dijk",
       "status": "a",
       "team": 14,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "Virgil"
     },
     {
@@ -5373,12 +5373,12 @@
       "element_type": 2,
       "first_name": "Jeremie",
       "id": 357,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Frimpong",
       "status": "a",
       "team": 14,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Frimpong"
     },
     {
@@ -5388,12 +5388,12 @@
       "element_type": 2,
       "first_name": "Milos",
       "id": 358,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Kerkez",
       "status": "a",
       "team": 14,
-      "total_points": 0,
+      "total_points": 1,
       "web_name": "Kerkez"
     },
     {
@@ -5448,12 +5448,12 @@
       "element_type": 2,
       "first_name": "Jeremy",
       "id": 362,
-      "minutes": 69,
+      "minutes": 114,
       "news": "",
       "second_name": "Jacquet",
       "status": "a",
       "team": 14,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Jacquet"
     },
     {
@@ -5508,12 +5508,12 @@
       "element_type": 3,
       "first_name": "Florian",
       "id": 366,
-      "minutes": 62,
+      "minutes": 107,
       "news": "",
       "second_name": "Wirtz",
       "status": "a",
       "team": 14,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "Wirtz"
     },
     {
@@ -5523,12 +5523,12 @@
       "element_type": 3,
       "first_name": "Cody",
       "id": 367,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Gakpo",
       "status": "a",
       "team": 14,
-      "total_points": 12,
+      "total_points": 13,
       "web_name": "Gakpo"
     },
     {
@@ -5538,12 +5538,12 @@
       "element_type": 3,
       "first_name": "Dominik",
       "id": 368,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Szoboszlai",
       "status": "a",
       "team": 14,
-      "total_points": 8,
+      "total_points": 9,
       "web_name": "Szoboszlai"
     },
     {
@@ -5598,12 +5598,12 @@
       "element_type": 3,
       "first_name": "Alexis",
       "id": 372,
-      "minutes": 27,
+      "minutes": 72,
       "news": "",
       "second_name": "Mac Allister",
       "status": "a",
       "team": 14,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Mac Allister"
     },
     {
@@ -5673,12 +5673,12 @@
       "element_type": 3,
       "first_name": "Victor",
       "id": 377,
-      "minutes": 27,
+      "minutes": 72,
       "news": "",
       "second_name": "Munoz",
       "status": "a",
       "team": 14,
-      "total_points": 4,
+      "total_points": 5,
       "web_name": "Munoz"
     },
     {
@@ -5703,12 +5703,12 @@
       "element_type": 4,
       "first_name": "Alexander",
       "id": 379,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Isak",
       "status": "a",
       "team": 14,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "Isak"
     },
     {
@@ -7023,12 +7023,12 @@
       "element_type": 1,
       "first_name": "Matz",
       "id": 467,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Sels",
       "status": "a",
       "team": 18,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "Sels"
     },
     {
@@ -7053,12 +7053,12 @@
       "element_type": 2,
       "first_name": "Neco",
       "id": 469,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Williams",
       "status": "a",
       "team": 18,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "N.Williams"
     },
     {
@@ -7083,12 +7083,12 @@
       "element_type": 2,
       "first_name": "Nikola",
       "id": 471,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Milenković",
       "status": "a",
       "team": 18,
-      "total_points": 2,
+      "total_points": 3,
       "web_name": "Milenković"
     },
     {
@@ -7098,12 +7098,12 @@
       "element_type": 2,
       "first_name": "Murillo",
       "id": 472,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Costa dos Santos",
       "status": "a",
       "team": 18,
-      "total_points": 4,
+      "total_points": 5,
       "web_name": "Murillo"
     },
     {
@@ -7113,12 +7113,12 @@
       "element_type": 2,
       "first_name": "Ola",
       "id": 473,
-      "minutes": 73,
+      "minutes": 118,
       "news": "",
       "second_name": "Aina",
       "status": "a",
       "team": 18,
-      "total_points": 5,
+      "total_points": 6,
       "web_name": "Aina"
     },
     {
@@ -7128,12 +7128,12 @@
       "element_type": 2,
       "first_name": "Jair",
       "id": 474,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Paula da Cunha Filho",
       "status": "a",
       "team": 18,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Jair Cunha"
     },
     {
@@ -7218,12 +7218,12 @@
       "element_type": 3,
       "first_name": "Morgan",
       "id": 480,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Gibbs-White",
       "status": "a",
       "team": 18,
-      "total_points": 2,
+      "total_points": 8,
       "web_name": "Gibbs-White"
     },
     {
@@ -7263,12 +7263,12 @@
       "element_type": 3,
       "first_name": "Dan",
       "id": 483,
-      "minutes": 61,
+      "minutes": 106,
       "news": "",
       "second_name": "Ndoye",
       "status": "a",
       "team": 18,
-      "total_points": 3,
+      "total_points": 12,
       "web_name": "Ndoye"
     },
     {
@@ -7308,12 +7308,12 @@
       "element_type": 3,
       "first_name": "James",
       "id": 486,
-      "minutes": 73,
+      "minutes": 118,
       "news": "",
       "second_name": "McAtee",
       "status": "a",
       "team": 18,
-      "total_points": 3,
+      "total_points": 5,
       "web_name": "McAtee"
     },
     {
@@ -7383,7 +7383,7 @@
       "element_type": 4,
       "first_name": "Igor Jesus",
       "id": 491,
-      "minutes": 90,
+      "minutes": 135,
       "news": "",
       "second_name": "Maciel da Cruz",
       "status": "a",
@@ -8523,12 +8523,12 @@
       "element_type": 3,
       "first_name": "Xaver",
       "id": 567,
-      "minutes": 16,
+      "minutes": 61,
       "news": "",
       "second_name": "Schlager",
       "status": "a",
       "team": 18,
-      "total_points": 1,
+      "total_points": 2,
       "web_name": "Schlager"
     },
     {
