@@ -44,7 +44,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 336,
+      "draft_rank": 337,
       "element_type": 1,
       "first_name": "Kepa",
       "id": 2,
@@ -59,7 +59,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 340,
+      "draft_rank": 341,
       "element_type": 1,
       "first_name": "Illan",
       "id": 3,
@@ -329,7 +329,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 327,
+      "draft_rank": 328,
       "element_type": 3,
       "first_name": "Christian",
       "id": 21,
@@ -449,7 +449,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 457,
+      "draft_rank": 459,
       "element_type": 1,
       "first_name": "Marco",
       "id": 29,
@@ -464,7 +464,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 416,
+      "draft_rank": 418,
       "element_type": 2,
       "first_name": "Lucas",
       "id": 30,
@@ -479,7 +479,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 414,
+      "draft_rank": 416,
       "element_type": 2,
       "first_name": "Ezri",
       "id": 31,
@@ -494,7 +494,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 408,
+      "draft_rank": 410,
       "element_type": 2,
       "first_name": "Matty",
       "id": 32,
@@ -509,7 +509,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 438,
+      "draft_rank": 440,
       "element_type": 2,
       "first_name": "Tyrone",
       "id": 33,
@@ -524,7 +524,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 431,
+      "draft_rank": 433,
       "element_type": 2,
       "first_name": "Pau",
       "id": 34,
@@ -539,7 +539,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 297,
+      "draft_rank": 298,
       "element_type": 3,
       "first_name": "Lamare",
       "id": 35,
@@ -554,7 +554,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 435,
+      "draft_rank": 437,
       "element_type": 2,
       "first_name": "Ian",
       "id": 36,
@@ -569,7 +569,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 449,
+      "draft_rank": 451,
       "element_type": 2,
       "first_name": "Victor",
       "id": 37,
@@ -584,7 +584,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 553,
+      "draft_rank": 555,
       "element_type": 2,
       "first_name": "Andrés",
       "id": 38,
@@ -599,7 +599,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 562,
+      "draft_rank": 564,
       "element_type": 2,
       "first_name": "Kosta",
       "id": 39,
@@ -704,7 +704,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 282,
+      "draft_rank": 283,
       "element_type": 3,
       "first_name": "Ross",
       "id": 46,
@@ -719,7 +719,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 278,
+      "draft_rank": 279,
       "element_type": 3,
       "first_name": "Boubacar",
       "id": 47,
@@ -734,7 +734,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 262,
+      "draft_rank": 263,
       "element_type": 3,
       "first_name": "Amadou",
       "id": 48,
@@ -749,7 +749,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 341,
+      "draft_rank": 342,
       "element_type": 3,
       "first_name": "Samuel",
       "id": 49,
@@ -764,7 +764,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 480,
+      "draft_rank": 482,
       "element_type": 3,
       "first_name": "Bradley",
       "id": 50,
@@ -779,7 +779,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 473,
+      "draft_rank": 475,
       "element_type": 3,
       "first_name": "George",
       "id": 51,
@@ -794,7 +794,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 332,
+      "draft_rank": 333,
       "element_type": 3,
       "first_name": "Alysson Edward Franco",
       "id": 52,
@@ -869,7 +869,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 405,
+      "draft_rank": 406,
       "element_type": 1,
       "first_name": "Đorđe",
       "id": 57,
@@ -884,7 +884,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 563,
+      "draft_rank": 565,
       "element_type": 1,
       "first_name": "Fraser",
       "id": 58,
@@ -899,7 +899,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 564,
+      "draft_rank": 566,
       "element_type": 1,
       "first_name": "Will",
       "id": 59,
@@ -944,7 +944,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 293,
+      "draft_rank": 294,
       "element_type": 2,
       "first_name": "Bafodé",
       "id": 62,
@@ -959,7 +959,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 311,
+      "draft_rank": 312,
       "element_type": 2,
       "first_name": "Veljko",
       "id": 63,
@@ -974,7 +974,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 433,
+      "draft_rank": 435,
       "element_type": 2,
       "first_name": "Adam",
       "id": 64,
@@ -989,7 +989,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 489,
+      "draft_rank": 491,
       "element_type": 2,
       "first_name": "Julián",
       "id": 65,
@@ -1004,7 +1004,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 554,
+      "draft_rank": 556,
       "element_type": 2,
       "first_name": "Julio",
       "id": 66,
@@ -1079,7 +1079,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 298,
+      "draft_rank": 299,
       "element_type": 3,
       "first_name": "Lewis",
       "id": 71,
@@ -1094,7 +1094,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 323,
+      "draft_rank": 324,
       "element_type": 3,
       "first_name": "Ben",
       "id": 72,
@@ -1109,7 +1109,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 261,
+      "draft_rank": 262,
       "element_type": 3,
       "first_name": "Tyler",
       "id": 73,
@@ -1124,7 +1124,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 280,
+      "draft_rank": 281,
       "element_type": 3,
       "first_name": "David",
       "id": 74,
@@ -1139,7 +1139,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 291,
+      "draft_rank": 292,
       "element_type": 3,
       "first_name": "Ryan",
       "id": 75,
@@ -1154,7 +1154,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 325,
+      "draft_rank": 326,
       "element_type": 3,
       "first_name": "Alex",
       "id": 76,
@@ -1169,7 +1169,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 271,
+      "draft_rank": 272,
       "element_type": 3,
       "first_name": "Amine",
       "id": 77,
@@ -1259,7 +1259,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 481,
+      "draft_rank": 483,
       "element_type": 1,
       "first_name": "Hákon Rafn",
       "id": 83,
@@ -1319,7 +1319,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 425,
+      "draft_rank": 427,
       "element_type": 2,
       "first_name": "Kristoffer",
       "id": 87,
@@ -1334,7 +1334,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 409,
+      "draft_rank": 411,
       "element_type": 2,
       "first_name": "Michael",
       "id": 88,
@@ -1349,7 +1349,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 437,
+      "draft_rank": 439,
       "element_type": 2,
       "first_name": "Rico",
       "id": 89,
@@ -1364,7 +1364,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 446,
+      "draft_rank": 448,
       "element_type": 2,
       "first_name": "Aaron",
       "id": 90,
@@ -1379,7 +1379,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 460,
+      "draft_rank": 462,
       "element_type": 2,
       "first_name": "Ethan",
       "id": 91,
@@ -1394,7 +1394,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 490,
+      "draft_rank": 492,
       "element_type": 2,
       "first_name": "Kim",
       "id": 92,
@@ -1409,7 +1409,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 491,
+      "draft_rank": 493,
       "element_type": 2,
       "first_name": "Jannik",
       "id": 93,
@@ -1484,7 +1484,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 264,
+      "draft_rank": 265,
       "element_type": 3,
       "first_name": "Vitaly",
       "id": 98,
@@ -1499,7 +1499,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 338,
+      "draft_rank": 339,
       "element_type": 3,
       "first_name": "Antoni",
       "id": 99,
@@ -1514,7 +1514,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 315,
+      "draft_rank": 316,
       "element_type": 3,
       "first_name": "Fábio",
       "id": 100,
@@ -1529,7 +1529,7 @@
     {
       "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 263,
+      "draft_rank": 264,
       "element_type": 3,
       "first_name": "Jordan",
       "id": 101,
@@ -1559,7 +1559,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 337,
+      "draft_rank": 338,
       "element_type": 3,
       "first_name": "Josh",
       "id": 103,
@@ -1574,7 +1574,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 320,
+      "draft_rank": 321,
       "element_type": 3,
       "first_name": "Frank",
       "id": 104,
@@ -1619,7 +1619,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 482,
+      "draft_rank": 484,
       "element_type": 4,
       "first_name": "Kaye",
       "id": 107,
@@ -1649,7 +1649,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 404,
+      "draft_rank": 405,
       "element_type": 1,
       "first_name": "Bart",
       "id": 109,
@@ -1664,7 +1664,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 492,
+      "draft_rank": 494,
       "element_type": 1,
       "first_name": "Carl",
       "id": 110,
@@ -1679,7 +1679,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 565,
+      "draft_rank": 567,
       "element_type": 1,
       "first_name": "Jason",
       "id": 111,
@@ -1709,7 +1709,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 407,
+      "draft_rank": 409,
       "element_type": 2,
       "first_name": "Ferdi",
       "id": 113,
@@ -1724,7 +1724,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 442,
+      "draft_rank": 444,
       "element_type": 2,
       "first_name": "Olivier",
       "id": 114,
@@ -1739,7 +1739,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 422,
+      "draft_rank": 424,
       "element_type": 2,
       "first_name": "Maxim",
       "id": 115,
@@ -1754,7 +1754,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 415,
+      "draft_rank": 417,
       "element_type": 2,
       "first_name": "Lewis",
       "id": 116,
@@ -1769,7 +1769,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 465,
+      "draft_rank": 467,
       "element_type": 2,
       "first_name": "Diego",
       "id": 117,
@@ -1784,7 +1784,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 468,
+      "draft_rank": 470,
       "element_type": 2,
       "first_name": "Igor Julio",
       "id": 118,
@@ -1799,7 +1799,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 493,
+      "draft_rank": 495,
       "element_type": 2,
       "first_name": "João Pedro",
       "id": 119,
@@ -1814,7 +1814,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 342,
+      "draft_rank": 343,
       "element_type": 2,
       "first_name": "Michael",
       "id": 120,
@@ -1934,7 +1934,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 333,
+      "draft_rank": 334,
       "element_type": 3,
       "first_name": "Facundo",
       "id": 128,
@@ -1979,7 +1979,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 283,
+      "draft_rank": 284,
       "element_type": 3,
       "first_name": "Carlos",
       "id": 131,
@@ -1994,7 +1994,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 471,
+      "draft_rank": 473,
       "element_type": 3,
       "first_name": "Harry",
       "id": 132,
@@ -2009,7 +2009,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 329,
+      "draft_rank": 330,
       "element_type": 3,
       "first_name": "Tom",
       "id": 133,
@@ -2024,7 +2024,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 483,
+      "draft_rank": 485,
       "element_type": 3,
       "first_name": "Nehemiah",
       "id": 134,
@@ -2039,7 +2039,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 343,
+      "draft_rank": 344,
       "element_type": 3,
       "first_name": "Zadok",
       "id": 135,
@@ -2099,7 +2099,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 344,
+      "draft_rank": 345,
       "element_type": 4,
       "first_name": "Evan",
       "id": 139,
@@ -2129,7 +2129,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 324,
+      "draft_rank": 325,
       "element_type": 1,
       "first_name": "Filip",
       "id": 141,
@@ -2189,7 +2189,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 275,
+      "draft_rank": 276,
       "element_type": 2,
       "first_name": "Wesley",
       "id": 145,
@@ -2204,7 +2204,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 466,
+      "draft_rank": 468,
       "element_type": 2,
       "first_name": "Benoît",
       "id": 146,
@@ -2219,7 +2219,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 447,
+      "draft_rank": 449,
       "element_type": 2,
       "first_name": "Tosin",
       "id": 147,
@@ -2234,7 +2234,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 455,
+      "draft_rank": 457,
       "element_type": 2,
       "first_name": "Jorrel",
       "id": 148,
@@ -2249,7 +2249,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 326,
+      "draft_rank": 327,
       "element_type": 2,
       "first_name": "Levi",
       "id": 149,
@@ -2264,7 +2264,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
-      "draft_rank": 472,
+      "draft_rank": 474,
       "element_type": 2,
       "first_name": "Mamadou",
       "id": 150,
@@ -2279,7 +2279,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 443,
+      "draft_rank": 445,
       "element_type": 2,
       "first_name": "Josh",
       "id": 151,
@@ -2309,7 +2309,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 494,
+      "draft_rank": 496,
       "element_type": 2,
       "first_name": "Axel",
       "id": 153,
@@ -2429,7 +2429,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 316,
+      "draft_rank": 317,
       "element_type": 3,
       "first_name": "Roméo",
       "id": 161,
@@ -2444,7 +2444,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 292,
+      "draft_rank": 293,
       "element_type": 3,
       "first_name": "Andrey",
       "id": 162,
@@ -2459,7 +2459,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 484,
+      "draft_rank": 486,
       "element_type": 3,
       "first_name": "Dário",
       "id": 163,
@@ -2534,7 +2534,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 317,
+      "draft_rank": 318,
       "element_type": 4,
       "first_name": "Marc",
       "id": 168,
@@ -2549,7 +2549,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 485,
+      "draft_rank": 487,
       "element_type": 4,
       "first_name": "Shumaira",
       "id": 169,
@@ -2564,7 +2564,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 345,
+      "draft_rank": 346,
       "element_type": 4,
       "first_name": "Emmanuel",
       "id": 170,
@@ -2579,7 +2579,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 566,
+      "draft_rank": 568,
       "element_type": 1,
       "first_name": "Oliver",
       "id": 171,
@@ -2594,7 +2594,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 495,
+      "draft_rank": 497,
       "element_type": 1,
       "first_name": "Ben",
       "id": 172,
@@ -2609,7 +2609,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 567,
+      "draft_rank": 569,
       "element_type": 2,
       "first_name": "Bobby",
       "id": 173,
@@ -2624,7 +2624,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 568,
+      "draft_rank": 570,
       "element_type": 2,
       "first_name": "Liam",
       "id": 174,
@@ -2639,7 +2639,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 569,
+      "draft_rank": 571,
       "element_type": 2,
       "first_name": "Milan",
       "id": 175,
@@ -2654,7 +2654,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 570,
+      "draft_rank": 572,
       "element_type": 2,
       "first_name": "Jay",
       "id": 176,
@@ -2669,7 +2669,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 571,
+      "draft_rank": 573,
       "element_type": 2,
       "first_name": "Kaine",
       "id": 177,
@@ -2684,7 +2684,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 572,
+      "draft_rank": 574,
       "element_type": 2,
       "first_name": "Jake",
       "id": 178,
@@ -2699,7 +2699,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 573,
+      "draft_rank": 575,
       "element_type": 2,
       "first_name": "Joel",
       "id": 179,
@@ -2714,7 +2714,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 574,
+      "draft_rank": 576,
       "element_type": 2,
       "first_name": "Luke",
       "id": 180,
@@ -2729,7 +2729,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
-      "draft_rank": 575,
+      "draft_rank": 577,
       "element_type": 2,
       "first_name": "Miguel",
       "id": 181,
@@ -2744,7 +2744,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 576,
+      "draft_rank": 578,
       "element_type": 2,
       "first_name": "Aurèle",
       "id": 182,
@@ -2759,7 +2759,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 346,
+      "draft_rank": 347,
       "element_type": 3,
       "first_name": "Jack",
       "id": 183,
@@ -2774,7 +2774,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 347,
+      "draft_rank": 348,
       "element_type": 3,
       "first_name": "Matt",
       "id": 184,
@@ -2789,7 +2789,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 348,
+      "draft_rank": 349,
       "element_type": 3,
       "first_name": "Tatsuhiro",
       "id": 185,
@@ -2819,7 +2819,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 349,
+      "draft_rank": 350,
       "element_type": 3,
       "first_name": "Josh",
       "id": 187,
@@ -2849,7 +2849,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 496,
+      "draft_rank": 498,
       "element_type": 3,
       "first_name": "George",
       "id": 189,
@@ -2879,7 +2879,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 497,
+      "draft_rank": 499,
       "element_type": 3,
       "first_name": "Raphael",
       "id": 191,
@@ -2894,7 +2894,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
-      "draft_rank": 498,
+      "draft_rank": 500,
       "element_type": 3,
       "first_name": "Kai",
       "id": 192,
@@ -2924,7 +2924,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 350,
+      "draft_rank": 351,
       "element_type": 4,
       "first_name": "Brandon",
       "id": 194,
@@ -2939,7 +2939,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 351,
+      "draft_rank": 352,
       "element_type": 4,
       "first_name": "Ellis",
       "id": 195,
@@ -2954,7 +2954,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 352,
+      "draft_rank": 353,
       "element_type": 4,
       "first_name": "Jahnoah",
       "id": 196,
@@ -2969,7 +2969,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 499,
+      "draft_rank": 501,
       "element_type": 4,
       "first_name": "Norman",
       "id": 197,
@@ -2999,7 +2999,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 467,
+      "draft_rank": 469,
       "element_type": 1,
       "first_name": "Walter",
       "id": 199,
@@ -3059,7 +3059,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 267,
+      "draft_rank": 268,
       "element_type": 2,
       "first_name": "Jaydee",
       "id": 203,
@@ -3074,7 +3074,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 403,
+      "draft_rank": 404,
       "element_type": 2,
       "first_name": "Tyrick",
       "id": 204,
@@ -3089,7 +3089,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 469,
+      "draft_rank": 471,
       "element_type": 2,
       "first_name": "Borna",
       "id": 205,
@@ -3104,7 +3104,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 453,
+      "draft_rank": 455,
       "element_type": 2,
       "first_name": "Chadi",
       "id": 206,
@@ -3119,7 +3119,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 500,
+      "draft_rank": 502,
       "element_type": 2,
       "first_name": "Oscar",
       "id": 207,
@@ -3194,7 +3194,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 439,
+      "draft_rank": 441,
       "element_type": 3,
       "first_name": "Will",
       "id": 212,
@@ -3209,7 +3209,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 269,
+      "draft_rank": 270,
       "element_type": 3,
       "first_name": "Jefferson",
       "id": 213,
@@ -3224,7 +3224,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 272,
+      "draft_rank": 273,
       "element_type": 3,
       "first_name": "Daichi",
       "id": 214,
@@ -3239,7 +3239,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 301,
+      "draft_rank": 302,
       "element_type": 3,
       "first_name": "Justin",
       "id": 215,
@@ -3254,7 +3254,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 331,
+      "draft_rank": 332,
       "element_type": 3,
       "first_name": "Romain",
       "id": 216,
@@ -3269,7 +3269,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 353,
+      "draft_rank": 354,
       "element_type": 3,
       "first_name": "Matheus",
       "id": 217,
@@ -3284,7 +3284,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 354,
+      "draft_rank": 355,
       "element_type": 3,
       "first_name": "Cheick",
       "id": 218,
@@ -3299,7 +3299,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 355,
+      "draft_rank": 356,
       "element_type": 3,
       "first_name": "Jesurun",
       "id": 219,
@@ -3314,7 +3314,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 474,
+      "draft_rank": 476,
       "element_type": 2,
       "first_name": "Rio",
       "id": 220,
@@ -3329,7 +3329,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 475,
+      "draft_rank": 477,
       "element_type": 3,
       "first_name": "Joél",
       "id": 221,
@@ -3389,7 +3389,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 312,
+      "draft_rank": 313,
       "element_type": 4,
       "first_name": "Christantus",
       "id": 225,
@@ -3419,7 +3419,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 356,
+      "draft_rank": 357,
       "element_type": 1,
       "first_name": "Mark",
       "id": 227,
@@ -3434,7 +3434,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 501,
+      "draft_rank": 503,
       "element_type": 1,
       "first_name": "Tom",
       "id": 228,
@@ -3509,7 +3509,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 418,
+      "draft_rank": 420,
       "element_type": 2,
       "first_name": "Vitalii",
       "id": 233,
@@ -3524,7 +3524,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 452,
+      "draft_rank": 454,
       "element_type": 2,
       "first_name": "Nathan",
       "id": 234,
@@ -3539,7 +3539,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 577,
+      "draft_rank": 579,
       "element_type": 2,
       "first_name": "Adam",
       "id": 235,
@@ -3614,7 +3614,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 270,
+      "draft_rank": 271,
       "element_type": 3,
       "first_name": "Tim",
       "id": 240,
@@ -3659,7 +3659,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 308,
+      "draft_rank": 309,
       "element_type": 3,
       "first_name": "Carlos",
       "id": 243,
@@ -3674,7 +3674,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 310,
+      "draft_rank": 311,
       "element_type": 3,
       "first_name": "Harrison",
       "id": 244,
@@ -3704,7 +3704,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 302,
+      "draft_rank": 303,
       "element_type": 3,
       "first_name": "Merlin",
       "id": 246,
@@ -3764,7 +3764,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 406,
+      "draft_rank": 408,
       "element_type": 1,
       "first_name": "Bernd",
       "id": 250,
@@ -3779,7 +3779,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 578,
+      "draft_rank": 580,
       "element_type": 1,
       "first_name": "Benjamin",
       "id": 251,
@@ -3794,7 +3794,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 579,
+      "draft_rank": 581,
       "element_type": 1,
       "first_name": "Alfie",
       "id": 252,
@@ -3824,7 +3824,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 430,
+      "draft_rank": 432,
       "element_type": 2,
       "first_name": "Antonee",
       "id": 254,
@@ -3839,7 +3839,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 444,
+      "draft_rank": 446,
       "element_type": 2,
       "first_name": "Jorge",
       "id": 255,
@@ -3854,7 +3854,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 423,
+      "draft_rank": 425,
       "element_type": 2,
       "first_name": "Kenny",
       "id": 256,
@@ -3869,7 +3869,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 413,
+      "draft_rank": 415,
       "element_type": 2,
       "first_name": "Calvin",
       "id": 257,
@@ -3884,7 +3884,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 432,
+      "draft_rank": 434,
       "element_type": 2,
       "first_name": "Timothy",
       "id": 258,
@@ -3899,7 +3899,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 549,
+      "draft_rank": 551,
       "element_type": 2,
       "first_name": "Issa",
       "id": 259,
@@ -3948,7 +3948,7 @@
       "element_type": 3,
       "first_name": "Emile",
       "id": 262,
-      "minutes": 13,
+      "minutes": 14,
       "news": "",
       "second_name": "Smith Rowe",
       "status": "a",
@@ -3989,7 +3989,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 254,
+      "draft_rank": 255,
       "element_type": 3,
       "first_name": "Sander",
       "id": 265,
@@ -4004,7 +4004,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 296,
+      "draft_rank": 297,
       "element_type": 3,
       "first_name": "Tom",
       "id": 266,
@@ -4019,7 +4019,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 273,
+      "draft_rank": 274,
       "element_type": 3,
       "first_name": "Saša",
       "id": 267,
@@ -4049,7 +4049,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 419,
+      "draft_rank": 421,
       "element_type": 2,
       "first_name": "Ryan",
       "id": 269,
@@ -4064,7 +4064,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 459,
+      "draft_rank": 461,
       "element_type": 3,
       "first_name": "Harrison",
       "id": 270,
@@ -4094,7 +4094,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 470,
+      "draft_rank": 472,
       "element_type": 4,
       "first_name": "Jonah",
       "id": 272,
@@ -4109,7 +4109,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 580,
+      "draft_rank": 582,
       "element_type": 1,
       "first_name": "Dillon",
       "id": 273,
@@ -4124,7 +4124,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 502,
+      "draft_rank": 504,
       "element_type": 1,
       "first_name": "Jack",
       "id": 274,
@@ -4139,7 +4139,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 581,
+      "draft_rank": 583,
       "element_type": 1,
       "first_name": "Harvey",
       "id": 275,
@@ -4154,7 +4154,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 582,
+      "draft_rank": 584,
       "element_type": 1,
       "first_name": "Thimothée",
       "id": 276,
@@ -4169,7 +4169,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 583,
+      "draft_rank": 585,
       "element_type": 2,
       "first_name": "John",
       "id": 277,
@@ -4184,7 +4184,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 584,
+      "draft_rank": 586,
       "element_type": 2,
       "first_name": "Charlie",
       "id": 278,
@@ -4199,7 +4199,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 585,
+      "draft_rank": 587,
       "element_type": 2,
       "first_name": "Semi",
       "id": 279,
@@ -4214,7 +4214,7 @@
     {
       "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 586,
+      "draft_rank": 588,
       "element_type": 2,
       "first_name": "Lewie",
       "id": 280,
@@ -4229,7 +4229,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 587,
+      "draft_rank": 589,
       "element_type": 2,
       "first_name": "Cody",
       "id": 281,
@@ -4244,7 +4244,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 588,
+      "draft_rank": 590,
       "element_type": 2,
       "first_name": "Ryan",
       "id": 282,
@@ -4259,7 +4259,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 589,
+      "draft_rank": 591,
       "element_type": 2,
       "first_name": "Matty",
       "id": 283,
@@ -4274,7 +4274,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 590,
+      "draft_rank": 592,
       "element_type": 2,
       "first_name": "Cathal",
       "id": 284,
@@ -4289,7 +4289,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 591,
+      "draft_rank": 593,
       "element_type": 2,
       "first_name": "Paddy",
       "id": 285,
@@ -4304,7 +4304,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 357,
+      "draft_rank": 358,
       "element_type": 3,
       "first_name": "Mohamed",
       "id": 286,
@@ -4319,7 +4319,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 358,
+      "draft_rank": 359,
       "element_type": 3,
       "first_name": "Liam",
       "id": 287,
@@ -4334,7 +4334,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 503,
+      "draft_rank": 505,
       "element_type": 3,
       "first_name": "Kieran",
       "id": 288,
@@ -4349,7 +4349,7 @@
     {
       "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": null,
-      "draft_rank": 504,
+      "draft_rank": 506,
       "element_type": 3,
       "first_name": "Matt",
       "id": 289,
@@ -4364,7 +4364,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 505,
+      "draft_rank": 507,
       "element_type": 3,
       "first_name": "Regan",
       "id": 290,
@@ -4379,7 +4379,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 506,
+      "draft_rank": 508,
       "element_type": 3,
       "first_name": "Eliot",
       "id": 291,
@@ -4394,7 +4394,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 359,
+      "draft_rank": 360,
       "element_type": 3,
       "first_name": "Abdülkadir",
       "id": 292,
@@ -4409,7 +4409,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 360,
+      "draft_rank": 361,
       "element_type": 3,
       "first_name": "Abu",
       "id": 293,
@@ -4424,7 +4424,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 507,
+      "draft_rank": 509,
       "element_type": 3,
       "first_name": "Óscar",
       "id": 294,
@@ -4454,7 +4454,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 361,
+      "draft_rank": 362,
       "element_type": 3,
       "first_name": "David",
       "id": 296,
@@ -4469,7 +4469,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 508,
+      "draft_rank": 510,
       "element_type": 3,
       "first_name": "Darko",
       "id": 297,
@@ -4484,7 +4484,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 509,
+      "draft_rank": 511,
       "element_type": 4,
       "first_name": "Enis",
       "id": 298,
@@ -4499,7 +4499,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 510,
+      "draft_rank": 512,
       "element_type": 4,
       "first_name": "Mason",
       "id": 299,
@@ -4514,7 +4514,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 511,
+      "draft_rank": 513,
       "element_type": 1,
       "first_name": "Christian",
       "id": 300,
@@ -4529,7 +4529,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 592,
+      "draft_rank": 594,
       "element_type": 1,
       "first_name": "Alex",
       "id": 301,
@@ -4544,7 +4544,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 593,
+      "draft_rank": 595,
       "element_type": 1,
       "first_name": "David",
       "id": 302,
@@ -4559,7 +4559,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 594,
+      "draft_rank": 596,
       "element_type": 2,
       "first_name": "Cédric",
       "id": 303,
@@ -4574,7 +4574,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 595,
+      "draft_rank": 597,
       "element_type": 2,
       "first_name": "Dara",
       "id": 304,
@@ -4589,7 +4589,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 596,
+      "draft_rank": 598,
       "element_type": 2,
       "first_name": "Leif",
       "id": 305,
@@ -4604,7 +4604,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 597,
+      "draft_rank": 599,
       "element_type": 2,
       "first_name": "Jacob",
       "id": 306,
@@ -4619,7 +4619,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 598,
+      "draft_rank": 600,
       "element_type": 2,
       "first_name": "Ben",
       "id": 307,
@@ -4634,7 +4634,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 599,
+      "draft_rank": 601,
       "element_type": 2,
       "first_name": "Darnell",
       "id": 308,
@@ -4649,7 +4649,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 362,
+      "draft_rank": 363,
       "element_type": 3,
       "first_name": "Marcelino",
       "id": 309,
@@ -4664,7 +4664,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 363,
+      "draft_rank": 364,
       "element_type": 3,
       "first_name": "Azor",
       "id": 310,
@@ -4679,7 +4679,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 364,
+      "draft_rank": 365,
       "element_type": 3,
       "first_name": "Wes",
       "id": 311,
@@ -4694,7 +4694,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 512,
+      "draft_rank": 514,
       "element_type": 3,
       "first_name": "Jack",
       "id": 312,
@@ -4724,7 +4724,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 365,
+      "draft_rank": 366,
       "element_type": 3,
       "first_name": "Chiedozie",
       "id": 314,
@@ -4769,7 +4769,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 366,
+      "draft_rank": 367,
       "element_type": 4,
       "first_name": "George",
       "id": 317,
@@ -4799,7 +4799,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 367,
+      "draft_rank": 368,
       "element_type": 3,
       "first_name": "Sam",
       "id": 319,
@@ -4814,7 +4814,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 368,
+      "draft_rank": 369,
       "element_type": 4,
       "first_name": "Chuba",
       "id": 320,
@@ -4829,7 +4829,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 513,
+      "draft_rank": 515,
       "element_type": 4,
       "first_name": "Sindre",
       "id": 321,
@@ -4844,7 +4844,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 369,
+      "draft_rank": 370,
       "element_type": 4,
       "first_name": "Ali",
       "id": 322,
@@ -4859,7 +4859,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 514,
+      "draft_rank": 516,
       "element_type": 3,
       "first_name": "Kasey",
       "id": 323,
@@ -4874,7 +4874,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 370,
+      "draft_rank": 371,
       "element_type": 3,
       "first_name": "Anis",
       "id": 324,
@@ -4889,7 +4889,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 427,
+      "draft_rank": 429,
       "element_type": 1,
       "first_name": "Karl",
       "id": 325,
@@ -4904,7 +4904,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 440,
+      "draft_rank": 442,
       "element_type": 1,
       "first_name": "Lucas Estella",
       "id": 326,
@@ -4949,7 +4949,7 @@
     {
       "chance_of_playing_next_round": 50,
       "chance_of_playing_this_round": null,
-      "draft_rank": 412,
+      "draft_rank": 414,
       "element_type": 2,
       "first_name": "Joe",
       "id": 329,
@@ -4964,7 +4964,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 417,
+      "draft_rank": 419,
       "element_type": 2,
       "first_name": "Jayden",
       "id": 330,
@@ -4979,7 +4979,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 428,
+      "draft_rank": 430,
       "element_type": 2,
       "first_name": "Gabriel",
       "id": 331,
@@ -4994,7 +4994,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 420,
+      "draft_rank": 422,
       "element_type": 2,
       "first_name": "James",
       "id": 332,
@@ -5009,7 +5009,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 451,
+      "draft_rank": 453,
       "element_type": 2,
       "first_name": "Sebastiaan",
       "id": 333,
@@ -5024,7 +5024,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 371,
+      "draft_rank": 372,
       "element_type": 2,
       "first_name": "Tarik",
       "id": 334,
@@ -5099,7 +5099,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 284,
+      "draft_rank": 285,
       "element_type": 3,
       "first_name": "Sean",
       "id": 339,
@@ -5114,7 +5114,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 372,
+      "draft_rank": 373,
       "element_type": 3,
       "first_name": "Joe",
       "id": 340,
@@ -5129,7 +5129,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 307,
+      "draft_rank": 308,
       "element_type": 3,
       "first_name": "Wilfried",
       "id": 341,
@@ -5144,7 +5144,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 321,
+      "draft_rank": 322,
       "element_type": 3,
       "first_name": "Jack",
       "id": 342,
@@ -5159,7 +5159,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 309,
+      "draft_rank": 310,
       "element_type": 3,
       "first_name": "Daniel",
       "id": 343,
@@ -5174,7 +5174,7 @@
     {
       "chance_of_playing_next_round": 25,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 285,
+      "draft_rank": 286,
       "element_type": 3,
       "first_name": "Ilia",
       "id": 344,
@@ -5189,7 +5189,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 274,
+      "draft_rank": 275,
       "element_type": 3,
       "first_name": "Tanaka",
       "id": 345,
@@ -5234,7 +5234,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 313,
+      "draft_rank": 314,
       "element_type": 4,
       "first_name": "Joël",
       "id": 348,
@@ -5249,7 +5249,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 515,
+      "draft_rank": 517,
       "element_type": 4,
       "first_name": "Mateo",
       "id": 349,
@@ -5279,7 +5279,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 304,
+      "draft_rank": 305,
       "element_type": 1,
       "first_name": "Giorgi",
       "id": 351,
@@ -5294,7 +5294,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 552,
+      "draft_rank": 554,
       "element_type": 1,
       "first_name": "Freddie",
       "id": 352,
@@ -5309,7 +5309,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 600,
+      "draft_rank": 602,
       "element_type": 1,
       "first_name": "Armin",
       "id": 353,
@@ -5324,7 +5324,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 601,
+      "draft_rank": 603,
       "element_type": 1,
       "first_name": "Vitezslav",
       "id": 354,
@@ -5339,7 +5339,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 602,
+      "draft_rank": 604,
       "element_type": 1,
       "first_name": "Harvey",
       "id": 355,
@@ -5399,7 +5399,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 306,
+      "draft_rank": 307,
       "element_type": 2,
       "first_name": "Joe",
       "id": 359,
@@ -5414,7 +5414,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 295,
+      "draft_rank": 296,
       "element_type": 2,
       "first_name": "Conor",
       "id": 360,
@@ -5429,7 +5429,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 603,
+      "draft_rank": 605,
       "element_type": 2,
       "first_name": "Wellity",
       "id": 361,
@@ -5444,7 +5444,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 373,
+      "draft_rank": 374,
       "element_type": 2,
       "first_name": "Jeremy",
       "id": 362,
@@ -5459,7 +5459,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 604,
+      "draft_rank": 606,
       "element_type": 2,
       "first_name": "Giovanni",
       "id": 363,
@@ -5474,7 +5474,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 374,
+      "draft_rank": 375,
       "element_type": 2,
       "first_name": "Kostas",
       "id": 364,
@@ -5489,7 +5489,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 605,
+      "draft_rank": 607,
       "element_type": 2,
       "first_name": "Calvin",
       "id": 365,
@@ -5624,7 +5624,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 322,
+      "draft_rank": 323,
       "element_type": 3,
       "first_name": "Endo",
       "id": 374,
@@ -5639,7 +5639,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 328,
+      "draft_rank": 329,
       "element_type": 3,
       "first_name": "Trey",
       "id": 375,
@@ -5654,7 +5654,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 375,
+      "draft_rank": 376,
       "element_type": 3,
       "first_name": "Stefan",
       "id": 376,
@@ -5684,7 +5684,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 516,
+      "draft_rank": 518,
       "element_type": 3,
       "first_name": "James",
       "id": 378,
@@ -5729,7 +5729,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 376,
+      "draft_rank": 377,
       "element_type": 3,
       "first_name": "Lewis",
       "id": 381,
@@ -5744,7 +5744,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 517,
+      "draft_rank": 519,
       "element_type": 4,
       "first_name": "Jayden",
       "id": 382,
@@ -5789,7 +5789,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 318,
+      "draft_rank": 319,
       "element_type": 1,
       "first_name": "James",
       "id": 385,
@@ -5804,7 +5804,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 518,
+      "draft_rank": 520,
       "element_type": 1,
       "first_name": "Marcus",
       "id": 386,
@@ -5924,7 +5924,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 330,
+      "draft_rank": 331,
       "element_type": 2,
       "first_name": "Max",
       "id": 394,
@@ -5939,7 +5939,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 456,
+      "draft_rank": 458,
       "element_type": 2,
       "first_name": "Rico",
       "id": 395,
@@ -5954,7 +5954,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 519,
+      "draft_rank": 521,
       "element_type": 2,
       "first_name": "Vitor",
       "id": 396,
@@ -6119,7 +6119,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 377,
+      "draft_rank": 378,
       "element_type": 3,
       "first_name": "Claudio",
       "id": 407,
@@ -6134,7 +6134,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 378,
+      "draft_rank": 379,
       "element_type": 3,
       "first_name": "Kalvin",
       "id": 408,
@@ -6149,7 +6149,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 476,
+      "draft_rank": 478,
       "element_type": 3,
       "first_name": "Divine",
       "id": 409,
@@ -6164,7 +6164,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 379,
+      "draft_rank": 380,
       "element_type": 3,
       "first_name": "Jeremy",
       "id": 410,
@@ -6209,7 +6209,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 462,
+      "draft_rank": 464,
       "element_type": 1,
       "first_name": "Altay",
       "id": 413,
@@ -6224,7 +6224,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 606,
+      "draft_rank": 608,
       "element_type": 1,
       "first_name": "Tom",
       "id": 414,
@@ -6254,7 +6254,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 294,
+      "draft_rank": 295,
       "element_type": 2,
       "first_name": "Matthijs",
       "id": 416,
@@ -6284,7 +6284,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 256,
+      "draft_rank": 257,
       "element_type": 2,
       "first_name": "Harry",
       "id": 418,
@@ -6299,7 +6299,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 288,
+      "draft_rank": 289,
       "element_type": 2,
       "first_name": "Lisandro",
       "id": 419,
@@ -6314,7 +6314,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 286,
+      "draft_rank": 287,
       "element_type": 2,
       "first_name": "Leny",
       "id": 420,
@@ -6329,7 +6329,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 441,
+      "draft_rank": 443,
       "element_type": 2,
       "first_name": "Ayden",
       "id": 421,
@@ -6344,7 +6344,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 436,
+      "draft_rank": 438,
       "element_type": 2,
       "first_name": "Noussair",
       "id": 422,
@@ -6359,7 +6359,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 410,
+      "draft_rank": 412,
       "element_type": 2,
       "first_name": "Luke",
       "id": 423,
@@ -6374,7 +6374,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 609,
+      "draft_rank": 611,
       "element_type": 2,
       "first_name": "Harry",
       "id": 424,
@@ -6389,7 +6389,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 558,
+      "draft_rank": 560,
       "element_type": 2,
       "first_name": "Tyler",
       "id": 425,
@@ -6509,7 +6509,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 299,
+      "draft_rank": 300,
       "element_type": 3,
       "first_name": "Manuel",
       "id": 433,
@@ -6524,7 +6524,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 334,
+      "draft_rank": 335,
       "element_type": 3,
       "first_name": "Jack",
       "id": 434,
@@ -6539,7 +6539,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 335,
+      "draft_rank": 336,
       "element_type": 3,
       "first_name": "Shea",
       "id": 435,
@@ -6554,7 +6554,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 380,
+      "draft_rank": 381,
       "element_type": 3,
       "first_name": "Toby",
       "id": 436,
@@ -6569,7 +6569,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 486,
+      "draft_rank": 488,
       "element_type": 3,
       "first_name": "Bendito",
       "id": 437,
@@ -6584,7 +6584,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 477,
+      "draft_rank": 479,
       "element_type": 3,
       "first_name": "Tyler",
       "id": 438,
@@ -6629,7 +6629,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 521,
+      "draft_rank": 523,
       "element_type": 4,
       "first_name": "Chido",
       "id": 441,
@@ -6659,7 +6659,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 523,
+      "draft_rank": 525,
       "element_type": 1,
       "first_name": "Mark",
       "id": 443,
@@ -6674,7 +6674,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 526,
+      "draft_rank": 528,
       "element_type": 1,
       "first_name": "Ewen",
       "id": 444,
@@ -6704,7 +6704,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 289,
+      "draft_rank": 290,
       "element_type": 2,
       "first_name": "Fabian",
       "id": 446,
@@ -6719,7 +6719,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 257,
+      "draft_rank": 258,
       "element_type": 2,
       "first_name": "Sven",
       "id": 447,
@@ -6734,7 +6734,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 253,
+      "draft_rank": 254,
       "element_type": 2,
       "first_name": "Dan",
       "id": 448,
@@ -6749,7 +6749,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 260,
+      "draft_rank": 261,
       "element_type": 2,
       "first_name": "Lewis",
       "id": 449,
@@ -6764,7 +6764,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 281,
+      "draft_rank": 282,
       "element_type": 2,
       "first_name": "Tino",
       "id": 450,
@@ -6779,7 +6779,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 557,
+      "draft_rank": 559,
       "element_type": 2,
       "first_name": "Alex",
       "id": 451,
@@ -6854,7 +6854,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 277,
+      "draft_rank": 278,
       "element_type": 3,
       "first_name": "Jacob",
       "id": 456,
@@ -6914,7 +6914,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 300,
+      "draft_rank": 301,
       "element_type": 3,
       "first_name": "Joe",
       "id": 460,
@@ -6944,7 +6944,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 384,
+      "draft_rank": 385,
       "element_type": 3,
       "first_name": "Sean",
       "id": 462,
@@ -7004,7 +7004,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 487,
+      "draft_rank": 489,
       "element_type": 4,
       "first_name": "Sean",
       "id": 466,
@@ -7034,7 +7034,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 463,
+      "draft_rank": 465,
       "element_type": 1,
       "first_name": "John Victor",
       "id": 468,
@@ -7064,7 +7064,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 287,
+      "draft_rank": 288,
       "element_type": 2,
       "first_name": "Felipe",
       "id": 470,
@@ -7109,7 +7109,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 429,
+      "draft_rank": 431,
       "element_type": 2,
       "first_name": "Ola",
       "id": 473,
@@ -7124,7 +7124,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 461,
+      "draft_rank": 463,
       "element_type": 2,
       "first_name": "Jair",
       "id": 474,
@@ -7139,7 +7139,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 445,
+      "draft_rank": 447,
       "element_type": 2,
       "first_name": "Nicolò",
       "id": 475,
@@ -7154,7 +7154,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 610,
+      "draft_rank": 612,
       "element_type": 2,
       "first_name": "Omar",
       "id": 476,
@@ -7169,7 +7169,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 555,
+      "draft_rank": 557,
       "element_type": 2,
       "first_name": "Zach",
       "id": 477,
@@ -7184,7 +7184,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 464,
+      "draft_rank": 466,
       "element_type": 2,
       "first_name": "Luca",
       "id": 478,
@@ -7199,7 +7199,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 611,
+      "draft_rank": 613,
       "element_type": 2,
       "first_name": "Tyler",
       "id": 479,
@@ -7319,7 +7319,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 290,
+      "draft_rank": 291,
       "element_type": 3,
       "first_name": "Nicolás",
       "id": 487,
@@ -7334,7 +7334,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 258,
+      "draft_rank": 259,
       "element_type": 3,
       "first_name": "Ibrahim",
       "id": 488,
@@ -7349,7 +7349,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 448,
+      "draft_rank": 450,
       "element_type": 3,
       "first_name": "Ryan",
       "id": 489,
@@ -7424,7 +7424,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 421,
+      "draft_rank": 423,
       "element_type": 1,
       "first_name": "Guglielmo",
       "id": 494,
@@ -7439,7 +7439,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 612,
+      "draft_rank": 614,
       "element_type": 1,
       "first_name": "Brandon",
       "id": 495,
@@ -7454,7 +7454,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 454,
+      "draft_rank": 456,
       "element_type": 1,
       "first_name": "Antonín",
       "id": 496,
@@ -7469,7 +7469,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 548,
+      "draft_rank": 550,
       "element_type": 1,
       "first_name": "Martin",
       "id": 497,
@@ -7514,7 +7514,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 255,
+      "draft_rank": 256,
       "element_type": 2,
       "first_name": "Cristian",
       "id": 500,
@@ -7529,7 +7529,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 276,
+      "draft_rank": 277,
       "element_type": 2,
       "first_name": "Kevin",
       "id": 501,
@@ -7544,7 +7544,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 434,
+      "draft_rank": 436,
       "element_type": 2,
       "first_name": "Andrew",
       "id": 502,
@@ -7574,7 +7574,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 386,
+      "draft_rank": 387,
       "element_type": 2,
       "first_name": "Luka",
       "id": 504,
@@ -7589,7 +7589,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 424,
+      "draft_rank": 426,
       "element_type": 2,
       "first_name": "Djed",
       "id": 505,
@@ -7604,7 +7604,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 450,
+      "draft_rank": 452,
       "element_type": 2,
       "first_name": "Destiny",
       "id": 506,
@@ -7619,7 +7619,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 527,
+      "draft_rank": 529,
       "element_type": 2,
       "first_name": "Ashley",
       "id": 507,
@@ -7634,7 +7634,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 551,
+      "draft_rank": 553,
       "element_type": 2,
       "first_name": "Ben",
       "id": 508,
@@ -7649,7 +7649,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 559,
+      "draft_rank": 561,
       "element_type": 2,
       "first_name": "Jun'ai",
       "id": 509,
@@ -7664,7 +7664,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 560,
+      "draft_rank": 562,
       "element_type": 2,
       "first_name": "James",
       "id": 510,
@@ -7679,7 +7679,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 556,
+      "draft_rank": 558,
       "element_type": 2,
       "first_name": "João Victor",
       "id": 511,
@@ -7784,7 +7784,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 268,
+      "draft_rank": 269,
       "element_type": 3,
       "first_name": "Pape Matar",
       "id": 518,
@@ -7844,7 +7844,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 279,
+      "draft_rank": 280,
       "element_type": 3,
       "first_name": "Archie",
       "id": 522,
@@ -7859,7 +7859,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 388,
+      "draft_rank": 389,
       "element_type": 3,
       "first_name": "Mikey",
       "id": 523,
@@ -7874,7 +7874,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 488,
+      "draft_rank": 490,
       "element_type": 3,
       "first_name": "Callum",
       "id": 524,
@@ -7934,7 +7934,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 478,
+      "draft_rank": 480,
       "element_type": 4,
       "first_name": "Dane",
       "id": 528,
@@ -7964,7 +7964,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 613,
+      "draft_rank": 615,
       "element_type": 1,
       "first_name": "Anthony",
       "id": 530,
@@ -7979,7 +7979,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 458,
+      "draft_rank": 460,
       "element_type": 1,
       "first_name": "Melker",
       "id": 531,
@@ -8003,7 +8003,7 @@
       "second_name": "Ballard",
       "status": "a",
       "team": 20,
-      "total_points": 6,
+      "total_points": 8,
       "web_name": "Ballard"
     },
     {
@@ -8018,13 +8018,13 @@
       "second_name": "Mukiele",
       "status": "a",
       "team": 20,
-      "total_points": 11,
+      "total_points": 9,
       "web_name": "Mukiele"
     },
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 411,
+      "draft_rank": 413,
       "element_type": 2,
       "first_name": "Trai",
       "id": 534,
@@ -8054,7 +8054,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 426,
+      "draft_rank": 428,
       "element_type": 2,
       "first_name": "Reinildo",
       "id": 536,
@@ -8069,7 +8069,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": null,
-      "draft_rank": 479,
+      "draft_rank": 481,
       "element_type": 2,
       "first_name": "Jenson",
       "id": 537,
@@ -8084,7 +8084,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 623,
+      "draft_rank": 626,
       "element_type": 2,
       "first_name": "Leo Fuhr",
       "id": 538,
@@ -8099,7 +8099,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 550,
+      "draft_rank": 552,
       "element_type": 2,
       "first_name": "Luke",
       "id": 539,
@@ -8114,7 +8114,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 561,
+      "draft_rank": 563,
       "element_type": 2,
       "first_name": "Arthur",
       "id": 540,
@@ -8129,7 +8129,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 528,
+      "draft_rank": 530,
       "element_type": 2,
       "first_name": "Thomas",
       "id": 541,
@@ -8138,7 +8138,7 @@
       "second_name": "Meunier",
       "status": "a",
       "team": 20,
-      "total_points": 8,
+      "total_points": 7,
       "web_name": "Meunier"
     },
     {
@@ -8183,13 +8183,13 @@
       "second_name": "Xhaka",
       "status": "a",
       "team": 20,
-      "total_points": 12,
+      "total_points": 15,
       "web_name": "Xhaka"
     },
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 259,
+      "draft_rank": 260,
       "element_type": 3,
       "first_name": "Noah",
       "id": 545,
@@ -8204,7 +8204,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 305,
+      "draft_rank": 306,
       "element_type": 3,
       "first_name": "Simon",
       "id": 546,
@@ -8219,7 +8219,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 314,
+      "draft_rank": 315,
       "element_type": 3,
       "first_name": "Romaine",
       "id": 547,
@@ -8234,7 +8234,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 303,
+      "draft_rank": 304,
       "element_type": 3,
       "first_name": "Chris",
       "id": 548,
@@ -8264,7 +8264,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 339,
+      "draft_rank": 340,
       "element_type": 3,
       "first_name": "Djiamgone Jocelin Ta",
       "id": 550,
@@ -8279,7 +8279,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 319,
+      "draft_rank": 320,
       "element_type": 3,
       "first_name": "Nilson",
       "id": 551,
@@ -8339,7 +8339,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 387,
+      "draft_rank": 388,
       "element_type": 2,
       "first_name": "António João",
       "id": 555,
@@ -8369,7 +8369,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 525,
+      "draft_rank": 527,
       "element_type": 1,
       "first_name": "Mike",
       "id": 557,
@@ -8384,7 +8384,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 524,
+      "draft_rank": 526,
       "element_type": 2,
       "first_name": "Aaron",
       "id": 558,
@@ -8399,7 +8399,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 608,
+      "draft_rank": 610,
       "element_type": 1,
       "first_name": "Remi",
       "id": 559,
@@ -8414,7 +8414,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 607,
+      "draft_rank": 609,
       "element_type": 2,
       "first_name": "Matt",
       "id": 560,
@@ -8429,7 +8429,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 385,
+      "draft_rank": 386,
       "element_type": 3,
       "first_name": "Hidemasa",
       "id": 561,
@@ -8444,7 +8444,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 522,
+      "draft_rank": 524,
       "element_type": 1,
       "first_name": "Kayne",
       "id": 562,
@@ -8474,7 +8474,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 520,
+      "draft_rank": 522,
       "element_type": 1,
       "first_name": "Kjell",
       "id": 564,
@@ -8489,7 +8489,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 383,
+      "draft_rank": 384,
       "element_type": 3,
       "first_name": "Aladji",
       "id": 565,
@@ -8504,7 +8504,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 382,
+      "draft_rank": 383,
       "element_type": 1,
       "first_name": "Lukás",
       "id": 566,
@@ -8519,7 +8519,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 381,
+      "draft_rank": 382,
       "element_type": 3,
       "first_name": "Xaver",
       "id": 567,
@@ -8568,7 +8568,7 @@
       "element_type": 3,
       "first_name": "César",
       "id": 570,
-      "minutes": 148,
+      "minutes": 147,
       "news": "",
       "second_name": "Palacios",
       "status": "a",
@@ -8579,7 +8579,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 529,
+      "draft_rank": 531,
       "element_type": 1,
       "first_name": "Konstantinos",
       "id": 571,
@@ -8594,7 +8594,7 @@
     {
       "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 389,
+      "draft_rank": 390,
       "element_type": 3,
       "first_name": "Florentino Ibrain",
       "id": 572,
@@ -8609,7 +8609,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 534,
+      "draft_rank": 536,
       "element_type": 2,
       "first_name": "Juanlu",
       "id": 573,
@@ -8624,7 +8624,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 394,
+      "draft_rank": 395,
       "element_type": 3,
       "first_name": "Caleb",
       "id": 574,
@@ -8639,7 +8639,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 533,
+      "draft_rank": 535,
       "element_type": 2,
       "first_name": "Takehiro",
       "id": 575,
@@ -8654,7 +8654,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 391,
+      "draft_rank": 392,
       "element_type": 3,
       "first_name": "Jens",
       "id": 576,
@@ -8669,7 +8669,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 390,
+      "draft_rank": 391,
       "element_type": 3,
       "first_name": "Elliot",
       "id": 577,
@@ -8699,7 +8699,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 392,
+      "draft_rank": 393,
       "element_type": 3,
       "first_name": "Shea",
       "id": 579,
@@ -8759,7 +8759,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 393,
+      "draft_rank": 394,
       "element_type": 2,
       "first_name": "Pep",
       "id": 583,
@@ -8789,7 +8789,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 618,
+      "draft_rank": 620,
       "element_type": 2,
       "first_name": "Lucas",
       "id": 585,
@@ -8804,7 +8804,7 @@
     {
       "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 100,
-      "draft_rank": 614,
+      "draft_rank": 616,
       "element_type": 2,
       "first_name": "Nobel",
       "id": 586,
@@ -8819,7 +8819,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 395,
+      "draft_rank": 396,
       "element_type": 1,
       "first_name": "Gerónimo",
       "id": 587,
@@ -8834,7 +8834,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 398,
+      "draft_rank": 399,
       "element_type": 2,
       "first_name": "Anan",
       "id": 588,
@@ -8849,7 +8849,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 396,
+      "draft_rank": 397,
       "element_type": 3,
       "first_name": "Lucas",
       "id": 589,
@@ -8864,7 +8864,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 530,
+      "draft_rank": 532,
       "element_type": 1,
       "first_name": "Steven",
       "id": 590,
@@ -8894,7 +8894,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 616,
+      "draft_rank": 618,
       "element_type": 2,
       "first_name": "Abdoul",
       "id": 592,
@@ -8924,7 +8924,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 397,
+      "draft_rank": 398,
       "element_type": 3,
       "first_name": "Zavier",
       "id": 594,
@@ -8939,7 +8939,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 531,
+      "draft_rank": 533,
       "element_type": 2,
       "first_name": "Amar",
       "id": 595,
@@ -8954,7 +8954,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 535,
+      "draft_rank": 537,
       "element_type": 2,
       "first_name": "Matteo",
       "id": 596,
@@ -8969,7 +8969,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 400,
+      "draft_rank": 401,
       "element_type": 1,
       "first_name": "Zion",
       "id": 597,
@@ -8984,7 +8984,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 399,
+      "draft_rank": 400,
       "element_type": 4,
       "first_name": "Sidiki",
       "id": 598,
@@ -8999,7 +8999,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 532,
+      "draft_rank": 534,
       "element_type": 2,
       "first_name": "Nico",
       "id": 599,
@@ -9014,7 +9014,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 401,
+      "draft_rank": 402,
       "element_type": 3,
       "first_name": "Ibrahim",
       "id": 600,
@@ -9029,7 +9029,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 539,
+      "draft_rank": 541,
       "element_type": 3,
       "first_name": "Cameron",
       "id": 601,
@@ -9044,7 +9044,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 617,
+      "draft_rank": 619,
       "element_type": 2,
       "first_name": "Jayden",
       "id": 602,
@@ -9059,7 +9059,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 537,
+      "draft_rank": 539,
       "element_type": 3,
       "first_name": "Alfie",
       "id": 603,
@@ -9074,7 +9074,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 536,
+      "draft_rank": 538,
       "element_type": 3,
       "first_name": "Luca",
       "id": 604,
@@ -9089,7 +9089,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 619,
+      "draft_rank": 621,
       "element_type": 2,
       "first_name": "Triston",
       "id": 605,
@@ -9104,7 +9104,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 540,
+      "draft_rank": 542,
       "element_type": 3,
       "first_name": "Luka",
       "id": 606,
@@ -9119,7 +9119,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 402,
+      "draft_rank": 403,
       "element_type": 4,
       "first_name": "Daniel",
       "id": 607,
@@ -9134,7 +9134,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 538,
+      "draft_rank": 540,
       "element_type": 3,
       "first_name": "Malick",
       "id": 608,
@@ -9149,7 +9149,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 615,
+      "draft_rank": 617,
       "element_type": 2,
       "first_name": "Leo",
       "id": 609,
@@ -9164,7 +9164,7 @@
     {
       "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": 75,
-      "draft_rank": 621,
+      "draft_rank": 624,
       "element_type": 2,
       "first_name": "Luc",
       "id": 610,
@@ -9179,7 +9179,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 542,
+      "draft_rank": 544,
       "element_type": 2,
       "first_name": "Aaron",
       "id": 611,
@@ -9194,7 +9194,7 @@
     {
       "chance_of_playing_next_round": 0,
       "chance_of_playing_this_round": 0,
-      "draft_rank": 541,
+      "draft_rank": 543,
       "element_type": 2,
       "first_name": "Dayann",
       "id": 612,
@@ -9209,7 +9209,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 544,
+      "draft_rank": 546,
       "element_type": 2,
       "first_name": "Jaouen",
       "id": 613,
@@ -9224,7 +9224,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 543,
+      "draft_rank": 545,
       "element_type": 3,
       "first_name": "Jules",
       "id": 614,
@@ -9239,7 +9239,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 545,
+      "draft_rank": 547,
       "element_type": 1,
       "first_name": "Michele",
       "id": 615,
@@ -9284,7 +9284,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 266,
+      "draft_rank": 267,
       "element_type": 3,
       "first_name": "Mohamed-Ali",
       "id": 618,
@@ -9299,7 +9299,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 265,
+      "draft_rank": 266,
       "element_type": 3,
       "first_name": "Exequiel",
       "id": 619,
@@ -9314,7 +9314,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 546,
+      "draft_rank": 548,
       "element_type": 2,
       "first_name": "El Hadji Malick",
       "id": 620,
@@ -9329,7 +9329,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 547,
+      "draft_rank": 549,
       "element_type": 3,
       "first_name": "Ryan",
       "id": 621,
@@ -9344,7 +9344,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 620,
+      "draft_rank": 622,
       "element_type": 2,
       "first_name": "Kaden",
       "id": 622,
@@ -9359,7 +9359,7 @@
     {
       "chance_of_playing_next_round": null,
       "chance_of_playing_this_round": null,
-      "draft_rank": 622,
+      "draft_rank": 625,
       "element_type": 1,
       "first_name": "Dan",
       "id": 623,
@@ -9370,6 +9370,51 @@
       "team": 7,
       "total_points": 0,
       "web_name": "Bentley"
+    },
+    {
+      "chance_of_playing_next_round": null,
+      "chance_of_playing_this_round": null,
+      "draft_rank": 253,
+      "element_type": 3,
+      "first_name": "Amario",
+      "id": 624,
+      "minutes": 0,
+      "news": "",
+      "second_name": "Cozier-Duberry",
+      "status": "a",
+      "team": 5,
+      "total_points": 0,
+      "web_name": "Cozier-Duberry"
+    },
+    {
+      "chance_of_playing_next_round": null,
+      "chance_of_playing_this_round": null,
+      "draft_rank": 407,
+      "element_type": 3,
+      "first_name": "Macauley",
+      "id": 625,
+      "minutes": 0,
+      "news": "",
+      "second_name": "Zepa",
+      "status": "a",
+      "team": 10,
+      "total_points": 0,
+      "web_name": "Zepa"
+    },
+    {
+      "chance_of_playing_next_round": null,
+      "chance_of_playing_this_round": null,
+      "draft_rank": 623,
+      "element_type": 1,
+      "first_name": "Alex",
+      "id": 626,
+      "minutes": 0,
+      "news": "",
+      "second_name": "Cairns",
+      "status": "a",
+      "team": 13,
+      "total_points": 0,
+      "web_name": "Cairns"
     }
   ],
   "events": [],
