@@ -917,13 +917,13 @@
       "web_name": "Iwobi"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 4,
       "club_name": "Brentford",
       "club_short_name": "BRE",
       "element_id": 97,
       "first_name": "Mathias",
-      "news": "",
+      "news": "Unspecified injury - 75% chance of playing",
       "official_draft_rank": 138,
       "position": "MID",
       "position_id": 3,
@@ -7259,7 +7259,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-30T12:20:56.203065Z",
+  "generated_at": "2026-08-30T15:21:01.223379Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
