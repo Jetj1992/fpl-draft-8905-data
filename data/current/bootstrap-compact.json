@@ -2397,16 +2397,16 @@
       "web_name": "Gittens"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
       "draft_rank": 132,
       "element_type": 3,
       "first_name": "Moisés",
       "id": 159,
       "minutes": 0,
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "",
       "second_name": "Caicedo Corozo",
-      "status": "d",
+      "status": "a",
       "team": 6,
       "total_points": 0,
       "web_name": "Caicedo"
@@ -4977,16 +4977,16 @@
       "web_name": "Bogle"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
       "draft_rank": 428,
       "element_type": 2,
       "first_name": "Gabriel",
       "id": 331,
       "minutes": 0,
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "",
       "second_name": "Gudmundsson",
-      "status": "d",
+      "status": "a",
       "team": 13,
       "total_points": 0,
       "web_name": "Gudmundsson"
@@ -5127,16 +5127,16 @@
       "web_name": "Gelhardt"
     },
     {
-      "chance_of_playing_next_round": 75,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 75,
       "draft_rank": 307,
       "element_type": 3,
       "first_name": "Wilfried",
       "id": 341,
       "minutes": 0,
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "",
       "second_name": "Gnonto",
-      "status": "d",
+      "status": "a",
       "team": 13,
       "total_points": 0,
       "web_name": "Gnonto"

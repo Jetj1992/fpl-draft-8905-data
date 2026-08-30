@@ -847,13 +847,13 @@
       "web_name": "Hill"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 6,
       "club_name": "Chelsea",
       "club_short_name": "CHE",
       "element_id": 159,
       "first_name": "Moisés",
-      "news": "Unspecified injury - 75% chance of playing",
+      "news": "",
       "official_draft_rank": 132,
       "position": "MID",
       "position_id": 3,
@@ -2947,13 +2947,13 @@
       "web_name": "Gomez"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 13,
       "club_name": "Leeds",
       "club_short_name": "LEE",
       "element_id": 341,
       "first_name": "Wilfried",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "",
       "official_draft_rank": 307,
       "position": "MID",
       "position_id": 3,
@@ -4529,13 +4529,13 @@
       "web_name": "Darlow"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 13,
       "club_name": "Leeds",
       "club_short_name": "LEE",
       "element_id": 331,
       "first_name": "Gabriel",
-      "news": "Hamstring injury - 75% chance of playing",
+      "news": "",
       "official_draft_rank": 428,
       "position": "DEF",
       "position_id": 2,
@@ -7259,7 +7259,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-30T09:21:12.587750Z",
+  "generated_at": "2026-08-30T12:20:56.203065Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
