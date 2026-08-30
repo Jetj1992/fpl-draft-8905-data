@@ -6,7 +6,7 @@
     "source_available": true,
     "typed_records": 25
   },
-  "generated_at": "2026-08-30T15:21:01.220660Z",
+  "generated_at": "2026-08-30T18:20:50.367730Z",
   "schema_version": 1,
   "transactions": [
     {
@@ -79,9 +79,9 @@
       },
       "element_out": {
         "availability_status": "a",
-        "club_id": 2,
-        "club_name": "Aston Villa",
-        "club_short_name": "AVL",
+        "club_id": 6,
+        "club_name": "Chelsea",
+        "club_short_name": "CHE",
         "element_id": 28,
         "first_name": "Emiliano",
         "news": "",
@@ -1284,9 +1284,9 @@
     {
       "element_in": {
         "availability_status": "a",
-        "club_id": 2,
-        "club_name": "Aston Villa",
-        "club_short_name": "AVL",
+        "club_id": 6,
+        "club_name": "Chelsea",
+        "club_short_name": "CHE",
         "element_id": 28,
         "first_name": "Emiliano",
         "news": "",

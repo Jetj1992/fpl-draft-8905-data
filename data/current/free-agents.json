@@ -847,13 +847,13 @@
       "web_name": "Hill"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 6,
       "club_name": "Chelsea",
       "club_short_name": "CHE",
       "element_id": 159,
       "first_name": "Moisés",
-      "news": "",
+      "news": "Unspecified injury - 75% chance of playing",
       "official_draft_rank": 132,
       "position": "MID",
       "position_id": 3,
@@ -931,13 +931,13 @@
       "web_name": "Jensen"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 5,
       "club_name": "Brighton",
       "club_short_name": "BHA",
       "element_id": 129,
       "first_name": "Yasin",
-      "news": "",
+      "news": "Ankle injury - 75% chance of playing",
       "official_draft_rank": 139,
       "position": "MID",
       "position_id": 3,
@@ -1183,13 +1183,13 @@
       "web_name": "Khusanov"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 20,
       "club_name": "Sunderland",
       "club_short_name": "SUN",
       "element_id": 543,
       "first_name": "Habib",
-      "news": "",
+      "news": "Unspecified injury - 75% chance of playing",
       "official_draft_rank": 162,
       "position": "MID",
       "position_id": 3,
@@ -4333,13 +4333,13 @@
       "web_name": "Hume"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 13,
       "club_name": "Leeds",
       "club_short_name": "LEE",
       "element_id": 329,
       "first_name": "Joe",
-      "news": "",
+      "news": "Hamstring injury - 50% chance of playing",
       "official_draft_rank": 412,
       "position": "DEF",
       "position_id": 2,
@@ -7259,7 +7259,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-30T15:21:01.223379Z",
+  "generated_at": "2026-08-30T18:20:50.369810Z",
   "league_id": 8905,
   "schema_version": 1
 }
