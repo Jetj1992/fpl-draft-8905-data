@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:20:46.160986Z",
+  "generated_at": "2026-08-30T00:20:58.225855Z",
   "pending_waiver_count": 13,
   "schema_version": 1,
   "source_available": true,
@@ -595,7 +595,7 @@
         "club_short_name": "BHA",
         "element_id": 123,
         "first_name": "Jack",
-        "news": "Unspecified injury - 25% chance of playing",
+        "news": "Unspecified injury - 50% chance of playing",
         "official_draft_rank": 85,
         "position": "MID",
         "position_id": 3,

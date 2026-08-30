@@ -334,7 +334,7 @@
       "first_name": "Christian",
       "id": 21,
       "minutes": 0,
-      "news": "Unspecified injury - Unknown return date",
+      "news": "Groin injury - Unknown return date",
       "second_name": "Nørgaard",
       "status": "i",
       "team": 9,
@@ -1857,14 +1857,14 @@
       "web_name": "Minteh"
     },
     {
-      "chance_of_playing_next_round": 25,
+      "chance_of_playing_next_round": 50,
       "chance_of_playing_this_round": 25,
       "draft_rank": 85,
       "element_type": 3,
       "first_name": "Jack",
       "id": 123,
       "minutes": 63,
-      "news": "Unspecified injury - 25% chance of playing",
+      "news": "Unspecified injury - 50% chance of playing",
       "second_name": "Hinshelwood",
       "status": "d",
       "team": 5,
@@ -5172,16 +5172,16 @@
       "web_name": "James"
     },
     {
-      "chance_of_playing_next_round": 0,
+      "chance_of_playing_next_round": 25,
       "chance_of_playing_this_round": 0,
       "draft_rank": 285,
       "element_type": 3,
       "first_name": "Ilia",
       "id": 344,
       "minutes": 0,
-      "news": "Knee injury - Unknown return date",
+      "news": "Knee injury - 25% chance of playing",
       "second_name": "Gruev",
-      "status": "i",
+      "status": "d",
       "team": 13,
       "total_points": 0,
       "web_name": "Gruev"
@@ -6983,7 +6983,7 @@
       "second_name": "Wissa",
       "status": "a",
       "team": 17,
-      "total_points": 11,
+      "total_points": 12,
       "web_name": "Wissa"
     },
     {
