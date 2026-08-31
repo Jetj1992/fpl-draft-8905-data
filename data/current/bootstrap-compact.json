@@ -9192,16 +9192,16 @@
       "web_name": "Wan-Bissaka"
     },
     {
-      "chance_of_playing_next_round": 0,
+      "chance_of_playing_next_round": 100,
       "chance_of_playing_this_round": 0,
       "draft_rank": 543,
       "element_type": 2,
       "first_name": "Dayann",
       "id": 612,
       "minutes": 0,
-      "news": "Suspended until 5 Sep",
+      "news": "",
       "second_name": "Méthalie",
-      "status": "s",
+      "status": "a",
       "team": 20,
       "total_points": 0,
       "web_name": "Methalie"

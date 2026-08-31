@@ -6125,13 +6125,13 @@
       "web_name": "Lynch"
     },
     {
-      "availability_status": "s",
+      "availability_status": "a",
       "club_id": 20,
       "club_name": "Sunderland",
       "club_short_name": "SUN",
       "element_id": 612,
       "first_name": "Dayann",
-      "news": "Suspended until 5 Sep",
+      "news": "",
       "official_draft_rank": 543,
       "position": "DEF",
       "position_id": 2,
@@ -7301,7 +7301,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-30T21:20:45.290747Z",
+  "generated_at": "2026-08-31T00:20:55.786730Z",
   "league_id": 8905,
   "schema_version": 1
 }
