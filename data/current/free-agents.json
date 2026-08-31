@@ -1491,13 +1491,13 @@
       "web_name": "Bakwa"
     },
     {
-      "availability_status": "d",
+      "availability_status": "a",
       "club_id": 2,
       "club_name": "Aston Villa",
       "club_short_name": "AVL",
       "element_id": 56,
       "first_name": "Tammy",
-      "news": "Knock - 50% chance of playing",
+      "news": "",
       "official_draft_rank": 188,
       "position": "FWD",
       "position_id": 4,
@@ -7301,7 +7301,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-31T18:20:57.476387Z",
+  "generated_at": "2026-08-31T21:21:21.546585Z",
   "league_id": 8905,
   "schema_version": 1
 }
