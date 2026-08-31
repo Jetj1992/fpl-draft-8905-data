@@ -4752,16 +4752,16 @@
       "web_name": "Fatawu"
     },
     {
-      "chance_of_playing_next_round": null,
+      "chance_of_playing_next_round": 75,
       "chance_of_playing_this_round": null,
       "draft_rank": 215,
       "element_type": 4,
       "first_name": "Emersonn",
       "id": 316,
       "minutes": 110,
-      "news": "",
+      "news": "Knee injury - 75% chance of playing",
       "second_name": "Correia da Silva",
-      "status": "a",
+      "status": "d",
       "team": 12,
       "total_points": 10,
       "web_name": "Emersonn"

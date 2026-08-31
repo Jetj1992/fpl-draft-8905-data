@@ -1869,13 +1869,13 @@
       "web_name": "Fatawu"
     },
     {
-      "availability_status": "a",
+      "availability_status": "d",
       "club_id": 12,
       "club_name": "Ipswich Town",
       "club_short_name": "IPS",
       "element_id": 316,
       "first_name": "Emersonn",
-      "news": "",
+      "news": "Knee injury - 75% chance of playing",
       "official_draft_rank": 215,
       "position": "FWD",
       "position_id": 4,
@@ -7301,7 +7301,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-08-31T09:21:06.545170Z",
+  "generated_at": "2026-08-31T12:20:58.217932Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
