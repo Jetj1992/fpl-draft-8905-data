@@ -31,6 +31,7 @@ from zoneinfo import ZoneInfo
 
 DRAFT_BASE_URL = "https://draft.premierleague.com/api"
 FPL_BASE_URL = "https://fantasy.premierleague.com/api"
+PUBLIC_DATA_BASE_URL = "https://jetj1992.github.io/fpl-draft-8905-data"
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36"
@@ -1875,6 +1876,15 @@ def main() -> int:
         "next_gameweek": ids["next"],
         "upcoming_gameweek": ids["upcoming"],
         "next_deadline": round_context.get("next_deadline"),
+        "public_data_base_url": PUBLIC_DATA_BASE_URL,
+        "public_data": {
+            "summary": f"{PUBLIC_DATA_BASE_URL}/data/summary.json",
+            "transactions_enriched": f"{PUBLIC_DATA_BASE_URL}/data/current/transactions-enriched.json",
+            "post_gameweek_transactions": f"{PUBLIC_DATA_BASE_URL}/data/current/post-gameweek-transactions.json",
+            "current_rosters": f"{PUBLIC_DATA_BASE_URL}/data/current/current-rosters.json",
+            "free_agents": f"{PUBLIC_DATA_BASE_URL}/data/current/free-agents.json",
+            "proposed_waivers": f"{PUBLIC_DATA_BASE_URL}/data/current/proposed-waivers.json",
+        },
         "draft": {
             "status": draft_recap.get("draft", {}).get("status"),
             "draft_id": draft_recap.get("draft", {}).get("id"),
