@@ -12,10 +12,10 @@
       "name": "Gameweek 1"
     },
     {
-      "data_checked": false,
+      "data_checked": true,
       "deadline_time": "2026-08-28T17:30:00Z",
       "deadline_time_epoch": 1787938200,
-      "finished": false,
+      "finished": true,
       "id": 2,
       "is_current": true,
       "is_next": false,
