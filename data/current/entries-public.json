@@ -1,14 +1,14 @@
 {
   "137879": {
     "entry": {
-      "event_points": 21,
+      "event_points": 22,
       "favourite_team": 14,
       "id": 137879,
       "league_set": [
         8905
       ],
       "name": "AGF 2. hold",
-      "overall_points": 52,
+      "overall_points": 53,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -73,14 +73,14 @@
   },
   "250589": {
     "entry": {
-      "event_points": 30,
+      "event_points": 33,
       "favourite_team": null,
       "id": 250589,
       "league_set": [
         8905
       ],
       "name": "Senile Supersubs",
-      "overall_points": 54,
+      "overall_points": 57,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
@@ -91,14 +91,14 @@
   },
   "318564": {
     "entry": {
-      "event_points": 45,
+      "event_points": 49,
       "favourite_team": null,
       "id": 318564,
       "league_set": [
         8905
       ],
       "name": "La Liga es la mejor",
-      "overall_points": 81,
+      "overall_points": 85,
       "region_code_long": "DNK",
       "region_code_short": "DK",
       "region_name": "Denmark",
