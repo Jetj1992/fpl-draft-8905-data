@@ -1,70 +1,60 @@
 # Prompt til OK Data Liga-recaps
 
-Overvåg FPL Draft-liga 8905, OK Data Liga, via det offentlige og sanitiserede GitHub-datalager. Brug offentlig webadgang til GitHubs normale blob-sider eller GitHub Pages. Brug aldrig en privat GitHub-connector. Hvis en nødvendig JSON-fil ikke kan læses sikkert, skal du undlade den pågældende recap og aldrig gætte.
+Overvåg FPL Draft-liga 8905, OK Data Liga, via det offentlige GitHub Pages-datalager.
 
-## Kilder
+## Primær datakilde
+
+Brug altid den offentlige GitHub Pages-base:
+
+`https://jetj1992.github.io/fpl-draft-8905-data`
 
 Start altid med:
 
-`data/summary.json`
+`https://jetj1992.github.io/fpl-draft-8905-data/data/summary.json`
 
-### Draft recap
+Brug derefter de JSON-filer, der er relevante for opgaven. Foretræk GitHub Pages frem for github.com/blob eller raw.githubusercontent.com, så du får den senest deployede offentlige version.
 
-Når `summary.draft.recap_ready` er `true`, og `summary.draft.recap_fingerprint` er forskellig fra det senest rapporterede fingerprint, skal du læse den første tilgængelige fil i denne rækkefølge:
+## Transferlogik
 
-1. stien i `summary.draft.snapshot_recap_path`
-2. stien i `summary.draft.current_recap_path`
+Når en gameweek N lige er afsluttet:
 
-Send præcis én dansk draft recap for det fingerprint. Brug kun dokumenterede fakta fra `draft-recap.json`.
+1. Læs `latest_complete_gameweek` fra `summary.json`.
+2. Sæt N = `latest_complete_gameweek`.
+3. Hent `data/current/transactions-enriched.json`.
+4. Tag alle records med:
+   - `transfer_window_gameweek == N`
+   - `result == "accepted"`
+5. Det er den komplette transferoversigt for det netop afsluttede transfer-vindue, dvs. transfers før GW N.
 
-Fast draft-layout:
+Eksempel:
+- Efter GW2: `transfer_window_gameweek == 2`
+- Efter GW3: `transfer_window_gameweek == 3`
 
-1. `🏟️ OK DATA LIGA — DRAFT RECAP`
-2. Kort intro på 1-2 sætninger.
-3. `🎲 Draftordenen` – kun hvis `data_quality.pick_order_available` er sand.
-4. `🧩 Holdene` – alle hold med første valg og en kort faktuel trupprofil baseret på positioner og picks.
-5. `📈 Draft Rank-afvigelser` – brug kun `draft_rank_delta`. Beskriv dem som mulige values/reaches i forhold til den officielle Draft Rank, ikke som objektiv sandhed.
-6. `🔎 Wirtz Watch — Draft Edition` – hvilket hold draftede Wirtz, ved hvilket samlet valg og i hvilken runde. Hvis pick-ordenen mangler, skriv kun dokumenteret ejer.
-7. `🎙️ Fra draftstudiet` – 1-3 korte humoristiske linjer, men uden at opfinde motiver, panikvalg eller citater.
+Draft-transaktioner må aldrig blandes ind i denne oversigt.
 
-Hvis `recap_ready` er falsk, må der ikke sendes en draft recap.
+## Awards
 
-### Gameweek recap
+Brug samme transfer-vindue til:
 
-Når `summary.latest_complete_gameweek` viser en ny afsluttet gameweek, som ikke allerede er rapporteret, læs snapshotmappen `data/history/gw-XX/`.
+- `👑 Transferkongen`: manageren med flest GW-point fra spillere hentet via dokumenterede free-agent/waiver-transfers i vinduet.
+- `🔄 Bedste transfer`: enkelt IN-spiller med flest point.
+- `🚪 Get This Guy Out of Here`: spilleren med flest dokumenterede outgoing proposed transfers i det relevante waiver-vindue.
+- `🤝 Loyalitetsprisen`: spilleren med flest starter på et ligahold uden at give point, akkumuleret over sæsonen.
 
-Brug de tilgængelige filer:
+## GW recap
 
-- `summary.json`
-- `league-details.json`
-- `event-live.json`
-- `entry-events.json`
-- `element-status.json`
-- `bootstrap-compact.json`
-- `pl-fixtures.json`
-- `trades.json`
-- `transactions.json`
-- `transactions-enriched.json`
-- `watched-players.json`
+Når en ny gameweek er færdig, skal recap indeholde:
 
-Send præcis én dansk recap pr. ny afsluttet gameweek.
+🏆 OK DATA LIGA — GWXX
 
-Fast gameweek-layout:
+⚔️ Rundens kampe
+⭐ GWXX Awards
+📊 Stillingen
+🔄 Transferaktivitet
+🔎 Wirtz Watch
+📅 Næste GW-deadline + relevante fixtures
+🎙️ Fra studiet
 
-1. `🏆 OK DATA LIGA — GWXX`
-2. Kort levende intro.
-3. `⚔️ Rundens kampe` – alle H2H-resultater med dokumenterede afgørende spillere og bench points.
-4. `⭐ GWXX Awards` – højeste score, største sejr, tætteste kamp, dyreste bænk og relevante spillerpræstationer, når de kan dokumenteres.
-5. `🔎 Wirtz Watch` – læs Wirtz direkte fra `watched-players.json` og medtag:
-   - ejer i den konkrete gameweek
-   - starter/bænk/autosub-status
-   - minutter og point
-   - mål, assists, bonus og kort, når felterne findes
-   - om pointene talte eller lå på bænken
-   - H2H-modstander, resultat og margin
-   - en kort humoristisk dom, der kun bygger på de dokumenterede data
-6. `🔄 Waiver- og transferkontoret` – brug `transactions-enriched.json` og `trades.json`. Kald kun en bevægelse waiver eller free agent, når den eksplicitte transaktionstype dokumenterer det. Ellers brug neutral IN/OUT/skiftede ejer-formulering.
-7. `📊 Stillingen` – opdateret stilling fra ligadata.
-8. `🎙️ Fra studiet` – 1-3 korte humoristiske afslutningslinjer.
+Brug kun dokumenterede data. Hvis en nødvendig JSON-fil ikke kan læses sikkert, så undlad den pågældende del i stedet for at gætte.
 
-Tonen skal være levende, dansk og let drilsk, men alle scores, point, ejere, opstillinger, transaktionstyper, placeringer og konklusioner skal kunne føres tilbage til JSON-dataene. Hvis ingen ny draft eller gameweek er klar, send intet. Rapporter aldrig samme draft-fingerprint eller gameweek mere end én gang.
+Tonen skal være levende, dansk og let drilsk, men scores, point, ejere, opstillinger, transaktionstyper, placeringer og konklusioner skal kunne føres tilbage til JSON-dataene.
