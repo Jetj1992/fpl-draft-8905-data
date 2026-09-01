@@ -1096,6 +1096,33 @@ def normalize_transaction_result(raw_result: Any) -> str | None:
     return TRANSACTION_RESULT_LABELS.get(normalize_text(raw_result))
 
 
+def current_transfer_window(
+    transactions_enriched: dict[str, Any],
+) -> dict[str, Any]:
+    latest_gw = transactions_enriched.get("data_quality", {}).get("latest_complete_gameweek")
+    target_gw = latest_gw + 1 if isinstance(latest_gw, int) else None
+    records = transactions_enriched.get("transactions") or []
+    relevant = [
+        tx for tx in records
+        if isinstance(tx, dict) and tx.get("transfer_window_gameweek") == target_gw
+    ]
+    return {
+        "schema_version": 2,
+        "generated_at": utc_now_iso(),
+        "latest_complete_gameweek": latest_gw,
+        "transfer_window_gameweek": target_gw,
+        "transaction_count": len(relevant),
+        "transactions": relevant,
+    }
+
+
+def post_gameweek_transactions(
+    transactions_enriched: dict[str, Any],
+) -> dict[str, Any]:
+    """Backward-compatible name for the current pre-next-GW transfer window."""
+    return current_transfer_window(transactions_enriched)
+
+
 def current_rosters_and_free_agents(
     element_status: Any,
     details: dict[str, Any],
@@ -1187,22 +1214,56 @@ def current_rosters_and_free_agents(
 
 
 def proposed_waivers(transactions_enriched: dict[str, Any]) -> dict[str, Any]:
-    """Extract pending/proposed waiver records exposed by the public feed."""
-    records = transactions_enriched.get("transactions") or []
+    """Extract pending/proposed waivers for the GW immediately after the latest complete GW."""
+    window = current_transfer_window(transactions_enriched)
     pending = [
         tx
-        for tx in records
+        for tx in window.get("transactions", [])
         if isinstance(tx, dict)
         and tx.get("transaction_type") == "waiver"
         and tx.get("result") in {None, "pending"}
     ]
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": utc_now_iso(),
         "source_available": transactions_enriched.get("data_quality", {}).get("source_available", False),
+        "latest_complete_gameweek": window.get("latest_complete_gameweek"),
+        "waiver_gameweek": window.get("transfer_window_gameweek"),
         "pending_waiver_count": len(pending),
         "waivers": pending,
     }
+
+
+def latest_complete_gameweek_for_transactions(
+    details: dict[str, Any]
+) -> int | None:
+    return latest_complete_gameweek(details)
+
+
+def transaction_phase(
+    transaction_type: str | None,
+    event: int | None,
+    latest_complete_gameweek: int | None,
+    draft_completed_at: str | None,
+    timestamp: str | None,
+) -> str:
+    """Classify transaction lifecycle phase independent of which GW is currently being analyzed."""
+    if transaction_type == "draft":
+        return "draft"
+    if event == 1 and draft_completed_at and timestamp:
+        try:
+            draft_dt = datetime.fromisoformat(draft_completed_at.replace("Z", "+00:00"))
+            tx_dt = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+            return "pre_gw1" if tx_dt <= draft_dt else "gw1"
+        except ValueError:
+            pass
+    if latest_complete_gameweek is not None and event is not None:
+        if event > latest_complete_gameweek:
+            return "current_transfer_window" if event == latest_complete_gameweek + 1 else "future"
+        if event < latest_complete_gameweek:
+            return "historical"
+        return "completed_gw"
+    return "unknown"
 
 
 def enrich_transactions(
@@ -1213,6 +1274,9 @@ def enrich_transactions(
     records = extract_records(transactions, ("transactions", "results", "items"))
     by_league_entry, by_entry = entry_indexes(details)
     players, teams, _ = bootstrap_indexes(bootstrap)
+    latest_gw = latest_complete_gameweek_for_transactions(details)
+    draft = draft_record(details) or {}
+    draft_completed_at = draft.get("draft_completed") if isinstance(draft, dict) else None
     output: list[dict[str, Any]] = []
 
     for raw in records:
@@ -1229,17 +1293,27 @@ def enrich_transactions(
         )
         raw_kind = first_present(raw, ("kind", "type", "transaction_type"))
         raw_result = first_present(raw, ("result", "status", "transaction_result"))
+        event = first_int(raw, ("event", "gameweek", "gw"))
+        timestamp = first_present(
+            raw,
+            ("created", "created_at", "timestamp", "time", "processed_at", "added"),
+        )
+        normalized_kind = normalize_transaction_type(raw_kind)
+        phase = transaction_phase(
+            normalized_kind, event, latest_gw, draft_completed_at, timestamp
+        )
+        target_gw = latest_gw + 1 if isinstance(latest_gw, int) else None
+        transfer_window_gameweek = target_gw if event == target_gw else None
         output.append(
             {
                 "transaction_id": first_present(raw, ("id", "transaction_id")),
-                "event": first_int(raw, ("event", "gameweek", "gw")),
-                "timestamp": first_present(
-                    raw,
-                    ("created", "created_at", "timestamp", "time", "processed_at"),
-                ),
+                "event": event,
+                "timestamp": timestamp,
+                "phase": phase,
+                "transfer_window_gameweek": transfer_window_gameweek,
                 "priority": first_int(raw, ("index", "priority", "waiver_pick")),
                 "raw_kind": raw_kind,
-                "transaction_type": normalize_transaction_type(raw_kind),
+                "transaction_type": normalized_kind,
                 "raw_result": raw_result,
                 "result": normalize_transaction_result(raw_result),
                 "league_entry_id": owner.get("id") if owner else None,
@@ -1259,8 +1333,13 @@ def enrich_transactions(
         "schema_version": 1,
         "generated_at": utc_now_iso(),
         "transactions": output,
+        "phase_counts": {
+            phase: sum(1 for item in output if item.get("phase") == phase)
+            for phase in sorted({item.get("phase") for item in output if item.get("phase")})
+        },
         "data_quality": {
             "source_available": transactions is not None,
+            "latest_complete_gameweek": latest_gw,
             "records_received": len(records),
             "records_enriched": len(output),
             "typed_records": sum(
@@ -1684,6 +1763,10 @@ def main() -> int:
         optional_data.get("transactions"), details, bootstrap
     )
     write_json(current_dir / "transactions-enriched.json", transactions_enriched)
+    write_json(
+        current_dir / "post-gameweek-transactions.json",
+        post_gameweek_transactions(transactions_enriched),
+    )
 
     current_state = current_rosters_and_free_agents(
         optional_data.get("element_status"), details, bootstrap
