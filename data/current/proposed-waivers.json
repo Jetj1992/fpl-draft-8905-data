@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-09-01T06:33:13.729999Z",
+  "generated_at": "2026-09-01T07:28:53.932009Z",
+  "latest_complete_gameweek": 1,
   "pending_waiver_count": 13,
-  "schema_version": 1,
+  "schema_version": 2,
   "source_available": true,
+  "waiver_gameweek": 2,
   "waivers": [
     {
       "element_in": {
@@ -37,6 +39,7 @@
       "entry_name": "Jyllands Rubin",
       "event": 2,
       "league_entry_id": 138748,
+      "phase": "current_transfer_window",
       "priority": 8,
       "raw": {
         "added": "2026-08-25T06:11:34.517340Z",
@@ -53,9 +56,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-25T06:11:34.517340Z",
       "transaction_id": 2057066,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -90,6 +94,7 @@
       "entry_name": "La Liga es la mejor",
       "event": 2,
       "league_entry_id": 321694,
+      "phase": "current_transfer_window",
       "priority": 11,
       "raw": {
         "added": "2026-08-27T13:17:36.423822Z",
@@ -106,9 +111,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T13:17:36.423822Z",
       "transaction_id": 4048838,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -143,6 +149,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 12,
       "raw": {
         "added": "2026-08-27T14:25:18.346070Z",
@@ -159,9 +166,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346070Z",
       "transaction_id": 4143099,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -196,6 +204,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 13,
       "raw": {
         "added": "2026-08-27T14:25:18.346094Z",
@@ -212,9 +221,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346094Z",
       "transaction_id": 4143100,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -249,6 +259,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 14,
       "raw": {
         "added": "2026-08-27T14:25:18.346113Z",
@@ -265,9 +276,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346113Z",
       "transaction_id": 4143101,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -302,6 +314,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 19,
       "raw": {
         "added": "2026-08-27T14:25:18.346153Z",
@@ -318,9 +331,10 @@
       "raw_kind": "w",
       "raw_result": "do",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346153Z",
       "transaction_id": 4143103,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -355,6 +369,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 20,
       "raw": {
         "added": "2026-08-27T14:25:18.346171Z",
@@ -371,9 +386,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346171Z",
       "transaction_id": 4143104,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -408,6 +424,7 @@
       "entry_name": "Grove Løjer",
       "event": 2,
       "league_entry_id": 138520,
+      "phase": "current_transfer_window",
       "priority": 21,
       "raw": {
         "added": "2026-08-27T14:25:18.346189Z",
@@ -424,9 +441,10 @@
       "raw_kind": "w",
       "raw_result": "do",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T14:25:18.346189Z",
       "transaction_id": 4143105,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -461,6 +479,7 @@
       "entry_name": "Senile Supersubs",
       "event": 2,
       "league_entry_id": 252790,
+      "phase": "current_transfer_window",
       "priority": 9,
       "raw": {
         "added": "2026-08-27T16:50:45.870599Z",
@@ -477,9 +496,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T16:50:45.870599Z",
       "transaction_id": 4435624,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -514,6 +534,7 @@
       "entry_name": "AGFs Førstehold",
       "event": 2,
       "league_entry_id": 42948,
+      "phase": "current_transfer_window",
       "priority": 5,
       "raw": {
         "added": "2026-08-27T17:18:00.237648Z",
@@ -530,9 +551,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T17:18:00.237648Z",
       "transaction_id": 4512958,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -567,6 +589,7 @@
       "entry_name": "AGFs Førstehold",
       "event": 2,
       "league_entry_id": 42948,
+      "phase": "current_transfer_window",
       "priority": 6,
       "raw": {
         "added": "2026-08-27T17:18:00.237696Z",
@@ -583,9 +606,10 @@
       "raw_kind": "w",
       "raw_result": "di",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T17:18:00.237696Z",
       "transaction_id": 4512959,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -620,6 +644,7 @@
       "entry_name": "AGFs Førstehold",
       "event": 2,
       "league_entry_id": 42948,
+      "phase": "current_transfer_window",
       "priority": 16,
       "raw": {
         "added": "2026-08-27T17:18:00.237729Z",
@@ -636,9 +661,10 @@
       "raw_kind": "w",
       "raw_result": "do",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T17:18:00.237729Z",
       "transaction_id": 4512961,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     },
     {
       "element_in": {
@@ -673,6 +699,7 @@
       "entry_name": "AGFs Førstehold",
       "event": 2,
       "league_entry_id": 42948,
+      "phase": "current_transfer_window",
       "priority": 17,
       "raw": {
         "added": "2026-08-27T17:18:00.237744Z",
@@ -689,9 +716,10 @@
       "raw_kind": "w",
       "raw_result": "do",
       "result": null,
-      "timestamp": null,
+      "timestamp": "2026-08-27T17:18:00.237744Z",
       "transaction_id": 4512962,
-      "transaction_type": "waiver"
+      "transaction_type": "waiver",
+      "transfer_window_gameweek": 2
     }
   ]
 }
