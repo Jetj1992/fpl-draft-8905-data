@@ -25,7 +25,7 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 42948,
-          "league_entry_1_points": 55,
+          "league_entry_1_points": 56,
           "league_entry_2": 138487,
           "league_entry_2_points": 21,
           "started": true,
@@ -36,9 +36,9 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138520,
-          "league_entry_1_points": 48,
+          "league_entry_1_points": 50,
           "league_entry_2": 420622,
-          "league_entry_2_points": 36,
+          "league_entry_2_points": 45,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -47,9 +47,9 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138641,
-          "league_entry_1_points": 42,
+          "league_entry_1_points": 50,
           "league_entry_2": 321694,
-          "league_entry_2_points": 37,
+          "league_entry_2_points": 45,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -58,9 +58,9 @@
           "event": 2,
           "finished": false,
           "league_entry_1": 138748,
-          "league_entry_1_points": 44,
+          "league_entry_1_points": 64,
           "league_entry_2": 252790,
-          "league_entry_2_points": 9,
+          "league_entry_2_points": 30,
           "started": true,
           "winning_league_entry": null,
           "winning_method": null
@@ -3561,12 +3561,12 @@
                   "value": 25
                 },
                 {
-                  "element": 1,
+                  "element": 4,
                   "value": 23
                 },
                 {
-                  "element": 4,
-                  "value": 22
+                  "element": 1,
+                  "value": 21
                 },
                 {
                   "element": 13,
@@ -3616,11 +3616,15 @@
                 },
                 {
                   "element": 47,
-                  "value": 14
+                  "value": 13
                 },
                 {
                   "element": 166,
                   "value": 11
+                },
+                {
+                  "element": 37,
+                  "value": 10
                 },
                 {
                   "element": 41,
@@ -3633,10 +3637,6 @@
                 {
                   "element": 597,
                   "value": 8
-                },
-                {
-                  "element": 37,
-                  "value": 7
                 },
                 {
                   "element": 34,
@@ -3668,7 +3668,7 @@
                 },
                 {
                   "element": 36,
-                  "value": -6
+                  "value": -5
                 }
               ],
               "identifier": "bps"
@@ -3676,11 +3676,11 @@
             {
               "a": [
                 {
-                  "element": 12,
-                  "value": 11
+                  "element": 13,
+                  "value": 12
                 },
                 {
-                  "element": 13,
+                  "element": 12,
                   "value": 11
                 },
                 {
@@ -3704,6 +3704,10 @@
                   "value": 4
                 },
                 {
+                  "element": 11,
+                  "value": 4
+                },
+                {
                   "element": 17,
                   "value": 4
                 },
@@ -3712,15 +3716,7 @@
                   "value": 3
                 },
                 {
-                  "element": 11,
-                  "value": 3
-                },
-                {
                   "element": 14,
-                  "value": 3
-                },
-                {
-                  "element": 19,
                   "value": 3
                 },
                 {
@@ -3730,6 +3726,10 @@
                 {
                   "element": 557,
                   "value": 3
+                },
+                {
+                  "element": 19,
+                  "value": 2
                 },
                 {
                   "element": 31,
@@ -3742,24 +3742,24 @@
                   "value": 10
                 },
                 {
+                  "element": 36,
+                  "value": 8
+                },
+                {
                   "element": 47,
                   "value": 8
+                },
+                {
+                  "element": 37,
+                  "value": 7
                 },
                 {
                   "element": 32,
                   "value": 6
                 },
                 {
-                  "element": 37,
-                  "value": 6
-                },
-                {
                   "element": 51,
                   "value": 6
-                },
-                {
-                  "element": 36,
-                  "value": 5
                 },
                 {
                   "element": 41,
