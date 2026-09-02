@@ -2,7 +2,7 @@
   "current_gameweek": 2,
   "current_state": {
     "current_rosters_path": "data/current/current-rosters.json",
-    "free_agent_count": 524,
+    "free_agent_count": 532,
     "free_agents_path": "data/current/free-agents.json",
     "owned_player_count": 105
   },
@@ -232,7 +232,7 @@
       "waiver_pick": 3
     }
   ],
-  "generated_at": "2026-09-02T15:31:10.455976Z",
+  "generated_at": "2026-09-02T18:30:15.780125Z",
   "latest_complete_gameweek": 2,
   "league_id": 8905,
   "league_name": "OK Data Liga",

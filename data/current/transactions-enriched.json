@@ -7,7 +7,7 @@
     "source_available": true,
     "typed_records": 25
   },
-  "generated_at": "2026-09-02T15:31:09.481133Z",
+  "generated_at": "2026-09-02T18:30:15.073126Z",
   "phase_counts": {
     "completed_gw": 22,
     "gw1": 3
@@ -360,13 +360,13 @@
         "web_name": "Georginio"
       },
       "element_out": {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 463,
         "first_name": "Nick",
-        "news": "",
+        "news": "Has joined Juventus on loan for the rest of the season",
         "official_draft_rank": 83,
         "position": "FWD",
         "position_id": 4,

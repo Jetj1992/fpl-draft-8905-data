@@ -2,9 +2,9 @@
   "data_quality": {
     "active_league_entries": 7,
     "complete_rosters": true,
-    "element_status_records": 629
+    "element_status_records": 637
   },
-  "free_agent_count": 524,
+  "free_agent_count": 532,
   "free_agents": [
     {
       "availability_status": "a",
@@ -229,6 +229,20 @@
       "position_id": 3,
       "second_name": "Kulusevski",
       "web_name": "Kulusevski"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 2,
+      "club_name": "Aston Villa",
+      "club_short_name": "AVL",
+      "element_id": 631,
+      "first_name": "Ibrahim",
+      "news": "",
+      "official_draft_rank": 59,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Mbaye",
+      "web_name": "Mbaye"
     },
     {
       "availability_status": "a",
@@ -651,13 +665,13 @@
       "web_name": "Gittens"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 1,
       "club_name": "Arsenal",
       "club_short_name": "ARS",
       "element_id": 27,
       "first_name": "Gabriel",
-      "news": "",
+      "news": "Has joined FC Barcelona permanently",
       "official_draft_rank": 110,
       "position": "FWD",
       "position_id": 4,
@@ -733,6 +747,34 @@
       "position_id": 4,
       "second_name": "David",
       "web_name": "David"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 8,
+      "club_name": "Crystal Palace",
+      "club_short_name": "CRY",
+      "element_id": 636,
+      "first_name": "Darío",
+      "news": "",
+      "official_draft_rank": 122,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Osorio",
+      "web_name": "Osorio"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 5,
+      "club_name": "Brighton",
+      "club_short_name": "BHA",
+      "element_id": 632,
+      "first_name": "José María",
+      "news": "",
+      "official_draft_rank": 123,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Andrés Baixauli",
+      "web_name": "Andrés"
     },
     {
       "availability_status": "u",
@@ -903,13 +945,13 @@
       "web_name": "Mac Allister"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 9,
       "club_name": "Everton",
       "club_short_name": "EVE",
       "element_id": 248,
       "first_name": "Norberto Bercique",
-      "news": "",
+      "news": "Has joined Fiorentina permanently",
       "official_draft_rank": 144,
       "position": "FWD",
       "position_id": 4,
@@ -1701,13 +1743,13 @@
       "web_name": "Kalimuendo"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 1,
       "club_name": "Arsenal",
       "club_short_name": "ARS",
       "element_id": 22,
       "first_name": "Ethan",
-      "news": "",
+      "news": "Has joined Borussia Dortmund on loan for the rest of the season",
       "official_draft_rank": 210,
       "position": "MID",
       "position_id": 3,
@@ -1715,13 +1757,13 @@
       "web_name": "Nwaneri"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 14,
       "club_name": "Liverpool",
       "club_short_name": "LIV",
       "element_id": 383,
       "first_name": "Harvey",
-      "news": "",
+      "news": "Has joined Valencia on loan for the rest of the season",
       "official_draft_rank": 211,
       "position": "MID",
       "position_id": 3,
@@ -1729,13 +1771,13 @@
       "web_name": "Elliott"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 1,
       "club_name": "Arsenal",
       "club_short_name": "ARS",
       "element_id": 23,
       "first_name": "Fábio",
-      "news": "",
+      "news": "Has joined Hamburger SV permanently",
       "official_draft_rank": 212,
       "position": "MID",
       "position_id": 3,
@@ -2038,6 +2080,20 @@
     },
     {
       "availability_status": "a",
+      "club_id": 8,
+      "club_name": "Crystal Palace",
+      "club_short_name": "CRY",
+      "element_id": 635,
+      "first_name": "Quinten",
+      "news": "",
+      "official_draft_rank": 244,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Timber",
+      "web_name": "Timber"
+    },
+    {
+      "availability_status": "a",
       "club_id": 9,
       "club_name": "Everton",
       "club_short_name": "EVE",
@@ -2233,13 +2289,13 @@
       "web_name": "Wieffer"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 5,
       "club_name": "Brighton",
       "club_short_name": "BHA",
       "element_id": 624,
       "first_name": "Amario",
-      "news": "",
+      "news": "Has joined Middlesbrough on loan for the rest of the season",
       "official_draft_rank": 269,
       "position": "MID",
       "position_id": 3,
@@ -2443,13 +2499,13 @@
       "web_name": "Canvot"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 19,
       "club_name": "Spurs",
       "club_short_name": "TOT",
       "element_id": 518,
       "first_name": "Pape Matar",
-      "news": "",
+      "news": "Has joined Juventus on loan for the rest of the season",
       "official_draft_rank": 285,
       "position": "MID",
       "position_id": 3,
@@ -2709,13 +2765,13 @@
       "web_name": "Yoro"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 18,
       "club_name": "Nott'm Forest",
       "club_short_name": "NFO",
       "element_id": 470,
       "first_name": "Felipe",
-      "news": "",
+      "news": "Has joined West Ham on loan for the rest of the season",
       "official_draft_rank": 304,
       "position": "DEF",
       "position_id": 2,
@@ -2905,13 +2961,13 @@
       "web_name": "Willock"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 8,
       "club_name": "Crystal Palace",
       "club_short_name": "CRY",
       "element_id": 215,
       "first_name": "Justin",
-      "news": "",
+      "news": "Has joined Stoke City permanently",
       "official_draft_rank": 318,
       "position": "MID",
       "position_id": 3,
@@ -2989,13 +3045,13 @@
       "web_name": "Gomez"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 13,
       "club_name": "Leeds",
       "club_short_name": "LEE",
       "element_id": 341,
       "first_name": "Wilfried",
-      "news": "",
+      "news": "Has joined ACF Fiorentina on loan for the rest of the season",
       "official_draft_rank": 324,
       "position": "MID",
       "position_id": 3,
@@ -3325,13 +3381,13 @@
       "web_name": "Alleyne"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 8,
       "club_name": "Crystal Palace",
       "club_short_name": "CRY",
       "element_id": 216,
       "first_name": "Romain",
-      "news": "",
+      "news": "Has joined Millwall on loan for the rest of the season",
       "official_draft_rank": 348,
       "position": "MID",
       "position_id": 3,
@@ -3703,13 +3759,13 @@
       "web_name": "Belloumi"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 11,
       "club_name": "Hull City",
       "club_short_name": "HUL",
       "element_id": 287,
       "first_name": "Liam",
-      "news": "",
+      "news": "Has joined Birmingham on loan for the rest of the season",
       "official_draft_rank": 375,
       "position": "MID",
       "position_id": 3,
@@ -3801,13 +3857,13 @@
       "web_name": "Burns"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 12,
       "club_name": "Ipswich Town",
       "club_short_name": "IPS",
       "element_id": 314,
       "first_name": "Chiedozie",
-      "news": "",
+      "news": "Has joined Lincoln City on loan until January",
       "official_draft_rank": 382,
       "position": "MID",
       "position_id": 3,
@@ -3983,13 +4039,13 @@
       "web_name": "Phillips"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 15,
       "club_name": "Man City",
       "club_short_name": "MCI",
       "element_id": 410,
       "first_name": "Jeremy",
-      "news": "",
+      "news": "Has joined Swansea City on loan for the rest of the season",
       "official_draft_rank": 396,
       "position": "MID",
       "position_id": 3,
@@ -4320,6 +4376,48 @@
     },
     {
       "availability_status": "a",
+      "club_id": 9,
+      "club_name": "Everton",
+      "club_short_name": "EVE",
+      "element_id": 637,
+      "first_name": "Ainsley",
+      "news": "",
+      "official_draft_rank": 424,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Maitland-Niles",
+      "web_name": "Maitland-Niles"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 8,
+      "club_name": "Crystal Palace",
+      "club_short_name": "CRY",
+      "element_id": 634,
+      "first_name": "Ben",
+      "news": "",
+      "official_draft_rank": 427,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Chilwell",
+      "web_name": "Chilwell"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 8,
+      "club_name": "Crystal Palace",
+      "club_short_name": "CRY",
+      "element_id": 633,
+      "first_name": "Honest",
+      "news": "",
+      "official_draft_rank": 428,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Ahanor",
+      "web_name": "Ahanor"
+    },
+    {
+      "availability_status": "a",
       "club_id": 10,
       "club_name": "Fulham",
       "club_short_name": "FUL",
@@ -4345,6 +4443,20 @@
       "position_id": 1,
       "second_name": "Leno",
       "web_name": "Leno"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 2,
+      "club_name": "Aston Villa",
+      "club_short_name": "AVL",
+      "element_id": 630,
+      "first_name": "Taylor",
+      "news": "",
+      "official_draft_rank": 431,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Harwood-Bellis",
+      "web_name": "Harwood-Bellis"
     },
     {
       "availability_status": "a",
@@ -4921,13 +5033,13 @@
       "web_name": "Bornauw"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 9,
       "club_name": "Everton",
       "club_short_name": "EVE",
       "element_id": 234,
       "first_name": "Nathan",
-      "news": "",
+      "news": "Has joined Torino permanently",
       "official_draft_rank": 477,
       "position": "DEF",
       "position_id": 2,
@@ -5131,13 +5243,13 @@
       "web_name": "Benitez"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 5,
       "club_name": "Brighton",
       "club_short_name": "BHA",
       "element_id": 118,
       "first_name": "Igor Julio",
-      "news": "",
+      "news": "Has joined Burnley permanently",
       "official_draft_rank": 493,
       "position": "DEF",
       "position_id": 2,
@@ -5145,13 +5257,13 @@
       "web_name": "Igor"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 8,
       "club_name": "Crystal Palace",
       "club_short_name": "CRY",
       "element_id": 205,
       "first_name": "Borna",
-      "news": "",
+      "news": "Has joined FC Cologne on loan for the rest of the season",
       "official_draft_rank": 494,
       "position": "DEF",
       "position_id": 2,
@@ -5271,13 +5383,13 @@
       "web_name": "Fletcher"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 19,
       "club_name": "Spurs",
       "club_short_name": "TOT",
       "element_id": 528,
       "first_name": "Dane",
-      "news": "",
+      "news": "Has joined Leyton Orient permanently",
       "official_draft_rank": 503,
       "position": "FWD",
       "position_id": 4,
@@ -5355,13 +5467,13 @@
       "web_name": "Oriola"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 6,
       "club_name": "Chelsea",
       "club_short_name": "CHE",
       "element_id": 163,
       "first_name": "Dário",
-      "news": "",
+      "news": "Has joined RC Strasbourg on loan for the rest of the season",
       "official_draft_rank": 509,
       "position": "MID",
       "position_id": 3,
@@ -5537,13 +5649,13 @@
       "web_name": "Shepherd"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
       "element_id": 191,
       "first_name": "Raphael",
-      "news": "",
+      "news": "Has joined Burton Albion on loan for the rest of the season",
       "official_draft_rank": 522,
       "position": "MID",
       "position_id": 3,
@@ -6125,13 +6237,13 @@
       "web_name": "Yalcouyé"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 12,
       "club_name": "Ipswich Town",
       "club_short_name": "IPS",
       "element_id": 601,
       "first_name": "Cameron",
-      "news": "",
+      "news": "Has joined Huddersfield Town on loan for the rest of the season",
       "official_draft_rank": 564,
       "position": "MID",
       "position_id": 3,
@@ -6349,13 +6461,13 @@
       "web_name": "Soler"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 18,
       "club_name": "Nott'm Forest",
       "club_short_name": "NFO",
       "element_id": 477,
       "first_name": "Zach",
-      "news": "",
+      "news": "Has joined Southampton on loan for the rest of the season",
       "official_draft_rank": 580,
       "position": "DEF",
       "position_id": 2,
@@ -6503,13 +6615,13 @@
       "web_name": "Steele"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
       "element_id": 171,
       "first_name": "Oliver",
-      "news": "",
+      "news": "Has joined Leyton Orient on loan for the rest of the season",
       "official_draft_rank": 591,
       "position": "GKP",
       "position_id": 1,
@@ -6531,13 +6643,13 @@
       "web_name": "Thomas"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
       "element_id": 174,
       "first_name": "Liam",
-      "news": "",
+      "news": "Has joined Sheffield United on loan for the rest of the season",
       "official_draft_rank": 593,
       "position": "DEF",
       "position_id": 2,
@@ -6797,13 +6909,13 @@
       "web_name": "Coyle"
     },
     {
-      "availability_status": "a",
+      "availability_status": "u",
       "club_id": 11,
       "club_name": "Hull City",
       "club_short_name": "HUL",
       "element_id": 281,
       "first_name": "Cody",
-      "news": "",
+      "news": "Has joined Genoa permanently",
       "official_draft_rank": 612,
       "position": "DEF",
       "position_id": 2,
@@ -6825,13 +6937,13 @@
       "web_name": "Giles"
     },
     {
-      "availability_status": "i",
+      "availability_status": "u",
       "club_id": 11,
       "club_name": "Hull City",
       "club_short_name": "HUL",
       "element_id": 283,
       "first_name": "Matty",
-      "news": "Hip injury - Expected back 5 Sep",
+      "news": "Has joined Newport County on loan until January",
       "official_draft_rank": 614,
       "position": "DEF",
       "position_id": 2,
@@ -7343,7 +7455,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-09-02T15:31:09.483922Z",
+  "generated_at": "2026-09-02T18:30:15.074853Z",
   "league_id": 8905,
   "schema_version": 1
 }
