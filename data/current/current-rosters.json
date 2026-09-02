@@ -2,9 +2,9 @@
   "data_quality": {
     "active_league_entries": 7,
     "complete_rosters": true,
-    "element_status_records": 637
+    "element_status_records": 645
   },
-  "free_agent_count": 532,
+  "free_agent_count": 540,
   "free_agents": [
     {
       "availability_status": "a",
@@ -747,6 +747,20 @@
       "position_id": 4,
       "second_name": "David",
       "web_name": "David"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 11,
+      "club_name": "Hull City",
+      "club_short_name": "HUL",
+      "element_id": 644,
+      "first_name": "Sorba",
+      "news": "",
+      "official_draft_rank": 121,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Thomas",
+      "web_name": "Thomas"
     },
     {
       "availability_status": "a",
@@ -2077,6 +2091,76 @@
       "position_id": 3,
       "second_name": "Enciso",
       "web_name": "Enciso"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 11,
+      "club_name": "Hull City",
+      "club_short_name": "HUL",
+      "element_id": 645,
+      "first_name": "Christos",
+      "news": "",
+      "official_draft_rank": 237,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Mouzakitis",
+      "web_name": "Mouzakitis"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 11,
+      "club_name": "Hull City",
+      "club_short_name": "HUL",
+      "element_id": 642,
+      "first_name": "Robinio",
+      "news": "",
+      "official_draft_rank": 239,
+      "position": "FWD",
+      "position_id": 4,
+      "second_name": "Vaz",
+      "web_name": "Vaz"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 11,
+      "club_name": "Hull City",
+      "club_short_name": "HUL",
+      "element_id": 641,
+      "first_name": "Ilyas",
+      "news": "",
+      "official_draft_rank": 240,
+      "position": "FWD",
+      "position_id": 4,
+      "second_name": "Ansah",
+      "web_name": "Ansah"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 10,
+      "club_name": "Fulham",
+      "club_short_name": "FUL",
+      "element_id": 639,
+      "first_name": "Manuel Ángel",
+      "news": "",
+      "official_draft_rank": 241,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Morán Ibáñez",
+      "web_name": "Ángel"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 10,
+      "club_name": "Fulham",
+      "club_short_name": "FUL",
+      "element_id": 638,
+      "first_name": "Hugo",
+      "news": "",
+      "official_draft_rank": 242,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Larsson",
+      "web_name": "Larsson"
     },
     {
       "availability_status": "a",
@@ -4345,6 +4429,20 @@
       "position_id": 3,
       "second_name": "Osman",
       "web_name": "Osman"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 10,
+      "club_name": "Fulham",
+      "club_short_name": "FUL",
+      "element_id": 640,
+      "first_name": "David",
+      "news": "",
+      "official_draft_rank": 421,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Affengruber",
+      "web_name": "Affengruber"
     },
     {
       "availability_status": "a",
@@ -7260,6 +7358,20 @@
     },
     {
       "availability_status": "a",
+      "club_id": 11,
+      "club_name": "Hull City",
+      "club_short_name": "HUL",
+      "element_id": 643,
+      "first_name": "Brooke",
+      "news": "",
+      "official_draft_rank": 637,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Norton-Cuffy",
+      "web_name": "Norton-Cuffy"
+    },
+    {
+      "availability_status": "a",
       "club_id": 19,
       "club_name": "Spurs",
       "club_short_name": "TOT",
@@ -7455,7 +7567,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-09-02T18:30:15.074853Z",
+  "generated_at": "2026-09-02T21:25:07.431794Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
