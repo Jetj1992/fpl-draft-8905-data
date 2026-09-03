@@ -7333,16 +7333,16 @@
         "web_name": "Dominguez"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 276,
         "element_type": 3,
         "first_name": "Ibrahim",
         "id": 488,
         "minutes": 90,
-        "news": "Calf injury - Unknown return date",
+        "news": "",
         "second_name": "Sangaré",
-        "status": "i",
+        "status": "a",
         "team": 18,
         "total_points": 2,
         "web_name": "I.Sangaré"
@@ -8593,16 +8593,16 @@
         "web_name": "Tzolakis"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 407,
         "element_type": 3,
         "first_name": "Florentino Ibrain",
         "id": 572,
         "minutes": 0,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "second_name": "Morris Luís",
-        "status": "d",
+        "status": "a",
         "team": 12,
         "total_points": 0,
         "web_name": "Florentino"
@@ -12469,13 +12469,13 @@
         "web_name": "Botman"
       },
       {
-        "availability_status": "i",
+        "availability_status": "a",
         "club_id": 18,
         "club_name": "Nott'm Forest",
         "club_short_name": "NFO",
         "element_id": 488,
         "first_name": "Ibrahim",
-        "news": "Calf injury - Unknown return date",
+        "news": "",
         "official_draft_rank": 276,
         "position": "MID",
         "position_id": 3,
@@ -14261,13 +14261,13 @@
         "web_name": "Moore"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 12,
         "club_name": "Ipswich Town",
         "club_short_name": "IPS",
         "element_id": 572,
         "first_name": "Florentino Ibrain",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 407,
         "position": "MID",
         "position_id": 3,
@@ -17579,7 +17579,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-03T18:30:12.195731Z",
+    "generated_at": "2026-09-03T21:29:53.922348Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28771,7 +28771,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-03T18:30:12.758148Z",
+  "generated_at": "2026-09-03T21:29:55.043906Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -36108,16 +36108,16 @@
             "web_name": "Dominguez"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 276,
             "element_type": 3,
             "first_name": "Ibrahim",
             "id": 488,
             "minutes": 90,
-            "news": "Calf injury - Unknown return date",
+            "news": "",
             "second_name": "Sangaré",
-            "status": "i",
+            "status": "a",
             "team": 18,
             "total_points": 2,
             "web_name": "I.Sangaré"
@@ -37368,16 +37368,16 @@
             "web_name": "Tzolakis"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 407,
             "element_type": 3,
             "first_name": "Florentino Ibrain",
             "id": 572,
             "minutes": 0,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "",
             "second_name": "Morris Luís",
-            "status": "d",
+            "status": "a",
             "team": 12,
             "total_points": 0,
             "web_name": "Florentino"
@@ -94672,7 +94672,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-03T18:30:12.758148Z",
+        "generated_at": "2026-09-03T21:29:55.043906Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -95302,7 +95302,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-03T18:30:12.193668Z",
+        "generated_at": "2026-09-03T21:29:53.920383Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -97917,7 +97917,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-03T18:30:12.758119Z",
+        "generated_at": "2026-09-03T21:29:55.043873Z",
         "players": [
           {
             "availability_status": "a",
@@ -162686,7 +162686,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788460211
+      "time": 1788470992
     },
     "choices": {
       "choices": [],
@@ -178772,7 +178772,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-03T18:30:12.195766Z",
+    "generated_at": "2026-09-03T21:29:53.922377Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -188559,7 +188559,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-03T18:30:12.758148Z",
+    "generated_at": "2026-09-03T21:29:55.043906Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -188594,7 +188594,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-03T18:30:12.193668Z",
+    "generated_at": "2026-09-03T21:29:53.920383Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -191209,7 +191209,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-03T18:30:12.758119Z",
+    "generated_at": "2026-09-03T21:29:55.043873Z",
     "players": [
       {
         "availability_status": "a",
