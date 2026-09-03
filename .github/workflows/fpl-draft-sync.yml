@@ -43,7 +43,7 @@ jobs:
 
       - name: Validate consolidated JSON
         env:
-          AGGREGATE_PATH: data/fpl-draft.json
+          AGGREGATE_PATH: fpl-draft.json
         run: |
           python - <<'PY'
           import json
@@ -104,8 +104,7 @@ jobs:
       - name: Commit consolidated data only
         shell: bash
         run: |
-          git add data/fpl-draft.json
-          git reset -- data/current data/history data/draft 2>/dev/null || true
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No consolidated FPL data changed."
@@ -136,9 +135,9 @@ jobs:
         run: |
           set -euo pipefail
           rm -rf _site
-          mkdir -p _site/data
-          test -f data/fpl-draft.json
-          cp data/fpl-draft.json _site/data/fpl-draft.json
+          mkdir -p _site
+          test -f fpl-draft.json
+          cp fpl-draft.json _site/fpl-draft.json
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages
