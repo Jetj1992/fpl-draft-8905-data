@@ -2,9 +2,9 @@
   "data_quality": {
     "active_league_entries": 7,
     "complete_rosters": true,
-    "element_status_records": 645
+    "element_status_records": 651
   },
-  "free_agent_count": 540,
+  "free_agent_count": 546,
   "free_agents": [
     {
       "availability_status": "a",
@@ -229,6 +229,20 @@
       "position_id": 3,
       "second_name": "Kulusevski",
       "web_name": "Kulusevski"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 17,
+      "club_name": "Newcastle",
+      "club_short_name": "NEW",
+      "element_id": 649,
+      "first_name": "Matias",
+      "news": "",
+      "official_draft_rank": 58,
+      "position": "FWD",
+      "position_id": 4,
+      "second_name": "Fernandez-Pardo",
+      "web_name": "Fernandez-Pardo"
     },
     {
       "availability_status": "a",
@@ -747,6 +761,34 @@
       "position_id": 4,
       "second_name": "David",
       "web_name": "David"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 20,
+      "club_name": "Sunderland",
+      "club_short_name": "SUN",
+      "element_id": 650,
+      "first_name": "Malick",
+      "news": "",
+      "official_draft_rank": 118,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Fofana",
+      "web_name": "Fofana"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 12,
+      "club_name": "Ipswich Town",
+      "club_short_name": "IPS",
+      "element_id": 646,
+      "first_name": "Zian",
+      "news": "",
+      "official_draft_rank": 120,
+      "position": "FWD",
+      "position_id": 4,
+      "second_name": "Flemming",
+      "web_name": "Flemming"
     },
     {
       "availability_status": "a",
@@ -2077,6 +2119,20 @@
       "position_id": 3,
       "second_name": "Hamer",
       "web_name": "Hamer"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 13,
+      "club_name": "Leeds",
+      "club_short_name": "LEE",
+      "element_id": 648,
+      "first_name": "Jean-Mattéo",
+      "news": "",
+      "official_draft_rank": 235,
+      "position": "MID",
+      "position_id": 3,
+      "second_name": "Bahoya",
+      "web_name": "Bahoya"
     },
     {
       "availability_status": "a",
@@ -4320,6 +4376,20 @@
     },
     {
       "availability_status": "a",
+      "club_id": 20,
+      "club_name": "Sunderland",
+      "club_short_name": "SUN",
+      "element_id": 651,
+      "first_name": "Juan",
+      "news": "",
+      "official_draft_rank": 411,
+      "position": "FWD",
+      "position_id": 4,
+      "second_name": "Angulo",
+      "web_name": "J.Angulo"
+    },
+    {
+      "availability_status": "a",
       "club_id": 7,
       "club_name": "Coventry City",
       "club_short_name": "COV",
@@ -4359,6 +4429,20 @@
       "position_id": 3,
       "second_name": "Gourna-Douath",
       "web_name": "Gourna-Douath"
+    },
+    {
+      "availability_status": "a",
+      "club_id": 13,
+      "club_name": "Leeds",
+      "club_short_name": "LEE",
+      "element_id": 647,
+      "first_name": "Melvin",
+      "news": "",
+      "official_draft_rank": 415,
+      "position": "DEF",
+      "position_id": 2,
+      "second_name": "Bard",
+      "web_name": "Bard"
     },
     {
       "availability_status": "a",
@@ -7567,7 +7651,7 @@
       "web_name": "Hjelde"
     }
   ],
-  "generated_at": "2026-09-02T21:25:07.431794Z",
+  "generated_at": "2026-09-03T00:36:39.950057Z",
   "league_id": 8905,
   "owned_player_count": 105,
   "rosters": [
