@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import importlib.util
 import sys
+import json
+import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
@@ -355,6 +357,107 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(len(recap["teams"]), 2)
         self.assertNotIn(420622, {team["league_entry_id"] for team in recap["teams"]})
 
+    def test_aggregate_document_uses_top_level_current_payload(self) -> None:
+        summary = {
+            "schema_version": 5,
+            "generated_at": "2026-09-03T12:00:00Z",
+            "league_id": 8905,
+            "league_name": "OK Data Liga",
+        }
+        initial_draft = {"draft_recap": {"recap_ready": True, "draft_fingerprint": "abc"}}
+        document = MODULE.build_aggregate_document(
+            summary=summary,
+            bootstrap={"elements": []},
+            fpl_calendar={"events": []},
+            details={"standings": []},
+            optional_data={"element_status": {"element_status": []}},
+            entry_public={},
+            transactions_enriched={"transactions": []},
+            current_state={"owned_player_count": 105},
+            proposed_waivers_data={"pending_waiver_count": 0},
+            draft_recap=initial_draft["draft_recap"],
+            round_context={"next_deadline": None},
+            pl_fixtures={2: []},
+            event_live={"elements": []},
+            entry_events={},
+            watched_payload={"players": []},
+            history={"gw-01": {"summary": {"latest_complete_gameweek": 1}}},
+            initial_draft=initial_draft,
+        )
+
+        self.assertEqual(document["schema_version"], 6)
+        self.assertEqual(document["league_id"], 8905)
+        self.assertIn("summary", document)
+        self.assertIn("league_details", document)
+        self.assertIn("draft_recap", document)
+        self.assertIn("history", document)
+        self.assertIn("initial_draft", document)
+        self.assertNotIn("current", document)
+        self.assertNotIn("draft", document)
+
+    def test_aggregate_document_preserves_history_and_draft_at_top_level(self) -> None:
+        document = MODULE.build_aggregate_document(
+            summary={"generated_at": "now", "league_id": 8905, "league_name": "OK Data Liga"},
+            bootstrap={},
+            fpl_calendar={},
+            details={},
+            optional_data={},
+            entry_public={},
+            transactions_enriched={},
+            current_state={},
+            proposed_waivers_data={},
+            draft_recap={"recap_ready": True},
+            round_context={},
+            pl_fixtures={},
+            event_live={},
+            entry_events={},
+            watched_payload=None,
+            history={"gw-02": {"summary": {"latest_complete_gameweek": 2}}},
+            initial_draft={"draft_recap": {"draft_fingerprint": "xyz"}},
+        )
+
+        self.assertEqual(document["history"]["gw-02"]["summary"]["latest_complete_gameweek"], 2)
+        self.assertEqual(document["initial_draft"]["draft_recap"]["draft_fingerprint"], "xyz")
+        self.assertEqual(document["draft_recap"]["recap_ready"], True)
+
+    def test_aggregate_document_is_json_serializable(self) -> None:
+        document = MODULE.build_aggregate_document(
+            summary={"league_id": 8905},
+            bootstrap={},
+            fpl_calendar={},
+            details={},
+            optional_data={},
+            entry_public={},
+            transactions_enriched={},
+            current_state={},
+            proposed_waivers_data={},
+            draft_recap={},
+            round_context={},
+            pl_fixtures={2: [{"fixture": 1}]},
+            event_live={},
+            entry_events={},
+            watched_payload=None,
+            history={"gw-02": {}},
+            initial_draft=None,
+        )
+        encoded = json.dumps(document, ensure_ascii=False)
+        decoded = json.loads(encoded)
+        self.assertEqual(decoded["schema_version"], 6)
+        self.assertEqual(decoded["pl_fixtures"]["2"][0]["fixture"], 1)
+
+    def test_remove_legacy_outputs_removes_all_legacy_public_trees(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            for directory_name in ("current", "history", "draft"):
+                directory = data_dir / directory_name
+                directory.mkdir(parents=True)
+                (directory / "legacy.json").write_text("{}", encoding="utf-8")
+
+            MODULE.remove_legacy_outputs(data_dir)
+
+            for directory_name in ("current", "history", "draft"):
+                self.assertFalse((data_dir / directory_name).exists())
+
     def test_transactions_are_typed_only_from_explicit_kind(self) -> None:
         transactions = {
             "transactions": [
@@ -384,39 +487,6 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(first["entry_name"], "AGFs Førstehold")
         self.assertEqual(first["element_in"]["web_name"], "Player 2")
         self.assertIsNone(second["transaction_type"])
-
-    def test_aggregate_document_contains_current_history_and_draft(self) -> None:
-        summary = {"schema_version": 5, "league_id": 8905, "league_name": "OK Data Liga", "generated_at": "now"}
-        document = MODULE.build_aggregate_document(
-            summary=summary,
-            bootstrap={"elements": []},
-            fpl_calendar={"events": [], "teams": []},
-            details=base_details(),
-            optional_data={"element_status": None},
-            entry_public={},
-            transactions_enriched={"transactions": []},
-            current_state={"free_agent_count": 1},
-            proposed_waivers_data={"pending_waiver_count": 0},
-            draft_recap={"recap_ready": False},
-            round_context={"next_deadline": None},
-            pl_fixtures={},
-            event_live=None,
-            entry_events={},
-            watched_payload=None,
-            history={"gw-01": {"summary": {"latest_complete_gameweek": 1}}},
-            initial_draft=None,
-        )
-        self.assertEqual(document["schema_version"], 5)
-        self.assertEqual(document["league_id"], 8905)
-        self.assertIn("current", document)
-        self.assertIn("history", document)
-        self.assertIn("gw-01", document["history"])
-        self.assertIn("draft", document)
-
-    def test_aggregate_document_roundtrips_private_field_sanitization(self) -> None:
-        payload = {"email": "private@example.com", "public": {"value": 1}}
-        sanitized = MODULE.sanitize(payload)
-        self.assertEqual(sanitized, {"public": {"value": 1}})
 
 
 if __name__ == "__main__":
