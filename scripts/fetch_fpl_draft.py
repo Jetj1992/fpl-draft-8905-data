@@ -4,7 +4,7 @@
 Designed for GitHub Actions. No login, password, cookie or API key is required.
 
 The script publishes one consolidated public JSON document at
-``data/fpl-draft.json`` containing current state, draft data and historical
+``fpl-draft.json`` containing current state, draft data and historical
 gameweek snapshots. Florian Wirtz is watched by default.
 
 The code deliberately keeps uncertain facts explicit. It never labels a player
@@ -1639,77 +1639,19 @@ def write_aggregate_document(path: Path, document: dict[str, Any]) -> None:
     write_json(path, document)
 
 def remove_legacy_outputs(data_dir: Path) -> None:
-    """Remove the old many-file public artifacts after they are folded into the aggregate."""
-    legacy_current_files = {
-        "summary.json",
-        "bootstrap-compact.json",
-        "fpl-calendar.json",
-        "league-details.json",
-        "bootstrap-dynamic.json",
-        "game.json",
-        "element-status.json",
-        "trades.json",
-        "choices.json",
-        "transactions.json",
-        "transactions-enriched.json",
-        "entries-public.json",
-        "current-rosters.json",
-        "free-agents.json",
-        "proposed-waivers.json",
-        "draft-recap.json",
-        "round-context.json",
-        "latest-event-live.json",
-        "latest-entry-events.json",
-        "watched-players.json",
-    }
-    current_dir = data_dir / "current"
-    for name in legacy_current_files:
-        path = current_dir / name
-        if path.exists():
-            path.unlink()
-    for path in current_dir.glob("pl-fixtures-gw-*.json"):
-        path.unlink()
-    if current_dir.exists():
-        try:
-            current_dir.rmdir()
-        except OSError:
-            pass
+    """Remove all legacy public JSON trees after they are folded into the aggregate."""
+    import shutil
 
-    history_dir = data_dir / "history"
-    if history_dir.exists():
-        for gw_dir in history_dir.glob("gw-*"):
-            if not gw_dir.is_dir():
-                continue
-            for path in gw_dir.glob("*.json"):
-                path.unlink()
-            try:
-                gw_dir.rmdir()
-            except OSError:
-                pass
-        try:
-            history_dir.rmdir()
-        except OSError:
-            pass
-
-    initial_draft_dir = data_dir / "draft" / "initial"
-    if initial_draft_dir.exists():
-        for path in initial_draft_dir.glob("*.json"):
-            path.unlink()
-        try:
-            initial_draft_dir.rmdir()
-        except OSError:
-            pass
-        draft_dir = data_dir / "draft"
-        try:
-            draft_dir.rmdir()
-        except OSError:
-            pass
+    for directory_name in ("current", "history", "draft"):
+        directory = data_dir / directory_name
+        if directory.exists():
+            shutil.rmtree(directory)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--league-id", type=int, required=True)
-    parser.add_argument("--data-dir", default="data")
+    parser.add_argument("--data-dir", default=".")
     parser.add_argument(
         "--watch-player",
         action="append",
@@ -1907,8 +1849,8 @@ def main() -> int:
         },
         "endpoint_status": endpoint_status,
         "current_state": {
-            "current_rosters_path": "current.current_state",
-            "free_agents_path": "current.current_state.free_agents",
+            "current_rosters_path": "current_state",
+            "free_agents_path": "current_state.free_agents",
             "free_agent_count": current_state.get("free_agent_count"),
             "owned_player_count": current_state.get("owned_player_count"),
         },
