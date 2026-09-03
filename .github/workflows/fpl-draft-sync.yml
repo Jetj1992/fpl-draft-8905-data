@@ -73,7 +73,7 @@ jobs:
         run: |
           rm -rf _site
           mkdir -p _site/data
-          cp -R data/. _site/data/
+          cp data/fpl-draft.json _site/data/fpl-draft.json
           touch _site/.nojekyll
 
       - name: Configure GitHub Pages
