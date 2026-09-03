@@ -1600,7 +1600,14 @@ def build_aggregate_document(
     initial_draft: dict[str, Any] | None,
 ) -> dict[str, Any]:
     """Build one public JSON document containing current state and full history."""
-    current = {
+    document = {
+        "schema_version": 6,
+        "document_type": "ok_data_liga_fpl_draft",
+        "generated_at": summary.get("generated_at"),
+        "league_id": summary.get("league_id"),
+        "league_name": summary.get("league_name"),
+
+        # Current/snapshot data is intentionally kept at the outermost level.
         "summary": summary,
         "bootstrap": bootstrap,
         "fpl_calendar": fpl_calendar,
@@ -1616,20 +1623,13 @@ def build_aggregate_document(
         "latest_event_live": event_live,
         "latest_entry_events": entry_events,
         "watched_players": watched_payload,
-    }
-    document = {
-        "schema_version": 5,
-        "document_type": "ok_data_liga_fpl_draft",
-        "generated_at": summary.get("generated_at"),
-        "league_id": summary.get("league_id"),
-        "league_name": summary.get("league_name"),
-        "current": current,
+
+        # Historical snapshots remain grouped by gameweek.
         "history": history,
-        "draft": {
-            "initial": initial_draft
-            if initial_draft is not None
-            else {"draft_recap": draft_recap} if draft_recap else None
-        },
+
+        # Keep the frozen draft payload available without nesting it under a
+        # second JSON-like wrapper such as draft.initial.
+        "initial_draft": initial_draft,
     }
     return document
 
@@ -1805,9 +1805,14 @@ def main() -> int:
     existing_aggregate = read_json(aggregate_path)
     initial_draft = None
     if isinstance(existing_aggregate, dict):
-        draft_block = existing_aggregate.get("draft")
-        if isinstance(draft_block, dict) and isinstance(draft_block.get("initial"), dict):
-            initial_draft = draft_block["initial"]
+        # New schema: frozen draft is a top-level object.
+        if isinstance(existing_aggregate.get("initial_draft"), dict):
+            initial_draft = existing_aggregate["initial_draft"]
+        else:
+            # Backward compatibility with schema v5.
+            draft_block = existing_aggregate.get("draft")
+            if isinstance(draft_block, dict) and isinstance(draft_block.get("initial"), dict):
+                initial_draft = draft_block["initial"]
     if initial_draft is None:
         initial_draft = load_legacy_draft(initial_draft_dir)
 
