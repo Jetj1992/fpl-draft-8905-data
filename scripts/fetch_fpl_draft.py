@@ -1601,7 +1601,7 @@ def build_aggregate_document(
 ) -> dict[str, Any]:
     """Build one public JSON document containing current state and full history."""
     document = {
-        "schema_version": 5,
+        "schema_version": 6,
         "document_type": "ok_data_liga_fpl_draft",
         "generated_at": summary.get("generated_at"),
         "league_id": summary.get("league_id"),
@@ -1817,7 +1817,7 @@ def main() -> int:
         )
 
     summary = {
-        "schema_version": 5,
+        "schema_version": 6,
         "generated_at": utc_now_iso(),
         "league_id": league_id,
         "league_name": league_name(details),
