@@ -3,12 +3,9 @@
 
 Designed for GitHub Actions. No login, password, cookie or API key is required.
 
-In addition to the raw league/gameweek data, the script creates two recap-ready
-artifacts:
-
-* ``data/current/draft-recap.json`` and an immutable initial-draft snapshot.
-* ``data/current/watched-players.json`` plus one file in every completed GW
-  snapshot. Florian Wirtz is watched by default.
+The script publishes one consolidated public JSON document at
+``data/fpl-draft.json`` containing current state, draft data and historical
+gameweek snapshots. Florian Wirtz is watched by default.
 
 The code deliberately keeps uncertain facts explicit. It never labels a player
 movement as a waiver or free-agent transfer unless the transaction payload does.
@@ -31,7 +28,6 @@ from zoneinfo import ZoneInfo
 
 DRAFT_BASE_URL = "https://draft.premierleague.com/api"
 FPL_BASE_URL = "https://fantasy.premierleague.com/api"
-PUBLIC_DATA_BASE_URL = "https://jetj1992.github.io/fpl-draft-8905-data"
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/140.0 Safari/537.36"
@@ -1097,176 +1093,6 @@ def normalize_transaction_result(raw_result: Any) -> str | None:
     return TRANSACTION_RESULT_LABELS.get(normalize_text(raw_result))
 
 
-def current_transfer_window(
-    transactions_enriched: dict[str, Any],
-) -> dict[str, Any]:
-    latest_gw = transactions_enriched.get("data_quality", {}).get("latest_complete_gameweek")
-    target_gw = latest_gw + 1 if isinstance(latest_gw, int) else None
-    records = transactions_enriched.get("transactions") or []
-    relevant = [
-        tx for tx in records
-        if isinstance(tx, dict) and tx.get("transfer_window_gameweek") == target_gw
-    ]
-    return {
-        "schema_version": 2,
-        "generated_at": utc_now_iso(),
-        "latest_complete_gameweek": latest_gw,
-        "transfer_window_gameweek": target_gw,
-        "transaction_count": len(relevant),
-        "transactions": relevant,
-    }
-
-
-def post_gameweek_transactions(
-    transactions_enriched: dict[str, Any],
-) -> dict[str, Any]:
-    """Backward-compatible name for the current pre-next-GW transfer window."""
-    return current_transfer_window(transactions_enriched)
-
-
-def current_rosters_and_free_agents(
-    element_status: Any,
-    details: dict[str, Any],
-    bootstrap: dict[str, Any],
-) -> dict[str, Any]:
-    """Build current ownership, rosters and free-agent pool."""
-    by_league_entry, by_entry = entry_indexes(details)
-    players, teams, _ = bootstrap_indexes(bootstrap)
-    entries = active_league_entries(details)
-    rosters: dict[int, list[dict[str, Any]]] = defaultdict(list)
-    free_agents: list[dict[str, Any]] = []
-    records = extract_records(element_status, ("element_status", "elements", "results"))
-
-    for item in records:
-        if not isinstance(item, dict):
-            continue
-        element_id = first_int(item, ("element", "element_id", "id"))
-        if element_id is None or element_id not in players:
-            continue
-        player = enrich_player(element_id, players, teams)
-        owner_ref = item.get("owner")
-        owner = (
-            resolve_entry_reference(owner_ref, by_league_entry, by_entry)
-            if owner_ref is not None
-            else None
-        )
-        if owner is None:
-            free_agents.append(player)
-            continue
-        league_entry_id = as_int(owner.get("id"))
-        if league_entry_id is None:
-            free_agents.append(player)
-            continue
-        player.update(
-            {
-                "league_entry_id": league_entry_id,
-                "entry_id": as_int(owner.get("entry_id")),
-                "entry_name": owner.get("entry_name"),
-            }
-        )
-        rosters[league_entry_id].append(player)
-
-    roster_output = []
-    for entry in entries:
-        league_entry_id = as_int(entry.get("id"))
-        if league_entry_id is None:
-            continue
-        squad = sorted(
-            rosters.get(league_entry_id, []),
-            key=lambda item: (
-                item.get("position_id") or 99,
-                str(item.get("web_name") or ""),
-            ),
-        )
-        roster_output.append(
-            {
-                "league_entry_id": league_entry_id,
-                "entry_id": as_int(entry.get("entry_id")),
-                "entry_name": entry.get("entry_name"),
-                "player_count": len(squad),
-                "players": squad,
-            }
-        )
-
-    free_agents.sort(
-        key=lambda item: (
-            item.get("official_draft_rank") if item.get("official_draft_rank") is not None else 9999,
-            str(item.get("web_name") or ""),
-        )
-    )
-    return {
-        "schema_version": 1,
-        "generated_at": utc_now_iso(),
-        "league_id": first_int(details.get("league") or {}, ("id",)),
-        "source_available": element_status is not None,
-        "owned_player_count": sum(len(squad) for squad in rosters.values()),
-        "free_agent_count": len(free_agents),
-        "rosters": roster_output,
-        "free_agents": free_agents,
-        "data_quality": {
-            "element_status_records": len(records),
-            "active_league_entries": len(entries),
-            "complete_rosters": all(
-                roster.get("player_count") == EXPECTED_SQUAD_SIZE
-                for roster in roster_output
-            ),
-        },
-    }
-
-
-def proposed_waivers(transactions_enriched: dict[str, Any]) -> dict[str, Any]:
-    """Extract pending/proposed waivers for the GW immediately after the latest complete GW."""
-    window = current_transfer_window(transactions_enriched)
-    pending = [
-        tx
-        for tx in window.get("transactions", [])
-        if isinstance(tx, dict)
-        and tx.get("transaction_type") == "waiver"
-        and tx.get("result") in {None, "pending"}
-    ]
-    return {
-        "schema_version": 2,
-        "generated_at": utc_now_iso(),
-        "source_available": transactions_enriched.get("data_quality", {}).get("source_available", False),
-        "latest_complete_gameweek": window.get("latest_complete_gameweek"),
-        "waiver_gameweek": window.get("transfer_window_gameweek"),
-        "pending_waiver_count": len(pending),
-        "waivers": pending,
-    }
-
-
-def latest_complete_gameweek_for_transactions(
-    details: dict[str, Any]
-) -> int | None:
-    return latest_complete_gameweek(details)
-
-
-def transaction_phase(
-    transaction_type: str | None,
-    event: int | None,
-    latest_complete_gameweek: int | None,
-    draft_completed_at: str | None,
-    timestamp: str | None,
-) -> str:
-    """Classify transaction lifecycle phase independent of which GW is currently being analyzed."""
-    if transaction_type == "draft":
-        return "draft"
-    if event == 1 and draft_completed_at and timestamp:
-        try:
-            draft_dt = datetime.fromisoformat(draft_completed_at.replace("Z", "+00:00"))
-            tx_dt = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
-            return "pre_gw1" if tx_dt <= draft_dt else "gw1"
-        except ValueError:
-            pass
-    if latest_complete_gameweek is not None and event is not None:
-        if event > latest_complete_gameweek:
-            return "current_transfer_window" if event == latest_complete_gameweek + 1 else "future"
-        if event < latest_complete_gameweek:
-            return "historical"
-        return "completed_gw"
-    return "unknown"
-
-
 def enrich_transactions(
     transactions: Any,
     details: dict[str, Any],
@@ -1275,9 +1101,6 @@ def enrich_transactions(
     records = extract_records(transactions, ("transactions", "results", "items"))
     by_league_entry, by_entry = entry_indexes(details)
     players, teams, _ = bootstrap_indexes(bootstrap)
-    latest_gw = latest_complete_gameweek_for_transactions(details)
-    draft = draft_record(details) or {}
-    draft_completed_at = draft.get("draft_completed") if isinstance(draft, dict) else None
     output: list[dict[str, Any]] = []
 
     for raw in records:
@@ -1294,27 +1117,17 @@ def enrich_transactions(
         )
         raw_kind = first_present(raw, ("kind", "type", "transaction_type"))
         raw_result = first_present(raw, ("result", "status", "transaction_result"))
-        event = first_int(raw, ("event", "gameweek", "gw"))
-        timestamp = first_present(
-            raw,
-            ("created", "created_at", "timestamp", "time", "processed_at", "added"),
-        )
-        normalized_kind = normalize_transaction_type(raw_kind)
-        phase = transaction_phase(
-            normalized_kind, event, latest_gw, draft_completed_at, timestamp
-        )
-        target_gw = latest_gw + 1 if isinstance(latest_gw, int) else None
-        transfer_window_gameweek = target_gw if event == target_gw else None
         output.append(
             {
                 "transaction_id": first_present(raw, ("id", "transaction_id")),
-                "event": event,
-                "timestamp": timestamp,
-                "phase": phase,
-                "transfer_window_gameweek": transfer_window_gameweek,
+                "event": first_int(raw, ("event", "gameweek", "gw")),
+                "timestamp": first_present(
+                    raw,
+                    ("created", "created_at", "timestamp", "time", "processed_at"),
+                ),
                 "priority": first_int(raw, ("index", "priority", "waiver_pick")),
                 "raw_kind": raw_kind,
-                "transaction_type": normalized_kind,
+                "transaction_type": normalize_transaction_type(raw_kind),
                 "raw_result": raw_result,
                 "result": normalize_transaction_result(raw_result),
                 "league_entry_id": owner.get("id") if owner else None,
@@ -1334,13 +1147,8 @@ def enrich_transactions(
         "schema_version": 1,
         "generated_at": utc_now_iso(),
         "transactions": output,
-        "phase_counts": {
-            phase: sum(1 for item in output if item.get("phase") == phase)
-            for phase in sorted({item.get("phase") for item in output if item.get("phase")})
-        },
         "data_quality": {
             "source_available": transactions is not None,
-            "latest_complete_gameweek": latest_gw,
             "records_received": len(records),
             "records_enriched": len(output),
             "typed_records": sum(
@@ -1595,85 +1403,197 @@ def build_draft_recap(
     }
 
 
-def save_draft_snapshot(
-    *,
-    draft_dir: Path,
-    recap: dict[str, Any],
-    details: dict[str, Any],
-    bootstrap: dict[str, Any],
-    element_status: Any,
-    choices: Any,
-    transactions: Any,
-    trades: Any,
-) -> bool:
-    """Write the initial-draft snapshot once, only after it is recap-ready."""
-    if not recap.get("recap_ready"):
-        return False
-    recap_path = draft_dir / "draft-recap.json"
-    if recap_path.exists():
-        return True
-    draft_dir.mkdir(parents=True, exist_ok=True)
-    write_json(recap_path, recap)
-    write_json(draft_dir / "league-details.json", details)
-    write_json(draft_dir / "bootstrap-compact.json", bootstrap)
-    if element_status is not None:
-        write_json(draft_dir / "element-status.json", element_status)
-    if choices is not None:
-        write_json(draft_dir / "choices.json", choices)
-    if transactions is not None:
-        write_json(draft_dir / "transactions.json", transactions)
-    if trades is not None:
-        write_json(draft_dir / "trades.json", trades)
-    return True
+
+def load_json_file(path: Path) -> Any | None:
+    """Read a JSON file if it exists; return None on missing/invalid data."""
+    return read_json(path)
 
 
-def save_gameweek_snapshot(
+def load_snapshot_directory(gw_dir: Path) -> dict[str, Any]:
+    """Load all known JSON artifacts from a historical/current snapshot directory."""
+    file_names = (
+        "summary.json",
+        "league-details.json",
+        "round-context.json",
+        "bootstrap-compact.json",
+        "pl-fixtures.json",
+        "element-status.json",
+        "trades.json",
+        "choices.json",
+        "transactions.json",
+        "transactions-enriched.json",
+        "event-live.json",
+        "entry-events.json",
+        "watched-players.json",
+    )
+    result: dict[str, Any] = {}
+    for name in file_names:
+        payload = load_json_file(gw_dir / name)
+        if payload is not None:
+            result[name[:-5].replace("-", "_")] = payload
+    return result
+
+
+def load_legacy_history(history_dir: Path) -> dict[str, Any]:
+    """Merge existing per-file GW snapshots into the new single-file history model."""
+    history: dict[str, Any] = {}
+    if not history_dir.exists():
+        return history
+    for gw_dir in sorted(history_dir.glob("gw-*")):
+        if not gw_dir.is_dir():
+            continue
+        snapshot = load_snapshot_directory(gw_dir)
+        if snapshot:
+            history[gw_dir.name] = snapshot
+    return history
+
+
+def load_legacy_draft(initial_draft_dir: Path) -> dict[str, Any] | None:
+    """Load an old initial draft snapshot so migration does not lose draft history."""
+    if not initial_draft_dir.exists():
+        return None
+    draft_files = (
+        "draft-recap.json",
+        "league-details.json",
+        "bootstrap-compact.json",
+        "element-status.json",
+        "choices.json",
+        "transactions.json",
+        "trades.json",
+    )
+    result: dict[str, Any] = {}
+    for name in draft_files:
+        payload = load_json_file(initial_draft_dir / name)
+        if payload is not None:
+            result[name[:-5].replace("-", "_")] = payload
+    return result or None
+
+
+def build_aggregate_document(
     *,
-    gw_dir: Path,
     summary: dict[str, Any],
-    details: dict[str, Any],
-    round_context: dict[str, Any],
     bootstrap: dict[str, Any],
-    pl_fixtures: Any,
-    element_status: Any,
-    trades: Any,
-    choices: Any,
-    transactions: Any,
+    fpl_calendar: dict[str, Any],
+    details: dict[str, Any],
+    optional_data: dict[str, Any],
+    entry_public: dict[str, Any],
     transactions_enriched: dict[str, Any],
+    current_state: dict[str, Any],
+    proposed_waivers_data: dict[str, Any],
+    draft_recap: dict[str, Any],
+    round_context: dict[str, Any],
+    pl_fixtures: dict[int, Any],
     event_live: Any,
     entry_events: dict[str, Any],
-    watched_players: dict[str, Any] | None,
-) -> None:
-    """Create immutable raw GW inputs and safely backfill new derived files."""
-    is_new = not gw_dir.exists()
-    gw_dir.mkdir(parents=True, exist_ok=True)
-    if is_new:
-        write_json(gw_dir / "summary.json", summary)
-        write_json(gw_dir / "league-details.json", details)
-        write_json(gw_dir / "round-context.json", round_context)
-        write_json(gw_dir / "bootstrap-compact.json", bootstrap)
-        if pl_fixtures is not None:
-            write_json(gw_dir / "pl-fixtures.json", pl_fixtures)
-        if element_status is not None:
-            write_json(gw_dir / "element-status.json", element_status)
-        if trades is not None:
-            write_json(gw_dir / "trades.json", trades)
-        if choices is not None:
-            write_json(gw_dir / "choices.json", choices)
-        if transactions is not None:
-            write_json(gw_dir / "transactions.json", transactions)
-        if event_live is not None:
-            write_json(gw_dir / "event-live.json", event_live)
-        if entry_events:
-            write_json(gw_dir / "entry-events.json", entry_events)
+    watched_payload: dict[str, Any] | None,
+    history: dict[str, Any],
+    initial_draft: dict[str, Any] | None,
+) -> dict[str, Any]:
+    """Build one public JSON document containing current state and full history."""
+    current = {
+        "summary": summary,
+        "bootstrap": bootstrap,
+        "fpl_calendar": fpl_calendar,
+        "league_details": details,
+        "optional_endpoints": optional_data,
+        "entries_public": entry_public,
+        "transactions_enriched": transactions_enriched,
+        "current_state": current_state,
+        "proposed_waivers": proposed_waivers_data,
+        "draft_recap": draft_recap,
+        "round_context": round_context,
+        "pl_fixtures": {str(gw): payload for gw, payload in pl_fixtures.items()},
+        "latest_event_live": event_live,
+        "latest_entry_events": entry_events,
+        "watched_players": watched_payload,
+    }
+    document = {
+        "schema_version": 5,
+        "document_type": "ok_data_liga_fpl_draft",
+        "generated_at": summary.get("generated_at"),
+        "league_id": summary.get("league_id"),
+        "league_name": summary.get("league_name"),
+        "current": current,
+        "history": history,
+        "draft": {
+            "initial": initial_draft
+            if initial_draft is not None
+            else {"draft_recap": draft_recap} if draft_recap else None
+        },
+    }
+    return document
 
-    # These files did not exist in schema v3. Backfill only when missing.
-    if not (gw_dir / "bootstrap-compact.json").exists():
-        write_json(gw_dir / "bootstrap-compact.json", bootstrap)
-    if not (gw_dir / "transactions-enriched.json").exists():
-        write_json(gw_dir / "transactions-enriched.json", transactions_enriched)
-    if watched_players is not None and not (gw_dir / "watched-players.json").exists():
-        write_json(gw_dir / "watched-players.json", watched_players)
+
+def write_aggregate_document(path: Path, document: dict[str, Any]) -> None:
+    """Write the sole public data artifact."""
+    write_json(path, document)
+
+def remove_legacy_outputs(data_dir: Path) -> None:
+    """Remove the old many-file public artifacts after they are folded into the aggregate."""
+    legacy_current_files = {
+        "summary.json",
+        "bootstrap-compact.json",
+        "fpl-calendar.json",
+        "league-details.json",
+        "bootstrap-dynamic.json",
+        "game.json",
+        "element-status.json",
+        "trades.json",
+        "choices.json",
+        "transactions.json",
+        "transactions-enriched.json",
+        "entries-public.json",
+        "current-rosters.json",
+        "free-agents.json",
+        "proposed-waivers.json",
+        "draft-recap.json",
+        "round-context.json",
+        "latest-event-live.json",
+        "latest-entry-events.json",
+        "watched-players.json",
+    }
+    current_dir = data_dir / "current"
+    for name in legacy_current_files:
+        path = current_dir / name
+        if path.exists():
+            path.unlink()
+    for path in current_dir.glob("pl-fixtures-gw-*.json"):
+        path.unlink()
+    if current_dir.exists():
+        try:
+            current_dir.rmdir()
+        except OSError:
+            pass
+
+    history_dir = data_dir / "history"
+    if history_dir.exists():
+        for gw_dir in history_dir.glob("gw-*"):
+            if not gw_dir.is_dir():
+                continue
+            for path in gw_dir.glob("*.json"):
+                path.unlink()
+            try:
+                gw_dir.rmdir()
+            except OSError:
+                pass
+        try:
+            history_dir.rmdir()
+        except OSError:
+            pass
+
+    initial_draft_dir = data_dir / "draft" / "initial"
+    if initial_draft_dir.exists():
+        for path in initial_draft_dir.glob("*.json"):
+            path.unlink()
+        try:
+            initial_draft_dir.rmdir()
+        except OSError:
+            pass
+        draft_dir = data_dir / "draft"
+        try:
+            draft_dir.rmdir()
+        except OSError:
+            pass
 
 
 def main() -> int:
@@ -1697,6 +1617,7 @@ def main() -> int:
     current_dir = data_dir / "current"
     history_dir = data_dir / "history"
     initial_draft_dir = data_dir / "draft" / "initial"
+    aggregate_path = data_dir / "fpl-draft.json"
     current_dir.mkdir(parents=True, exist_ok=True)
     history_dir.mkdir(parents=True, exist_ok=True)
 
@@ -1708,7 +1629,6 @@ def main() -> int:
     endpoint_status["bootstrap_static"] = status
     assert isinstance(draft_bootstrap, dict)
     bootstrap = compact_bootstrap(draft_bootstrap)
-    write_json(current_dir / "bootstrap-compact.json", bootstrap)
 
     fpl_calendar_raw, status = fetch_json(
         FPL_BASE_URL, "/bootstrap-static/", required=True
@@ -1720,23 +1640,19 @@ def main() -> int:
         "events": fpl_calendar_compact.get("events", []),
         "teams": fpl_calendar_compact.get("teams", []),
     }
-    write_json(current_dir / "fpl-calendar.json", fpl_calendar)
 
     details, status = fetch_json(
         DRAFT_BASE_URL, f"/league/{league_id}/details", required=True
     )
     endpoint_status["league_details"] = status
     assert isinstance(details, dict)
-    write_json(current_dir / "league-details.json", details)
 
     optional_paths = {
         "bootstrap_dynamic": "/bootstrap-dynamic",
         "game": "/game",
         "element_status": f"/league/{league_id}/element-status",
         "trades": f"/draft/league/{league_id}/trades",
-        # Correct public endpoint for the initial snake-draft choices.
         "choices": f"/draft/{league_id}/choices",
-        # League-wide endpoint includes draft/waiver/free-agent transactions.
         "transactions": f"/draft/league/{league_id}/transactions",
     }
     optional_data: dict[str, Any] = {}
@@ -1744,8 +1660,6 @@ def main() -> int:
         payload, status = fetch_json(DRAFT_BASE_URL, path)
         endpoint_status[key] = status
         optional_data[key] = payload
-        if payload is not None:
-            write_json(current_dir / f"{key.replace('_', '-')}.json", payload)
 
     entries = active_league_entries(details)
     entry_public: dict[str, Any] = {}
@@ -1757,35 +1671,15 @@ def main() -> int:
         endpoint_status[f"entry_{entry_id}_public"] = status
         if payload is not None:
             entry_public[str(entry_id)] = payload
-    if entry_public:
-        write_json(current_dir / "entries-public.json", entry_public)
 
     transactions_enriched = enrich_transactions(
         optional_data.get("transactions"), details, bootstrap
-    )
-    write_json(current_dir / "transactions-enriched.json", transactions_enriched)
-    write_json(
-        current_dir / "post-gameweek-transactions.json",
-        post_gameweek_transactions(transactions_enriched),
     )
 
     current_state = current_rosters_and_free_agents(
         optional_data.get("element_status"), details, bootstrap
     )
-    write_json(current_dir / "current-rosters.json", current_state)
-    write_json(
-        current_dir / "free-agents.json",
-        {
-            "schema_version": current_state.get("schema_version"),
-            "generated_at": current_state.get("generated_at"),
-            "league_id": current_state.get("league_id"),
-            "free_agent_count": current_state.get("free_agent_count"),
-            "free_agents": current_state.get("free_agents", []),
-            "data_quality": current_state.get("data_quality", {}),
-        },
-    )
     pending_waivers_data = proposed_waivers(transactions_enriched)
-    write_json(current_dir / "proposed-waivers.json", pending_waivers_data)
 
     candidate_draft_recap = build_draft_recap(
         league_id=league_id,
@@ -1796,24 +1690,33 @@ def main() -> int:
         transactions=optional_data.get("transactions"),
         watch_names=watch_players,
     )
-    frozen_draft_recap = read_json(initial_draft_dir / "draft-recap.json")
-    if isinstance(frozen_draft_recap, dict) and frozen_draft_recap.get("recap_ready"):
-        # Keep the initial draft stable even after waivers or a mid-season redraft.
-        draft_recap = frozen_draft_recap
-        draft_snapshot_exists = True
+
+    # Prefer the new aggregate's frozen draft, then legacy initial-draft files.
+    existing_aggregate = read_json(aggregate_path)
+    initial_draft = None
+    if isinstance(existing_aggregate, dict):
+        draft_block = existing_aggregate.get("draft")
+        if isinstance(draft_block, dict) and isinstance(draft_block.get("initial"), dict):
+            initial_draft = draft_block["initial"]
+    if initial_draft is None:
+        initial_draft = load_legacy_draft(initial_draft_dir)
+
+    if isinstance(initial_draft, dict) and isinstance(initial_draft.get("draft_recap"), dict):
+        frozen_recap = initial_draft["draft_recap"]
     else:
-        draft_recap = candidate_draft_recap
-        draft_snapshot_exists = save_draft_snapshot(
-            draft_dir=initial_draft_dir,
-            recap=draft_recap,
-            details=details,
-            bootstrap=bootstrap,
-            element_status=optional_data.get("element_status"),
-            choices=optional_data.get("choices"),
-            transactions=optional_data.get("transactions"),
-            trades=optional_data.get("trades"),
-        )
-    write_json(current_dir / "draft-recap.json", draft_recap)
+        frozen_recap = None
+
+    draft_recap = frozen_recap if isinstance(frozen_recap, dict) and frozen_recap.get("recap_ready") else candidate_draft_recap
+    if draft_recap.get("recap_ready") and initial_draft is None:
+        initial_draft = {
+            "draft_recap": draft_recap,
+            "league_details": details,
+            "bootstrap_compact": bootstrap,
+            "element_status": optional_data.get("element_status"),
+            "choices": optional_data.get("choices"),
+            "transactions": optional_data.get("transactions"),
+            "trades": optional_data.get("trades"),
+        }
 
     ids = gameweek_ids(fpl_calendar, details)
     fixture_events = sorted({gw for gw in ids.values() if isinstance(gw, int)})
@@ -1823,10 +1726,8 @@ def main() -> int:
         endpoint_status[f"pl_fixtures_gw_{gw}"] = status
         if payload is not None:
             pl_fixtures[gw] = payload
-            write_json(current_dir / f"pl-fixtures-gw-{gw:02d}.json", payload)
 
     round_context = build_round_context(fpl_calendar, details, pl_fixtures)
-    write_json(current_dir / "round-context.json", round_context)
 
     latest_gw = ids["latest_complete"]
     entry_events: dict[str, Any] = {}
@@ -1835,8 +1736,6 @@ def main() -> int:
     if latest_gw is not None:
         live_payload, status = fetch_json(DRAFT_BASE_URL, f"/event/{latest_gw}/live")
         endpoint_status[f"event_{latest_gw}_live"] = status
-        if live_payload is not None:
-            write_json(current_dir / "latest-event-live.json", live_payload)
 
         for entry in entries:
             entry_id = as_int(entry.get("entry_id"))
@@ -1848,8 +1747,6 @@ def main() -> int:
             endpoint_status[f"entry_{entry_id}_event_{latest_gw}"] = status
             if payload is not None:
                 entry_events[str(entry_id)] = payload
-        if entry_events:
-            write_json(current_dir / "latest-entry-events.json", entry_events)
 
         watched_payload = build_watched_players(
             gameweek=latest_gw,
@@ -1861,10 +1758,9 @@ def main() -> int:
             entry_events=entry_events,
             pl_fixtures=pl_fixtures.get(latest_gw, []),
         )
-        write_json(current_dir / "watched-players.json", watched_payload)
 
     summary = {
-        "schema_version": 4,
+        "schema_version": 5,
         "generated_at": utc_now_iso(),
         "league_id": league_id,
         "league_name": league_name(details),
@@ -1876,15 +1772,6 @@ def main() -> int:
         "next_gameweek": ids["next"],
         "upcoming_gameweek": ids["upcoming"],
         "next_deadline": round_context.get("next_deadline"),
-        "public_data_base_url": PUBLIC_DATA_BASE_URL,
-        "public_data": {
-            "summary": f"{PUBLIC_DATA_BASE_URL}/data/summary.json",
-            "transactions_enriched": f"{PUBLIC_DATA_BASE_URL}/data/current/transactions-enriched.json",
-            "post_gameweek_transactions": f"{PUBLIC_DATA_BASE_URL}/data/current/post-gameweek-transactions.json",
-            "current_rosters": f"{PUBLIC_DATA_BASE_URL}/data/current/current-rosters.json",
-            "free_agents": f"{PUBLIC_DATA_BASE_URL}/data/current/free-agents.json",
-            "proposed_waivers": f"{PUBLIC_DATA_BASE_URL}/data/current/proposed-waivers.json",
-        },
         "draft": {
             "status": draft_recap.get("draft", {}).get("status"),
             "draft_id": draft_recap.get("draft", {}).get("id"),
@@ -1897,62 +1784,75 @@ def main() -> int:
             "resolved_picks": draft_recap.get("data_quality", {}).get(
                 "resolved_picks"
             ),
-            "current_recap_path": "data/current/draft-recap.json",
-            "snapshot_recap_path": (
-                "data/draft/initial/draft-recap.json"
-                if draft_snapshot_exists
-                else None
-            ),
         },
         "watched_players": {
             "configured": list(watch_players),
             "latest_gameweek": latest_gw,
-            "current_path": (
-                "data/current/watched-players.json"
-                if watched_payload is not None
-                else None
-            ),
+            "available": watched_payload is not None,
         },
         "endpoint_status": endpoint_status,
         "current_state": {
-            "current_rosters_path": "data/current/current-rosters.json",
-            "free_agents_path": "data/current/free-agents.json",
+            "current_rosters_path": "current.current_state",
+            "free_agents_path": "current.current_state.free_agents",
             "free_agent_count": current_state.get("free_agent_count"),
             "owned_player_count": current_state.get("owned_player_count"),
         },
         "proposed_waivers": {
-            "path": "data/current/proposed-waivers.json",
             "count": pending_waivers_data.get("pending_waiver_count"),
             "source_available": pending_waivers_data.get("source_available"),
         },
     }
-    write_json(data_dir / "summary.json", summary)
 
+    history: dict[str, Any] = {}
+    if isinstance(existing_aggregate, dict) and isinstance(existing_aggregate.get("history"), dict):
+        history.update(existing_aggregate["history"])
+    history.update(load_legacy_history(history_dir))
     if latest_gw is not None:
-        gw_dir = history_dir / f"gw-{latest_gw:02d}"
-        save_gameweek_snapshot(
-            gw_dir=gw_dir,
-            summary=summary,
-            details=details,
-            round_context=round_context,
-            bootstrap=bootstrap,
-            pl_fixtures=pl_fixtures.get(latest_gw),
-            element_status=optional_data.get("element_status"),
-            trades=optional_data.get("trades"),
-            choices=optional_data.get("choices"),
-            transactions=optional_data.get("transactions"),
-            transactions_enriched=transactions_enriched,
-            event_live=live_payload,
-            entry_events=entry_events,
-            watched_players=watched_payload,
-        )
+        history[f"gw-{latest_gw:02d}"] = {
+            "summary": summary,
+            "league_details": details,
+            "round_context": round_context,
+            "bootstrap_compact": bootstrap,
+            "pl_fixtures": pl_fixtures.get(latest_gw),
+            "element_status": optional_data.get("element_status"),
+            "trades": optional_data.get("trades"),
+            "choices": optional_data.get("choices"),
+            "transactions": optional_data.get("transactions"),
+            "transactions_enriched": transactions_enriched,
+            "event_live": live_payload,
+            "entry_events": entry_events,
+            "watched_players": watched_payload,
+        }
+
+    aggregate = build_aggregate_document(
+        summary=summary,
+        bootstrap=bootstrap,
+        fpl_calendar=fpl_calendar,
+        details=details,
+        optional_data=optional_data,
+        entry_public=entry_public,
+        transactions_enriched=transactions_enriched,
+        current_state=current_state,
+        proposed_waivers_data=pending_waivers_data,
+        draft_recap=draft_recap,
+        round_context=round_context,
+        pl_fixtures=pl_fixtures,
+        event_live=live_payload,
+        entry_events=entry_events,
+        watched_payload=watched_payload,
+        history=history,
+        initial_draft=initial_draft,
+    )
+    write_aggregate_document(aggregate_path, aggregate)
+    remove_legacy_outputs(data_dir)
 
     print(
         f"League {league_id}: {len(entries)} entries; "
         f"draft recap ready={draft_recap.get('recap_ready')}; "
         f"latest completed GW={latest_gw if latest_gw is not None else 'none'}; "
         f"watched={','.join(watch_players)}; "
-        f"next deadline={summary['next_deadline']}"
+        f"next deadline={summary['next_deadline']}; "
+        f"aggregate={aggregate_path}"
     )
     return 0
 
