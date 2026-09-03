@@ -1,0 +1,153 @@
+name: FPL Draft 8905 - Consolidated Data Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: fpl-draft-8905-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Validate Python and regression tests
+        run: |
+          python -m py_compile scripts/fetch_fpl_draft.py
+          python tests/test_logic.py
+
+      - name: Fetch FPL Draft data
+        run: |
+          python scripts/fetch_fpl_draft.py \
+            --league-id 8905 \
+            --watch-player Wirtz
+
+      - name: Validate consolidated JSON
+        env:
+          AGGREGATE_PATH: fpl-draft.json
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          path = Path(os.environ["AGGREGATE_PATH"])
+          if not path.is_file():
+              raise SystemExit(f"Missing aggregate JSON: {path}")
+
+          document = json.loads(path.read_text(encoding="utf-8"))
+
+          if document.get("schema_version") != 6:
+              raise SystemExit(
+                  f"Unexpected schema_version: {document.get('schema_version')}"
+              )
+          if document.get("document_type") != "ok_data_liga_fpl_draft":
+              raise SystemExit("Unexpected document_type")
+          if document.get("league_id") != 8905:
+              raise SystemExit(f"Unexpected league_id: {document.get('league_id')}")
+
+          required_top_level = {
+              "summary",
+              "bootstrap",
+              "fpl_calendar",
+              "league_details",
+              "optional_endpoints",
+              "entries_public",
+              "transactions_enriched",
+              "current_state",
+              "proposed_waivers",
+              "draft_recap",
+              "round_context",
+              "pl_fixtures",
+              "latest_event_live",
+              "latest_entry_events",
+              "watched_players",
+              "history",
+              "initial_draft",
+          }
+          missing = sorted(required_top_level - document.keys())
+          if missing:
+              raise SystemExit(f"Missing top-level fields: {missing}")
+
+          if "current" in document or "draft" in document:
+              raise SystemExit("Legacy nested current/draft structure detected")
+
+          history = document.get("history")
+          if not isinstance(history, dict):
+              raise SystemExit("history must be an object")
+
+          print(
+              f"Validated {path}: schema=6, GW={document['summary'].get('latest_complete_gameweek')}, "
+              f"history_snapshots={len(history)}"
+          )
+          PY
+
+      - name: Commit consolidated data only
+        shell: bash
+        run: |
+          git add -A fpl-draft.json current history draft
+
+          if git diff --cached --quiet; then
+            echo "No consolidated FPL data changed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "data: update FPL Draft league 8905"
+          git push
+
+  deploy-pages:
+    needs: sync
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out latest data
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Build minimal public JSON site
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          mkdir -p _site
+          test -f fpl-draft.json
+          cp fpl-draft.json _site/fpl-draft.json
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
