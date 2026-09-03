@@ -1093,6 +1093,116 @@ def normalize_transaction_result(raw_result: Any) -> str | None:
     return TRANSACTION_RESULT_LABELS.get(normalize_text(raw_result))
 
 
+def current_rosters_and_free_agents(
+    element_status: Any,
+    details: dict[str, Any],
+    bootstrap: dict[str, Any],
+) -> dict[str, Any]:
+    """Build current ownership, rosters and free-agent pool."""
+    by_league_entry, by_entry = entry_indexes(details)
+    players, teams, _ = bootstrap_indexes(bootstrap)
+    entries = active_league_entries(details)
+    rosters: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    free_agents: list[dict[str, Any]] = []
+    records = extract_records(element_status, ("element_status", "elements", "results"))
+
+    for item in records:
+        if not isinstance(item, dict):
+            continue
+        element_id = first_int(item, ("element", "element_id", "id"))
+        if element_id is None or element_id not in players:
+            continue
+        player = enrich_player(element_id, players, teams)
+        owner_ref = item.get("owner")
+        owner = (
+            resolve_entry_reference(owner_ref, by_league_entry, by_entry)
+            if owner_ref is not None
+            else None
+        )
+        if owner is None:
+            free_agents.append(player)
+            continue
+        league_entry_id = as_int(owner.get("id"))
+        if league_entry_id is None:
+            free_agents.append(player)
+            continue
+        player.update(
+            {
+                "league_entry_id": league_entry_id,
+                "entry_id": as_int(owner.get("entry_id")),
+                "entry_name": owner.get("entry_name"),
+            }
+        )
+        rosters[league_entry_id].append(player)
+
+    roster_output = []
+    for entry in entries:
+        league_entry_id = as_int(entry.get("id"))
+        if league_entry_id is None:
+            continue
+        squad = sorted(
+            rosters.get(league_entry_id, []),
+            key=lambda item: (
+                item.get("position_id") or 99,
+                str(item.get("web_name") or ""),
+            ),
+        )
+        roster_output.append(
+            {
+                "league_entry_id": league_entry_id,
+                "entry_id": as_int(entry.get("entry_id")),
+                "entry_name": entry.get("entry_name"),
+                "player_count": len(squad),
+                "players": squad,
+            }
+        )
+
+    free_agents.sort(
+        key=lambda item: (
+            item.get("official_draft_rank") if item.get("official_draft_rank") is not None else 9999,
+            str(item.get("web_name") or ""),
+        )
+    )
+    return {
+        "schema_version": 1,
+        "generated_at": utc_now_iso(),
+        "league_id": first_int(details.get("league") or {}, ("id",)),
+        "source_available": element_status is not None,
+        "owned_player_count": sum(len(squad) for squad in rosters.values()),
+        "free_agent_count": len(free_agents),
+        "rosters": roster_output,
+        "free_agents": free_agents,
+        "data_quality": {
+            "element_status_records": len(records),
+            "active_league_entries": len(entries),
+            "complete_rosters": all(
+                roster.get("player_count") == EXPECTED_SQUAD_SIZE
+                for roster in roster_output
+            ),
+        },
+    }
+
+
+def proposed_waivers(transactions_enriched: dict[str, Any]) -> dict[str, Any]:
+    """Extract pending/proposed waiver records exposed by the public feed."""
+    records = transactions_enriched.get("transactions") or []
+    pending = [
+        tx
+        for tx in records
+        if isinstance(tx, dict)
+        and tx.get("transaction_type") == "waiver"
+        and tx.get("result") in {None, "pending"}
+    ]
+    return {
+        "schema_version": 1,
+        "generated_at": utc_now_iso(),
+        "source_available": transactions_enriched.get("data_quality", {}).get("source_available", False),
+        "pending_waiver_count": len(pending),
+        "waivers": pending,
+    }
+
+
+
 def enrich_transactions(
     transactions: Any,
     details: dict[str, Any],
