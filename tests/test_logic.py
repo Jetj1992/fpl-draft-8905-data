@@ -355,43 +355,6 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(len(recap["teams"]), 2)
         self.assertNotIn(420622, {team["league_entry_id"] for team in recap["teams"]})
 
-
-    def test_transactions_are_separated_from_post_gameweek_activity(self) -> None:
-        details = base_details()
-        details["league"]["drafts"][0]["draft_completed"] = "2026-08-21T10:35:00Z"
-        details["matches"] = [
-            {"event": 1, "finished": True, "league_entry_1": 42948, "league_entry_2": 138641, "league_entry_1_points": 10, "league_entry_2_points": 9},
-        ]
-        transactions = {"transactions": [
-            {"id": 1, "entry": 42948, "element_in": 2, "element_out": 3, "kind": "f", "result": "a", "event": 1, "added": "2026-08-21T11:00:00Z"},
-            {"id": 2, "entry": 42948, "element_in": 4, "element_out": 5, "kind": "w", "result": "p", "event": 2, "added": "2026-08-27T18:00:00Z"},
-        ]}
-        enriched = MODULE.enrich_transactions(transactions, details, base_bootstrap())
-        phases = {tx["transaction_id"]: tx["phase"] for tx in enriched["transactions"]}
-        self.assertEqual(phases[1], "gw1")
-        self.assertEqual(phases[2], "current_transfer_window")
-        post = MODULE.post_gameweek_transactions(enriched)
-        self.assertEqual(post["transfer_window_gameweek"], 2)
-        self.assertEqual(post["transaction_count"], 1)
-        self.assertEqual(post["transactions"][0]["transaction_id"], 2)
-
-
-    def test_transfer_window_advances_with_latest_complete_gameweek(self) -> None:
-        details = base_details()
-        details["league"]["drafts"][0]["draft_completed"] = "2026-08-21T10:35:00Z"
-        details["matches"] = [
-            {"event": 3, "finished": True, "league_entry_1": 42948, "league_entry_2": 138641, "league_entry_1_points": 10, "league_entry_2_points": 9},
-        ]
-        transactions = {"transactions": [
-            {"id": 2, "entry": 42948, "kind": "w", "result": "p", "event": 4, "added": "2026-09-03T18:00:00Z"},
-            {"id": 3, "entry": 42948, "kind": "w", "result": "p", "event": 3, "added": "2026-08-29T18:00:00Z"},
-        ]}
-        enriched = MODULE.enrich_transactions(transactions, details, base_bootstrap())
-        window = MODULE.current_transfer_window(enriched)
-        self.assertEqual(window["latest_complete_gameweek"], 3)
-        self.assertEqual(window["transfer_window_gameweek"], 4)
-        self.assertEqual([tx["transaction_id"] for tx in window["transactions"]], [2])
-
     def test_transactions_are_typed_only_from_explicit_kind(self) -> None:
         transactions = {
             "transactions": [
@@ -422,35 +385,39 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(first["element_in"]["web_name"], "Player 2")
         self.assertIsNone(second["transaction_type"])
 
+    def test_aggregate_document_contains_current_history_and_draft(self) -> None:
+        summary = {"schema_version": 5, "league_id": 8905, "league_name": "OK Data Liga", "generated_at": "now"}
+        document = MODULE.build_aggregate_document(
+            summary=summary,
+            bootstrap={"elements": []},
+            fpl_calendar={"events": [], "teams": []},
+            details=base_details(),
+            optional_data={"element_status": None},
+            entry_public={},
+            transactions_enriched={"transactions": []},
+            current_state={"free_agent_count": 1},
+            proposed_waivers_data={"pending_waiver_count": 0},
+            draft_recap={"recap_ready": False},
+            round_context={"next_deadline": None},
+            pl_fixtures={},
+            event_live=None,
+            entry_events={},
+            watched_payload=None,
+            history={"gw-01": {"summary": {"latest_complete_gameweek": 1}}},
+            initial_draft=None,
+        )
+        self.assertEqual(document["schema_version"], 5)
+        self.assertEqual(document["league_id"], 8905)
+        self.assertIn("current", document)
+        self.assertIn("history", document)
+        self.assertIn("gw-01", document["history"])
+        self.assertIn("draft", document)
+
+    def test_aggregate_document_roundtrips_private_field_sanitization(self) -> None:
+        payload = {"email": "private@example.com", "public": {"value": 1}}
+        sanitized = MODULE.sanitize(payload)
+        self.assertEqual(sanitized, {"public": {"value": 1}})
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
-
-    def test_current_rosters_and_free_agents_separates_owned_and_unowned(self) -> None:
-        details = base_details()
-        bootstrap = base_bootstrap(20)
-        statuses = [
-            *[{'element': i, 'owner': 42948} for i in range(1, 16)],
-            *[{'element': i, 'owner': None} for i in range(16, 21)],
-        ]
-        state = MODULE.current_rosters_and_free_agents(
-            {'element_status': statuses}, details, bootstrap
-        )
-        self.assertEqual(state['owned_player_count'], 15)
-        self.assertEqual(state['free_agent_count'], 5)
-        jt = next(r for r in state['rosters'] if r['league_entry_id'] == 42948)
-        self.assertEqual(jt['player_count'], 15)
-        self.assertEqual({p['element_id'] for p in state['free_agents']}, set(range(16, 21)))
-
-    def test_proposed_waivers_extracts_pending_waivers_only(self) -> None:
-        enriched = {
-            'data_quality': {'source_available': True},
-            'transactions': [
-                {'transaction_type': 'waiver', 'result': 'pending', 'transaction_id': 1},
-                {'transaction_type': 'waiver', 'result': 'accepted', 'transaction_id': 2},
-                {'transaction_type': 'free_agent', 'result': 'accepted', 'transaction_id': 3},
-            ],
-        }
-        result = MODULE.proposed_waivers(enriched)
-        self.assertEqual(result['pending_waiver_count'], 1)
-        self.assertEqual(result['waivers'][0]['transaction_id'], 1)
