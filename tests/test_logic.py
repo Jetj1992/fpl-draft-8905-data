@@ -359,7 +359,7 @@ class TestCoreLogic(unittest.TestCase):
 
     def test_aggregate_document_uses_top_level_current_payload(self) -> None:
         summary = {
-            "schema_version": 5,
+            "schema_version": 6,
             "generated_at": "2026-09-03T12:00:00Z",
             "league_id": 8905,
             "league_name": "OK Data Liga",
@@ -385,7 +385,7 @@ class TestCoreLogic(unittest.TestCase):
             initial_draft=initial_draft,
         )
 
-        self.assertEqual(document["schema_version"], 5)
+        self.assertEqual(document["schema_version"], 6)
         self.assertEqual(document["league_id"], 8905)
         self.assertIn("summary", document)
         self.assertIn("league_details", document)
@@ -442,7 +442,7 @@ class TestCoreLogic(unittest.TestCase):
         )
         encoded = json.dumps(document, ensure_ascii=False)
         decoded = json.loads(encoded)
-        self.assertEqual(decoded["schema_version"], 5)
+        self.assertEqual(decoded["schema_version"], 6)
         self.assertEqual(decoded["pl_fixtures"]["2"][0]["fixture"], 1)
 
     def test_remove_legacy_outputs_removes_all_legacy_public_trees(self) -> None:
