@@ -3904,12 +3904,12 @@
         "element_type": 2,
         "first_name": "Issa",
         "id": 259,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Diop",
         "status": "a",
         "team": 12,
-        "total_points": 4,
+        "total_points": 7,
         "web_name": "Diop"
       },
       {
@@ -4024,12 +4024,12 @@
         "element_type": 3,
         "first_name": "Saša",
         "id": 267,
-        "minutes": 162,
+        "minutes": 252,
         "news": "",
         "second_name": "Lukić",
         "status": "a",
         "team": 12,
-        "total_points": 6,
+        "total_points": 8,
         "web_name": "Lukić"
       },
       {
@@ -4579,12 +4579,12 @@
         "element_type": 2,
         "first_name": "Dara",
         "id": 304,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "O'Shea",
         "status": "a",
         "team": 12,
-        "total_points": 4,
+        "total_points": 5,
         "web_name": "O'Shea"
       },
       {
@@ -4594,12 +4594,12 @@
         "element_type": 2,
         "first_name": "Leif",
         "id": 305,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Davis",
         "status": "a",
         "team": 12,
-        "total_points": 8,
+        "total_points": 9,
         "web_name": "Davis"
       },
       {
@@ -4609,12 +4609,12 @@
         "element_type": 2,
         "first_name": "Jacob",
         "id": 306,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Greaves",
         "status": "a",
         "team": 12,
-        "total_points": 1,
+        "total_points": 2,
         "web_name": "Greaves"
       },
       {
@@ -4714,12 +4714,12 @@
         "element_type": 3,
         "first_name": "Jack",
         "id": 313,
-        "minutes": 19,
+        "minutes": 43,
         "news": "",
         "second_name": "Clarke",
         "status": "a",
         "team": 12,
-        "total_points": 7,
+        "total_points": 8,
         "web_name": "Clarke"
       },
       {
@@ -4744,12 +4744,12 @@
         "element_type": 3,
         "first_name": "Abdul",
         "id": 315,
-        "minutes": 147,
+        "minutes": 225,
         "news": "",
         "second_name": "Fatawu",
         "status": "a",
         "team": 12,
-        "total_points": 6,
+        "total_points": 8,
         "web_name": "Fatawu"
       },
       {
@@ -4759,12 +4759,12 @@
         "element_type": 4,
         "first_name": "Emersonn",
         "id": 316,
-        "minutes": 110,
+        "minutes": 175,
         "news": "",
         "second_name": "Correia da Silva",
         "status": "a",
         "team": 12,
-        "total_points": 10,
+        "total_points": 12,
         "web_name": "Emersonn"
       },
       {
@@ -4864,12 +4864,12 @@
         "element_type": 3,
         "first_name": "Kasey",
         "id": 323,
-        "minutes": 31,
+        "minutes": 42,
         "news": "",
         "second_name": "McAteer",
         "status": "a",
         "team": 12,
-        "total_points": 2,
+        "total_points": 3,
         "web_name": "McAteer"
       },
       {
@@ -5269,12 +5269,12 @@
         "element_type": 1,
         "first_name": "Alisson",
         "id": 350,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Becker",
         "status": "a",
         "team": 14,
-        "total_points": 2,
+        "total_points": 10,
         "web_name": "A.Becker"
       },
       {
@@ -5359,12 +5359,12 @@
         "element_type": 2,
         "first_name": "Virgil",
         "id": 356,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "van Dijk",
         "status": "a",
         "team": 14,
-        "total_points": 3,
+        "total_points": 9,
         "web_name": "Virgil"
       },
       {
@@ -5389,12 +5389,12 @@
         "element_type": 2,
         "first_name": "Milos",
         "id": 358,
-        "minutes": 160,
+        "minutes": 250,
         "news": "",
         "second_name": "Kerkez",
         "status": "a",
         "team": 14,
-        "total_points": 1,
+        "total_points": 6,
         "web_name": "Kerkez"
       },
       {
@@ -5449,12 +5449,12 @@
         "element_type": 2,
         "first_name": "Jeremy",
         "id": 362,
-        "minutes": 145,
+        "minutes": 235,
         "news": "",
         "second_name": "Jacquet",
         "status": "a",
         "team": 14,
-        "total_points": 4,
+        "total_points": 9,
         "web_name": "Jacquet"
       },
       {
@@ -5509,12 +5509,12 @@
         "element_type": 3,
         "first_name": "Florian",
         "id": 366,
-        "minutes": 152,
+        "minutes": 242,
         "news": "",
         "second_name": "Wirtz",
         "status": "a",
         "team": 14,
-        "total_points": 6,
+        "total_points": 9,
         "web_name": "Wirtz"
       },
       {
@@ -5524,12 +5524,12 @@
         "element_type": 3,
         "first_name": "Cody",
         "id": 367,
-        "minutes": 160,
+        "minutes": 250,
         "news": "",
         "second_name": "Gakpo",
         "status": "a",
         "team": 14,
-        "total_points": 17,
+        "total_points": 28,
         "web_name": "Gakpo"
       },
       {
@@ -5539,12 +5539,12 @@
         "element_type": 3,
         "first_name": "Dominik",
         "id": 368,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Szoboszlai",
         "status": "a",
         "team": 14,
-        "total_points": 12,
+        "total_points": 15,
         "web_name": "Szoboszlai"
       },
       {
@@ -5584,12 +5584,12 @@
         "element_type": 3,
         "first_name": "Ryan",
         "id": 371,
-        "minutes": 96,
+        "minutes": 122,
         "news": "",
         "second_name": "Gravenberch",
         "status": "a",
         "team": 14,
-        "total_points": 6,
+        "total_points": 7,
         "web_name": "Gravenberch"
       },
       {
@@ -5599,12 +5599,12 @@
         "element_type": 3,
         "first_name": "Alexis",
         "id": 372,
-        "minutes": 103,
+        "minutes": 186,
         "news": "",
         "second_name": "Mac Allister",
         "status": "a",
         "team": 14,
-        "total_points": 3,
+        "total_points": 7,
         "web_name": "Mac Allister"
       },
       {
@@ -5644,12 +5644,12 @@
         "element_type": 3,
         "first_name": "Trey",
         "id": 375,
-        "minutes": 13,
+        "minutes": 19,
         "news": "",
         "second_name": "Nyoni",
         "status": "a",
         "team": 14,
-        "total_points": 1,
+        "total_points": 2,
         "web_name": "Nyoni"
       },
       {
@@ -5674,12 +5674,12 @@
         "element_type": 3,
         "first_name": "Victor",
         "id": 377,
-        "minutes": 117,
+        "minutes": 180,
         "news": "",
         "second_name": "Munoz",
         "status": "a",
         "team": 14,
-        "total_points": 10,
+        "total_points": 13,
         "web_name": "Munoz"
       },
       {
@@ -5704,12 +5704,12 @@
         "element_type": 4,
         "first_name": "Alexander",
         "id": 379,
-        "minutes": 180,
+        "minutes": 243,
         "news": "",
         "second_name": "Isak",
         "status": "a",
         "team": 14,
-        "total_points": 10,
+        "total_points": 23,
         "web_name": "Isak"
       },
       {
@@ -5734,12 +5734,12 @@
         "element_type": 3,
         "first_name": "Lewis",
         "id": 381,
-        "minutes": 12,
+        "minutes": 13,
         "news": "",
         "second_name": "Koumas",
         "status": "a",
         "team": 14,
-        "total_points": 1,
+        "total_points": 2,
         "web_name": "Koumas"
       },
       {
@@ -8464,12 +8464,12 @@
         "element_type": 3,
         "first_name": "Daizen",
         "id": 563,
-        "minutes": 151,
+        "minutes": 216,
         "news": "",
         "second_name": "Maeda",
         "status": "a",
         "team": 12,
-        "total_points": 4,
+        "total_points": 6,
         "web_name": "Maeda"
       },
       {
@@ -8479,12 +8479,12 @@
         "element_type": 1,
         "first_name": "Kjell",
         "id": 564,
-        "minutes": 180,
+        "minutes": 270,
         "news": "",
         "second_name": "Scherpen",
         "status": "a",
         "team": 12,
-        "total_points": 4,
+        "total_points": 6,
         "web_name": "Scherpen"
       },
       {
@@ -8719,12 +8719,12 @@
         "element_type": 2,
         "first_name": "Ronald",
         "id": 580,
-        "minutes": 33,
+        "minutes": 123,
         "news": "",
         "second_name": "Araujo",
         "status": "a",
         "team": 14,
-        "total_points": 1,
+        "total_points": 7,
         "web_name": "Araujo"
       },
       {
@@ -8884,12 +8884,12 @@
         "element_type": 3,
         "first_name": "Julio",
         "id": 591,
-        "minutes": 160,
+        "minutes": 250,
         "news": "",
         "second_name": "Enciso",
         "status": "a",
         "team": 12,
-        "total_points": 10,
+        "total_points": 11,
         "web_name": "Enciso"
       },
       {
@@ -8899,12 +8899,12 @@
         "element_type": 2,
         "first_name": "Abdoul",
         "id": 592,
-        "minutes": 27,
+        "minutes": 39,
         "news": "",
         "second_name": "Ouattara",
         "status": "a",
         "team": 12,
-        "total_points": 2,
+        "total_points": 3,
         "web_name": "Ouattara"
       },
       {
@@ -9304,12 +9304,12 @@
         "element_type": 3,
         "first_name": "Exequiel",
         "id": 619,
-        "minutes": 28,
+        "minutes": 105,
         "news": "",
         "second_name": "Palacios",
         "status": "a",
         "team": 12,
-        "total_points": 1,
+        "total_points": 5,
         "web_name": "Palacios"
       },
       {
@@ -9439,12 +9439,12 @@
         "element_type": 3,
         "first_name": "Bradley",
         "id": 628,
-        "minutes": 0,
+        "minutes": 26,
         "news": "",
         "second_name": "Barcola",
         "status": "a",
         "team": 14,
-        "total_points": 0,
+        "total_points": 1,
         "web_name": "Barcola"
       },
       {
@@ -9709,12 +9709,12 @@
         "element_type": 4,
         "first_name": "Zian",
         "id": 646,
-        "minutes": 0,
+        "minutes": 24,
         "news": "",
         "second_name": "Flemming",
         "status": "a",
         "team": 12,
-        "total_points": 0,
+        "total_points": 1,
         "web_name": "Flemming"
       },
       {
@@ -17579,7 +17579,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-04T18:27:28.520884Z",
+    "generated_at": "2026-09-04T21:25:07.173884Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28771,7 +28771,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-04T18:27:30.042156Z",
+  "generated_at": "2026-09-04T21:25:07.653087Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -32679,12 +32679,12 @@
             "element_type": 2,
             "first_name": "Issa",
             "id": 259,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Diop",
             "status": "a",
             "team": 12,
-            "total_points": 4,
+            "total_points": 7,
             "web_name": "Diop"
           },
           {
@@ -32799,12 +32799,12 @@
             "element_type": 3,
             "first_name": "Saša",
             "id": 267,
-            "minutes": 162,
+            "minutes": 252,
             "news": "",
             "second_name": "Lukić",
             "status": "a",
             "team": 12,
-            "total_points": 6,
+            "total_points": 8,
             "web_name": "Lukić"
           },
           {
@@ -33354,12 +33354,12 @@
             "element_type": 2,
             "first_name": "Dara",
             "id": 304,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "O'Shea",
             "status": "a",
             "team": 12,
-            "total_points": 4,
+            "total_points": 5,
             "web_name": "O'Shea"
           },
           {
@@ -33369,12 +33369,12 @@
             "element_type": 2,
             "first_name": "Leif",
             "id": 305,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Davis",
             "status": "a",
             "team": 12,
-            "total_points": 8,
+            "total_points": 9,
             "web_name": "Davis"
           },
           {
@@ -33384,12 +33384,12 @@
             "element_type": 2,
             "first_name": "Jacob",
             "id": 306,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Greaves",
             "status": "a",
             "team": 12,
-            "total_points": 1,
+            "total_points": 2,
             "web_name": "Greaves"
           },
           {
@@ -33489,12 +33489,12 @@
             "element_type": 3,
             "first_name": "Jack",
             "id": 313,
-            "minutes": 19,
+            "minutes": 43,
             "news": "",
             "second_name": "Clarke",
             "status": "a",
             "team": 12,
-            "total_points": 7,
+            "total_points": 8,
             "web_name": "Clarke"
           },
           {
@@ -33519,12 +33519,12 @@
             "element_type": 3,
             "first_name": "Abdul",
             "id": 315,
-            "minutes": 147,
+            "minutes": 225,
             "news": "",
             "second_name": "Fatawu",
             "status": "a",
             "team": 12,
-            "total_points": 6,
+            "total_points": 8,
             "web_name": "Fatawu"
           },
           {
@@ -33534,12 +33534,12 @@
             "element_type": 4,
             "first_name": "Emersonn",
             "id": 316,
-            "minutes": 110,
+            "minutes": 175,
             "news": "",
             "second_name": "Correia da Silva",
             "status": "a",
             "team": 12,
-            "total_points": 10,
+            "total_points": 12,
             "web_name": "Emersonn"
           },
           {
@@ -33639,12 +33639,12 @@
             "element_type": 3,
             "first_name": "Kasey",
             "id": 323,
-            "minutes": 31,
+            "minutes": 42,
             "news": "",
             "second_name": "McAteer",
             "status": "a",
             "team": 12,
-            "total_points": 2,
+            "total_points": 3,
             "web_name": "McAteer"
           },
           {
@@ -34044,12 +34044,12 @@
             "element_type": 1,
             "first_name": "Alisson",
             "id": 350,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Becker",
             "status": "a",
             "team": 14,
-            "total_points": 2,
+            "total_points": 10,
             "web_name": "A.Becker"
           },
           {
@@ -34134,12 +34134,12 @@
             "element_type": 2,
             "first_name": "Virgil",
             "id": 356,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "van Dijk",
             "status": "a",
             "team": 14,
-            "total_points": 3,
+            "total_points": 9,
             "web_name": "Virgil"
           },
           {
@@ -34164,12 +34164,12 @@
             "element_type": 2,
             "first_name": "Milos",
             "id": 358,
-            "minutes": 160,
+            "minutes": 250,
             "news": "",
             "second_name": "Kerkez",
             "status": "a",
             "team": 14,
-            "total_points": 1,
+            "total_points": 6,
             "web_name": "Kerkez"
           },
           {
@@ -34224,12 +34224,12 @@
             "element_type": 2,
             "first_name": "Jeremy",
             "id": 362,
-            "minutes": 145,
+            "minutes": 235,
             "news": "",
             "second_name": "Jacquet",
             "status": "a",
             "team": 14,
-            "total_points": 4,
+            "total_points": 9,
             "web_name": "Jacquet"
           },
           {
@@ -34284,12 +34284,12 @@
             "element_type": 3,
             "first_name": "Florian",
             "id": 366,
-            "minutes": 152,
+            "minutes": 242,
             "news": "",
             "second_name": "Wirtz",
             "status": "a",
             "team": 14,
-            "total_points": 6,
+            "total_points": 9,
             "web_name": "Wirtz"
           },
           {
@@ -34299,12 +34299,12 @@
             "element_type": 3,
             "first_name": "Cody",
             "id": 367,
-            "minutes": 160,
+            "minutes": 250,
             "news": "",
             "second_name": "Gakpo",
             "status": "a",
             "team": 14,
-            "total_points": 17,
+            "total_points": 28,
             "web_name": "Gakpo"
           },
           {
@@ -34314,12 +34314,12 @@
             "element_type": 3,
             "first_name": "Dominik",
             "id": 368,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Szoboszlai",
             "status": "a",
             "team": 14,
-            "total_points": 12,
+            "total_points": 15,
             "web_name": "Szoboszlai"
           },
           {
@@ -34359,12 +34359,12 @@
             "element_type": 3,
             "first_name": "Ryan",
             "id": 371,
-            "minutes": 96,
+            "minutes": 122,
             "news": "",
             "second_name": "Gravenberch",
             "status": "a",
             "team": 14,
-            "total_points": 6,
+            "total_points": 7,
             "web_name": "Gravenberch"
           },
           {
@@ -34374,12 +34374,12 @@
             "element_type": 3,
             "first_name": "Alexis",
             "id": 372,
-            "minutes": 103,
+            "minutes": 186,
             "news": "",
             "second_name": "Mac Allister",
             "status": "a",
             "team": 14,
-            "total_points": 3,
+            "total_points": 7,
             "web_name": "Mac Allister"
           },
           {
@@ -34419,12 +34419,12 @@
             "element_type": 3,
             "first_name": "Trey",
             "id": 375,
-            "minutes": 13,
+            "minutes": 19,
             "news": "",
             "second_name": "Nyoni",
             "status": "a",
             "team": 14,
-            "total_points": 1,
+            "total_points": 2,
             "web_name": "Nyoni"
           },
           {
@@ -34449,12 +34449,12 @@
             "element_type": 3,
             "first_name": "Victor",
             "id": 377,
-            "minutes": 117,
+            "minutes": 180,
             "news": "",
             "second_name": "Munoz",
             "status": "a",
             "team": 14,
-            "total_points": 10,
+            "total_points": 13,
             "web_name": "Munoz"
           },
           {
@@ -34479,12 +34479,12 @@
             "element_type": 4,
             "first_name": "Alexander",
             "id": 379,
-            "minutes": 180,
+            "minutes": 243,
             "news": "",
             "second_name": "Isak",
             "status": "a",
             "team": 14,
-            "total_points": 10,
+            "total_points": 23,
             "web_name": "Isak"
           },
           {
@@ -34509,12 +34509,12 @@
             "element_type": 3,
             "first_name": "Lewis",
             "id": 381,
-            "minutes": 12,
+            "minutes": 13,
             "news": "",
             "second_name": "Koumas",
             "status": "a",
             "team": 14,
-            "total_points": 1,
+            "total_points": 2,
             "web_name": "Koumas"
           },
           {
@@ -37239,12 +37239,12 @@
             "element_type": 3,
             "first_name": "Daizen",
             "id": 563,
-            "minutes": 151,
+            "minutes": 216,
             "news": "",
             "second_name": "Maeda",
             "status": "a",
             "team": 12,
-            "total_points": 4,
+            "total_points": 6,
             "web_name": "Maeda"
           },
           {
@@ -37254,12 +37254,12 @@
             "element_type": 1,
             "first_name": "Kjell",
             "id": 564,
-            "minutes": 180,
+            "minutes": 270,
             "news": "",
             "second_name": "Scherpen",
             "status": "a",
             "team": 12,
-            "total_points": 4,
+            "total_points": 6,
             "web_name": "Scherpen"
           },
           {
@@ -37494,12 +37494,12 @@
             "element_type": 2,
             "first_name": "Ronald",
             "id": 580,
-            "minutes": 33,
+            "minutes": 123,
             "news": "",
             "second_name": "Araujo",
             "status": "a",
             "team": 14,
-            "total_points": 1,
+            "total_points": 7,
             "web_name": "Araujo"
           },
           {
@@ -37659,12 +37659,12 @@
             "element_type": 3,
             "first_name": "Julio",
             "id": 591,
-            "minutes": 160,
+            "minutes": 250,
             "news": "",
             "second_name": "Enciso",
             "status": "a",
             "team": 12,
-            "total_points": 10,
+            "total_points": 11,
             "web_name": "Enciso"
           },
           {
@@ -37674,12 +37674,12 @@
             "element_type": 2,
             "first_name": "Abdoul",
             "id": 592,
-            "minutes": 27,
+            "minutes": 39,
             "news": "",
             "second_name": "Ouattara",
             "status": "a",
             "team": 12,
-            "total_points": 2,
+            "total_points": 3,
             "web_name": "Ouattara"
           },
           {
@@ -38079,12 +38079,12 @@
             "element_type": 3,
             "first_name": "Exequiel",
             "id": 619,
-            "minutes": 28,
+            "minutes": 105,
             "news": "",
             "second_name": "Palacios",
             "status": "a",
             "team": 12,
-            "total_points": 1,
+            "total_points": 5,
             "web_name": "Palacios"
           },
           {
@@ -38214,12 +38214,12 @@
             "element_type": 3,
             "first_name": "Bradley",
             "id": 628,
-            "minutes": 0,
+            "minutes": 26,
             "news": "",
             "second_name": "Barcola",
             "status": "a",
             "team": 14,
-            "total_points": 0,
+            "total_points": 1,
             "web_name": "Barcola"
           },
           {
@@ -38484,12 +38484,12 @@
             "element_type": 4,
             "first_name": "Zian",
             "id": 646,
-            "minutes": 0,
+            "minutes": 24,
             "news": "",
             "second_name": "Flemming",
             "status": "a",
             "team": 12,
-            "total_points": 0,
+            "total_points": 1,
             "web_name": "Flemming"
           },
           {
@@ -86409,20 +86409,343 @@
                 "code": 2645221,
                 "event": 3,
                 "finished": false,
-                "finished_provisional": false,
+                "finished_provisional": true,
                 "id": 21,
                 "kickoff_time": "2026-09-04T19:00:00Z",
-                "minutes": 0,
+                "minutes": 90,
                 "provisional_start_time": false,
                 "pulse_id": 0,
-                "started": false,
-                "stats": [],
+                "started": true,
+                "stats": [
+                  {
+                    "a": [
+                      {
+                        "element": 379,
+                        "value": 2
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "goals_scored"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 367,
+                        "value": 2
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "assists"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "own_goals"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_saved"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_missed"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 358,
+                        "value": 1
+                      },
+                      {
+                        "element": 362,
+                        "value": 1
+                      },
+                      {
+                        "element": 372,
+                        "value": 1
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 591,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "yellow_cards"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "red_cards"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 350,
+                        "value": 5
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 564,
+                        "value": 5
+                      }
+                    ],
+                    "identifier": "saves"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 379,
+                        "value": 3
+                      },
+                      {
+                        "element": 367,
+                        "value": 2
+                      },
+                      {
+                        "element": 350,
+                        "value": 1
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "bonus"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 379,
+                        "value": 61
+                      },
+                      {
+                        "element": 367,
+                        "value": 42
+                      },
+                      {
+                        "element": 350,
+                        "value": 35
+                      },
+                      {
+                        "element": 356,
+                        "value": 31
+                      },
+                      {
+                        "element": 362,
+                        "value": 27
+                      },
+                      {
+                        "element": 579,
+                        "value": 26
+                      },
+                      {
+                        "element": 358,
+                        "value": 22
+                      },
+                      {
+                        "element": 368,
+                        "value": 20
+                      },
+                      {
+                        "element": 372,
+                        "value": 16
+                      },
+                      {
+                        "element": 366,
+                        "value": 14
+                      },
+                      {
+                        "element": 377,
+                        "value": 9
+                      },
+                      {
+                        "element": 627,
+                        "value": 4
+                      },
+                      {
+                        "element": 375,
+                        "value": 3
+                      },
+                      {
+                        "element": 381,
+                        "value": 3
+                      },
+                      {
+                        "element": 371,
+                        "value": 2
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 619,
+                        "value": 24
+                      },
+                      {
+                        "element": 591,
+                        "value": 16
+                      },
+                      {
+                        "element": 315,
+                        "value": 14
+                      },
+                      {
+                        "element": 267,
+                        "value": 13
+                      },
+                      {
+                        "element": 564,
+                        "value": 13
+                      },
+                      {
+                        "element": 259,
+                        "value": 9
+                      },
+                      {
+                        "element": 562,
+                        "value": 9
+                      },
+                      {
+                        "element": 316,
+                        "value": 8
+                      },
+                      {
+                        "element": 306,
+                        "value": 5
+                      },
+                      {
+                        "element": 323,
+                        "value": 5
+                      },
+                      {
+                        "element": 304,
+                        "value": 4
+                      },
+                      {
+                        "element": 592,
+                        "value": 4
+                      },
+                      {
+                        "element": 640,
+                        "value": 4
+                      },
+                      {
+                        "element": 313,
+                        "value": 3
+                      },
+                      {
+                        "element": 305,
+                        "value": 2
+                      }
+                    ],
+                    "identifier": "bps"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 372,
+                        "value": 12
+                      },
+                      {
+                        "element": 367,
+                        "value": 10
+                      },
+                      {
+                        "element": 368,
+                        "value": 9
+                      },
+                      {
+                        "element": 579,
+                        "value": 8
+                      },
+                      {
+                        "element": 362,
+                        "value": 7
+                      },
+                      {
+                        "element": 356,
+                        "value": 5
+                      },
+                      {
+                        "element": 358,
+                        "value": 4
+                      },
+                      {
+                        "element": 366,
+                        "value": 4
+                      },
+                      {
+                        "element": 377,
+                        "value": 4
+                      },
+                      {
+                        "element": 371,
+                        "value": 3
+                      },
+                      {
+                        "element": 379,
+                        "value": 3
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 619,
+                        "value": 19
+                      },
+                      {
+                        "element": 259,
+                        "value": 10
+                      },
+                      {
+                        "element": 304,
+                        "value": 8
+                      },
+                      {
+                        "element": 315,
+                        "value": 6
+                      },
+                      {
+                        "element": 305,
+                        "value": 5
+                      },
+                      {
+                        "element": 306,
+                        "value": 5
+                      },
+                      {
+                        "element": 562,
+                        "value": 5
+                      },
+                      {
+                        "element": 591,
+                        "value": 5
+                      },
+                      {
+                        "element": 267,
+                        "value": 4
+                      },
+                      {
+                        "element": 316,
+                        "value": 3
+                      },
+                      {
+                        "element": 313,
+                        "value": 2
+                      },
+                      {
+                        "element": 323,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "defensive_contribution"
+                  }
+                ],
                 "team_a": 14,
                 "team_a_difficulty": 2,
-                "team_a_score": null,
+                "team_a_score": 2,
                 "team_h": 12,
                 "team_h_difficulty": 4,
-                "team_h_score": null
+                "team_h_score": 0
               },
               {
                 "code": 2645223,
@@ -91136,7 +91459,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-04T18:27:30.042156Z",
+        "generated_at": "2026-09-04T21:25:07.653087Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -91766,7 +92089,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-04T18:27:28.519315Z",
+        "generated_at": "2026-09-04T21:25:07.171898Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -94381,7 +94704,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-04T18:27:30.042132Z",
+        "generated_at": "2026-09-04T21:25:07.653058Z",
         "players": [
           {
             "availability_status": "a",
@@ -159150,7 +159473,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788546446
+      "time": 1788557105
     },
     "choices": {
       "choices": [],
@@ -171319,20 +171642,343 @@
         "code": 2645221,
         "event": 3,
         "finished": false,
-        "finished_provisional": false,
+        "finished_provisional": true,
         "id": 21,
         "kickoff_time": "2026-09-04T19:00:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
         "pulse_id": 0,
-        "started": false,
-        "stats": [],
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 379,
+                "value": 2
+              }
+            ],
+            "h": [],
+            "identifier": "goals_scored"
+          },
+          {
+            "a": [
+              {
+                "element": 367,
+                "value": 2
+              }
+            ],
+            "h": [],
+            "identifier": "assists"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "own_goals"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_saved"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_missed"
+          },
+          {
+            "a": [
+              {
+                "element": 358,
+                "value": 1
+              },
+              {
+                "element": 362,
+                "value": 1
+              },
+              {
+                "element": 372,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 591,
+                "value": 1
+              }
+            ],
+            "identifier": "yellow_cards"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "red_cards"
+          },
+          {
+            "a": [
+              {
+                "element": 350,
+                "value": 5
+              }
+            ],
+            "h": [
+              {
+                "element": 564,
+                "value": 5
+              }
+            ],
+            "identifier": "saves"
+          },
+          {
+            "a": [
+              {
+                "element": 379,
+                "value": 3
+              },
+              {
+                "element": 367,
+                "value": 2
+              },
+              {
+                "element": 350,
+                "value": 1
+              }
+            ],
+            "h": [],
+            "identifier": "bonus"
+          },
+          {
+            "a": [
+              {
+                "element": 379,
+                "value": 61
+              },
+              {
+                "element": 367,
+                "value": 42
+              },
+              {
+                "element": 350,
+                "value": 35
+              },
+              {
+                "element": 356,
+                "value": 31
+              },
+              {
+                "element": 362,
+                "value": 27
+              },
+              {
+                "element": 579,
+                "value": 26
+              },
+              {
+                "element": 358,
+                "value": 22
+              },
+              {
+                "element": 368,
+                "value": 20
+              },
+              {
+                "element": 372,
+                "value": 16
+              },
+              {
+                "element": 366,
+                "value": 14
+              },
+              {
+                "element": 377,
+                "value": 9
+              },
+              {
+                "element": 627,
+                "value": 4
+              },
+              {
+                "element": 375,
+                "value": 3
+              },
+              {
+                "element": 381,
+                "value": 3
+              },
+              {
+                "element": 371,
+                "value": 2
+              }
+            ],
+            "h": [
+              {
+                "element": 619,
+                "value": 24
+              },
+              {
+                "element": 591,
+                "value": 16
+              },
+              {
+                "element": 315,
+                "value": 14
+              },
+              {
+                "element": 267,
+                "value": 13
+              },
+              {
+                "element": 564,
+                "value": 13
+              },
+              {
+                "element": 259,
+                "value": 9
+              },
+              {
+                "element": 562,
+                "value": 9
+              },
+              {
+                "element": 316,
+                "value": 8
+              },
+              {
+                "element": 306,
+                "value": 5
+              },
+              {
+                "element": 323,
+                "value": 5
+              },
+              {
+                "element": 304,
+                "value": 4
+              },
+              {
+                "element": 592,
+                "value": 4
+              },
+              {
+                "element": 640,
+                "value": 4
+              },
+              {
+                "element": 313,
+                "value": 3
+              },
+              {
+                "element": 305,
+                "value": 2
+              }
+            ],
+            "identifier": "bps"
+          },
+          {
+            "a": [
+              {
+                "element": 372,
+                "value": 12
+              },
+              {
+                "element": 367,
+                "value": 10
+              },
+              {
+                "element": 368,
+                "value": 9
+              },
+              {
+                "element": 579,
+                "value": 8
+              },
+              {
+                "element": 362,
+                "value": 7
+              },
+              {
+                "element": 356,
+                "value": 5
+              },
+              {
+                "element": 358,
+                "value": 4
+              },
+              {
+                "element": 366,
+                "value": 4
+              },
+              {
+                "element": 377,
+                "value": 4
+              },
+              {
+                "element": 371,
+                "value": 3
+              },
+              {
+                "element": 379,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 619,
+                "value": 19
+              },
+              {
+                "element": 259,
+                "value": 10
+              },
+              {
+                "element": 304,
+                "value": 8
+              },
+              {
+                "element": 315,
+                "value": 6
+              },
+              {
+                "element": 305,
+                "value": 5
+              },
+              {
+                "element": 306,
+                "value": 5
+              },
+              {
+                "element": 562,
+                "value": 5
+              },
+              {
+                "element": 591,
+                "value": 5
+              },
+              {
+                "element": 267,
+                "value": 4
+              },
+              {
+                "element": 316,
+                "value": 3
+              },
+              {
+                "element": 313,
+                "value": 2
+              },
+              {
+                "element": 323,
+                "value": 1
+              }
+            ],
+            "identifier": "defensive_contribution"
+          }
+        ],
         "team_a": 14,
         "team_a_difficulty": 2,
-        "team_a_score": null,
+        "team_a_score": 2,
         "team_h": 12,
         "team_h_difficulty": 4,
-        "team_h_score": null
+        "team_h_score": 0
       },
       {
         "code": 2645223,
@@ -171700,7 +172346,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-04T18:27:28.520908Z",
+    "generated_at": "2026-09-04T21:25:07.173916Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -173223,20 +173869,343 @@
             "code": 2645221,
             "event": 3,
             "finished": false,
-            "finished_provisional": false,
+            "finished_provisional": true,
             "id": 21,
             "kickoff_time": "2026-09-04T19:00:00Z",
-            "minutes": 0,
+            "minutes": 90,
             "provisional_start_time": false,
             "pulse_id": 0,
-            "started": false,
-            "stats": [],
+            "started": true,
+            "stats": [
+              {
+                "a": [
+                  {
+                    "element": 379,
+                    "value": 2
+                  }
+                ],
+                "h": [],
+                "identifier": "goals_scored"
+              },
+              {
+                "a": [
+                  {
+                    "element": 367,
+                    "value": 2
+                  }
+                ],
+                "h": [],
+                "identifier": "assists"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "own_goals"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_saved"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_missed"
+              },
+              {
+                "a": [
+                  {
+                    "element": 358,
+                    "value": 1
+                  },
+                  {
+                    "element": 362,
+                    "value": 1
+                  },
+                  {
+                    "element": 372,
+                    "value": 1
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 591,
+                    "value": 1
+                  }
+                ],
+                "identifier": "yellow_cards"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "red_cards"
+              },
+              {
+                "a": [
+                  {
+                    "element": 350,
+                    "value": 5
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 564,
+                    "value": 5
+                  }
+                ],
+                "identifier": "saves"
+              },
+              {
+                "a": [
+                  {
+                    "element": 379,
+                    "value": 3
+                  },
+                  {
+                    "element": 367,
+                    "value": 2
+                  },
+                  {
+                    "element": 350,
+                    "value": 1
+                  }
+                ],
+                "h": [],
+                "identifier": "bonus"
+              },
+              {
+                "a": [
+                  {
+                    "element": 379,
+                    "value": 61
+                  },
+                  {
+                    "element": 367,
+                    "value": 42
+                  },
+                  {
+                    "element": 350,
+                    "value": 35
+                  },
+                  {
+                    "element": 356,
+                    "value": 31
+                  },
+                  {
+                    "element": 362,
+                    "value": 27
+                  },
+                  {
+                    "element": 579,
+                    "value": 26
+                  },
+                  {
+                    "element": 358,
+                    "value": 22
+                  },
+                  {
+                    "element": 368,
+                    "value": 20
+                  },
+                  {
+                    "element": 372,
+                    "value": 16
+                  },
+                  {
+                    "element": 366,
+                    "value": 14
+                  },
+                  {
+                    "element": 377,
+                    "value": 9
+                  },
+                  {
+                    "element": 627,
+                    "value": 4
+                  },
+                  {
+                    "element": 375,
+                    "value": 3
+                  },
+                  {
+                    "element": 381,
+                    "value": 3
+                  },
+                  {
+                    "element": 371,
+                    "value": 2
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 619,
+                    "value": 24
+                  },
+                  {
+                    "element": 591,
+                    "value": 16
+                  },
+                  {
+                    "element": 315,
+                    "value": 14
+                  },
+                  {
+                    "element": 267,
+                    "value": 13
+                  },
+                  {
+                    "element": 564,
+                    "value": 13
+                  },
+                  {
+                    "element": 259,
+                    "value": 9
+                  },
+                  {
+                    "element": 562,
+                    "value": 9
+                  },
+                  {
+                    "element": 316,
+                    "value": 8
+                  },
+                  {
+                    "element": 306,
+                    "value": 5
+                  },
+                  {
+                    "element": 323,
+                    "value": 5
+                  },
+                  {
+                    "element": 304,
+                    "value": 4
+                  },
+                  {
+                    "element": 592,
+                    "value": 4
+                  },
+                  {
+                    "element": 640,
+                    "value": 4
+                  },
+                  {
+                    "element": 313,
+                    "value": 3
+                  },
+                  {
+                    "element": 305,
+                    "value": 2
+                  }
+                ],
+                "identifier": "bps"
+              },
+              {
+                "a": [
+                  {
+                    "element": 372,
+                    "value": 12
+                  },
+                  {
+                    "element": 367,
+                    "value": 10
+                  },
+                  {
+                    "element": 368,
+                    "value": 9
+                  },
+                  {
+                    "element": 579,
+                    "value": 8
+                  },
+                  {
+                    "element": 362,
+                    "value": 7
+                  },
+                  {
+                    "element": 356,
+                    "value": 5
+                  },
+                  {
+                    "element": 358,
+                    "value": 4
+                  },
+                  {
+                    "element": 366,
+                    "value": 4
+                  },
+                  {
+                    "element": 377,
+                    "value": 4
+                  },
+                  {
+                    "element": 371,
+                    "value": 3
+                  },
+                  {
+                    "element": 379,
+                    "value": 3
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 619,
+                    "value": 19
+                  },
+                  {
+                    "element": 259,
+                    "value": 10
+                  },
+                  {
+                    "element": 304,
+                    "value": 8
+                  },
+                  {
+                    "element": 315,
+                    "value": 6
+                  },
+                  {
+                    "element": 305,
+                    "value": 5
+                  },
+                  {
+                    "element": 306,
+                    "value": 5
+                  },
+                  {
+                    "element": 562,
+                    "value": 5
+                  },
+                  {
+                    "element": 591,
+                    "value": 5
+                  },
+                  {
+                    "element": 267,
+                    "value": 4
+                  },
+                  {
+                    "element": 316,
+                    "value": 3
+                  },
+                  {
+                    "element": 313,
+                    "value": 2
+                  },
+                  {
+                    "element": 323,
+                    "value": 1
+                  }
+                ],
+                "identifier": "defensive_contribution"
+              }
+            ],
             "team_a": 14,
             "team_a_difficulty": 2,
-            "team_a_score": null,
+            "team_a_score": 2,
             "team_h": 12,
             "team_h_difficulty": 4,
-            "team_h_score": null
+            "team_h_score": 0
           },
           {
             "code": 2645223,
@@ -177951,7 +178920,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-04T18:27:30.042156Z",
+    "generated_at": "2026-09-04T21:25:07.653087Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -177986,7 +178955,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-04T18:27:28.519315Z",
+    "generated_at": "2026-09-04T21:25:07.171898Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -180601,7 +181570,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-04T18:27:30.042132Z",
+    "generated_at": "2026-09-04T21:25:07.653058Z",
     "players": [
       {
         "availability_status": "a",
