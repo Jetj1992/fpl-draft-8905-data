@@ -88,16 +88,16 @@
         "web_name": "Gabriel"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 25,
         "chance_of_playing_this_round": 0,
         "draft_rank": 37,
         "element_type": 2,
         "first_name": "Jurriën",
         "id": 5,
         "minutes": 0,
-        "news": "Groin injury - Unknown return date",
+        "news": "Groin injury - 25% chance of playing",
         "second_name": "Timber",
-        "status": "i",
+        "status": "d",
         "team": 1,
         "total_points": 0,
         "web_name": "J.Timber"
@@ -178,16 +178,16 @@
         "web_name": "White"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 190,
         "element_type": 2,
         "first_name": "Cristhian",
         "id": 11,
         "minutes": 168,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Mosquera",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 12,
         "web_name": "Mosquera"
@@ -283,16 +283,16 @@
         "web_name": "Merino"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 50,
         "element_type": 3,
         "first_name": "Gabriel",
         "id": 18,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Al Hilal permanently",
         "second_name": "Martinelli Silva",
-        "status": "a",
+        "status": "u",
         "team": 1,
         "total_points": 0,
         "web_name": "Martinelli"
@@ -673,16 +673,16 @@
         "web_name": "Tielemans"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 200,
         "element_type": 3,
         "first_name": "Leon",
         "id": 44,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Olympiakos permanently",
         "second_name": "Bailey",
-        "status": "a",
+        "status": "u",
         "team": 2,
         "total_points": 0,
         "web_name": "Bailey"
@@ -815,7 +815,7 @@
         "first_name": "Johan",
         "id": 53,
         "minutes": 0,
-        "news": "Knee injury - Unknown return date",
+        "news": "Knee injury - Expected back 12 Sep",
         "second_name": "Manzambi",
         "status": "i",
         "team": 2,
@@ -1468,16 +1468,16 @@
         "web_name": "Damsgaard"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 148,
         "element_type": 3,
         "first_name": "Mathias",
         "id": 97,
         "minutes": 66,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 18 Sep",
         "second_name": "Jensen",
-        "status": "d",
+        "status": "i",
         "team": 4,
         "total_points": 6,
         "web_name": "Jensen"
@@ -1558,16 +1558,16 @@
         "web_name": "Yarmoliuk"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 355,
         "element_type": 3,
         "first_name": "Josh",
         "id": 103,
         "minutes": 0,
-        "news": "",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "second_name": "Dasilva",
-        "status": "a",
+        "status": "i",
         "team": 4,
         "total_points": 0,
         "web_name": "Dasilva"
@@ -4618,16 +4618,16 @@
         "web_name": "Greaves"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 624,
         "element_type": 2,
         "first_name": "Ben",
         "id": 307,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Stoke City on loan for the rest of the season",
         "second_name": "Johnson",
-        "status": "a",
+        "status": "u",
         "team": 12,
         "total_points": 0,
         "web_name": "Johnson"
@@ -5848,16 +5848,16 @@
         "web_name": "Guéhi"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 66,
         "element_type": 2,
         "first_name": "Matheus",
         "id": 389,
         "minutes": 33,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Nunes",
-        "status": "d",
+        "status": "a",
         "team": 15,
         "total_points": 1,
         "web_name": "Matheus N."
@@ -6058,16 +6058,16 @@
         "web_name": "Rodrigo"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 51,
         "element_type": 3,
         "first_name": "Sávio",
         "id": 403,
         "minutes": 0,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "second_name": "Moreira de Oliveira",
-        "status": "d",
+        "status": "a",
         "team": 19,
         "total_points": 0,
         "web_name": "Sávio"
@@ -6793,16 +6793,16 @@
         "web_name": "A.Murphy"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 75,
         "draft_rank": 26,
         "element_type": 3,
         "first_name": "Bruno",
         "id": 452,
         "minutes": 19,
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "second_name": "Guimarães Rodriguez Moura",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 1,
         "web_name": "Bruno G."
@@ -7003,16 +7003,16 @@
         "web_name": "Osula"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 513,
         "element_type": 4,
         "first_name": "Sean",
         "id": 466,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Wolves on loan for the rest of the season",
         "second_name": "Neave",
-        "status": "a",
+        "status": "u",
         "team": 17,
         "total_points": 0,
         "web_name": "Neave"
@@ -7858,16 +7858,16 @@
         "web_name": "Gray"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 406,
         "element_type": 3,
         "first_name": "Mikey",
         "id": 523,
         "minutes": 89,
-        "news": "",
+        "news": "Has joined FC Köln on loan for the rest of the season",
         "second_name": "Moore",
-        "status": "a",
+        "status": "u",
         "team": 19,
         "total_points": 3,
         "web_name": "Moore"
@@ -7918,16 +7918,16 @@
         "web_name": "Solanke"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 78,
         "element_type": 4,
         "first_name": "Richarlison",
         "id": 527,
         "minutes": 67,
-        "news": "",
+        "news": "not included in squad.",
         "second_name": "de Andrade",
-        "status": "a",
+        "status": "u",
         "team": 19,
         "total_points": 2,
         "web_name": "Richarlison"
@@ -8210,9 +8210,9 @@
         "first_name": "Simon",
         "id": 546,
         "minutes": 0,
-        "news": "Ankle injury - Unknown return date",
+        "news": "Has joined Ajax on loan for the rest of the season",
         "second_name": "Adingra",
-        "status": "i",
+        "status": "u",
         "team": 20,
         "total_points": 0,
         "web_name": "Adingra"
@@ -9103,16 +9103,16 @@
         "web_name": "Rowe"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 566,
         "element_type": 3,
         "first_name": "Luka",
         "id": 606,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Oxford United on loan until January",
         "second_name": "Lynch",
-        "status": "a",
+        "status": "u",
         "team": 2,
         "total_points": 0,
         "web_name": "Lynch"
@@ -10089,13 +10089,13 @@
         "web_name": "Estêvão"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 1,
         "club_name": "Arsenal",
         "club_short_name": "ARS",
         "element_id": 18,
         "first_name": "Gabriel",
-        "news": "",
+        "news": "Has joined Al Hilal permanently",
         "official_draft_rank": 50,
         "position": "MID",
         "position_id": 3,
@@ -10103,13 +10103,13 @@
         "web_name": "Martinelli"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 403,
         "first_name": "Sávio",
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 51,
         "position": "MID",
         "position_id": 3,
@@ -10655,7 +10655,7 @@
         "club_short_name": "AVL",
         "element_id": 53,
         "first_name": "Johan",
-        "news": "Knee injury - Unknown return date",
+        "news": "Knee injury - Expected back 12 Sep",
         "official_draft_rank": 111,
         "position": "MID",
         "position_id": 3,
@@ -11041,13 +11041,13 @@
         "web_name": "Iwobi"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 97,
         "first_name": "Mathias",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 18 Sep",
         "official_draft_rank": 148,
         "position": "MID",
         "position_id": 3,
@@ -11601,13 +11601,13 @@
         "web_name": "Nketiah"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 44,
         "first_name": "Leon",
-        "news": "",
+        "news": "Has joined Olympiakos permanently",
         "official_draft_rank": 200,
         "position": "MID",
         "position_id": 3,
@@ -13127,13 +13127,13 @@
         "web_name": "Mamardashvili"
       },
       {
-        "availability_status": "i",
+        "availability_status": "u",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 546,
         "first_name": "Simon",
-        "news": "Ankle injury - Unknown return date",
+        "news": "Has joined Ajax on loan for the rest of the season",
         "official_draft_rank": 323,
         "position": "MID",
         "position_id": 3,
@@ -13575,13 +13575,13 @@
         "web_name": "Arrizabalaga"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 103,
         "first_name": "Josh",
-        "news": "",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "official_draft_rank": 355,
         "position": "MID",
         "position_id": 3,
@@ -14247,13 +14247,13 @@
         "web_name": "Silva"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 523,
         "first_name": "Mikey",
-        "news": "",
+        "news": "Has joined FC Köln on loan for the rest of the season",
         "official_draft_rank": 406,
         "position": "MID",
         "position_id": 3,
@@ -15647,13 +15647,13 @@
         "web_name": "Bendito Mantato"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 466,
         "first_name": "Sean",
-        "news": "",
+        "news": "Has joined Wolves on loan for the rest of the season",
         "official_draft_rank": 513,
         "position": "FWD",
         "position_id": 4,
@@ -16361,13 +16361,13 @@
         "web_name": "Humphreys"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 606,
         "first_name": "Luka",
-        "news": "",
+        "news": "Has joined Oxford United on loan until January",
         "official_draft_rank": 566,
         "position": "MID",
         "position_id": 3,
@@ -17173,13 +17173,13 @@
         "web_name": "Greaves"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 12,
         "club_name": "Ipswich Town",
         "club_short_name": "IPS",
         "element_id": 307,
         "first_name": "Ben",
-        "news": "",
+        "news": "Has joined Stoke City on loan for the rest of the season",
         "official_draft_rank": 624,
         "position": "DEF",
         "position_id": 2,
@@ -17579,7 +17579,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-04T12:32:37.092034Z",
+    "generated_at": "2026-09-04T15:27:26.572195Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -17675,7 +17675,7 @@
             "web_name": "Kayode"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -17684,7 +17684,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Matheus",
             "league_entry_id": 42948,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 66,
             "position": "DEF",
             "position_id": 2,
@@ -17709,7 +17709,7 @@
             "web_name": "Tarkowski"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -17718,7 +17718,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Bruno",
             "league_entry_id": 42948,
-            "news": "",
+            "news": "Knock - 75% chance of playing",
             "official_draft_rank": 26,
             "position": "MID",
             "position_id": 3,
@@ -18413,7 +18413,7 @@
             "web_name": "Raya"
           },
           {
-            "availability_status": "i",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -18422,7 +18422,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Jurriën",
             "league_entry_id": 138641,
-            "news": "Groin injury - Unknown return date",
+            "news": "Groin injury - 25% chance of playing",
             "official_draft_rank": 37,
             "position": "DEF",
             "position_id": 2,
@@ -18617,7 +18617,7 @@
             "web_name": "Havertz"
           },
           {
-            "availability_status": "a",
+            "availability_status": "u",
             "club_id": 19,
             "club_name": "Spurs",
             "club_short_name": "TOT",
@@ -18626,7 +18626,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Richarlison",
             "league_entry_id": 138641,
-            "news": "",
+            "news": "not included in squad.",
             "official_draft_rank": 78,
             "position": "FWD",
             "position_id": 4,
@@ -18727,7 +18727,7 @@
             "web_name": "Maguire"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -18736,7 +18736,7 @@
             "entry_name": "Jyllands Rubin",
             "first_name": "Cristhian",
             "league_entry_id": 138748,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 190,
             "position": "DEF",
             "position_id": 2,
@@ -28771,7 +28771,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-04T12:32:37.548100Z",
+  "generated_at": "2026-09-04T15:27:26.939986Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -28863,16 +28863,16 @@
             "web_name": "Gabriel"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 25,
             "chance_of_playing_this_round": 0,
             "draft_rank": 37,
             "element_type": 2,
             "first_name": "Jurriën",
             "id": 5,
             "minutes": 0,
-            "news": "Groin injury - Unknown return date",
+            "news": "Groin injury - 25% chance of playing",
             "second_name": "Timber",
-            "status": "i",
+            "status": "d",
             "team": 1,
             "total_points": 0,
             "web_name": "J.Timber"
@@ -28953,16 +28953,16 @@
             "web_name": "White"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 190,
             "element_type": 2,
             "first_name": "Cristhian",
             "id": 11,
             "minutes": 168,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Mosquera",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 12,
             "web_name": "Mosquera"
@@ -29058,16 +29058,16 @@
             "web_name": "Merino"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 50,
             "element_type": 3,
             "first_name": "Gabriel",
             "id": 18,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Al Hilal permanently",
             "second_name": "Martinelli Silva",
-            "status": "a",
+            "status": "u",
             "team": 1,
             "total_points": 0,
             "web_name": "Martinelli"
@@ -29448,16 +29448,16 @@
             "web_name": "Tielemans"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 200,
             "element_type": 3,
             "first_name": "Leon",
             "id": 44,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Olympiakos permanently",
             "second_name": "Bailey",
-            "status": "a",
+            "status": "u",
             "team": 2,
             "total_points": 0,
             "web_name": "Bailey"
@@ -29590,7 +29590,7 @@
             "first_name": "Johan",
             "id": 53,
             "minutes": 0,
-            "news": "Knee injury - Unknown return date",
+            "news": "Knee injury - Expected back 12 Sep",
             "second_name": "Manzambi",
             "status": "i",
             "team": 2,
@@ -30243,16 +30243,16 @@
             "web_name": "Damsgaard"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 148,
             "element_type": 3,
             "first_name": "Mathias",
             "id": 97,
             "minutes": 66,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Expected back 18 Sep",
             "second_name": "Jensen",
-            "status": "d",
+            "status": "i",
             "team": 4,
             "total_points": 6,
             "web_name": "Jensen"
@@ -30333,16 +30333,16 @@
             "web_name": "Yarmoliuk"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 355,
             "element_type": 3,
             "first_name": "Josh",
             "id": 103,
             "minutes": 0,
-            "news": "",
+            "news": "Hamstring injury - Expected back 10 Oct",
             "second_name": "Dasilva",
-            "status": "a",
+            "status": "i",
             "team": 4,
             "total_points": 0,
             "web_name": "Dasilva"
@@ -33393,16 +33393,16 @@
             "web_name": "Greaves"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 624,
             "element_type": 2,
             "first_name": "Ben",
             "id": 307,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Stoke City on loan for the rest of the season",
             "second_name": "Johnson",
-            "status": "a",
+            "status": "u",
             "team": 12,
             "total_points": 0,
             "web_name": "Johnson"
@@ -34623,16 +34623,16 @@
             "web_name": "Guéhi"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 66,
             "element_type": 2,
             "first_name": "Matheus",
             "id": 389,
             "minutes": 33,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Nunes",
-            "status": "d",
+            "status": "a",
             "team": 15,
             "total_points": 1,
             "web_name": "Matheus N."
@@ -34833,16 +34833,16 @@
             "web_name": "Rodrigo"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 51,
             "element_type": 3,
             "first_name": "Sávio",
             "id": 403,
             "minutes": 0,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "",
             "second_name": "Moreira de Oliveira",
-            "status": "d",
+            "status": "a",
             "team": 19,
             "total_points": 0,
             "web_name": "Sávio"
@@ -35568,16 +35568,16 @@
             "web_name": "A.Murphy"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 75,
             "draft_rank": 26,
             "element_type": 3,
             "first_name": "Bruno",
             "id": 452,
             "minutes": 19,
-            "news": "",
+            "news": "Knock - 75% chance of playing",
             "second_name": "Guimarães Rodriguez Moura",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 1,
             "web_name": "Bruno G."
@@ -35778,16 +35778,16 @@
             "web_name": "Osula"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 513,
             "element_type": 4,
             "first_name": "Sean",
             "id": 466,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Wolves on loan for the rest of the season",
             "second_name": "Neave",
-            "status": "a",
+            "status": "u",
             "team": 17,
             "total_points": 0,
             "web_name": "Neave"
@@ -36633,16 +36633,16 @@
             "web_name": "Gray"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 406,
             "element_type": 3,
             "first_name": "Mikey",
             "id": 523,
             "minutes": 89,
-            "news": "",
+            "news": "Has joined FC Köln on loan for the rest of the season",
             "second_name": "Moore",
-            "status": "a",
+            "status": "u",
             "team": 19,
             "total_points": 3,
             "web_name": "Moore"
@@ -36693,16 +36693,16 @@
             "web_name": "Solanke"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 78,
             "element_type": 4,
             "first_name": "Richarlison",
             "id": 527,
             "minutes": 67,
-            "news": "",
+            "news": "not included in squad.",
             "second_name": "de Andrade",
-            "status": "a",
+            "status": "u",
             "team": 19,
             "total_points": 2,
             "web_name": "Richarlison"
@@ -36985,9 +36985,9 @@
             "first_name": "Simon",
             "id": 546,
             "minutes": 0,
-            "news": "Ankle injury - Unknown return date",
+            "news": "Has joined Ajax on loan for the rest of the season",
             "second_name": "Adingra",
-            "status": "i",
+            "status": "u",
             "team": 20,
             "total_points": 0,
             "web_name": "Adingra"
@@ -37878,16 +37878,16 @@
             "web_name": "Rowe"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 566,
             "element_type": 3,
             "first_name": "Luka",
             "id": 606,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Oxford United on loan until January",
             "second_name": "Lynch",
-            "status": "a",
+            "status": "u",
             "team": 2,
             "total_points": 0,
             "web_name": "Lynch"
@@ -94672,7 +94672,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-04T12:32:37.548100Z",
+        "generated_at": "2026-09-04T15:27:26.939986Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -95302,7 +95302,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-04T12:32:37.090323Z",
+        "generated_at": "2026-09-04T15:27:26.570236Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -97388,13 +97388,13 @@
               "web_name": "Barcola"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 19,
               "club_name": "Spurs",
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Muscular injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -97917,7 +97917,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-04T12:32:37.548058Z",
+        "generated_at": "2026-09-04T15:27:26.939961Z",
         "players": [
           {
             "availability_status": "a",
@@ -162686,7 +162686,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788525156
+      "time": 1788535646
     },
     "choices": {
       "choices": [],
@@ -178772,7 +178772,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-04T12:32:37.092063Z",
+    "generated_at": "2026-09-04T15:27:26.572226Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -188559,7 +188559,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-04T12:32:37.548100Z",
+    "generated_at": "2026-09-04T15:27:26.939986Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -188594,7 +188594,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-04T12:32:37.090323Z",
+    "generated_at": "2026-09-04T15:27:26.570236Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -190680,13 +190680,13 @@
           "web_name": "Barcola"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 19,
           "club_name": "Spurs",
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Muscular injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -191209,7 +191209,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-04T12:32:37.548058Z",
+    "generated_at": "2026-09-04T15:27:26.939961Z",
     "players": [
       {
         "availability_status": "a",
