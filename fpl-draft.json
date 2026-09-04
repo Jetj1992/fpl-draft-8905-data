@@ -1963,16 +1963,16 @@
         "web_name": "Ayari"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 269,
         "element_type": 2,
         "first_name": "Mats",
         "id": 130,
         "minutes": 156,
-        "news": "",
+        "news": "Knee injury - Unknown return date",
         "second_name": "Wieffer",
-        "status": "a",
+        "status": "i",
         "team": 5,
         "total_points": 7,
         "web_name": "Wieffer"
@@ -9793,16 +9793,16 @@
         "web_name": "J.Angulo"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 125,
         "element_type": 3,
         "first_name": "Femi",
         "id": 652,
         "minutes": 0,
-        "news": "",
+        "news": "Unspecified injury - Expected back 13 Sep",
         "second_name": "Azeez",
-        "status": "a",
+        "status": "i",
         "team": 5,
         "total_points": 0,
         "web_name": "Azeez"
@@ -10817,13 +10817,13 @@
         "web_name": "Chalobah"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 652,
         "first_name": "Femi",
-        "news": "",
+        "news": "Unspecified injury - Expected back 13 Sep",
         "official_draft_rank": 125,
         "position": "MID",
         "position_id": 3,
@@ -12385,13 +12385,13 @@
         "web_name": "Pope"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 130,
         "first_name": "Mats",
-        "news": "",
+        "news": "Knee injury - Unknown return date",
         "official_draft_rank": 269,
         "position": "DEF",
         "position_id": 2,
@@ -17579,7 +17579,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-04T09:27:13.634101Z",
+    "generated_at": "2026-09-04T12:32:37.092034Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28771,7 +28771,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-04T09:27:15.509120Z",
+  "generated_at": "2026-09-04T12:32:37.548100Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -30738,16 +30738,16 @@
             "web_name": "Ayari"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 269,
             "element_type": 2,
             "first_name": "Mats",
             "id": 130,
             "minutes": 156,
-            "news": "",
+            "news": "Knee injury - Unknown return date",
             "second_name": "Wieffer",
-            "status": "a",
+            "status": "i",
             "team": 5,
             "total_points": 7,
             "web_name": "Wieffer"
@@ -38568,16 +38568,16 @@
             "web_name": "J.Angulo"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 125,
             "element_type": 3,
             "first_name": "Femi",
             "id": 652,
             "minutes": 0,
-            "news": "",
+            "news": "Unspecified injury - Expected back 13 Sep",
             "second_name": "Azeez",
-            "status": "a",
+            "status": "i",
             "team": 5,
             "total_points": 0,
             "web_name": "Azeez"
@@ -94672,7 +94672,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-04T09:27:15.509120Z",
+        "generated_at": "2026-09-04T12:32:37.548100Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -95302,7 +95302,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-04T09:27:13.631997Z",
+        "generated_at": "2026-09-04T12:32:37.090323Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -97917,7 +97917,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-04T09:27:15.509088Z",
+        "generated_at": "2026-09-04T12:32:37.548058Z",
         "players": [
           {
             "availability_status": "a",
@@ -162686,7 +162686,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788514031
+      "time": 1788525156
     },
     "choices": {
       "choices": [],
@@ -178772,7 +178772,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-04T09:27:13.634138Z",
+    "generated_at": "2026-09-04T12:32:37.092063Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -188559,7 +188559,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-04T09:27:15.509120Z",
+    "generated_at": "2026-09-04T12:32:37.548100Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -188594,7 +188594,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-04T09:27:13.631997Z",
+    "generated_at": "2026-09-04T12:32:37.090323Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -191209,7 +191209,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-04T09:27:15.509088Z",
+    "generated_at": "2026-09-04T12:32:37.548058Z",
     "players": [
       {
         "availability_status": "a",
