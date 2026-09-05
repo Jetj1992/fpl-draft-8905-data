@@ -4584,7 +4584,7 @@
         "second_name": "O'Shea",
         "status": "a",
         "team": 12,
-        "total_points": 5,
+        "total_points": 7,
         "web_name": "O'Shea"
       },
       {
@@ -5604,7 +5604,7 @@
         "second_name": "Mac Allister",
         "status": "a",
         "team": 14,
-        "total_points": 7,
+        "total_points": 5,
         "web_name": "Mac Allister"
       },
       {
@@ -8724,7 +8724,7 @@
         "second_name": "Araujo",
         "status": "a",
         "team": 14,
-        "total_points": 7,
+        "total_points": 9,
         "web_name": "Araujo"
       },
       {
@@ -17579,7 +17579,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-05T00:35:28.506859Z",
+    "generated_at": "2026-09-05T03:25:51.635704Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28771,7 +28771,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-05T00:35:28.755960Z",
+  "generated_at": "2026-09-05T03:25:53.016859Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -33359,7 +33359,7 @@
             "second_name": "O'Shea",
             "status": "a",
             "team": 12,
-            "total_points": 5,
+            "total_points": 7,
             "web_name": "O'Shea"
           },
           {
@@ -34379,7 +34379,7 @@
             "second_name": "Mac Allister",
             "status": "a",
             "team": 14,
-            "total_points": 7,
+            "total_points": 5,
             "web_name": "Mac Allister"
           },
           {
@@ -37499,7 +37499,7 @@
             "second_name": "Araujo",
             "status": "a",
             "team": 14,
-            "total_points": 7,
+            "total_points": 9,
             "web_name": "Araujo"
           },
           {
@@ -86521,7 +86521,7 @@
                       },
                       {
                         "element": 367,
-                        "value": 42
+                        "value": 43
                       },
                       {
                         "element": 350,
@@ -86529,30 +86529,30 @@
                       },
                       {
                         "element": 356,
-                        "value": 31
+                        "value": 32
                       },
                       {
                         "element": 362,
-                        "value": 27
+                        "value": 28
                       },
                       {
                         "element": 579,
-                        "value": 26
+                        "value": 27
                       },
                       {
                         "element": 358,
-                        "value": 22
+                        "value": 23
                       },
                       {
                         "element": 368,
                         "value": 20
                       },
                       {
-                        "element": 372,
-                        "value": 16
+                        "element": 366,
+                        "value": 14
                       },
                       {
-                        "element": 366,
+                        "element": 372,
                         "value": 14
                       },
                       {
@@ -86561,7 +86561,7 @@
                       },
                       {
                         "element": 627,
-                        "value": 4
+                        "value": 5
                       },
                       {
                         "element": 375,
@@ -86599,7 +86599,7 @@
                       },
                       {
                         "element": 259,
-                        "value": 9
+                        "value": 10
                       },
                       {
                         "element": 562,
@@ -86611,6 +86611,10 @@
                       },
                       {
                         "element": 306,
+                        "value": 6
+                      },
+                      {
+                        "element": 304,
                         "value": 5
                       },
                       {
@@ -86618,7 +86622,7 @@
                         "value": 5
                       },
                       {
-                        "element": 304,
+                        "element": 305,
                         "value": 4
                       },
                       {
@@ -86632,10 +86636,6 @@
                       {
                         "element": 313,
                         "value": 3
-                      },
-                      {
-                        "element": 305,
-                        "value": 2
                       }
                     ],
                     "identifier": "bps"
@@ -86644,31 +86644,31 @@
                     "a": [
                       {
                         "element": 372,
-                        "value": 12
+                        "value": 11
                       },
                       {
                         "element": 367,
                         "value": 10
                       },
                       {
+                        "element": 579,
+                        "value": 10
+                      },
+                      {
+                        "element": 362,
+                        "value": 9
+                      },
+                      {
                         "element": 368,
                         "value": 9
                       },
                       {
-                        "element": 579,
-                        "value": 8
-                      },
-                      {
-                        "element": 362,
+                        "element": 356,
                         "value": 7
                       },
                       {
-                        "element": 356,
-                        "value": 5
-                      },
-                      {
                         "element": 358,
-                        "value": 4
+                        "value": 5
                       },
                       {
                         "element": 366,
@@ -86679,12 +86679,12 @@
                         "value": 4
                       },
                       {
-                        "element": 371,
+                        "element": 379,
                         "value": 3
                       },
                       {
-                        "element": 379,
-                        "value": 3
+                        "element": 371,
+                        "value": 2
                       }
                     ],
                     "h": [
@@ -86694,23 +86694,23 @@
                       },
                       {
                         "element": 259,
-                        "value": 10
+                        "value": 11
                       },
                       {
                         "element": 304,
-                        "value": 8
+                        "value": 11
+                      },
+                      {
+                        "element": 306,
+                        "value": 7
+                      },
+                      {
+                        "element": 305,
+                        "value": 6
                       },
                       {
                         "element": 315,
                         "value": 6
-                      },
-                      {
-                        "element": 305,
-                        "value": 5
-                      },
-                      {
-                        "element": 306,
-                        "value": 5
                       },
                       {
                         "element": 562,
@@ -91459,7 +91459,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-05T00:35:28.755960Z",
+        "generated_at": "2026-09-05T03:25:53.016859Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -92089,7 +92089,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-05T00:35:28.504903Z",
+        "generated_at": "2026-09-05T03:25:51.634164Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -94704,7 +94704,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-05T00:35:28.755931Z",
+        "generated_at": "2026-09-05T03:25:53.016831Z",
         "players": [
           {
             "availability_status": "a",
@@ -159473,7 +159473,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788568527
+      "time": 1788578748
     },
     "choices": {
       "choices": [],
@@ -171754,7 +171754,7 @@
               },
               {
                 "element": 367,
-                "value": 42
+                "value": 43
               },
               {
                 "element": 350,
@@ -171762,30 +171762,30 @@
               },
               {
                 "element": 356,
-                "value": 31
+                "value": 32
               },
               {
                 "element": 362,
-                "value": 27
+                "value": 28
               },
               {
                 "element": 579,
-                "value": 26
+                "value": 27
               },
               {
                 "element": 358,
-                "value": 22
+                "value": 23
               },
               {
                 "element": 368,
                 "value": 20
               },
               {
-                "element": 372,
-                "value": 16
+                "element": 366,
+                "value": 14
               },
               {
-                "element": 366,
+                "element": 372,
                 "value": 14
               },
               {
@@ -171794,7 +171794,7 @@
               },
               {
                 "element": 627,
-                "value": 4
+                "value": 5
               },
               {
                 "element": 375,
@@ -171832,7 +171832,7 @@
               },
               {
                 "element": 259,
-                "value": 9
+                "value": 10
               },
               {
                 "element": 562,
@@ -171844,6 +171844,10 @@
               },
               {
                 "element": 306,
+                "value": 6
+              },
+              {
+                "element": 304,
                 "value": 5
               },
               {
@@ -171851,7 +171855,7 @@
                 "value": 5
               },
               {
-                "element": 304,
+                "element": 305,
                 "value": 4
               },
               {
@@ -171865,10 +171869,6 @@
               {
                 "element": 313,
                 "value": 3
-              },
-              {
-                "element": 305,
-                "value": 2
               }
             ],
             "identifier": "bps"
@@ -171877,31 +171877,31 @@
             "a": [
               {
                 "element": 372,
-                "value": 12
+                "value": 11
               },
               {
                 "element": 367,
                 "value": 10
               },
               {
+                "element": 579,
+                "value": 10
+              },
+              {
+                "element": 362,
+                "value": 9
+              },
+              {
                 "element": 368,
                 "value": 9
               },
               {
-                "element": 579,
-                "value": 8
-              },
-              {
-                "element": 362,
+                "element": 356,
                 "value": 7
               },
               {
-                "element": 356,
-                "value": 5
-              },
-              {
                 "element": 358,
-                "value": 4
+                "value": 5
               },
               {
                 "element": 366,
@@ -171912,12 +171912,12 @@
                 "value": 4
               },
               {
-                "element": 371,
+                "element": 379,
                 "value": 3
               },
               {
-                "element": 379,
-                "value": 3
+                "element": 371,
+                "value": 2
               }
             ],
             "h": [
@@ -171927,23 +171927,23 @@
               },
               {
                 "element": 259,
-                "value": 10
+                "value": 11
               },
               {
                 "element": 304,
-                "value": 8
+                "value": 11
+              },
+              {
+                "element": 306,
+                "value": 7
+              },
+              {
+                "element": 305,
+                "value": 6
               },
               {
                 "element": 315,
                 "value": 6
-              },
-              {
-                "element": 305,
-                "value": 5
-              },
-              {
-                "element": 306,
-                "value": 5
               },
               {
                 "element": 562,
@@ -172346,7 +172346,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-05T00:35:28.506893Z",
+    "generated_at": "2026-09-05T03:25:51.635728Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -173981,7 +173981,7 @@
                   },
                   {
                     "element": 367,
-                    "value": 42
+                    "value": 43
                   },
                   {
                     "element": 350,
@@ -173989,30 +173989,30 @@
                   },
                   {
                     "element": 356,
-                    "value": 31
+                    "value": 32
                   },
                   {
                     "element": 362,
-                    "value": 27
+                    "value": 28
                   },
                   {
                     "element": 579,
-                    "value": 26
+                    "value": 27
                   },
                   {
                     "element": 358,
-                    "value": 22
+                    "value": 23
                   },
                   {
                     "element": 368,
                     "value": 20
                   },
                   {
-                    "element": 372,
-                    "value": 16
+                    "element": 366,
+                    "value": 14
                   },
                   {
-                    "element": 366,
+                    "element": 372,
                     "value": 14
                   },
                   {
@@ -174021,7 +174021,7 @@
                   },
                   {
                     "element": 627,
-                    "value": 4
+                    "value": 5
                   },
                   {
                     "element": 375,
@@ -174059,7 +174059,7 @@
                   },
                   {
                     "element": 259,
-                    "value": 9
+                    "value": 10
                   },
                   {
                     "element": 562,
@@ -174071,6 +174071,10 @@
                   },
                   {
                     "element": 306,
+                    "value": 6
+                  },
+                  {
+                    "element": 304,
                     "value": 5
                   },
                   {
@@ -174078,7 +174082,7 @@
                     "value": 5
                   },
                   {
-                    "element": 304,
+                    "element": 305,
                     "value": 4
                   },
                   {
@@ -174092,10 +174096,6 @@
                   {
                     "element": 313,
                     "value": 3
-                  },
-                  {
-                    "element": 305,
-                    "value": 2
                   }
                 ],
                 "identifier": "bps"
@@ -174104,31 +174104,31 @@
                 "a": [
                   {
                     "element": 372,
-                    "value": 12
+                    "value": 11
                   },
                   {
                     "element": 367,
                     "value": 10
                   },
                   {
+                    "element": 579,
+                    "value": 10
+                  },
+                  {
+                    "element": 362,
+                    "value": 9
+                  },
+                  {
                     "element": 368,
                     "value": 9
                   },
                   {
-                    "element": 579,
-                    "value": 8
-                  },
-                  {
-                    "element": 362,
+                    "element": 356,
                     "value": 7
                   },
                   {
-                    "element": 356,
-                    "value": 5
-                  },
-                  {
                     "element": 358,
-                    "value": 4
+                    "value": 5
                   },
                   {
                     "element": 366,
@@ -174139,12 +174139,12 @@
                     "value": 4
                   },
                   {
-                    "element": 371,
+                    "element": 379,
                     "value": 3
                   },
                   {
-                    "element": 379,
-                    "value": 3
+                    "element": 371,
+                    "value": 2
                   }
                 ],
                 "h": [
@@ -174154,23 +174154,23 @@
                   },
                   {
                     "element": 259,
-                    "value": 10
+                    "value": 11
                   },
                   {
                     "element": 304,
-                    "value": 8
+                    "value": 11
+                  },
+                  {
+                    "element": 306,
+                    "value": 7
+                  },
+                  {
+                    "element": 305,
+                    "value": 6
                   },
                   {
                     "element": 315,
                     "value": 6
-                  },
-                  {
-                    "element": 305,
-                    "value": 5
-                  },
-                  {
-                    "element": 306,
-                    "value": 5
                   },
                   {
                     "element": 562,
@@ -178920,7 +178920,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-05T00:35:28.755960Z",
+    "generated_at": "2026-09-05T03:25:53.016859Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -178955,7 +178955,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-05T00:35:28.504903Z",
+    "generated_at": "2026-09-05T03:25:51.634164Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -181570,7 +181570,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-05T00:35:28.755931Z",
+    "generated_at": "2026-09-05T03:25:53.016831Z",
     "players": [
       {
         "availability_status": "a",
