@@ -1273,14 +1273,14 @@
         "web_name": "Valdimarsson"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 25,
         "chance_of_playing_this_round": null,
         "draft_rank": 131,
         "element_type": 2,
         "first_name": "Nathan",
         "id": 84,
         "minutes": 196,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "Calf injury - 25% chance of playing",
         "second_name": "Collins",
         "status": "d",
         "team": 4,
@@ -4213,16 +4213,16 @@
         "web_name": "Ajayi"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 613,
         "element_type": 2,
         "first_name": "Lewie",
         "id": 280,
         "minutes": 177,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Coyle",
-        "status": "d",
+        "status": "a",
         "team": 11,
         "total_points": 12,
         "web_name": "Coyle"
@@ -6020,7 +6020,7 @@
         "first_name": "Jérémy",
         "id": 400,
         "minutes": 0,
-        "news": "Calf injury - Expected back 5 Sep",
+        "news": "Calf injury - Expected back 13 Sep",
         "second_name": "Doku",
         "status": "i",
         "team": 15,
@@ -10880,7 +10880,7 @@
         "club_short_name": "BRE",
         "element_id": 84,
         "first_name": "Nathan",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "Calf injury - 25% chance of playing",
         "official_draft_rank": 131,
         "position": "DEF",
         "position_id": 2,
@@ -17034,13 +17034,13 @@
         "web_name": "Ajayi"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 280,
         "first_name": "Lewie",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 613,
         "position": "DEF",
         "position_id": 2,
@@ -17608,7 +17608,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-06T06:30:26.486618Z",
+    "generated_at": "2026-09-06T09:25:33.353914Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -17764,7 +17764,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Jérémy",
             "league_entry_id": 42948,
-            "news": "Calf injury - Expected back 5 Sep",
+            "news": "Calf injury - Expected back 13 Sep",
             "official_draft_rank": 21,
             "position": "MID",
             "position_id": 3,
@@ -28800,7 +28800,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-06T06:30:27.509142Z",
+  "generated_at": "2026-09-06T09:25:34.400213Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -30077,14 +30077,14 @@
             "web_name": "Valdimarsson"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 25,
             "chance_of_playing_this_round": null,
             "draft_rank": 131,
             "element_type": 2,
             "first_name": "Nathan",
             "id": 84,
             "minutes": 196,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "Calf injury - 25% chance of playing",
             "second_name": "Collins",
             "status": "d",
             "team": 4,
@@ -33017,16 +33017,16 @@
             "web_name": "Ajayi"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 613,
             "element_type": 2,
             "first_name": "Lewie",
             "id": 280,
             "minutes": 177,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Coyle",
-            "status": "d",
+            "status": "a",
             "team": 11,
             "total_points": 12,
             "web_name": "Coyle"
@@ -34824,7 +34824,7 @@
             "first_name": "Jérémy",
             "id": 400,
             "minutes": 0,
-            "news": "Calf injury - Expected back 5 Sep",
+            "news": "Calf injury - Expected back 13 Sep",
             "second_name": "Doku",
             "status": "i",
             "team": 15,
@@ -93869,7 +93869,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-06T06:30:27.509142Z",
+        "generated_at": "2026-09-06T09:25:34.400213Z",
         "latest_complete_gameweek": 2,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -94499,7 +94499,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-06T06:30:26.484685Z",
+        "generated_at": "2026-09-06T09:25:33.352458Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -95743,7 +95743,7 @@
               "club_short_name": "BRE",
               "element_id": 84,
               "first_name": "Nathan",
-              "news": "Calf injury - 75% chance of playing",
+              "news": "Calf injury - 25% chance of playing",
               "official_draft_rank": 131,
               "position": "DEF",
               "position_id": 2,
@@ -97114,7 +97114,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 2,
-        "generated_at": "2026-09-06T06:30:27.509115Z",
+        "generated_at": "2026-09-06T09:25:34.400188Z",
         "players": [
           {
             "availability_status": "a",
@@ -161883,7 +161883,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788676225
+      "time": 1788686732
     },
     "choices": {
       "choices": [],
@@ -177122,7 +177122,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-06T06:30:26.486648Z",
+    "generated_at": "2026-09-06T09:25:33.353940Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -186050,7 +186050,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-06T06:30:27.509142Z",
+    "generated_at": "2026-09-06T09:25:34.400213Z",
     "latest_complete_gameweek": 2,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -186085,7 +186085,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-06T06:30:26.484685Z",
+    "generated_at": "2026-09-06T09:25:33.352458Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -187329,7 +187329,7 @@
           "club_short_name": "BRE",
           "element_id": 84,
           "first_name": "Nathan",
-          "news": "Calf injury - 75% chance of playing",
+          "news": "Calf injury - 25% chance of playing",
           "official_draft_rank": 131,
           "position": "DEF",
           "position_id": 2,
@@ -188700,7 +188700,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 2,
-    "generated_at": "2026-09-06T06:30:27.509115Z",
+    "generated_at": "2026-09-06T09:25:34.400188Z",
     "players": [
       {
         "availability_status": "a",
