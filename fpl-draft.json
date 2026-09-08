@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-08T06:32:45.391042Z",
+    "generated_at": "2026-09-08T09:28:42.826182Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18048,20 +18048,20 @@
           },
           {
             "availability_status": "a",
-            "club_id": 15,
-            "club_name": "Man City",
-            "club_short_name": "MCI",
-            "element_id": 155,
+            "club_id": 9,
+            "club_name": "Everton",
+            "club_short_name": "EVE",
+            "element_id": 238,
             "entry_id": 137879,
             "entry_name": "AGF 2. hold",
-            "first_name": "Enzo",
+            "first_name": "Jack",
             "league_entry_id": 138487,
             "news": "",
-            "official_draft_rank": 25,
+            "official_draft_rank": 43,
             "position": "MID",
             "position_id": 3,
-            "second_name": "Fernández",
-            "web_name": "Enzo"
+            "second_name": "Grealish",
+            "web_name": "Grealish"
           },
           {
             "availability_status": "a",
@@ -18328,20 +18328,20 @@
           },
           {
             "availability_status": "a",
-            "club_id": 9,
-            "club_name": "Everton",
-            "club_short_name": "EVE",
-            "element_id": 238,
+            "club_id": 15,
+            "club_name": "Man City",
+            "club_short_name": "MCI",
+            "element_id": 155,
             "entry_id": 137912,
             "entry_name": "Grove Løjer",
-            "first_name": "Jack",
+            "first_name": "Enzo",
             "league_entry_id": 138520,
             "news": "",
-            "official_draft_rank": 43,
+            "official_draft_rank": 25,
             "position": "MID",
             "position_id": 3,
-            "second_name": "Grealish",
-            "web_name": "Grealish"
+            "second_name": "Fernández",
+            "web_name": "Enzo"
           },
           {
             "availability_status": "a",
@@ -28192,8 +28192,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 3
+        "transactions_event": 1,
+        "transactions_total": 4
       }
     },
     "137912": {
@@ -28210,8 +28210,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 7
+        "transactions_event": 1,
+        "transactions_total": 8
       }
     },
     "138032": {
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-08T06:32:45.971101Z",
+  "generated_at": "2026-09-08T09:28:44.206702Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -111220,7 +111220,7 @@
           {
             "element": 238,
             "in_accepted_trade": false,
-            "owner": 137912,
+            "owner": 137879,
             "status": "o"
           },
           {
@@ -111538,7 +111538,7 @@
           {
             "element": 155,
             "in_accepted_trade": false,
-            "owner": 137879,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -115149,7 +115149,7 @@
           {
             "element": 238,
             "in_accepted_trade": false,
-            "owner": 137912,
+            "owner": 137879,
             "status": "o"
           },
           {
@@ -115467,7 +115467,7 @@
           {
             "element": 155,
             "in_accepted_trade": false,
-            "owner": 137879,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-08T06:32:45.971101Z",
+        "generated_at": "2026-09-08T09:28:44.206702Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -164807,7 +164807,23 @@
         }
       },
       "trades": {
-        "trades": []
+        "trades": [
+          {
+            "event": 4,
+            "id": 200362,
+            "offer_time": "2026-09-07T13:45:56.314472Z",
+            "offered_entry": 137912,
+            "received_entry": 137879,
+            "response_time": "2026-09-08T08:24:06.378795Z",
+            "state": "p",
+            "tradeitem_set": [
+              {
+                "element_in": 155,
+                "element_out": 238
+              }
+            ]
+          }
+        ]
       },
       "transactions": {
         "transactions": [
@@ -165409,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-08T06:32:45.389054Z",
+        "generated_at": "2026-09-08T09:28:42.824523Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168024,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-08T06:32:45.971072Z",
+        "generated_at": "2026-09-08T09:28:44.206673Z",
         "players": [
           {
             "availability_status": "a",
@@ -233952,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788849165
+      "time": 1788859721
     },
     "choices": {
       "choices": [],
@@ -237296,7 +237312,7 @@
         {
           "element": 238,
           "in_accepted_trade": false,
-          "owner": 137912,
+          "owner": 137879,
           "status": "o"
         },
         {
@@ -237614,7 +237630,7 @@
         {
           "element": 155,
           "in_accepted_trade": false,
-          "owner": 137879,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -241225,7 +241241,7 @@
         {
           "element": 238,
           "in_accepted_trade": false,
-          "owner": 137912,
+          "owner": 137879,
           "status": "o"
         },
         {
@@ -241543,7 +241559,7 @@
         {
           "element": 155,
           "in_accepted_trade": false,
-          "owner": 137879,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -241821,7 +241837,23 @@
       "waivers_processed": false
     },
     "trades": {
-      "trades": []
+      "trades": [
+        {
+          "event": 4,
+          "id": 200362,
+          "offer_time": "2026-09-07T13:45:56.314472Z",
+          "offered_entry": 137912,
+          "received_entry": 137879,
+          "response_time": "2026-09-08T08:24:06.378795Z",
+          "state": "p",
+          "tradeitem_set": [
+            {
+              "element_in": 155,
+              "element_out": 238
+            }
+          ]
+        }
+      ]
     },
     "transactions": {
       "transactions": [
@@ -249926,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-08T06:32:45.391081Z",
+    "generated_at": "2026-09-08T09:28:42.826213Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259577,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-08T06:32:45.971101Z",
+    "generated_at": "2026-09-08T09:28:44.206702Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259612,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-08T06:32:45.389054Z",
+    "generated_at": "2026-09-08T09:28:42.824523Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262227,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-08T06:32:45.971072Z",
+    "generated_at": "2026-09-08T09:28:44.206673Z",
     "players": [
       {
         "availability_status": "a",
