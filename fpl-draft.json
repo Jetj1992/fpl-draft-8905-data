@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-09T15:28:30.828142Z",
+    "generated_at": "2026-09-09T18:30:56.951902Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-09T15:28:31.243780Z",
+  "generated_at": "2026-09-09T18:30:58.799079Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-09T15:28:31.243780Z",
+        "generated_at": "2026-09-09T18:30:58.799079Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165425,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-09T15:28:30.826081Z",
+        "generated_at": "2026-09-09T18:30:56.950375Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168040,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-09T15:28:31.243753Z",
+        "generated_at": "2026-09-09T18:30:58.799053Z",
         "players": [
           {
             "availability_status": "a",
@@ -233968,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788967710
+      "time": 1788978655
     },
     "choices": {
       "choices": [],
@@ -249958,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-09T15:28:30.828183Z",
+    "generated_at": "2026-09-09T18:30:56.951930Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259609,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-09T15:28:31.243780Z",
+    "generated_at": "2026-09-09T18:30:58.799079Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259644,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-09T15:28:30.826081Z",
+    "generated_at": "2026-09-09T18:30:56.950375Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262259,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-09T15:28:31.243753Z",
+    "generated_at": "2026-09-09T18:30:58.799053Z",
     "players": [
       {
         "availability_status": "a",
