@@ -493,16 +493,16 @@
         "web_name": "Konsa"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 436,
         "element_type": 2,
         "first_name": "Matty",
         "id": 32,
         "minutes": 251,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Cash",
-        "status": "a",
+        "status": "d",
         "team": 2,
         "total_points": 7,
         "web_name": "Cash"
@@ -2405,7 +2405,7 @@
         "first_name": "Moisés",
         "id": 159,
         "minutes": 13,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Caicedo Corozo",
         "status": "d",
         "team": 6,
@@ -2563,16 +2563,16 @@
         "web_name": "Mheuka"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 363,
         "element_type": 4,
         "first_name": "Emmanuel",
         "id": 170,
         "minutes": 0,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Emegha",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 0,
         "web_name": "Emegha"
@@ -4288,16 +4288,16 @@
         "web_name": "McCarthy"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 619,
         "element_type": 2,
         "first_name": "Paddy",
         "id": 285,
         "minutes": 26,
-        "news": "",
+        "news": "Foot injury - 75% chance of playing",
         "second_name": "McNair",
-        "status": "a",
+        "status": "d",
         "team": 11,
         "total_points": 1,
         "web_name": "McNair"
@@ -8218,16 +8218,16 @@
         "web_name": "Adingra"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 332,
         "element_type": 3,
         "first_name": "Romaine",
         "id": 547,
         "minutes": 1,
-        "news": "",
+        "news": "Knee injury - Unknown return date",
         "second_name": "Mundle",
-        "status": "a",
+        "status": "i",
         "team": 20,
         "total_points": 1,
         "web_name": "Mundle"
@@ -8428,16 +8428,16 @@
         "web_name": "Targett"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 403,
         "element_type": 3,
         "first_name": "Hidemasa",
         "id": 561,
         "minutes": 45,
-        "news": "",
+        "news": "Calf injury - Expected back 11 Oct",
         "second_name": "Morita",
-        "status": "a",
+        "status": "i",
         "team": 11,
         "total_points": 1,
         "web_name": "Morita"
@@ -8938,16 +8938,16 @@
         "web_name": "Gozo"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 559,
         "element_type": 2,
         "first_name": "Amar",
         "id": 595,
         "minutes": 270,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Dedic",
-        "status": "a",
+        "status": "d",
         "team": 17,
         "total_points": 13,
         "web_name": "Dedić"
@@ -9392,7 +9392,7 @@
         "chance_of_playing_this_round": null,
         "draft_rank": 430,
         "element_type": 3,
-        "first_name": "Macauley",
+        "first_name": "Macaulay",
         "id": 625,
         "minutes": 0,
         "news": "",
@@ -11007,7 +11007,7 @@
         "club_short_name": "CHE",
         "element_id": 159,
         "first_name": "Moisés",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "official_draft_rank": 142,
         "position": "MID",
         "position_id": 3,
@@ -13283,13 +13283,13 @@
         "web_name": "Piroe"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 547,
         "first_name": "Romaine",
-        "news": "",
+        "news": "Knee injury - Unknown return date",
         "official_draft_rank": 332,
         "position": "MID",
         "position_id": 3,
@@ -13717,13 +13717,13 @@
         "web_name": "Ferguson"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 170,
         "first_name": "Emmanuel",
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 363,
         "position": "FWD",
         "position_id": 4,
@@ -14235,13 +14235,13 @@
         "web_name": "Steur"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 561,
         "first_name": "Hidemasa",
-        "news": "",
+        "news": "Calf injury - Expected back 11 Oct",
         "official_draft_rank": 403,
         "position": "MID",
         "position_id": 3,
@@ -14590,7 +14590,7 @@
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 625,
-        "first_name": "Macauley",
+        "first_name": "Macaulay",
         "news": "",
         "official_draft_rank": 430,
         "position": "MID",
@@ -14669,13 +14669,13 @@
         "web_name": "F.Kadıoğlu"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 32,
         "first_name": "Matty",
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "official_draft_rank": 436,
         "position": "DEF",
         "position_id": 2,
@@ -17133,13 +17133,13 @@
         "web_name": "McCarthy"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 285,
         "first_name": "Paddy",
-        "news": "",
+        "news": "Foot injury - 75% chance of playing",
         "official_draft_rank": 619,
         "position": "DEF",
         "position_id": 2,
@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-09T12:34:07.276906Z",
+    "generated_at": "2026-09-09T15:28:30.828142Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -17682,7 +17682,7 @@
             "web_name": "Tzolakis"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 17,
             "club_name": "Newcastle",
             "club_short_name": "NEW",
@@ -17691,7 +17691,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Amar",
             "league_entry_id": 42948,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "official_draft_rank": 559,
             "position": "DEF",
             "position_id": 2,
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-09T12:34:08.009146Z",
+  "generated_at": "2026-09-09T15:28:31.243780Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -98429,16 +98429,16 @@
             "web_name": "Konsa"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 436,
             "element_type": 2,
             "first_name": "Matty",
             "id": 32,
             "minutes": 251,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Cash",
-            "status": "a",
+            "status": "d",
             "team": 2,
             "total_points": 7,
             "web_name": "Cash"
@@ -100341,7 +100341,7 @@
             "first_name": "Moisés",
             "id": 159,
             "minutes": 13,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Caicedo Corozo",
             "status": "d",
             "team": 6,
@@ -100499,16 +100499,16 @@
             "web_name": "Mheuka"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 363,
             "element_type": 4,
             "first_name": "Emmanuel",
             "id": 170,
             "minutes": 0,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Emegha",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 0,
             "web_name": "Emegha"
@@ -102224,16 +102224,16 @@
             "web_name": "McCarthy"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 619,
             "element_type": 2,
             "first_name": "Paddy",
             "id": 285,
             "minutes": 26,
-            "news": "",
+            "news": "Foot injury - 75% chance of playing",
             "second_name": "McNair",
-            "status": "a",
+            "status": "d",
             "team": 11,
             "total_points": 1,
             "web_name": "McNair"
@@ -106154,16 +106154,16 @@
             "web_name": "Adingra"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 332,
             "element_type": 3,
             "first_name": "Romaine",
             "id": 547,
             "minutes": 1,
-            "news": "",
+            "news": "Knee injury - Unknown return date",
             "second_name": "Mundle",
-            "status": "a",
+            "status": "i",
             "team": 20,
             "total_points": 1,
             "web_name": "Mundle"
@@ -106364,16 +106364,16 @@
             "web_name": "Targett"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 403,
             "element_type": 3,
             "first_name": "Hidemasa",
             "id": 561,
             "minutes": 45,
-            "news": "",
+            "news": "Calf injury - Expected back 11 Oct",
             "second_name": "Morita",
-            "status": "a",
+            "status": "i",
             "team": 11,
             "total_points": 1,
             "web_name": "Morita"
@@ -106874,16 +106874,16 @@
             "web_name": "Gozo"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 559,
             "element_type": 2,
             "first_name": "Amar",
             "id": 595,
             "minutes": 270,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Dedic",
-            "status": "a",
+            "status": "d",
             "team": 17,
             "total_points": 13,
             "web_name": "Dedić"
@@ -107328,7 +107328,7 @@
             "chance_of_playing_this_round": null,
             "draft_rank": 430,
             "element_type": 3,
-            "first_name": "Macauley",
+            "first_name": "Macaulay",
             "id": 625,
             "minutes": 0,
             "news": "",
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-09T12:34:08.009146Z",
+        "generated_at": "2026-09-09T15:28:31.243780Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165425,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-09T12:34:07.274955Z",
+        "generated_at": "2026-09-09T15:28:30.826081Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -167020,13 +167020,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 17,
               "club_name": "Newcastle",
               "club_short_name": "NEW",
               "element_id": 595,
               "first_name": "Amar",
-              "news": "",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 559,
               "position": "DEF",
               "position_id": 2,
@@ -168040,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-09T12:34:08.009119Z",
+        "generated_at": "2026-09-09T15:28:31.243753Z",
         "players": [
           {
             "availability_status": "a",
@@ -233968,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788957246
+      "time": 1788967710
     },
     "choices": {
       "choices": [],
@@ -249958,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-09T12:34:07.276938Z",
+    "generated_at": "2026-09-09T15:28:30.828183Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259609,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-09T12:34:08.009146Z",
+    "generated_at": "2026-09-09T15:28:31.243780Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259644,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-09T12:34:07.274955Z",
+    "generated_at": "2026-09-09T15:28:30.826081Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -261239,13 +261239,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 17,
           "club_name": "Newcastle",
           "club_short_name": "NEW",
           "element_id": 595,
           "first_name": "Amar",
-          "news": "",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 559,
           "position": "DEF",
           "position_id": 2,
@@ -262259,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-09T12:34:08.009119Z",
+    "generated_at": "2026-09-09T15:28:31.243753Z",
     "players": [
       {
         "availability_status": "a",
