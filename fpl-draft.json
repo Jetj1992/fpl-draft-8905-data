@@ -9268,16 +9268,16 @@
         "web_name": "Bouaddi"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 90,
         "element_type": 3,
         "first_name": "Leon",
         "id": 617,
         "minutes": 0,
-        "news": "",
+        "news": "Knee injury - Expected back 10 Oct",
         "second_name": "Goretzka",
-        "status": "a",
+        "status": "i",
         "team": 2,
         "total_points": 0,
         "web_name": "Goretzka"
@@ -9628,16 +9628,16 @@
         "web_name": "Affengruber"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 241,
         "element_type": 4,
         "first_name": "Ilyas",
         "id": 641,
         "minutes": 0,
-        "news": "",
+        "news": "Back injury - Unknown return date",
         "second_name": "Ansah",
-        "status": "a",
+        "status": "i",
         "team": 11,
         "total_points": 0,
         "web_name": "Ansah"
@@ -10441,13 +10441,13 @@
         "web_name": "Hinshelwood"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 617,
         "first_name": "Leon",
-        "news": "",
+        "news": "Knee injury - Expected back 10 Oct",
         "official_draft_rank": 90,
         "position": "MID",
         "position_id": 3,
@@ -12163,13 +12163,13 @@
         "web_name": "Vaz"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 641,
         "first_name": "Ilyas",
-        "news": "",
+        "news": "Back injury - Unknown return date",
         "official_draft_rank": 241,
         "position": "FWD",
         "position_id": 4,
@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-09T09:29:01.322357Z",
+    "generated_at": "2026-09-09T12:34:07.276906Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-09T09:29:08.331505Z",
+  "generated_at": "2026-09-09T12:34:08.009146Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -107204,16 +107204,16 @@
             "web_name": "Bouaddi"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 90,
             "element_type": 3,
             "first_name": "Leon",
             "id": 617,
             "minutes": 0,
-            "news": "",
+            "news": "Knee injury - Expected back 10 Oct",
             "second_name": "Goretzka",
-            "status": "a",
+            "status": "i",
             "team": 2,
             "total_points": 0,
             "web_name": "Goretzka"
@@ -107564,16 +107564,16 @@
             "web_name": "Affengruber"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 241,
             "element_type": 4,
             "first_name": "Ilyas",
             "id": 641,
             "minutes": 0,
-            "news": "",
+            "news": "Back injury - Unknown return date",
             "second_name": "Ansah",
-            "status": "a",
+            "status": "i",
             "team": 11,
             "total_points": 0,
             "web_name": "Ansah"
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-09T09:29:08.331505Z",
+        "generated_at": "2026-09-09T12:34:08.009146Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165425,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-09T09:29:01.320642Z",
+        "generated_at": "2026-09-09T12:34:07.274955Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168040,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-09T09:29:08.331477Z",
+        "generated_at": "2026-09-09T12:34:08.009119Z",
         "players": [
           {
             "availability_status": "a",
@@ -233968,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1788946139
+      "time": 1788957246
     },
     "choices": {
       "choices": [],
@@ -249958,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-09T09:29:01.322388Z",
+    "generated_at": "2026-09-09T12:34:07.276938Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259609,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-09T09:29:08.331505Z",
+    "generated_at": "2026-09-09T12:34:08.009146Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259644,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-09T09:29:01.320642Z",
+    "generated_at": "2026-09-09T12:34:07.274955Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262259,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-09T09:29:08.331477Z",
+    "generated_at": "2026-09-09T12:34:08.009119Z",
     "players": [
       {
         "availability_status": "a",
