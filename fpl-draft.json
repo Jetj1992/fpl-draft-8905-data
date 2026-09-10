@@ -1835,7 +1835,7 @@
         "first_name": "Mitoma",
         "id": 121,
         "minutes": 0,
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "second_name": "Kaoru",
         "status": "i",
         "team": 5,
@@ -4288,16 +4288,16 @@
         "web_name": "McCarthy"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 619,
         "element_type": 2,
         "first_name": "Paddy",
         "id": 285,
         "minutes": 26,
-        "news": "Foot injury - 75% chance of playing",
+        "news": "",
         "second_name": "McNair",
-        "status": "d",
+        "status": "a",
         "team": 11,
         "total_points": 1,
         "web_name": "McNair"
@@ -9793,16 +9793,16 @@
         "web_name": "J.Angulo"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 125,
         "element_type": 3,
         "first_name": "Femi",
         "id": 652,
         "minutes": 0,
-        "news": "Unspecified injury - Expected back 13 Sep",
+        "news": "Hamstring injury - 50% chance of playing",
         "second_name": "Azeez",
-        "status": "i",
+        "status": "d",
         "team": 5,
         "total_points": 0,
         "web_name": "Azeez"
@@ -10573,7 +10573,7 @@
         "club_short_name": "BHA",
         "element_id": 121,
         "first_name": "Mitoma",
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "official_draft_rank": 101,
         "position": "MID",
         "position_id": 3,
@@ -10847,13 +10847,13 @@
         "web_name": "Chalobah"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 652,
         "first_name": "Femi",
-        "news": "Unspecified injury - Expected back 13 Sep",
+        "news": "Hamstring injury - 50% chance of playing",
         "official_draft_rank": 125,
         "position": "MID",
         "position_id": 3,
@@ -17133,13 +17133,13 @@
         "web_name": "McCarthy"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 285,
         "first_name": "Paddy",
-        "news": "Foot injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 619,
         "position": "DEF",
         "position_id": 2,
@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-10T09:28:18.414539Z",
+    "generated_at": "2026-09-10T12:33:32.657393Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-10T09:28:19.059845Z",
+  "generated_at": "2026-09-10T12:33:33.023023Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -99771,7 +99771,7 @@
             "first_name": "Mitoma",
             "id": 121,
             "minutes": 0,
-            "news": "Hamstring injury - Unknown return date",
+            "news": "Hamstring injury - Expected back 10 Oct",
             "second_name": "Kaoru",
             "status": "i",
             "team": 5,
@@ -102224,16 +102224,16 @@
             "web_name": "McCarthy"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 619,
             "element_type": 2,
             "first_name": "Paddy",
             "id": 285,
             "minutes": 26,
-            "news": "Foot injury - 75% chance of playing",
+            "news": "",
             "second_name": "McNair",
-            "status": "d",
+            "status": "a",
             "team": 11,
             "total_points": 1,
             "web_name": "McNair"
@@ -107729,16 +107729,16 @@
             "web_name": "J.Angulo"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 125,
             "element_type": 3,
             "first_name": "Femi",
             "id": 652,
             "minutes": 0,
-            "news": "Unspecified injury - Expected back 13 Sep",
+            "news": "Hamstring injury - 50% chance of playing",
             "second_name": "Azeez",
-            "status": "i",
+            "status": "d",
             "team": 5,
             "total_points": 0,
             "web_name": "Azeez"
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-10T09:28:19.059845Z",
+        "generated_at": "2026-09-10T12:33:33.023023Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165425,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-10T09:28:18.411459Z",
+        "generated_at": "2026-09-10T12:33:32.655466Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168040,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-10T09:28:19.059816Z",
+        "generated_at": "2026-09-10T12:33:33.023000Z",
         "players": [
           {
             "availability_status": "a",
@@ -233968,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789032498
+      "time": 1789043612
     },
     "choices": {
       "choices": [],
@@ -241833,7 +241833,7 @@
       "current_event_finished": true,
       "next_event": 4,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -249958,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-10T09:28:18.414585Z",
+    "generated_at": "2026-09-10T12:33:32.657423Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259609,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-10T09:28:19.059845Z",
+    "generated_at": "2026-09-10T12:33:33.023023Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259644,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-10T09:28:18.411459Z",
+    "generated_at": "2026-09-10T12:33:32.655466Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262259,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-10T09:28:19.059816Z",
+    "generated_at": "2026-09-10T12:33:33.023000Z",
     "players": [
       {
         "availability_status": "a",
