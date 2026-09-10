@@ -6673,16 +6673,16 @@
         "web_name": "Gillespie"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": null,
         "draft_rank": 555,
         "element_type": 1,
         "first_name": "Ewen",
         "id": 444,
         "minutes": 0,
-        "news": "",
+        "news": "Ankle injury - 50% chance of playing",
         "second_name": "Jaouen",
-        "status": "a",
+        "status": "d",
         "team": 17,
         "total_points": 0,
         "web_name": "Jaouen"
@@ -16280,13 +16280,13 @@
         "web_name": "Penders"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 444,
         "first_name": "Ewen",
-        "news": "",
+        "news": "Ankle injury - 50% chance of playing",
         "official_draft_rank": 555,
         "position": "GKP",
         "position_id": 1,
@@ -17666,7 +17666,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-10T15:28:13.619411Z",
+    "generated_at": "2026-09-10T18:29:00.154730Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28858,7 +28858,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-10T15:28:14.181609Z",
+  "generated_at": "2026-09-10T18:29:00.746541Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -104638,16 +104638,16 @@
             "web_name": "Gillespie"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": null,
             "draft_rank": 555,
             "element_type": 1,
             "first_name": "Ewen",
             "id": 444,
             "minutes": 0,
-            "news": "",
+            "news": "Ankle injury - 50% chance of playing",
             "second_name": "Jaouen",
-            "status": "a",
+            "status": "d",
             "team": 17,
             "total_points": 0,
             "web_name": "Jaouen"
@@ -164835,7 +164835,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-10T15:28:14.181609Z",
+        "generated_at": "2026-09-10T18:29:00.746541Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165481,7 +165481,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-10T15:28:13.617433Z",
+        "generated_at": "2026-09-10T18:29:00.152739Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168096,7 +168096,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-10T15:28:14.181581Z",
+        "generated_at": "2026-09-10T18:29:00.746512Z",
         "players": [
           {
             "availability_status": "a",
@@ -234024,7 +234024,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789054093
+      "time": 1789064940
     },
     "choices": {
       "choices": [],
@@ -250026,7 +250026,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-10T15:28:13.619448Z",
+    "generated_at": "2026-09-10T18:29:00.154765Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259677,7 +259677,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-10T15:28:14.181609Z",
+    "generated_at": "2026-09-10T18:29:00.746541Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259712,7 +259712,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-10T15:28:13.617433Z",
+    "generated_at": "2026-09-10T18:29:00.152739Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262327,7 +262327,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-10T15:28:14.181581Z",
+    "generated_at": "2026-09-10T18:29:00.746512Z",
     "players": [
       {
         "availability_status": "a",
