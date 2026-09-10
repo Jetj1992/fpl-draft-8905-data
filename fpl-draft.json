@@ -2818,16 +2818,16 @@
         "web_name": "Mason-Clark"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 368,
         "element_type": 3,
         "first_name": "Josh",
         "id": 187,
         "minutes": 0,
-        "news": "",
+        "news": "Unspecified injury - Expected back 12 Oct",
         "second_name": "Eccles",
-        "status": "a",
+        "status": "i",
         "team": 7,
         "total_points": 0,
         "web_name": "Eccles"
@@ -13802,13 +13802,13 @@
         "web_name": "Sakamoto"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 187,
         "first_name": "Josh",
-        "news": "",
+        "news": "Unspecified injury - Expected back 12 Oct",
         "official_draft_rank": 368,
         "position": "MID",
         "position_id": 3,
@@ -17666,7 +17666,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-10T18:29:00.154730Z",
+    "generated_at": "2026-09-10T21:24:29.949813Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28858,7 +28858,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-10T18:29:00.746541Z",
+  "generated_at": "2026-09-10T21:24:30.636430Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -100783,16 +100783,16 @@
             "web_name": "Mason-Clark"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 368,
             "element_type": 3,
             "first_name": "Josh",
             "id": 187,
             "minutes": 0,
-            "news": "",
+            "news": "Unspecified injury - Expected back 12 Oct",
             "second_name": "Eccles",
-            "status": "a",
+            "status": "i",
             "team": 7,
             "total_points": 0,
             "web_name": "Eccles"
@@ -164835,7 +164835,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-10T18:29:00.746541Z",
+        "generated_at": "2026-09-10T21:24:30.636430Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165481,7 +165481,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-10T18:29:00.152739Z",
+        "generated_at": "2026-09-10T21:24:29.947832Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168096,7 +168096,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-10T18:29:00.746512Z",
+        "generated_at": "2026-09-10T21:24:30.636407Z",
         "players": [
           {
             "availability_status": "a",
@@ -234024,7 +234024,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789064940
+      "time": 1789075468
     },
     "choices": {
       "choices": [],
@@ -250026,7 +250026,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-10T18:29:00.154765Z",
+    "generated_at": "2026-09-10T21:24:29.949847Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259677,7 +259677,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-10T18:29:00.746541Z",
+    "generated_at": "2026-09-10T21:24:30.636430Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259712,7 +259712,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-10T18:29:00.152739Z",
+    "generated_at": "2026-09-10T21:24:29.947832Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262327,7 +262327,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-10T18:29:00.746512Z",
+    "generated_at": "2026-09-10T21:24:30.636407Z",
     "players": [
       {
         "availability_status": "a",
