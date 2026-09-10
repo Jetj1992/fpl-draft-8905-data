@@ -3298,16 +3298,16 @@
         "web_name": "Doucouré"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 373,
         "element_type": 3,
         "first_name": "Jesurun",
         "id": 219,
         "minutes": 0,
-        "news": "",
+        "news": "has joined  Kasimpasa on loan for the rest of the seaon.",
         "second_name": "Rak-Sakyi",
-        "status": "a",
+        "status": "u",
         "team": 8,
         "total_points": 0,
         "web_name": "J.Rak-Sakyi"
@@ -13857,13 +13857,13 @@
         "web_name": "Doucouré"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 219,
         "first_name": "Jesurun",
-        "news": "",
+        "news": "has joined  Kasimpasa on loan for the rest of the seaon.",
         "official_draft_rank": 373,
         "position": "MID",
         "position_id": 3,
@@ -17637,7 +17637,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-10T06:33:22.162762Z",
+    "generated_at": "2026-09-10T09:28:18.414539Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28829,7 +28829,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-10T06:33:23.281727Z",
+  "generated_at": "2026-09-10T09:28:19.059845Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -101234,16 +101234,16 @@
             "web_name": "Doucouré"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 373,
             "element_type": 3,
             "first_name": "Jesurun",
             "id": 219,
             "minutes": 0,
-            "news": "",
+            "news": "has joined  Kasimpasa on loan for the rest of the seaon.",
             "second_name": "Rak-Sakyi",
-            "status": "a",
+            "status": "u",
             "team": 8,
             "total_points": 0,
             "web_name": "J.Rak-Sakyi"
@@ -164779,7 +164779,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-10T06:33:23.281727Z",
+        "generated_at": "2026-09-10T09:28:19.059845Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165425,7 +165425,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-10T06:33:22.160924Z",
+        "generated_at": "2026-09-10T09:28:18.411459Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168040,7 +168040,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-10T06:33:23.281706Z",
+        "generated_at": "2026-09-10T09:28:19.059816Z",
         "players": [
           {
             "availability_status": "a",
@@ -233968,7 +233968,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789022001
+      "time": 1789032498
     },
     "choices": {
       "choices": [],
@@ -249958,7 +249958,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-10T06:33:22.162792Z",
+    "generated_at": "2026-09-10T09:28:18.414585Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259609,7 +259609,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-10T06:33:23.281727Z",
+    "generated_at": "2026-09-10T09:28:19.059845Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259644,7 +259644,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-10T06:33:22.160924Z",
+    "generated_at": "2026-09-10T09:28:18.411459Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262259,7 +262259,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-10T06:33:23.281706Z",
+    "generated_at": "2026-09-10T09:28:19.059816Z",
     "players": [
       {
         "availability_status": "a",
