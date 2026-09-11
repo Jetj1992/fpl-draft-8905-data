@@ -178,14 +178,14 @@
         "web_name": "White"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 75,
         "draft_rank": 191,
         "element_type": 2,
         "first_name": "Cristhian",
         "id": 11,
         "minutes": 168,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "Muscular injury - 50% chance of playing",
         "second_name": "Mosquera",
         "status": "d",
         "team": 1,
@@ -17666,7 +17666,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-11T06:32:18.881550Z",
+    "generated_at": "2026-09-11T09:27:25.235359Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18823,7 +18823,7 @@
             "entry_name": "Jyllands Rubin",
             "first_name": "Cristhian",
             "league_entry_id": 138748,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "Muscular injury - 50% chance of playing",
             "official_draft_rank": 191,
             "position": "DEF",
             "position_id": 2,
@@ -28858,7 +28858,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-11T06:32:19.431866Z",
+  "generated_at": "2026-09-11T09:27:26.029229Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -98143,14 +98143,14 @@
             "web_name": "White"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 75,
             "draft_rank": 191,
             "element_type": 2,
             "first_name": "Cristhian",
             "id": 11,
             "minutes": 168,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "Muscular injury - 50% chance of playing",
             "second_name": "Mosquera",
             "status": "d",
             "team": 1,
@@ -164835,7 +164835,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-11T06:32:19.431866Z",
+        "generated_at": "2026-09-11T09:27:26.029229Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165481,7 +165481,7 @@
           "source_available": true,
           "typed_records": 49
         },
-        "generated_at": "2026-09-11T06:32:18.879629Z",
+        "generated_at": "2026-09-11T09:27:25.233428Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168096,7 +168096,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-11T06:32:19.431840Z",
+        "generated_at": "2026-09-11T09:27:26.029198Z",
         "players": [
           {
             "availability_status": "a",
@@ -234024,7 +234024,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789108338
+      "time": 1789118844
     },
     "choices": {
       "choices": [],
@@ -250026,7 +250026,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-11T06:32:18.881584Z",
+    "generated_at": "2026-09-11T09:27:25.235388Z",
     "pending_waiver_count": 27,
     "schema_version": 1,
     "source_available": true,
@@ -259677,7 +259677,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-11T06:32:19.431866Z",
+    "generated_at": "2026-09-11T09:27:26.029229Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259712,7 +259712,7 @@
       "source_available": true,
       "typed_records": 49
     },
-    "generated_at": "2026-09-11T06:32:18.879629Z",
+    "generated_at": "2026-09-11T09:27:25.233428Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -262327,7 +262327,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-11T06:32:19.431840Z",
+    "generated_at": "2026-09-11T09:27:26.029198Z",
     "players": [
       {
         "availability_status": "a",
