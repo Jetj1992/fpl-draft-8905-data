@@ -965,7 +965,7 @@
         "first_name": "Veljko",
         "id": 63,
         "minutes": 0,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Thigh injury - Unknown return date",
         "second_name": "Milosavljevic",
         "status": "i",
         "team": 3,
@@ -1175,7 +1175,7 @@
         "first_name": "Amine",
         "id": 77,
         "minutes": 0,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Calf injury - Unknown return date",
         "second_name": "Adli",
         "status": "i",
         "team": 3,
@@ -3598,16 +3598,16 @@
         "web_name": "Grealish"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 63,
         "element_type": 3,
         "first_name": "James",
         "id": 239,
         "minutes": 148,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Garner",
-        "status": "d",
+        "status": "a",
         "team": 9,
         "total_points": 4,
         "web_name": "Garner"
@@ -9793,14 +9793,14 @@
         "web_name": "J.Angulo"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 125,
         "element_type": 3,
         "first_name": "Femi",
         "id": 652,
         "minutes": 0,
-        "news": "Hamstring injury - 50% chance of playing",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Azeez",
         "status": "d",
         "team": 5,
@@ -10247,13 +10247,13 @@
         "web_name": "Senesi"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 9,
         "club_name": "Everton",
         "club_short_name": "EVE",
         "element_id": 239,
         "first_name": "James",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 63,
         "position": "MID",
         "position_id": 3,
@@ -10911,7 +10911,7 @@
         "club_short_name": "BHA",
         "element_id": 652,
         "first_name": "Femi",
-        "news": "Hamstring injury - 50% chance of playing",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 125,
         "position": "MID",
         "position_id": 3,
@@ -12717,7 +12717,7 @@
         "club_short_name": "BOU",
         "element_id": 77,
         "first_name": "Amine",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Calf injury - Unknown return date",
         "official_draft_rank": 290,
         "position": "MID",
         "position_id": 3,
@@ -13277,7 +13277,7 @@
         "club_short_name": "BOU",
         "element_id": 63,
         "first_name": "Veljko",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Thigh injury - Unknown return date",
         "official_draft_rank": 330,
         "position": "DEF",
         "position_id": 2,
@@ -17695,7 +17695,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-11T18:30:01.521795Z",
+    "generated_at": "2026-09-11T21:24:54.388187Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28887,7 +28887,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-11T18:30:02.796219Z",
+  "generated_at": "2026-09-11T21:24:55.007783Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -98959,7 +98959,7 @@
             "first_name": "Veljko",
             "id": 63,
             "minutes": 0,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "Thigh injury - Unknown return date",
             "second_name": "Milosavljevic",
             "status": "i",
             "team": 3,
@@ -99169,7 +99169,7 @@
             "first_name": "Amine",
             "id": 77,
             "minutes": 0,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "Calf injury - Unknown return date",
             "second_name": "Adli",
             "status": "i",
             "team": 3,
@@ -101592,16 +101592,16 @@
             "web_name": "Grealish"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 63,
             "element_type": 3,
             "first_name": "James",
             "id": 239,
             "minutes": 148,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Garner",
-            "status": "d",
+            "status": "a",
             "team": 9,
             "total_points": 4,
             "web_name": "Garner"
@@ -107787,14 +107787,14 @@
             "web_name": "J.Angulo"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 125,
             "element_type": 3,
             "first_name": "Femi",
             "id": 652,
             "minutes": 0,
-            "news": "Hamstring injury - 50% chance of playing",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Azeez",
             "status": "d",
             "team": 5,
@@ -164891,7 +164891,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-11T18:30:02.796219Z",
+        "generated_at": "2026-09-11T21:24:55.007783Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165681,7 +165681,7 @@
           "source_available": true,
           "typed_records": 61
         },
-        "generated_at": "2026-09-11T18:30:01.519849Z",
+        "generated_at": "2026-09-11T21:24:54.386158Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168932,7 +168932,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-11T18:30:02.796191Z",
+        "generated_at": "2026-09-11T21:24:55.007743Z",
         "players": [
           {
             "availability_status": "a",
@@ -234860,7 +234860,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789151400
+      "time": 1789161894
     },
     "choices": {
       "choices": [],
@@ -251018,7 +251018,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-11T18:30:01.521830Z",
+    "generated_at": "2026-09-11T21:24:54.388228Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -260881,7 +260881,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-11T18:30:02.796219Z",
+    "generated_at": "2026-09-11T21:24:55.007783Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -260916,7 +260916,7 @@
       "source_available": true,
       "typed_records": 61
     },
-    "generated_at": "2026-09-11T18:30:01.519849Z",
+    "generated_at": "2026-09-11T21:24:54.386158Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -264167,7 +264167,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-11T18:30:02.796191Z",
+    "generated_at": "2026-09-11T21:24:55.007743Z",
     "players": [
       {
         "availability_status": "a",
