@@ -808,16 +808,16 @@
         "web_name": "Alysson"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 111,
         "element_type": 3,
         "first_name": "Johan",
         "id": 53,
         "minutes": 0,
-        "news": "Knee injury - Expected back 12 Sep",
+        "news": "Knee injury - 50% chance of playing",
         "second_name": "Manzambi",
-        "status": "i",
+        "status": "d",
         "team": 2,
         "total_points": 0,
         "web_name": "Manzambi"
@@ -2293,16 +2293,16 @@
         "web_name": "Acheampong"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 75,
         "draft_rank": 216,
         "element_type": 2,
         "first_name": "Marco",
         "id": 152,
         "minutes": 0,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 18 Sep",
         "second_name": "Palestra",
-        "status": "d",
+        "status": "i",
         "team": 6,
         "total_points": 0,
         "web_name": "Palestra"
@@ -7498,16 +7498,16 @@
         "web_name": "Senesi"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 136,
         "element_type": 2,
         "first_name": "Pedro",
         "id": 499,
         "minutes": 180,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Porro Sauceda",
-        "status": "a",
+        "status": "d",
         "team": 19,
         "total_points": 8,
         "web_name": "Pedro Porro"
@@ -7603,16 +7603,16 @@
         "web_name": "Spence"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 479,
         "element_type": 2,
         "first_name": "Destiny",
         "id": 506,
         "minutes": 86,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Udogie",
-        "status": "a",
+        "status": "d",
         "team": 19,
         "total_points": 7,
         "web_name": "Udogie"
@@ -8683,16 +8683,16 @@
         "web_name": "Stroud"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 234,
         "element_type": 3,
         "first_name": "Mykhailo",
         "id": 578,
         "minutes": 16,
-        "news": "",
+        "news": "Ankle injury - Unknown return date",
         "second_name": "Mudryk",
-        "status": "a",
+        "status": "i",
         "team": 19,
         "total_points": 1,
         "web_name": "Mudryk"
@@ -10737,13 +10737,13 @@
         "web_name": "G.Jesus"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 53,
         "first_name": "Johan",
-        "news": "Knee injury - Expected back 12 Sep",
+        "news": "Knee injury - 50% chance of playing",
         "official_draft_rank": 111,
         "position": "MID",
         "position_id": 3,
@@ -11913,13 +11913,13 @@
         "web_name": "Wilson"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 152,
         "first_name": "Marco",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 18 Sep",
         "official_draft_rank": 216,
         "position": "DEF",
         "position_id": 2,
@@ -12137,13 +12137,13 @@
         "web_name": "Diomande"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 578,
         "first_name": "Mykhailo",
-        "news": "",
+        "news": "Ankle injury - Unknown return date",
         "official_draft_rank": 234,
         "position": "MID",
         "position_id": 3,
@@ -15231,13 +15231,13 @@
         "web_name": "Lindelöf"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 506,
         "first_name": "Destiny",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 479,
         "position": "DEF",
         "position_id": 2,
@@ -17695,7 +17695,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-11T15:27:04.278533Z",
+    "generated_at": "2026-09-11T18:30:01.521795Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19386,7 +19386,7 @@
             "web_name": "Konsa"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 19,
             "club_name": "Spurs",
             "club_short_name": "TOT",
@@ -19395,7 +19395,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Pedro",
             "league_entry_id": 321694,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 136,
             "position": "DEF",
             "position_id": 2,
@@ -28887,7 +28887,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-11T15:27:04.974320Z",
+  "generated_at": "2026-09-11T18:30:02.796219Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -98802,16 +98802,16 @@
             "web_name": "Alysson"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 111,
             "element_type": 3,
             "first_name": "Johan",
             "id": 53,
             "minutes": 0,
-            "news": "Knee injury - Expected back 12 Sep",
+            "news": "Knee injury - 50% chance of playing",
             "second_name": "Manzambi",
-            "status": "i",
+            "status": "d",
             "team": 2,
             "total_points": 0,
             "web_name": "Manzambi"
@@ -100287,16 +100287,16 @@
             "web_name": "Acheampong"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 75,
             "draft_rank": 216,
             "element_type": 2,
             "first_name": "Marco",
             "id": 152,
             "minutes": 0,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Expected back 18 Sep",
             "second_name": "Palestra",
-            "status": "d",
+            "status": "i",
             "team": 6,
             "total_points": 0,
             "web_name": "Palestra"
@@ -105492,16 +105492,16 @@
             "web_name": "Senesi"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 136,
             "element_type": 2,
             "first_name": "Pedro",
             "id": 499,
             "minutes": 180,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Porro Sauceda",
-            "status": "a",
+            "status": "d",
             "team": 19,
             "total_points": 8,
             "web_name": "Pedro Porro"
@@ -105597,16 +105597,16 @@
             "web_name": "Spence"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 479,
             "element_type": 2,
             "first_name": "Destiny",
             "id": 506,
             "minutes": 86,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Udogie",
-            "status": "a",
+            "status": "d",
             "team": 19,
             "total_points": 7,
             "web_name": "Udogie"
@@ -106677,16 +106677,16 @@
             "web_name": "Stroud"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 234,
             "element_type": 3,
             "first_name": "Mykhailo",
             "id": 578,
             "minutes": 16,
-            "news": "",
+            "news": "Ankle injury - Unknown return date",
             "second_name": "Mudryk",
-            "status": "a",
+            "status": "i",
             "team": 19,
             "total_points": 1,
             "web_name": "Mudryk"
@@ -164891,7 +164891,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-11T15:27:04.974320Z",
+        "generated_at": "2026-09-11T18:30:02.796219Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165681,7 +165681,7 @@
           "source_available": true,
           "typed_records": 61
         },
-        "generated_at": "2026-09-11T15:27:04.276577Z",
+        "generated_at": "2026-09-11T18:30:01.519849Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168932,7 +168932,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-11T15:27:04.974288Z",
+        "generated_at": "2026-09-11T18:30:02.796191Z",
         "players": [
           {
             "availability_status": "a",
@@ -234860,7 +234860,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789140422
+      "time": 1789151400
     },
     "choices": {
       "choices": [],
@@ -251018,7 +251018,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-11T15:27:04.278570Z",
+    "generated_at": "2026-09-11T18:30:01.521830Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -260881,7 +260881,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-11T15:27:04.974320Z",
+    "generated_at": "2026-09-11T18:30:02.796219Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -260916,7 +260916,7 @@
       "source_available": true,
       "typed_records": 61
     },
-    "generated_at": "2026-09-11T15:27:04.276577Z",
+    "generated_at": "2026-09-11T18:30:01.519849Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -264167,7 +264167,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-11T15:27:04.974288Z",
+    "generated_at": "2026-09-11T18:30:02.796191Z",
     "players": [
       {
         "availability_status": "a",
