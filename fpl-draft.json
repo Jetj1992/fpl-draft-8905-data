@@ -2300,7 +2300,7 @@
         "first_name": "Marco",
         "id": 152,
         "minutes": 0,
-        "news": "Unspecified injury - Expected back 18 Sep",
+        "news": "Thigh injury - Expected back 18 Sep",
         "second_name": "Palestra",
         "status": "i",
         "team": 6,
@@ -11605,6 +11605,20 @@
         "web_name": "Zirkzee"
       },
       {
+        "availability_status": "d",
+        "club_id": 1,
+        "club_name": "Arsenal",
+        "club_short_name": "ARS",
+        "element_id": 11,
+        "first_name": "Cristhian",
+        "news": "Muscular injury - 50% chance of playing",
+        "official_draft_rank": 191,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "Mosquera",
+        "web_name": "Mosquera"
+      },
+      {
         "availability_status": "i",
         "club_id": 14,
         "club_name": "Liverpool",
@@ -11919,7 +11933,7 @@
         "club_short_name": "CHE",
         "element_id": 152,
         "first_name": "Marco",
-        "news": "Unspecified injury - Expected back 18 Sep",
+        "news": "Thigh injury - Expected back 18 Sep",
         "official_draft_rank": 216,
         "position": "DEF",
         "position_id": 2,
@@ -14277,20 +14291,6 @@
         "position_id": 3,
         "second_name": "Morita",
         "web_name": "Morita"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 5,
-        "club_name": "Brighton",
-        "club_short_name": "BHA",
-        "element_id": 504,
-        "first_name": "Luka",
-        "news": "",
-        "official_draft_rank": 405,
-        "position": "DEF",
-        "position_id": 2,
-        "second_name": "Vušković",
-        "web_name": "Vuskovic"
       },
       {
         "availability_status": "a",
@@ -17695,7 +17695,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-12T06:30:42.421661Z",
+    "generated_at": "2026-09-12T09:25:36.399387Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18843,23 +18843,6 @@
             "web_name": "Maguire"
           },
           {
-            "availability_status": "d",
-            "club_id": 1,
-            "club_name": "Arsenal",
-            "club_short_name": "ARS",
-            "element_id": 11,
-            "entry_id": 138139,
-            "entry_name": "Jyllands Rubin",
-            "first_name": "Cristhian",
-            "league_entry_id": 138748,
-            "news": "Muscular injury - 50% chance of playing",
-            "official_draft_rank": 191,
-            "position": "DEF",
-            "position_id": 2,
-            "second_name": "Mosquera",
-            "web_name": "Mosquera"
-          },
-          {
             "availability_status": "a",
             "club_id": 13,
             "club_name": "Leeds",
@@ -18875,6 +18858,23 @@
             "position_id": 2,
             "second_name": "Muharemović",
             "web_name": "Muharemović"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 5,
+            "club_name": "Brighton",
+            "club_short_name": "BHA",
+            "element_id": 504,
+            "entry_id": 138139,
+            "entry_name": "Jyllands Rubin",
+            "first_name": "Luka",
+            "league_entry_id": 138748,
+            "news": "",
+            "official_draft_rank": 405,
+            "position": "DEF",
+            "position_id": 2,
+            "second_name": "Vušković",
+            "web_name": "Vuskovic"
           },
           {
             "availability_status": "a",
@@ -28304,8 +28304,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 1,
-        "transactions_total": 3
+        "transactions_event": 2,
+        "transactions_total": 4
       }
     },
     "250589": {
@@ -28887,7 +28887,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-12T06:30:44.691516Z",
+  "generated_at": "2026-09-12T09:25:39.515161Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -100294,7 +100294,7 @@
             "first_name": "Marco",
             "id": 152,
             "minutes": 0,
-            "news": "Unspecified injury - Expected back 18 Sep",
+            "news": "Thigh injury - Expected back 18 Sep",
             "second_name": "Palestra",
             "status": "i",
             "team": 6,
@@ -110568,12 +110568,6 @@
             "status": "a"
           },
           {
-            "element": 504,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 461,
             "in_accepted_trade": false,
             "owner": null,
@@ -111240,6 +111234,12 @@
             "status": "l"
           },
           {
+            "element": 11,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 94,
             "in_accepted_trade": false,
             "owner": null,
@@ -111804,12 +111804,6 @@
             "status": "o"
           },
           {
-            "element": 11,
-            "in_accepted_trade": false,
-            "owner": 138139,
-            "status": "o"
-          },
-          {
             "element": 106,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -111867,6 +111861,12 @@
             "element": 362,
             "in_accepted_trade": false,
             "owner": 137879,
+            "status": "o"
+          },
+          {
+            "element": 504,
+            "in_accepted_trade": false,
+            "owner": 138139,
             "status": "o"
           },
           {
@@ -114509,12 +114509,6 @@
             "status": "a"
           },
           {
-            "element": 504,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 461,
             "in_accepted_trade": false,
             "owner": null,
@@ -115181,6 +115175,12 @@
             "status": "l"
           },
           {
+            "element": 11,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 94,
             "in_accepted_trade": false,
             "owner": null,
@@ -115745,12 +115745,6 @@
             "status": "o"
           },
           {
-            "element": 11,
-            "in_accepted_trade": false,
-            "owner": 138139,
-            "status": "o"
-          },
-          {
             "element": 106,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -115808,6 +115802,12 @@
             "element": 362,
             "in_accepted_trade": false,
             "owner": 137879,
+            "status": "o"
+          },
+          {
+            "element": 504,
+            "in_accepted_trade": false,
+            "owner": 138139,
             "status": "o"
           },
           {
@@ -164891,7 +164891,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-12T06:30:44.691516Z",
+        "generated_at": "2026-09-12T09:25:39.515161Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165670,18 +165670,30 @@
             "kind": "w",
             "priority": 5,
             "result": "a"
+          },
+          {
+            "added": "2026-09-12T07:26:11.905850Z",
+            "element_in": 504,
+            "element_out": 11,
+            "entry": 138139,
+            "event": 4,
+            "id": 11450991,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
           }
         ]
       },
       "transactions_enriched": {
         "data_quality": {
           "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-          "records_enriched": 61,
-          "records_received": 61,
+          "records_enriched": 62,
+          "records_received": 62,
           "source_available": true,
-          "typed_records": 61
+          "typed_records": 62
         },
-        "generated_at": "2026-09-12T06:30:42.420119Z",
+        "generated_at": "2026-09-12T09:25:36.397262Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168916,6 +168928,59 @@
             "timestamp": null,
             "transaction_id": 11306185,
             "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 5,
+              "club_name": "Brighton",
+              "club_short_name": "BHA",
+              "element_id": 504,
+              "first_name": "Luka",
+              "news": "",
+              "official_draft_rank": 405,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Vušković",
+              "web_name": "Vuskovic"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 1,
+              "club_name": "Arsenal",
+              "club_short_name": "ARS",
+              "element_id": 11,
+              "first_name": "Cristhian",
+              "news": "Muscular injury - 50% chance of playing",
+              "official_draft_rank": 191,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Mosquera",
+              "web_name": "Mosquera"
+            },
+            "entry_id": 138139,
+            "entry_name": "Jyllands Rubin",
+            "event": 4,
+            "league_entry_id": 138748,
+            "priority": null,
+            "raw": {
+              "added": "2026-09-12T07:26:11.905850Z",
+              "element_in": 504,
+              "element_out": 11,
+              "entry": 138139,
+              "event": 4,
+              "id": 11450991,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 11450991,
+            "transaction_type": "free_agent"
           }
         ]
       },
@@ -168932,7 +168997,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-12T06:30:44.691490Z",
+        "generated_at": "2026-09-12T09:25:39.515133Z",
         "players": [
           {
             "availability_status": "a",
@@ -234860,7 +234925,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789194640
+      "time": 1789205134
     },
     "choices": {
       "choices": [],
@@ -237464,12 +237529,6 @@
           "status": "a"
         },
         {
-          "element": 504,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 461,
           "in_accepted_trade": false,
           "owner": null,
@@ -238136,6 +238195,12 @@
           "status": "l"
         },
         {
+          "element": 11,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 94,
           "in_accepted_trade": false,
           "owner": null,
@@ -238700,12 +238765,6 @@
           "status": "o"
         },
         {
-          "element": 11,
-          "in_accepted_trade": false,
-          "owner": 138139,
-          "status": "o"
-        },
-        {
           "element": 106,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -238763,6 +238822,12 @@
           "element": 362,
           "in_accepted_trade": false,
           "owner": 137879,
+          "status": "o"
+        },
+        {
+          "element": 504,
+          "in_accepted_trade": false,
+          "owner": 138139,
           "status": "o"
         },
         {
@@ -241405,12 +241470,6 @@
           "status": "a"
         },
         {
-          "element": 504,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 461,
           "in_accepted_trade": false,
           "owner": null,
@@ -242077,6 +242136,12 @@
           "status": "l"
         },
         {
+          "element": 11,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 94,
           "in_accepted_trade": false,
           "owner": null,
@@ -242641,12 +242706,6 @@
           "status": "o"
         },
         {
-          "element": 11,
-          "in_accepted_trade": false,
-          "owner": 138139,
-          "status": "o"
-        },
-        {
           "element": 106,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -242704,6 +242763,12 @@
           "element": 362,
           "in_accepted_trade": false,
           "owner": 137879,
+          "status": "o"
+        },
+        {
+          "element": 504,
+          "in_accepted_trade": false,
+          "owner": 138139,
           "status": "o"
         },
         {
@@ -243503,6 +243568,18 @@
           "index": 12,
           "kind": "w",
           "priority": 5,
+          "result": "a"
+        },
+        {
+          "added": "2026-09-12T07:26:11.905850Z",
+          "element_in": 504,
+          "element_out": 11,
+          "entry": 138139,
+          "event": 4,
+          "id": 11450991,
+          "index": null,
+          "kind": "f",
+          "priority": null,
           "result": "a"
         }
       ]
@@ -251018,7 +251095,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-12T06:30:42.421687Z",
+    "generated_at": "2026-09-12T09:25:36.399429Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -260881,7 +260958,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-12T06:30:44.691516Z",
+    "generated_at": "2026-09-12T09:25:39.515161Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -260911,12 +260988,12 @@
   "transactions_enriched": {
     "data_quality": {
       "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-      "records_enriched": 61,
-      "records_received": 61,
+      "records_enriched": 62,
+      "records_received": 62,
       "source_available": true,
-      "typed_records": 61
+      "typed_records": 62
     },
-    "generated_at": "2026-09-12T06:30:42.420119Z",
+    "generated_at": "2026-09-12T09:25:36.397262Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -264151,6 +264228,59 @@
         "timestamp": null,
         "transaction_id": 11306185,
         "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 5,
+          "club_name": "Brighton",
+          "club_short_name": "BHA",
+          "element_id": 504,
+          "first_name": "Luka",
+          "news": "",
+          "official_draft_rank": 405,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Vušković",
+          "web_name": "Vuskovic"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 1,
+          "club_name": "Arsenal",
+          "club_short_name": "ARS",
+          "element_id": 11,
+          "first_name": "Cristhian",
+          "news": "Muscular injury - 50% chance of playing",
+          "official_draft_rank": 191,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Mosquera",
+          "web_name": "Mosquera"
+        },
+        "entry_id": 138139,
+        "entry_name": "Jyllands Rubin",
+        "event": 4,
+        "league_entry_id": 138748,
+        "priority": null,
+        "raw": {
+          "added": "2026-09-12T07:26:11.905850Z",
+          "element_in": 504,
+          "element_out": 11,
+          "entry": 138139,
+          "event": 4,
+          "id": 11450991,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 11450991,
+        "transaction_type": "free_agent"
       }
     ]
   },
@@ -264167,7 +264297,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-12T06:30:44.691490Z",
+    "generated_at": "2026-09-12T09:25:39.515133Z",
     "players": [
       {
         "availability_status": "a",
