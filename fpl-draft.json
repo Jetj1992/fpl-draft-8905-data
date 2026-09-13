@@ -6804,7 +6804,7 @@
         "second_name": "Guimarães Rodriguez Moura",
         "status": "a",
         "team": 1,
-        "total_points": 9,
+        "total_points": 8,
         "web_name": "Bruno G."
       },
       {
@@ -8184,7 +8184,7 @@
         "second_name": "Xhaka",
         "status": "a",
         "team": 20,
-        "total_points": 21,
+        "total_points": 19,
         "web_name": "Xhaka"
       },
       {
@@ -17724,7 +17724,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-13T00:34:09.856103Z",
+    "generated_at": "2026-09-13T03:26:51.099790Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28916,7 +28916,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-13T00:34:10.147227Z",
+  "generated_at": "2026-09-13T03:26:51.722779Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -104827,7 +104827,7 @@
             "second_name": "Guimarães Rodriguez Moura",
             "status": "a",
             "team": 1,
-            "total_points": 9,
+            "total_points": 8,
             "web_name": "Bruno G."
           },
           {
@@ -106207,7 +106207,7 @@
             "second_name": "Xhaka",
             "status": "a",
             "team": 20,
-            "total_points": 21,
+            "total_points": 19,
             "web_name": "Xhaka"
           },
           {
@@ -159197,7 +159197,7 @@
                       },
                       {
                         "element": 452,
-                        "value": 2
+                        "value": 1
                       }
                     ],
                     "h": [],
@@ -159215,7 +159215,7 @@
                       },
                       {
                         "element": 452,
-                        "value": 30
+                        "value": 29
                       },
                       {
                         "element": 12,
@@ -159231,7 +159231,7 @@
                       },
                       {
                         "element": 8,
-                        "value": 20
+                        "value": 18
                       },
                       {
                         "element": 31,
@@ -159269,7 +159269,7 @@
                     "h": [
                       {
                         "element": 544,
-                        "value": 20
+                        "value": 19
                       },
                       {
                         "element": 545,
@@ -159285,14 +159285,14 @@
                       },
                       {
                         "element": 501,
-                        "value": 5
-                      },
-                      {
-                        "element": 541,
-                        "value": 5
+                        "value": 6
                       },
                       {
                         "element": 542,
+                        "value": 6
+                      },
+                      {
+                        "element": 541,
                         "value": 5
                       },
                       {
@@ -159308,16 +159308,12 @@
                         "value": 1
                       },
                       {
-                        "element": 532,
-                        "value": -1
-                      },
-                      {
                         "element": 533,
-                        "value": -6
+                        "value": -5
                       },
                       {
                         "element": 536,
-                        "value": -13
+                        "value": -12
                       }
                     ],
                     "identifier": "bps"
@@ -159329,16 +159325,16 @@
                         "value": 11
                       },
                       {
-                        "element": 12,
-                        "value": 9
-                      },
-                      {
                         "element": 13,
-                        "value": 9
+                        "value": 10
                       },
                       {
                         "element": 31,
-                        "value": 9
+                        "value": 8
+                      },
+                      {
+                        "element": 12,
+                        "value": 7
                       },
                       {
                         "element": 15,
@@ -159371,16 +159367,12 @@
                       {
                         "element": 26,
                         "value": 2
-                      },
-                      {
-                        "element": 7,
-                        "value": 1
                       }
                     ],
                     "h": [
                       {
                         "element": 544,
-                        "value": 12
+                        "value": 11
                       },
                       {
                         "element": 545,
@@ -159420,7 +159412,7 @@
                       },
                       {
                         "element": 553,
-                        "value": 2
+                        "value": 1
                       }
                     ],
                     "identifier": "defensive_contribution"
@@ -163900,7 +163892,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-13T00:34:10.147227Z",
+        "generated_at": "2026-09-13T03:26:51.722779Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -164702,7 +164694,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-13T00:34:09.854141Z",
+        "generated_at": "2026-09-13T03:26:51.097869Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168006,7 +167998,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-13T00:34:10.147204Z",
+        "generated_at": "2026-09-13T03:26:51.722754Z",
         "players": [
           {
             "availability_status": "a",
@@ -233934,7 +233926,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789259648
+      "time": 1789270011
     },
     "choices": {
       "choices": [],
@@ -248581,7 +248573,7 @@
               },
               {
                 "element": 452,
-                "value": 2
+                "value": 1
               }
             ],
             "h": [],
@@ -248599,7 +248591,7 @@
               },
               {
                 "element": 452,
-                "value": 30
+                "value": 29
               },
               {
                 "element": 12,
@@ -248615,7 +248607,7 @@
               },
               {
                 "element": 8,
-                "value": 20
+                "value": 18
               },
               {
                 "element": 31,
@@ -248653,7 +248645,7 @@
             "h": [
               {
                 "element": 544,
-                "value": 20
+                "value": 19
               },
               {
                 "element": 545,
@@ -248669,14 +248661,14 @@
               },
               {
                 "element": 501,
-                "value": 5
-              },
-              {
-                "element": 541,
-                "value": 5
+                "value": 6
               },
               {
                 "element": 542,
+                "value": 6
+              },
+              {
+                "element": 541,
                 "value": 5
               },
               {
@@ -248692,16 +248684,12 @@
                 "value": 1
               },
               {
-                "element": 532,
-                "value": -1
-              },
-              {
                 "element": 533,
-                "value": -6
+                "value": -5
               },
               {
                 "element": 536,
-                "value": -13
+                "value": -12
               }
             ],
             "identifier": "bps"
@@ -248713,16 +248701,16 @@
                 "value": 11
               },
               {
-                "element": 12,
-                "value": 9
-              },
-              {
                 "element": 13,
-                "value": 9
+                "value": 10
               },
               {
                 "element": 31,
-                "value": 9
+                "value": 8
+              },
+              {
+                "element": 12,
+                "value": 7
               },
               {
                 "element": 15,
@@ -248755,16 +248743,12 @@
               {
                 "element": 26,
                 "value": 2
-              },
-              {
-                "element": 7,
-                "value": 1
               }
             ],
             "h": [
               {
                 "element": 544,
-                "value": 12
+                "value": 11
               },
               {
                 "element": 545,
@@ -248804,7 +248788,7 @@
               },
               {
                 "element": 553,
-                "value": 2
+                "value": 1
               }
             ],
             "identifier": "defensive_contribution"
@@ -249069,7 +249053,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-13T00:34:09.856136Z",
+    "generated_at": "2026-09-13T03:26:51.099823Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -253181,7 +253165,7 @@
                   },
                   {
                     "element": 452,
-                    "value": 2
+                    "value": 1
                   }
                 ],
                 "h": [],
@@ -253199,7 +253183,7 @@
                   },
                   {
                     "element": 452,
-                    "value": 30
+                    "value": 29
                   },
                   {
                     "element": 12,
@@ -253215,7 +253199,7 @@
                   },
                   {
                     "element": 8,
-                    "value": 20
+                    "value": 18
                   },
                   {
                     "element": 31,
@@ -253253,7 +253237,7 @@
                 "h": [
                   {
                     "element": 544,
-                    "value": 20
+                    "value": 19
                   },
                   {
                     "element": 545,
@@ -253269,14 +253253,14 @@
                   },
                   {
                     "element": 501,
-                    "value": 5
-                  },
-                  {
-                    "element": 541,
-                    "value": 5
+                    "value": 6
                   },
                   {
                     "element": 542,
+                    "value": 6
+                  },
+                  {
+                    "element": 541,
                     "value": 5
                   },
                   {
@@ -253292,16 +253276,12 @@
                     "value": 1
                   },
                   {
-                    "element": 532,
-                    "value": -1
-                  },
-                  {
                     "element": 533,
-                    "value": -6
+                    "value": -5
                   },
                   {
                     "element": 536,
-                    "value": -13
+                    "value": -12
                   }
                 ],
                 "identifier": "bps"
@@ -253313,16 +253293,16 @@
                     "value": 11
                   },
                   {
-                    "element": 12,
-                    "value": 9
-                  },
-                  {
                     "element": 13,
-                    "value": 9
+                    "value": 10
                   },
                   {
                     "element": 31,
-                    "value": 9
+                    "value": 8
+                  },
+                  {
+                    "element": 12,
+                    "value": 7
                   },
                   {
                     "element": 15,
@@ -253355,16 +253335,12 @@
                   {
                     "element": 26,
                     "value": 2
-                  },
-                  {
-                    "element": 7,
-                    "value": 1
                   }
                 ],
                 "h": [
                   {
                     "element": 544,
-                    "value": 12
+                    "value": 11
                   },
                   {
                     "element": 545,
@@ -253404,7 +253380,7 @@
                   },
                   {
                     "element": 553,
-                    "value": 2
+                    "value": 1
                   }
                 ],
                 "identifier": "defensive_contribution"
@@ -257885,7 +257861,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-13T00:34:10.147227Z",
+    "generated_at": "2026-09-13T03:26:51.722779Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -257920,7 +257896,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-13T00:34:09.854141Z",
+    "generated_at": "2026-09-13T03:26:51.097869Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -261224,7 +261200,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-13T00:34:10.147204Z",
+    "generated_at": "2026-09-13T03:26:51.722754Z",
     "players": [
       {
         "availability_status": "a",
