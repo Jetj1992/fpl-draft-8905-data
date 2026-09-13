@@ -17724,7 +17724,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-13T06:34:27.114196Z",
+    "generated_at": "2026-09-13T09:51:37.113706Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28916,7 +28916,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-13T06:34:28.387514Z",
+  "generated_at": "2026-09-13T09:51:38.502376Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -158153,6 +158153,10 @@
                         "value": 7
                       },
                       {
+                        "element": 315,
+                        "value": 6
+                      },
+                      {
                         "element": 318,
                         "value": 6
                       },
@@ -158167,10 +158171,6 @@
                       {
                         "element": 592,
                         "value": 5
-                      },
-                      {
-                        "element": 315,
-                        "value": 4
                       },
                       {
                         "element": 562,
@@ -158197,6 +158197,10 @@
                       {
                         "element": 633,
                         "value": 10
+                      },
+                      {
+                        "element": 204,
+                        "value": 6
                       },
                       {
                         "element": 212,
@@ -158227,12 +158231,8 @@
                         "value": 3
                       },
                       {
-                        "element": 204,
-                        "value": 2
-                      },
-                      {
                         "element": 202,
-                        "value": 1
+                        "value": 2
                       },
                       {
                         "element": 643,
@@ -158311,7 +158311,7 @@
                       },
                       {
                         "element": 202,
-                        "value": 12
+                        "value": 13
                       },
                       {
                         "element": 633,
@@ -163892,7 +163892,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-13T06:34:28.387514Z",
+        "generated_at": "2026-09-13T09:51:38.502376Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -164694,7 +164694,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-13T06:34:27.112233Z",
+        "generated_at": "2026-09-13T09:51:37.112371Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -167998,7 +167998,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-13T06:34:28.387489Z",
+        "generated_at": "2026-09-13T09:51:38.502351Z",
         "players": [
           {
             "availability_status": "a",
@@ -233926,7 +233926,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789281265
+      "time": 1789293095
     },
     "choices": {
       "choices": [],
@@ -247529,6 +247529,10 @@
                 "value": 7
               },
               {
+                "element": 315,
+                "value": 6
+              },
+              {
                 "element": 318,
                 "value": 6
               },
@@ -247543,10 +247547,6 @@
               {
                 "element": 592,
                 "value": 5
-              },
-              {
-                "element": 315,
-                "value": 4
               },
               {
                 "element": 562,
@@ -247573,6 +247573,10 @@
               {
                 "element": 633,
                 "value": 10
+              },
+              {
+                "element": 204,
+                "value": 6
               },
               {
                 "element": 212,
@@ -247603,12 +247607,8 @@
                 "value": 3
               },
               {
-                "element": 204,
-                "value": 2
-              },
-              {
                 "element": 202,
-                "value": 1
+                "value": 2
               },
               {
                 "element": 643,
@@ -247687,7 +247687,7 @@
               },
               {
                 "element": 202,
-                "value": 12
+                "value": 13
               },
               {
                 "element": 633,
@@ -249053,7 +249053,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-13T06:34:27.114230Z",
+    "generated_at": "2026-09-13T09:51:37.113731Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -252121,6 +252121,10 @@
                     "value": 7
                   },
                   {
+                    "element": 315,
+                    "value": 6
+                  },
+                  {
                     "element": 318,
                     "value": 6
                   },
@@ -252135,10 +252139,6 @@
                   {
                     "element": 592,
                     "value": 5
-                  },
-                  {
-                    "element": 315,
-                    "value": 4
                   },
                   {
                     "element": 562,
@@ -252165,6 +252165,10 @@
                   {
                     "element": 633,
                     "value": 10
+                  },
+                  {
+                    "element": 204,
+                    "value": 6
                   },
                   {
                     "element": 212,
@@ -252195,12 +252199,8 @@
                     "value": 3
                   },
                   {
-                    "element": 204,
-                    "value": 2
-                  },
-                  {
                     "element": 202,
-                    "value": 1
+                    "value": 2
                   },
                   {
                     "element": 643,
@@ -252279,7 +252279,7 @@
                   },
                   {
                     "element": 202,
-                    "value": 12
+                    "value": 13
                   },
                   {
                     "element": 633,
@@ -257861,7 +257861,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-13T06:34:28.387514Z",
+    "generated_at": "2026-09-13T09:51:38.502376Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -257896,7 +257896,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-13T06:34:27.112233Z",
+    "generated_at": "2026-09-13T09:51:37.112371Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -261200,7 +261200,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-13T06:34:28.387489Z",
+    "generated_at": "2026-09-13T09:51:38.502351Z",
     "players": [
       {
         "availability_status": "a",
