@@ -91,9 +91,35 @@ jobs:
           if "current" in document or "draft" in document:
               raise SystemExit("Legacy nested current/draft structure detected")
 
+          live = document.get("live_gameweek")
+          if live is not None:
+              if not isinstance(live, dict):
+                  raise SystemExit("live_gameweek must be an object or null")
+              if live.get("schema_version") != 1:
+                  raise SystemExit("Unexpected live_gameweek schema_version")
+              if "managers" not in live or "h2h_matches" not in live or "key_matchups" not in live:
+                  raise SystemExit("live_gameweek is missing required live structures")
+
           history = document.get("history")
           if not isinstance(history, dict):
               raise SystemExit("history must be an object")
+
+          gw = document["summary"].get("latest_complete_gameweek")
+          if gw is not None:
+              snapshot = history.get(f"gw-{int(gw):02d}")
+              if not isinstance(snapshot, dict):
+                  raise SystemExit(f"Missing history snapshot for GW{gw}")
+              recap = snapshot.get("recap")
+              if not isinstance(recap, dict):
+                  raise SystemExit(f"Missing recap snapshot for GW{gw}")
+              metadata = recap.get("metadata")
+              if not isinstance(metadata, dict) or metadata.get("gameweek") != gw:
+                  raise SystemExit(f"Invalid recap metadata for GW{gw}")
+              if not metadata.get("recap_ready"):
+                  raise SystemExit(
+                      "Latest completed gameweek is not recap-ready: "
+                      + str(metadata.get("validation_errors"))
+                  )
 
           print(
               f"Validated {path}: schema=6, GW={document['summary'].get('latest_complete_gameweek')}, "
@@ -104,7 +130,7 @@ jobs:
       - name: Commit consolidated data only
         shell: bash
         run: |
-          git add -A
+          git add -A -- fpl-draft.json current history draft
 
           if git diff --cached --quiet; then
             echo "No consolidated FPL data changed."
