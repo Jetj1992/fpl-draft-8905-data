@@ -445,6 +445,197 @@ class TestCoreLogic(unittest.TestCase):
         self.assertEqual(decoded["schema_version"], 6)
         self.assertEqual(decoded["pl_fixtures"]["2"][0]["fixture"], 1)
 
+
+
+
+    def test_live_gameweek_builds_scores_remaining_players_and_key_matchups(self) -> None:
+        details = base_details()
+        details["league_entries"].extend([
+            {"id": 321694, "entry_id": 318564, "entry_name": "La Liga es la mejor", "short_name": "AK"},
+            {"id": 138748, "entry_id": 138139, "entry_name": "Jyllands Rubin", "short_name": "NH"},
+        ])
+        details["matches"] = [
+            {
+                "id": 77, "event": 2, "finished": False,
+                "league_entry_1": 42948, "league_entry_2": 138641,
+                "league_entry_1_points": 0, "league_entry_2_points": 0,
+            },
+            {
+                "id": 78, "event": 2, "finished": False,
+                "league_entry_1": 138641, "league_entry_2": 138748,
+                "league_entry_1_points": 0, "league_entry_2_points": 0,
+            },
+        ]
+        bootstrap = base_bootstrap()
+        bootstrap["events"] = [{"id": 2, "name": "Gameweek 2", "deadline_time": "2026-08-28T17:30:00Z", "is_current": True}]
+        bootstrap["teams"] = [
+            {"id": 1, "name": "Club A", "short_name": "A"},
+            {"id": 2, "name": "Club B", "short_name": "B"},
+            {"id": 3, "name": "Club C", "short_name": "C"},
+            {"id": 4, "name": "Club D", "short_name": "D"},
+        ]
+        bootstrap["elements"] = [
+            {"id": 1, "web_name": "Player 1", "first_name": "Player", "second_name": "One", "team": 1, "element_type": 3, "draft_rank": 10, "total_points": 20, "status": "a", "news": ""},
+            {"id": 2, "web_name": "Player 2", "first_name": "Player", "second_name": "Two", "team": 2, "element_type": 3, "draft_rank": 20, "total_points": 15, "status": "a", "news": ""},
+            {"id": 3, "web_name": "Player 3", "first_name": "Player", "second_name": "Three", "team": 3, "element_type": 3, "draft_rank": 30, "total_points": 12, "status": "a", "news": ""},
+            {"id": 4, "web_name": "Player 4", "first_name": "Player", "second_name": "Four", "team": 4, "element_type": 3, "draft_rank": 40, "total_points": 8, "status": "a", "news": ""},
+        ]
+        event_live = {
+            "elements": [
+                {"id": 1, "stats": {"total_points": 8}},
+                {"id": 2, "stats": {"total_points": 6}},
+                {"id": 3, "stats": {"total_points": 4}},
+                {"id": 4, "stats": {"total_points": 2}},
+            ]
+        }
+        entry_events = {
+            "42888": {"entry_history": {"points": 14}, "picks": [{"element": 1, "position": 1, "multiplier": 1}]},
+            "138032": {"entry_history": {"points": 11}, "picks": [{"element": 2, "position": 1, "multiplier": 1}]},
+            "138139": {"entry_history": {"points": 7}, "picks": [{"element": 3, "position": 1, "multiplier": 1}]},
+            "138748": {"entry_history": {"points": 6}, "picks": [{"element": 4, "position": 1, "multiplier": 1}]},
+            "137879": {"entry_history": {"points": 0}, "picks": []},
+            "137912": {"entry_history": {"points": 0}, "picks": []},
+            "318564": {"entry_history": {"points": 0}, "picks": []},
+        }
+        fixtures = [
+            {"id": 1, "event": 2, "team_h": 1, "team_a": 4, "finished": True, "finished_provisional": True, "started": True, "kickoff_time": "2026-08-28T19:00:00Z"},
+            {"id": 2, "event": 2, "team_h": 2, "team_a": 3, "finished": False, "finished_provisional": False, "started": False, "kickoff_time": "2026-08-29T15:00:00Z"},
+        ]
+        snapshot = MODULE.build_live_gameweek_snapshot(
+            gameweek=2,
+            bootstrap=bootstrap,
+            details=details,
+            event_live=event_live,
+            entry_events=entry_events,
+            pl_fixtures=fixtures,
+        )
+        manager = next(item for item in snapshot["managers"] if item["league_entry_id"] == 42948)
+        self.assertEqual(manager["live_score"], 14)
+        self.assertEqual(manager["remaining_player_count"], 0)
+        manager2 = next(item for item in snapshot["managers"] if item["league_entry_id"] == 138641)
+        self.assertEqual(manager2["live_score"], 11)
+        self.assertEqual(manager2["remaining_player_count"], 1)
+        self.assertEqual(manager2["remaining_players"][0]["player_name"], "Player 2")
+        self.assertEqual(snapshot["h2h_matches"][0]["entry_1_score"], 14)
+        self.assertEqual(snapshot["h2h_matches"][0]["entry_2_score"], 11)
+        self.assertTrue(snapshot["h2h_matches"][0]["key_match"])
+        self.assertEqual(snapshot["key_matchups"][0]["match_id"], 77)
+
+    def test_live_gameweek_has_no_predictive_probability_fields(self) -> None:
+        snapshot = MODULE.build_live_gameweek_snapshot(
+            gameweek=1,
+            bootstrap=base_bootstrap(),
+            details=base_details(),
+            event_live={"elements": []},
+            entry_events={"42888": {"entry_history": {"points": 0}, "picks": []}, "138032": {"entry_history": {"points": 0}, "picks": []}},
+            pl_fixtures=[],
+        )
+        self.assertNotIn("win_probability", snapshot)
+        self.assertNotIn("expected_points", snapshot)
+
+    def test_recap_snapshot_builds_top_level_h2h_standings_transfers_and_wirtz(self) -> None:
+        details = base_details()
+        details["standings"] = [
+            {
+                "league_entry": 42948,
+                "rank": 1,
+                "total": 3,
+                "matches_played": 1,
+                "matches_won": 1,
+                "matches_drawn": 0,
+                "matches_lost": 0,
+                "points_for": 57,
+            },
+            {
+                "league_entry": 138641,
+                "rank": 2,
+                "total": 0,
+                "matches_played": 1,
+                "matches_won": 0,
+                "matches_drawn": 0,
+                "matches_lost": 1,
+                "points_for": 52,
+            },
+        ]
+        entry_events = {
+            "42888": {
+                "picks": [
+                    {"element": 1, "position": 1, "multiplier": 1},
+                    {"element": 2, "position": 2, "multiplier": 0},
+                ]
+            },
+            "138032": {
+                "picks": [
+                    {"element": 3, "position": 1, "multiplier": 1},
+                ]
+            },
+        }
+        event_live = {
+            "elements": [
+                {"id": 1, "stats": {"minutes": 90, "total_points": 7, "goals_scored": 1, "assists": 0, "bonus": 1, "expected_goals": 0.2, "expected_assists": 0.1}},
+                {"id": 2, "stats": {"minutes": 10, "total_points": 2}},
+                {"id": 3, "stats": {"minutes": 90, "total_points": 9}},
+            ]
+        }
+        transactions = {
+            "transactions": [
+                {"id": 10, "event": 1, "entry": 42888, "element_in": 2, "element_out": 3, "kind": "w", "result": "a"}
+            ]
+        }
+        enriched = MODULE.enrich_transactions(transactions, details, base_bootstrap())
+        watched = MODULE.build_watched_players(
+            gameweek=1, watch_names=("Wirtz",), bootstrap=base_bootstrap(), details=details,
+            element_status={"element_status": [{"element": 1, "owner": 42948}]},
+            event_live=event_live, entry_events=entry_events, pl_fixtures=[],
+        )
+        recap = MODULE.build_recap_snapshot(
+            gameweek=1, bootstrap=base_bootstrap(), details=details, event_live=event_live,
+            entry_events=entry_events, element_status={"element_status": [{"element": 1, "owner": 42948}, {"element": 3, "owner": 138641}]},
+            transactions_enriched=enriched, trades={"trades": []}, watched_payload=watched, pl_fixtures=[], generated_at="now"
+        )
+        self.assertTrue(recap["metadata"]["recap_ready"])
+        self.assertEqual(recap["h2h_matches"][0]["entry_1_name"], "AGFs Førstehold")
+        self.assertEqual(recap["standings"][0]["rank"], 1)
+        self.assertEqual(recap["transactions"][0]["transaction_type"], "waiver")
+        self.assertEqual(recap["wirtz"]["owner_entry_name"], "AGFs Førstehold")
+        self.assertEqual(recap["wirtz"]["points_counted"], 7)
+
+    def test_liga_average_uses_other_active_gw_scores(self) -> None:
+        details = base_details()
+        details["league_entries"].append({
+            "id": 321694,
+            "entry_id": 318564,
+            "entry_name": "La Liga es la mejor",
+            "short_name": "AK",
+        })
+        details["matches"] = [{
+            "event": 1,
+            "finished": True,
+            "league_entry_1": 42948,
+            "league_entry_1_points": 50,
+            "league_entry_2": 138641,
+            "league_entry_2_points": 40,
+        }]
+        entries = MODULE.active_league_entries(details)
+        matches, contexts = MODULE.normalize_h2h_matches(details, 1, entries)
+        average = next(item for item in matches if not item["is_real_opponent"])
+        self.assertEqual(average["entry_1_id"], 321694)
+        self.assertEqual(average["entry_2_name"], "Liga Average")
+        self.assertEqual(average["entry_2_score"], 45)
+        self.assertEqual(average["entry_1_score"], None)
+
+    def test_recap_snapshot_marks_missing_wirtz_as_not_ready(self) -> None:
+        details = base_details()
+        recap = MODULE.build_recap_snapshot(
+            gameweek=1, bootstrap=base_bootstrap(), details=details, event_live={"elements": []},
+            entry_events={"42888": {"picks": []}, "138032": {"picks": []}},
+            element_status={"element_status": []},
+            transactions_enriched={"transactions": []}, trades={"trades": []},
+            watched_payload={"players": []}, pl_fixtures=[], generated_at="now"
+        )
+        self.assertFalse(recap["metadata"]["recap_ready"])
+        self.assertIn("Wirtz record unavailable", recap["metadata"]["validation_errors"])
+
     def test_remove_legacy_outputs_removes_all_legacy_public_trees(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             data_dir = Path(tmp) / "data"
