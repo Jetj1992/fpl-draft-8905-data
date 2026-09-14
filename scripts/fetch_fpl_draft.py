@@ -4,8 +4,8 @@
 Designed for GitHub Actions. No login, password, cookie or API key is required.
 
 The script publishes one consolidated public JSON document at
-``fpl-draft.json`` containing current state, draft data and historical
-gameweek snapshots. Florian Wirtz is watched by default.
+``fpl-draft.json`` containing current state, draft data, historical gameweek
+snapshots and a normalized recap layer for each completed gameweek. Florian Wirtz is watched by default.
 
 The code deliberately keeps uncertain facts explicit. It never labels a player
 movement as a waiver or free-agent transfer unless the transaction payload does.
@@ -17,6 +17,7 @@ import hashlib
 import json
 import sys
 import time
+import shutil
 import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -1579,6 +1580,788 @@ def load_legacy_draft(initial_draft_dir: Path) -> dict[str, Any] | None:
     return result or None
 
 
+def _result_from_scores(score: int | float | None, opponent: int | float | None) -> str | None:
+    if score is None or opponent is None:
+        return None
+    if score > opponent:
+        return "win"
+    if score < opponent:
+        return "loss"
+    return "draw"
+
+
+def normalize_h2h_matches(
+    details: dict[str, Any], gameweek: int, entries: list[dict[str, Any]]
+) -> tuple[list[dict[str, Any]], dict[int, dict[str, Any]]]:
+    """Normalize H2H matches for one GW and return per-entry H2H context."""
+    by_league_entry, _ = entry_indexes(details)
+    matches: list[dict[str, Any]] = []
+    contexts: dict[int, dict[str, Any]] = {}
+    active_ids = [as_int(entry.get("id")) for entry in entries]
+    active_ids = [value for value in active_ids if value is not None]
+    matched_ids: set[int] = set()
+
+    for match in draft_matches_for_event(details, gameweek):
+        side1 = first_int(match, ("league_entry_1", "league_entry_1_id", "entry_1", "entry_1_id"))
+        side2 = first_int(match, ("league_entry_2", "league_entry_2_id", "entry_2", "entry_2_id"))
+        if side1 not in by_league_entry or side2 not in by_league_entry:
+            continue
+        score1 = as_int(first_present(match, ("league_entry_1_points", "entry_1_points", "score_1", "points_1")))
+        score2 = as_int(first_present(match, ("league_entry_2_points", "entry_2_points", "score_2", "points_2")))
+        finished = bool(match.get("finished"))
+        result1 = _result_from_scores(score1, score2) if finished else None
+        result2 = _result_from_scores(score2, score1) if finished else None
+        winner = side1 if result1 == "win" else side2 if result2 == "win" else None
+        record = {
+            "gameweek": gameweek,
+            "match_id": match.get("id"),
+            "entry_1_id": side1,
+            "entry_1_name": by_league_entry[side1].get("entry_name"),
+            "entry_1_score": score1,
+            "entry_2_id": side2,
+            "entry_2_name": by_league_entry[side2].get("entry_name"),
+            "entry_2_score": score2,
+            "finished": finished,
+            "winner_entry_id": winner,
+            "result_for_entry_1": result1,
+            "result_for_entry_2": result2,
+            "winning_method": match.get("winning_method"),
+            "is_real_opponent": True,
+        }
+        matches.append(record)
+        matched_ids.update({side1, side2})
+        margin = abs(score1 - score2) if score1 is not None and score2 is not None else None
+        contexts[side1] = {
+            "opponent_entry_id": side2,
+            "opponent_name": by_league_entry[side2].get("entry_name"),
+            "owner_score": score1,
+            "opponent_score": score2,
+            "result": result1,
+            "margin": margin,
+            "is_real_opponent": True,
+        }
+        contexts[side2] = {
+            "opponent_entry_id": side1,
+            "opponent_name": by_league_entry[side1].get("entry_name"),
+            "owner_score": score2,
+            "opponent_score": score1,
+            "result": result2,
+            "margin": margin,
+            "is_real_opponent": True,
+        }
+
+    unmatched = [entry_id for entry_id in active_ids if entry_id not in matched_ids]
+    if unmatched:
+        # There should be at most one real unmatched team in a 7-team league.
+        if len(unmatched) == 1:
+            excluded = unmatched[0]
+            score_candidates = {
+                entry_id: contexts[entry_id]["owner_score"]
+                for entry_id in contexts
+                if entry_id != excluded and contexts[entry_id].get("owner_score") is not None
+            }
+            included_ids = [entry_id for entry_id in active_ids if entry_id != excluded]
+            scores = [score_candidates.get(entry_id) for entry_id in included_ids]
+            scores = [score for score in scores if isinstance(score, (int, float))]
+            if scores and excluded in by_league_entry:
+                average = sum(scores) / len(scores)
+                owner_score = None
+                # Find the unmatched team's actual score from league matches if present in a malformed/non-H2H record.
+                for match in draft_matches_for_event(details, gameweek):
+                    if first_int(match, ("league_entry_1", "league_entry_1_id")) == excluded:
+                        owner_score = as_int(first_present(match, ("league_entry_1_points", "entry_1_points", "score_1", "points_1")))
+                    if first_int(match, ("league_entry_2", "league_entry_2_id")) == excluded:
+                        owner_score = as_int(first_present(match, ("league_entry_2_points", "entry_2_points", "score_2", "points_2")))
+                # If the team has no usable score in details, use its standings/event points only if present.
+                if owner_score is None:
+                    for entry in entries:
+                        if as_int(entry.get("id")) == excluded:
+                            owner_score = first_int(entry, ("event_points", "event", "points"))
+                            break
+                result = _result_from_scores(owner_score, average)
+                league_points = 3 if result == "win" else 1 if result == "draw" else 0
+                matches.append({
+                    "gameweek": gameweek,
+                    "match_id": None,
+                    "entry_1_id": excluded,
+                    "entry_1_name": by_league_entry[excluded].get("entry_name"),
+                    "entry_1_score": owner_score,
+                    "entry_2_id": None,
+                    "entry_2_name": "Liga Average",
+                    "entry_2_score": average,
+                    "finished": True,
+                    "winner_entry_id": excluded if result == "win" else None,
+                    "result_for_entry_1": result,
+                    "result_for_entry_2": "loss" if result == "win" else "win" if result == "loss" else "draw",
+                    "winning_method": None,
+                    "is_real_opponent": False,
+                })
+                contexts[excluded] = {
+                    "opponent_entry_id": None,
+                    "opponent_name": "Liga Average",
+                    "owner_score": owner_score,
+                    "opponent_score": average,
+                    "result": result,
+                    "margin": abs(owner_score - average) if owner_score is not None else None,
+                    "is_real_opponent": False,
+                }
+                return matches, contexts
+    return matches, contexts
+
+
+def normalize_standings(details: dict[str, Any]) -> list[dict[str, Any]]:
+    output = []
+    by_league_entry, _ = entry_indexes(details)
+    for row in details.get("standings") or []:
+        if not isinstance(row, dict):
+            continue
+        league_entry_id = as_int(row.get("league_entry"))
+        if league_entry_id is None or league_entry_id not in by_league_entry:
+            continue
+        entry = by_league_entry[league_entry_id]
+        output.append({
+            "rank": row.get("rank"),
+            "entry_id": entry.get("entry_id"),
+            "league_entry_id": league_entry_id,
+            "entry_name": entry.get("entry_name"),
+            "short_name": entry.get("short_name"),
+            "league_points": row.get("total"),
+            "matches_played": row.get("matches_played"),
+            "wins": row.get("matches_won"),
+            "draws": row.get("matches_drawn"),
+            "losses": row.get("matches_lost"),
+            "total_fpl_points": row.get("points_for"),
+            "rank_source": "league_details.standings",
+        })
+    output.sort(key=lambda item: (item.get("rank") is None, item.get("rank") or 10**9, str(item.get("entry_name") or "")))
+    return output
+
+
+def normalize_player_stats(
+    *,
+    gameweek: int,
+    bootstrap: dict[str, Any],
+    event_live: Any,
+    entry_events: dict[str, Any],
+    details: dict[str, Any],
+    transactions: list[dict[str, Any]],
+    active_entries: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], dict[int, dict[str, Any]]]:
+    players, teams, _ = bootstrap_indexes(bootstrap)
+    live = live_by_element(event_live)
+    by_league_entry, by_entry = entry_indexes(details)
+    element_context: dict[int, dict[str, Any]] = {}
+    for entry in active_entries:
+        league_entry_id = as_int(entry.get("id"))
+        entry_id = as_int(entry.get("entry_id"))
+        if league_entry_id is None or entry_id is None:
+            continue
+        payload = entry_events.get(str(entry_id)) or entry_events.get(entry_id)
+        for pick in (payload.get("picks") or []) if isinstance(payload, dict) else []:
+            if not isinstance(pick, dict):
+                continue
+            element_id = first_int(pick, ("element", "element_id", "id"))
+            if element_id is None:
+                continue
+            stats = live.get(element_id, {}).get("stats") if isinstance(live.get(element_id), dict) else None
+            stats = stats if isinstance(stats, dict) else {}
+            points_raw = as_int(stats.get("total_points"))
+            multiplier = as_int(pick.get("multiplier"))
+            position = as_int(pick.get("position"))
+            status = lineup_status(position, multiplier)
+            element_context[element_id] = {
+                "historical_owner_entry_id": league_entry_id,
+                "historical_owner_entry_name": entry.get("entry_name"),
+                "started_for_owner": status in {"starter", "starter_not_counted"},
+                "benched_for_owner": status == "bench",
+                "points_counted_for_owner": points_raw * multiplier if points_raw is not None and multiplier is not None else None,
+            }
+
+    relevant_ids: set[int] = set(element_context)
+    for tx in transactions:
+        for side in ("element_in", "element_out"):
+            item = tx.get(side)
+            if isinstance(item, dict):
+                element_id = as_int(item.get("element_id"))
+                if element_id is not None:
+                    relevant_ids.add(element_id)
+
+    output: list[dict[str, Any]] = []
+    for element_id in sorted(relevant_ids):
+        player = enrich_player(element_id, players, teams)
+        stats = live.get(element_id, {}).get("stats") if isinstance(live.get(element_id), dict) else None
+        stats = stats if isinstance(stats, dict) else {}
+        ctx = element_context.get(element_id, {})
+        output.append({
+            "element_id": element_id,
+            "player_name": player.get("web_name"),
+            "club_id": player.get("club_id"),
+            "club_name": player.get("club_name"),
+            "position": player.get("position"),
+            "minutes": stats.get("minutes"),
+            "total_points": stats.get("total_points"),
+            "goals_scored": stats.get("goals_scored"),
+            "assists": stats.get("assists"),
+            "bonus": stats.get("bonus"),
+            "yellow_cards": stats.get("yellow_cards"),
+            "red_cards": stats.get("red_cards"),
+            "expected_goals": stats.get("expected_goals"),
+            "expected_assists": stats.get("expected_assists"),
+            "draft_rank": player.get("official_draft_rank"),
+            **ctx,
+        })
+    return output, element_context
+
+
+def build_recap_snapshot(
+    *,
+    gameweek: int,
+    bootstrap: dict[str, Any],
+    details: dict[str, Any],
+    event_live: Any,
+    entry_events: dict[str, Any],
+    element_status: Any,
+    transactions_enriched: dict[str, Any],
+    trades: Any,
+    watched_payload: dict[str, Any] | None,
+    pl_fixtures: Any,
+    generated_at: str,
+) -> dict[str, Any]:
+    entries = active_league_entries(details)
+    h2h_matches, h2h_contexts = normalize_h2h_matches(details, gameweek, entries)
+    standings = normalize_standings(details)
+    tx_records = [
+        tx for tx in (transactions_enriched.get("transactions") or [])
+        if isinstance(tx, dict)
+        and as_int(tx.get("event")) == gameweek
+        and tx.get("result") in {"accepted", "successful", None}
+    ]
+    players, _ = normalize_player_stats(
+        gameweek=gameweek,
+        bootstrap=bootstrap,
+        event_live=event_live,
+        entry_events=entry_events,
+        details=details,
+        transactions=tx_records,
+        active_entries=entries,
+    )
+    point_lookup = {as_int(item.get("element_id")): item for item in players if as_int(item.get("element_id")) is not None}
+    normalized_tx = []
+    for tx in tx_records:
+        ein = tx.get("element_in") if isinstance(tx.get("element_in"), dict) else None
+        eout = tx.get("element_out") if isinstance(tx.get("element_out"), dict) else None
+        ein_id = as_int(ein.get("element_id")) if ein else None
+        eout_id = as_int(eout.get("element_id")) if eout else None
+        in_pts = point_lookup.get(ein_id, {}).get("total_points") if ein_id is not None else None
+        out_pts = point_lookup.get(eout_id, {}).get("total_points") if eout_id is not None else None
+        difference = out_pts - in_pts if isinstance(out_pts, (int, float)) and isinstance(in_pts, (int, float)) else None
+        normalized_tx.append({
+            "transaction_id": tx.get("transaction_id"),
+            "event": tx.get("event"),
+            "entry_id": tx.get("entry_id"),
+            "league_entry_id": tx.get("league_entry_id"),
+            "entry_name": tx.get("entry_name"),
+            "transaction_type": tx.get("transaction_type"),
+            "result": tx.get("result"),
+            "priority": tx.get("priority"),
+            "timestamp": tx.get("timestamp"),
+            "element_in_id": ein_id,
+            "element_in_name": ein.get("web_name") if ein else None,
+            "element_in_gw_points": in_pts,
+            "element_out_id": eout_id,
+            "element_out_name": eout.get("web_name") if eout else None,
+            "element_out_gw_points": out_pts,
+            "transfer_difference": difference,
+        })
+    transfer_performance: dict[int, dict[str, Any]] = {}
+    for tx in normalized_tx:
+        if tx.get("transaction_type") not in {"waiver", "free_agent"}:
+            continue
+        league_entry_id = as_int(tx.get("league_entry_id"))
+        if league_entry_id is None:
+            continue
+        item = transfer_performance.setdefault(league_entry_id, {
+            "entry_id": tx.get("entry_id"),
+            "league_entry_id": league_entry_id,
+            "entry_name": tx.get("entry_name"),
+            "transactions_count": 0,
+            "incoming_players": [],
+            "incoming_points_total": 0,
+        })
+        item["transactions_count"] += 1
+        pts = tx.get("element_in_gw_points")
+        item["incoming_players"].append({
+            "element_id": tx.get("element_in_id"),
+            "player_name": tx.get("element_in_name"),
+            "transaction_type": tx.get("transaction_type"),
+            "gw_points": pts,
+        })
+        if isinstance(pts, (int, float)):
+            item["incoming_points_total"] += pts
+    transfer_performance_list = list(transfer_performance.values())
+    transfer_performance_list.sort(key=lambda x: (-x["incoming_points_total"], str(x.get("entry_name") or "")))
+    best_transfer = max(
+        [tx for tx in normalized_tx if tx.get("transaction_type") in {"waiver", "free_agent"} and isinstance(tx.get("element_in_gw_points"), (int, float))],
+        key=lambda tx: tx["element_in_gw_points"],
+        default=None,
+    )
+    hlym_candidates = [tx for tx in normalized_tx if isinstance(tx.get("transfer_difference"), (int, float))]
+    hlym_candidates.sort(key=lambda tx: tx["transfer_difference"], reverse=True)
+    how_you_like = hlym_candidates[0] if hlym_candidates and hlym_candidates[0]["transfer_difference"] >= 5 else None
+    almost_there = []
+    for player in players:
+        xg = player.get("expected_goals")
+        goals = player.get("goals_scored")
+        owner_id = as_int(player.get("historical_owner_entry_id"))
+        if owner_id is None or not isinstance(xg, (int, float)) or not isinstance(goals, (int, float)) or xg < 0.75:
+            continue
+        almost_there.append({
+            "element_id": player.get("element_id"),
+            "player_name": player.get("player_name"),
+            "owner_entry_id": owner_id,
+            "owner_entry_name": player.get("historical_owner_entry_name"),
+            "expected_goals": xg,
+            "goals_scored": goals,
+            "xg_minus_goals": xg - goals,
+        })
+    almost_there.sort(key=lambda item: item["xg_minus_goals"], reverse=True)
+    fixtures = []
+    team_map = {as_int(team.get("id")): team for team in bootstrap.get("teams", []) if isinstance(team, dict) and as_int(team.get("id")) is not None}
+    if isinstance(pl_fixtures, list):
+        for fixture in pl_fixtures:
+            if not isinstance(fixture, dict):
+                continue
+            home_id = as_int(fixture.get("team_h")); away_id = as_int(fixture.get("team_a"))
+            fixtures.append({
+                "fixture_id": fixture.get("id"),
+                "gameweek": gameweek,
+                "home_team_id": home_id,
+                "home_team_name": team_map.get(home_id, {}).get("name"),
+                "home_score": fixture.get("team_h_score"),
+                "away_team_id": away_id,
+                "away_team_name": team_map.get(away_id, {}).get("name"),
+                "away_score": fixture.get("team_a_score"),
+                "finished": fixture.get("finished"),
+                "kickoff_time": fixture.get("kickoff_time"),
+            })
+    entries_recap = []
+    for entry in entries:
+        league_entry_id = as_int(entry.get("id"))
+        context = h2h_contexts.get(league_entry_id, {})
+        picks = []
+        entry_id = as_int(entry.get("entry_id"))
+        payload = entry_events.get(str(entry_id)) or entry_events.get(entry_id)
+        for pick in (payload.get("picks") or []) if isinstance(payload, dict) else []:
+            element_id = first_int(pick, ("element", "element_id", "id"))
+            if element_id is None:
+                continue
+            player = point_lookup.get(element_id, {})
+            multiplier = as_int(pick.get("multiplier"))
+            position = as_int(pick.get("position"))
+            status = lineup_status(position, multiplier)
+            points_raw = player.get("total_points")
+            picks.append({
+                "element_id": element_id,
+                "player_name": player.get("player_name"),
+                "position": player.get("position"),
+                "lineup_position": position,
+                "multiplier": multiplier,
+                "started": status in {"starter", "starter_not_counted"},
+                "benched": status == "bench",
+                "autosub_in": status == "substituted_in",
+                "autosub_out": status == "starter_not_counted",
+                "points_raw": points_raw,
+                "points_counted": points_raw * multiplier if isinstance(points_raw, (int, float)) and isinstance(multiplier, int) else None,
+                "historical_owner_entry_id": league_entry_id,
+                "historical_owner_entry_name": entry.get("entry_name"),
+            })
+        entries_recap.append({
+            "entry_id": entry.get("entry_id"),
+            "league_entry_id": league_entry_id,
+            "entry_name": entry.get("entry_name"),
+            "short_name": entry.get("short_name"),
+            "event_points": sum(item.get("points_counted") or 0 for item in picks),
+            "opponent_entry_id": context.get("opponent_entry_id"),
+            "opponent_name": context.get("opponent_name"),
+            "opponent_score": context.get("opponent_score"),
+            "h2h_result": context.get("result"),
+            "h2h_margin": context.get("margin"),
+            "picks": picks,
+        })
+
+    # Resolve Liga Average using the actual GW event score for the unmatched team.
+    average_match = next((m for m in h2h_matches if not m.get("is_real_opponent")), None)
+    if average_match is not None:
+        excluded_id = as_int(average_match.get("entry_1_id"))
+        other_scores = [
+            item.get("event_points")
+            for item in entries_recap
+            if as_int(item.get("league_entry_id")) != excluded_id
+            and isinstance(item.get("event_points"), (int, float))
+        ]
+        excluded_entry = next(
+            (item for item in entries_recap if as_int(item.get("league_entry_id")) == excluded_id),
+            None,
+        )
+        if other_scores and excluded_entry is not None:
+            owner_score = excluded_entry.get("event_points")
+            average = sum(other_scores) / len(other_scores)
+            result = _result_from_scores(owner_score, average)
+            average_match["entry_1_score"] = owner_score
+            average_match["entry_2_score"] = average
+            average_match["winner_entry_id"] = excluded_id if result == "win" else None
+            average_match["result_for_entry_1"] = result
+            average_match["result_for_entry_2"] = (
+                "loss" if result == "win" else "win" if result == "loss" else "draw"
+            )
+            excluded_id = as_int(average_match.get("entry_1_id"))
+            if excluded_id is not None:
+                h2h_contexts[excluded_id] = {
+                    "opponent_entry_id": None,
+                    "opponent_name": "Liga Average",
+                    "owner_score": owner_score,
+                    "opponent_score": average,
+                    "result": result,
+                    "margin": abs(owner_score - average),
+                    "is_real_opponent": False,
+                }
+
+    # Push final H2H context back into manager records after Average resolution.
+    for entry_record in entries_recap:
+        context = h2h_contexts.get(as_int(entry_record.get("league_entry_id")) or -1)
+        if context:
+            entry_record["opponent_entry_id"] = context.get("opponent_entry_id")
+            entry_record["opponent_name"] = context.get("opponent_name")
+            entry_record["opponent_score"] = context.get("opponent_score")
+            entry_record["h2h_result"] = context.get("result")
+            entry_record["h2h_margin"] = context.get("margin")
+
+    watched = (watched_payload or {}).get("players") or []
+    wirtz = None
+    for item in watched:
+        if normalize_text(item.get("web_name")) == "wirtz" or normalize_text(item.get("requested_name")) == "wirtz":
+            stats = item.get("stats") if isinstance(item.get("stats"), dict) else {}
+            owner = item.get("owner") if isinstance(item.get("owner"), dict) else {}
+            h2h = item.get("h2h") if isinstance(item.get("h2h"), dict) else {}
+            wirtz = {
+                "player_name": item.get("web_name"),
+                "element_id": item.get("element_id"),
+                "owner_entry_id": owner.get("entry_id"),
+                "owner_entry_name": owner.get("entry_name"),
+                "historical_owner_confirmed": item.get("owner_source") == "entry-events",
+                "squad_status": item.get("squad_status"),
+                "started": item.get("squad_status") in {"starter", "starter_not_counted"},
+                "benched": item.get("squad_status") == "bench",
+                "autosub_in": item.get("squad_status") == "substituted_in",
+                "autosub_out": item.get("squad_status") == "starter_not_counted",
+                "minutes": stats.get("minutes"),
+                "points_raw": stats.get("total_points"),
+                "points_counted": item.get("points_counted"),
+                "goals": stats.get("goals_scored"),
+                "assists": stats.get("assists"),
+                "bonus": stats.get("bonus"),
+                "yellow_cards": stats.get("yellow_cards"),
+                "red_cards": stats.get("red_cards"),
+                "expected_goals": stats.get("expected_goals"),
+                "expected_assists": stats.get("expected_assists"),
+                "fixture": item.get("fixtures", [{}])[0] if item.get("fixtures") else None,
+                "h2h": {
+                    "opponent_entry_id": h2h.get("opponent_league_entry_id"),
+                    "opponent_entry_name": h2h.get("opponent_entry_name"),
+                    "owner_score": h2h.get("owner_score"),
+                    "opponent_score": h2h.get("opponent_score"),
+                    "result": h2h.get("result"),
+                    "margin": h2h.get("margin"),
+                },
+            }
+            break
+
+    errors: list[str] = []
+    warnings: list[str] = []
+    if not entries:
+        errors.append("No active league entries")
+    if not h2h_matches:
+        errors.append("No H2H or Liga Average match data")
+    if len(standings) != len(entries):
+        warnings.append(f"Standings contain {len(standings)} active entries; expected {len(entries)}")
+    if wirtz is None:
+        errors.append("Wirtz record unavailable")
+    if event_live is None:
+        errors.append("event-live unavailable")
+    if not entry_events:
+        errors.append("entry-event data unavailable")
+    recap = {
+        "metadata": {
+            "league_id": 8905,
+            "gameweek": gameweek,
+            "gameweek_finished": True,
+            "data_checked": not errors,
+            "generated_at": generated_at,
+            "recap_ready": not errors,
+            "validation_errors": errors,
+            "validation_warnings": warnings,
+        },
+        "active_entries": [{
+            "entry_id": entry.get("entry_id"),
+            "league_entry_id": entry.get("id"),
+            "entry_name": entry.get("entry_name"),
+            "short_name": entry.get("short_name"),
+            "event_points": next((r["event_points"] for r in entries_recap if r.get("league_entry_id") == entry.get("id")), None),
+            "active": True,
+        } for entry in entries],
+        "h2h_matches": h2h_matches,
+        "league_average_match": next((m for m in h2h_matches if not m.get("is_real_opponent")), None),
+        "standings": standings,
+        "entries": entries_recap,
+        "players": players,
+        "transactions": normalized_tx,
+        "transfer_performance": transfer_performance_list,
+        "transfer_awards": {
+            "transfer_king": transfer_performance_list[0] if transfer_performance_list else None,
+            "best_transfer": best_transfer,
+            "how_you_like_me_now": how_you_like,
+        },
+        "almost_there_candidates": almost_there,
+        "wirtz": wirtz,
+        "fixtures": fixtures,
+        "trades": trades if isinstance(trades, list) else (trades.get("trades") if isinstance(trades, dict) else []),
+    }
+    fingerprint_payload = {
+        "gameweek": gameweek,
+        "h2h": recap["h2h_matches"],
+        "standings": recap["standings"],
+        "transactions": recap["transactions"],
+        "wirtz": recap["wirtz"],
+    }
+    recap["metadata"]["recap_fingerprint"] = stable_hash(fingerprint_payload) if recap["metadata"]["recap_ready"] else None
+    return recap
+
+
+
+def _fixture_is_finished(fixture: dict[str, Any]) -> bool:
+    return bool(fixture.get("finished") or fixture.get("finished_provisional"))
+
+
+def _live_entry_score(entry_event: Any, live_lookup: dict[int, dict[str, Any]]) -> int | float | None:
+    if not isinstance(entry_event, dict):
+        return None
+    history = entry_event.get("entry_history")
+    if isinstance(history, dict):
+        for key in ("points", "total_points", "event_points"):
+            value = history.get(key)
+            if isinstance(value, (int, float)):
+                return value
+    total = 0
+    found = False
+    for pick in entry_event.get("picks") or []:
+        if not isinstance(pick, dict):
+            continue
+        element_id = first_int(pick, ("element", "element_id", "id"))
+        multiplier = first_int(pick, ("multiplier",))
+        if element_id is None or multiplier is None:
+            continue
+        stats = live_lookup.get(element_id, {}).get("stats")
+        if not isinstance(stats, dict):
+            continue
+        points = stats.get("total_points")
+        if isinstance(points, (int, float)):
+            total += points * multiplier
+            found = True
+    return total if found else None
+
+
+def build_live_gameweek_snapshot(
+    *,
+    gameweek: int,
+    bootstrap: dict[str, Any],
+    details: dict[str, Any],
+    event_live: Any,
+    entry_events: dict[str, Any],
+    pl_fixtures: Any,
+) -> dict[str, Any]:
+    """Build a live GW snapshot for an in-progress/current gameweek.
+
+    The snapshot is deliberately descriptive rather than predictive: it shows
+    current scores, remaining players and fixtures without inventing win
+    probabilities or expected fantasy points.
+    """
+    entries = active_league_entries(details)
+    entry_by_id = {as_int(entry.get("id")): entry for entry in entries if as_int(entry.get("id")) is not None}
+    live_lookup = live_by_element(event_live)
+    players, teams, _ = bootstrap_indexes(bootstrap)
+    fixture_by_team: dict[int, list[dict[str, Any]]] = defaultdict(list)
+    if isinstance(pl_fixtures, list):
+        for fixture in pl_fixtures:
+            if not isinstance(fixture, dict):
+                continue
+            home = as_int(fixture.get("team_h"))
+            away = as_int(fixture.get("team_a"))
+            if home is not None:
+                fixture_by_team[home].append(fixture)
+            if away is not None and away != home:
+                fixture_by_team[away].append(fixture)
+
+    manager_live: dict[int, dict[str, Any]] = {}
+    for entry in entries:
+        league_entry_id = as_int(entry.get("id"))
+        entry_id = as_int(entry.get("entry_id"))
+        if league_entry_id is None or entry_id is None:
+            continue
+        payload = entry_events.get(str(entry_id)) or entry_events.get(entry_id)
+        score = _live_entry_score(payload, live_lookup)
+        remaining: list[dict[str, Any]] = []
+        remaining_starters: list[dict[str, Any]] = []
+        picks = payload.get("picks") if isinstance(payload, dict) else []
+        for pick in picks or []:
+            if not isinstance(pick, dict):
+                continue
+            element_id = first_int(pick, ("element", "element_id", "id"))
+            if element_id is None:
+                continue
+            player = enrich_player(element_id, players, teams)
+            pick_position = as_int(pick.get("position"))
+            multiplier = as_int(pick.get("multiplier"))
+            if pick_position is None or multiplier is None:
+                continue
+            unfinished = [fx for fx in fixture_by_team.get(as_int(player.get("club_id")) or -1, []) if not _fixture_is_finished(fx)]
+            if not unfinished:
+                continue
+            fixture_records = []
+            for fixture in unfinished:
+                home_id = as_int(fixture.get("team_h")); away_id = as_int(fixture.get("team_a"))
+                is_home = as_int(player.get("club_id")) == home_id
+                opponent_id = away_id if is_home else home_id
+                fixture_records.append({
+                    "fixture_id": fixture.get("id"),
+                    "kickoff_time": fixture.get("kickoff_time"),
+                    "opponent_club_id": opponent_id,
+                    "opponent_club_name": teams.get(opponent_id or -1, {}).get("name"),
+                    "home_or_away": "home" if is_home else "away",
+                    "started": bool(fixture.get("started")),
+                    "finished": bool(fixture.get("finished")),
+                })
+            record = {
+                "element_id": element_id,
+                "player_name": player.get("web_name"),
+                "club_name": player.get("club_name"),
+                "position": player.get("position"),
+                "lineup_position": pick_position,
+                "starter": pick_position <= 11 and multiplier > 0,
+                "multiplier": multiplier,
+                "current_gw_points": live_lookup.get(element_id, {}).get("stats", {}).get("total_points") if isinstance(live_lookup.get(element_id, {}).get("stats"), dict) else None,
+                "season_total_points": players.get(element_id, {}).get("total_points"),
+                "official_draft_rank": player.get("official_draft_rank"),
+                "fixtures": fixture_records,
+            }
+            remaining.append(record)
+            if record["starter"]:
+                remaining_starters.append(record)
+        manager_live[league_entry_id] = {
+            "entry_id": entry_id,
+            "league_entry_id": league_entry_id,
+            "entry_name": entry.get("entry_name"),
+            "short_name": entry.get("short_name"),
+            "live_score": score,
+            "remaining_player_count": len(remaining),
+            "remaining_starter_count": len(remaining_starters),
+            "remaining_players": sorted(remaining, key=lambda item: (item.get("lineup_position") or 99, str(item.get("player_name") or ""))),
+            "remaining_starting_players": sorted(remaining_starters, key=lambda item: (item.get("lineup_position") or 99, str(item.get("player_name") or ""))),
+        }
+
+    real_matches: list[dict[str, Any]] = []
+    matched: set[int] = set()
+    for match in draft_matches_for_event(details, gameweek):
+        side1 = first_int(match, ("league_entry_1", "league_entry_1_id", "entry_1", "entry_1_id"))
+        side2 = first_int(match, ("league_entry_2", "league_entry_2_id", "entry_2", "entry_2_id"))
+        if side1 not in entry_by_id or side2 not in entry_by_id:
+            continue
+        a = manager_live.get(side1, {})
+        b = manager_live.get(side2, {})
+        score1 = a.get("live_score")
+        score2 = b.get("live_score")
+        margin = abs(score1-score2) if isinstance(score1, (int,float)) and isinstance(score2, (int,float)) else None
+        leader = side1 if isinstance(score1,(int,float)) and isinstance(score2,(int,float)) and score1 > score2 else side2 if isinstance(score1,(int,float)) and isinstance(score2,(int,float)) and score2 > score1 else None
+        real_matches.append({
+            "gameweek": gameweek,
+            "match_id": match.get("id"),
+            "is_real_opponent": True,
+            "entry_1_id": side1,
+            "entry_1_name": entry_by_id[side1].get("entry_name"),
+            "entry_1_score": score1,
+            "entry_1_remaining_players": a.get("remaining_player_count"),
+            "entry_1_remaining_starters": a.get("remaining_starter_count"),
+            "entry_2_id": side2,
+            "entry_2_name": entry_by_id[side2].get("entry_name"),
+            "entry_2_score": score2,
+            "entry_2_remaining_players": b.get("remaining_player_count"),
+            "entry_2_remaining_starters": b.get("remaining_starter_count"),
+            "current_leader_entry_id": leader,
+            "current_margin": margin,
+            "status": "live" if margin is None or margin == 0 or a.get("remaining_player_count") or b.get("remaining_player_count") else "settled",
+        })
+        matched.update({side1, side2})
+
+    unmatched = [as_int(entry.get("id")) for entry in entries if as_int(entry.get("id")) is not None and as_int(entry.get("id")) not in matched]
+    live_match = None
+    if len(unmatched) == 1:
+        solo = unmatched[0]
+        solo_state = manager_live.get(solo, {})
+        other_scores = [state.get("live_score") for lid, state in manager_live.items() if lid != solo and isinstance(state.get("live_score"), (int,float))]
+        if other_scores and isinstance(solo_state.get("live_score"), (int,float)):
+            average = sum(other_scores) / len(other_scores)
+            diff = solo_state["live_score"] - average
+            live_match = {
+                "gameweek": gameweek,
+                "match_id": None,
+                "is_real_opponent": False,
+                "entry_id": solo,
+                "entry_name": entry_by_id[solo].get("entry_name"),
+                "entry_score": solo_state.get("live_score"),
+                "entry_remaining_players": solo_state.get("remaining_player_count"),
+                "opponent_name": "Liga Average",
+                "opponent_average": average,
+                "opponent_average_source_entry_ids": [lid for lid in manager_live if lid != solo],
+                "current_margin": abs(diff),
+                "current_result": "win" if diff > 0 else "loss" if diff < 0 else "draw",
+                "status": "live",
+            }
+
+    for item in real_matches:
+        item["key_match"] = bool(
+            isinstance(item.get("current_margin"), (int,float))
+            and (item.get("entry_1_remaining_starters") or item.get("entry_2_remaining_starters") or item.get("current_margin") <= 10)
+        )
+
+    key_matchups = sorted(
+        [item for item in real_matches if item.get("key_match")],
+        key=lambda item: (item.get("current_margin") if isinstance(item.get("current_margin"), (int,float)) else 9999, item.get("match_id") or 0),
+    )
+
+    event_info = next((event for event in bootstrap.get("events", []) if isinstance(event, dict) and as_int(event.get("id")) == gameweek), {})
+    return {
+        "schema_version": 1,
+        "gameweek": gameweek,
+        "status": "finished" if event_info.get("finished") else "in_progress" if event_info else "unknown",
+        "generated_at": utc_now_iso(),
+        "event": {
+            "deadline_time": event_info.get("deadline_time"),
+            "finished": event_info.get("finished"),
+            "is_current": event_info.get("is_current"),
+            "name": event_info.get("name"),
+        },
+        "data_quality": {
+            "event_live_available": event_live is not None,
+            "entry_events_available": bool(entry_events),
+            "fixtures_available": isinstance(pl_fixtures, list),
+            "active_entries": len(entries),
+            "managers_with_live_scores": sum(1 for state in manager_live.values() if state.get("live_score") is not None),
+        },
+        "managers": list(manager_live.values()),
+        "h2h_matches": real_matches,
+        "league_average_match": live_match,
+        "key_matchups": key_matchups,
+    }
+
 def build_aggregate_document(
     *,
     summary: dict[str, Any],
@@ -1596,6 +2379,7 @@ def build_aggregate_document(
     event_live: Any,
     entry_events: dict[str, Any],
     watched_payload: dict[str, Any] | None,
+    live_gameweek: dict[str, Any] | None = None,
     history: dict[str, Any],
     initial_draft: dict[str, Any] | None,
 ) -> dict[str, Any]:
@@ -1623,6 +2407,7 @@ def build_aggregate_document(
         "latest_event_live": event_live,
         "latest_entry_events": entry_events,
         "watched_players": watched_payload,
+        "live_gameweek": live_gameweek,
 
         # Historical snapshots remain grouped by gameweek.
         "history": history,
@@ -1639,9 +2424,7 @@ def write_aggregate_document(path: Path, document: dict[str, Any]) -> None:
     write_json(path, document)
 
 def remove_legacy_outputs(data_dir: Path) -> None:
-    """Remove all legacy public JSON trees after they are folded into the aggregate."""
-    import shutil
-
+    """Remove the old many-file public output trees after folding data into the aggregate."""
     for directory_name in ("current", "history", "draft"):
         directory = data_dir / directory_name
         if directory.exists():
@@ -1670,8 +2453,6 @@ def main() -> int:
     history_dir = data_dir / "history"
     initial_draft_dir = data_dir / "draft" / "initial"
     aggregate_path = data_dir / "fpl-draft.json"
-    current_dir.mkdir(parents=True, exist_ok=True)
-    history_dir.mkdir(parents=True, exist_ok=True)
 
     endpoint_status: dict[str, Any] = {}
 
@@ -1790,6 +2571,31 @@ def main() -> int:
     entry_events: dict[str, Any] = {}
     live_payload: Any = None
     watched_payload: dict[str, Any] | None = None
+    current_gw = ids["current"]
+    current_live_payload: Any = None
+    current_entry_events: dict[str, Any] = {}
+    live_gameweek: dict[str, Any] | None = None
+
+    if current_gw is not None:
+        current_live_payload, status = fetch_json(DRAFT_BASE_URL, f"/event/{current_gw}/live")
+        endpoint_status[f"event_{current_gw}_live"] = status
+        for entry in entries:
+            entry_id = as_int(entry.get("entry_id"))
+            if entry_id is None:
+                continue
+            payload, status = fetch_json(DRAFT_BASE_URL, f"/entry/{entry_id}/event/{current_gw}")
+            endpoint_status[f"entry_{entry_id}_event_{current_gw}"] = status
+            if payload is not None:
+                current_entry_events[str(entry_id)] = payload
+        live_gameweek = build_live_gameweek_snapshot(
+            gameweek=current_gw,
+            bootstrap=bootstrap,
+            details=details,
+            event_live=current_live_payload,
+            entry_events=current_entry_events,
+            pl_fixtures=pl_fixtures.get(current_gw, []),
+        )
+
     if latest_gw is not None:
         live_payload, status = fetch_json(DRAFT_BASE_URL, f"/event/{latest_gw}/live")
         endpoint_status[f"event_{latest_gw}_live"] = status
@@ -1848,6 +2654,12 @@ def main() -> int:
             "available": watched_payload is not None,
         },
         "endpoint_status": endpoint_status,
+        "live_gameweek": {
+            "gameweek": current_gw,
+            "status": live_gameweek.get("status") if isinstance(live_gameweek, dict) else None,
+            "available": live_gameweek is not None,
+            "key_matchups": len(live_gameweek.get("key_matchups", [])) if isinstance(live_gameweek, dict) else 0,
+        },
         "current_state": {
             "current_rosters_path": "current_state",
             "free_agents_path": "current_state.free_agents",
@@ -1865,6 +2677,19 @@ def main() -> int:
         history.update(existing_aggregate["history"])
     history.update(load_legacy_history(history_dir))
     if latest_gw is not None:
+        recap_snapshot = build_recap_snapshot(
+            gameweek=latest_gw,
+            bootstrap=bootstrap,
+            details=details,
+            event_live=live_payload,
+            entry_events=entry_events,
+            element_status=optional_data.get("element_status"),
+            transactions_enriched=transactions_enriched,
+            trades=optional_data.get("trades"),
+            watched_payload=watched_payload,
+            pl_fixtures=pl_fixtures.get(latest_gw),
+            generated_at=summary["generated_at"],
+        )
         history[f"gw-{latest_gw:02d}"] = {
             "summary": summary,
             "league_details": details,
@@ -1879,6 +2704,7 @@ def main() -> int:
             "event_live": live_payload,
             "entry_events": entry_events,
             "watched_players": watched_payload,
+            "recap": recap_snapshot,
         }
 
     aggregate = build_aggregate_document(
@@ -1897,6 +2723,7 @@ def main() -> int:
         event_live=live_payload,
         entry_events=entry_events,
         watched_payload=watched_payload,
+        live_gameweek=live_gameweek,
         history=history,
         initial_draft=initial_draft,
     )
