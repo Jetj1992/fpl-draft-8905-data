@@ -521,6 +521,68 @@ class TestCoreLogic(unittest.TestCase):
         self.assertTrue(snapshot["h2h_matches"][0]["key_match"])
         self.assertEqual(snapshot["key_matchups"][0]["match_id"], 77)
 
+    def test_live_gameweek_accepts_fpl_keyed_live_payload_and_builds_average(self) -> None:
+        details = base_details()
+        details["league_entries"].extend([
+            {"id": 321694, "entry_id": 318564, "entry_name": "La Liga es la mejor", "short_name": "AK"},
+            {"id": 138748, "entry_id": 138139, "entry_name": "Jyllands Rubin", "short_name": "NH"},
+            {"id": 138487, "entry_id": 137879, "entry_name": "AGF 2. hold", "short_name": "TM"},
+            {"id": 138520, "entry_id": 137912, "entry_name": "Grove Løjer", "short_name": "MB"},
+            {"id": 252790, "entry_id": 250589, "entry_name": "Senile Supersubs", "short_name": "VD"},
+        ])
+        details["matches"] = [
+            {"id": 77, "event": 2, "finished": False, "league_entry_1": 42948, "league_entry_2": 138641},
+            {"id": 78, "event": 2, "finished": False, "league_entry_1": 321694, "league_entry_2": 138748},
+            {"id": 79, "event": 2, "finished": False, "league_entry_1": 138487, "league_entry_2": 138520},
+        ]
+        bootstrap = base_bootstrap()
+        bootstrap["teams"] = [
+            {"id": 1, "name": "Club A", "short_name": "A"},
+            {"id": 2, "name": "Club B", "short_name": "B"},
+        ]
+        bootstrap["elements"] = [
+            {"id": 1, "web_name": "Player 1", "first_name": "Player", "second_name": "One", "team": 1, "element_type": 3, "draft_rank": 10, "total_points": 20, "status": "a", "news": ""},
+            {"id": 2, "web_name": "Player 2", "first_name": "Player", "second_name": "Two", "team": 2, "element_type": 3, "draft_rank": 20, "total_points": 15, "status": "a", "news": ""},
+            {"id": 3, "web_name": "Player 3", "first_name": "Player", "second_name": "Three", "team": 1, "element_type": 3, "draft_rank": 30, "total_points": 12, "status": "a", "news": ""},
+            {"id": 4, "web_name": "Player 4", "first_name": "Player", "second_name": "Four", "team": 2, "element_type": 3, "draft_rank": 40, "total_points": 8, "status": "a", "news": ""},
+            {"id": 5, "web_name": "Player 5", "first_name": "Player", "second_name": "Five", "team": 1, "element_type": 3, "draft_rank": 50, "total_points": 7, "status": "a", "news": ""},
+            {"id": 6, "web_name": "Player 6", "first_name": "Player", "second_name": "Six", "team": 2, "element_type": 3, "draft_rank": 60, "total_points": 6, "status": "a", "news": ""},
+        ]
+        event_live = {
+            "elements": {
+                "1": {"stats": {"total_points": 8}},
+                "2": {"stats": {"total_points": 6}},
+                "3": {"stats": {"total_points": 4}},
+                "4": {"stats": {"total_points": 2}},
+                "5": {"stats": {"total_points": 10}},
+                "6": {"stats": {"total_points": 12}},
+            }
+        }
+        entry_events = {
+            "42888": {"entry_history": {}, "picks": [{"element": 1, "position": 1, "multiplier": 1}]},
+            "138032": {"entry_history": {}, "picks": [{"element": 2, "position": 1, "multiplier": 1}]},
+            "318564": {"entry_history": {}, "picks": [{"element": 3, "position": 1, "multiplier": 1}]},
+            "138139": {"entry_history": {}, "picks": [{"element": 4, "position": 1, "multiplier": 1}]},
+            "137879": {"entry_history": {}, "picks": [{"element": 5, "position": 1, "multiplier": 1}]},
+            "137912": {"entry_history": {}, "picks": [{"element": 6, "position": 1, "multiplier": 1}]},
+            "250589": {"entry_history": {}, "picks": [{"element": 1, "position": 1, "multiplier": 1}]},
+        }
+        fixtures = [
+            {"id": 1, "event": 2, "team_h": 1, "team_a": 2, "finished": True, "finished_provisional": True, "started": True, "kickoff_time": "2026-08-29T15:00:00Z"},
+        ]
+        event_catalog = [{"id": 2, "name": "Gameweek 2", "deadline_time": "2026-08-28T17:30:00Z", "finished": False, "is_current": True, "is_next": False, "is_previous": False}]
+        snapshot = MODULE.build_live_gameweek_snapshot(
+            gameweek=2, bootstrap=bootstrap, details=details, event_live=event_live,
+            entry_events=entry_events, pl_fixtures=fixtures, event_catalog=event_catalog,
+        )
+        manager = next(item for item in snapshot["managers"] if item["league_entry_id"] == 42948)
+        self.assertEqual(manager["live_score"], 8)
+        average = snapshot["league_average_match"]
+        self.assertIsNotNone(average)
+        self.assertEqual(average["opponent_name"], "Liga Average")
+        self.assertAlmostEqual(average["opponent_average"], (8 + 6 + 4 + 2 + 10 + 12) / 6)
+        self.assertEqual(snapshot["status"], "in_progress")
+
     def test_live_gameweek_has_no_predictive_probability_fields(self) -> None:
         snapshot = MODULE.build_live_gameweek_snapshot(
             gameweek=1,
