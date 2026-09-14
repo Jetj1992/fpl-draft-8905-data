@@ -592,7 +592,20 @@ def owner_by_element(element_status: Any) -> dict[int, Any]:
 
 
 def live_by_element(event_live: Any) -> dict[int, dict[str, Any]]:
+    """Normalize FPL Draft event-live payloads keyed by element ID."""
     result: dict[int, dict[str, Any]] = {}
+    if isinstance(event_live, dict):
+        elements = event_live.get("elements")
+        if isinstance(elements, dict):
+            for raw_id, item in elements.items():
+                if not isinstance(item, dict):
+                    continue
+                element_id = as_int(raw_id)
+                if element_id is not None:
+                    record = dict(item)
+                    record.setdefault("id", element_id)
+                    result[element_id] = record
+            return result
     for item in extract_records(event_live, ("elements", "element_live", "results")):
         element_id = first_int(item, ("id", "element", "element_id"))
         if element_id is not None:
@@ -802,6 +815,7 @@ def build_watched_players(
     event_live: Any,
     entry_events: dict[str, Any],
     pl_fixtures: Any,
+    event_catalog: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     watched, warnings = resolve_watched_players(bootstrap, watch_names)
     owners = owner_by_element(element_status)
@@ -2178,6 +2192,7 @@ def build_live_gameweek_snapshot(
     event_live: Any,
     entry_events: dict[str, Any],
     pl_fixtures: Any,
+    event_catalog: list[dict[str, Any]] | None = None,
 ) -> dict[str, Any]:
     """Build a live GW snapshot for an in-progress/current gameweek.
 
@@ -2337,7 +2352,7 @@ def build_live_gameweek_snapshot(
         key=lambda item: (item.get("current_margin") if isinstance(item.get("current_margin"), (int,float)) else 9999, item.get("match_id") or 0),
     )
 
-    event_info = next((event for event in bootstrap.get("events", []) if isinstance(event, dict) and as_int(event.get("id")) == gameweek), {})
+    event_info = next((event for event in (event_catalog or bootstrap.get("events", [])) if isinstance(event, dict) and as_int(event.get("id")) == gameweek), {})
     return {
         "schema_version": 1,
         "gameweek": gameweek,
@@ -2594,6 +2609,7 @@ def main() -> int:
             event_live=current_live_payload,
             entry_events=current_entry_events,
             pl_fixtures=pl_fixtures.get(current_gw, []),
+            event_catalog=fpl_calendar.get("events", []) if isinstance(fpl_calendar, dict) else None,
         )
 
     if latest_gw is not None:
