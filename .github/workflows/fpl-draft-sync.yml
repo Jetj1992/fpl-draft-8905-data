@@ -130,7 +130,7 @@ jobs:
       - name: Commit consolidated data only
         shell: bash
         run: |
-          git add -A -- fpl-draft.json current history draft
+          git add -A
 
           if git diff --cached --quiet; then
             echo "No consolidated FPL data changed."
