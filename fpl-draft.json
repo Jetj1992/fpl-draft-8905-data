@@ -6628,16 +6628,16 @@
         "web_name": "Zirkzee"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 552,
         "element_type": 4,
         "first_name": "Chido",
         "id": 441,
         "minutes": 0,
-        "news": "",
+        "news": "Has joined Willem II on loan for the rest of the season",
         "second_name": "Obi",
-        "status": "a",
+        "status": "u",
         "team": 16,
         "total_points": 0,
         "web_name": "Obi"
@@ -7603,16 +7603,16 @@
         "web_name": "Spence"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 481,
         "element_type": 2,
         "first_name": "Destiny",
         "id": 506,
         "minutes": 86,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Udogie",
-        "status": "d",
+        "status": "a",
         "team": 19,
         "total_points": 7,
         "web_name": "Udogie"
@@ -15289,13 +15289,13 @@
         "web_name": "Lindelöf"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 506,
         "first_name": "Destiny",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 481,
         "position": "DEF",
         "position_id": 2,
@@ -16269,13 +16269,13 @@
         "web_name": "Scherpen"
       },
       {
-        "availability_status": "a",
+        "availability_status": "u",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 441,
         "first_name": "Chido",
-        "news": "",
+        "news": "Has joined Willem II on loan for the rest of the season",
         "official_draft_rank": 552,
         "position": "FWD",
         "position_id": 4,
@@ -17753,7 +17753,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-14T15:30:23.751788Z",
+    "generated_at": "2026-09-14T18:31:02.947100Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28945,7 +28945,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-14T15:30:26.538400Z",
+  "generated_at": "2026-09-14T18:31:06.294668Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -104680,16 +104680,16 @@
             "web_name": "Zirkzee"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 552,
             "element_type": 4,
             "first_name": "Chido",
             "id": 441,
             "minutes": 0,
-            "news": "",
+            "news": "Has joined Willem II on loan for the rest of the season",
             "second_name": "Obi",
-            "status": "a",
+            "status": "u",
             "team": 16,
             "total_points": 0,
             "web_name": "Obi"
@@ -105655,16 +105655,16 @@
             "web_name": "Spence"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 481,
             "element_type": 2,
             "first_name": "Destiny",
             "id": 506,
             "minutes": 86,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Udogie",
-            "status": "d",
+            "status": "a",
             "team": 19,
             "total_points": 7,
             "web_name": "Udogie"
@@ -158753,7 +158753,7 @@
           "data_checked": true,
           "gameweek": 3,
           "gameweek_finished": true,
-          "generated_at": "2026-09-14T15:30:26.538400Z",
+          "generated_at": "2026-09-14T18:31:06.294668Z",
           "league_id": 8905,
           "recap_fingerprint": "97b03a6448b977857e1e108bdc78275d8bd80240ab73e2397ad23043150101fb",
           "recap_ready": true,
@@ -170122,7 +170122,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-14T15:30:26.538400Z",
+        "generated_at": "2026-09-14T18:31:06.294668Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -170930,7 +170930,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-14T15:30:23.750438Z",
+        "generated_at": "2026-09-14T18:31:02.945144Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -174234,7 +174234,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-14T15:30:26.538328Z",
+        "generated_at": "2026-09-14T18:31:06.294609Z",
         "players": [
           {
             "availability_status": "a",
@@ -240206,7 +240206,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-14T15:30:25.847732Z",
+    "generated_at": "2026-09-14T18:31:05.170837Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -240933,7 +240933,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789399822
+      "time": 1789410661
     },
     "choices": {
       "choices": [],
@@ -256730,7 +256730,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-14T15:30:23.751820Z",
+    "generated_at": "2026-09-14T18:31:02.947133Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -266244,7 +266244,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-14T15:30:26.538400Z",
+    "generated_at": "2026-09-14T18:31:06.294668Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -266285,7 +266285,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-14T15:30:23.750438Z",
+    "generated_at": "2026-09-14T18:31:02.945144Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -269589,7 +269589,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-14T15:30:26.538328Z",
+    "generated_at": "2026-09-14T18:31:06.294609Z",
     "players": [
       {
         "availability_status": "a",
