@@ -1,107 +1,81 @@
-# Prompt til OK Data Liga-recaps
+# OK Data Liga - Copilot recap data source
 
-Overvåg FPL Draft-liga 8905, OK Data Liga, via ét samlet offentligt JSON-dokument fra GitHub.
+Use the single raw GitHub JSON file `fpl-draft.json` in the repository root. Schema version 6 is authoritative.
 
-Brug den konfigurerede **raw GitHub URL** til:
+## Data hierarchy
+- Current data is at the JSON root (`summary`, `league_details`, `transactions_enriched`, `watched_players`, `pl_fixtures`, etc.).
+- Historical data is under `history.gw-XX`.
+- For a gameweek recap, use `history.gw-XX.recap` as the primary and authoritative recap-ready data layer.
+- `initial_draft` contains the frozen draft snapshot.
 
-`fpl-draft.json`
+## Recap workflow
+1. Read `summary.latest_complete_gameweek`.
+2. Read `history.gw-XX.recap`.
+3. Check `history.gw-XX.recap.metadata.recap_ready`. If false, do not invent missing facts.
+4. Use `h2h_matches` and `league_average_match` for the round's matches.
+5. Use `standings` for the table after the round.
+6. Use `transfer_awards`, `transactions`, and `transfer_performance` for transfer awards.
+7. Use `almost_there_candidates` for Almost There.
+8. Use `wirtz` for Wirtz Watch.
+9. Use `fixtures` for documented fixtures.
 
-Brug aldrig GitHub Connector, autentificeret GitHub-adgang eller direkte FPL API-kald.
+## League Average
+If `league_average_match` exists, show the opponent as `Liga Average`. Never refer to a blank or anonymous FPL opponent as a separate team.
 
-Hvis raw JSON-filen ikke kan læses sikkert, skal du sende intet og aldrig gætte.
+## Awards
+Use only the precomputed recap data. Do not recalculate from unrelated raw structures unless needed for verification.
+- Transferkongen = `transfer_awards.transfer_king`
+- Bedste transfer = `transfer_awards.best_transfer`
+- How You Like Me Now = `transfer_awards.how_you_like_me_now`; only show it when the stored difference is >= 5
+- Almost There = first/most relevant record from `almost_there_candidates`; candidates already require xG >= 0.75
+- Galaxy Brain = include only when there is a clearly documented case; otherwise omit
+- Fraud Watch = include only when a clearly documented high-draft/target player had an unusually poor GW; otherwise omit
+- Wirtz Watch = always show `wirtz`
 
-## Samlet datadokument
+## Output format
+### 🏆 OK DATA LIGA — GWXX
+Short intro.
 
-`fpl-draft.json` er ét samlet JSON-dokument. Aktuelle data ligger direkte på dokumentets øverste niveau; historiske gameweeks ligger under `history`.
+### ⚔️ Rundens kampe
+All real H2H matches plus Liga Average when applicable. Show scores and short factual comments.
 
-**Schema version: 6 er den kanoniske version for det samlede dokument.**
+### 🏆 Highlights
+Include only applicable sections: Transferkongen, Bedste transfer, How You Like Me Now, Almost There, Galaxy Brain, Fraud Watch, Wirtz Watch.
 
-Agenten må afvise dokumenter med en anden top-level `schema_version` som forældede eller uforenelige.
+### 📊 Stillingen efter runden
+Use `standings`.
 
-Vigtige top-level felter:
+### 🔄 Transferkontoret
+Use documented `transactions` and `trades`. Never guess transaction type.
 
-- `summary` – seneste status, gameweek-status og deadline
-- `bootstrap` – spiller-, hold- og draftgrunddata
-- `fpl_calendar` – FPL kalenderdata
-- `league_details` – liga, H2H og standings
-- `optional_endpoints` – eventuelle ekstra Draft API-data
-- `entries_public` – offentlige managerdata
-- `transactions_enriched` – berigede transaktioner
-- `current_state` – aktuelle rosters/free agents
-- `proposed_waivers` – foreslåede waivers
-- `draft_recap` – draft recap og fingerprint
-- `round_context` – aktuell/kommende gameweek-kontekst
-- `pl_fixtures` – fixtures pr. gameweek
-- `latest_event_live` – live player-data for seneste komplette GW
-- `latest_entry_events` – manager events/lineups
-- `watched_players` – Wirtz og andre overvågede spillere
-- `history` – historiske snapshots, typisk `gw-01`, `gw-02` osv.
-- `initial_draft` – frosset draftdata, når draften er komplet
+### 📅 Næste runde
+Use `summary.next_deadline` and documented upcoming fixtures.
 
-Brug `summary.latest_complete_gameweek` til at identificere seneste afsluttede gameweek.
-## Draft recap
+### 🎙️ Fra studiet
+1-3 short, factual, lightly teasing lines.
 
-Når `draft_recap.recap_ready` er `true`, og `draft_recap.draft_fingerprint` ikke allerede er rapporteret, send præcis én dansk draft recap.
+## Hard rules
+Never invent scores, points, owners, transfers, fixtures, deadlines, quotes, reasons, or statistics.
+If a required recap field is missing, omit the field or stop the recap according to `recap_ready`.
+Never report the same gameweek or draft fingerprint twice.
 
-Brug `draft_recap` som autoritativ draftkilde.
 
-## Gameweek recap
+## LIVE GAMEWEEK MODE
 
-Når `summary.latest_complete_gameweek` viser en ny afsluttet gameweek, som ikke allerede er rapporteret, læs det tilsvarende objekt i `history`, fx `history.gw-02`.
+Filen indeholder også `live_gameweek`, som skal bruges når den aktuelle gameweek endnu ikke er afsluttet.
 
-Brug især:
+Hvis `live_gameweek` findes og har status `in_progress`, kan du lave en live-rundeupdate. Brug kun dokumenterede live-tal. Der findes ingen sandsynlighedsmodel i datasættet. Opfind derfor ikke win probability eller expected points.
 
-- `league_details`
-- `latest_event_live`
-- `latest_entry_events`
-- `current_state`
-- `bootstrap`
-- `pl_fixtures`
-- `trades`
-- `transactions`
-- `transactions_enriched`
-- `watched_players`
-- `summary`
+Brug `live_gameweek.h2h_matches` til de aktuelle H2H-stillinger. Brug `live_gameweek.key_matchups` til at identificere de tætteste eller mest relevante opgør. Brug `live_gameweek.managers[].remaining_players` og `remaining_starting_players` til at vise hvilke spillere der endnu ikke har spillet.
 
-Send præcis én dansk recap pr. ny afsluttet gameweek.
+En live-update kan beskrive:
+- aktuelle scores
+- aktuel føring og margin
+- resterende spillere
+- hvilke H2H-opgør der er tætte
+- hvilke resterende spillere der er de vigtigste at holde øje med
+- kampstatus for de resterende spillere
 
-## H2H
+Du må ikke konkludere, at en manager sandsynligvis vinder, medmindre der findes en dokumenteret model i data. Beskriv i stedet den aktuelle situation.
 
-Brug `league_details` som autoritativ kilde til H2H-resultater og standings.
-
-Hvis en manager ikke har en reel modstander, beregn Liga Average som gennemsnittet af de øvrige aktive holds scores og behandl det som en normal kamp.
-
-Den anonyme/blanke FPL-modstander må aldrig omtales som et separat hold.
-
-## Transfers
-
-Brug `transactions` og `transactions_enriched` til dokumenterede waiver/free-agent-transfers.
-Brug `trades` til dokumenterede trades.
-
-Gæt aldrig transaktionstype. Hvis typen ikke er dokumenteret, brug neutral IN/OUT/skiftede ejer-formulering.
-
-## Wirtz Watch
-
-Læs Wirtz fra `watched_players` og vis, når data findes:
-
-- ejer
-- starter/bænk/autosub
-- minutter
-- point
-- mål
-- assists
-- bonus
-- kort
-- om pointene talte
-- xG/xA
-- H2H-modstander
-- resultat
-- kort betydning for kampen
-
-## Stil
-
-Skriv på dansk, levende og let drilsk.
-Alle faktuelle oplysninger skal kunne spores til JSON-data.
-Opfind aldrig scores, citater, årsager, transfers, fixtures eller statistik.
-
-Rapportér aldrig samme gameweek eller draft-fingerprint mere end én gang.
+Når `live_gameweek.status` er `finished`, skal den normale færdige GW-recap-logik bruges i stedet.
