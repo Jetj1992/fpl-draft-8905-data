@@ -4048,16 +4048,16 @@
         "web_name": "King"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 450,
         "element_type": 2,
         "first_name": "Ryan",
         "id": 269,
         "minutes": 50,
-        "news": "",
+        "news": "Groin injury - 75% chance of playing",
         "second_name": "Sessegnon",
-        "status": "a",
+        "status": "d",
         "team": 10,
         "total_points": 3,
         "web_name": "Sessegnon"
@@ -14869,13 +14869,13 @@
         "web_name": "Mykolenko"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 269,
         "first_name": "Ryan",
-        "news": "",
+        "news": "Groin injury - 75% chance of playing",
         "official_draft_rank": 450,
         "position": "DEF",
         "position_id": 2,
@@ -17753,7 +17753,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-14T09:29:50.575935Z",
+    "generated_at": "2026-09-14T12:34:06.060340Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28945,7 +28945,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-14T09:29:52.624508Z",
+  "generated_at": "2026-09-14T12:34:07.866261Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -102100,16 +102100,16 @@
             "web_name": "King"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 450,
             "element_type": 2,
             "first_name": "Ryan",
             "id": 269,
             "minutes": 50,
-            "news": "",
+            "news": "Groin injury - 75% chance of playing",
             "second_name": "Sessegnon",
-            "status": "a",
+            "status": "d",
             "team": 10,
             "total_points": 3,
             "web_name": "Sessegnon"
@@ -164606,7 +164606,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-14T09:29:52.624508Z",
+        "generated_at": "2026-09-14T12:34:07.866261Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -165408,7 +165408,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-14T09:29:50.573815Z",
+        "generated_at": "2026-09-14T12:34:06.059003Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -168712,7 +168712,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-14T09:29:52.624477Z",
+        "generated_at": "2026-09-14T12:34:07.866236Z",
         "players": [
           {
             "availability_status": "a",
@@ -234640,7 +234640,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789378188
+      "time": 1789389244
     },
     "choices": {
       "choices": [],
@@ -250437,7 +250437,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-14T09:29:50.575978Z",
+    "generated_at": "2026-09-14T12:34:06.060366Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -259903,7 +259903,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-14T09:29:52.624508Z",
+    "generated_at": "2026-09-14T12:34:07.866261Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -259938,7 +259938,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-14T09:29:50.573815Z",
+    "generated_at": "2026-09-14T12:34:06.059003Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -263242,7 +263242,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-14T09:29:52.624477Z",
+    "generated_at": "2026-09-14T12:34:07.866236Z",
     "players": [
       {
         "availability_status": "a",
