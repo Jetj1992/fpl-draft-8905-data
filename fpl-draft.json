@@ -1618,16 +1618,16 @@
         "web_name": "Thiago"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 513,
         "element_type": 4,
         "first_name": "Kaye",
         "id": 107,
         "minutes": 0,
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "second_name": "Furo",
-        "status": "a",
+        "status": "i",
         "team": 4,
         "total_points": 0,
         "web_name": "Furo"
@@ -5398,16 +5398,16 @@
         "web_name": "Kerkez"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 325,
         "element_type": 2,
         "first_name": "Joe",
         "id": 359,
         "minutes": 0,
-        "news": "Muscular injury - Unknown return date",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Gomez",
-        "status": "i",
+        "status": "d",
         "team": 14,
         "total_points": 0,
         "web_name": "Gomez"
@@ -6838,16 +6838,16 @@
         "web_name": "Elanga"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 162,
         "element_type": 3,
         "first_name": "Sandro",
         "id": 455,
         "minutes": 344,
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "second_name": "Tonali",
-        "status": "a",
+        "status": "d",
         "team": 19,
         "total_points": 12,
         "web_name": "Tonali"
@@ -11299,13 +11299,13 @@
         "web_name": "C.Jones"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 455,
         "first_name": "Sandro",
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "official_draft_rank": 162,
         "position": "MID",
         "position_id": 3,
@@ -13245,13 +13245,13 @@
         "web_name": "Adingra"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 14,
         "club_name": "Liverpool",
         "club_short_name": "LIV",
         "element_id": 359,
         "first_name": "Joe",
-        "news": "Muscular injury - Unknown return date",
+        "news": "Muscular injury - 75% chance of playing",
         "official_draft_rank": 325,
         "position": "DEF",
         "position_id": 2,
@@ -15723,13 +15723,13 @@
         "web_name": "Valdimarsson"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 107,
         "first_name": "Kaye",
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "official_draft_rank": 513,
         "position": "FWD",
         "position_id": 4,
@@ -17753,7 +17753,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-14T13:25:32.976983Z",
+    "generated_at": "2026-09-14T15:30:23.751788Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28945,7 +28945,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-14T13:25:36.161504Z",
+  "generated_at": "2026-09-14T15:30:26.538400Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -99670,16 +99670,16 @@
             "web_name": "Thiago"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 513,
             "element_type": 4,
             "first_name": "Kaye",
             "id": 107,
             "minutes": 0,
-            "news": "",
+            "news": "Unspecified injury - Unknown return date",
             "second_name": "Furo",
-            "status": "a",
+            "status": "i",
             "team": 4,
             "total_points": 0,
             "web_name": "Furo"
@@ -103450,16 +103450,16 @@
             "web_name": "Kerkez"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 325,
             "element_type": 2,
             "first_name": "Joe",
             "id": 359,
             "minutes": 0,
-            "news": "Muscular injury - Unknown return date",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Gomez",
-            "status": "i",
+            "status": "d",
             "team": 14,
             "total_points": 0,
             "web_name": "Gomez"
@@ -104890,16 +104890,16 @@
             "web_name": "Elanga"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 162,
             "element_type": 3,
             "first_name": "Sandro",
             "id": 455,
             "minutes": 344,
-            "news": "",
+            "news": "Knock - 75% chance of playing",
             "second_name": "Tonali",
-            "status": "a",
+            "status": "d",
             "team": 19,
             "total_points": 12,
             "web_name": "Tonali"
@@ -158753,7 +158753,7 @@
           "data_checked": true,
           "gameweek": 3,
           "gameweek_finished": true,
-          "generated_at": "2026-09-14T13:25:36.161504Z",
+          "generated_at": "2026-09-14T15:30:26.538400Z",
           "league_id": 8905,
           "recap_fingerprint": "97b03a6448b977857e1e108bdc78275d8bd80240ab73e2397ad23043150101fb",
           "recap_ready": true,
@@ -170122,7 +170122,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-14T13:25:36.161504Z",
+        "generated_at": "2026-09-14T15:30:26.538400Z",
         "latest_complete_gameweek": 3,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -170930,7 +170930,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-14T13:25:32.975025Z",
+        "generated_at": "2026-09-14T15:30:23.750438Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -174234,7 +174234,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 3,
-        "generated_at": "2026-09-14T13:25:36.161448Z",
+        "generated_at": "2026-09-14T15:30:26.538328Z",
         "players": [
           {
             "availability_status": "a",
@@ -240206,7 +240206,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-14T13:25:35.187542Z",
+    "generated_at": "2026-09-14T15:30:25.847732Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -240933,7 +240933,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789392332
+      "time": 1789399822
     },
     "choices": {
       "choices": [],
@@ -256730,7 +256730,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-14T13:25:32.977017Z",
+    "generated_at": "2026-09-14T15:30:23.751820Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -266244,7 +266244,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-14T13:25:36.161504Z",
+    "generated_at": "2026-09-14T15:30:26.538400Z",
     "latest_complete_gameweek": 3,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -266285,7 +266285,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-14T13:25:32.975025Z",
+    "generated_at": "2026-09-14T15:30:23.750438Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -269589,7 +269589,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 3,
-    "generated_at": "2026-09-14T13:25:36.161448Z",
+    "generated_at": "2026-09-14T15:30:26.538328Z",
     "players": [
       {
         "availability_status": "a",
