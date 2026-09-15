@@ -1888,16 +1888,16 @@
         "web_name": "Groß"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 154,
         "element_type": 4,
         "first_name": "Georginio",
         "id": 125,
         "minutes": 90,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Rutter",
-        "status": "d",
+        "status": "a",
         "team": 5,
         "total_points": 5,
         "web_name": "Georginio"
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-15T12:32:25.784372Z",
+    "generated_at": "2026-09-15T15:26:47.342187Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18260,7 +18260,7 @@
             "web_name": "Wirtz"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 5,
             "club_name": "Brighton",
             "club_short_name": "BHA",
@@ -18269,7 +18269,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Georginio",
             "league_entry_id": 138487,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 154,
             "position": "FWD",
             "position_id": 4,
@@ -28486,10 +28486,10 @@
         "name": "Gameweek 3"
       },
       {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-09-12T12:30:00Z",
         "deadline_time_epoch": 1789216200,
-        "finished": false,
+        "finished": true,
         "id": 4,
         "is_current": true,
         "is_next": false,
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-15T12:32:26.725306Z",
+  "generated_at": "2026-09-15T15:26:49.634353Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -176681,16 +176681,16 @@
             "web_name": "Groß"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 154,
             "element_type": 4,
             "first_name": "Georginio",
             "id": 125,
             "minutes": 90,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Rutter",
-            "status": "d",
+            "status": "a",
             "team": 5,
             "total_points": 5,
             "web_name": "Georginio"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-15T12:32:26.725306Z",
+          "generated_at": "2026-09-15T15:26:49.634353Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -239361,10 +239361,10 @@
               }
             ],
             "event": {
-              "data_checked": false,
+              "data_checked": true,
               "deadline_time": "2026-09-12T12:30:00Z",
               "deadline_time_epoch": 1789216200,
-              "finished": false,
+              "finished": true,
               "id": 4,
               "is_current": true,
               "is_next": false,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-15T12:32:26.725306Z",
+        "generated_at": "2026-09-15T15:26:49.634353Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -247509,7 +247509,7 @@
           "available": true,
           "gameweek": 4,
           "key_matchups": 0,
-          "status": "in_progress"
+          "status": "finished"
         },
         "next_deadline": {
           "deadline_time_copenhagen": "2026-09-18T19:30:00+02:00",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-15T12:32:25.782772Z",
+        "generated_at": "2026-09-15T15:26:47.340183Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -248526,13 +248526,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 5,
               "club_name": "Brighton",
               "club_short_name": "BHA",
               "element_id": 125,
               "first_name": "Georginio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 154,
               "position": "FWD",
               "position_id": 4,
@@ -248632,13 +248632,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 5,
               "club_name": "Brighton",
               "club_short_name": "BHA",
               "element_id": 125,
               "first_name": "Georginio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 154,
               "position": "FWD",
               "position_id": 4,
@@ -249003,13 +249003,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 5,
               "club_name": "Brighton",
               "club_short_name": "BHA",
               "element_id": 125,
               "first_name": "Georginio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 154,
               "position": "FWD",
               "position_id": 4,
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-15T12:32:26.725243Z",
+        "generated_at": "2026-09-15T15:26:49.634291Z",
         "players": [
           {
             "availability_status": "a",
@@ -318137,12 +318137,12 @@
     },
     "event": {
       "deadline_time": "2026-09-12T12:30:00Z",
-      "finished": false,
+      "finished": true,
       "is_current": true,
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-15T12:32:26.592024Z",
+    "generated_at": "2026-09-15T15:26:49.053963Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318305,7 +318305,7 @@
       }
     ],
     "schema_version": 1,
-    "status": "in_progress"
+    "status": "finished"
   },
   "optional_endpoints": {
     "bootstrap_dynamic": {
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789475545
+      "time": 1789486006
     },
     "choices": {
       "choices": [],
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-15T12:32:25.784399Z",
+    "generated_at": "2026-09-15T15:26:47.342220Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -334580,13 +334580,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 125,
           "first_name": "Georginio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 154,
           "position": "FWD",
           "position_id": 4,
@@ -334845,13 +334845,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 125,
           "first_name": "Georginio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 154,
           "position": "FWD",
           "position_id": 4,
@@ -336239,10 +336239,10 @@
           }
         ],
         "event": {
-          "data_checked": false,
+          "data_checked": true,
           "deadline_time": "2026-09-12T12:30:00Z",
           "deadline_time_epoch": 1789216200,
-          "finished": false,
+          "finished": true,
           "id": 4,
           "is_current": true,
           "is_next": false,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-15T12:32:26.725306Z",
+    "generated_at": "2026-09-15T15:26:49.634353Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344388,7 +344388,7 @@
       "available": true,
       "gameweek": 4,
       "key_matchups": 0,
-      "status": "in_progress"
+      "status": "finished"
     },
     "next_deadline": {
       "deadline_time_copenhagen": "2026-09-18T19:30:00+02:00",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-15T12:32:25.782772Z",
+    "generated_at": "2026-09-15T15:26:47.340183Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -344638,13 +344638,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 125,
           "first_name": "Georginio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 154,
           "position": "FWD",
           "position_id": 4,
@@ -344744,13 +344744,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 125,
           "first_name": "Georginio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 154,
           "position": "FWD",
           "position_id": 4,
@@ -345115,13 +345115,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 125,
           "first_name": "Georginio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 154,
           "position": "FWD",
           "position_id": 4,
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-15T12:32:26.725243Z",
+    "generated_at": "2026-09-15T15:26:49.634291Z",
     "players": [
       {
         "availability_status": "a",
