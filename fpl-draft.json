@@ -163,16 +163,16 @@
         "web_name": "Hincapie"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 184,
         "element_type": 2,
         "first_name": "Benjamin",
         "id": 10,
         "minutes": 315,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "White",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 21,
         "web_name": "White"
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-15T18:28:24.708541Z",
+    "generated_at": "2026-09-15T21:25:20.879018Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19210,7 +19210,7 @@
             "web_name": "Van de Ven"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -19219,7 +19219,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Benjamin",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "official_draft_rank": 184,
             "position": "DEF",
             "position_id": 2,
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-15T18:28:26.841500Z",
+  "generated_at": "2026-09-15T21:25:22.764515Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -174956,16 +174956,16 @@
             "web_name": "Hincapie"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 184,
             "element_type": 2,
             "first_name": "Benjamin",
             "id": 10,
             "minutes": 315,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "White",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 21,
             "web_name": "White"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-15T18:28:26.841500Z",
+          "generated_at": "2026-09-15T21:25:22.764515Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-15T18:28:26.841500Z",
+        "generated_at": "2026-09-15T21:25:22.764515Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-15T18:28:24.706619Z",
+        "generated_at": "2026-09-15T21:25:20.877162Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -249109,13 +249109,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 10,
               "first_name": "Benjamin",
-              "news": "",
+              "news": "Muscular injury - 75% chance of playing",
               "official_draft_rank": 184,
               "position": "DEF",
               "position_id": 2,
@@ -249321,13 +249321,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 10,
               "first_name": "Benjamin",
-              "news": "",
+              "news": "Muscular injury - 75% chance of playing",
               "official_draft_rank": 184,
               "position": "DEF",
               "position_id": 2,
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-15T18:28:26.841414Z",
+        "generated_at": "2026-09-15T21:25:22.764467Z",
         "players": [
           {
             "availability_status": "a",
@@ -318142,7 +318142,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-15T18:28:26.448132Z",
+    "generated_at": "2026-09-15T21:25:22.068264Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789496902
+      "time": 1789507519
     },
     "choices": {
       "choices": [],
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-15T18:28:24.708573Z",
+    "generated_at": "2026-09-15T21:25:20.879053Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -335057,13 +335057,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "",
+          "news": "Muscular injury - 75% chance of playing",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-15T18:28:26.841500Z",
+    "generated_at": "2026-09-15T21:25:22.764515Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-15T18:28:24.706619Z",
+    "generated_at": "2026-09-15T21:25:20.877162Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -345221,13 +345221,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "",
+          "news": "Muscular injury - 75% chance of playing",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -345433,13 +345433,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "",
+          "news": "Muscular injury - 75% chance of playing",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-15T18:28:26.841414Z",
+    "generated_at": "2026-09-15T21:25:22.764467Z",
     "players": [
       {
         "availability_status": "a",
