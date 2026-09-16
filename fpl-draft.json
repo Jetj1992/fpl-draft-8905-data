@@ -5398,16 +5398,16 @@
         "web_name": "Kerkez"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 325,
         "element_type": 2,
         "first_name": "Joe",
         "id": 359,
         "minutes": 0,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "second_name": "Gomez",
-        "status": "d",
+        "status": "a",
         "team": 14,
         "total_points": 0,
         "web_name": "Gomez"
@@ -13260,13 +13260,13 @@
         "web_name": "Adingra"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 14,
         "club_name": "Liverpool",
         "club_short_name": "LIV",
         "element_id": 359,
         "first_name": "Joe",
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 325,
         "position": "DEF",
         "position_id": 2,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-16T12:33:30.767177Z",
+    "generated_at": "2026-09-16T15:27:24.103993Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-16T12:33:31.285031Z",
+  "generated_at": "2026-09-16T15:27:25.442186Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -180191,16 +180191,16 @@
             "web_name": "Kerkez"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 325,
             "element_type": 2,
             "first_name": "Joe",
             "id": 359,
             "minutes": 0,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "",
             "second_name": "Gomez",
-            "status": "d",
+            "status": "a",
             "team": 14,
             "total_points": 0,
             "web_name": "Gomez"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-16T12:33:31.285031Z",
+          "generated_at": "2026-09-16T15:27:25.442186Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-16T12:33:31.285031Z",
+        "generated_at": "2026-09-16T15:27:25.442186Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-16T12:33:30.765185Z",
+        "generated_at": "2026-09-16T15:27:24.102489Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-16T12:33:31.284902Z",
+        "generated_at": "2026-09-16T15:27:25.442131Z",
         "players": [
           {
             "availability_status": "a",
@@ -318142,7 +318142,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-16T12:33:31.157798Z",
+    "generated_at": "2026-09-16T15:27:25.041544Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789562010
+      "time": 1789572443
     },
     "choices": {
       "choices": [],
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-16T12:33:30.767212Z",
+    "generated_at": "2026-09-16T15:27:24.104021Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-16T12:33:31.285031Z",
+    "generated_at": "2026-09-16T15:27:25.442186Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-16T12:33:30.765185Z",
+    "generated_at": "2026-09-16T15:27:24.102489Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-16T12:33:31.284902Z",
+    "generated_at": "2026-09-16T15:27:25.442131Z",
     "players": [
       {
         "availability_status": "a",
