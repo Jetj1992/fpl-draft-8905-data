@@ -493,16 +493,16 @@
         "web_name": "Konsa"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 440,
         "element_type": 2,
         "first_name": "Matty",
         "id": 32,
         "minutes": 251,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "second_name": "Cash",
-        "status": "d",
+        "status": "a",
         "team": 2,
         "total_points": 7,
         "web_name": "Cash"
@@ -1573,16 +1573,16 @@
         "web_name": "Dasilva"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 339,
         "element_type": 3,
         "first_name": "Frank",
         "id": 104,
         "minutes": 224,
-        "news": "Hand injury - 50% chance of playing",
+        "news": "",
         "second_name": "Onyeka",
-        "status": "d",
+        "status": "a",
         "team": 7,
         "total_points": 6,
         "web_name": "Onyeka"
@@ -3133,16 +3133,16 @@
         "web_name": "Mingueza"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 40,
         "element_type": 3,
         "first_name": "Ismaïla",
         "id": 208,
         "minutes": 0,
-        "news": "Groin injury - Unknown return date",
+        "news": "Groin injury - 50% chance of playing",
         "second_name": "Sarr",
-        "status": "i",
+        "status": "d",
         "team": 8,
         "total_points": 0,
         "web_name": "Sarr"
@@ -3703,16 +3703,16 @@
         "web_name": "Dibling"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 321,
         "element_type": 3,
         "first_name": "Merlin",
         "id": 246,
         "minutes": 249,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Röhl",
-        "status": "a",
+        "status": "d",
         "team": 9,
         "total_points": 6,
         "web_name": "Röhl"
@@ -10110,13 +10110,13 @@
         "web_name": "Neto"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 208,
         "first_name": "Ismaïla",
-        "news": "Groin injury - Unknown return date",
+        "news": "Groin injury - 50% chance of playing",
         "official_draft_rank": 40,
         "position": "MID",
         "position_id": 3,
@@ -13204,13 +13204,13 @@
         "web_name": "Devenny"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 9,
         "club_name": "Everton",
         "club_short_name": "EVE",
         "element_id": 246,
         "first_name": "Merlin",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 321,
         "position": "MID",
         "position_id": 3,
@@ -13456,13 +13456,13 @@
         "web_name": "N.Angulo"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 104,
         "first_name": "Frank",
-        "news": "Hand injury - 50% chance of playing",
+        "news": "",
         "official_draft_rank": 339,
         "position": "MID",
         "position_id": 3,
@@ -14772,13 +14772,13 @@
         "web_name": "F.Kadıoğlu"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 32,
         "first_name": "Matty",
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 440,
         "position": "DEF",
         "position_id": 2,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-16T15:27:24.103993Z",
+    "generated_at": "2026-09-16T18:30:00.225391Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-16T15:27:25.442186Z",
+  "generated_at": "2026-09-16T18:30:00.805322Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -175286,16 +175286,16 @@
             "web_name": "Konsa"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 440,
             "element_type": 2,
             "first_name": "Matty",
             "id": 32,
             "minutes": 251,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "",
             "second_name": "Cash",
-            "status": "d",
+            "status": "a",
             "team": 2,
             "total_points": 7,
             "web_name": "Cash"
@@ -176366,16 +176366,16 @@
             "web_name": "Dasilva"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 339,
             "element_type": 3,
             "first_name": "Frank",
             "id": 104,
             "minutes": 224,
-            "news": "Hand injury - 50% chance of playing",
+            "news": "",
             "second_name": "Onyeka",
-            "status": "d",
+            "status": "a",
             "team": 7,
             "total_points": 6,
             "web_name": "Onyeka"
@@ -177926,16 +177926,16 @@
             "web_name": "Mingueza"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 40,
             "element_type": 3,
             "first_name": "Ismaïla",
             "id": 208,
             "minutes": 0,
-            "news": "Groin injury - Unknown return date",
+            "news": "Groin injury - 50% chance of playing",
             "second_name": "Sarr",
-            "status": "i",
+            "status": "d",
             "team": 8,
             "total_points": 0,
             "web_name": "Sarr"
@@ -178496,16 +178496,16 @@
             "web_name": "Dibling"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 321,
             "element_type": 3,
             "first_name": "Merlin",
             "id": 246,
             "minutes": 249,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Röhl",
-            "status": "a",
+            "status": "d",
             "team": 9,
             "total_points": 6,
             "web_name": "Röhl"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-16T15:27:25.442186Z",
+          "generated_at": "2026-09-16T18:30:00.805322Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-16T15:27:25.442186Z",
+        "generated_at": "2026-09-16T18:30:00.805322Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-16T15:27:24.102489Z",
+        "generated_at": "2026-09-16T18:30:00.223290Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -249388,13 +249388,13 @@
               "web_name": "M.Sangaré"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 8,
               "club_name": "Crystal Palace",
               "club_short_name": "CRY",
               "element_id": 208,
               "first_name": "Ismaïla",
-              "news": "Groin injury - Unknown return date",
+              "news": "Groin injury - 50% chance of playing",
               "official_draft_rank": 40,
               "position": "MID",
               "position_id": 3,
@@ -249441,13 +249441,13 @@
               "web_name": "Hinshelwood"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 8,
               "club_name": "Crystal Palace",
               "club_short_name": "CRY",
               "element_id": 208,
               "first_name": "Ismaïla",
-              "news": "Groin injury - Unknown return date",
+              "news": "Groin injury - 50% chance of playing",
               "official_draft_rank": 40,
               "position": "MID",
               "position_id": 3,
@@ -249494,13 +249494,13 @@
               "web_name": "Groß"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 8,
               "club_name": "Crystal Palace",
               "club_short_name": "CRY",
               "element_id": 208,
               "first_name": "Ismaïla",
-              "news": "Groin injury - Unknown return date",
+              "news": "Groin injury - 50% chance of playing",
               "official_draft_rank": 40,
               "position": "MID",
               "position_id": 3,
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-16T15:27:25.442131Z",
+        "generated_at": "2026-09-16T18:30:00.805246Z",
         "players": [
           {
             "availability_status": "a",
@@ -318142,7 +318142,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-16T15:27:25.041544Z",
+    "generated_at": "2026-09-16T18:30:00.665291Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789572443
+      "time": 1789583400
     },
     "choices": {
       "choices": [],
@@ -326242,7 +326242,7 @@
       "current_event_finished": true,
       "next_event": 5,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-16T15:27:24.104021Z",
+    "generated_at": "2026-09-16T18:30:00.225439Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -335124,13 +335124,13 @@
           "web_name": "Hinshelwood"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 8,
           "club_name": "Crystal Palace",
           "club_short_name": "CRY",
           "element_id": 208,
           "first_name": "Ismaïla",
-          "news": "Groin injury - Unknown return date",
+          "news": "Groin injury - 50% chance of playing",
           "official_draft_rank": 40,
           "position": "MID",
           "position_id": 3,
@@ -335177,13 +335177,13 @@
           "web_name": "Groß"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 8,
           "club_name": "Crystal Palace",
           "club_short_name": "CRY",
           "element_id": 208,
           "first_name": "Ismaïla",
-          "news": "Groin injury - Unknown return date",
+          "news": "Groin injury - 50% chance of playing",
           "official_draft_rank": 40,
           "position": "MID",
           "position_id": 3,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-16T15:27:25.442186Z",
+    "generated_at": "2026-09-16T18:30:00.805322Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-16T15:27:24.102489Z",
+    "generated_at": "2026-09-16T18:30:00.223290Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -345500,13 +345500,13 @@
           "web_name": "M.Sangaré"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 8,
           "club_name": "Crystal Palace",
           "club_short_name": "CRY",
           "element_id": 208,
           "first_name": "Ismaïla",
-          "news": "Groin injury - Unknown return date",
+          "news": "Groin injury - 50% chance of playing",
           "official_draft_rank": 40,
           "position": "MID",
           "position_id": 3,
@@ -345553,13 +345553,13 @@
           "web_name": "Hinshelwood"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 8,
           "club_name": "Crystal Palace",
           "club_short_name": "CRY",
           "element_id": 208,
           "first_name": "Ismaïla",
-          "news": "Groin injury - Unknown return date",
+          "news": "Groin injury - 50% chance of playing",
           "official_draft_rank": 40,
           "position": "MID",
           "position_id": 3,
@@ -345606,13 +345606,13 @@
           "web_name": "Groß"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 8,
           "club_name": "Crystal Palace",
           "club_short_name": "CRY",
           "element_id": 208,
           "first_name": "Ismaïla",
-          "news": "Groin injury - Unknown return date",
+          "news": "Groin injury - 50% chance of playing",
           "official_draft_rank": 40,
           "position": "MID",
           "position_id": 3,
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-16T15:27:25.442131Z",
+    "generated_at": "2026-09-16T18:30:00.805246Z",
     "players": [
       {
         "availability_status": "a",
