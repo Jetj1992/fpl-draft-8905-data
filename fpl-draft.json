@@ -448,16 +448,16 @@
         "web_name": "Martinez"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 489,
         "element_type": 1,
         "first_name": "Marco",
         "id": 29,
         "minutes": 90,
-        "news": "",
+        "news": "Back injury - 75% chance of playing",
         "second_name": "Bizot",
-        "status": "a",
+        "status": "d",
         "team": 2,
         "total_points": 1,
         "web_name": "M.Bizot"
@@ -2743,16 +2743,16 @@
         "web_name": "Brau"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": null,
         "draft_rank": 608,
         "element_type": 2,
         "first_name": "Aurèle",
         "id": 182,
         "minutes": 360,
-        "news": "",
+        "news": "Calf injury - 50% chance of playing",
         "second_name": "Amenda",
-        "status": "a",
+        "status": "d",
         "team": 7,
         "total_points": 4,
         "web_name": "Amenda"
@@ -3673,16 +3673,16 @@
         "web_name": "Alcaraz"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 329,
         "element_type": 3,
         "first_name": "Harrison",
         "id": 244,
         "minutes": 356,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Armstrong",
-        "status": "a",
+        "status": "d",
         "team": 9,
         "total_points": 14,
         "web_name": "Armstrong"
@@ -13316,13 +13316,13 @@
         "web_name": "James"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 9,
         "club_name": "Everton",
         "club_short_name": "EVE",
         "element_id": 244,
         "first_name": "Harrison",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 329,
         "position": "MID",
         "position_id": 3,
@@ -15402,13 +15402,13 @@
         "web_name": "Lewis"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 29,
         "first_name": "Marco",
-        "news": "",
+        "news": "Back injury - 75% chance of playing",
         "official_draft_rank": 489,
         "position": "GKP",
         "position_id": 1,
@@ -17068,13 +17068,13 @@
         "web_name": "Brau"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 182,
         "first_name": "Aurèle",
-        "news": "",
+        "news": "Calf injury - 50% chance of playing",
         "official_draft_rank": 608,
         "position": "DEF",
         "position_id": 2,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-17T06:33:54.375670Z",
+    "generated_at": "2026-09-17T09:27:56.442498Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-17T06:33:54.889098Z",
+  "generated_at": "2026-09-17T09:27:58.385874Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -175241,16 +175241,16 @@
             "web_name": "Martinez"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 489,
             "element_type": 1,
             "first_name": "Marco",
             "id": 29,
             "minutes": 90,
-            "news": "",
+            "news": "Back injury - 75% chance of playing",
             "second_name": "Bizot",
-            "status": "a",
+            "status": "d",
             "team": 2,
             "total_points": 1,
             "web_name": "M.Bizot"
@@ -177536,16 +177536,16 @@
             "web_name": "Brau"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": null,
             "draft_rank": 608,
             "element_type": 2,
             "first_name": "Aurèle",
             "id": 182,
             "minutes": 360,
-            "news": "",
+            "news": "Calf injury - 50% chance of playing",
             "second_name": "Amenda",
-            "status": "a",
+            "status": "d",
             "team": 7,
             "total_points": 4,
             "web_name": "Amenda"
@@ -178466,16 +178466,16 @@
             "web_name": "Alcaraz"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 329,
             "element_type": 3,
             "first_name": "Harrison",
             "id": 244,
             "minutes": 356,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Armstrong",
-            "status": "a",
+            "status": "d",
             "team": 9,
             "total_points": 14,
             "web_name": "Armstrong"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-17T06:33:54.889098Z",
+          "generated_at": "2026-09-17T09:27:58.385874Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-17T06:33:54.889098Z",
+        "generated_at": "2026-09-17T09:27:58.385874Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-17T06:33:54.373831Z",
+        "generated_at": "2026-09-17T09:27:56.440799Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-17T06:33:54.889049Z",
+        "generated_at": "2026-09-17T09:27:58.385805Z",
         "players": [
           {
             "availability_status": "a",
@@ -318142,7 +318142,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-17T06:33:54.754062Z",
+    "generated_at": "2026-09-17T09:27:57.671105Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789626834
+      "time": 1789637275
     },
     "choices": {
       "choices": [],
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-17T06:33:54.375702Z",
+    "generated_at": "2026-09-17T09:27:56.442533Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-17T06:33:54.889098Z",
+    "generated_at": "2026-09-17T09:27:58.385874Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-17T06:33:54.373831Z",
+    "generated_at": "2026-09-17T09:27:56.440799Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-17T06:33:54.889049Z",
+    "generated_at": "2026-09-17T09:27:58.385805Z",
     "players": [
       {
         "availability_status": "a",
