@@ -2743,14 +2743,14 @@
         "web_name": "Brau"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 25,
         "chance_of_playing_this_round": null,
         "draft_rank": 608,
         "element_type": 2,
         "first_name": "Aurèle",
         "id": 182,
         "minutes": 360,
-        "news": "Calf injury - 50% chance of playing",
+        "news": "Calf injury - 25% chance of playing",
         "second_name": "Amenda",
         "status": "d",
         "team": 7,
@@ -17074,7 +17074,7 @@
         "club_short_name": "COV",
         "element_id": 182,
         "first_name": "Aurèle",
-        "news": "Calf injury - 50% chance of playing",
+        "news": "Calf injury - 25% chance of playing",
         "official_draft_rank": 608,
         "position": "DEF",
         "position_id": 2,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-17T09:27:56.442498Z",
+    "generated_at": "2026-09-17T12:32:47.947664Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-17T09:27:58.385874Z",
+  "generated_at": "2026-09-17T12:32:50.579007Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -177536,14 +177536,14 @@
             "web_name": "Brau"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 25,
             "chance_of_playing_this_round": null,
             "draft_rank": 608,
             "element_type": 2,
             "first_name": "Aurèle",
             "id": 182,
             "minutes": 360,
-            "news": "Calf injury - 50% chance of playing",
+            "news": "Calf injury - 25% chance of playing",
             "second_name": "Amenda",
             "status": "d",
             "team": 7,
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-17T09:27:58.385874Z",
+          "generated_at": "2026-09-17T12:32:50.579007Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-17T09:27:58.385874Z",
+        "generated_at": "2026-09-17T12:32:50.579007Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248309,7 +248309,7 @@
           "source_available": true,
           "typed_records": 62
         },
-        "generated_at": "2026-09-17T09:27:56.440799Z",
+        "generated_at": "2026-09-17T12:32:47.945617Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -251613,7 +251613,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-17T09:27:58.385805Z",
+        "generated_at": "2026-09-17T12:32:50.578945Z",
         "players": [
           {
             "availability_status": "a",
@@ -318142,7 +318142,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-17T09:27:57.671105Z",
+    "generated_at": "2026-09-17T12:32:50.285597Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318317,7 +318317,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789637275
+      "time": 1789648366
     },
     "choices": {
       "choices": [],
@@ -334520,7 +334520,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-17T09:27:56.442533Z",
+    "generated_at": "2026-09-17T12:32:47.947700Z",
     "pending_waiver_count": 31,
     "schema_version": 1,
     "source_available": true,
@@ -344380,7 +344380,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-17T09:27:58.385874Z",
+    "generated_at": "2026-09-17T12:32:50.579007Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -344421,7 +344421,7 @@
       "source_available": true,
       "typed_records": 62
     },
-    "generated_at": "2026-09-17T09:27:56.440799Z",
+    "generated_at": "2026-09-17T12:32:47.945617Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -347725,7 +347725,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-17T09:27:58.385805Z",
+    "generated_at": "2026-09-17T12:32:50.578945Z",
     "players": [
       {
         "availability_status": "a",
