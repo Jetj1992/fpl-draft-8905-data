@@ -163,31 +163,31 @@
         "web_name": "Hincapie"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 184,
         "element_type": 2,
         "first_name": "Benjamin",
         "id": 10,
         "minutes": 315,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "",
         "second_name": "White",
-        "status": "d",
+        "status": "a",
         "team": 1,
         "total_points": 21,
         "web_name": "White"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 191,
         "element_type": 2,
         "first_name": "Cristhian",
         "id": 11,
         "minutes": 168,
-        "news": "Muscular injury - 50% chance of playing",
+        "news": "",
         "second_name": "Mosquera",
-        "status": "d",
+        "status": "a",
         "team": 1,
         "total_points": 12,
         "web_name": "Mosquera"
@@ -2143,16 +2143,16 @@
         "web_name": "Jörgensen"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 138,
         "element_type": 2,
         "first_name": "Reece",
         "id": 142,
         "minutes": 292,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "James",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 3,
         "web_name": "James"
@@ -6838,16 +6838,16 @@
         "web_name": "Elanga"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 162,
         "element_type": 3,
         "first_name": "Sandro",
         "id": 455,
         "minutes": 344,
-        "news": "Knock - 75% chance of playing",
+        "news": "",
         "second_name": "Tonali",
-        "status": "d",
+        "status": "a",
         "team": 19,
         "total_points": 12,
         "web_name": "Tonali"
@@ -7498,16 +7498,16 @@
         "web_name": "Senesi"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 136,
         "element_type": 2,
         "first_name": "Pedro",
         "id": 499,
         "minutes": 180,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Porro Sauceda",
-        "status": "d",
+        "status": "a",
         "team": 19,
         "total_points": 8,
         "web_name": "Pedro Porro"
@@ -9793,16 +9793,16 @@
         "web_name": "J.Angulo"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 75,
         "draft_rank": 125,
         "element_type": 3,
         "first_name": "Femi",
         "id": 652,
         "minutes": 0,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "second_name": "Azeez",
-        "status": "d",
+        "status": "i",
         "team": 5,
         "total_points": 0,
         "web_name": "Azeez"
@@ -10950,13 +10950,13 @@
         "web_name": "Chalobah"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 652,
         "first_name": "Femi",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "official_draft_rank": 125,
         "position": "MID",
         "position_id": 3,
@@ -11314,13 +11314,13 @@
         "web_name": "C.Jones"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
         "element_id": 455,
         "first_name": "Sandro",
-        "news": "Knock - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 162,
         "position": "MID",
         "position_id": 3,
@@ -11650,13 +11650,13 @@
         "web_name": "Zirkzee"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 1,
         "club_name": "Arsenal",
         "club_short_name": "ARS",
         "element_id": 11,
         "first_name": "Cristhian",
-        "news": "Muscular injury - 50% chance of playing",
+        "news": "",
         "official_draft_rank": 191,
         "position": "DEF",
         "position_id": 2,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-18T09:27:08.026907Z",
+    "generated_at": "2026-09-18T12:31:10.886102Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19210,7 +19210,7 @@
             "web_name": "Van de Ven"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -19219,7 +19219,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Benjamin",
             "league_entry_id": 252790,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 184,
             "position": "DEF",
             "position_id": 2,
@@ -19439,7 +19439,7 @@
             "web_name": "Gabriel"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -19448,7 +19448,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Reece",
             "league_entry_id": 321694,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 138,
             "position": "DEF",
             "position_id": 2,
@@ -19473,7 +19473,7 @@
             "web_name": "Konsa"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 19,
             "club_name": "Spurs",
             "club_short_name": "TOT",
@@ -19482,7 +19482,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Pedro",
             "league_entry_id": 321694,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 136,
             "position": "DEF",
             "position_id": 2,
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-18T09:27:09.216526Z",
+  "generated_at": "2026-09-18T12:31:11.999704Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -174956,31 +174956,31 @@
             "web_name": "Hincapie"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 184,
             "element_type": 2,
             "first_name": "Benjamin",
             "id": 10,
             "minutes": 315,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "",
             "second_name": "White",
-            "status": "d",
+            "status": "a",
             "team": 1,
             "total_points": 21,
             "web_name": "White"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 191,
             "element_type": 2,
             "first_name": "Cristhian",
             "id": 11,
             "minutes": 168,
-            "news": "Muscular injury - 50% chance of playing",
+            "news": "",
             "second_name": "Mosquera",
-            "status": "d",
+            "status": "a",
             "team": 1,
             "total_points": 12,
             "web_name": "Mosquera"
@@ -176936,16 +176936,16 @@
             "web_name": "Jörgensen"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 138,
             "element_type": 2,
             "first_name": "Reece",
             "id": 142,
             "minutes": 292,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "James",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 3,
             "web_name": "James"
@@ -181631,16 +181631,16 @@
             "web_name": "Elanga"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 162,
             "element_type": 3,
             "first_name": "Sandro",
             "id": 455,
             "minutes": 344,
-            "news": "Knock - 75% chance of playing",
+            "news": "",
             "second_name": "Tonali",
-            "status": "d",
+            "status": "a",
             "team": 19,
             "total_points": 12,
             "web_name": "Tonali"
@@ -182291,16 +182291,16 @@
             "web_name": "Senesi"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 136,
             "element_type": 2,
             "first_name": "Pedro",
             "id": 499,
             "minutes": 180,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Porro Sauceda",
-            "status": "d",
+            "status": "a",
             "team": 19,
             "total_points": 8,
             "web_name": "Pedro Porro"
@@ -184586,16 +184586,16 @@
             "web_name": "J.Angulo"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 75,
             "draft_rank": 125,
             "element_type": 3,
             "first_name": "Femi",
             "id": 652,
             "minutes": 0,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Expected back 10 Oct",
             "second_name": "Azeez",
-            "status": "d",
+            "status": "i",
             "team": 5,
             "total_points": 0,
             "web_name": "Azeez"
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-18T09:27:09.216526Z",
+          "generated_at": "2026-09-18T12:31:11.999704Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-18T09:27:09.216526Z",
+        "generated_at": "2026-09-18T12:31:11.999704Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248405,7 +248405,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-18T09:27:08.025756Z",
+        "generated_at": "2026-09-18T12:31:10.884190Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -249205,13 +249205,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 10,
               "first_name": "Benjamin",
-              "news": "Muscular injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 184,
               "position": "DEF",
               "position_id": 2,
@@ -249417,13 +249417,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 10,
               "first_name": "Benjamin",
-              "news": "Muscular injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 184,
               "position": "DEF",
               "position_id": 2,
@@ -251074,13 +251074,13 @@
               "web_name": "Hall"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 11,
               "first_name": "Cristhian",
-              "news": "Muscular injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 191,
               "position": "DEF",
               "position_id": 2,
@@ -251657,13 +251657,13 @@
               "web_name": "Vuskovic"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 11,
               "first_name": "Cristhian",
-              "news": "Muscular injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 191,
               "position": "DEF",
               "position_id": 2,
@@ -252133,7 +252133,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-18T09:27:09.216488Z",
+        "generated_at": "2026-09-18T12:31:11.999651Z",
         "players": [
           {
             "availability_status": "a",
@@ -318662,7 +318662,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-18T09:27:08.858634Z",
+    "generated_at": "2026-09-18T12:31:11.870699Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318837,7 +318837,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789723627
+      "time": 1789734670
     },
     "choices": {
       "choices": [],
@@ -335136,7 +335136,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-18T09:27:08.026926Z",
+    "generated_at": "2026-09-18T12:31:10.886137Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -335673,13 +335673,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "Muscular injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -336588,13 +336588,13 @@
           "web_name": "Hall"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 11,
           "first_name": "Cristhian",
-          "news": "Muscular injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 191,
           "position": "DEF",
           "position_id": 2,
@@ -345208,7 +345208,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-18T09:27:09.216526Z",
+    "generated_at": "2026-09-18T12:31:11.999704Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -345249,7 +345249,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-18T09:27:08.025756Z",
+    "generated_at": "2026-09-18T12:31:10.884190Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -346049,13 +346049,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "Muscular injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -346261,13 +346261,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 10,
           "first_name": "Benjamin",
-          "news": "Muscular injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 184,
           "position": "DEF",
           "position_id": 2,
@@ -347918,13 +347918,13 @@
           "web_name": "Hall"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 11,
           "first_name": "Cristhian",
-          "news": "Muscular injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 191,
           "position": "DEF",
           "position_id": 2,
@@ -348501,13 +348501,13 @@
           "web_name": "Vuskovic"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 11,
           "first_name": "Cristhian",
-          "news": "Muscular injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 191,
           "position": "DEF",
           "position_id": 2,
@@ -348977,7 +348977,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-18T09:27:09.216488Z",
+    "generated_at": "2026-09-18T12:31:11.999651Z",
     "players": [
       {
         "availability_status": "a",
