@@ -448,16 +448,16 @@
         "web_name": "Martinez"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 489,
         "element_type": 1,
         "first_name": "Marco",
         "id": 29,
         "minutes": 90,
-        "news": "Back injury - 75% chance of playing",
+        "news": "Back injury - Expected back 10 Oct",
         "second_name": "Bizot",
-        "status": "d",
+        "status": "i",
         "team": 2,
         "total_points": 1,
         "web_name": "M.Bizot"
@@ -523,16 +523,16 @@
         "web_name": "Mings"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 463,
         "element_type": 2,
         "first_name": "Pau",
         "id": 34,
         "minutes": 187,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "second_name": "Torres",
-        "status": "d",
+        "status": "i",
         "team": 2,
         "total_points": 3,
         "web_name": "Pau"
@@ -553,16 +553,16 @@
         "web_name": "Bogarde"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 467,
         "element_type": 2,
         "first_name": "Ian",
         "id": 36,
         "minutes": 335,
-        "news": "Ankle injury - 25% chance of playing",
+        "news": "Ankle injury - Unknown return date",
         "second_name": "Maatsen",
-        "status": "d",
+        "status": "i",
         "team": 2,
         "total_points": 9,
         "web_name": "Maatsen"
@@ -823,16 +823,16 @@
         "web_name": "Manzambi"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 156,
         "element_type": 3,
         "first_name": "Joao",
         "id": 54,
         "minutes": 39,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "second_name": "Gomes",
-        "status": "d",
+        "status": "a",
         "team": 2,
         "total_points": -2,
         "web_name": "Gomes"
@@ -1978,16 +1978,16 @@
         "web_name": "Wieffer"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 302,
         "element_type": 3,
         "first_name": "Carlos",
         "id": 131,
         "minutes": 0,
-        "news": "Ankle injury - Expected back 19 Sep",
+        "news": "Ankle injury - 50% chance of playing",
         "second_name": "Baleba",
-        "status": "i",
+        "status": "d",
         "team": 16,
         "total_points": 0,
         "web_name": "Baleba"
@@ -3703,16 +3703,16 @@
         "web_name": "Dibling"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 321,
         "element_type": 3,
         "first_name": "Merlin",
         "id": 246,
         "minutes": 249,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 11 Oct",
         "second_name": "Röhl",
-        "status": "d",
+        "status": "i",
         "team": 9,
         "total_points": 6,
         "web_name": "Röhl"
@@ -3853,16 +3853,16 @@
         "web_name": "J.Cuenca"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 455,
         "element_type": 2,
         "first_name": "Kenny",
         "id": 256,
         "minutes": 27,
-        "news": "",
+        "news": "Concussion - Expected back 10 Oct",
         "second_name": "Tete",
-        "status": "a",
+        "status": "i",
         "team": 10,
         "total_points": 0,
         "web_name": "Tete"
@@ -3913,16 +3913,16 @@
         "web_name": "Diop"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 34,
         "element_type": 3,
         "first_name": "Harry",
         "id": 260,
         "minutes": 145,
-        "news": "",
+        "news": "Thigh injury - Unknown return date",
         "second_name": "Wilson",
-        "status": "a",
+        "status": "i",
         "team": 13,
         "total_points": 5,
         "web_name": "Wilson"
@@ -5173,16 +5173,16 @@
         "web_name": "James"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 25,
         "draft_rank": 304,
         "element_type": 3,
         "first_name": "Ilia",
         "id": 344,
         "minutes": 0,
-        "news": "Knee injury - 25% chance of playing",
+        "news": "",
         "second_name": "Gruev",
-        "status": "d",
+        "status": "a",
         "team": 13,
         "total_points": 0,
         "web_name": "Gruev"
@@ -6013,16 +6013,16 @@
         "web_name": "Cherki"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 21,
         "element_type": 3,
         "first_name": "Jérémy",
         "id": 400,
         "minutes": 0,
-        "news": "Calf injury - Expected back 20 Sep",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Doku",
-        "status": "i",
+        "status": "d",
         "team": 15,
         "total_points": 0,
         "web_name": "Doku"
@@ -6358,14 +6358,14 @@
         "web_name": "Mazraoui"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 75,
         "draft_rank": 442,
         "element_type": 2,
         "first_name": "Luke",
         "id": 423,
         "minutes": 252,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - 50% chance of playing",
         "second_name": "Shaw",
         "status": "d",
         "team": 16,
@@ -6740,7 +6740,7 @@
         "first_name": "Dan",
         "id": 448,
         "minutes": 0,
-        "news": "Ankle injury - Expected back 19 Sep",
+        "news": "Ankle injury - Expected back 12 Oct",
         "second_name": "Burn",
         "status": "i",
         "team": 17,
@@ -11244,13 +11244,13 @@
         "web_name": "Bentancur"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 54,
         "first_name": "Joao",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 156,
         "position": "MID",
         "position_id": 3,
@@ -12538,7 +12538,7 @@
         "club_short_name": "NEW",
         "element_id": 448,
         "first_name": "Dan",
-        "news": "Ankle injury - Expected back 19 Sep",
+        "news": "Ankle injury - Expected back 12 Oct",
         "official_draft_rank": 272,
         "position": "DEF",
         "position_id": 2,
@@ -12924,13 +12924,13 @@
         "web_name": "Barkley"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 131,
         "first_name": "Carlos",
-        "news": "Ankle injury - Expected back 19 Sep",
+        "news": "Ankle injury - 50% chance of playing",
         "official_draft_rank": 302,
         "position": "MID",
         "position_id": 3,
@@ -12952,13 +12952,13 @@
         "web_name": "Longstaff"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 13,
         "club_name": "Leeds",
         "club_short_name": "LEE",
         "element_id": 344,
         "first_name": "Ilia",
-        "news": "Knee injury - 25% chance of playing",
+        "news": "",
         "official_draft_rank": 304,
         "position": "MID",
         "position_id": 3,
@@ -13190,13 +13190,13 @@
         "web_name": "Devenny"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 9,
         "club_name": "Everton",
         "club_short_name": "EVE",
         "element_id": 246,
         "first_name": "Merlin",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 11 Oct",
         "official_draft_rank": 321,
         "position": "MID",
         "position_id": 3,
@@ -14940,13 +14940,13 @@
         "web_name": "Vicario"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 256,
         "first_name": "Kenny",
-        "news": "",
+        "news": "Concussion - Expected back 10 Oct",
         "official_draft_rank": 455,
         "position": "DEF",
         "position_id": 2,
@@ -15052,13 +15052,13 @@
         "web_name": "Robinson"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 34,
         "first_name": "Pau",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 10 Oct",
         "official_draft_rank": 463,
         "position": "DEF",
         "position_id": 2,
@@ -15108,13 +15108,13 @@
         "web_name": "Robertson"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 36,
         "first_name": "Ian",
-        "news": "Ankle injury - 25% chance of playing",
+        "news": "Ankle injury - Unknown return date",
         "official_draft_rank": 467,
         "position": "DEF",
         "position_id": 2,
@@ -15402,13 +15402,13 @@
         "web_name": "Lewis"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 29,
         "first_name": "Marco",
-        "news": "Back injury - 75% chance of playing",
+        "news": "Back injury - Expected back 10 Oct",
         "official_draft_rank": 489,
         "position": "GKP",
         "position_id": 1,
@@ -17782,7 +17782,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-18T12:31:10.886102Z",
+    "generated_at": "2026-09-18T15:26:35.536339Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -17929,7 +17929,7 @@
             "web_name": "Bruno G."
           },
           {
-            "availability_status": "i",
+            "availability_status": "d",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -17938,7 +17938,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Jérémy",
             "league_entry_id": 42948,
-            "news": "Calf injury - Expected back 20 Sep",
+            "news": "Calf injury - 75% chance of playing",
             "official_draft_rank": 21,
             "position": "MID",
             "position_id": 3,
@@ -18659,7 +18659,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Luke",
             "league_entry_id": 138641,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - 50% chance of playing",
             "official_draft_rank": 442,
             "position": "DEF",
             "position_id": 2,
@@ -18769,7 +18769,7 @@
             "web_name": "Rogers"
           },
           {
-            "availability_status": "a",
+            "availability_status": "i",
             "club_id": 13,
             "club_name": "Leeds",
             "club_short_name": "LEE",
@@ -18778,7 +18778,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Harry",
             "league_entry_id": 138641,
-            "news": "",
+            "news": "Thigh injury - Unknown return date",
             "official_draft_rank": 34,
             "position": "MID",
             "position_id": 3,
@@ -28974,7 +28974,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-18T12:31:11.999704Z",
+  "generated_at": "2026-09-18T15:26:36.588960Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -175241,16 +175241,16 @@
             "web_name": "Martinez"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 489,
             "element_type": 1,
             "first_name": "Marco",
             "id": 29,
             "minutes": 90,
-            "news": "Back injury - 75% chance of playing",
+            "news": "Back injury - Expected back 10 Oct",
             "second_name": "Bizot",
-            "status": "d",
+            "status": "i",
             "team": 2,
             "total_points": 1,
             "web_name": "M.Bizot"
@@ -175316,16 +175316,16 @@
             "web_name": "Mings"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 463,
             "element_type": 2,
             "first_name": "Pau",
             "id": 34,
             "minutes": 187,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Expected back 10 Oct",
             "second_name": "Torres",
-            "status": "d",
+            "status": "i",
             "team": 2,
             "total_points": 3,
             "web_name": "Pau"
@@ -175346,16 +175346,16 @@
             "web_name": "Bogarde"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 467,
             "element_type": 2,
             "first_name": "Ian",
             "id": 36,
             "minutes": 335,
-            "news": "Ankle injury - 25% chance of playing",
+            "news": "Ankle injury - Unknown return date",
             "second_name": "Maatsen",
-            "status": "d",
+            "status": "i",
             "team": 2,
             "total_points": 9,
             "web_name": "Maatsen"
@@ -175616,16 +175616,16 @@
             "web_name": "Manzambi"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 156,
             "element_type": 3,
             "first_name": "Joao",
             "id": 54,
             "minutes": 39,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "",
             "second_name": "Gomes",
-            "status": "d",
+            "status": "a",
             "team": 2,
             "total_points": -2,
             "web_name": "Gomes"
@@ -176771,16 +176771,16 @@
             "web_name": "Wieffer"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 302,
             "element_type": 3,
             "first_name": "Carlos",
             "id": 131,
             "minutes": 0,
-            "news": "Ankle injury - Expected back 19 Sep",
+            "news": "Ankle injury - 50% chance of playing",
             "second_name": "Baleba",
-            "status": "i",
+            "status": "d",
             "team": 16,
             "total_points": 0,
             "web_name": "Baleba"
@@ -178496,16 +178496,16 @@
             "web_name": "Dibling"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 321,
             "element_type": 3,
             "first_name": "Merlin",
             "id": 246,
             "minutes": 249,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Expected back 11 Oct",
             "second_name": "Röhl",
-            "status": "d",
+            "status": "i",
             "team": 9,
             "total_points": 6,
             "web_name": "Röhl"
@@ -178646,16 +178646,16 @@
             "web_name": "J.Cuenca"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 455,
             "element_type": 2,
             "first_name": "Kenny",
             "id": 256,
             "minutes": 27,
-            "news": "",
+            "news": "Concussion - Expected back 10 Oct",
             "second_name": "Tete",
-            "status": "a",
+            "status": "i",
             "team": 10,
             "total_points": 0,
             "web_name": "Tete"
@@ -178706,16 +178706,16 @@
             "web_name": "Diop"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 34,
             "element_type": 3,
             "first_name": "Harry",
             "id": 260,
             "minutes": 145,
-            "news": "",
+            "news": "Thigh injury - Unknown return date",
             "second_name": "Wilson",
-            "status": "a",
+            "status": "i",
             "team": 13,
             "total_points": 5,
             "web_name": "Wilson"
@@ -179966,16 +179966,16 @@
             "web_name": "James"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 25,
             "draft_rank": 304,
             "element_type": 3,
             "first_name": "Ilia",
             "id": 344,
             "minutes": 0,
-            "news": "Knee injury - 25% chance of playing",
+            "news": "",
             "second_name": "Gruev",
-            "status": "d",
+            "status": "a",
             "team": 13,
             "total_points": 0,
             "web_name": "Gruev"
@@ -180806,16 +180806,16 @@
             "web_name": "Cherki"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 21,
             "element_type": 3,
             "first_name": "Jérémy",
             "id": 400,
             "minutes": 0,
-            "news": "Calf injury - Expected back 20 Sep",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Doku",
-            "status": "i",
+            "status": "d",
             "team": 15,
             "total_points": 0,
             "web_name": "Doku"
@@ -181151,14 +181151,14 @@
             "web_name": "Mazraoui"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 75,
             "draft_rank": 442,
             "element_type": 2,
             "first_name": "Luke",
             "id": 423,
             "minutes": 252,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - 50% chance of playing",
             "second_name": "Shaw",
             "status": "d",
             "team": 16,
@@ -181533,7 +181533,7 @@
             "first_name": "Dan",
             "id": 448,
             "minutes": 0,
-            "news": "Ankle injury - Expected back 19 Sep",
+            "news": "Ankle injury - Expected back 12 Oct",
             "second_name": "Burn",
             "status": "i",
             "team": 17,
@@ -236206,7 +236206,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-18T12:31:11.999704Z",
+          "generated_at": "2026-09-18T15:26:36.588960Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -247501,7 +247501,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-18T12:31:11.999704Z",
+        "generated_at": "2026-09-18T15:26:36.588960Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248405,7 +248405,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-18T12:31:10.884190Z",
+        "generated_at": "2026-09-18T15:26:35.534353Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -251975,13 +251975,13 @@
               "web_name": "Groß"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 400,
               "first_name": "Jérémy",
-              "news": "Calf injury - Expected back 20 Sep",
+              "news": "Calf injury - 75% chance of playing",
               "official_draft_rank": 21,
               "position": "MID",
               "position_id": 3,
@@ -252028,13 +252028,13 @@
               "web_name": "Sávio"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 400,
               "first_name": "Jérémy",
-              "news": "Calf injury - Expected back 20 Sep",
+              "news": "Calf injury - 75% chance of playing",
               "official_draft_rank": 21,
               "position": "MID",
               "position_id": 3,
@@ -252133,7 +252133,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-18T12:31:11.999651Z",
+        "generated_at": "2026-09-18T15:26:36.588912Z",
         "players": [
           {
             "availability_status": "a",
@@ -318662,7 +318662,7 @@
       "name": "Gameweek 4"
     },
     "gameweek": 4,
-    "generated_at": "2026-09-18T12:31:11.870699Z",
+    "generated_at": "2026-09-18T15:26:36.494048Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -318837,7 +318837,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789734670
+      "time": 1789745195
     },
     "choices": {
       "choices": [],
@@ -335136,7 +335136,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-18T12:31:10.886137Z",
+    "generated_at": "2026-09-18T15:26:35.536374Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -336853,13 +336853,13 @@
           "web_name": "Groß"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 400,
           "first_name": "Jérémy",
-          "news": "Calf injury - Expected back 20 Sep",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 21,
           "position": "MID",
           "position_id": 3,
@@ -336906,13 +336906,13 @@
           "web_name": "Sávio"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 400,
           "first_name": "Jérémy",
-          "news": "Calf injury - Expected back 20 Sep",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 21,
           "position": "MID",
           "position_id": 3,
@@ -345208,7 +345208,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-18T12:31:11.999704Z",
+    "generated_at": "2026-09-18T15:26:36.588960Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -345249,7 +345249,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-18T12:31:10.884190Z",
+    "generated_at": "2026-09-18T15:26:35.534353Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -348819,13 +348819,13 @@
           "web_name": "Groß"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 400,
           "first_name": "Jérémy",
-          "news": "Calf injury - Expected back 20 Sep",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 21,
           "position": "MID",
           "position_id": 3,
@@ -348872,13 +348872,13 @@
           "web_name": "Sávio"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 400,
           "first_name": "Jérémy",
-          "news": "Calf injury - Expected back 20 Sep",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 21,
           "position": "MID",
           "position_id": 3,
@@ -348977,7 +348977,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-18T12:31:11.999651Z",
+    "generated_at": "2026-09-18T15:26:36.588912Z",
     "players": [
       {
         "availability_status": "a",
