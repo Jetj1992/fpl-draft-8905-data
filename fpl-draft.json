@@ -1674,7 +1674,7 @@
         "second_name": "Rushworth",
         "status": "a",
         "team": 7,
-        "total_points": 17,
+        "total_points": 16,
         "web_name": "Rushworth"
       },
       {
@@ -10141,9 +10141,9 @@
     "data_quality": {
       "active_league_entries": 7,
       "complete_rosters": true,
-      "element_status_records": 665
+      "element_status_records": 667
     },
-    "free_agent_count": 560,
+    "free_agent_count": 562,
     "free_agents": [
       {
         "availability_status": "a",
@@ -14896,6 +14896,34 @@
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
+        "element_id": 667,
+        "first_name": "Kyran",
+        "news": "",
+        "official_draft_rank": 440,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Thompson",
+        "web_name": "Thompson"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 17,
+        "club_name": "Newcastle",
+        "club_short_name": "NEW",
+        "element_id": 666,
+        "first_name": "Michael",
+        "news": "",
+        "official_draft_rank": 441,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Mills",
+        "web_name": "Mills"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 17,
+        "club_name": "Newcastle",
+        "club_short_name": "NEW",
         "element_id": 665,
         "first_name": "Vakhtang",
         "news": "",
@@ -17986,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-19T20:40:36.627449Z",
+    "generated_at": "2026-09-19T23:05:47.025851Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29178,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-19T20:40:37.812512Z",
+  "generated_at": "2026-09-19T23:05:51.185757Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -176671,7 +176699,7 @@
             "second_name": "Rushworth",
             "status": "a",
             "team": 7,
-            "total_points": 17,
+            "total_points": 16,
             "web_name": "Rushworth"
           },
           {
@@ -188498,6 +188526,18 @@
             "status": "a"
           },
           {
+            "element": 666,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 667,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
             "element": 229,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -192488,6 +192528,18 @@
           },
           {
             "element": 665,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 666,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 667,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -236602,7 +236654,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-19T20:40:37.812512Z",
+          "generated_at": "2026-09-19T23:05:51.185757Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -241725,12 +241777,12 @@
                   {
                     "a": [
                       {
-                        "element": 110,
+                        "element": 176,
                         "value": 3
                       },
                       {
-                        "element": 176,
-                        "value": 3
+                        "element": 110,
+                        "value": 2
                       },
                       {
                         "element": 173,
@@ -241743,11 +241795,11 @@
                   {
                     "a": [
                       {
-                        "element": 110,
-                        "value": 38
+                        "element": 176,
+                        "value": 40
                       },
                       {
-                        "element": 176,
+                        "element": 110,
                         "value": 38
                       },
                       {
@@ -241756,31 +241808,31 @@
                       },
                       {
                         "element": 656,
-                        "value": 26
+                        "value": 27
                       },
                       {
                         "element": 91,
                         "value": 24
                       },
                       {
+                        "element": 184,
+                        "value": 17
+                      },
+                      {
+                        "element": 183,
+                        "value": 16
+                      },
+                      {
                         "element": 194,
                         "value": 16
                       },
                       {
-                        "element": 183,
-                        "value": 14
-                      },
-                      {
-                        "element": 184,
-                        "value": 12
-                      },
-                      {
                         "element": 104,
-                        "value": 11
+                        "value": 10
                       },
                       {
                         "element": 575,
-                        "value": 11
+                        "value": 10
                       },
                       {
                         "element": 186,
@@ -241809,16 +241861,16 @@
                         "value": 19
                       },
                       {
+                        "element": 486,
+                        "value": 17
+                      },
+                      {
                         "element": 472,
                         "value": 16
                       },
                       {
-                        "element": 486,
-                        "value": 16
-                      },
-                      {
                         "element": 558,
-                        "value": 15
+                        "value": 16
                       },
                       {
                         "element": 467,
@@ -241826,7 +241878,7 @@
                       },
                       {
                         "element": 167,
-                        "value": 8
+                        "value": 9
                       },
                       {
                         "element": 201,
@@ -241845,6 +241897,10 @@
                         "value": 4
                       },
                       {
+                        "element": 491,
+                        "value": 4
+                      },
+                      {
                         "element": 581,
                         "value": 4
                       },
@@ -241855,10 +241911,6 @@
                       {
                         "element": 488,
                         "value": 3
-                      },
-                      {
-                        "element": 491,
-                        "value": 3
                       }
                     ],
                     "identifier": "bps"
@@ -241867,7 +241919,7 @@
                     "a": [
                       {
                         "element": 91,
-                        "value": 18
+                        "value": 19
                       },
                       {
                         "element": 194,
@@ -241895,7 +241947,7 @@
                       },
                       {
                         "element": 575,
-                        "value": 6
+                        "value": 5
                       },
                       {
                         "element": 176,
@@ -241917,7 +241969,7 @@
                     "h": [
                       {
                         "element": 472,
-                        "value": 10
+                        "value": 11
                       },
                       {
                         "element": 167,
@@ -246356,7 +246408,7 @@
         "current_gameweek": 5,
         "current_state": {
           "current_rosters_path": "current_state",
-          "free_agent_count": 560,
+          "free_agent_count": 562,
           "free_agents_path": "current_state.free_agents",
           "owned_player_count": 105
         },
@@ -246632,7 +246684,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-19T20:40:37.812512Z",
+        "generated_at": "2026-09-19T23:05:51.185757Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -247536,7 +247588,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-19T20:40:36.625296Z",
+        "generated_at": "2026-09-19T23:05:47.023874Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -251264,7 +251316,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-19T20:40:37.812443Z",
+        "generated_at": "2026-09-19T23:05:51.185703Z",
         "players": [
           {
             "availability_status": "a",
@@ -317793,7 +317845,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-19T20:40:36.960856Z",
+    "generated_at": "2026-09-19T23:05:50.899969Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -319857,7 +319909,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789850435
+      "time": 1789859146
     },
     "choices": {
       "choices": [],
@@ -323218,6 +323270,18 @@
         },
         {
           "element": 665,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 666,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 667,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -327213,6 +327277,18 @@
         },
         {
           "element": 665,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 666,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 667,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -334399,12 +334475,12 @@
           {
             "a": [
               {
-                "element": 110,
+                "element": 176,
                 "value": 3
               },
               {
-                "element": 176,
-                "value": 3
+                "element": 110,
+                "value": 2
               },
               {
                 "element": 173,
@@ -334417,11 +334493,11 @@
           {
             "a": [
               {
-                "element": 110,
-                "value": 38
+                "element": 176,
+                "value": 40
               },
               {
-                "element": 176,
+                "element": 110,
                 "value": 38
               },
               {
@@ -334430,31 +334506,31 @@
               },
               {
                 "element": 656,
-                "value": 26
+                "value": 27
               },
               {
                 "element": 91,
                 "value": 24
               },
               {
+                "element": 184,
+                "value": 17
+              },
+              {
+                "element": 183,
+                "value": 16
+              },
+              {
                 "element": 194,
                 "value": 16
               },
               {
-                "element": 183,
-                "value": 14
-              },
-              {
-                "element": 184,
-                "value": 12
-              },
-              {
                 "element": 104,
-                "value": 11
+                "value": 10
               },
               {
                 "element": 575,
-                "value": 11
+                "value": 10
               },
               {
                 "element": 186,
@@ -334483,16 +334559,16 @@
                 "value": 19
               },
               {
+                "element": 486,
+                "value": 17
+              },
+              {
                 "element": 472,
                 "value": 16
               },
               {
-                "element": 486,
-                "value": 16
-              },
-              {
                 "element": 558,
-                "value": 15
+                "value": 16
               },
               {
                 "element": 467,
@@ -334500,7 +334576,7 @@
               },
               {
                 "element": 167,
-                "value": 8
+                "value": 9
               },
               {
                 "element": 201,
@@ -334519,6 +334595,10 @@
                 "value": 4
               },
               {
+                "element": 491,
+                "value": 4
+              },
+              {
                 "element": 581,
                 "value": 4
               },
@@ -334529,10 +334609,6 @@
               {
                 "element": 488,
                 "value": 3
-              },
-              {
-                "element": 491,
-                "value": 3
               }
             ],
             "identifier": "bps"
@@ -334541,7 +334617,7 @@
             "a": [
               {
                 "element": 91,
-                "value": 18
+                "value": 19
               },
               {
                 "element": 194,
@@ -334569,7 +334645,7 @@
               },
               {
                 "element": 575,
-                "value": 6
+                "value": 5
               },
               {
                 "element": 176,
@@ -334591,7 +334667,7 @@
             "h": [
               {
                 "element": 472,
-                "value": 10
+                "value": 11
               },
               {
                 "element": 167,
@@ -334915,7 +334991,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-19T20:40:36.627480Z",
+    "generated_at": "2026-09-19T23:05:47.025887Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -338814,12 +338890,12 @@
               {
                 "a": [
                   {
-                    "element": 110,
+                    "element": 176,
                     "value": 3
                   },
                   {
-                    "element": 176,
-                    "value": 3
+                    "element": 110,
+                    "value": 2
                   },
                   {
                     "element": 173,
@@ -338832,11 +338908,11 @@
               {
                 "a": [
                   {
-                    "element": 110,
-                    "value": 38
+                    "element": 176,
+                    "value": 40
                   },
                   {
-                    "element": 176,
+                    "element": 110,
                     "value": 38
                   },
                   {
@@ -338845,31 +338921,31 @@
                   },
                   {
                     "element": 656,
-                    "value": 26
+                    "value": 27
                   },
                   {
                     "element": 91,
                     "value": 24
                   },
                   {
+                    "element": 184,
+                    "value": 17
+                  },
+                  {
+                    "element": 183,
+                    "value": 16
+                  },
+                  {
                     "element": 194,
                     "value": 16
                   },
                   {
-                    "element": 183,
-                    "value": 14
-                  },
-                  {
-                    "element": 184,
-                    "value": 12
-                  },
-                  {
                     "element": 104,
-                    "value": 11
+                    "value": 10
                   },
                   {
                     "element": 575,
-                    "value": 11
+                    "value": 10
                   },
                   {
                     "element": 186,
@@ -338898,16 +338974,16 @@
                     "value": 19
                   },
                   {
+                    "element": 486,
+                    "value": 17
+                  },
+                  {
                     "element": 472,
                     "value": 16
                   },
                   {
-                    "element": 486,
-                    "value": 16
-                  },
-                  {
                     "element": 558,
-                    "value": 15
+                    "value": 16
                   },
                   {
                     "element": 467,
@@ -338915,7 +338991,7 @@
                   },
                   {
                     "element": 167,
-                    "value": 8
+                    "value": 9
                   },
                   {
                     "element": 201,
@@ -338934,6 +339010,10 @@
                     "value": 4
                   },
                   {
+                    "element": 491,
+                    "value": 4
+                  },
+                  {
                     "element": 581,
                     "value": 4
                   },
@@ -338944,10 +339024,6 @@
                   {
                     "element": 488,
                     "value": 3
-                  },
-                  {
-                    "element": 491,
-                    "value": 3
                   }
                 ],
                 "identifier": "bps"
@@ -338956,7 +339032,7 @@
                 "a": [
                   {
                     "element": 91,
-                    "value": 18
+                    "value": 19
                   },
                   {
                     "element": 194,
@@ -338984,7 +339060,7 @@
                   },
                   {
                     "element": 575,
-                    "value": 6
+                    "value": 5
                   },
                   {
                     "element": 176,
@@ -339006,7 +339082,7 @@
                 "h": [
                   {
                     "element": 472,
-                    "value": 10
+                    "value": 11
                   },
                   {
                     "element": 167,
@@ -343446,7 +343522,7 @@
     "current_gameweek": 5,
     "current_state": {
       "current_rosters_path": "current_state",
-      "free_agent_count": 560,
+      "free_agent_count": 562,
       "free_agents_path": "current_state.free_agents",
       "owned_player_count": 105
     },
@@ -343722,7 +343798,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-19T20:40:37.812512Z",
+    "generated_at": "2026-09-19T23:05:51.185757Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -343763,7 +343839,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-19T20:40:36.625296Z",
+    "generated_at": "2026-09-19T23:05:47.023874Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -347491,7 +347567,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-19T20:40:37.812443Z",
+    "generated_at": "2026-09-19T23:05:51.185703Z",
     "players": [
       {
         "availability_status": "a",
