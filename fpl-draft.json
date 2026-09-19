@@ -10066,9 +10066,9 @@
     "data_quality": {
       "active_league_entries": 7,
       "complete_rosters": true,
-      "element_status_records": 659
+      "element_status_records": 662
     },
-    "free_agent_count": 554,
+    "free_agent_count": 557,
     "free_agents": [
       {
         "availability_status": "a",
@@ -14804,6 +14804,20 @@
       },
       {
         "availability_status": "a",
+        "club_id": 6,
+        "club_name": "Chelsea",
+        "club_short_name": "CHE",
+        "element_id": 662,
+        "first_name": "Mahdi",
+        "news": "",
+        "official_draft_rank": 439,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Nicoll-Jazuli",
+        "web_name": "Nicoll-Jazuli"
+      },
+      {
+        "availability_status": "a",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
@@ -17211,6 +17225,34 @@
         "web_name": "Lo-Tutala"
       },
       {
+        "availability_status": "a",
+        "club_id": 4,
+        "club_name": "Brentford",
+        "club_short_name": "BRE",
+        "element_id": 661,
+        "first_name": "Ellery",
+        "news": "",
+        "official_draft_rank": 617,
+        "position": "GKP",
+        "position_id": 1,
+        "second_name": "Balcombe",
+        "web_name": "Balcombe"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 4,
+        "club_name": "Brentford",
+        "club_short_name": "BRE",
+        "element_id": 660,
+        "first_name": "Benjamin",
+        "news": "",
+        "official_draft_rank": 618,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "Fredrick",
+        "web_name": "Fredrick"
+      },
+      {
         "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
@@ -17827,7 +17869,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-18T21:25:27.539683Z",
+    "generated_at": "2026-09-19T00:32:59.588686Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29019,7 +29061,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-18T21:25:30.422734Z",
+  "generated_at": "2026-09-19T00:33:07.104671Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -188234,6 +188276,18 @@
             "status": "a"
           },
           {
+            "element": 661,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 662,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
             "element": 229,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -192188,6 +192242,24 @@
           },
           {
             "element": 659,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 660,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 661,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "a"
+          },
+          {
+            "element": 662,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -236302,7 +236374,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-18T21:25:30.422734Z",
+          "generated_at": "2026-09-19T00:33:07.104671Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -239678,7 +239750,7 @@
                       },
                       {
                         "element": 102,
-                        "value": 18
+                        "value": 19
                       },
                       {
                         "element": 86,
@@ -239686,7 +239758,7 @@
                       },
                       {
                         "element": 96,
-                        "value": 13
+                        "value": 15
                       },
                       {
                         "element": 98,
@@ -239764,24 +239836,24 @@
                         "value": 16
                       },
                       {
+                        "element": 96,
+                        "value": 10
+                      },
+                      {
                         "element": 102,
-                        "value": 11
+                        "value": 10
+                      },
+                      {
+                        "element": 86,
+                        "value": 9
                       },
                       {
                         "element": 87,
                         "value": 9
                       },
                       {
-                        "element": 96,
-                        "value": 9
-                      },
-                      {
                         "element": 98,
                         "value": 9
-                      },
-                      {
-                        "element": 86,
-                        "value": 8
                       },
                       {
                         "element": 94,
@@ -244303,7 +244375,7 @@
         "current_gameweek": 5,
         "current_state": {
           "current_rosters_path": "current_state",
-          "free_agent_count": 554,
+          "free_agent_count": 557,
           "free_agents_path": "current_state.free_agents",
           "owned_player_count": 105
         },
@@ -244579,7 +244651,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-18T21:25:30.422734Z",
+        "generated_at": "2026-09-19T00:33:07.104671Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -245483,7 +245555,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-18T21:25:27.537605Z",
+        "generated_at": "2026-09-19T00:32:59.587137Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -249211,7 +249283,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-18T21:25:30.422678Z",
+        "generated_at": "2026-09-19T00:33:07.104621Z",
         "players": [
           {
             "availability_status": "a",
@@ -315740,7 +315812,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-18T21:25:29.358046Z",
+    "generated_at": "2026-09-19T00:33:05.519061Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138487,
@@ -319713,7 +319785,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789766724
+      "time": 1789777977
     },
     "choices": {
       "choices": [],
@@ -323044,6 +323116,18 @@
         },
         {
           "element": 660,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 661,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 662,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -327003,6 +327087,24 @@
         },
         {
           "element": 659,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 660,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 661,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "a"
+        },
+        {
+          "element": 662,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -332442,7 +332544,7 @@
               },
               {
                 "element": 102,
-                "value": 18
+                "value": 19
               },
               {
                 "element": 86,
@@ -332450,7 +332552,7 @@
               },
               {
                 "element": 96,
-                "value": 13
+                "value": 15
               },
               {
                 "element": 98,
@@ -332528,24 +332630,24 @@
                 "value": 16
               },
               {
+                "element": 96,
+                "value": 10
+              },
+              {
                 "element": 102,
-                "value": 11
+                "value": 10
+              },
+              {
+                "element": 86,
+                "value": 9
               },
               {
                 "element": 87,
                 "value": 9
               },
               {
-                "element": 96,
-                "value": 9
-              },
-              {
                 "element": 98,
                 "value": 9
-              },
-              {
-                "element": 86,
-                "value": 8
               },
               {
                 "element": 94,
@@ -332952,7 +333054,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-18T21:25:27.539721Z",
+    "generated_at": "2026-09-19T00:32:59.588714Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -335104,7 +335206,7 @@
                   },
                   {
                     "element": 102,
-                    "value": 18
+                    "value": 19
                   },
                   {
                     "element": 86,
@@ -335112,7 +335214,7 @@
                   },
                   {
                     "element": 96,
-                    "value": 13
+                    "value": 15
                   },
                   {
                     "element": 98,
@@ -335190,24 +335292,24 @@
                     "value": 16
                   },
                   {
+                    "element": 96,
+                    "value": 10
+                  },
+                  {
                     "element": 102,
-                    "value": 11
+                    "value": 10
+                  },
+                  {
+                    "element": 86,
+                    "value": 9
                   },
                   {
                     "element": 87,
                     "value": 9
                   },
                   {
-                    "element": 96,
-                    "value": 9
-                  },
-                  {
                     "element": 98,
                     "value": 9
-                  },
-                  {
-                    "element": 86,
-                    "value": 8
                   },
                   {
                     "element": 94,
@@ -339730,7 +339832,7 @@
     "current_gameweek": 5,
     "current_state": {
       "current_rosters_path": "current_state",
-      "free_agent_count": 554,
+      "free_agent_count": 557,
       "free_agents_path": "current_state.free_agents",
       "owned_player_count": 105
     },
@@ -340006,7 +340108,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-18T21:25:30.422734Z",
+    "generated_at": "2026-09-19T00:33:07.104671Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -340047,7 +340149,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-18T21:25:27.537605Z",
+    "generated_at": "2026-09-19T00:32:59.587137Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -343775,7 +343877,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-18T21:25:30.422678Z",
+    "generated_at": "2026-09-19T00:33:07.104621Z",
     "players": [
       {
         "availability_status": "a",
