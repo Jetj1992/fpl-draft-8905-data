@@ -208,16 +208,16 @@
         "web_name": "Saka"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 14,
         "element_type": 3,
         "first_name": "Declan",
         "id": 13,
         "minutes": 411,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Rice",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 20,
         "web_name": "Rice"
@@ -2323,16 +2323,16 @@
         "web_name": "Disasi"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 4,
         "element_type": 3,
         "first_name": "Cole",
         "id": 154,
         "minutes": 442,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Palmer",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 28,
         "web_name": "Palmer"
@@ -4888,16 +4888,16 @@
         "web_name": "Mehmeti"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 463,
         "element_type": 1,
         "first_name": "Karl",
         "id": 325,
         "minutes": 0,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Darlow",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 0,
         "web_name": "Darlow"
@@ -6493,16 +6493,16 @@
         "web_name": "Amad"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 169,
         "element_type": 3,
         "first_name": "Kobbie",
         "id": 432,
         "minutes": 354,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Mainoo",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 22,
         "web_name": "Mainoo"
@@ -8638,16 +8638,16 @@
         "web_name": "Yirenkyi"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 569,
         "element_type": 2,
         "first_name": "Takehiro",
         "id": 575,
         "minutes": 189,
-        "news": "",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Tomiyasu",
-        "status": "a",
+        "status": "d",
         "team": 8,
         "total_points": 3,
         "web_name": "Tomiyasu"
@@ -11504,13 +11504,13 @@
         "web_name": "Nmecha"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 432,
         "first_name": "Kobbie",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 169,
         "position": "MID",
         "position_id": 3,
@@ -15172,13 +15172,13 @@
         "web_name": "Reinildo"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 325,
         "first_name": "Karl",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 463,
         "position": "GKP",
         "position_id": 1,
@@ -16642,13 +16642,13 @@
         "web_name": "Elvedi"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 575,
         "first_name": "Takehiro",
-        "news": "",
+        "news": "Calf injury - 75% chance of playing",
         "official_draft_rank": 569,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-21T12:48:44.745409Z",
+    "generated_at": "2026-09-21T19:59:52.201957Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18967,7 +18967,7 @@
             "web_name": "Foden"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -18976,7 +18976,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Cole",
             "league_entry_id": 138641,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "official_draft_rank": 4,
             "position": "MID",
             "position_id": 3,
@@ -19510,7 +19510,7 @@
             "web_name": "Rayan"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -19519,7 +19519,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Declan",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 14,
             "position": "MID",
             "position_id": 3,
@@ -28729,10 +28729,10 @@
         "name": "Gameweek 4"
       },
       {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-09-18T17:30:00Z",
         "deadline_time_epoch": 1789752600,
-        "finished": false,
+        "finished": true,
         "id": 5,
         "is_current": true,
         "is_next": false,
@@ -28785,8 +28785,8 @@
       },
       {
         "data_checked": false,
-        "deadline_time": "2026-11-07T13:30:00Z",
-        "deadline_time_epoch": 1794058200,
+        "deadline_time": "2026-11-06T18:30:00Z",
+        "deadline_time_epoch": 1793989800,
         "finished": false,
         "id": 10,
         "is_current": false,
@@ -28796,8 +28796,8 @@
       },
       {
         "data_checked": false,
-        "deadline_time": "2026-11-21T13:30:00Z",
-        "deadline_time_epoch": 1795267800,
+        "deadline_time": "2026-11-21T11:00:00Z",
+        "deadline_time_epoch": 1795258800,
         "finished": false,
         "id": 11,
         "is_current": false,
@@ -28807,8 +28807,8 @@
       },
       {
         "data_checked": false,
-        "deadline_time": "2026-11-28T13:30:00Z",
-        "deadline_time_epoch": 1795872600,
+        "deadline_time": "2026-11-27T18:30:00Z",
+        "deadline_time_epoch": 1795804200,
         "finished": false,
         "id": 12,
         "is_current": false,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-21T12:48:45.867878Z",
+  "generated_at": "2026-09-21T19:59:52.990144Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -252964,16 +252964,16 @@
             "web_name": "Saka"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 14,
             "element_type": 3,
             "first_name": "Declan",
             "id": 13,
             "minutes": 411,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Rice",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 20,
             "web_name": "Rice"
@@ -255079,16 +255079,16 @@
             "web_name": "Disasi"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 4,
             "element_type": 3,
             "first_name": "Cole",
             "id": 154,
             "minutes": 442,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Palmer",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 28,
             "web_name": "Palmer"
@@ -257644,16 +257644,16 @@
             "web_name": "Mehmeti"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 463,
             "element_type": 1,
             "first_name": "Karl",
             "id": 325,
             "minutes": 0,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Darlow",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 0,
             "web_name": "Darlow"
@@ -259249,16 +259249,16 @@
             "web_name": "Amad"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 169,
             "element_type": 3,
             "first_name": "Kobbie",
             "id": 432,
             "minutes": 354,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Mainoo",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 22,
             "web_name": "Mainoo"
@@ -261394,16 +261394,16 @@
             "web_name": "Yirenkyi"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 569,
             "element_type": 2,
             "first_name": "Takehiro",
             "id": 575,
             "minutes": 189,
-            "news": "",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Tomiyasu",
-            "status": "a",
+            "status": "d",
             "team": 8,
             "total_points": 3,
             "web_name": "Tomiyasu"
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-09-21T12:48:45.867878Z",
+          "generated_at": "2026-09-21T19:59:52.990144Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -317340,10 +317340,10 @@
               }
             ],
             "event": {
-              "data_checked": false,
+              "data_checked": true,
               "deadline_time": "2026-09-18T17:30:00Z",
               "deadline_time_epoch": 1789752600,
-              "finished": false,
+              "finished": true,
               "id": 5,
               "is_current": true,
               "is_next": false,
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-09-21T12:48:45.867878Z",
+        "generated_at": "2026-09-21T19:59:52.990144Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -325506,7 +325506,7 @@
           "available": true,
           "gameweek": 5,
           "key_matchups": 0,
-          "status": "in_progress"
+          "status": "finished"
         },
         "next_deadline": {
           "deadline_time_copenhagen": "2026-10-10T12:00:00+02:00",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-21T12:48:44.743470Z",
+        "generated_at": "2026-09-21T19:59:52.199987Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-09-21T12:48:45.867829Z",
+        "generated_at": "2026-09-21T19:59:52.990088Z",
         "players": [
           {
             "availability_status": "a",
@@ -396791,12 +396791,12 @@
     },
     "event": {
       "deadline_time": "2026-09-18T17:30:00Z",
-      "finished": false,
+      "finished": true,
       "is_current": true,
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-21T12:48:45.708193Z",
+    "generated_at": "2026-09-21T19:59:52.845285Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396959,7 +396959,7 @@
       }
     ],
     "schema_version": 1,
-    "status": "in_progress"
+    "status": "finished"
   },
   "optional_endpoints": {
     "bootstrap_dynamic": {
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789994923
+      "time": 1790020792
     },
     "choices": {
       "choices": [],
@@ -413384,7 +413384,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-21T12:48:44.745443Z",
+    "generated_at": "2026-09-21T19:59:52.201992Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -415315,10 +415315,10 @@
           }
         ],
         "event": {
-          "data_checked": false,
+          "data_checked": true,
           "deadline_time": "2026-09-18T17:30:00Z",
           "deadline_time_epoch": 1789752600,
-          "finished": false,
+          "finished": true,
           "id": 5,
           "is_current": true,
           "is_next": false,
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-09-21T12:48:45.867878Z",
+    "generated_at": "2026-09-21T19:59:52.990144Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423482,7 +423482,7 @@
       "available": true,
       "gameweek": 5,
       "key_matchups": 0,
-      "status": "in_progress"
+      "status": "finished"
     },
     "next_deadline": {
       "deadline_time_copenhagen": "2026-10-10T12:00:00+02:00",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-21T12:48:44.743470Z",
+    "generated_at": "2026-09-21T19:59:52.199987Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-09-21T12:48:45.867829Z",
+    "generated_at": "2026-09-21T19:59:52.990088Z",
     "players": [
       {
         "availability_status": "a",
