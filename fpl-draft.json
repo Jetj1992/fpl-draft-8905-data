@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-20T23:15:07.895681Z",
+    "generated_at": "2026-09-21T04:56:16.448799Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-20T23:15:09.917336Z",
+  "generated_at": "2026-09-21T04:56:19.470739Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -236654,7 +236654,7 @@
           "data_checked": true,
           "gameweek": 4,
           "gameweek_finished": true,
-          "generated_at": "2026-09-20T23:15:09.917336Z",
+          "generated_at": "2026-09-21T04:56:19.470739Z",
           "league_id": 8905,
           "recap_fingerprint": "855082f9c4a1353e5373cad5a67bf700a4e8118b57a5f6e2545fc38354d3c3e2",
           "recap_ready": true,
@@ -248015,7 +248015,7 @@
             "waiver_pick": 3
           }
         ],
-        "generated_at": "2026-09-20T23:15:09.917336Z",
+        "generated_at": "2026-09-21T04:56:19.470739Z",
         "latest_complete_gameweek": 4,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -248919,7 +248919,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-20T23:15:07.894118Z",
+        "generated_at": "2026-09-21T04:56:16.446815Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -252647,7 +252647,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 4,
-        "generated_at": "2026-09-20T23:15:09.917291Z",
+        "generated_at": "2026-09-21T04:56:19.470686Z",
         "players": [
           {
             "availability_status": "a",
@@ -319176,7 +319176,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-20T23:15:09.513304Z",
+    "generated_at": "2026-09-21T04:56:18.257899Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -319351,7 +319351,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1789946106
+      "time": 1789966574
     },
     "choices": {
       "choices": [],
@@ -335764,7 +335764,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-20T23:15:07.895718Z",
+    "generated_at": "2026-09-21T04:56:16.448837Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -345902,7 +345902,7 @@
         "waiver_pick": 3
       }
     ],
-    "generated_at": "2026-09-20T23:15:09.917336Z",
+    "generated_at": "2026-09-21T04:56:19.470739Z",
     "latest_complete_gameweek": 4,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -345943,7 +345943,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-20T23:15:07.894118Z",
+    "generated_at": "2026-09-21T04:56:16.446815Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -349671,7 +349671,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 4,
-    "generated_at": "2026-09-20T23:15:09.917291Z",
+    "generated_at": "2026-09-21T04:56:19.470686Z",
     "players": [
       {
         "availability_status": "a",
