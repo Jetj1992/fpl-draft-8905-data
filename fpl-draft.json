@@ -5968,16 +5968,16 @@
         "web_name": "Vitor Reis"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 6,
         "element_type": 3,
         "first_name": "Antoine",
         "id": 397,
         "minutes": 450,
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Semenyo",
-        "status": "a",
+        "status": "d",
         "team": 15,
         "total_points": 33,
         "web_name": "Semenyo"
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-24T11:46:32.609599Z",
+    "generated_at": "2026-09-24T17:12:38.934565Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19790,7 +19790,7 @@
             "web_name": "Groß"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -19799,7 +19799,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Antoine",
             "league_entry_id": 321694,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "official_draft_rank": 6,
             "position": "MID",
             "position_id": 3,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-24T11:46:34.660007Z",
+  "generated_at": "2026-09-24T17:12:40.243781Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -258724,16 +258724,16 @@
             "web_name": "Vitor Reis"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 6,
             "element_type": 3,
             "first_name": "Antoine",
             "id": 397,
             "minutes": 450,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Semenyo",
-            "status": "a",
+            "status": "d",
             "team": 15,
             "total_points": 33,
             "web_name": "Semenyo"
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-09-24T11:46:34.660007Z",
+          "generated_at": "2026-09-24T17:12:40.243781Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-09-24T11:46:34.660007Z",
+        "generated_at": "2026-09-24T17:12:40.243781Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-24T11:46:32.607663Z",
+        "generated_at": "2026-09-24T17:12:38.932655Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-09-24T11:46:34.659933Z",
+        "generated_at": "2026-09-24T17:12:40.243731Z",
         "players": [
           {
             "availability_status": "a",
@@ -396796,7 +396796,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-24T11:46:34.357048Z",
+    "generated_at": "2026-09-24T17:12:40.122754Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1790250390
+      "time": 1790269958
     },
     "choices": {
       "choices": [],
@@ -413384,7 +413384,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-24T11:46:32.609634Z",
+    "generated_at": "2026-09-24T17:12:38.934597Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-09-24T11:46:34.660007Z",
+    "generated_at": "2026-09-24T17:12:40.243781Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-24T11:46:32.607663Z",
+    "generated_at": "2026-09-24T17:12:38.932655Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-09-24T11:46:34.659933Z",
+    "generated_at": "2026-09-24T17:12:40.243731Z",
     "players": [
       {
         "availability_status": "a",
