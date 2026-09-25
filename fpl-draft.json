@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-25T04:58:13.141060Z",
+    "generated_at": "2026-09-25T11:51:40.482439Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-25T04:58:14.161991Z",
+  "generated_at": "2026-09-25T11:51:43.184327Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -309964,7 +309964,7 @@
             }
           ],
           "team_a": 1,
-          "team_a_difficulty": 3,
+          "team_a_difficulty": 4,
           "team_a_score": 0,
           "team_h": 5,
           "team_h_difficulty": 4,
@@ -311716,7 +311716,7 @@
           "team_a_difficulty": 3,
           "team_a_score": 0,
           "team_h": 13,
-          "team_h_difficulty": 3,
+          "team_h_difficulty": 2,
           "team_h_score": 0
         },
         {
@@ -312076,7 +312076,7 @@
           "team_a_difficulty": 5,
           "team_a_score": 3,
           "team_h": 15,
-          "team_h_difficulty": 2,
+          "team_h_difficulty": 3,
           "team_h_score": 5
         },
         {
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-09-25T04:58:14.161991Z",
+          "generated_at": "2026-09-25T11:51:43.184327Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -318481,7 +318481,7 @@
                   }
                 ],
                 "team_a": 1,
-                "team_a_difficulty": 3,
+                "team_a_difficulty": 4,
                 "team_a_score": 0,
                 "team_h": 5,
                 "team_h_difficulty": 4,
@@ -320233,7 +320233,7 @@
                 "team_a_difficulty": 3,
                 "team_a_score": 0,
                 "team_h": 13,
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_h_score": 0
               },
               {
@@ -320593,7 +320593,7 @@
                 "team_a_difficulty": 5,
                 "team_a_score": 3,
                 "team_h": 15,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": 5
               },
               {
@@ -321044,7 +321044,7 @@
                 "team_a_difficulty": 5,
                 "team_a_score": null,
                 "team_h": 1,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               },
               {
@@ -321060,7 +321060,7 @@
                 "started": false,
                 "stats": [],
                 "team_a": 4,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "team_a_score": null,
                 "team_h": 2,
                 "team_h_difficulty": 3,
@@ -321120,7 +321120,7 @@
                 "team_a_difficulty": 3,
                 "team_a_score": null,
                 "team_h": 20,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               },
               {
@@ -321139,7 +321139,7 @@
                 "team_a_difficulty": 4,
                 "team_a_score": null,
                 "team_h": 16,
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_h_score": null
               },
               {
@@ -321215,7 +321215,7 @@
                 "team_a_difficulty": 2,
                 "team_a_score": null,
                 "team_h": 7,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               }
             ]
@@ -321653,7 +321653,7 @@
                   }
                 ],
                 "team_a": 18,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "team_a_score": 2,
                 "team_h": 2,
                 "team_h_difficulty": 3,
@@ -324265,7 +324265,7 @@
                 "team_a_difficulty": 2,
                 "team_a_score": 5,
                 "team_h": 7,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": 0
               },
               {
@@ -325001,7 +325001,7 @@
                 "team_a_difficulty": 3,
                 "team_a_score": 1,
                 "team_h": 13,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": 4
               }
             ]
@@ -325088,7 +325088,7 @@
                 "team_a_difficulty": 5,
                 "team_a_score": null,
                 "team_h": 1,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               },
               {
@@ -325104,7 +325104,7 @@
                 "started": false,
                 "stats": [],
                 "team_a": 4,
-                "team_a_difficulty": 4,
+                "team_a_difficulty": 3,
                 "team_a_score": null,
                 "team_h": 2,
                 "team_h_difficulty": 3,
@@ -325164,7 +325164,7 @@
                 "team_a_difficulty": 3,
                 "team_a_score": null,
                 "team_h": 20,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               },
               {
@@ -325183,7 +325183,7 @@
                 "team_a_difficulty": 4,
                 "team_a_score": null,
                 "team_h": 16,
-                "team_h_difficulty": 3,
+                "team_h_difficulty": 2,
                 "team_h_score": null
               },
               {
@@ -325259,7 +325259,7 @@
                 "team_a_difficulty": 2,
                 "team_a_score": null,
                 "team_h": 7,
-                "team_h_difficulty": 2,
+                "team_h_difficulty": 3,
                 "team_h_score": null
               }
             ]
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-09-25T04:58:14.161991Z",
+        "generated_at": "2026-09-25T11:51:43.184327Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-25T04:58:13.139076Z",
+        "generated_at": "2026-09-25T11:51:40.480827Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-09-25T04:58:14.161937Z",
+        "generated_at": "2026-09-25T11:51:43.184279Z",
         "players": [
           {
             "availability_status": "a",
@@ -396796,7 +396796,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-25T04:58:13.886961Z",
+    "generated_at": "2026-09-25T11:51:42.820302Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1790312293
+      "time": 1790337097
     },
     "choices": {
       "choices": [],
@@ -406228,7 +406228,7 @@
           }
         ],
         "team_a": 18,
-        "team_a_difficulty": 4,
+        "team_a_difficulty": 3,
         "team_a_score": 2,
         "team_h": 2,
         "team_h_difficulty": 3,
@@ -408840,7 +408840,7 @@
         "team_a_difficulty": 2,
         "team_a_score": 5,
         "team_h": 7,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": 0
       },
       {
@@ -409576,7 +409576,7 @@
         "team_a_difficulty": 3,
         "team_a_score": 1,
         "team_h": 13,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": 4
       }
     ],
@@ -410710,7 +410710,7 @@
           }
         ],
         "team_a": 1,
-        "team_a_difficulty": 3,
+        "team_a_difficulty": 4,
         "team_a_score": 0,
         "team_h": 5,
         "team_h_difficulty": 4,
@@ -412462,7 +412462,7 @@
         "team_a_difficulty": 3,
         "team_a_score": 0,
         "team_h": 13,
-        "team_h_difficulty": 3,
+        "team_h_difficulty": 2,
         "team_h_score": 0
       },
       {
@@ -412822,7 +412822,7 @@
         "team_a_difficulty": 5,
         "team_a_score": 3,
         "team_h": 15,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": 5
       },
       {
@@ -413207,7 +413207,7 @@
         "team_a_difficulty": 5,
         "team_a_score": null,
         "team_h": 1,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": null
       },
       {
@@ -413223,7 +413223,7 @@
         "started": false,
         "stats": [],
         "team_a": 4,
-        "team_a_difficulty": 4,
+        "team_a_difficulty": 3,
         "team_a_score": null,
         "team_h": 2,
         "team_h_difficulty": 3,
@@ -413283,7 +413283,7 @@
         "team_a_difficulty": 3,
         "team_a_score": null,
         "team_h": 20,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": null
       },
       {
@@ -413302,7 +413302,7 @@
         "team_a_difficulty": 4,
         "team_a_score": null,
         "team_h": 16,
-        "team_h_difficulty": 3,
+        "team_h_difficulty": 2,
         "team_h_score": null
       },
       {
@@ -413378,13 +413378,13 @@
         "team_a_difficulty": 2,
         "team_a_score": null,
         "team_h": 7,
-        "team_h_difficulty": 2,
+        "team_h_difficulty": 3,
         "team_h_score": null
       }
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-25T04:58:13.141094Z",
+    "generated_at": "2026-09-25T11:51:40.482467Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -416456,7 +416456,7 @@
               }
             ],
             "team_a": 1,
-            "team_a_difficulty": 3,
+            "team_a_difficulty": 4,
             "team_a_score": 0,
             "team_h": 5,
             "team_h_difficulty": 4,
@@ -418208,7 +418208,7 @@
             "team_a_difficulty": 3,
             "team_a_score": 0,
             "team_h": 13,
-            "team_h_difficulty": 3,
+            "team_h_difficulty": 2,
             "team_h_score": 0
           },
           {
@@ -418568,7 +418568,7 @@
             "team_a_difficulty": 5,
             "team_a_score": 3,
             "team_h": 15,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": 5
           },
           {
@@ -419019,7 +419019,7 @@
             "team_a_difficulty": 5,
             "team_a_score": null,
             "team_h": 1,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           },
           {
@@ -419035,7 +419035,7 @@
             "started": false,
             "stats": [],
             "team_a": 4,
-            "team_a_difficulty": 4,
+            "team_a_difficulty": 3,
             "team_a_score": null,
             "team_h": 2,
             "team_h_difficulty": 3,
@@ -419095,7 +419095,7 @@
             "team_a_difficulty": 3,
             "team_a_score": null,
             "team_h": 20,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           },
           {
@@ -419114,7 +419114,7 @@
             "team_a_difficulty": 4,
             "team_a_score": null,
             "team_h": 16,
-            "team_h_difficulty": 3,
+            "team_h_difficulty": 2,
             "team_h_score": null
           },
           {
@@ -419190,7 +419190,7 @@
             "team_a_difficulty": 2,
             "team_a_score": null,
             "team_h": 7,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           }
         ]
@@ -419628,7 +419628,7 @@
               }
             ],
             "team_a": 18,
-            "team_a_difficulty": 4,
+            "team_a_difficulty": 3,
             "team_a_score": 2,
             "team_h": 2,
             "team_h_difficulty": 3,
@@ -422240,7 +422240,7 @@
             "team_a_difficulty": 2,
             "team_a_score": 5,
             "team_h": 7,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": 0
           },
           {
@@ -422976,7 +422976,7 @@
             "team_a_difficulty": 3,
             "team_a_score": 1,
             "team_h": 13,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": 4
           }
         ]
@@ -423063,7 +423063,7 @@
             "team_a_difficulty": 5,
             "team_a_score": null,
             "team_h": 1,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           },
           {
@@ -423079,7 +423079,7 @@
             "started": false,
             "stats": [],
             "team_a": 4,
-            "team_a_difficulty": 4,
+            "team_a_difficulty": 3,
             "team_a_score": null,
             "team_h": 2,
             "team_h_difficulty": 3,
@@ -423139,7 +423139,7 @@
             "team_a_difficulty": 3,
             "team_a_score": null,
             "team_h": 20,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           },
           {
@@ -423158,7 +423158,7 @@
             "team_a_difficulty": 4,
             "team_a_score": null,
             "team_h": 16,
-            "team_h_difficulty": 3,
+            "team_h_difficulty": 2,
             "team_h_score": null
           },
           {
@@ -423234,7 +423234,7 @@
             "team_a_difficulty": 2,
             "team_a_score": null,
             "team_h": 7,
-            "team_h_difficulty": 2,
+            "team_h_difficulty": 3,
             "team_h_score": null
           }
         ]
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-09-25T04:58:14.161991Z",
+    "generated_at": "2026-09-25T11:51:43.184327Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-25T04:58:13.139076Z",
+    "generated_at": "2026-09-25T11:51:40.480827Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-09-25T04:58:14.161937Z",
+    "generated_at": "2026-09-25T11:51:43.184279Z",
     "players": [
       {
         "availability_status": "a",
