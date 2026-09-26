@@ -2383,16 +2383,16 @@
         "web_name": "Estêvão"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 109,
         "element_type": 3,
         "first_name": "Jamie",
         "id": 158,
         "minutes": 0,
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Bynoe-Gittens",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 0,
         "web_name": "Gittens"
@@ -10874,13 +10874,13 @@
         "web_name": "Solanke"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 158,
         "first_name": "Jamie",
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 109,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-09-26T04:58:50.262960Z",
+    "generated_at": "2026-09-26T11:25:24.537866Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-09-26T04:58:50.704240Z",
+  "generated_at": "2026-09-26T11:25:27.211336Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -255139,16 +255139,16 @@
             "web_name": "Estêvão"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 109,
             "element_type": 3,
             "first_name": "Jamie",
             "id": 158,
             "minutes": 0,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Bynoe-Gittens",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 0,
             "web_name": "Gittens"
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-09-26T04:58:50.704240Z",
+          "generated_at": "2026-09-26T11:25:27.211336Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-09-26T04:58:50.704240Z",
+        "generated_at": "2026-09-26T11:25:27.211336Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-09-26T04:58:50.261041Z",
+        "generated_at": "2026-09-26T11:25:24.536622Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-09-26T04:58:50.704179Z",
+        "generated_at": "2026-09-26T11:25:27.211291Z",
         "players": [
           {
             "availability_status": "a",
@@ -396796,7 +396796,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-09-26T04:58:50.572508Z",
+    "generated_at": "2026-09-26T11:25:26.746367Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1790398729
+      "time": 1790421922
     },
     "choices": {
       "choices": [],
@@ -413384,7 +413384,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-09-26T04:58:50.262995Z",
+    "generated_at": "2026-09-26T11:25:24.537891Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-09-26T04:58:50.704240Z",
+    "generated_at": "2026-09-26T11:25:27.211336Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-09-26T04:58:50.261041Z",
+    "generated_at": "2026-09-26T11:25:24.536622Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-09-26T04:58:50.704179Z",
+    "generated_at": "2026-09-26T11:25:27.211291Z",
     "players": [
       {
         "availability_status": "a",
