@@ -1048,16 +1048,16 @@
         "web_name": "Tavernier"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 73,
         "element_type": 3,
         "first_name": "Alex",
         "id": 69,
         "minutes": 446,
-        "news": "Thigh injury - 50% chance of playing",
+        "news": "Thigh injury - Unknown return date",
         "second_name": "Scott",
-        "status": "d",
+        "status": "i",
         "team": 3,
         "total_points": 30,
         "web_name": "Scott"
@@ -2668,16 +2668,16 @@
         "web_name": "Dasilva"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 609,
         "element_type": 2,
         "first_name": "Kaine",
         "id": 177,
         "minutes": 0,
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - 50% chance of playing",
         "second_name": "Kesler-Hayden",
-        "status": "i",
+        "status": "d",
         "team": 7,
         "total_points": 0,
         "web_name": "Kesler-Hayden"
@@ -3913,16 +3913,16 @@
         "web_name": "Diop"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 34,
         "element_type": 3,
         "first_name": "Harry",
         "id": 260,
         "minutes": 145,
-        "news": "Thigh injury - Unknown return date",
+        "news": "Thigh injury - 75% chance of playing",
         "second_name": "Wilson",
-        "status": "i",
+        "status": "d",
         "team": 13,
         "total_points": 5,
         "web_name": "Wilson"
@@ -5158,16 +5158,16 @@
         "web_name": "Harrison"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 328,
         "element_type": 3,
         "first_name": "Daniel",
         "id": 343,
         "minutes": 52,
-        "news": "",
+        "news": "Back injury - Expected back 18 Oct",
         "second_name": "James",
-        "status": "a",
+        "status": "i",
         "team": 13,
         "total_points": 3,
         "web_name": "James"
@@ -6883,16 +6883,16 @@
         "web_name": "J.Murphy"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 170,
         "element_type": 3,
         "first_name": "Joelinton Cássio",
         "id": 458,
         "minutes": 0,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Apolinário de Lira",
-        "status": "i",
+        "status": "d",
         "team": 17,
         "total_points": 0,
         "web_name": "Joelinton"
@@ -7993,16 +7993,16 @@
         "web_name": "Ellborg"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 258,
         "element_type": 2,
         "first_name": "Daniel",
         "id": 532,
         "minutes": 450,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Unknown return date",
         "second_name": "Ballard",
-        "status": "d",
+        "status": "i",
         "team": 20,
         "total_points": 14,
         "web_name": "Ballard"
@@ -8165,7 +8165,7 @@
         "first_name": "Habib",
         "id": 543,
         "minutes": 28,
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 18 Oct",
         "second_name": "Diarra",
         "status": "i",
         "team": 20,
@@ -8293,16 +8293,16 @@
         "web_name": "N.Angulo"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 88,
         "element_type": 4,
         "first_name": "Brian",
         "id": 552,
         "minutes": 399,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 25 Oct",
         "second_name": "Brobbey",
-        "status": "d",
+        "status": "i",
         "team": 20,
         "total_points": 24,
         "web_name": "Brobbey"
@@ -9733,16 +9733,16 @@
         "web_name": "Bard"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 237,
         "element_type": 3,
         "first_name": "Jean-Mattéo",
         "id": 648,
         "minutes": 1,
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Bahoya",
-        "status": "a",
+        "status": "d",
         "team": 13,
         "total_points": 1,
         "web_name": "Bahoya"
@@ -11518,13 +11518,13 @@
         "web_name": "Mainoo"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 458,
         "first_name": "Joelinton Cássio",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 170,
         "position": "MID",
         "position_id": 3,
@@ -11566,7 +11566,7 @@
         "club_short_name": "SUN",
         "element_id": 543,
         "first_name": "Habib",
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 18 Oct",
         "official_draft_rank": 173,
         "position": "MID",
         "position_id": 3,
@@ -12330,13 +12330,13 @@
         "web_name": "Hamer"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 13,
         "club_name": "Leeds",
         "club_short_name": "LEE",
         "element_id": 648,
         "first_name": "Jean-Mattéo",
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 237,
         "position": "MID",
         "position_id": 3,
@@ -12498,13 +12498,13 @@
         "web_name": "O'Brien"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 532,
         "first_name": "Daniel",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Unknown return date",
         "official_draft_rank": 258,
         "position": "DEF",
         "position_id": 2,
@@ -13408,13 +13408,13 @@
         "web_name": "Alcaraz"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 13,
         "club_name": "Leeds",
         "club_short_name": "LEE",
         "element_id": 343,
         "first_name": "Daniel",
-        "news": "",
+        "news": "Back injury - Expected back 18 Oct",
         "official_draft_rank": 328,
         "position": "MID",
         "position_id": 3,
@@ -17202,13 +17202,13 @@
         "web_name": "Dasilva"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 177,
         "first_name": "Kaine",
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - 50% chance of playing",
         "official_draft_rank": 609,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-08T10:35:26.927404Z",
+    "generated_at": "2026-10-08T18:50:54.304698Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18441,7 +18441,7 @@
             "web_name": "Grealish"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 3,
             "club_name": "Bournemouth",
             "club_short_name": "BOU",
@@ -18450,7 +18450,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Alex",
             "league_entry_id": 138487,
-            "news": "Thigh injury - 50% chance of playing",
+            "news": "Thigh injury - Unknown return date",
             "official_draft_rank": 73,
             "position": "MID",
             "position_id": 3,
@@ -19001,7 +19001,7 @@
             "web_name": "Rogers"
           },
           {
-            "availability_status": "i",
+            "availability_status": "d",
             "club_id": 13,
             "club_name": "Leeds",
             "club_short_name": "LEE",
@@ -19010,7 +19010,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Harry",
             "league_entry_id": 138641,
-            "news": "Thigh injury - Unknown return date",
+            "news": "Thigh injury - 75% chance of playing",
             "official_draft_rank": 34,
             "position": "MID",
             "position_id": 3,
@@ -19807,7 +19807,7 @@
             "web_name": "Semenyo"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 20,
             "club_name": "Sunderland",
             "club_short_name": "SUN",
@@ -19816,7 +19816,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Brian",
             "league_entry_id": 321694,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Expected back 25 Oct",
             "official_draft_rank": 88,
             "position": "FWD",
             "position_id": 4,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-08T10:35:30.684923Z",
+  "generated_at": "2026-10-08T18:50:55.567301Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -253804,16 +253804,16 @@
             "web_name": "Tavernier"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 73,
             "element_type": 3,
             "first_name": "Alex",
             "id": 69,
             "minutes": 446,
-            "news": "Thigh injury - 50% chance of playing",
+            "news": "Thigh injury - Unknown return date",
             "second_name": "Scott",
-            "status": "d",
+            "status": "i",
             "team": 3,
             "total_points": 30,
             "web_name": "Scott"
@@ -255424,16 +255424,16 @@
             "web_name": "Dasilva"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 609,
             "element_type": 2,
             "first_name": "Kaine",
             "id": 177,
             "minutes": 0,
-            "news": "Hamstring injury - Unknown return date",
+            "news": "Hamstring injury - 50% chance of playing",
             "second_name": "Kesler-Hayden",
-            "status": "i",
+            "status": "d",
             "team": 7,
             "total_points": 0,
             "web_name": "Kesler-Hayden"
@@ -256669,16 +256669,16 @@
             "web_name": "Diop"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 34,
             "element_type": 3,
             "first_name": "Harry",
             "id": 260,
             "minutes": 145,
-            "news": "Thigh injury - Unknown return date",
+            "news": "Thigh injury - 75% chance of playing",
             "second_name": "Wilson",
-            "status": "i",
+            "status": "d",
             "team": 13,
             "total_points": 5,
             "web_name": "Wilson"
@@ -257914,16 +257914,16 @@
             "web_name": "Harrison"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 328,
             "element_type": 3,
             "first_name": "Daniel",
             "id": 343,
             "minutes": 52,
-            "news": "",
+            "news": "Back injury - Expected back 18 Oct",
             "second_name": "James",
-            "status": "a",
+            "status": "i",
             "team": 13,
             "total_points": 3,
             "web_name": "James"
@@ -259639,16 +259639,16 @@
             "web_name": "J.Murphy"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 170,
             "element_type": 3,
             "first_name": "Joelinton Cássio",
             "id": 458,
             "minutes": 0,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Apolinário de Lira",
-            "status": "i",
+            "status": "d",
             "team": 17,
             "total_points": 0,
             "web_name": "Joelinton"
@@ -260749,16 +260749,16 @@
             "web_name": "Ellborg"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 258,
             "element_type": 2,
             "first_name": "Daniel",
             "id": 532,
             "minutes": 450,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Unknown return date",
             "second_name": "Ballard",
-            "status": "d",
+            "status": "i",
             "team": 20,
             "total_points": 14,
             "web_name": "Ballard"
@@ -260921,7 +260921,7 @@
             "first_name": "Habib",
             "id": 543,
             "minutes": 28,
-            "news": "Hamstring injury - Unknown return date",
+            "news": "Hamstring injury - Expected back 18 Oct",
             "second_name": "Diarra",
             "status": "i",
             "team": 20,
@@ -261049,16 +261049,16 @@
             "web_name": "N.Angulo"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 88,
             "element_type": 4,
             "first_name": "Brian",
             "id": 552,
             "minutes": 399,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Expected back 25 Oct",
             "second_name": "Brobbey",
-            "status": "d",
+            "status": "i",
             "team": 20,
             "total_points": 24,
             "web_name": "Brobbey"
@@ -262489,16 +262489,16 @@
             "web_name": "Bard"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 237,
             "element_type": 3,
             "first_name": "Jean-Mattéo",
             "id": 648,
             "minutes": 1,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Bahoya",
-            "status": "a",
+            "status": "d",
             "team": 13,
             "total_points": 1,
             "web_name": "Bahoya"
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-10-08T10:35:30.684923Z",
+          "generated_at": "2026-10-08T18:50:55.567301Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-08T10:35:30.684923Z",
+        "generated_at": "2026-10-08T18:50:55.567301Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-10-08T10:35:26.925812Z",
+        "generated_at": "2026-10-08T18:50:54.302809Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -328527,13 +328527,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "i",
               "club_id": 3,
               "club_name": "Bournemouth",
               "club_short_name": "BOU",
               "element_id": 69,
               "first_name": "Alex",
-              "news": "Thigh injury - 50% chance of playing",
+              "news": "Thigh injury - Unknown return date",
               "official_draft_rank": 73,
               "position": "MID",
               "position_id": 3,
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-10-08T10:35:30.684874Z",
+        "generated_at": "2026-10-08T18:50:55.567238Z",
         "players": [
           {
             "availability_status": "a",
@@ -396796,7 +396796,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-10-08T10:35:30.187432Z",
+    "generated_at": "2026-10-08T18:50:55.397836Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791455723
+      "time": 1791485453
     },
     "choices": {
       "choices": [],
@@ -413384,7 +413384,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-08T10:35:26.927431Z",
+    "generated_at": "2026-10-08T18:50:54.304736Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-08T10:35:30.684923Z",
+    "generated_at": "2026-10-08T18:50:55.567301Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-10-08T10:35:26.925812Z",
+    "generated_at": "2026-10-08T18:50:54.302809Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -425640,13 +425640,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 3,
           "club_name": "Bournemouth",
           "club_short_name": "BOU",
           "element_id": 69,
           "first_name": "Alex",
-          "news": "Thigh injury - 50% chance of playing",
+          "news": "Thigh injury - Unknown return date",
           "official_draft_rank": 73,
           "position": "MID",
           "position_id": 3,
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-10-08T10:35:30.684874Z",
+    "generated_at": "2026-10-08T18:50:55.567238Z",
     "players": [
       {
         "availability_status": "a",
