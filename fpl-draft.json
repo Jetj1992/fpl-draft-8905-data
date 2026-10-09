@@ -6763,14 +6763,14 @@
         "web_name": "Hall"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 100,
         "draft_rank": 300,
         "element_type": 2,
         "first_name": "Tino",
         "id": 450,
         "minutes": 33,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - 50% chance of playing",
         "second_name": "Livramento",
         "status": "d",
         "team": 17,
@@ -6988,16 +6988,16 @@
         "web_name": "Wissa"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 96,
         "element_type": 4,
         "first_name": "William",
         "id": 465,
         "minutes": 55,
-        "news": "Foot injury - Unknown return date",
+        "news": "Foot injury - 50% chance of playing",
         "second_name": "Osula",
-        "status": "i",
+        "status": "d",
         "team": 17,
         "total_points": 4,
         "web_name": "Osula"
@@ -8938,16 +8938,16 @@
         "web_name": "Gozo"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 567,
         "element_type": 2,
         "first_name": "Amar",
         "id": 595,
         "minutes": 327,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 50% chance of playing",
         "second_name": "Dedic",
-        "status": "i",
+        "status": "d",
         "team": 17,
         "total_points": 13,
         "web_name": "Dedić"
@@ -13022,7 +13022,7 @@
         "club_short_name": "NEW",
         "element_id": 450,
         "first_name": "Tino",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - 50% chance of playing",
         "official_draft_rank": 300,
         "position": "DEF",
         "position_id": 2,
@@ -16614,13 +16614,13 @@
         "web_name": "Benda"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 595,
         "first_name": "Amar",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 50% chance of playing",
         "official_draft_rank": 567,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-08T18:50:54.304698Z",
+    "generated_at": "2026-10-09T01:13:42.304106Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18789,7 +18789,7 @@
             "web_name": "N.Jackson"
           },
           {
-            "availability_status": "i",
+            "availability_status": "d",
             "club_id": 17,
             "club_name": "Newcastle",
             "club_short_name": "NEW",
@@ -18798,7 +18798,7 @@
             "entry_name": "Grove Løjer",
             "first_name": "William",
             "league_entry_id": 138520,
-            "news": "Foot injury - Unknown return date",
+            "news": "Foot injury - 50% chance of playing",
             "official_draft_rank": 96,
             "position": "FWD",
             "position_id": 4,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-08T18:50:55.567301Z",
+  "generated_at": "2026-10-09T01:13:44.268622Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -259519,14 +259519,14 @@
             "web_name": "Hall"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 100,
             "draft_rank": 300,
             "element_type": 2,
             "first_name": "Tino",
             "id": 450,
             "minutes": 33,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - 50% chance of playing",
             "second_name": "Livramento",
             "status": "d",
             "team": 17,
@@ -259744,16 +259744,16 @@
             "web_name": "Wissa"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 96,
             "element_type": 4,
             "first_name": "William",
             "id": 465,
             "minutes": 55,
-            "news": "Foot injury - Unknown return date",
+            "news": "Foot injury - 50% chance of playing",
             "second_name": "Osula",
-            "status": "i",
+            "status": "d",
             "team": 17,
             "total_points": 4,
             "web_name": "Osula"
@@ -261694,16 +261694,16 @@
             "web_name": "Gozo"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 567,
             "element_type": 2,
             "first_name": "Amar",
             "id": 595,
             "minutes": 327,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "Unspecified injury - 50% chance of playing",
             "second_name": "Dedic",
-            "status": "i",
+            "status": "d",
             "team": 17,
             "total_points": 13,
             "web_name": "Dedić"
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-10-08T18:50:55.567301Z",
+          "generated_at": "2026-10-09T01:13:44.268622Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -325498,7 +325498,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-08T18:50:55.567301Z",
+        "generated_at": "2026-10-09T01:13:44.268622Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326402,7 +326402,7 @@
           "source_available": true,
           "typed_records": 70
         },
-        "generated_at": "2026-10-08T18:50:54.302809Z",
+        "generated_at": "2026-10-09T01:13:42.302061Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -327997,13 +327997,13 @@
           },
           {
             "element_in": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 17,
               "club_name": "Newcastle",
               "club_short_name": "NEW",
               "element_id": 595,
               "first_name": "Amar",
-              "news": "Unspecified injury - Unknown return date",
+              "news": "Unspecified injury - 50% chance of playing",
               "official_draft_rank": 567,
               "position": "DEF",
               "position_id": 2,
@@ -329389,13 +329389,13 @@
               "web_name": "Hall"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 17,
               "club_name": "Newcastle",
               "club_short_name": "NEW",
               "element_id": 595,
               "first_name": "Amar",
-              "news": "Unspecified injury - Unknown return date",
+              "news": "Unspecified injury - 50% chance of playing",
               "official_draft_rank": 567,
               "position": "DEF",
               "position_id": 2,
@@ -330130,7 +330130,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-10-08T18:50:55.567238Z",
+        "generated_at": "2026-10-09T01:13:44.268556Z",
         "players": [
           {
             "availability_status": "a",
@@ -396796,7 +396796,7 @@
       "name": "Gameweek 5"
     },
     "gameweek": 5,
-    "generated_at": "2026-10-08T18:50:55.397836Z",
+    "generated_at": "2026-10-09T01:13:43.955741Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -396971,7 +396971,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791485453
+      "time": 1791508420
     },
     "choices": {
       "choices": [],
@@ -413384,7 +413384,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-08T18:50:54.304736Z",
+    "generated_at": "2026-10-09T01:13:42.304141Z",
     "pending_waiver_count": 35,
     "schema_version": 1,
     "source_available": true,
@@ -423474,7 +423474,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-08T18:50:55.567301Z",
+    "generated_at": "2026-10-09T01:13:44.268622Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -423515,7 +423515,7 @@
       "source_available": true,
       "typed_records": 70
     },
-    "generated_at": "2026-10-08T18:50:54.302809Z",
+    "generated_at": "2026-10-09T01:13:42.302061Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -425110,13 +425110,13 @@
       },
       {
         "element_in": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 17,
           "club_name": "Newcastle",
           "club_short_name": "NEW",
           "element_id": 595,
           "first_name": "Amar",
-          "news": "Unspecified injury - Unknown return date",
+          "news": "Unspecified injury - 50% chance of playing",
           "official_draft_rank": 567,
           "position": "DEF",
           "position_id": 2,
@@ -426502,13 +426502,13 @@
           "web_name": "Hall"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 17,
           "club_name": "Newcastle",
           "club_short_name": "NEW",
           "element_id": 595,
           "first_name": "Amar",
-          "news": "Unspecified injury - Unknown return date",
+          "news": "Unspecified injury - 50% chance of playing",
           "official_draft_rank": 567,
           "position": "DEF",
           "position_id": 2,
@@ -427243,7 +427243,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-10-08T18:50:55.567238Z",
+    "generated_at": "2026-10-09T01:13:44.268556Z",
     "players": [
       {
         "availability_status": "a",
