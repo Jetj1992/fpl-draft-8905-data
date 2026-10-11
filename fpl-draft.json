@@ -1704,7 +1704,7 @@
         "second_name": "van Hecke",
         "status": "a",
         "team": 19,
-        "total_points": 25,
+        "total_points": 27,
         "web_name": "Van Hecke"
       },
       {
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-10T21:44:27.588673Z",
+    "generated_at": "2026-10-11T05:46:57.397182Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-10T21:44:30.860361Z",
+  "generated_at": "2026-10-11T05:47:01.546276Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -254460,7 +254460,7 @@
             "second_name": "van Hecke",
             "status": "a",
             "team": 19,
-            "total_points": 25,
+            "total_points": 27,
             "web_name": "Van Hecke"
           },
           {
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-10-10T21:44:30.860361Z",
+          "generated_at": "2026-10-11T05:47:01.546276Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -319410,12 +319410,12 @@
                         "value": 18
                       },
                       {
-                        "element": 519,
+                        "element": 496,
                         "value": 16
                       },
                       {
-                        "element": 496,
-                        "value": 14
+                        "element": 519,
+                        "value": 16
                       },
                       {
                         "element": 522,
@@ -319473,7 +319473,7 @@
                       },
                       {
                         "element": 432,
-                        "value": 19
+                        "value": 17
                       },
                       {
                         "element": 43,
@@ -319512,11 +319512,11 @@
                         "value": 7
                       },
                       {
-                        "element": 421,
-                        "value": 4
+                        "element": 423,
+                        "value": 5
                       },
                       {
-                        "element": 423,
+                        "element": 421,
                         "value": 4
                       },
                       {
@@ -319542,7 +319542,7 @@
                       },
                       {
                         "element": 112,
-                        "value": 9
+                        "value": 11
                       },
                       {
                         "element": 455,
@@ -324209,7 +324209,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-10T21:44:30.860361Z",
+        "generated_at": "2026-10-11T05:47:01.546276Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -325245,7 +325245,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-10T21:44:27.587511Z",
+        "generated_at": "2026-10-11T05:46:57.395990Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -329556,7 +329556,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-10-10T21:44:30.860317Z",
+        "generated_at": "2026-10-11T05:47:01.546235Z",
         "players": [
           {
             "availability_status": "a",
@@ -396222,7 +396222,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-10T21:44:29.536817Z",
+    "generated_at": "2026-10-11T05:46:59.424729Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -396245,7 +396245,7 @@
       },
       {
         "current_leader_entry_id": 138748,
-        "current_margin": 25,
+        "current_margin": 23,
         "entry_1_id": 138748,
         "entry_1_name": "Jyllands Rubin",
         "entry_1_remaining_players": 5,
@@ -396255,7 +396255,7 @@
         "entry_2_name": "Grove Løjer",
         "entry_2_remaining_players": 10,
         "entry_2_remaining_starters": 7,
-        "entry_2_score": 15,
+        "entry_2_score": 17,
         "gameweek": 6,
         "is_real_opponent": true,
         "key_match": true,
@@ -396303,6 +396303,25 @@
         "status": "live"
       },
       {
+        "current_leader_entry_id": 138748,
+        "current_margin": 23,
+        "entry_1_id": 138748,
+        "entry_1_name": "Jyllands Rubin",
+        "entry_1_remaining_players": 5,
+        "entry_1_remaining_starters": 4,
+        "entry_1_score": 40,
+        "entry_2_id": 138520,
+        "entry_2_name": "Grove Løjer",
+        "entry_2_remaining_players": 10,
+        "entry_2_remaining_starters": 7,
+        "entry_2_score": 17,
+        "gameweek": 6,
+        "is_real_opponent": true,
+        "key_match": true,
+        "match_id": null,
+        "status": "live"
+      },
+      {
         "current_leader_entry_id": 252790,
         "current_margin": 23,
         "entry_1_id": 252790,
@@ -396320,29 +396339,10 @@
         "key_match": true,
         "match_id": null,
         "status": "live"
-      },
-      {
-        "current_leader_entry_id": 138748,
-        "current_margin": 25,
-        "entry_1_id": 138748,
-        "entry_1_name": "Jyllands Rubin",
-        "entry_1_remaining_players": 5,
-        "entry_1_remaining_starters": 4,
-        "entry_1_score": 40,
-        "entry_2_id": 138520,
-        "entry_2_name": "Grove Løjer",
-        "entry_2_remaining_players": 10,
-        "entry_2_remaining_starters": 7,
-        "entry_2_score": 15,
-        "gameweek": 6,
-        "is_real_opponent": true,
-        "key_match": true,
-        "match_id": null,
-        "status": "live"
       }
     ],
     "league_average_match": {
-      "current_margin": 22.833333333333332,
+      "current_margin": 22.5,
       "current_result": "win",
       "entry_id": 321694,
       "entry_name": "La Liga es la mejor",
@@ -396351,7 +396351,7 @@
       "gameweek": 6,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 25.166666666666668,
+      "opponent_average": 25.5,
       "opponent_average_source_entry_ids": [
         42948,
         138487,
@@ -397038,7 +397038,7 @@
         "entry_id": 137912,
         "entry_name": "Grove Løjer",
         "league_entry_id": 138520,
-        "live_score": 15,
+        "live_score": 17,
         "remaining_player_count": 10,
         "remaining_players": [
           {
@@ -398240,7 +398240,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791668665
+      "time": 1791697615
     },
     "choices": {
       "choices": [],
@@ -412930,12 +412930,12 @@
                 "value": 18
               },
               {
-                "element": 519,
+                "element": 496,
                 "value": 16
               },
               {
-                "element": 496,
-                "value": 14
+                "element": 519,
+                "value": 16
               },
               {
                 "element": 522,
@@ -412993,7 +412993,7 @@
               },
               {
                 "element": 432,
-                "value": 19
+                "value": 17
               },
               {
                 "element": 43,
@@ -413032,11 +413032,11 @@
                 "value": 7
               },
               {
-                "element": 421,
-                "value": 4
+                "element": 423,
+                "value": 5
               },
               {
-                "element": 423,
+                "element": 421,
                 "value": 4
               },
               {
@@ -413062,7 +413062,7 @@
               },
               {
                 "element": 112,
-                "value": 9
+                "value": 11
               },
               {
                 "element": 455,
@@ -413448,7 +413448,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-10T21:44:27.588695Z",
+    "generated_at": "2026-10-11T05:46:57.397204Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -417661,12 +417661,12 @@
                     "value": 18
                   },
                   {
-                    "element": 519,
+                    "element": 496,
                     "value": 16
                   },
                   {
-                    "element": 496,
-                    "value": 14
+                    "element": 519,
+                    "value": 16
                   },
                   {
                     "element": 522,
@@ -417724,7 +417724,7 @@
                   },
                   {
                     "element": 432,
-                    "value": 19
+                    "value": 17
                   },
                   {
                     "element": 43,
@@ -417763,11 +417763,11 @@
                     "value": 7
                   },
                   {
-                    "element": 421,
-                    "value": 4
+                    "element": 423,
+                    "value": 5
                   },
                   {
-                    "element": 423,
+                    "element": 421,
                     "value": 4
                   },
                   {
@@ -417793,7 +417793,7 @@
                   },
                   {
                     "element": 112,
-                    "value": 9
+                    "value": 11
                   },
                   {
                     "element": 455,
@@ -422461,7 +422461,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-10T21:44:30.860361Z",
+    "generated_at": "2026-10-11T05:47:01.546276Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -422502,7 +422502,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-10T21:44:27.587511Z",
+    "generated_at": "2026-10-11T05:46:57.395990Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -426813,7 +426813,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-10-10T21:44:30.860317Z",
+    "generated_at": "2026-10-11T05:47:01.546235Z",
     "players": [
       {
         "availability_status": "a",
