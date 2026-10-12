@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-12T00:32:21.046217Z",
+    "generated_at": "2026-10-12T10:49:55.106080Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-12T00:32:22.117225Z",
+  "generated_at": "2026-10-12T10:50:01.421780Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-10-12T00:32:22.117225Z",
+          "generated_at": "2026-10-12T10:50:01.421780Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -320150,7 +320150,7 @@
                     "a": [
                       {
                         "element": 236,
-                        "value": 59
+                        "value": 60
                       },
                       {
                         "element": 249,
@@ -320174,7 +320174,7 @@
                       },
                       {
                         "element": 649,
-                        "value": 14
+                        "value": 15
                       },
                       {
                         "element": 230,
@@ -320220,18 +320220,18 @@
                       },
                       {
                         "element": 340,
-                        "value": 32
+                        "value": 31
                       },
                       {
                         "element": 286,
                         "value": 25
                       },
                       {
-                        "element": 572,
-                        "value": 14
+                        "element": 576,
+                        "value": 15
                       },
                       {
-                        "element": 576,
+                        "element": 572,
                         "value": 14
                       },
                       {
@@ -320339,7 +320339,7 @@
                       },
                       {
                         "element": 340,
-                        "value": 11
+                        "value": 10
                       },
                       {
                         "element": 642,
@@ -320375,7 +320375,7 @@
                       },
                       {
                         "element": 576,
-                        "value": 3
+                        "value": 4
                       },
                       {
                         "element": 280,
@@ -320383,7 +320383,7 @@
                       },
                       {
                         "element": 286,
-                        "value": 1
+                        "value": 2
                       }
                     ],
                     "identifier": "defensive_contribution"
@@ -325246,7 +325246,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-12T00:32:22.117225Z",
+        "generated_at": "2026-10-12T10:50:01.421780Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326282,7 +326282,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-12T00:32:21.044279Z",
+        "generated_at": "2026-10-12T10:49:55.104023Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330593,7 +330593,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-10-12T00:32:22.117155Z",
+        "generated_at": "2026-10-12T10:50:01.421717Z",
         "players": [
           {
             "availability_status": "a",
@@ -397259,7 +397259,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-12T00:32:21.850003Z",
+    "generated_at": "2026-10-12T10:50:00.486923Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -397798,7 +397798,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791765139
+      "time": 1791802194
     },
     "choices": {
       "choices": [],
@@ -413228,7 +413228,7 @@
             "a": [
               {
                 "element": 236,
-                "value": 59
+                "value": 60
               },
               {
                 "element": 249,
@@ -413252,7 +413252,7 @@
               },
               {
                 "element": 649,
-                "value": 14
+                "value": 15
               },
               {
                 "element": 230,
@@ -413298,18 +413298,18 @@
               },
               {
                 "element": 340,
-                "value": 32
+                "value": 31
               },
               {
                 "element": 286,
                 "value": 25
               },
               {
-                "element": 572,
-                "value": 14
+                "element": 576,
+                "value": 15
               },
               {
-                "element": 576,
+                "element": 572,
                 "value": 14
               },
               {
@@ -413417,7 +413417,7 @@
               },
               {
                 "element": 340,
-                "value": 11
+                "value": 10
               },
               {
                 "element": 642,
@@ -413453,7 +413453,7 @@
               },
               {
                 "element": 576,
-                "value": 3
+                "value": 4
               },
               {
                 "element": 280,
@@ -413461,7 +413461,7 @@
               },
               {
                 "element": 286,
-                "value": 1
+                "value": 2
               }
             ],
             "identifier": "defensive_contribution"
@@ -414043,7 +414043,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-12T00:32:21.046254Z",
+    "generated_at": "2026-10-12T10:49:55.106128Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -418996,7 +418996,7 @@
                 "a": [
                   {
                     "element": 236,
-                    "value": 59
+                    "value": 60
                   },
                   {
                     "element": 249,
@@ -419020,7 +419020,7 @@
                   },
                   {
                     "element": 649,
-                    "value": 14
+                    "value": 15
                   },
                   {
                     "element": 230,
@@ -419066,18 +419066,18 @@
                   },
                   {
                     "element": 340,
-                    "value": 32
+                    "value": 31
                   },
                   {
                     "element": 286,
                     "value": 25
                   },
                   {
-                    "element": 572,
-                    "value": 14
+                    "element": 576,
+                    "value": 15
                   },
                   {
-                    "element": 576,
+                    "element": 572,
                     "value": 14
                   },
                   {
@@ -419185,7 +419185,7 @@
                   },
                   {
                     "element": 340,
-                    "value": 11
+                    "value": 10
                   },
                   {
                     "element": 642,
@@ -419221,7 +419221,7 @@
                   },
                   {
                     "element": 576,
-                    "value": 3
+                    "value": 4
                   },
                   {
                     "element": 280,
@@ -419229,7 +419229,7 @@
                   },
                   {
                     "element": 286,
-                    "value": 1
+                    "value": 2
                   }
                 ],
                 "identifier": "defensive_contribution"
@@ -424093,7 +424093,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-12T00:32:22.117225Z",
+    "generated_at": "2026-10-12T10:50:01.421780Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -424134,7 +424134,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-12T00:32:21.044279Z",
+    "generated_at": "2026-10-12T10:49:55.104023Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -428445,7 +428445,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-10-12T00:32:22.117155Z",
+    "generated_at": "2026-10-12T10:50:01.421717Z",
     "players": [
       {
         "availability_status": "a",
