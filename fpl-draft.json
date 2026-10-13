@@ -6253,16 +6253,16 @@
         "web_name": "Dorgu"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 313,
         "element_type": 2,
         "first_name": "Matthijs",
         "id": 416,
         "minutes": 0,
-        "news": "Back injury - 75% chance of playing",
+        "news": "",
         "second_name": "de Ligt",
-        "status": "d",
+        "status": "a",
         "team": 16,
         "total_points": 0,
         "web_name": "De Ligt"
@@ -8953,16 +8953,16 @@
         "web_name": "Dedić"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 571,
         "element_type": 2,
         "first_name": "Matteo",
         "id": 596,
         "minutes": 158,
-        "news": "Hamstring injury - 25% chance of playing",
+        "news": "Hamstring injury - Unknown return date",
         "second_name": "Ruggeri",
-        "status": "d",
+        "status": "i",
         "team": 2,
         "total_points": 6,
         "web_name": "Ruggeri"
@@ -13240,13 +13240,13 @@
         "web_name": "Diakité"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 416,
         "first_name": "Matthijs",
-        "news": "Back injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 313,
         "position": "DEF",
         "position_id": 2,
@@ -16670,13 +16670,13 @@
         "web_name": "Sanchez"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 596,
         "first_name": "Matteo",
-        "news": "Hamstring injury - 25% chance of playing",
+        "news": "Hamstring injury - Unknown return date",
         "official_draft_rank": 571,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-13T12:14:14.246051Z",
+    "generated_at": "2026-10-13T19:17:52.701342Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28740,10 +28740,10 @@
         "name": "Gameweek 5"
       },
       {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-10-10T10:00:00Z",
         "deadline_time_epoch": 1791626400,
-        "finished": false,
+        "finished": true,
         "id": 6,
         "is_current": true,
         "is_next": false,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-13T12:14:15.560495Z",
+  "generated_at": "2026-10-13T19:17:54.767160Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -337327,16 +337327,16 @@
             "web_name": "Dorgu"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 313,
             "element_type": 2,
             "first_name": "Matthijs",
             "id": 416,
             "minutes": 0,
-            "news": "Back injury - 75% chance of playing",
+            "news": "",
             "second_name": "de Ligt",
-            "status": "d",
+            "status": "a",
             "team": 16,
             "total_points": 0,
             "web_name": "De Ligt"
@@ -340027,16 +340027,16 @@
             "web_name": "Dedić"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 571,
             "element_type": 2,
             "first_name": "Matteo",
             "id": 596,
             "minutes": 158,
-            "news": "Hamstring injury - 25% chance of playing",
+            "news": "Hamstring injury - Unknown return date",
             "second_name": "Ruggeri",
-            "status": "d",
+            "status": "i",
             "team": 2,
             "total_points": 6,
             "web_name": "Ruggeri"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-13T12:14:15.560495Z",
+          "generated_at": "2026-10-13T19:17:54.767160Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -396188,10 +396188,10 @@
               }
             ],
             "event": {
-              "data_checked": false,
+              "data_checked": true,
               "deadline_time": "2026-10-10T10:00:00Z",
               "deadline_time_epoch": 1791626400,
-              "finished": false,
+              "finished": true,
               "id": 6,
               "is_current": true,
               "is_next": false,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-13T12:14:15.560495Z",
+        "generated_at": "2026-10-13T19:17:54.767160Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -404424,7 +404424,7 @@
           "available": true,
           "gameweek": 6,
           "key_matchups": 0,
-          "status": "in_progress"
+          "status": "finished"
         },
         "next_deadline": {
           "deadline_time_copenhagen": "2026-10-17T12:00:00+02:00",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-13T12:14:14.244137Z",
+        "generated_at": "2026-10-13T19:17:52.699711Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-13T12:14:15.560433Z",
+        "generated_at": "2026-10-13T19:17:54.767086Z",
         "players": [
           {
             "availability_status": "a",
@@ -476626,12 +476626,12 @@
     },
     "event": {
       "deadline_time": "2026-10-10T10:00:00Z",
-      "finished": false,
+      "finished": true,
       "is_current": true,
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-13T12:14:15.444510Z",
+    "generated_at": "2026-10-13T19:17:54.622198Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476794,7 +476794,7 @@
       }
     ],
     "schema_version": 1,
-    "status": "in_progress"
+    "status": "finished"
   },
   "optional_endpoints": {
     "bootstrap_dynamic": {
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791893653
+      "time": 1791919070
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-13T12:14:14.246087Z",
+    "generated_at": "2026-10-13T19:17:52.701373Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -495564,10 +495564,10 @@
           }
         ],
         "event": {
-          "data_checked": false,
+          "data_checked": true,
           "deadline_time": "2026-10-10T10:00:00Z",
           "deadline_time_epoch": 1791626400,
-          "finished": false,
+          "finished": true,
           "id": 6,
           "is_current": true,
           "is_next": false,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-13T12:14:15.560495Z",
+    "generated_at": "2026-10-13T19:17:54.767160Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503801,7 +503801,7 @@
       "available": true,
       "gameweek": 6,
       "key_matchups": 0,
-      "status": "in_progress"
+      "status": "finished"
     },
     "next_deadline": {
       "deadline_time_copenhagen": "2026-10-17T12:00:00+02:00",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-13T12:14:14.244137Z",
+    "generated_at": "2026-10-13T19:17:52.699711Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-13T12:14:15.560433Z",
+    "generated_at": "2026-10-13T19:17:54.767086Z",
     "players": [
       {
         "availability_status": "a",
