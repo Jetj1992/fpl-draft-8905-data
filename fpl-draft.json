@@ -6358,16 +6358,16 @@
         "web_name": "Mazraoui"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 446,
         "element_type": 2,
         "first_name": "Luke",
         "id": 423,
         "minutes": 425,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Shaw",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 12,
         "web_name": "Shaw"
@@ -6493,16 +6493,16 @@
         "web_name": "Amad"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 75,
         "draft_rank": 169,
         "element_type": 3,
         "first_name": "Kobbie",
         "id": 432,
         "minutes": 444,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Mainoo",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 26,
         "web_name": "Mainoo"
@@ -6928,16 +6928,16 @@
         "web_name": "Willock"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 114,
         "element_type": 3,
         "first_name": "Bazoumana",
         "id": 461,
         "minutes": 81,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Touré",
-        "status": "a",
+        "status": "d",
         "team": 17,
         "total_points": 9,
         "web_name": "Touré"
@@ -7393,16 +7393,16 @@
         "web_name": "Igor Jesus"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 188,
         "element_type": 4,
         "first_name": "Taiwo",
         "id": 492,
         "minutes": 232,
-        "news": "Suspended until 19 Oct",
+        "news": "",
         "second_name": "Awoniyi",
-        "status": "s",
+        "status": "a",
         "team": 7,
         "total_points": 3,
         "web_name": "Awoniyi"
@@ -10986,13 +10986,13 @@
         "web_name": "Anthony"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 461,
         "first_name": "Bazoumana",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 114,
         "position": "MID",
         "position_id": 3,
@@ -11560,13 +11560,13 @@
         "web_name": "Nmecha"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 432,
         "first_name": "Kobbie",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 169,
         "position": "MID",
         "position_id": 3,
@@ -11784,13 +11784,13 @@
         "web_name": "Gallagher"
       },
       {
-        "availability_status": "s",
+        "availability_status": "a",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 492,
         "first_name": "Taiwo",
-        "news": "Suspended until 19 Oct",
+        "news": "",
         "official_draft_rank": 188,
         "position": "FWD",
         "position_id": 4,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-12T21:16:26.602992Z",
+    "generated_at": "2026-10-13T02:36:12.922342Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18882,7 +18882,7 @@
             "web_name": "N.Williams"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 16,
             "club_name": "Man Utd",
             "club_short_name": "MUN",
@@ -18891,7 +18891,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Luke",
             "league_entry_id": 138641,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 446,
             "position": "DEF",
             "position_id": 2,
@@ -28557,14 +28557,14 @@
   "entries_public": {
     "137879": {
       "entry": {
-        "event_points": 15,
+        "event_points": 17,
         "favourite_team": 14,
         "id": 137879,
         "league_set": [
           8905
         ],
         "name": "AGF 2. hold",
-        "overall_points": 179,
+        "overall_points": 181,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28593,14 +28593,14 @@
     },
     "138032": {
       "entry": {
-        "event_points": 28,
+        "event_points": 30,
         "favourite_team": 11,
         "id": 138032,
         "league_set": [
           8905
         ],
         "name": "Hyggemix",
-        "overall_points": 227,
+        "overall_points": 229,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28665,14 +28665,14 @@
     },
     "42888": {
       "entry": {
-        "event_points": 41,
+        "event_points": 43,
         "favourite_team": 19,
         "id": 42888,
         "league_set": [
           8905
         ],
         "name": "AGFs Førstehold",
-        "overall_points": 269,
+        "overall_points": 271,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-12T21:16:30.330248Z",
+  "generated_at": "2026-10-13T02:36:15.074624Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -259114,16 +259114,16 @@
             "web_name": "Mazraoui"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 446,
             "element_type": 2,
             "first_name": "Luke",
             "id": 423,
             "minutes": 425,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Shaw",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 12,
             "web_name": "Shaw"
@@ -259249,16 +259249,16 @@
             "web_name": "Amad"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 75,
             "draft_rank": 169,
             "element_type": 3,
             "first_name": "Kobbie",
             "id": 432,
             "minutes": 444,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Mainoo",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 26,
             "web_name": "Mainoo"
@@ -259684,16 +259684,16 @@
             "web_name": "Willock"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 114,
             "element_type": 3,
             "first_name": "Bazoumana",
             "id": 461,
             "minutes": 81,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Touré",
-            "status": "a",
+            "status": "d",
             "team": 17,
             "total_points": 9,
             "web_name": "Touré"
@@ -260149,16 +260149,16 @@
             "web_name": "Igor Jesus"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 188,
             "element_type": 4,
             "first_name": "Taiwo",
             "id": 492,
             "minutes": 232,
-            "news": "Suspended until 19 Oct",
+            "news": "",
             "second_name": "Awoniyi",
-            "status": "s",
+            "status": "a",
             "team": 7,
             "total_points": 3,
             "web_name": "Awoniyi"
@@ -307278,9 +307278,9 @@
             "event": 6,
             "finished": false,
             "league_entry_1": 42948,
-            "league_entry_1_points": 41,
+            "league_entry_1_points": 43,
             "league_entry_2": 138641,
-            "league_entry_2_points": 28,
+            "league_entry_2_points": 30,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -307302,7 +307302,7 @@
             "league_entry_1": 252790,
             "league_entry_1_points": 37,
             "league_entry_2": 138487,
-            "league_entry_2_points": 15,
+            "league_entry_2_points": 17,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -307313,7 +307313,7 @@
             "league_entry_1": 321694,
             "league_entry_1_points": 50,
             "league_entry_2": 420622,
-            "league_entry_2_points": 36,
+            "league_entry_2_points": 37,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -314433,7 +314433,7 @@
           "data_checked": true,
           "gameweek": 5,
           "gameweek_finished": true,
-          "generated_at": "2026-10-12T21:16:30.330248Z",
+          "generated_at": "2026-10-13T02:36:15.074624Z",
           "league_id": 8905,
           "recap_fingerprint": "455fc907cfcee4f8c088e73f3ffb89b9a3000d36074389b18a6e673599b4d3b5",
           "recap_ready": true,
@@ -317298,9 +317298,9 @@
                 "event": 6,
                 "finished": false,
                 "league_entry_1": 42948,
-                "league_entry_1_points": 41,
+                "league_entry_1_points": 43,
                 "league_entry_2": 138641,
-                "league_entry_2_points": 28,
+                "league_entry_2_points": 30,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -317322,7 +317322,7 @@
                 "league_entry_1": 252790,
                 "league_entry_1_points": 37,
                 "league_entry_2": 138487,
-                "league_entry_2_points": 15,
+                "league_entry_2_points": 17,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -317333,7 +317333,7 @@
                 "league_entry_1": 321694,
                 "league_entry_1_points": 50,
                 "league_entry_2": 420622,
-                "league_entry_2_points": 36,
+                "league_entry_2_points": 37,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -325612,7 +325612,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-12T21:16:30.330248Z",
+        "generated_at": "2026-10-13T02:36:15.074624Z",
         "latest_complete_gameweek": 5,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -326648,7 +326648,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-12T21:16:26.600993Z",
+        "generated_at": "2026-10-13T02:36:12.920327Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -330959,7 +330959,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 5,
-        "generated_at": "2026-10-12T21:16:30.330174Z",
+        "generated_at": "2026-10-13T02:36:15.074538Z",
         "players": [
           {
             "availability_status": "a",
@@ -396052,9 +396052,9 @@
         "event": 6,
         "finished": false,
         "league_entry_1": 42948,
-        "league_entry_1_points": 41,
+        "league_entry_1_points": 43,
         "league_entry_2": 138641,
-        "league_entry_2_points": 28,
+        "league_entry_2_points": 30,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -396076,7 +396076,7 @@
         "league_entry_1": 252790,
         "league_entry_1_points": 37,
         "league_entry_2": 138487,
-        "league_entry_2_points": 15,
+        "league_entry_2_points": 17,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -396087,7 +396087,7 @@
         "league_entry_1": 321694,
         "league_entry_1_points": 50,
         "league_entry_2": 420622,
-        "league_entry_2_points": 36,
+        "league_entry_2_points": 37,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -397625,7 +397625,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-12T21:16:28.919273Z",
+    "generated_at": "2026-10-13T02:36:14.269962Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -397800,7 +397800,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791839784
+      "time": 1791858971
     },
     "choices": {
       "choices": [],
@@ -414411,7 +414411,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-12T21:16:26.603028Z",
+    "generated_at": "2026-10-13T02:36:12.922380Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -416512,9 +416512,9 @@
             "event": 6,
             "finished": false,
             "league_entry_1": 42948,
-            "league_entry_1_points": 41,
+            "league_entry_1_points": 43,
             "league_entry_2": 138641,
-            "league_entry_2_points": 28,
+            "league_entry_2_points": 30,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -416536,7 +416536,7 @@
             "league_entry_1": 252790,
             "league_entry_1_points": 37,
             "league_entry_2": 138487,
-            "league_entry_2_points": 15,
+            "league_entry_2_points": 17,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -416547,7 +416547,7 @@
             "league_entry_1": 321694,
             "league_entry_1_points": 50,
             "league_entry_2": 420622,
-            "league_entry_2_points": 36,
+            "league_entry_2_points": 37,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -424827,7 +424827,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-12T21:16:30.330248Z",
+    "generated_at": "2026-10-13T02:36:15.074624Z",
     "latest_complete_gameweek": 5,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -424868,7 +424868,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-12T21:16:26.600993Z",
+    "generated_at": "2026-10-13T02:36:12.920327Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -429179,7 +429179,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 5,
-    "generated_at": "2026-10-12T21:16:30.330174Z",
+    "generated_at": "2026-10-13T02:36:15.074538Z",
     "players": [
       {
         "availability_status": "a",
