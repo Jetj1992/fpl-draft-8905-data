@@ -8743,14 +8743,14 @@
         "web_name": "Diomande"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 75,
         "draft_rank": 236,
         "element_type": 4,
         "first_name": "Brian",
         "id": 582,
         "minutes": 0,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - 50% chance of playing",
         "second_name": "Madjo",
         "status": "d",
         "team": 2,
@@ -9268,16 +9268,16 @@
         "web_name": "Bouaddi"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 90,
         "element_type": 3,
         "first_name": "Leon",
         "id": 617,
         "minutes": 0,
-        "news": "Knee injury - Expected back 17 Oct",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Goretzka",
-        "status": "i",
+        "status": "d",
         "team": 2,
         "total_points": 0,
         "web_name": "Goretzka"
@@ -10678,13 +10678,13 @@
         "web_name": "Hinshelwood"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 617,
         "first_name": "Leon",
-        "news": "Knee injury - Expected back 17 Oct",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 90,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-14T00:18:31.174863Z",
+    "generated_at": "2026-10-14T08:43:18.709606Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19570,7 +19570,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Brian",
             "league_entry_id": 252790,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - 50% chance of playing",
             "official_draft_rank": 236,
             "position": "FWD",
             "position_id": 4,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-14T00:18:33.528811Z",
+  "generated_at": "2026-10-14T08:43:20.451526Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -339817,14 +339817,14 @@
             "web_name": "Diomande"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 75,
             "draft_rank": 236,
             "element_type": 4,
             "first_name": "Brian",
             "id": 582,
             "minutes": 0,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - 50% chance of playing",
             "second_name": "Madjo",
             "status": "d",
             "team": 2,
@@ -340342,16 +340342,16 @@
             "web_name": "Bouaddi"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 90,
             "element_type": 3,
             "first_name": "Leon",
             "id": 617,
             "minutes": 0,
-            "news": "Knee injury - Expected back 17 Oct",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Goretzka",
-            "status": "i",
+            "status": "d",
             "team": 2,
             "total_points": 0,
             "web_name": "Goretzka"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-14T00:18:33.528811Z",
+          "generated_at": "2026-10-14T08:43:20.451526Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-14T00:18:33.528811Z",
+        "generated_at": "2026-10-14T08:43:20.451526Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-14T00:18:31.173334Z",
+        "generated_at": "2026-10-14T08:43:18.707620Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-14T00:18:33.528761Z",
+        "generated_at": "2026-10-14T08:43:20.451472Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T00:18:33.137589Z",
+    "generated_at": "2026-10-14T08:43:20.198430Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791937109
+      "time": 1791967397
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-14T00:18:31.174890Z",
+    "generated_at": "2026-10-14T08:43:18.709642Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-14T00:18:33.528811Z",
+    "generated_at": "2026-10-14T08:43:20.451526Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-14T00:18:31.173334Z",
+    "generated_at": "2026-10-14T08:43:18.707620Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T00:18:33.528761Z",
+    "generated_at": "2026-10-14T08:43:20.451472Z",
     "players": [
       {
         "availability_status": "a",
