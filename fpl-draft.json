@@ -9268,16 +9268,16 @@
         "web_name": "Bouaddi"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 90,
         "element_type": 3,
         "first_name": "Leon",
         "id": 617,
         "minutes": 0,
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "second_name": "Goretzka",
-        "status": "d",
+        "status": "a",
         "team": 2,
         "total_points": 0,
         "web_name": "Goretzka"
@@ -10678,13 +10678,13 @@
         "web_name": "Hinshelwood"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 617,
         "first_name": "Leon",
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 90,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-14T14:30:57.841738Z",
+    "generated_at": "2026-10-14T19:24:24.047508Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-14T14:30:59.688981Z",
+  "generated_at": "2026-10-14T19:24:25.378680Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -340342,16 +340342,16 @@
             "web_name": "Bouaddi"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 90,
             "element_type": 3,
             "first_name": "Leon",
             "id": 617,
             "minutes": 0,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "",
             "second_name": "Goretzka",
-            "status": "d",
+            "status": "a",
             "team": 2,
             "total_points": 0,
             "web_name": "Goretzka"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-14T14:30:59.688981Z",
+          "generated_at": "2026-10-14T19:24:25.378680Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-14T14:30:59.688981Z",
+        "generated_at": "2026-10-14T19:24:25.378680Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-14T14:30:57.840539Z",
+        "generated_at": "2026-10-14T19:24:24.045429Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-14T14:30:59.688936Z",
+        "generated_at": "2026-10-14T19:24:25.378625Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T14:30:59.146129Z",
+    "generated_at": "2026-10-14T19:24:24.757765Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791988257
+      "time": 1792005863
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-14T14:30:57.841761Z",
+    "generated_at": "2026-10-14T19:24:24.047546Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-14T14:30:59.688981Z",
+    "generated_at": "2026-10-14T19:24:25.378680Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-14T14:30:57.840539Z",
+    "generated_at": "2026-10-14T19:24:24.045429Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T14:30:59.688936Z",
+    "generated_at": "2026-10-14T19:24:25.378625Z",
     "players": [
       {
         "availability_status": "a",
