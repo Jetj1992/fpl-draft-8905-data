@@ -1063,16 +1063,16 @@
         "web_name": "Scott"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 105,
         "element_type": 3,
         "first_name": "Justin",
         "id": 70,
         "minutes": 294,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Kluivert",
-        "status": "i",
+        "status": "d",
         "team": 3,
         "total_points": 15,
         "web_name": "Kluivert"
@@ -1168,16 +1168,16 @@
         "web_name": "Tóth.A"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 290,
         "element_type": 3,
         "first_name": "Amine",
         "id": 77,
         "minutes": 0,
-        "news": "Calf injury - Unknown return date",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Adli",
-        "status": "i",
+        "status": "d",
         "team": 3,
         "total_points": 0,
         "web_name": "Adli"
@@ -4933,16 +4933,16 @@
         "web_name": "Bijol"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 263,
         "element_type": 2,
         "first_name": "Pascal",
         "id": 328,
         "minutes": 154,
-        "news": "Suspended until 25 Oct",
+        "news": "",
         "second_name": "Struijk",
-        "status": "s",
+        "status": "a",
         "team": 5,
         "total_points": 5,
         "web_name": "Struijk"
@@ -10874,13 +10874,13 @@
         "web_name": "Ngumoha"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 3,
         "club_name": "Bournemouth",
         "club_short_name": "BOU",
         "element_id": 70,
         "first_name": "Justin",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 105,
         "position": "MID",
         "position_id": 3,
@@ -12610,13 +12610,13 @@
         "web_name": "Dalot"
       },
       {
-        "availability_status": "s",
+        "availability_status": "a",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 328,
         "first_name": "Pascal",
-        "news": "Suspended until 25 Oct",
+        "news": "",
         "official_draft_rank": 263,
         "position": "DEF",
         "position_id": 2,
@@ -12918,13 +12918,13 @@
         "web_name": "Iroegbunam"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 3,
         "club_name": "Bournemouth",
         "club_short_name": "BOU",
         "element_id": 77,
         "first_name": "Amine",
-        "news": "Calf injury - Unknown return date",
+        "news": "Calf injury - 75% chance of playing",
         "official_draft_rank": 290,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-14T08:43:18.709606Z",
+    "generated_at": "2026-10-14T14:30:57.841738Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-14T08:43:20.451526Z",
+  "generated_at": "2026-10-14T14:30:59.688981Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -332137,16 +332137,16 @@
             "web_name": "Scott"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 105,
             "element_type": 3,
             "first_name": "Justin",
             "id": 70,
             "minutes": 294,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Kluivert",
-            "status": "i",
+            "status": "d",
             "team": 3,
             "total_points": 15,
             "web_name": "Kluivert"
@@ -332242,16 +332242,16 @@
             "web_name": "Tóth.A"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 290,
             "element_type": 3,
             "first_name": "Amine",
             "id": 77,
             "minutes": 0,
-            "news": "Calf injury - Unknown return date",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Adli",
-            "status": "i",
+            "status": "d",
             "team": 3,
             "total_points": 0,
             "web_name": "Adli"
@@ -336007,16 +336007,16 @@
             "web_name": "Bijol"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 263,
             "element_type": 2,
             "first_name": "Pascal",
             "id": 328,
             "minutes": 154,
-            "news": "Suspended until 25 Oct",
+            "news": "",
             "second_name": "Struijk",
-            "status": "s",
+            "status": "a",
             "team": 5,
             "total_points": 5,
             "web_name": "Struijk"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-14T08:43:20.451526Z",
+          "generated_at": "2026-10-14T14:30:59.688981Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-14T08:43:20.451526Z",
+        "generated_at": "2026-10-14T14:30:59.688981Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-14T08:43:18.707620Z",
+        "generated_at": "2026-10-14T14:30:57.840539Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-14T08:43:20.451472Z",
+        "generated_at": "2026-10-14T14:30:59.688936Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T08:43:20.198430Z",
+    "generated_at": "2026-10-14T14:30:59.146129Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1791967397
+      "time": 1791988257
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-14T08:43:18.709642Z",
+    "generated_at": "2026-10-14T14:30:57.841761Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-14T08:43:20.451526Z",
+    "generated_at": "2026-10-14T14:30:59.688981Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-14T08:43:18.707620Z",
+    "generated_at": "2026-10-14T14:30:57.840539Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-14T08:43:20.451472Z",
+    "generated_at": "2026-10-14T14:30:59.688936Z",
     "players": [
       {
         "availability_status": "a",
