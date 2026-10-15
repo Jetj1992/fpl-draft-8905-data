@@ -1858,14 +1858,14 @@
         "web_name": "Minteh"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 50,
         "draft_rank": 89,
         "element_type": 3,
         "first_name": "Jack",
         "id": 123,
         "minutes": 63,
-        "news": "Ankle injury - 50% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Hinshelwood",
         "status": "d",
         "team": 5,
@@ -10670,7 +10670,7 @@
         "club_short_name": "BHA",
         "element_id": 123,
         "first_name": "Jack",
-        "news": "Ankle injury - 50% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 89,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-15T04:39:25.849564Z",
+    "generated_at": "2026-10-15T11:29:32.771198Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-15T04:39:27.348832Z",
+  "generated_at": "2026-10-15T11:29:34.982646Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -332932,14 +332932,14 @@
             "web_name": "Minteh"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 50,
             "draft_rank": 89,
             "element_type": 3,
             "first_name": "Jack",
             "id": 123,
             "minutes": 63,
-            "news": "Ankle injury - 50% chance of playing",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Hinshelwood",
             "status": "d",
             "team": 5,
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-15T04:39:27.348832Z",
+          "generated_at": "2026-10-15T11:29:34.982646Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-15T04:39:27.348832Z",
+        "generated_at": "2026-10-15T11:29:34.982646Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-15T04:39:25.848076Z",
+        "generated_at": "2026-10-15T11:29:32.769970Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -406576,7 +406576,7 @@
               "club_short_name": "BHA",
               "element_id": 123,
               "first_name": "Jack",
-              "news": "Ankle injury - 50% chance of playing",
+              "news": "Ankle injury - 75% chance of playing",
               "official_draft_rank": 89,
               "position": "MID",
               "position_id": 3,
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-15T04:39:27.348773Z",
+        "generated_at": "2026-10-15T11:29:34.982613Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T04:39:26.871994Z",
+    "generated_at": "2026-10-15T11:29:34.651429Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792039165
+      "time": 1792063770
     },
     "choices": {
       "choices": [],
@@ -484827,7 +484827,7 @@
       "current_event_finished": true,
       "next_event": 7,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-15T04:39:25.849593Z",
+    "generated_at": "2026-10-15T11:29:32.771220Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -494017,7 +494017,7 @@
           "club_short_name": "BHA",
           "element_id": 123,
           "first_name": "Jack",
-          "news": "Ankle injury - 50% chance of playing",
+          "news": "Ankle injury - 75% chance of playing",
           "official_draft_rank": 89,
           "position": "MID",
           "position_id": 3,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-15T04:39:27.348832Z",
+    "generated_at": "2026-10-15T11:29:34.982646Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-15T04:39:25.848076Z",
+    "generated_at": "2026-10-15T11:29:32.769970Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -504958,7 +504958,7 @@
           "club_short_name": "BHA",
           "element_id": 123,
           "first_name": "Jack",
-          "news": "Ankle injury - 50% chance of playing",
+          "news": "Ankle injury - 75% chance of playing",
           "official_draft_rank": 89,
           "position": "MID",
           "position_id": 3,
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T04:39:27.348773Z",
+    "generated_at": "2026-10-15T11:29:34.982613Z",
     "players": [
       {
         "availability_status": "a",
