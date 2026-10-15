@@ -1063,16 +1063,16 @@
         "web_name": "Scott"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 105,
         "element_type": 3,
         "first_name": "Justin",
         "id": 70,
         "minutes": 294,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Kluivert",
-        "status": "d",
+        "status": "a",
         "team": 3,
         "total_points": 15,
         "web_name": "Kluivert"
@@ -1168,16 +1168,16 @@
         "web_name": "Tóth.A"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 290,
         "element_type": 3,
         "first_name": "Amine",
         "id": 77,
         "minutes": 0,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "second_name": "Adli",
-        "status": "d",
+        "status": "a",
         "team": 3,
         "total_points": 0,
         "web_name": "Adli"
@@ -1858,16 +1858,16 @@
         "web_name": "Minteh"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 89,
         "element_type": 3,
         "first_name": "Jack",
         "id": 123,
         "minutes": 63,
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "second_name": "Hinshelwood",
-        "status": "d",
+        "status": "a",
         "team": 5,
         "total_points": 16,
         "web_name": "Hinshelwood"
@@ -9523,16 +9523,16 @@
         "web_name": "Ahanor"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 429,
         "element_type": 2,
         "first_name": "Ben",
         "id": 634,
         "minutes": 29,
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "second_name": "Chilwell",
-        "status": "a",
+        "status": "i",
         "team": 8,
         "total_points": 8,
         "web_name": "Chilwell"
@@ -10664,13 +10664,13 @@
         "web_name": "Reijnders"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 123,
         "first_name": "Jack",
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 89,
         "position": "MID",
         "position_id": 3,
@@ -10874,13 +10874,13 @@
         "web_name": "Ngumoha"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 3,
         "club_name": "Bournemouth",
         "club_short_name": "BOU",
         "element_id": 70,
         "first_name": "Justin",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 105,
         "position": "MID",
         "position_id": 3,
@@ -12918,13 +12918,13 @@
         "web_name": "Iroegbunam"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 3,
         "club_name": "Bournemouth",
         "club_short_name": "BOU",
         "element_id": 77,
         "first_name": "Amine",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 290,
         "position": "MID",
         "position_id": 3,
@@ -14752,13 +14752,13 @@
         "web_name": "Maitland-Niles"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 634,
         "first_name": "Ben",
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "official_draft_rank": 429,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-15T17:01:11.043811Z",
+    "generated_at": "2026-10-15T21:23:18.596281Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-15T17:01:13.963524Z",
+  "generated_at": "2026-10-15T21:23:20.434919Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -332137,16 +332137,16 @@
             "web_name": "Scott"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 105,
             "element_type": 3,
             "first_name": "Justin",
             "id": 70,
             "minutes": 294,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Kluivert",
-            "status": "d",
+            "status": "a",
             "team": 3,
             "total_points": 15,
             "web_name": "Kluivert"
@@ -332242,16 +332242,16 @@
             "web_name": "Tóth.A"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 290,
             "element_type": 3,
             "first_name": "Amine",
             "id": 77,
             "minutes": 0,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "",
             "second_name": "Adli",
-            "status": "d",
+            "status": "a",
             "team": 3,
             "total_points": 0,
             "web_name": "Adli"
@@ -332932,16 +332932,16 @@
             "web_name": "Minteh"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 89,
             "element_type": 3,
             "first_name": "Jack",
             "id": 123,
             "minutes": 63,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "",
             "second_name": "Hinshelwood",
-            "status": "d",
+            "status": "a",
             "team": 5,
             "total_points": 16,
             "web_name": "Hinshelwood"
@@ -340597,16 +340597,16 @@
             "web_name": "Ahanor"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 429,
             "element_type": 2,
             "first_name": "Ben",
             "id": 634,
             "minutes": 29,
-            "news": "",
+            "news": "Unspecified injury - Unknown return date",
             "second_name": "Chilwell",
-            "status": "a",
+            "status": "i",
             "team": 8,
             "total_points": 8,
             "web_name": "Chilwell"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-15T17:01:13.963524Z",
+          "generated_at": "2026-10-15T21:23:20.434919Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-15T17:01:13.963524Z",
+        "generated_at": "2026-10-15T21:23:20.434919Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-15T17:01:11.042520Z",
+        "generated_at": "2026-10-15T21:23:18.595041Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -406570,13 +406570,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 5,
               "club_name": "Brighton",
               "club_short_name": "BHA",
               "element_id": 123,
               "first_name": "Jack",
-              "news": "Ankle injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 89,
               "position": "MID",
               "position_id": 3,
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-15T17:01:13.963478Z",
+        "generated_at": "2026-10-15T21:23:20.434876Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T17:01:13.269515Z",
+    "generated_at": "2026-10-15T21:23:19.768341Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792083668
+      "time": 1792099397
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-15T17:01:11.043836Z",
+    "generated_at": "2026-10-15T21:23:18.596306Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -494011,13 +494011,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 123,
           "first_name": "Jack",
-          "news": "Ankle injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 89,
           "position": "MID",
           "position_id": 3,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-15T17:01:13.963524Z",
+    "generated_at": "2026-10-15T21:23:20.434919Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-15T17:01:11.042520Z",
+    "generated_at": "2026-10-15T21:23:18.595041Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -504952,13 +504952,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 123,
           "first_name": "Jack",
-          "news": "Ankle injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 89,
           "position": "MID",
           "position_id": 3,
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T17:01:13.963478Z",
+    "generated_at": "2026-10-15T21:23:20.434876Z",
     "players": [
       {
         "availability_status": "a",
