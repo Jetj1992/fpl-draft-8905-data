@@ -8158,16 +8158,16 @@
         "web_name": "E.Le Fée"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 173,
         "element_type": 3,
         "first_name": "Habib",
         "id": 543,
         "minutes": 28,
-        "news": "Hamstring injury - Expected back 18 Oct",
+        "news": "",
         "second_name": "Diarra",
-        "status": "i",
+        "status": "a",
         "team": 20,
         "total_points": 5,
         "web_name": "Diarra"
@@ -8293,31 +8293,31 @@
         "web_name": "N.Angulo"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 88,
         "element_type": 4,
         "first_name": "Brian",
         "id": 552,
         "minutes": 399,
-        "news": "Hamstring injury - Expected back 25 Oct",
+        "news": "",
         "second_name": "Brobbey",
-        "status": "i",
+        "status": "a",
         "team": 20,
         "total_points": 24,
         "web_name": "Brobbey"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": null,
         "draft_rank": 167,
         "element_type": 4,
         "first_name": "Wilson",
         "id": 553,
         "minutes": 207,
-        "news": "",
+        "news": "Knock - 50% chance of playing",
         "second_name": "Isidor",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 17,
         "web_name": "Isidor"
@@ -11532,13 +11532,13 @@
         "web_name": "Yeremy"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 553,
         "first_name": "Wilson",
-        "news": "",
+        "news": "Knock - 50% chance of playing",
         "official_draft_rank": 167,
         "position": "FWD",
         "position_id": 4,
@@ -11616,13 +11616,13 @@
         "web_name": "Khusanov"
       },
       {
-        "availability_status": "i",
+        "availability_status": "a",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 543,
         "first_name": "Habib",
-        "news": "Hamstring injury - Expected back 18 Oct",
+        "news": "",
         "official_draft_rank": 173,
         "position": "MID",
         "position_id": 3,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-15T11:29:32.771198Z",
+    "generated_at": "2026-10-15T17:01:11.043811Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19807,7 +19807,7 @@
             "web_name": "Semenyo"
           },
           {
-            "availability_status": "i",
+            "availability_status": "a",
             "club_id": 20,
             "club_name": "Sunderland",
             "club_short_name": "SUN",
@@ -19816,7 +19816,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Brian",
             "league_entry_id": 321694,
-            "news": "Hamstring injury - Expected back 25 Oct",
+            "news": "",
             "official_draft_rank": 88,
             "position": "FWD",
             "position_id": 4,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-15T11:29:34.982646Z",
+  "generated_at": "2026-10-15T17:01:13.963524Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -339232,16 +339232,16 @@
             "web_name": "E.Le Fée"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 173,
             "element_type": 3,
             "first_name": "Habib",
             "id": 543,
             "minutes": 28,
-            "news": "Hamstring injury - Expected back 18 Oct",
+            "news": "",
             "second_name": "Diarra",
-            "status": "i",
+            "status": "a",
             "team": 20,
             "total_points": 5,
             "web_name": "Diarra"
@@ -339367,31 +339367,31 @@
             "web_name": "N.Angulo"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 88,
             "element_type": 4,
             "first_name": "Brian",
             "id": 552,
             "minutes": 399,
-            "news": "Hamstring injury - Expected back 25 Oct",
+            "news": "",
             "second_name": "Brobbey",
-            "status": "i",
+            "status": "a",
             "team": 20,
             "total_points": 24,
             "web_name": "Brobbey"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": null,
             "draft_rank": 167,
             "element_type": 4,
             "first_name": "Wilson",
             "id": 553,
             "minutes": 207,
-            "news": "",
+            "news": "Knock - 50% chance of playing",
             "second_name": "Isidor",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 17,
             "web_name": "Isidor"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-15T11:29:34.982646Z",
+          "generated_at": "2026-10-15T17:01:13.963524Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-15T11:29:34.982646Z",
+        "generated_at": "2026-10-15T17:01:13.963524Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405452,7 +405452,7 @@
           "source_available": true,
           "typed_records": 81
         },
-        "generated_at": "2026-10-15T11:29:32.769970Z",
+        "generated_at": "2026-10-15T17:01:11.042520Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409763,7 +409763,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-15T11:29:34.982613Z",
+        "generated_at": "2026-10-15T17:01:13.963478Z",
         "players": [
           {
             "availability_status": "a",
@@ -476631,7 +476631,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T11:29:34.651429Z",
+    "generated_at": "2026-10-15T17:01:13.269515Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -476806,7 +476806,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792063770
+      "time": 1792083668
     },
     "choices": {
       "choices": [],
@@ -493421,7 +493421,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-15T11:29:32.771220Z",
+    "generated_at": "2026-10-15T17:01:11.043836Z",
     "pending_waiver_count": 39,
     "schema_version": 1,
     "source_available": true,
@@ -503793,7 +503793,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-15T11:29:34.982646Z",
+    "generated_at": "2026-10-15T17:01:13.963524Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503834,7 +503834,7 @@
       "source_available": true,
       "typed_records": 81
     },
-    "generated_at": "2026-10-15T11:29:32.769970Z",
+    "generated_at": "2026-10-15T17:01:11.042520Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508145,7 +508145,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-15T11:29:34.982613Z",
+    "generated_at": "2026-10-15T17:01:13.963478Z",
     "players": [
       {
         "availability_status": "a",
