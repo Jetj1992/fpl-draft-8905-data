@@ -4003,16 +4003,16 @@
         "web_name": "Berge"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 315,
         "element_type": 3,
         "first_name": "Tom",
         "id": 266,
         "minutes": 0,
-        "news": "Knee injury - Expected back 17 Oct",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Cairney",
-        "status": "i",
+        "status": "d",
         "team": 10,
         "total_points": 0,
         "web_name": "Cairney"
@@ -7078,16 +7078,16 @@
         "web_name": "Morato"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 135,
         "element_type": 2,
         "first_name": "Nikola",
         "id": 471,
         "minutes": 270,
-        "news": "Knee injury - Unknown return date",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Milenković",
-        "status": "i",
+        "status": "d",
         "team": 18,
         "total_points": 12,
         "web_name": "Milenković"
@@ -8803,16 +8803,16 @@
         "web_name": "Herrington"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 655,
         "element_type": 2,
         "first_name": "Nobel",
         "id": 586,
         "minutes": 339,
-        "news": "",
+        "news": "Groin injury - Expected back 31 Oct",
         "second_name": "Mendy",
-        "status": "a",
+        "status": "i",
         "team": 11,
         "total_points": 28,
         "web_name": "Mendy"
@@ -8848,16 +8848,16 @@
         "web_name": "Khalaili"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 416,
         "element_type": 3,
         "first_name": "Lucas",
         "id": 589,
         "minutes": 138,
-        "news": "",
+        "news": "Calf injury - Expected back 25 Oct",
         "second_name": "Gourna-Douath",
-        "status": "a",
+        "status": "i",
         "team": 11,
         "total_points": 4,
         "web_name": "Gourna-Douath"
@@ -11210,13 +11210,13 @@
         "web_name": "Xhaka"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 18,
         "club_name": "Nott'm Forest",
         "club_short_name": "NFO",
         "element_id": 471,
         "first_name": "Nikola",
-        "news": "Knee injury - Unknown return date",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 135,
         "position": "DEF",
         "position_id": 2,
@@ -11236,6 +11236,20 @@
         "position_id": 3,
         "second_name": "Lewis-Potter",
         "web_name": "Lewis-Potter"
+      },
+      {
+        "availability_status": "i",
+        "club_id": 6,
+        "club_name": "Chelsea",
+        "club_short_name": "CHE",
+        "element_id": 142,
+        "first_name": "Reece",
+        "news": "Knee injury - Unknown return date",
+        "official_draft_rank": 138,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "James",
+        "web_name": "James"
       },
       {
         "availability_status": "d",
@@ -13310,13 +13324,13 @@
         "web_name": "Bradley"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 266,
         "first_name": "Tom",
-        "news": "Knee injury - Expected back 17 Oct",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 315,
         "position": "MID",
         "position_id": 3,
@@ -14640,13 +14654,13 @@
         "web_name": "Rulli"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 589,
         "first_name": "Lucas",
-        "news": "",
+        "news": "Calf injury - Expected back 25 Oct",
         "official_draft_rank": 416,
         "position": "MID",
         "position_id": 3,
@@ -15142,20 +15156,6 @@
         "position_id": 2,
         "second_name": "Spence",
         "web_name": "Spence"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 4,
-        "club_name": "Brentford",
-        "club_short_name": "BRE",
-        "element_id": 87,
-        "first_name": "Kristoffer",
-        "news": "",
-        "official_draft_rank": 461,
-        "position": "DEF",
-        "position_id": 2,
-        "second_name": "Ajer",
-        "web_name": "Ajer"
       },
       {
         "availability_status": "a",
@@ -17832,13 +17832,13 @@
         "web_name": "Patterson"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 586,
         "first_name": "Nobel",
-        "news": "",
+        "news": "Groin injury - Expected back 31 Oct",
         "official_draft_rank": 655,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-16T11:24:46.477401Z",
+    "generated_at": "2026-10-16T16:39:46.375716Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19638,6 +19638,23 @@
           },
           {
             "availability_status": "a",
+            "club_id": 4,
+            "club_name": "Brentford",
+            "club_short_name": "BRE",
+            "element_id": 87,
+            "entry_id": 318564,
+            "entry_name": "La Liga es la mejor",
+            "first_name": "Kristoffer",
+            "league_entry_id": 321694,
+            "news": "",
+            "official_draft_rank": 461,
+            "position": "DEF",
+            "position_id": 2,
+            "second_name": "Ajer",
+            "web_name": "Ajer"
+          },
+          {
+            "availability_status": "a",
             "club_id": 5,
             "club_name": "Brighton",
             "club_short_name": "BHA",
@@ -19669,23 +19686,6 @@
             "position_id": 2,
             "second_name": "dos Santos Magalhães",
             "web_name": "Gabriel"
-          },
-          {
-            "availability_status": "i",
-            "club_id": 6,
-            "club_name": "Chelsea",
-            "club_short_name": "CHE",
-            "element_id": 142,
-            "entry_id": 318564,
-            "entry_name": "La Liga es la mejor",
-            "first_name": "Reece",
-            "league_entry_id": 321694,
-            "news": "Knee injury - Unknown return date",
-            "official_draft_rank": 138,
-            "position": "DEF",
-            "position_id": 2,
-            "second_name": "James",
-            "web_name": "James"
           },
           {
             "availability_status": "a",
@@ -28659,8 +28659,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 3
+        "transactions_event": 1,
+        "transactions_total": 4
       }
     },
     "42888": {
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-16T11:24:46.974341Z",
+  "generated_at": "2026-10-16T16:39:48.032123Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -335077,16 +335077,16 @@
             "web_name": "Berge"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 315,
             "element_type": 3,
             "first_name": "Tom",
             "id": 266,
             "minutes": 0,
-            "news": "Knee injury - Expected back 17 Oct",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Cairney",
-            "status": "i",
+            "status": "d",
             "team": 10,
             "total_points": 0,
             "web_name": "Cairney"
@@ -338152,16 +338152,16 @@
             "web_name": "Morato"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 135,
             "element_type": 2,
             "first_name": "Nikola",
             "id": 471,
             "minutes": 270,
-            "news": "Knee injury - Unknown return date",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Milenković",
-            "status": "i",
+            "status": "d",
             "team": 18,
             "total_points": 12,
             "web_name": "Milenković"
@@ -339877,16 +339877,16 @@
             "web_name": "Herrington"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 655,
             "element_type": 2,
             "first_name": "Nobel",
             "id": 586,
             "minutes": 339,
-            "news": "",
+            "news": "Groin injury - Expected back 31 Oct",
             "second_name": "Mendy",
-            "status": "a",
+            "status": "i",
             "team": 11,
             "total_points": 28,
             "web_name": "Mendy"
@@ -339922,16 +339922,16 @@
             "web_name": "Khalaili"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 416,
             "element_type": 3,
             "first_name": "Lucas",
             "id": 589,
             "minutes": 138,
-            "news": "",
+            "news": "Calf injury - Expected back 25 Oct",
             "second_name": "Gourna-Douath",
-            "status": "a",
+            "status": "i",
             "team": 11,
             "total_points": 4,
             "web_name": "Gourna-Douath"
@@ -341761,12 +341761,6 @@
             "status": "a"
           },
           {
-            "element": 87,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 280,
             "in_accepted_trade": false,
             "owner": null,
@@ -344539,6 +344533,12 @@
             "status": "l"
           },
           {
+            "element": 142,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 201,
             "in_accepted_trade": false,
             "owner": null,
@@ -344701,6 +344701,12 @@
             "status": "o"
           },
           {
+            "element": 87,
+            "in_accepted_trade": false,
+            "owner": 318564,
+            "status": "o"
+          },
+          {
             "element": 10,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -344834,12 +344840,6 @@
           },
           {
             "element": 25,
-            "in_accepted_trade": false,
-            "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 142,
             "in_accepted_trade": false,
             "owner": 318564,
             "status": "o"
@@ -345768,12 +345768,6 @@
             "status": "a"
           },
           {
-            "element": 87,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 280,
             "in_accepted_trade": false,
             "owner": null,
@@ -348546,6 +348540,12 @@
             "status": "l"
           },
           {
+            "element": 142,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 201,
             "in_accepted_trade": false,
             "owner": null,
@@ -348708,6 +348708,12 @@
             "status": "o"
           },
           {
+            "element": 87,
+            "in_accepted_trade": false,
+            "owner": 318564,
+            "status": "o"
+          },
+          {
             "element": 10,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -348841,12 +348847,6 @@
           },
           {
             "element": 25,
-            "in_accepted_trade": false,
-            "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 142,
             "in_accepted_trade": false,
             "owner": 318564,
             "status": "o"
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-16T11:24:46.974341Z",
+          "generated_at": "2026-10-16T16:39:48.032123Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404416,7 +404416,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-16T11:24:46.974341Z",
+        "generated_at": "2026-10-16T16:39:48.032123Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405633,18 +405633,30 @@
             "kind": "w",
             "priority": 8,
             "result": "do"
+          },
+          {
+            "added": "2026-10-16T16:06:39.993398Z",
+            "element_in": 87,
+            "element_out": 142,
+            "entry": 318564,
+            "event": 7,
+            "id": 17022962,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
           }
         ]
       },
       "transactions_enriched": {
         "data_quality": {
           "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-          "records_enriched": 97,
-          "records_received": 97,
+          "records_enriched": 98,
+          "records_received": 98,
           "source_available": true,
-          "typed_records": 97
+          "typed_records": 98
         },
-        "generated_at": "2026-10-16T11:24:46.475821Z",
+        "generated_at": "2026-10-16T16:39:46.373775Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -406617,13 +406629,13 @@
               "web_name": "De Cuyper"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 18,
               "club_name": "Nott'm Forest",
               "club_short_name": "NFO",
               "element_id": 471,
               "first_name": "Nikola",
-              "news": "Knee injury - Unknown return date",
+              "news": "Knee injury - 75% chance of playing",
               "official_draft_rank": 135,
               "position": "DEF",
               "position_id": 2,
@@ -406670,13 +406682,13 @@
               "web_name": "White"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 18,
               "club_name": "Nott'm Forest",
               "club_short_name": "NFO",
               "element_id": 471,
               "first_name": "Nikola",
-              "news": "Knee injury - Unknown return date",
+              "news": "Knee injury - 75% chance of playing",
               "official_draft_rank": 135,
               "position": "DEF",
               "position_id": 2,
@@ -407253,13 +407265,13 @@
               "web_name": "Dedić"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 18,
               "club_name": "Nott'm Forest",
               "club_short_name": "NFO",
               "element_id": 471,
               "first_name": "Nikola",
-              "news": "Knee injury - Unknown return date",
+              "news": "Knee injury - 75% chance of playing",
               "official_draft_rank": 135,
               "position": "DEF",
               "position_id": 2,
@@ -407306,13 +407318,13 @@
               "web_name": "Hall"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 18,
               "club_name": "Nott'm Forest",
               "club_short_name": "NFO",
               "element_id": 471,
               "first_name": "Nikola",
-              "news": "Knee injury - Unknown return date",
+              "news": "Knee injury - 75% chance of playing",
               "official_draft_rank": 135,
               "position": "DEF",
               "position_id": 2,
@@ -407518,13 +407530,13 @@
               "web_name": "Schär"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 18,
               "club_name": "Nott'm Forest",
               "club_short_name": "NFO",
               "element_id": 471,
               "first_name": "Nikola",
-              "news": "Knee injury - Unknown return date",
+              "news": "Knee injury - 75% chance of playing",
               "official_draft_rank": 135,
               "position": "DEF",
               "position_id": 2,
@@ -410787,6 +410799,59 @@
             "timestamp": null,
             "transaction_id": 16968350,
             "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 87,
+              "first_name": "Kristoffer",
+              "news": "",
+              "official_draft_rank": 461,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Ajer",
+              "web_name": "Ajer"
+            },
+            "element_out": {
+              "availability_status": "i",
+              "club_id": 6,
+              "club_name": "Chelsea",
+              "club_short_name": "CHE",
+              "element_id": 142,
+              "first_name": "Reece",
+              "news": "Knee injury - Unknown return date",
+              "official_draft_rank": 138,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "James",
+              "web_name": "James"
+            },
+            "entry_id": 318564,
+            "entry_name": "La Liga es la mejor",
+            "event": 7,
+            "league_entry_id": 321694,
+            "priority": null,
+            "raw": {
+              "added": "2026-10-16T16:06:39.993398Z",
+              "element_in": 87,
+              "element_out": 142,
+              "entry": 318564,
+              "event": 7,
+              "id": 17022962,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 17022962,
+            "transaction_type": "free_agent"
           }
         ]
       },
@@ -410803,7 +410868,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-16T11:24:46.974255Z",
+        "generated_at": "2026-10-16T16:39:48.032071Z",
         "players": [
           {
             "availability_status": "a",
@@ -477671,7 +477736,7 @@
       "name": "Gameweek 6"
     },
     "gameweek": 6,
-    "generated_at": "2026-10-16T11:24:46.804642Z",
+    "generated_at": "2026-10-16T16:39:47.922529Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -477846,7 +477911,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792149885
+      "time": 1792168784
     },
     "choices": {
       "choices": [],
@@ -478393,12 +478458,6 @@
         },
         {
           "element": 37,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 87,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -481176,6 +481235,12 @@
           "status": "l"
         },
         {
+          "element": 142,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 201,
           "in_accepted_trade": false,
           "owner": null,
@@ -481338,6 +481403,12 @@
           "status": "o"
         },
         {
+          "element": 87,
+          "in_accepted_trade": false,
+          "owner": 318564,
+          "status": "o"
+        },
+        {
           "element": 10,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -481471,12 +481542,6 @@
         },
         {
           "element": 25,
-          "in_accepted_trade": false,
-          "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 142,
           "in_accepted_trade": false,
           "owner": 318564,
           "status": "o"
@@ -482405,12 +482470,6 @@
           "status": "a"
         },
         {
-          "element": 87,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 280,
           "in_accepted_trade": false,
           "owner": null,
@@ -485183,6 +485242,12 @@
           "status": "l"
         },
         {
+          "element": 142,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 201,
           "in_accepted_trade": false,
           "owner": null,
@@ -485345,6 +485410,12 @@
           "status": "o"
         },
         {
+          "element": 87,
+          "in_accepted_trade": false,
+          "owner": 318564,
+          "status": "o"
+        },
+        {
           "element": 10,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -485478,12 +485549,6 @@
         },
         {
           "element": 25,
-          "in_accepted_trade": false,
-          "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 142,
           "in_accepted_trade": false,
           "owner": 318564,
           "status": "o"
@@ -487054,6 +487119,18 @@
           "kind": "w",
           "priority": 8,
           "result": "do"
+        },
+        {
+          "added": "2026-10-16T16:06:39.993398Z",
+          "element_in": 87,
+          "element_out": 142,
+          "entry": 318564,
+          "event": 7,
+          "id": 17022962,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
         }
       ]
     }
@@ -494653,7 +494730,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-16T11:24:46.477436Z",
+    "generated_at": "2026-10-16T16:39:46.375753Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -495151,13 +495228,13 @@
           "web_name": "De Cuyper"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -495204,13 +495281,13 @@
           "web_name": "White"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -495469,13 +495546,13 @@
           "web_name": "Hall"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -495628,13 +495705,13 @@
           "web_name": "Schär"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -505396,7 +505473,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-16T11:24:46.974341Z",
+    "generated_at": "2026-10-16T16:39:48.032123Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -505432,12 +505509,12 @@
   "transactions_enriched": {
     "data_quality": {
       "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-      "records_enriched": 97,
-      "records_received": 97,
+      "records_enriched": 98,
+      "records_received": 98,
       "source_available": true,
-      "typed_records": 97
+      "typed_records": 98
     },
-    "generated_at": "2026-10-16T11:24:46.475821Z",
+    "generated_at": "2026-10-16T16:39:46.373775Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -506410,13 +506487,13 @@
           "web_name": "De Cuyper"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -506463,13 +506540,13 @@
           "web_name": "White"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -507046,13 +507123,13 @@
           "web_name": "Dedić"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -507099,13 +507176,13 @@
           "web_name": "Hall"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -507311,13 +507388,13 @@
           "web_name": "Schär"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 18,
           "club_name": "Nott'm Forest",
           "club_short_name": "NFO",
           "element_id": 471,
           "first_name": "Nikola",
-          "news": "Knee injury - Unknown return date",
+          "news": "Knee injury - 75% chance of playing",
           "official_draft_rank": 135,
           "position": "DEF",
           "position_id": 2,
@@ -510580,6 +510657,59 @@
         "timestamp": null,
         "transaction_id": 16968350,
         "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 87,
+          "first_name": "Kristoffer",
+          "news": "",
+          "official_draft_rank": 461,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Ajer",
+          "web_name": "Ajer"
+        },
+        "element_out": {
+          "availability_status": "i",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 142,
+          "first_name": "Reece",
+          "news": "Knee injury - Unknown return date",
+          "official_draft_rank": 138,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "James",
+          "web_name": "James"
+        },
+        "entry_id": 318564,
+        "entry_name": "La Liga es la mejor",
+        "event": 7,
+        "league_entry_id": 321694,
+        "priority": null,
+        "raw": {
+          "added": "2026-10-16T16:06:39.993398Z",
+          "element_in": 87,
+          "element_out": 142,
+          "entry": 318564,
+          "event": 7,
+          "id": 17022962,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 17022962,
+        "transaction_type": "free_agent"
       }
     ]
   },
@@ -510596,7 +510726,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-16T11:24:46.974255Z",
+    "generated_at": "2026-10-16T16:39:48.032071Z",
     "players": [
       {
         "availability_status": "a",
