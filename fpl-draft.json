@@ -519,7 +519,7 @@
         "second_name": "Mings",
         "status": "a",
         "team": 2,
-        "total_points": 17,
+        "total_points": 18,
         "web_name": "Mings"
       },
       {
@@ -579,7 +579,7 @@
         "second_name": "Lindelöf",
         "status": "a",
         "team": 2,
-        "total_points": 21,
+        "total_points": 20,
         "web_name": "Lindelöf"
       },
       {
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-17T20:36:52.824823Z",
+    "generated_at": "2026-10-17T23:08:00.632488Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-17T20:36:54.904594Z",
+  "generated_at": "2026-10-17T23:08:06.502981Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -331593,7 +331593,7 @@
             "second_name": "Mings",
             "status": "a",
             "team": 2,
-            "total_points": 17,
+            "total_points": 18,
             "web_name": "Mings"
           },
           {
@@ -331653,7 +331653,7 @@
             "second_name": "Lindelöf",
             "status": "a",
             "team": 2,
-            "total_points": 21,
+            "total_points": 20,
             "web_name": "Lindelöf"
           },
           {
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-17T20:36:54.904594Z",
+          "generated_at": "2026-10-17T23:08:06.502981Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -397083,12 +397083,12 @@
                         "value": 16
                       },
                       {
-                        "element": 642,
-                        "value": 10
+                        "element": 277,
+                        "value": 12
                       },
                       {
-                        "element": 277,
-                        "value": 8
+                        "element": 642,
+                        "value": 10
                       },
                       {
                         "element": 290,
@@ -397162,7 +397162,7 @@
                       },
                       {
                         "element": 650,
-                        "value": 24
+                        "value": 22
                       },
                       {
                         "element": 265,
@@ -397839,12 +397839,16 @@
                         "value": 3
                       },
                       {
-                        "element": 37,
+                        "element": 597,
                         "value": 2
                       },
                       {
-                        "element": 597,
-                        "value": 2
+                        "element": 33,
+                        "value": 1
+                      },
+                      {
+                        "element": 37,
+                        "value": 1
                       }
                     ],
                     "h": [],
@@ -397854,11 +397858,7 @@
                     "a": [
                       {
                         "element": 53,
-                        "value": 34
-                      },
-                      {
-                        "element": 37,
-                        "value": 27
+                        "value": 35
                       },
                       {
                         "element": 597,
@@ -397866,7 +397866,11 @@
                       },
                       {
                         "element": 33,
-                        "value": 25
+                        "value": 26
+                      },
+                      {
+                        "element": 37,
+                        "value": 26
                       },
                       {
                         "element": 41,
@@ -397877,12 +397881,12 @@
                         "value": 23
                       },
                       {
-                        "element": 32,
-                        "value": 22
-                      },
-                      {
                         "element": 47,
                         "value": 21
+                      },
+                      {
+                        "element": 32,
+                        "value": 20
                       },
                       {
                         "element": 611,
@@ -397890,7 +397894,7 @@
                       },
                       {
                         "element": 45,
-                        "value": 11
+                        "value": 12
                       },
                       {
                         "element": 46,
@@ -397910,7 +397914,7 @@
                       },
                       {
                         "element": 618,
-                        "value": 4
+                        "value": 5
                       },
                       {
                         "element": 631,
@@ -397924,14 +397928,14 @@
                       },
                       {
                         "element": 459,
-                        "value": 16
-                      },
-                      {
-                        "element": 453,
-                        "value": 12
+                        "value": 17
                       },
                       {
                         "element": 458,
+                        "value": 13
+                      },
+                      {
+                        "element": 453,
                         "value": 12
                       },
                       {
@@ -397951,6 +397955,10 @@
                         "value": 6
                       },
                       {
+                        "element": 634,
+                        "value": 6
+                      },
+                      {
                         "element": 448,
                         "value": 5
                       },
@@ -397963,8 +397971,8 @@
                         "value": 5
                       },
                       {
-                        "element": 634,
-                        "value": 5
+                        "element": 464,
+                        "value": 1
                       },
                       {
                         "element": 465,
@@ -397996,15 +398004,15 @@
                         "value": 10
                       },
                       {
+                        "element": 618,
+                        "value": 9
+                      },
+                      {
                         "element": 33,
                         "value": 7
                       },
                       {
-                        "element": 618,
-                        "value": 7
-                      },
-                      {
-                        "element": 46,
+                        "element": 54,
                         "value": 6
                       },
                       {
@@ -398012,16 +398020,20 @@
                         "value": 5
                       },
                       {
-                        "element": 54,
-                        "value": 5
+                        "element": 34,
+                        "value": 4
+                      },
+                      {
+                        "element": 46,
+                        "value": 4
                       },
                       {
                         "element": 611,
                         "value": 4
                       },
                       {
-                        "element": 34,
-                        "value": 3
+                        "element": 631,
+                        "value": 4
                       },
                       {
                         "element": 53,
@@ -398029,10 +398041,6 @@
                       },
                       {
                         "element": 166,
-                        "value": 3
-                      },
-                      {
-                        "element": 631,
                         "value": 3
                       }
                     ],
@@ -402847,7 +402855,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-17T20:36:54.904594Z",
+        "generated_at": "2026-10-17T23:08:06.502981Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -404099,7 +404107,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-17T20:36:52.823072Z",
+        "generated_at": "2026-10-17T23:08:00.630532Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -409364,7 +409372,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-17T20:36:54.904527Z",
+        "generated_at": "2026-10-17T23:08:06.502916Z",
         "players": [
           {
             "availability_status": "a",
@@ -476232,7 +476240,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-17T20:36:54.098951Z",
+    "generated_at": "2026-10-17T23:08:05.881513Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -478572,7 +478580,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792269411
+      "time": 1792278479
     },
     "choices": {
       "choices": [],
@@ -492483,12 +492491,12 @@
                 "value": 16
               },
               {
-                "element": 642,
-                "value": 10
+                "element": 277,
+                "value": 12
               },
               {
-                "element": 277,
-                "value": 8
+                "element": 642,
+                "value": 10
               },
               {
                 "element": 290,
@@ -492562,7 +492570,7 @@
               },
               {
                 "element": 650,
-                "value": 24
+                "value": 22
               },
               {
                 "element": 265,
@@ -493239,12 +493247,16 @@
                 "value": 3
               },
               {
-                "element": 37,
+                "element": 597,
                 "value": 2
               },
               {
-                "element": 597,
-                "value": 2
+                "element": 33,
+                "value": 1
+              },
+              {
+                "element": 37,
+                "value": 1
               }
             ],
             "h": [],
@@ -493254,11 +493266,7 @@
             "a": [
               {
                 "element": 53,
-                "value": 34
-              },
-              {
-                "element": 37,
-                "value": 27
+                "value": 35
               },
               {
                 "element": 597,
@@ -493266,7 +493274,11 @@
               },
               {
                 "element": 33,
-                "value": 25
+                "value": 26
+              },
+              {
+                "element": 37,
+                "value": 26
               },
               {
                 "element": 41,
@@ -493277,12 +493289,12 @@
                 "value": 23
               },
               {
-                "element": 32,
-                "value": 22
-              },
-              {
                 "element": 47,
                 "value": 21
+              },
+              {
+                "element": 32,
+                "value": 20
               },
               {
                 "element": 611,
@@ -493290,7 +493302,7 @@
               },
               {
                 "element": 45,
-                "value": 11
+                "value": 12
               },
               {
                 "element": 46,
@@ -493310,7 +493322,7 @@
               },
               {
                 "element": 618,
-                "value": 4
+                "value": 5
               },
               {
                 "element": 631,
@@ -493324,14 +493336,14 @@
               },
               {
                 "element": 459,
-                "value": 16
-              },
-              {
-                "element": 453,
-                "value": 12
+                "value": 17
               },
               {
                 "element": 458,
+                "value": 13
+              },
+              {
+                "element": 453,
                 "value": 12
               },
               {
@@ -493351,6 +493363,10 @@
                 "value": 6
               },
               {
+                "element": 634,
+                "value": 6
+              },
+              {
                 "element": 448,
                 "value": 5
               },
@@ -493363,8 +493379,8 @@
                 "value": 5
               },
               {
-                "element": 634,
-                "value": 5
+                "element": 464,
+                "value": 1
               },
               {
                 "element": 465,
@@ -493396,15 +493412,15 @@
                 "value": 10
               },
               {
+                "element": 618,
+                "value": 9
+              },
+              {
                 "element": 33,
                 "value": 7
               },
               {
-                "element": 618,
-                "value": 7
-              },
-              {
-                "element": 46,
+                "element": 54,
                 "value": 6
               },
               {
@@ -493412,16 +493428,20 @@
                 "value": 5
               },
               {
-                "element": 54,
-                "value": 5
+                "element": 34,
+                "value": 4
+              },
+              {
+                "element": 46,
+                "value": 4
               },
               {
                 "element": 611,
                 "value": 4
               },
               {
-                "element": 34,
-                "value": 3
+                "element": 631,
+                "value": 4
               },
               {
                 "element": 53,
@@ -493429,10 +493449,6 @@
               },
               {
                 "element": 166,
-                "value": 3
-              },
-              {
-                "element": 631,
                 "value": 3
               }
             ],
@@ -493786,7 +493802,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-17T20:36:52.824863Z",
+    "generated_at": "2026-10-17T23:08:00.632527Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -497195,12 +497211,12 @@
                     "value": 16
                   },
                   {
-                    "element": 642,
-                    "value": 10
+                    "element": 277,
+                    "value": 12
                   },
                   {
-                    "element": 277,
-                    "value": 8
+                    "element": 642,
+                    "value": 10
                   },
                   {
                     "element": 290,
@@ -497274,7 +497290,7 @@
                   },
                   {
                     "element": 650,
-                    "value": 24
+                    "value": 22
                   },
                   {
                     "element": 265,
@@ -497951,12 +497967,16 @@
                     "value": 3
                   },
                   {
-                    "element": 37,
+                    "element": 597,
                     "value": 2
                   },
                   {
-                    "element": 597,
-                    "value": 2
+                    "element": 33,
+                    "value": 1
+                  },
+                  {
+                    "element": 37,
+                    "value": 1
                   }
                 ],
                 "h": [],
@@ -497966,11 +497986,7 @@
                 "a": [
                   {
                     "element": 53,
-                    "value": 34
-                  },
-                  {
-                    "element": 37,
-                    "value": 27
+                    "value": 35
                   },
                   {
                     "element": 597,
@@ -497978,7 +497994,11 @@
                   },
                   {
                     "element": 33,
-                    "value": 25
+                    "value": 26
+                  },
+                  {
+                    "element": 37,
+                    "value": 26
                   },
                   {
                     "element": 41,
@@ -497989,12 +498009,12 @@
                     "value": 23
                   },
                   {
-                    "element": 32,
-                    "value": 22
-                  },
-                  {
                     "element": 47,
                     "value": 21
+                  },
+                  {
+                    "element": 32,
+                    "value": 20
                   },
                   {
                     "element": 611,
@@ -498002,7 +498022,7 @@
                   },
                   {
                     "element": 45,
-                    "value": 11
+                    "value": 12
                   },
                   {
                     "element": 46,
@@ -498022,7 +498042,7 @@
                   },
                   {
                     "element": 618,
-                    "value": 4
+                    "value": 5
                   },
                   {
                     "element": 631,
@@ -498036,14 +498056,14 @@
                   },
                   {
                     "element": 459,
-                    "value": 16
-                  },
-                  {
-                    "element": 453,
-                    "value": 12
+                    "value": 17
                   },
                   {
                     "element": 458,
+                    "value": 13
+                  },
+                  {
+                    "element": 453,
                     "value": 12
                   },
                   {
@@ -498063,6 +498083,10 @@
                     "value": 6
                   },
                   {
+                    "element": 634,
+                    "value": 6
+                  },
+                  {
                     "element": 448,
                     "value": 5
                   },
@@ -498075,8 +498099,8 @@
                     "value": 5
                   },
                   {
-                    "element": 634,
-                    "value": 5
+                    "element": 464,
+                    "value": 1
                   },
                   {
                     "element": 465,
@@ -498108,15 +498132,15 @@
                     "value": 10
                   },
                   {
+                    "element": 618,
+                    "value": 9
+                  },
+                  {
                     "element": 33,
                     "value": 7
                   },
                   {
-                    "element": 618,
-                    "value": 7
-                  },
-                  {
-                    "element": 46,
+                    "element": 54,
                     "value": 6
                   },
                   {
@@ -498124,16 +498148,20 @@
                     "value": 5
                   },
                   {
-                    "element": 54,
-                    "value": 5
+                    "element": 34,
+                    "value": 4
+                  },
+                  {
+                    "element": 46,
+                    "value": 4
                   },
                   {
                     "element": 611,
                     "value": 4
                   },
                   {
-                    "element": 34,
-                    "value": 3
+                    "element": 631,
+                    "value": 4
                   },
                   {
                     "element": 53,
@@ -498141,10 +498169,6 @@
                   },
                   {
                     "element": 166,
-                    "value": 3
-                  },
-                  {
-                    "element": 631,
                     "value": 3
                   }
                 ],
@@ -502960,7 +502984,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-17T20:36:54.904594Z",
+    "generated_at": "2026-10-17T23:08:06.502981Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503001,7 +503025,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-17T20:36:52.823072Z",
+    "generated_at": "2026-10-17T23:08:00.630532Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -508266,7 +508290,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-17T20:36:54.904527Z",
+    "generated_at": "2026-10-17T23:08:06.502916Z",
     "players": [
       {
         "availability_status": "a",
