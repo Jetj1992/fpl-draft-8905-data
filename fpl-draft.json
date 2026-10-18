@@ -433,16 +433,16 @@
         "web_name": "G.Jesus"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 255,
         "element_type": 1,
         "first_name": "Emiliano",
         "id": 28,
         "minutes": 524,
-        "news": "Head injury - 25% chance of playing",
+        "news": "Head injury - Unknown return date",
         "second_name": "Martínez Romero",
-        "status": "d",
+        "status": "i",
         "team": 6,
         "total_points": 20,
         "web_name": "Martinez"
@@ -1550,7 +1550,7 @@
         "first_name": "Yehor",
         "id": 102,
         "minutes": 334,
-        "news": "Suspended until 8 Nov",
+        "news": "Suspended until 23 Nov",
         "second_name": "Yarmoliuk",
         "status": "s",
         "team": 4,
@@ -4055,7 +4055,7 @@
         "first_name": "Ryan",
         "id": 269,
         "minutes": 152,
-        "news": "Suspended until 7 Nov",
+        "news": "Suspended until 21 Nov",
         "second_name": "Sessegnon",
         "status": "s",
         "team": 10,
@@ -12686,7 +12686,7 @@
         "club_short_name": "BRE",
         "element_id": 102,
         "first_name": "Yehor",
-        "news": "Suspended until 8 Nov",
+        "news": "Suspended until 23 Nov",
         "official_draft_rank": 265,
         "position": "MID",
         "position_id": 3,
@@ -15108,7 +15108,7 @@
         "club_short_name": "FUL",
         "element_id": 269,
         "first_name": "Ryan",
-        "news": "Suspended until 7 Nov",
+        "news": "Suspended until 21 Nov",
         "official_draft_rank": 455,
         "position": "DEF",
         "position_id": 2,
@@ -18014,7 +18014,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-17T23:08:00.632488Z",
+    "generated_at": "2026-10-18T04:34:20.688646Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18568,7 +18568,7 @@
             "web_name": "A.Becker"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -18577,7 +18577,7 @@
             "entry_name": "Grove Løjer",
             "first_name": "Emiliano",
             "league_entry_id": 138520,
-            "news": "Head injury - 25% chance of playing",
+            "news": "Head injury - Unknown return date",
             "official_draft_rank": 255,
             "position": "GKP",
             "position_id": 1,
@@ -29206,7 +29206,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-17T23:08:06.502981Z",
+  "generated_at": "2026-10-18T04:34:22.360792Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -331507,16 +331507,16 @@
             "web_name": "G.Jesus"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 255,
             "element_type": 1,
             "first_name": "Emiliano",
             "id": 28,
             "minutes": 524,
-            "news": "Head injury - 25% chance of playing",
+            "news": "Head injury - Unknown return date",
             "second_name": "Martínez Romero",
-            "status": "d",
+            "status": "i",
             "team": 6,
             "total_points": 20,
             "web_name": "Martinez"
@@ -332624,7 +332624,7 @@
             "first_name": "Yehor",
             "id": 102,
             "minutes": 334,
-            "news": "Suspended until 8 Nov",
+            "news": "Suspended until 23 Nov",
             "second_name": "Yarmoliuk",
             "status": "s",
             "team": 4,
@@ -335129,7 +335129,7 @@
             "first_name": "Ryan",
             "id": 269,
             "minutes": 152,
-            "news": "Suspended until 7 Nov",
+            "news": "Suspended until 21 Nov",
             "second_name": "Sessegnon",
             "status": "s",
             "team": 10,
@@ -393127,7 +393127,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-17T23:08:06.502981Z",
+          "generated_at": "2026-10-18T04:34:22.360792Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -402855,7 +402855,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-17T23:08:06.502981Z",
+        "generated_at": "2026-10-18T04:34:22.360792Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -404107,7 +404107,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-17T23:08:00.630532Z",
+        "generated_at": "2026-10-18T04:34:20.686741Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -404179,13 +404179,13 @@
               "web_name": "Trafford"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "i",
               "club_id": 6,
               "club_name": "Chelsea",
               "club_short_name": "CHE",
               "element_id": 28,
               "first_name": "Emiliano",
-              "news": "Head injury - 25% chance of playing",
+              "news": "Head injury - Unknown return date",
               "official_draft_rank": 255,
               "position": "GKP",
               "position_id": 1,
@@ -405384,13 +405384,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "i",
               "club_id": 6,
               "club_name": "Chelsea",
               "club_short_name": "CHE",
               "element_id": 28,
               "first_name": "Emiliano",
-              "news": "Head injury - 25% chance of playing",
+              "news": "Head injury - Unknown return date",
               "official_draft_rank": 255,
               "position": "GKP",
               "position_id": 1,
@@ -409372,7 +409372,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-17T23:08:06.502916Z",
+        "generated_at": "2026-10-18T04:34:22.360734Z",
         "players": [
           {
             "availability_status": "a",
@@ -476240,7 +476240,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-17T23:08:05.881513Z",
+    "generated_at": "2026-10-18T04:34:21.852978Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -478580,7 +478580,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792278479
+      "time": 1792298060
     },
     "choices": {
       "choices": [],
@@ -493802,7 +493802,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-17T23:08:00.632527Z",
+    "generated_at": "2026-10-18T04:34:20.688696Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -502984,7 +502984,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-17T23:08:06.502981Z",
+    "generated_at": "2026-10-18T04:34:22.360792Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -503025,7 +503025,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-17T23:08:00.630532Z",
+    "generated_at": "2026-10-18T04:34:20.686741Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -503097,13 +503097,13 @@
           "web_name": "Trafford"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 6,
           "club_name": "Chelsea",
           "club_short_name": "CHE",
           "element_id": 28,
           "first_name": "Emiliano",
-          "news": "Head injury - 25% chance of playing",
+          "news": "Head injury - Unknown return date",
           "official_draft_rank": 255,
           "position": "GKP",
           "position_id": 1,
@@ -504302,13 +504302,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 6,
           "club_name": "Chelsea",
           "club_short_name": "CHE",
           "element_id": 28,
           "first_name": "Emiliano",
-          "news": "Head injury - 25% chance of playing",
+          "news": "Head injury - Unknown return date",
           "official_draft_rank": 255,
           "position": "GKP",
           "position_id": 1,
@@ -508290,7 +508290,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-17T23:08:06.502916Z",
+    "generated_at": "2026-10-18T04:34:22.360734Z",
     "players": [
       {
         "availability_status": "a",
