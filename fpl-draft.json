@@ -5968,16 +5968,16 @@
         "web_name": "Vitor Reis"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 6,
         "element_type": 3,
         "first_name": "Antoine",
         "id": 397,
         "minutes": 553,
-        "news": "Knee injury - 75% chance of playing",
+        "news": "Knee injury - Unknown return date",
         "second_name": "Semenyo",
-        "status": "d",
+        "status": "i",
         "team": 15,
         "total_points": 37,
         "web_name": "Semenyo"
@@ -6178,16 +6178,16 @@
         "web_name": "Monga"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 1,
         "element_type": 4,
         "first_name": "Erling",
         "id": 411,
         "minutes": 619,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Haaland",
-        "status": "a",
+        "status": "d",
         "team": 15,
         "total_points": 58,
         "web_name": "Haaland"
@@ -7820,7 +7820,7 @@
         "first_name": "Lucas",
         "id": 520,
         "minutes": 143,
-        "news": "Knee injury - Expected back 7 Nov",
+        "news": "Knee injury - Expected back 31 Oct",
         "second_name": "Bergvall",
         "status": "i",
         "team": 19,
@@ -8293,16 +8293,16 @@
         "web_name": "N.Angulo"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 88,
         "element_type": 4,
         "first_name": "Brian",
         "id": 552,
         "minutes": 399,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Brobbey",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 24,
         "web_name": "Brobbey"
@@ -10161,13 +10161,13 @@
     "free_agent_count": 563,
     "free_agents": [
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 15,
         "club_name": "Man City",
         "club_short_name": "MCI",
         "element_id": 411,
         "first_name": "Erling",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 1,
         "position": "FWD",
         "position_id": 4,
@@ -11763,7 +11763,7 @@
         "club_short_name": "TOT",
         "element_id": 520,
         "first_name": "Lucas",
-        "news": "Knee injury - Expected back 7 Nov",
+        "news": "Knee injury - Expected back 31 Oct",
         "official_draft_rank": 182,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-19T04:41:00.458970Z",
+    "generated_at": "2026-10-19T13:16:13.893046Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19819,7 +19819,7 @@
             "web_name": "Groß"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -19828,7 +19828,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Antoine",
             "league_entry_id": 321694,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "Knee injury - Unknown return date",
             "official_draft_rank": 6,
             "position": "MID",
             "position_id": 3,
@@ -19836,7 +19836,7 @@
             "web_name": "Semenyo"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 20,
             "club_name": "Sunderland",
             "club_short_name": "SUN",
@@ -19845,7 +19845,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Brian",
             "league_entry_id": 321694,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "official_draft_rank": 88,
             "position": "FWD",
             "position_id": 4,
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-19T04:41:04.049176Z",
+  "generated_at": "2026-10-19T13:16:17.535359Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -337071,16 +337071,16 @@
             "web_name": "Vitor Reis"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 6,
             "element_type": 3,
             "first_name": "Antoine",
             "id": 397,
             "minutes": 553,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "Knee injury - Unknown return date",
             "second_name": "Semenyo",
-            "status": "d",
+            "status": "i",
             "team": 15,
             "total_points": 37,
             "web_name": "Semenyo"
@@ -337281,16 +337281,16 @@
             "web_name": "Monga"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 1,
             "element_type": 4,
             "first_name": "Erling",
             "id": 411,
             "minutes": 619,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Haaland",
-            "status": "a",
+            "status": "d",
             "team": 15,
             "total_points": 58,
             "web_name": "Haaland"
@@ -338923,7 +338923,7 @@
             "first_name": "Lucas",
             "id": 520,
             "minutes": 143,
-            "news": "Knee injury - Expected back 7 Nov",
+            "news": "Knee injury - Expected back 31 Oct",
             "second_name": "Bergvall",
             "status": "i",
             "team": 19,
@@ -339396,16 +339396,16 @@
             "web_name": "N.Angulo"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 88,
             "element_type": 4,
             "first_name": "Brian",
             "id": 552,
             "minutes": 399,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Brobbey",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 24,
             "web_name": "Brobbey"
@@ -393183,7 +393183,7 @@
           "data_checked": true,
           "gameweek": 6,
           "gameweek_finished": true,
-          "generated_at": "2026-10-19T04:41:04.049176Z",
+          "generated_at": "2026-10-19T13:16:17.535359Z",
           "league_id": 8905,
           "recap_fingerprint": "7e46360870145dcce6aa19863281ac26ce9501186684e8284317b03d8f031b76",
           "recap_ready": true,
@@ -404270,7 +404270,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-19T04:41:04.049176Z",
+        "generated_at": "2026-10-19T13:16:17.535359Z",
         "latest_complete_gameweek": 6,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -405522,7 +405522,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-19T04:41:00.457855Z",
+        "generated_at": "2026-10-19T13:16:13.891821Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -410787,7 +410787,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 6,
-        "generated_at": "2026-10-19T04:41:04.049144Z",
+        "generated_at": "2026-10-19T13:16:17.535313Z",
         "players": [
           {
             "availability_status": "a",
@@ -477655,7 +477655,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-19T04:41:02.641790Z",
+    "generated_at": "2026-10-19T13:16:16.230957Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -478013,7 +478013,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792384858
+      "time": 1792415771
     },
     "choices": {
       "choices": [],
@@ -494606,7 +494606,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-19T04:41:00.458991Z",
+    "generated_at": "2026-10-19T13:16:13.893070Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -505147,7 +505147,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-19T04:41:04.049176Z",
+    "generated_at": "2026-10-19T13:16:17.535359Z",
     "latest_complete_gameweek": 6,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -505188,7 +505188,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-19T04:41:00.457855Z",
+    "generated_at": "2026-10-19T13:16:13.891821Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -510453,7 +510453,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 6,
-    "generated_at": "2026-10-19T04:41:04.049144Z",
+    "generated_at": "2026-10-19T13:16:17.535313Z",
     "players": [
       {
         "availability_status": "a",
