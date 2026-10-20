@@ -553,16 +553,16 @@
         "web_name": "Bogarde"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 472,
         "element_type": 2,
         "first_name": "Ian",
         "id": 36,
         "minutes": 335,
-        "news": "Ankle injury - Unknown return date",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Maatsen",
-        "status": "i",
+        "status": "d",
         "team": 2,
         "total_points": 9,
         "web_name": "Maatsen"
@@ -8960,7 +8960,7 @@
         "first_name": "Matteo",
         "id": 596,
         "minutes": 158,
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 2 Jan",
         "second_name": "Ruggeri",
         "status": "i",
         "team": 2,
@@ -9178,16 +9178,16 @@
         "web_name": "De Fougerolles"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 579,
         "element_type": 2,
         "first_name": "Aaron",
         "id": 611,
         "minutes": 273,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 21 Nov",
         "second_name": "Wan-Bissaka",
-        "status": "d",
+        "status": "i",
         "team": 2,
         "total_points": 13,
         "web_name": "Wan-Bissaka"
@@ -15313,13 +15313,13 @@
         "web_name": "Robertson"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 36,
         "first_name": "Ian",
-        "news": "Ankle injury - Unknown return date",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 472,
         "position": "DEF",
         "position_id": 2,
@@ -16691,7 +16691,7 @@
         "club_short_name": "AVL",
         "element_id": 596,
         "first_name": "Matteo",
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Hamstring injury - Expected back 2 Jan",
         "official_draft_rank": 572,
         "position": "DEF",
         "position_id": 2,
@@ -16783,13 +16783,13 @@
         "web_name": "Methalie"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 611,
         "first_name": "Aaron",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - Expected back 21 Nov",
         "official_draft_rank": 579,
         "position": "DEF",
         "position_id": 2,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-20T08:32:53.475334Z",
+    "generated_at": "2026-10-20T14:18:50.922709Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T08:32:58.281836Z",
+  "generated_at": "2026-10-20T14:18:53.085823Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -411803,16 +411803,16 @@
             "web_name": "Bogarde"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 472,
             "element_type": 2,
             "first_name": "Ian",
             "id": 36,
             "minutes": 335,
-            "news": "Ankle injury - Unknown return date",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Maatsen",
-            "status": "i",
+            "status": "d",
             "team": 2,
             "total_points": 9,
             "web_name": "Maatsen"
@@ -420210,7 +420210,7 @@
             "first_name": "Matteo",
             "id": 596,
             "minutes": 158,
-            "news": "Hamstring injury - Unknown return date",
+            "news": "Hamstring injury - Expected back 2 Jan",
             "second_name": "Ruggeri",
             "status": "i",
             "team": 2,
@@ -420428,16 +420428,16 @@
             "web_name": "De Fougerolles"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 579,
             "element_type": 2,
             "first_name": "Aaron",
             "id": 611,
             "minutes": 273,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - Expected back 21 Nov",
             "second_name": "Wan-Bissaka",
-            "status": "d",
+            "status": "i",
             "team": 2,
             "total_points": 13,
             "web_name": "Wan-Bissaka"
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-20T08:32:58.281836Z",
+          "generated_at": "2026-10-20T14:18:53.085823Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-20T08:32:58.281836Z",
+        "generated_at": "2026-10-20T14:18:53.085823Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-20T08:32:53.474125Z",
+        "generated_at": "2026-10-20T14:18:50.921133Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-20T08:32:58.281789Z",
+        "generated_at": "2026-10-20T14:18:53.085775Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T08:32:57.539084Z",
+    "generated_at": "2026-10-20T14:18:52.699973Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792485170
+      "time": 1792505929
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-20T08:32:53.475359Z",
+    "generated_at": "2026-10-20T14:18:50.922741Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-20T08:32:58.281836Z",
+    "generated_at": "2026-10-20T14:18:53.085823Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-20T08:32:53.474125Z",
+    "generated_at": "2026-10-20T14:18:50.921133Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T08:32:58.281789Z",
+    "generated_at": "2026-10-20T14:18:53.085775Z",
     "players": [
       {
         "availability_status": "a",
