@@ -5668,16 +5668,16 @@
         "web_name": "Bajcetic"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 54,
         "element_type": 3,
         "first_name": "Victor",
         "id": 377,
         "minutes": 425,
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Munoz",
-        "status": "a",
+        "status": "d",
         "team": 14,
         "total_points": 26,
         "web_name": "Munoz"
@@ -6178,16 +6178,16 @@
         "web_name": "Monga"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 1,
         "element_type": 4,
         "first_name": "Erling",
         "id": 411,
         "minutes": 619,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Haaland",
-        "status": "d",
+        "status": "a",
         "team": 15,
         "total_points": 58,
         "web_name": "Haaland"
@@ -10161,13 +10161,13 @@
     "free_agent_count": 563,
     "free_agents": [
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 15,
         "club_name": "Man City",
         "club_short_name": "MCI",
         "element_id": 411,
         "first_name": "Erling",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 1,
         "position": "FWD",
         "position_id": 4,
@@ -10399,13 +10399,13 @@
         "web_name": "Maddison"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 14,
         "club_name": "Liverpool",
         "club_short_name": "LIV",
         "element_id": 377,
         "first_name": "Victor",
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 54,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-20T14:18:50.922709Z",
+    "generated_at": "2026-10-20T19:17:11.388493Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28780,10 +28780,10 @@
         "name": "Gameweek 6"
       },
       {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-10-17T10:00:00Z",
         "deadline_time_epoch": 1792231200,
-        "finished": false,
+        "finished": true,
         "id": 7,
         "is_current": true,
         "is_next": false,
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T14:18:53.085823Z",
+  "generated_at": "2026-10-20T19:17:13.124952Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -416918,16 +416918,16 @@
             "web_name": "Bajcetic"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 54,
             "element_type": 3,
             "first_name": "Victor",
             "id": 377,
             "minutes": 425,
-            "news": "",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Munoz",
-            "status": "a",
+            "status": "d",
             "team": 14,
             "total_points": 26,
             "web_name": "Munoz"
@@ -417428,16 +417428,16 @@
             "web_name": "Monga"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 1,
             "element_type": 4,
             "first_name": "Erling",
             "id": 411,
             "minutes": 619,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Haaland",
-            "status": "d",
+            "status": "a",
             "team": 15,
             "total_points": 58,
             "web_name": "Haaland"
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-20T14:18:53.085823Z",
+          "generated_at": "2026-10-20T19:17:13.124952Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -476499,10 +476499,10 @@
               }
             ],
             "event": {
-              "data_checked": false,
+              "data_checked": true,
               "deadline_time": "2026-10-17T10:00:00Z",
               "deadline_time_epoch": 1792231200,
-              "finished": false,
+              "finished": true,
               "id": 7,
               "is_current": true,
               "is_next": false,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-20T14:18:53.085823Z",
+        "generated_at": "2026-10-20T19:17:13.124952Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -484845,7 +484845,7 @@
           "available": true,
           "gameweek": 7,
           "key_matchups": 1,
-          "status": "in_progress"
+          "status": "finished"
         },
         "next_deadline": {
           "deadline_time_copenhagen": "2026-10-23T19:30:00+02:00",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-20T14:18:50.921133Z",
+        "generated_at": "2026-10-20T19:17:11.386502Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-20T14:18:53.085775Z",
+        "generated_at": "2026-10-20T19:17:13.124894Z",
         "players": [
           {
             "availability_status": "a",
@@ -558110,12 +558110,12 @@
     },
     "event": {
       "deadline_time": "2026-10-17T10:00:00Z",
-      "finished": false,
+      "finished": true,
       "is_current": true,
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T14:18:52.699973Z",
+    "generated_at": "2026-10-20T19:17:12.518879Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558298,7 +558298,7 @@
       }
     ],
     "schema_version": 1,
-    "status": "in_progress"
+    "status": "finished"
   },
   "optional_endpoints": {
     "bootstrap_dynamic": {
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792505929
+      "time": 1792523830
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-20T14:18:50.922741Z",
+    "generated_at": "2026-10-20T19:17:11.388532Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -577777,10 +577777,10 @@
           }
         ],
         "event": {
-          "data_checked": false,
+          "data_checked": true,
           "deadline_time": "2026-10-17T10:00:00Z",
           "deadline_time_epoch": 1792231200,
-          "finished": false,
+          "finished": true,
           "id": 7,
           "is_current": true,
           "is_next": false,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-20T14:18:53.085823Z",
+    "generated_at": "2026-10-20T19:17:13.124952Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586124,7 +586124,7 @@
       "available": true,
       "gameweek": 7,
       "key_matchups": 1,
-      "status": "in_progress"
+      "status": "finished"
     },
     "next_deadline": {
       "deadline_time_copenhagen": "2026-10-23T19:30:00+02:00",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-20T14:18:50.921133Z",
+    "generated_at": "2026-10-20T19:17:11.386502Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T14:18:53.085775Z",
+    "generated_at": "2026-10-20T19:17:13.124894Z",
     "players": [
       {
         "availability_status": "a",
