@@ -6328,16 +6328,16 @@
         "web_name": "Yoro"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 478,
         "element_type": 2,
         "first_name": "Ayden",
         "id": 421,
         "minutes": 91,
-        "news": "",
+        "news": "Illness - 75% chance of playing",
         "second_name": "Heaven",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 2,
         "web_name": "Heaven"
@@ -6358,16 +6358,16 @@
         "web_name": "Mazraoui"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 75,
         "draft_rank": 447,
         "element_type": 2,
         "first_name": "Luke",
         "id": 423,
         "minutes": 425,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Unknown return date",
         "second_name": "Shaw",
-        "status": "d",
+        "status": "i",
         "team": 16,
         "total_points": 12,
         "web_name": "Shaw"
@@ -6448,16 +6448,16 @@
         "web_name": "Cunha"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 31,
         "element_type": 3,
         "first_name": "Marcus",
         "id": 429,
         "minutes": 352,
-        "news": "",
+        "news": "Hip injury - 75% chance of playing",
         "second_name": "Rashford",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 11,
         "web_name": "Rashford"
@@ -6493,16 +6493,16 @@
         "web_name": "Amad"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 75,
         "draft_rank": 169,
         "element_type": 3,
         "first_name": "Kobbie",
         "id": 432,
         "minutes": 444,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 8 Nov",
         "second_name": "Mainoo",
-        "status": "d",
+        "status": "i",
         "team": 16,
         "total_points": 26,
         "web_name": "Mainoo"
@@ -11575,13 +11575,13 @@
         "web_name": "Nmecha"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 432,
         "first_name": "Kobbie",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Unspecified injury - Expected back 8 Nov",
         "official_draft_rank": 169,
         "position": "MID",
         "position_id": 3,
@@ -15397,13 +15397,13 @@
         "web_name": "Perri"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 421,
         "first_name": "Ayden",
-        "news": "",
+        "news": "Illness - 75% chance of playing",
         "official_draft_rank": 478,
         "position": "DEF",
         "position_id": 2,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-20T19:17:11.388493Z",
+    "generated_at": "2026-10-20T23:53:04.463300Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18911,7 +18911,7 @@
             "web_name": "N.Williams"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 16,
             "club_name": "Man Utd",
             "club_short_name": "MUN",
@@ -18920,7 +18920,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Luke",
             "league_entry_id": 138641,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Unknown return date",
             "official_draft_rank": 447,
             "position": "DEF",
             "position_id": 2,
@@ -19505,7 +19505,7 @@
             "web_name": "Belloumi"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 16,
             "club_name": "Man Utd",
             "club_short_name": "MUN",
@@ -19514,7 +19514,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Marcus",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Hip injury - 75% chance of playing",
             "official_draft_rank": 31,
             "position": "MID",
             "position_id": 3,
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-20T19:17:13.124952Z",
+  "generated_at": "2026-10-20T23:53:06.536732Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -417578,16 +417578,16 @@
             "web_name": "Yoro"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 478,
             "element_type": 2,
             "first_name": "Ayden",
             "id": 421,
             "minutes": 91,
-            "news": "",
+            "news": "Illness - 75% chance of playing",
             "second_name": "Heaven",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 2,
             "web_name": "Heaven"
@@ -417608,16 +417608,16 @@
             "web_name": "Mazraoui"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 75,
             "draft_rank": 447,
             "element_type": 2,
             "first_name": "Luke",
             "id": 423,
             "minutes": 425,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Unknown return date",
             "second_name": "Shaw",
-            "status": "d",
+            "status": "i",
             "team": 16,
             "total_points": 12,
             "web_name": "Shaw"
@@ -417698,16 +417698,16 @@
             "web_name": "Cunha"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 31,
             "element_type": 3,
             "first_name": "Marcus",
             "id": 429,
             "minutes": 352,
-            "news": "",
+            "news": "Hip injury - 75% chance of playing",
             "second_name": "Rashford",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 11,
             "web_name": "Rashford"
@@ -417743,16 +417743,16 @@
             "web_name": "Amad"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 75,
             "draft_rank": 169,
             "element_type": 3,
             "first_name": "Kobbie",
             "id": 432,
             "minutes": 444,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Unspecified injury - Expected back 8 Nov",
             "second_name": "Mainoo",
-            "status": "d",
+            "status": "i",
             "team": 16,
             "total_points": 26,
             "web_name": "Mainoo"
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-20T19:17:13.124952Z",
+          "generated_at": "2026-10-20T23:53:06.536732Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-20T19:17:13.124952Z",
+        "generated_at": "2026-10-20T23:53:06.536732Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-20T19:17:11.386502Z",
+        "generated_at": "2026-10-20T23:53:04.461378Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-20T19:17:13.124894Z",
+        "generated_at": "2026-10-20T23:53:06.536681Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T19:17:12.518879Z",
+    "generated_at": "2026-10-20T23:53:05.811537Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792523830
+      "time": 1792540383
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-20T19:17:11.388532Z",
+    "generated_at": "2026-10-20T23:53:04.463336Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-20T19:17:13.124952Z",
+    "generated_at": "2026-10-20T23:53:06.536732Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-20T19:17:11.386502Z",
+    "generated_at": "2026-10-20T23:53:04.461378Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-20T19:17:13.124894Z",
+    "generated_at": "2026-10-20T23:53:06.536681Z",
     "players": [
       {
         "availability_status": "a",
