@@ -193,16 +193,16 @@
         "web_name": "Mosquera"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 3,
         "element_type": 3,
         "first_name": "Bukayo",
         "id": 12,
         "minutes": 596,
-        "news": "",
+        "news": "Thigh injury - 75% chance of playing",
         "second_name": "Saka",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 37,
         "web_name": "Saka"
@@ -553,16 +553,16 @@
         "web_name": "Bogarde"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 472,
         "element_type": 2,
         "first_name": "Ian",
         "id": 36,
         "minutes": 335,
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "second_name": "Maatsen",
-        "status": "d",
+        "status": "a",
         "team": 2,
         "total_points": 9,
         "web_name": "Maatsen"
@@ -778,16 +778,16 @@
         "web_name": "Burrowes"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 510,
         "element_type": 3,
         "first_name": "George",
         "id": 51,
         "minutes": 297,
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "second_name": "Hemmings",
-        "status": "d",
+        "status": "a",
         "team": 2,
         "total_points": 9,
         "web_name": "George Hemmings"
@@ -6770,7 +6770,7 @@
         "first_name": "Tino",
         "id": 450,
         "minutes": 33,
-        "news": "Unspecified injury - Expected back 2 Nov",
+        "news": "Knee injury - Expected back 7 Nov",
         "second_name": "Livramento",
         "status": "i",
         "team": 17,
@@ -13149,7 +13149,7 @@
         "club_short_name": "NEW",
         "element_id": 450,
         "first_name": "Tino",
-        "news": "Unspecified injury - Expected back 2 Nov",
+        "news": "Knee injury - Expected back 7 Nov",
         "official_draft_rank": 301,
         "position": "DEF",
         "position_id": 2,
@@ -15313,13 +15313,13 @@
         "web_name": "Robertson"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 36,
         "first_name": "Ian",
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 472,
         "position": "DEF",
         "position_id": 2,
@@ -15817,13 +15817,13 @@
         "web_name": "M.Sarr"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 51,
         "first_name": "George",
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 510,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-21T17:12:31.315227Z",
+    "generated_at": "2026-10-21T21:43:08.382066Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19539,7 +19539,7 @@
             "web_name": "Rice"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -19548,7 +19548,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Bukayo",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Thigh injury - 75% chance of playing",
             "official_draft_rank": 3,
             "position": "MID",
             "position_id": 3,
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T17:12:32.970322Z",
+  "generated_at": "2026-10-21T21:43:10.236879Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -411443,16 +411443,16 @@
             "web_name": "Mosquera"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 3,
             "element_type": 3,
             "first_name": "Bukayo",
             "id": 12,
             "minutes": 596,
-            "news": "",
+            "news": "Thigh injury - 75% chance of playing",
             "second_name": "Saka",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 37,
             "web_name": "Saka"
@@ -411803,16 +411803,16 @@
             "web_name": "Bogarde"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 472,
             "element_type": 2,
             "first_name": "Ian",
             "id": 36,
             "minutes": 335,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "",
             "second_name": "Maatsen",
-            "status": "d",
+            "status": "a",
             "team": 2,
             "total_points": 9,
             "web_name": "Maatsen"
@@ -412028,16 +412028,16 @@
             "web_name": "Burrowes"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 510,
             "element_type": 3,
             "first_name": "George",
             "id": 51,
             "minutes": 297,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "",
             "second_name": "Hemmings",
-            "status": "d",
+            "status": "a",
             "team": 2,
             "total_points": 9,
             "web_name": "George Hemmings"
@@ -418020,7 +418020,7 @@
             "first_name": "Tino",
             "id": 450,
             "minutes": 33,
-            "news": "Unspecified injury - Expected back 2 Nov",
+            "news": "Knee injury - Expected back 7 Nov",
             "second_name": "Livramento",
             "status": "i",
             "team": 17,
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-21T17:12:32.970322Z",
+          "generated_at": "2026-10-21T21:43:10.236879Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-21T17:12:32.970322Z",
+        "generated_at": "2026-10-21T21:43:10.236879Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-21T17:12:31.313202Z",
+        "generated_at": "2026-10-21T21:43:08.380578Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-21T17:12:32.970269Z",
+        "generated_at": "2026-10-21T21:43:10.236814Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T17:12:32.606218Z",
+    "generated_at": "2026-10-21T21:43:09.604482Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792602749
+      "time": 1792618987
     },
     "choices": {
       "choices": [],
@@ -566343,7 +566343,7 @@
       "current_event_finished": true,
       "next_event": 8,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-21T17:12:31.315265Z",
+    "generated_at": "2026-10-21T21:43:08.382099Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-21T17:12:32.970322Z",
+    "generated_at": "2026-10-21T21:43:10.236879Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-21T17:12:31.313202Z",
+    "generated_at": "2026-10-21T21:43:08.380578Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T17:12:32.970269Z",
+    "generated_at": "2026-10-21T21:43:10.236814Z",
     "players": [
       {
         "availability_status": "a",
