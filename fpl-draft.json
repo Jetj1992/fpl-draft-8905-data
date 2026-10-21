@@ -148,16 +148,16 @@
         "web_name": "Calafiori"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 153,
         "element_type": 2,
         "first_name": "Piero",
         "id": 9,
         "minutes": 40,
-        "news": "Ankle injury - Expected back 24 Oct",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Hincapié",
-        "status": "i",
+        "status": "d",
         "team": 1,
         "total_points": 3,
         "web_name": "Hincapie"
@@ -8848,16 +8848,16 @@
         "web_name": "Khalaili"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 417,
         "element_type": 3,
         "first_name": "Lucas",
         "id": 589,
         "minutes": 138,
-        "news": "Calf injury - Expected back 25 Oct",
+        "news": "Calf injury - 50% chance of playing",
         "second_name": "Gourna-Douath",
-        "status": "i",
+        "status": "d",
         "team": 11,
         "total_points": 4,
         "web_name": "Gourna-Douath"
@@ -9283,16 +9283,16 @@
         "web_name": "Goretzka"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 0,
         "draft_rank": 286,
         "element_type": 3,
         "first_name": "Mohamed-Ali",
         "id": 618,
         "minutes": 72,
-        "news": "Unspecified injury - Expected back 25 Oct",
+        "news": "Unspecified injury - 50% chance of playing",
         "second_name": "Cho",
-        "status": "i",
+        "status": "d",
         "team": 11,
         "total_points": 9,
         "web_name": "Cho"
@@ -9643,14 +9643,14 @@
         "web_name": "Ansah"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 242,
         "element_type": 4,
         "first_name": "Robinio",
         "id": 642,
         "minutes": 46,
-        "news": "Achilles injury - 50% chance of playing",
+        "news": "Achilles injury - 75% chance of playing",
         "second_name": "Vaz",
         "status": "d",
         "team": 11,
@@ -11407,13 +11407,13 @@
         "web_name": "Ayari"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 1,
         "club_name": "Arsenal",
         "club_short_name": "ARS",
         "element_id": 9,
         "first_name": "Piero",
-        "news": "Ankle injury - Expected back 24 Oct",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 153,
         "position": "DEF",
         "position_id": 2,
@@ -12477,7 +12477,7 @@
         "club_short_name": "HUL",
         "element_id": 642,
         "first_name": "Robinio",
-        "news": "Achilles injury - 50% chance of playing",
+        "news": "Achilles injury - 75% chance of playing",
         "official_draft_rank": 242,
         "position": "FWD",
         "position_id": 4,
@@ -12933,13 +12933,13 @@
         "web_name": "Palacios"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 618,
         "first_name": "Mohamed-Ali",
-        "news": "Unspecified injury - Expected back 25 Oct",
+        "news": "Unspecified injury - 50% chance of playing",
         "official_draft_rank": 286,
         "position": "MID",
         "position_id": 3,
@@ -14697,13 +14697,13 @@
         "web_name": "Rulli"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 589,
         "first_name": "Lucas",
-        "news": "Calf injury - Expected back 25 Oct",
+        "news": "Calf injury - 50% chance of playing",
         "official_draft_rank": 417,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-21T04:47:41.889584Z",
+    "generated_at": "2026-10-21T11:49:16.096232Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T04:47:43.104549Z",
+  "generated_at": "2026-10-21T11:49:17.031968Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -411398,16 +411398,16 @@
             "web_name": "Calafiori"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 153,
             "element_type": 2,
             "first_name": "Piero",
             "id": 9,
             "minutes": 40,
-            "news": "Ankle injury - Expected back 24 Oct",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Hincapié",
-            "status": "i",
+            "status": "d",
             "team": 1,
             "total_points": 3,
             "web_name": "Hincapie"
@@ -420098,16 +420098,16 @@
             "web_name": "Khalaili"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 417,
             "element_type": 3,
             "first_name": "Lucas",
             "id": 589,
             "minutes": 138,
-            "news": "Calf injury - Expected back 25 Oct",
+            "news": "Calf injury - 50% chance of playing",
             "second_name": "Gourna-Douath",
-            "status": "i",
+            "status": "d",
             "team": 11,
             "total_points": 4,
             "web_name": "Gourna-Douath"
@@ -420533,16 +420533,16 @@
             "web_name": "Goretzka"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 0,
             "draft_rank": 286,
             "element_type": 3,
             "first_name": "Mohamed-Ali",
             "id": 618,
             "minutes": 72,
-            "news": "Unspecified injury - Expected back 25 Oct",
+            "news": "Unspecified injury - 50% chance of playing",
             "second_name": "Cho",
-            "status": "i",
+            "status": "d",
             "team": 11,
             "total_points": 9,
             "web_name": "Cho"
@@ -420893,14 +420893,14 @@
             "web_name": "Ansah"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 242,
             "element_type": 4,
             "first_name": "Robinio",
             "id": 642,
             "minutes": 46,
-            "news": "Achilles injury - 50% chance of playing",
+            "news": "Achilles injury - 75% chance of playing",
             "second_name": "Vaz",
             "status": "d",
             "team": 11,
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-21T04:47:43.104549Z",
+          "generated_at": "2026-10-21T11:49:17.031968Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-21T04:47:43.104549Z",
+        "generated_at": "2026-10-21T11:49:17.031968Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-21T04:47:41.887983Z",
+        "generated_at": "2026-10-21T11:49:16.094172Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -486903,13 +486903,13 @@
               "web_name": "White"
             },
             "element_out": {
-              "availability_status": "i",
+              "availability_status": "d",
               "club_id": 1,
               "club_name": "Arsenal",
               "club_short_name": "ARS",
               "element_id": 9,
               "first_name": "Piero",
-              "news": "Ankle injury - Expected back 24 Oct",
+              "news": "Ankle injury - 75% chance of playing",
               "official_draft_rank": 153,
               "position": "DEF",
               "position_id": 2,
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-21T04:47:43.104502Z",
+        "generated_at": "2026-10-21T11:49:17.031913Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T04:47:42.969660Z",
+    "generated_at": "2026-10-21T11:49:16.751186Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792558060
+      "time": 1792583355
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-21T04:47:41.889615Z",
+    "generated_at": "2026-10-21T11:49:16.096279Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-21T04:47:43.104549Z",
+    "generated_at": "2026-10-21T11:49:17.031968Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-21T04:47:41.887983Z",
+    "generated_at": "2026-10-21T11:49:16.094172Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -586971,13 +586971,13 @@
           "web_name": "White"
         },
         "element_out": {
-          "availability_status": "i",
+          "availability_status": "d",
           "club_id": 1,
           "club_name": "Arsenal",
           "club_short_name": "ARS",
           "element_id": 9,
           "first_name": "Piero",
-          "news": "Ankle injury - Expected back 24 Oct",
+          "news": "Ankle injury - 75% chance of playing",
           "official_draft_rank": 153,
           "position": "DEF",
           "position_id": 2,
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T04:47:43.104502Z",
+    "generated_at": "2026-10-21T11:49:17.031913Z",
     "players": [
       {
         "availability_status": "a",
