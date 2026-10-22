@@ -10189,6 +10189,20 @@
         "web_name": "Watkins"
       },
       {
+        "availability_status": "a",
+        "club_id": 1,
+        "club_name": "Arsenal",
+        "club_short_name": "ARS",
+        "element_id": 25,
+        "first_name": "Viktor",
+        "news": "",
+        "official_draft_rank": 18,
+        "position": "FWD",
+        "position_id": 4,
+        "second_name": "Gyökeres",
+        "web_name": "Gyökeres"
+      },
+      {
         "availability_status": "i",
         "club_id": 14,
         "club_name": "Liverpool",
@@ -10218,17 +10232,45 @@
       },
       {
         "availability_status": "d",
-        "club_id": 19,
-        "club_name": "Spurs",
-        "club_short_name": "TOT",
-        "element_id": 401,
-        "first_name": "Omar",
-        "news": "Calf injury - 75% chance of playing",
-        "official_draft_rank": 30,
-        "position": "FWD",
-        "position_id": 4,
-        "second_name": "Marmoush",
-        "web_name": "Marmoush"
+        "club_id": 16,
+        "club_name": "Man Utd",
+        "club_short_name": "MUN",
+        "element_id": 429,
+        "first_name": "Marcus",
+        "news": "Hip injury - 75% chance of playing",
+        "official_draft_rank": 31,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Rashford",
+        "web_name": "Rashford"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 15,
+        "club_name": "Man City",
+        "club_short_name": "MCI",
+        "element_id": 481,
+        "first_name": "Elliot",
+        "news": "",
+        "official_draft_rank": 32,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Anderson",
+        "web_name": "Anderson"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 13,
+        "club_name": "Leeds",
+        "club_short_name": "LEE",
+        "element_id": 260,
+        "first_name": "Harry",
+        "news": "",
+        "official_draft_rank": 34,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Wilson",
+        "web_name": "Wilson"
       },
       {
         "availability_status": "a",
@@ -10243,20 +10285,6 @@
         "position_id": 3,
         "second_name": "Ouattara",
         "web_name": "O.Dango"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 6,
-        "club_name": "Chelsea",
-        "club_short_name": "CHE",
-        "element_id": 156,
-        "first_name": "Pedro",
-        "news": "",
-        "official_draft_rank": 39,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Lomba Neto",
-        "web_name": "Neto"
       },
       {
         "availability_status": "a",
@@ -10497,6 +10525,20 @@
         "web_name": "Allan"
       },
       {
+        "availability_status": "d",
+        "club_id": 15,
+        "club_name": "Man City",
+        "club_short_name": "MCI",
+        "element_id": 389,
+        "first_name": "Matheus",
+        "news": "Unspecified injury - 75% chance of playing",
+        "official_draft_rank": 66,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "Nunes",
+        "web_name": "Matheus N."
+      },
+      {
         "availability_status": "a",
         "club_id": 20,
         "club_name": "Sunderland",
@@ -10526,20 +10568,6 @@
       },
       {
         "availability_status": "a",
-        "club_id": 13,
-        "club_name": "Leeds",
-        "club_short_name": "LEE",
-        "element_id": 335,
-        "first_name": "Anton",
-        "news": "",
-        "official_draft_rank": 72,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Stach",
-        "web_name": "Stach"
-      },
-      {
-        "availability_status": "a",
         "club_id": 19,
         "club_name": "Spurs",
         "club_short_name": "TOT",
@@ -10551,20 +10579,6 @@
         "position_id": 3,
         "second_name": "Fernandes",
         "web_name": "Fernandes"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 15,
-        "club_name": "Man City",
-        "club_short_name": "MCI",
-        "element_id": 237,
-        "first_name": "Iliman",
-        "news": "",
-        "official_draft_rank": 75,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Ndiaye",
-        "web_name": "Ndiaye"
       },
       {
         "availability_status": "a",
@@ -10931,6 +10945,20 @@
         "web_name": "Wood"
       },
       {
+        "availability_status": "a",
+        "club_id": 19,
+        "club_name": "Spurs",
+        "club_short_name": "TOT",
+        "element_id": 526,
+        "first_name": "Dominic",
+        "news": "",
+        "official_draft_rank": 107,
+        "position": "FWD",
+        "position_id": 4,
+        "second_name": "Solanke-Mitchell",
+        "web_name": "Solanke"
+      },
+      {
         "availability_status": "i",
         "club_id": 6,
         "club_name": "Chelsea",
@@ -11237,20 +11265,6 @@
         "position_id": 2,
         "second_name": "Milenković",
         "web_name": "Milenković"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 4,
-        "club_name": "Brentford",
-        "club_short_name": "BRE",
-        "element_id": 86,
-        "first_name": "Keane",
-        "news": "",
-        "official_draft_rank": 137,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Lewis-Potter",
-        "web_name": "Lewis-Potter"
       },
       {
         "availability_status": "i",
@@ -12387,6 +12401,20 @@
         "web_name": "Diomande"
       },
       {
+        "availability_status": "a",
+        "club_id": 14,
+        "club_name": "Liverpool",
+        "club_short_name": "LIV",
+        "element_id": 580,
+        "first_name": "Ronald",
+        "news": "",
+        "official_draft_rank": 233,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "Araujo",
+        "web_name": "Araujo"
+      },
+      {
         "availability_status": "i",
         "club_id": 19,
         "club_name": "Spurs",
@@ -12917,6 +12945,20 @@
         "position_id": 3,
         "second_name": "Henderson",
         "web_name": "Henderson"
+      },
+      {
+        "availability_status": "s",
+        "club_id": 4,
+        "club_name": "Brentford",
+        "club_short_name": "BRE",
+        "element_id": 98,
+        "first_name": "Vitaly",
+        "news": "Suspended until 31 Oct",
+        "official_draft_rank": 284,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Janelt",
+        "web_name": "Janelt"
       },
       {
         "availability_status": "a",
@@ -14376,20 +14418,6 @@
       },
       {
         "availability_status": "a",
-        "club_id": 13,
-        "club_name": "Leeds",
-        "club_short_name": "LEE",
-        "element_id": 334,
-        "first_name": "Tarik",
-        "news": "",
-        "official_draft_rank": 391,
-        "position": "DEF",
-        "position_id": 2,
-        "second_name": "Muharemović",
-        "web_name": "Muharemović"
-      },
-      {
-        "availability_status": "a",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
@@ -14555,20 +14583,6 @@
         "position_id": 3,
         "second_name": "Morita",
         "web_name": "Morita"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 3,
-        "club_name": "Bournemouth",
-        "club_short_name": "BOU",
-        "element_id": 555,
-        "first_name": "António João",
-        "news": "",
-        "official_draft_rank": 407,
-        "position": "DEF",
-        "position_id": 2,
-        "second_name": "Pereira de Albuquerque Tavares da Silva",
-        "web_name": "Silva"
       },
       {
         "availability_status": "u",
@@ -14751,20 +14765,6 @@
         "position_id": 2,
         "second_name": "Khalaili",
         "web_name": "Khalaili"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 7,
-        "club_name": "Coventry City",
-        "club_short_name": "COV",
-        "element_id": 598,
-        "first_name": "Sidiki",
-        "news": "",
-        "official_draft_rank": 421,
-        "position": "FWD",
-        "position_id": 4,
-        "second_name": "Cherif",
-        "web_name": "Cherif"
       },
       {
         "availability_status": "a",
@@ -15048,20 +15048,6 @@
       },
       {
         "availability_status": "a",
-        "club_id": 4,
-        "club_name": "Brentford",
-        "club_short_name": "BRE",
-        "element_id": 88,
-        "first_name": "Michael",
-        "news": "",
-        "official_draft_rank": 446,
-        "position": "DEF",
-        "position_id": 2,
-        "second_name": "Kayode",
-        "web_name": "Kayode"
-      },
-      {
-        "availability_status": "a",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
@@ -15101,6 +15087,20 @@
         "position_id": 2,
         "second_name": "Bassey",
         "web_name": "Bassey"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 5,
+        "club_name": "Brighton",
+        "club_short_name": "BHA",
+        "element_id": 116,
+        "first_name": "Lewis",
+        "news": "",
+        "official_draft_rank": 452,
+        "position": "DEF",
+        "position_id": 2,
+        "second_name": "Dunk",
+        "web_name": "Dunk"
       },
       {
         "availability_status": "u",
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-22T17:10:45.552898Z",
+    "generated_at": "2026-10-22T21:35:55.081131Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18089,23 +18089,6 @@
           },
           {
             "availability_status": "a",
-            "club_id": 14,
-            "club_name": "Liverpool",
-            "club_short_name": "LIV",
-            "element_id": 580,
-            "entry_id": 42888,
-            "entry_name": "AGFs Førstehold",
-            "first_name": "Ronald",
-            "league_entry_id": 42948,
-            "news": "",
-            "official_draft_rank": 233,
-            "position": "DEF",
-            "position_id": 2,
-            "second_name": "Araujo",
-            "web_name": "Araujo"
-          },
-          {
-            "availability_status": "a",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -18139,21 +18122,38 @@
             "web_name": "Hall"
           },
           {
-            "availability_status": "d",
-            "club_id": 15,
-            "club_name": "Man City",
-            "club_short_name": "MCI",
-            "element_id": 389,
+            "availability_status": "a",
+            "club_id": 13,
+            "club_name": "Leeds",
+            "club_short_name": "LEE",
+            "element_id": 334,
             "entry_id": 42888,
             "entry_name": "AGFs Førstehold",
-            "first_name": "Matheus",
+            "first_name": "Tarik",
             "league_entry_id": 42948,
-            "news": "Unspecified injury - 75% chance of playing",
-            "official_draft_rank": 66,
+            "news": "",
+            "official_draft_rank": 391,
             "position": "DEF",
             "position_id": 2,
-            "second_name": "Nunes",
-            "web_name": "Matheus N."
+            "second_name": "Muharemović",
+            "web_name": "Muharemović"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 3,
+            "club_name": "Bournemouth",
+            "club_short_name": "BOU",
+            "element_id": 555,
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "first_name": "António João",
+            "league_entry_id": 42948,
+            "news": "",
+            "official_draft_rank": 407,
+            "position": "DEF",
+            "position_id": 2,
+            "second_name": "Pereira de Albuquerque Tavares da Silva",
+            "web_name": "Silva"
           },
           {
             "availability_status": "a",
@@ -18224,23 +18224,6 @@
             "web_name": "Gibbs-White"
           },
           {
-            "availability_status": "s",
-            "club_id": 4,
-            "club_name": "Brentford",
-            "club_short_name": "BRE",
-            "element_id": 98,
-            "entry_id": 42888,
-            "entry_name": "AGFs Førstehold",
-            "first_name": "Vitaly",
-            "league_entry_id": 42948,
-            "news": "Suspended until 31 Oct",
-            "official_draft_rank": 284,
-            "position": "MID",
-            "position_id": 3,
-            "second_name": "Janelt",
-            "web_name": "Janelt"
-          },
-          {
             "availability_status": "d",
             "club_id": 2,
             "club_name": "Aston Villa",
@@ -18259,6 +18242,40 @@
           },
           {
             "availability_status": "a",
+            "club_id": 13,
+            "club_name": "Leeds",
+            "club_short_name": "LEE",
+            "element_id": 335,
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "first_name": "Anton",
+            "league_entry_id": 42948,
+            "news": "",
+            "official_draft_rank": 72,
+            "position": "MID",
+            "position_id": 3,
+            "second_name": "Stach",
+            "web_name": "Stach"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 7,
+            "club_name": "Coventry City",
+            "club_short_name": "COV",
+            "element_id": 598,
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "first_name": "Sidiki",
+            "league_entry_id": 42948,
+            "news": "",
+            "official_draft_rank": 421,
+            "position": "FWD",
+            "position_id": 4,
+            "second_name": "Cherif",
+            "web_name": "Cherif"
+          },
+          {
+            "availability_status": "a",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -18273,23 +18290,6 @@
             "position_id": 4,
             "second_name": "Junqueira de Jesus",
             "web_name": "João Pedro"
-          },
-          {
-            "availability_status": "a",
-            "club_id": 19,
-            "club_name": "Spurs",
-            "club_short_name": "TOT",
-            "element_id": 526,
-            "entry_id": 42888,
-            "entry_name": "AGFs Førstehold",
-            "first_name": "Dominic",
-            "league_entry_id": 42948,
-            "news": "",
-            "official_draft_rank": 107,
-            "position": "FWD",
-            "position_id": 4,
-            "second_name": "Solanke-Mitchell",
-            "web_name": "Solanke"
           },
           {
             "availability_status": "a",
@@ -18700,23 +18700,6 @@
           },
           {
             "availability_status": "a",
-            "club_id": 15,
-            "club_name": "Man City",
-            "club_short_name": "MCI",
-            "element_id": 481,
-            "entry_id": 137912,
-            "entry_name": "Grove Løjer",
-            "first_name": "Elliot",
-            "league_entry_id": 138520,
-            "news": "",
-            "official_draft_rank": 32,
-            "position": "MID",
-            "position_id": 3,
-            "second_name": "Anderson",
-            "web_name": "Anderson"
-          },
-          {
-            "availability_status": "a",
             "club_id": 16,
             "club_name": "Man Utd",
             "club_short_name": "MUN",
@@ -18765,6 +18748,23 @@
             "position_id": 3,
             "second_name": "Fernández",
             "web_name": "Enzo"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 15,
+            "club_name": "Man City",
+            "club_short_name": "MCI",
+            "element_id": 237,
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "first_name": "Iliman",
+            "league_entry_id": 138520,
+            "news": "",
+            "official_draft_rank": 75,
+            "position": "MID",
+            "position_id": 3,
+            "second_name": "Ndiaye",
+            "web_name": "Ndiaye"
           },
           {
             "availability_status": "a",
@@ -18997,6 +18997,23 @@
           },
           {
             "availability_status": "a",
+            "club_id": 4,
+            "club_name": "Brentford",
+            "club_short_name": "BRE",
+            "element_id": 86,
+            "entry_id": 138032,
+            "entry_name": "Hyggemix",
+            "first_name": "Keane",
+            "league_entry_id": 138641,
+            "news": "",
+            "official_draft_rank": 137,
+            "position": "MID",
+            "position_id": 3,
+            "second_name": "Lewis-Potter",
+            "web_name": "Lewis-Potter"
+          },
+          {
+            "availability_status": "a",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -19028,23 +19045,6 @@
             "position_id": 3,
             "second_name": "Rogers",
             "web_name": "Rogers"
-          },
-          {
-            "availability_status": "a",
-            "club_id": 13,
-            "club_name": "Leeds",
-            "club_short_name": "LEE",
-            "element_id": 260,
-            "entry_id": 138032,
-            "entry_name": "Hyggemix",
-            "first_name": "Harry",
-            "league_entry_id": 138641,
-            "news": "",
-            "official_draft_rank": 34,
-            "position": "MID",
-            "position_id": 3,
-            "second_name": "Wilson",
-            "web_name": "Wilson"
           },
           {
             "availability_status": "a",
@@ -19175,23 +19175,6 @@
           },
           {
             "availability_status": "a",
-            "club_id": 5,
-            "club_name": "Brighton",
-            "club_short_name": "BHA",
-            "element_id": 116,
-            "entry_id": 138139,
-            "entry_name": "Jyllands Rubin",
-            "first_name": "Lewis",
-            "league_entry_id": 138748,
-            "news": "",
-            "official_draft_rank": 452,
-            "position": "DEF",
-            "position_id": 2,
-            "second_name": "Dunk",
-            "web_name": "Dunk"
-          },
-          {
-            "availability_status": "a",
             "club_id": 15,
             "club_name": "Man City",
             "club_short_name": "MCI",
@@ -19206,6 +19189,23 @@
             "position_id": 2,
             "second_name": "Gvardiol",
             "web_name": "Gvardiol"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 4,
+            "club_name": "Brentford",
+            "club_short_name": "BRE",
+            "element_id": 88,
+            "entry_id": 138139,
+            "entry_name": "Jyllands Rubin",
+            "first_name": "Michael",
+            "league_entry_id": 138748,
+            "news": "",
+            "official_draft_rank": 446,
+            "position": "DEF",
+            "position_id": 2,
+            "second_name": "Kayode",
+            "web_name": "Kayode"
           },
           {
             "availability_status": "a",
@@ -19505,21 +19505,21 @@
             "web_name": "Belloumi"
           },
           {
-            "availability_status": "d",
-            "club_id": 16,
-            "club_name": "Man Utd",
-            "club_short_name": "MUN",
-            "element_id": 429,
+            "availability_status": "a",
+            "club_id": 6,
+            "club_name": "Chelsea",
+            "club_short_name": "CHE",
+            "element_id": 156,
             "entry_id": 250589,
             "entry_name": "Senile Supersubs",
-            "first_name": "Marcus",
+            "first_name": "Pedro",
             "league_entry_id": 252790,
-            "news": "Hip injury - 75% chance of playing",
-            "official_draft_rank": 31,
+            "news": "",
+            "official_draft_rank": 39,
             "position": "MID",
             "position_id": 3,
-            "second_name": "Rashford",
-            "web_name": "Rashford"
+            "second_name": "Lomba Neto",
+            "web_name": "Neto"
           },
           {
             "availability_status": "a",
@@ -19854,23 +19854,6 @@
           },
           {
             "availability_status": "a",
-            "club_id": 1,
-            "club_name": "Arsenal",
-            "club_short_name": "ARS",
-            "element_id": 25,
-            "entry_id": 318564,
-            "entry_name": "La Liga es la mejor",
-            "first_name": "Viktor",
-            "league_entry_id": 321694,
-            "news": "",
-            "official_draft_rank": 18,
-            "position": "FWD",
-            "position_id": 4,
-            "second_name": "Gyökeres",
-            "web_name": "Gyökeres"
-          },
-          {
-            "availability_status": "a",
             "club_id": 5,
             "club_name": "Brighton",
             "club_short_name": "BHA",
@@ -19885,6 +19868,23 @@
             "position_id": 4,
             "second_name": "Kostoulas",
             "web_name": "Kostoulas"
+          },
+          {
+            "availability_status": "d",
+            "club_id": 19,
+            "club_name": "Spurs",
+            "club_short_name": "TOT",
+            "element_id": 401,
+            "entry_id": 318564,
+            "entry_name": "La Liga es la mejor",
+            "first_name": "Omar",
+            "league_entry_id": 321694,
+            "news": "Calf injury - 75% chance of playing",
+            "official_draft_rank": 30,
+            "position": "FWD",
+            "position_id": 4,
+            "second_name": "Marmoush",
+            "web_name": "Marmoush"
           }
         ]
       }
@@ -28616,8 +28616,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 11
+        "transactions_event": 1,
+        "transactions_total": 12
       }
     },
     "138032": {
@@ -28634,8 +28634,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 2
+        "transactions_event": 1,
+        "transactions_total": 3
       }
     },
     "138139": {
@@ -28652,8 +28652,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 6
+        "transactions_event": 1,
+        "transactions_total": 7
       }
     },
     "250589": {
@@ -28670,8 +28670,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 11
+        "transactions_event": 1,
+        "transactions_total": 12
       }
     },
     "318564": {
@@ -28688,8 +28688,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 4
+        "transactions_event": 1,
+        "transactions_total": 5
       }
     },
     "42888": {
@@ -28706,8 +28706,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 15
+        "transactions_event": 4,
+        "transactions_total": 19
       }
     }
   },
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-22T17:10:46.718386Z",
+  "generated_at": "2026-10-22T21:35:55.747908Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -422576,12 +422576,6 @@
             "status": "a"
           },
           {
-            "element": 156,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 345,
             "in_accepted_trade": false,
             "owner": null,
@@ -422589,12 +422583,6 @@
           },
           {
             "element": 16,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 86,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -422720,12 +422708,6 @@
             "status": "a"
           },
           {
-            "element": 401,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 218,
             "in_accepted_trade": false,
             "owner": null,
@@ -422739,12 +422721,6 @@
           },
           {
             "element": 96,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 237,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -423032,12 +423008,6 @@
             "status": "a"
           },
           {
-            "element": 335,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 130,
             "in_accepted_trade": false,
             "owner": null,
@@ -423141,12 +423111,6 @@
           },
           {
             "element": 491,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 555,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -423567,12 +423531,6 @@
           },
           {
             "element": 438,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 334,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -424040,12 +423998,6 @@
             "status": "a"
           },
           {
-            "element": 88,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 137,
             "in_accepted_trade": false,
             "owner": null,
@@ -424365,12 +424317,6 @@
           },
           {
             "element": 596,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 598,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -424784,6 +424730,60 @@
             "status": "a"
           },
           {
+            "element": 116,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 260,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 526,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 429,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 98,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 481,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 25,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 389,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 580,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 229,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -424793,12 +424793,6 @@
             "element": 124,
             "in_accepted_trade": false,
             "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 116,
-            "in_accepted_trade": false,
-            "owner": 138139,
             "status": "o"
           },
           {
@@ -424850,21 +424844,9 @@
             "status": "o"
           },
           {
-            "element": 260,
-            "in_accepted_trade": false,
-            "owner": 138032,
-            "status": "o"
-          },
-          {
             "element": 1,
             "in_accepted_trade": false,
             "owner": 138032,
-            "status": "o"
-          },
-          {
-            "element": 526,
-            "in_accepted_trade": false,
-            "owner": 42888,
             "status": "o"
           },
           {
@@ -424883,12 +424865,6 @@
             "element": 198,
             "in_accepted_trade": false,
             "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 429,
-            "in_accepted_trade": false,
-            "owner": 250589,
             "status": "o"
           },
           {
@@ -424952,12 +424928,6 @@
             "status": "o"
           },
           {
-            "element": 98,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 384,
             "in_accepted_trade": false,
             "owner": 138032,
@@ -424991,12 +424961,6 @@
             "element": 469,
             "in_accepted_trade": false,
             "owner": 138032,
-            "status": "o"
-          },
-          {
-            "element": 481,
-            "in_accepted_trade": false,
-            "owner": 137912,
             "status": "o"
           },
           {
@@ -425042,12 +425006,6 @@
             "status": "o"
           },
           {
-            "element": 25,
-            "in_accepted_trade": false,
-            "owner": 318564,
-            "status": "o"
-          },
-          {
             "element": 330,
             "in_accepted_trade": false,
             "owner": 137879,
@@ -425090,9 +425048,21 @@
             "status": "o"
           },
           {
+            "element": 156,
+            "in_accepted_trade": false,
+            "owner": 250589,
+            "status": "o"
+          },
+          {
             "element": 400,
             "in_accepted_trade": false,
             "owner": 42888,
+            "status": "o"
+          },
+          {
+            "element": 86,
+            "in_accepted_trade": false,
+            "owner": 138032,
             "status": "o"
           },
           {
@@ -425126,9 +425096,21 @@
             "status": "o"
           },
           {
+            "element": 401,
+            "in_accepted_trade": false,
+            "owner": 318564,
+            "status": "o"
+          },
+          {
             "element": 554,
             "in_accepted_trade": false,
             "owner": 137879,
+            "status": "o"
+          },
+          {
+            "element": 237,
+            "in_accepted_trade": false,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -425186,12 +425168,6 @@
             "status": "o"
           },
           {
-            "element": 389,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 445,
             "in_accepted_trade": false,
             "owner": 138032,
@@ -425213,6 +425189,12 @@
             "element": 8,
             "in_accepted_trade": false,
             "owner": 138139,
+            "status": "o"
+          },
+          {
+            "element": 335,
+            "in_accepted_trade": false,
+            "owner": 42888,
             "status": "o"
           },
           {
@@ -425249,6 +425231,12 @@
             "element": 230,
             "in_accepted_trade": false,
             "owner": 138139,
+            "status": "o"
+          },
+          {
+            "element": 555,
+            "in_accepted_trade": false,
+            "owner": 42888,
             "status": "o"
           },
           {
@@ -425330,6 +425318,12 @@
             "status": "o"
           },
           {
+            "element": 334,
+            "in_accepted_trade": false,
+            "owner": 42888,
+            "status": "o"
+          },
+          {
             "element": 465,
             "in_accepted_trade": false,
             "owner": 137912,
@@ -425360,6 +425354,12 @@
             "status": "o"
           },
           {
+            "element": 88,
+            "in_accepted_trade": false,
+            "owner": 138139,
+            "status": "o"
+          },
+          {
             "element": 504,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -425384,12 +425384,6 @@
             "status": "o"
           },
           {
-            "element": 580,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 582,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -425397,6 +425391,12 @@
           },
           {
             "element": 597,
+            "in_accepted_trade": false,
+            "owner": 42888,
+            "status": "o"
+          },
+          {
+            "element": 598,
             "in_accepted_trade": false,
             "owner": 42888,
             "status": "o"
@@ -426589,12 +426589,6 @@
             "status": "a"
           },
           {
-            "element": 156,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 345,
             "in_accepted_trade": false,
             "owner": null,
@@ -426602,12 +426596,6 @@
           },
           {
             "element": 16,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 86,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -426733,12 +426721,6 @@
             "status": "a"
           },
           {
-            "element": 401,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 218,
             "in_accepted_trade": false,
             "owner": null,
@@ -426752,12 +426734,6 @@
           },
           {
             "element": 96,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 237,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -427045,12 +427021,6 @@
             "status": "a"
           },
           {
-            "element": 335,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 130,
             "in_accepted_trade": false,
             "owner": null,
@@ -427154,12 +427124,6 @@
           },
           {
             "element": 491,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 555,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -427580,12 +427544,6 @@
           },
           {
             "element": 438,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 334,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -428053,12 +428011,6 @@
             "status": "a"
           },
           {
-            "element": 88,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 137,
             "in_accepted_trade": false,
             "owner": null,
@@ -428378,12 +428330,6 @@
           },
           {
             "element": 596,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
-            "element": 598,
             "in_accepted_trade": false,
             "owner": null,
             "status": "a"
@@ -428797,6 +428743,60 @@
             "status": "a"
           },
           {
+            "element": 116,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 260,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 526,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 429,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 98,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 481,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 25,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 389,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 580,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 229,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -428806,12 +428806,6 @@
             "element": 124,
             "in_accepted_trade": false,
             "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 116,
-            "in_accepted_trade": false,
-            "owner": 138139,
             "status": "o"
           },
           {
@@ -428863,21 +428857,9 @@
             "status": "o"
           },
           {
-            "element": 260,
-            "in_accepted_trade": false,
-            "owner": 138032,
-            "status": "o"
-          },
-          {
             "element": 1,
             "in_accepted_trade": false,
             "owner": 138032,
-            "status": "o"
-          },
-          {
-            "element": 526,
-            "in_accepted_trade": false,
-            "owner": 42888,
             "status": "o"
           },
           {
@@ -428896,12 +428878,6 @@
             "element": 198,
             "in_accepted_trade": false,
             "owner": 318564,
-            "status": "o"
-          },
-          {
-            "element": 429,
-            "in_accepted_trade": false,
-            "owner": 250589,
             "status": "o"
           },
           {
@@ -428965,12 +428941,6 @@
             "status": "o"
           },
           {
-            "element": 98,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 384,
             "in_accepted_trade": false,
             "owner": 138032,
@@ -429004,12 +428974,6 @@
             "element": 469,
             "in_accepted_trade": false,
             "owner": 138032,
-            "status": "o"
-          },
-          {
-            "element": 481,
-            "in_accepted_trade": false,
-            "owner": 137912,
             "status": "o"
           },
           {
@@ -429055,12 +429019,6 @@
             "status": "o"
           },
           {
-            "element": 25,
-            "in_accepted_trade": false,
-            "owner": 318564,
-            "status": "o"
-          },
-          {
             "element": 330,
             "in_accepted_trade": false,
             "owner": 137879,
@@ -429103,9 +429061,21 @@
             "status": "o"
           },
           {
+            "element": 156,
+            "in_accepted_trade": false,
+            "owner": 250589,
+            "status": "o"
+          },
+          {
             "element": 400,
             "in_accepted_trade": false,
             "owner": 42888,
+            "status": "o"
+          },
+          {
+            "element": 86,
+            "in_accepted_trade": false,
+            "owner": 138032,
             "status": "o"
           },
           {
@@ -429139,9 +429109,21 @@
             "status": "o"
           },
           {
+            "element": 401,
+            "in_accepted_trade": false,
+            "owner": 318564,
+            "status": "o"
+          },
+          {
             "element": 554,
             "in_accepted_trade": false,
             "owner": 137879,
+            "status": "o"
+          },
+          {
+            "element": 237,
+            "in_accepted_trade": false,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -429199,12 +429181,6 @@
             "status": "o"
           },
           {
-            "element": 389,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 445,
             "in_accepted_trade": false,
             "owner": 138032,
@@ -429226,6 +429202,12 @@
             "element": 8,
             "in_accepted_trade": false,
             "owner": 138139,
+            "status": "o"
+          },
+          {
+            "element": 335,
+            "in_accepted_trade": false,
+            "owner": 42888,
             "status": "o"
           },
           {
@@ -429262,6 +429244,12 @@
             "element": 230,
             "in_accepted_trade": false,
             "owner": 138139,
+            "status": "o"
+          },
+          {
+            "element": 555,
+            "in_accepted_trade": false,
+            "owner": 42888,
             "status": "o"
           },
           {
@@ -429343,6 +429331,12 @@
             "status": "o"
           },
           {
+            "element": 334,
+            "in_accepted_trade": false,
+            "owner": 42888,
+            "status": "o"
+          },
+          {
             "element": 465,
             "in_accepted_trade": false,
             "owner": 137912,
@@ -429373,6 +429367,12 @@
             "status": "o"
           },
           {
+            "element": 88,
+            "in_accepted_trade": false,
+            "owner": 138139,
+            "status": "o"
+          },
+          {
             "element": 504,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -429397,12 +429397,6 @@
             "status": "o"
           },
           {
-            "element": 580,
-            "in_accepted_trade": false,
-            "owner": 42888,
-            "status": "o"
-          },
-          {
             "element": 582,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -429410,6 +429404,12 @@
           },
           {
             "element": 597,
+            "in_accepted_trade": false,
+            "owner": 42888,
+            "status": "o"
+          },
+          {
+            "element": 598,
             "in_accepted_trade": false,
             "owner": 42888,
             "status": "o"
@@ -465606,7 +465606,7 @@
           "start_event": 1,
           "stop_event": 38,
           "trades": "y",
-          "transaction_mode": "waivers",
+          "transaction_mode": "free-agency",
           "variety": "x"
         },
         "league_entries": [
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-22T17:10:46.718386Z",
+          "generated_at": "2026-10-22T21:35:55.747908Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-22T17:10:46.718386Z",
+        "generated_at": "2026-10-22T21:35:55.747908Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -484857,7 +484857,7 @@
         "number_of_entries": 7,
         "previous_gameweek": 6,
         "proposed_waivers": {
-          "count": 46,
+          "count": 51,
           "source_available": true
         },
         "schema_version": 6,
@@ -486078,18 +486078,186 @@
             "kind": "f",
             "priority": null,
             "result": "a"
+          },
+          {
+            "added": "2026-10-20T17:50:24.493743Z",
+            "element_in": 156,
+            "element_out": 481,
+            "entry": 137912,
+            "event": 8,
+            "id": 17624942,
+            "index": 4,
+            "kind": "w",
+            "priority": 1,
+            "result": "di"
+          },
+          {
+            "added": "2026-10-20T17:50:24.493769Z",
+            "element_in": 237,
+            "element_out": 481,
+            "entry": 137912,
+            "event": 8,
+            "id": 17624943,
+            "index": 5,
+            "kind": "w",
+            "priority": 2,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-20T21:19:55.823563Z",
+            "element_in": 401,
+            "element_out": 25,
+            "entry": 318564,
+            "event": 8,
+            "id": 17668207,
+            "index": 8,
+            "kind": "w",
+            "priority": 1,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-21T08:52:57.588766Z",
+            "element_in": 88,
+            "element_out": 116,
+            "entry": 138139,
+            "event": 8,
+            "id": 17745330,
+            "index": 9,
+            "kind": "w",
+            "priority": 1,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T10:00:30.604158Z",
+            "element_in": 156,
+            "element_out": 429,
+            "entry": 250589,
+            "event": 8,
+            "id": 18104175,
+            "index": 1,
+            "kind": "w",
+            "priority": 1,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T10:00:30.604184Z",
+            "element_in": 86,
+            "element_out": 429,
+            "entry": 250589,
+            "event": 8,
+            "id": 18104176,
+            "index": 10,
+            "kind": "w",
+            "priority": 2,
+            "result": "di"
+          },
+          {
+            "added": "2026-10-22T10:10:17.563233Z",
+            "element_in": 156,
+            "element_out": 260,
+            "entry": 138032,
+            "event": 8,
+            "id": 18107799,
+            "index": 2,
+            "kind": "w",
+            "priority": 1,
+            "result": "di"
+          },
+          {
+            "added": "2026-10-22T10:10:17.563261Z",
+            "element_in": 86,
+            "element_out": 260,
+            "entry": 138032,
+            "event": 8,
+            "id": 18107800,
+            "index": 3,
+            "kind": "w",
+            "priority": 2,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T13:53:13.661936Z",
+            "element_in": 156,
+            "element_out": 98,
+            "entry": 42888,
+            "event": 8,
+            "id": 18211805,
+            "index": 6,
+            "kind": "w",
+            "priority": 1,
+            "result": "di"
+          },
+          {
+            "added": "2026-10-22T13:53:13.661963Z",
+            "element_in": 335,
+            "element_out": 98,
+            "entry": 42888,
+            "event": 8,
+            "id": 18211806,
+            "index": 7,
+            "kind": "w",
+            "priority": 2,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T13:53:13.661972Z",
+            "element_in": 555,
+            "element_out": 389,
+            "entry": 42888,
+            "event": 8,
+            "id": 18211807,
+            "index": 11,
+            "kind": "w",
+            "priority": 3,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T13:53:13.661979Z",
+            "element_in": 334,
+            "element_out": 389,
+            "entry": 42888,
+            "event": 8,
+            "id": 18211808,
+            "index": 12,
+            "kind": "w",
+            "priority": 4,
+            "result": "do"
+          },
+          {
+            "added": "2026-10-22T13:53:13.661986Z",
+            "element_in": 598,
+            "element_out": 526,
+            "entry": 42888,
+            "event": 8,
+            "id": 18211809,
+            "index": 13,
+            "kind": "w",
+            "priority": 5,
+            "result": "a"
+          },
+          {
+            "added": "2026-10-22T21:02:16.130674Z",
+            "element_in": 334,
+            "element_out": 580,
+            "entry": 42888,
+            "event": 8,
+            "id": 18453117,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
           }
         ]
       },
       "transactions_enriched": {
         "data_quality": {
           "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-          "records_enriched": 99,
-          "records_received": 99,
+          "records_enriched": 113,
+          "records_received": 113,
           "source_available": true,
-          "typed_records": 99
+          "typed_records": 113
         },
-        "generated_at": "2026-10-22T17:10:45.550939Z",
+        "generated_at": "2026-10-22T21:35:55.078802Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491338,6 +491506,748 @@
             "timestamp": null,
             "transaction_id": 17053288,
             "transaction_type": "free_agent"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 6,
+              "club_name": "Chelsea",
+              "club_short_name": "CHE",
+              "element_id": 156,
+              "first_name": "Pedro",
+              "news": "",
+              "official_draft_rank": 39,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lomba Neto",
+              "web_name": "Neto"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 481,
+              "first_name": "Elliot",
+              "news": "",
+              "official_draft_rank": 32,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Anderson",
+              "web_name": "Anderson"
+            },
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "event": 8,
+            "league_entry_id": 138520,
+            "priority": 4,
+            "raw": {
+              "added": "2026-10-20T17:50:24.493743Z",
+              "element_in": 156,
+              "element_out": 481,
+              "entry": 137912,
+              "event": 8,
+              "id": 17624942,
+              "index": 4,
+              "kind": "w",
+              "priority": 1,
+              "result": "di"
+            },
+            "raw_kind": "w",
+            "raw_result": "di",
+            "result": null,
+            "timestamp": null,
+            "transaction_id": 17624942,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 237,
+              "first_name": "Iliman",
+              "news": "",
+              "official_draft_rank": 75,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Ndiaye",
+              "web_name": "Ndiaye"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 481,
+              "first_name": "Elliot",
+              "news": "",
+              "official_draft_rank": 32,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Anderson",
+              "web_name": "Anderson"
+            },
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "event": 8,
+            "league_entry_id": 138520,
+            "priority": 5,
+            "raw": {
+              "added": "2026-10-20T17:50:24.493769Z",
+              "element_in": 237,
+              "element_out": 481,
+              "entry": 137912,
+              "event": 8,
+              "id": 17624943,
+              "index": 5,
+              "kind": "w",
+              "priority": 2,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 17624943,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "d",
+              "club_id": 19,
+              "club_name": "Spurs",
+              "club_short_name": "TOT",
+              "element_id": 401,
+              "first_name": "Omar",
+              "news": "Calf injury - 75% chance of playing",
+              "official_draft_rank": 30,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Marmoush",
+              "web_name": "Marmoush"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 1,
+              "club_name": "Arsenal",
+              "club_short_name": "ARS",
+              "element_id": 25,
+              "first_name": "Viktor",
+              "news": "",
+              "official_draft_rank": 18,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Gyökeres",
+              "web_name": "Gyökeres"
+            },
+            "entry_id": 318564,
+            "entry_name": "La Liga es la mejor",
+            "event": 8,
+            "league_entry_id": 321694,
+            "priority": 8,
+            "raw": {
+              "added": "2026-10-20T21:19:55.823563Z",
+              "element_in": 401,
+              "element_out": 25,
+              "entry": 318564,
+              "event": 8,
+              "id": 17668207,
+              "index": 8,
+              "kind": "w",
+              "priority": 1,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 17668207,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 88,
+              "first_name": "Michael",
+              "news": "",
+              "official_draft_rank": 446,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Kayode",
+              "web_name": "Kayode"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 5,
+              "club_name": "Brighton",
+              "club_short_name": "BHA",
+              "element_id": 116,
+              "first_name": "Lewis",
+              "news": "",
+              "official_draft_rank": 452,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Dunk",
+              "web_name": "Dunk"
+            },
+            "entry_id": 138139,
+            "entry_name": "Jyllands Rubin",
+            "event": 8,
+            "league_entry_id": 138748,
+            "priority": 9,
+            "raw": {
+              "added": "2026-10-21T08:52:57.588766Z",
+              "element_in": 88,
+              "element_out": 116,
+              "entry": 138139,
+              "event": 8,
+              "id": 17745330,
+              "index": 9,
+              "kind": "w",
+              "priority": 1,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 17745330,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 6,
+              "club_name": "Chelsea",
+              "club_short_name": "CHE",
+              "element_id": 156,
+              "first_name": "Pedro",
+              "news": "",
+              "official_draft_rank": 39,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lomba Neto",
+              "web_name": "Neto"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 16,
+              "club_name": "Man Utd",
+              "club_short_name": "MUN",
+              "element_id": 429,
+              "first_name": "Marcus",
+              "news": "Hip injury - 75% chance of playing",
+              "official_draft_rank": 31,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Rashford",
+              "web_name": "Rashford"
+            },
+            "entry_id": 250589,
+            "entry_name": "Senile Supersubs",
+            "event": 8,
+            "league_entry_id": 252790,
+            "priority": 1,
+            "raw": {
+              "added": "2026-10-22T10:00:30.604158Z",
+              "element_in": 156,
+              "element_out": 429,
+              "entry": 250589,
+              "event": 8,
+              "id": 18104175,
+              "index": 1,
+              "kind": "w",
+              "priority": 1,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18104175,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 86,
+              "first_name": "Keane",
+              "news": "",
+              "official_draft_rank": 137,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lewis-Potter",
+              "web_name": "Lewis-Potter"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 16,
+              "club_name": "Man Utd",
+              "club_short_name": "MUN",
+              "element_id": 429,
+              "first_name": "Marcus",
+              "news": "Hip injury - 75% chance of playing",
+              "official_draft_rank": 31,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Rashford",
+              "web_name": "Rashford"
+            },
+            "entry_id": 250589,
+            "entry_name": "Senile Supersubs",
+            "event": 8,
+            "league_entry_id": 252790,
+            "priority": 10,
+            "raw": {
+              "added": "2026-10-22T10:00:30.604184Z",
+              "element_in": 86,
+              "element_out": 429,
+              "entry": 250589,
+              "event": 8,
+              "id": 18104176,
+              "index": 10,
+              "kind": "w",
+              "priority": 2,
+              "result": "di"
+            },
+            "raw_kind": "w",
+            "raw_result": "di",
+            "result": null,
+            "timestamp": null,
+            "transaction_id": 18104176,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 6,
+              "club_name": "Chelsea",
+              "club_short_name": "CHE",
+              "element_id": 156,
+              "first_name": "Pedro",
+              "news": "",
+              "official_draft_rank": 39,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lomba Neto",
+              "web_name": "Neto"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 13,
+              "club_name": "Leeds",
+              "club_short_name": "LEE",
+              "element_id": 260,
+              "first_name": "Harry",
+              "news": "",
+              "official_draft_rank": 34,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Wilson",
+              "web_name": "Wilson"
+            },
+            "entry_id": 138032,
+            "entry_name": "Hyggemix",
+            "event": 8,
+            "league_entry_id": 138641,
+            "priority": 2,
+            "raw": {
+              "added": "2026-10-22T10:10:17.563233Z",
+              "element_in": 156,
+              "element_out": 260,
+              "entry": 138032,
+              "event": 8,
+              "id": 18107799,
+              "index": 2,
+              "kind": "w",
+              "priority": 1,
+              "result": "di"
+            },
+            "raw_kind": "w",
+            "raw_result": "di",
+            "result": null,
+            "timestamp": null,
+            "transaction_id": 18107799,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 86,
+              "first_name": "Keane",
+              "news": "",
+              "official_draft_rank": 137,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lewis-Potter",
+              "web_name": "Lewis-Potter"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 13,
+              "club_name": "Leeds",
+              "club_short_name": "LEE",
+              "element_id": 260,
+              "first_name": "Harry",
+              "news": "",
+              "official_draft_rank": 34,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Wilson",
+              "web_name": "Wilson"
+            },
+            "entry_id": 138032,
+            "entry_name": "Hyggemix",
+            "event": 8,
+            "league_entry_id": 138641,
+            "priority": 3,
+            "raw": {
+              "added": "2026-10-22T10:10:17.563261Z",
+              "element_in": 86,
+              "element_out": 260,
+              "entry": 138032,
+              "event": 8,
+              "id": 18107800,
+              "index": 3,
+              "kind": "w",
+              "priority": 2,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18107800,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 6,
+              "club_name": "Chelsea",
+              "club_short_name": "CHE",
+              "element_id": 156,
+              "first_name": "Pedro",
+              "news": "",
+              "official_draft_rank": 39,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Lomba Neto",
+              "web_name": "Neto"
+            },
+            "element_out": {
+              "availability_status": "s",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 98,
+              "first_name": "Vitaly",
+              "news": "Suspended until 31 Oct",
+              "official_draft_rank": 284,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Janelt",
+              "web_name": "Janelt"
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": 6,
+            "raw": {
+              "added": "2026-10-22T13:53:13.661936Z",
+              "element_in": 156,
+              "element_out": 98,
+              "entry": 42888,
+              "event": 8,
+              "id": 18211805,
+              "index": 6,
+              "kind": "w",
+              "priority": 1,
+              "result": "di"
+            },
+            "raw_kind": "w",
+            "raw_result": "di",
+            "result": null,
+            "timestamp": null,
+            "transaction_id": 18211805,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 13,
+              "club_name": "Leeds",
+              "club_short_name": "LEE",
+              "element_id": 335,
+              "first_name": "Anton",
+              "news": "",
+              "official_draft_rank": 72,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Stach",
+              "web_name": "Stach"
+            },
+            "element_out": {
+              "availability_status": "s",
+              "club_id": 4,
+              "club_name": "Brentford",
+              "club_short_name": "BRE",
+              "element_id": 98,
+              "first_name": "Vitaly",
+              "news": "Suspended until 31 Oct",
+              "official_draft_rank": 284,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Janelt",
+              "web_name": "Janelt"
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": 7,
+            "raw": {
+              "added": "2026-10-22T13:53:13.661963Z",
+              "element_in": 335,
+              "element_out": 98,
+              "entry": 42888,
+              "event": 8,
+              "id": 18211806,
+              "index": 7,
+              "kind": "w",
+              "priority": 2,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18211806,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 3,
+              "club_name": "Bournemouth",
+              "club_short_name": "BOU",
+              "element_id": 555,
+              "first_name": "António João",
+              "news": "",
+              "official_draft_rank": 407,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Pereira de Albuquerque Tavares da Silva",
+              "web_name": "Silva"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 389,
+              "first_name": "Matheus",
+              "news": "Unspecified injury - 75% chance of playing",
+              "official_draft_rank": 66,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Nunes",
+              "web_name": "Matheus N."
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": 11,
+            "raw": {
+              "added": "2026-10-22T13:53:13.661972Z",
+              "element_in": 555,
+              "element_out": 389,
+              "entry": 42888,
+              "event": 8,
+              "id": 18211807,
+              "index": 11,
+              "kind": "w",
+              "priority": 3,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18211807,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 13,
+              "club_name": "Leeds",
+              "club_short_name": "LEE",
+              "element_id": 334,
+              "first_name": "Tarik",
+              "news": "",
+              "official_draft_rank": 391,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Muharemović",
+              "web_name": "Muharemović"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 389,
+              "first_name": "Matheus",
+              "news": "Unspecified injury - 75% chance of playing",
+              "official_draft_rank": 66,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Nunes",
+              "web_name": "Matheus N."
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": 12,
+            "raw": {
+              "added": "2026-10-22T13:53:13.661979Z",
+              "element_in": 334,
+              "element_out": 389,
+              "entry": 42888,
+              "event": 8,
+              "id": 18211808,
+              "index": 12,
+              "kind": "w",
+              "priority": 4,
+              "result": "do"
+            },
+            "raw_kind": "w",
+            "raw_result": "do",
+            "result": null,
+            "timestamp": null,
+            "transaction_id": 18211808,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 7,
+              "club_name": "Coventry City",
+              "club_short_name": "COV",
+              "element_id": 598,
+              "first_name": "Sidiki",
+              "news": "",
+              "official_draft_rank": 421,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Cherif",
+              "web_name": "Cherif"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 19,
+              "club_name": "Spurs",
+              "club_short_name": "TOT",
+              "element_id": 526,
+              "first_name": "Dominic",
+              "news": "",
+              "official_draft_rank": 107,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Solanke-Mitchell",
+              "web_name": "Solanke"
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": 13,
+            "raw": {
+              "added": "2026-10-22T13:53:13.661986Z",
+              "element_in": 598,
+              "element_out": 526,
+              "entry": 42888,
+              "event": 8,
+              "id": 18211809,
+              "index": 13,
+              "kind": "w",
+              "priority": 5,
+              "result": "a"
+            },
+            "raw_kind": "w",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18211809,
+            "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 13,
+              "club_name": "Leeds",
+              "club_short_name": "LEE",
+              "element_id": 334,
+              "first_name": "Tarik",
+              "news": "",
+              "official_draft_rank": 391,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Muharemović",
+              "web_name": "Muharemović"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 14,
+              "club_name": "Liverpool",
+              "club_short_name": "LIV",
+              "element_id": 580,
+              "first_name": "Ronald",
+              "news": "",
+              "official_draft_rank": 233,
+              "position": "DEF",
+              "position_id": 2,
+              "second_name": "Araujo",
+              "web_name": "Araujo"
+            },
+            "entry_id": 42888,
+            "entry_name": "AGFs Førstehold",
+            "event": 8,
+            "league_entry_id": 42948,
+            "priority": null,
+            "raw": {
+              "added": "2026-10-22T21:02:16.130674Z",
+              "element_in": 334,
+              "element_out": 580,
+              "entry": 42888,
+              "event": 8,
+              "id": 18453117,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18453117,
+            "transaction_type": "free_agent"
           }
         ]
       },
@@ -491354,7 +492264,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-22T17:10:46.718327Z",
+        "generated_at": "2026-10-22T21:35:55.747846Z",
         "players": [
           {
             "availability_status": "a",
@@ -556248,7 +557158,7 @@
       "start_event": 1,
       "stop_event": 38,
       "trades": "y",
-      "transaction_mode": "waivers",
+      "transaction_mode": "free-agency",
       "variety": "x"
     },
     "league_entries": [
@@ -558115,7 +559025,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-22T17:10:46.571719Z",
+    "generated_at": "2026-10-22T21:35:55.604710Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +559220,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792689045
+      "time": 1792704954
     },
     "choices": {
       "choices": [],
@@ -559486,12 +560396,6 @@
           "status": "a"
         },
         {
-          "element": 156,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 345,
           "in_accepted_trade": false,
           "owner": null,
@@ -559499,12 +560403,6 @@
         },
         {
           "element": 16,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 86,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -559630,12 +560528,6 @@
           "status": "a"
         },
         {
-          "element": 401,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 218,
           "in_accepted_trade": false,
           "owner": null,
@@ -559649,12 +560541,6 @@
         },
         {
           "element": 96,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 237,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -559942,12 +560828,6 @@
           "status": "a"
         },
         {
-          "element": 335,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 130,
           "in_accepted_trade": false,
           "owner": null,
@@ -560051,12 +560931,6 @@
         },
         {
           "element": 491,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 555,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -560477,12 +561351,6 @@
         },
         {
           "element": 438,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 334,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -560950,12 +561818,6 @@
           "status": "a"
         },
         {
-          "element": 88,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 137,
           "in_accepted_trade": false,
           "owner": null,
@@ -561275,12 +562137,6 @@
         },
         {
           "element": 596,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 598,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -561694,6 +562550,60 @@
           "status": "a"
         },
         {
+          "element": 116,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 260,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 526,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 429,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 98,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 481,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 25,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 389,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 580,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 229,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -561703,12 +562613,6 @@
           "element": 124,
           "in_accepted_trade": false,
           "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 116,
-          "in_accepted_trade": false,
-          "owner": 138139,
           "status": "o"
         },
         {
@@ -561760,21 +562664,9 @@
           "status": "o"
         },
         {
-          "element": 260,
-          "in_accepted_trade": false,
-          "owner": 138032,
-          "status": "o"
-        },
-        {
           "element": 1,
           "in_accepted_trade": false,
           "owner": 138032,
-          "status": "o"
-        },
-        {
-          "element": 526,
-          "in_accepted_trade": false,
-          "owner": 42888,
           "status": "o"
         },
         {
@@ -561793,12 +562685,6 @@
           "element": 198,
           "in_accepted_trade": false,
           "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 429,
-          "in_accepted_trade": false,
-          "owner": 250589,
           "status": "o"
         },
         {
@@ -561862,12 +562748,6 @@
           "status": "o"
         },
         {
-          "element": 98,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 384,
           "in_accepted_trade": false,
           "owner": 138032,
@@ -561901,12 +562781,6 @@
           "element": 469,
           "in_accepted_trade": false,
           "owner": 138032,
-          "status": "o"
-        },
-        {
-          "element": 481,
-          "in_accepted_trade": false,
-          "owner": 137912,
           "status": "o"
         },
         {
@@ -561952,12 +562826,6 @@
           "status": "o"
         },
         {
-          "element": 25,
-          "in_accepted_trade": false,
-          "owner": 318564,
-          "status": "o"
-        },
-        {
           "element": 330,
           "in_accepted_trade": false,
           "owner": 137879,
@@ -562000,9 +562868,21 @@
           "status": "o"
         },
         {
+          "element": 156,
+          "in_accepted_trade": false,
+          "owner": 250589,
+          "status": "o"
+        },
+        {
           "element": 400,
           "in_accepted_trade": false,
           "owner": 42888,
+          "status": "o"
+        },
+        {
+          "element": 86,
+          "in_accepted_trade": false,
+          "owner": 138032,
           "status": "o"
         },
         {
@@ -562036,9 +562916,21 @@
           "status": "o"
         },
         {
+          "element": 401,
+          "in_accepted_trade": false,
+          "owner": 318564,
+          "status": "o"
+        },
+        {
           "element": 554,
           "in_accepted_trade": false,
           "owner": 137879,
+          "status": "o"
+        },
+        {
+          "element": 237,
+          "in_accepted_trade": false,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -562096,12 +562988,6 @@
           "status": "o"
         },
         {
-          "element": 389,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 445,
           "in_accepted_trade": false,
           "owner": 138032,
@@ -562123,6 +563009,12 @@
           "element": 8,
           "in_accepted_trade": false,
           "owner": 138139,
+          "status": "o"
+        },
+        {
+          "element": 335,
+          "in_accepted_trade": false,
+          "owner": 42888,
           "status": "o"
         },
         {
@@ -562159,6 +563051,12 @@
           "element": 230,
           "in_accepted_trade": false,
           "owner": 138139,
+          "status": "o"
+        },
+        {
+          "element": 555,
+          "in_accepted_trade": false,
+          "owner": 42888,
           "status": "o"
         },
         {
@@ -562240,6 +563138,12 @@
           "status": "o"
         },
         {
+          "element": 334,
+          "in_accepted_trade": false,
+          "owner": 42888,
+          "status": "o"
+        },
+        {
           "element": 465,
           "in_accepted_trade": false,
           "owner": 137912,
@@ -562270,6 +563174,12 @@
           "status": "o"
         },
         {
+          "element": 88,
+          "in_accepted_trade": false,
+          "owner": 138139,
+          "status": "o"
+        },
+        {
           "element": 504,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -562294,12 +563204,6 @@
           "status": "o"
         },
         {
-          "element": 580,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 582,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -562307,6 +563211,12 @@
         },
         {
           "element": 597,
+          "in_accepted_trade": false,
+          "owner": 42888,
+          "status": "o"
+        },
+        {
+          "element": 598,
           "in_accepted_trade": false,
           "owner": 42888,
           "status": "o"
@@ -563499,12 +564409,6 @@
           "status": "a"
         },
         {
-          "element": 156,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 345,
           "in_accepted_trade": false,
           "owner": null,
@@ -563512,12 +564416,6 @@
         },
         {
           "element": 16,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 86,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -563643,12 +564541,6 @@
           "status": "a"
         },
         {
-          "element": 401,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 218,
           "in_accepted_trade": false,
           "owner": null,
@@ -563662,12 +564554,6 @@
         },
         {
           "element": 96,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 237,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -563955,12 +564841,6 @@
           "status": "a"
         },
         {
-          "element": 335,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 130,
           "in_accepted_trade": false,
           "owner": null,
@@ -564064,12 +564944,6 @@
         },
         {
           "element": 491,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 555,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -564490,12 +565364,6 @@
         },
         {
           "element": 438,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 334,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -564963,12 +565831,6 @@
           "status": "a"
         },
         {
-          "element": 88,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 137,
           "in_accepted_trade": false,
           "owner": null,
@@ -565288,12 +566150,6 @@
         },
         {
           "element": 596,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 598,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -565707,6 +566563,60 @@
           "status": "a"
         },
         {
+          "element": 116,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 260,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 526,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 429,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 98,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 481,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 25,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 389,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 580,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 229,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -565716,12 +566626,6 @@
           "element": 124,
           "in_accepted_trade": false,
           "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 116,
-          "in_accepted_trade": false,
-          "owner": 138139,
           "status": "o"
         },
         {
@@ -565773,21 +566677,9 @@
           "status": "o"
         },
         {
-          "element": 260,
-          "in_accepted_trade": false,
-          "owner": 138032,
-          "status": "o"
-        },
-        {
           "element": 1,
           "in_accepted_trade": false,
           "owner": 138032,
-          "status": "o"
-        },
-        {
-          "element": 526,
-          "in_accepted_trade": false,
-          "owner": 42888,
           "status": "o"
         },
         {
@@ -565806,12 +566698,6 @@
           "element": 198,
           "in_accepted_trade": false,
           "owner": 318564,
-          "status": "o"
-        },
-        {
-          "element": 429,
-          "in_accepted_trade": false,
-          "owner": 250589,
           "status": "o"
         },
         {
@@ -565875,12 +566761,6 @@
           "status": "o"
         },
         {
-          "element": 98,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 384,
           "in_accepted_trade": false,
           "owner": 138032,
@@ -565914,12 +566794,6 @@
           "element": 469,
           "in_accepted_trade": false,
           "owner": 138032,
-          "status": "o"
-        },
-        {
-          "element": 481,
-          "in_accepted_trade": false,
-          "owner": 137912,
           "status": "o"
         },
         {
@@ -565965,12 +566839,6 @@
           "status": "o"
         },
         {
-          "element": 25,
-          "in_accepted_trade": false,
-          "owner": 318564,
-          "status": "o"
-        },
-        {
           "element": 330,
           "in_accepted_trade": false,
           "owner": 137879,
@@ -566013,9 +566881,21 @@
           "status": "o"
         },
         {
+          "element": 156,
+          "in_accepted_trade": false,
+          "owner": 250589,
+          "status": "o"
+        },
+        {
           "element": 400,
           "in_accepted_trade": false,
           "owner": 42888,
+          "status": "o"
+        },
+        {
+          "element": 86,
+          "in_accepted_trade": false,
+          "owner": 138032,
           "status": "o"
         },
         {
@@ -566049,9 +566929,21 @@
           "status": "o"
         },
         {
+          "element": 401,
+          "in_accepted_trade": false,
+          "owner": 318564,
+          "status": "o"
+        },
+        {
           "element": 554,
           "in_accepted_trade": false,
           "owner": 137879,
+          "status": "o"
+        },
+        {
+          "element": 237,
+          "in_accepted_trade": false,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -566109,12 +567001,6 @@
           "status": "o"
         },
         {
-          "element": 389,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 445,
           "in_accepted_trade": false,
           "owner": 138032,
@@ -566136,6 +567022,12 @@
           "element": 8,
           "in_accepted_trade": false,
           "owner": 138139,
+          "status": "o"
+        },
+        {
+          "element": 335,
+          "in_accepted_trade": false,
+          "owner": 42888,
           "status": "o"
         },
         {
@@ -566172,6 +567064,12 @@
           "element": 230,
           "in_accepted_trade": false,
           "owner": 138139,
+          "status": "o"
+        },
+        {
+          "element": 555,
+          "in_accepted_trade": false,
+          "owner": 42888,
           "status": "o"
         },
         {
@@ -566253,6 +567151,12 @@
           "status": "o"
         },
         {
+          "element": 334,
+          "in_accepted_trade": false,
+          "owner": 42888,
+          "status": "o"
+        },
+        {
           "element": 465,
           "in_accepted_trade": false,
           "owner": 137912,
@@ -566283,6 +567187,12 @@
           "status": "o"
         },
         {
+          "element": 88,
+          "in_accepted_trade": false,
+          "owner": 138139,
+          "status": "o"
+        },
+        {
           "element": 504,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -566307,12 +567217,6 @@
           "status": "o"
         },
         {
-          "element": 580,
-          "in_accepted_trade": false,
-          "owner": 42888,
-          "status": "o"
-        },
-        {
           "element": 582,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -566320,6 +567224,12 @@
         },
         {
           "element": 597,
+          "in_accepted_trade": false,
+          "owner": 42888,
+          "status": "o"
+        },
+        {
+          "element": 598,
           "in_accepted_trade": false,
           "owner": 42888,
           "status": "o"
@@ -566344,7 +567254,7 @@
       "next_event": 8,
       "processing_status": "n",
       "trades_time_for_approval": false,
-      "waivers_processed": false
+      "waivers_processed": true
     },
     "trades": {
       "trades": [
@@ -567550,6 +568460,174 @@
           "entry": 138139,
           "event": 7,
           "id": 17053288,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-20T17:50:24.493743Z",
+          "element_in": 156,
+          "element_out": 481,
+          "entry": 137912,
+          "event": 8,
+          "id": 17624942,
+          "index": 4,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        {
+          "added": "2026-10-20T17:50:24.493769Z",
+          "element_in": 237,
+          "element_out": 481,
+          "entry": 137912,
+          "event": 8,
+          "id": 17624943,
+          "index": 5,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-20T21:19:55.823563Z",
+          "element_in": 401,
+          "element_out": 25,
+          "entry": 318564,
+          "event": 8,
+          "id": 17668207,
+          "index": 8,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-21T08:52:57.588766Z",
+          "element_in": 88,
+          "element_out": 116,
+          "entry": 138139,
+          "event": 8,
+          "id": 17745330,
+          "index": 9,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T10:00:30.604158Z",
+          "element_in": 156,
+          "element_out": 429,
+          "entry": 250589,
+          "event": 8,
+          "id": 18104175,
+          "index": 1,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T10:00:30.604184Z",
+          "element_in": 86,
+          "element_out": 429,
+          "entry": 250589,
+          "event": 8,
+          "id": 18104176,
+          "index": 10,
+          "kind": "w",
+          "priority": 2,
+          "result": "di"
+        },
+        {
+          "added": "2026-10-22T10:10:17.563233Z",
+          "element_in": 156,
+          "element_out": 260,
+          "entry": 138032,
+          "event": 8,
+          "id": 18107799,
+          "index": 2,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        {
+          "added": "2026-10-22T10:10:17.563261Z",
+          "element_in": 86,
+          "element_out": 260,
+          "entry": 138032,
+          "event": 8,
+          "id": 18107800,
+          "index": 3,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T13:53:13.661936Z",
+          "element_in": 156,
+          "element_out": 98,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211805,
+          "index": 6,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        {
+          "added": "2026-10-22T13:53:13.661963Z",
+          "element_in": 335,
+          "element_out": 98,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211806,
+          "index": 7,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T13:53:13.661972Z",
+          "element_in": 555,
+          "element_out": 389,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211807,
+          "index": 11,
+          "kind": "w",
+          "priority": 3,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T13:53:13.661979Z",
+          "element_in": 334,
+          "element_out": 389,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211808,
+          "index": 12,
+          "kind": "w",
+          "priority": 4,
+          "result": "do"
+        },
+        {
+          "added": "2026-10-22T13:53:13.661986Z",
+          "element_in": 598,
+          "element_out": 526,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211809,
+          "index": 13,
+          "kind": "w",
+          "priority": 5,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-22T21:02:16.130674Z",
+          "element_in": 334,
+          "element_out": 580,
+          "entry": 42888,
+          "event": 8,
+          "id": 18453117,
           "index": null,
           "kind": "f",
           "priority": null,
@@ -575263,8 +576341,8 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-22T17:10:45.552936Z",
-    "pending_waiver_count": 46,
+    "generated_at": "2026-10-22T21:35:55.081180Z",
+    "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
     "waivers": [
@@ -577704,6 +578782,271 @@
         "result": null,
         "timestamp": null,
         "transaction_id": 16968350,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 481,
+          "first_name": "Elliot",
+          "news": "",
+          "official_draft_rank": 32,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Anderson",
+          "web_name": "Anderson"
+        },
+        "entry_id": 137912,
+        "entry_name": "Grove Løjer",
+        "event": 8,
+        "league_entry_id": 138520,
+        "priority": 4,
+        "raw": {
+          "added": "2026-10-20T17:50:24.493743Z",
+          "element_in": 156,
+          "element_out": 481,
+          "entry": 137912,
+          "event": 8,
+          "id": 17624942,
+          "index": 4,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 17624942,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 86,
+          "first_name": "Keane",
+          "news": "",
+          "official_draft_rank": 137,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lewis-Potter",
+          "web_name": "Lewis-Potter"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 16,
+          "club_name": "Man Utd",
+          "club_short_name": "MUN",
+          "element_id": 429,
+          "first_name": "Marcus",
+          "news": "Hip injury - 75% chance of playing",
+          "official_draft_rank": 31,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Rashford",
+          "web_name": "Rashford"
+        },
+        "entry_id": 250589,
+        "entry_name": "Senile Supersubs",
+        "event": 8,
+        "league_entry_id": 252790,
+        "priority": 10,
+        "raw": {
+          "added": "2026-10-22T10:00:30.604184Z",
+          "element_in": 86,
+          "element_out": 429,
+          "entry": 250589,
+          "event": 8,
+          "id": 18104176,
+          "index": 10,
+          "kind": "w",
+          "priority": 2,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18104176,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 260,
+          "first_name": "Harry",
+          "news": "",
+          "official_draft_rank": 34,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Wilson",
+          "web_name": "Wilson"
+        },
+        "entry_id": 138032,
+        "entry_name": "Hyggemix",
+        "event": 8,
+        "league_entry_id": 138641,
+        "priority": 2,
+        "raw": {
+          "added": "2026-10-22T10:10:17.563233Z",
+          "element_in": 156,
+          "element_out": 260,
+          "entry": 138032,
+          "event": 8,
+          "id": 18107799,
+          "index": 2,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18107799,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "s",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 98,
+          "first_name": "Vitaly",
+          "news": "Suspended until 31 Oct",
+          "official_draft_rank": 284,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Janelt",
+          "web_name": "Janelt"
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 6,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661936Z",
+          "element_in": 156,
+          "element_out": 98,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211805,
+          "index": 6,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18211805,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 334,
+          "first_name": "Tarik",
+          "news": "",
+          "official_draft_rank": 391,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Muharemović",
+          "web_name": "Muharemović"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 389,
+          "first_name": "Matheus",
+          "news": "Unspecified injury - 75% chance of playing",
+          "official_draft_rank": 66,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Nunes",
+          "web_name": "Matheus N."
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 12,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661979Z",
+          "element_in": 334,
+          "element_out": 389,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211808,
+          "index": 12,
+          "kind": "w",
+          "priority": 4,
+          "result": "do"
+        },
+        "raw_kind": "w",
+        "raw_result": "do",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18211808,
         "transaction_type": "waiver"
       }
     ]
@@ -586116,7 +587459,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-22T17:10:46.718386Z",
+    "generated_at": "2026-10-22T21:35:55.747908Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586136,7 +587479,7 @@
     "number_of_entries": 7,
     "previous_gameweek": 6,
     "proposed_waivers": {
-      "count": 46,
+      "count": 51,
       "source_available": true
     },
     "schema_version": 6,
@@ -586152,12 +587495,12 @@
   "transactions_enriched": {
     "data_quality": {
       "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-      "records_enriched": 99,
-      "records_received": 99,
+      "records_enriched": 113,
+      "records_received": 113,
       "source_available": true,
-      "typed_records": 99
+      "typed_records": 113
     },
-    "generated_at": "2026-10-22T17:10:45.550939Z",
+    "generated_at": "2026-10-22T21:35:55.078802Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591406,6 +592749,748 @@
         "timestamp": null,
         "transaction_id": 17053288,
         "transaction_type": "free_agent"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 481,
+          "first_name": "Elliot",
+          "news": "",
+          "official_draft_rank": 32,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Anderson",
+          "web_name": "Anderson"
+        },
+        "entry_id": 137912,
+        "entry_name": "Grove Løjer",
+        "event": 8,
+        "league_entry_id": 138520,
+        "priority": 4,
+        "raw": {
+          "added": "2026-10-20T17:50:24.493743Z",
+          "element_in": 156,
+          "element_out": 481,
+          "entry": 137912,
+          "event": 8,
+          "id": 17624942,
+          "index": 4,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 17624942,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 237,
+          "first_name": "Iliman",
+          "news": "",
+          "official_draft_rank": 75,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Ndiaye",
+          "web_name": "Ndiaye"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 481,
+          "first_name": "Elliot",
+          "news": "",
+          "official_draft_rank": 32,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Anderson",
+          "web_name": "Anderson"
+        },
+        "entry_id": 137912,
+        "entry_name": "Grove Løjer",
+        "event": 8,
+        "league_entry_id": 138520,
+        "priority": 5,
+        "raw": {
+          "added": "2026-10-20T17:50:24.493769Z",
+          "element_in": 237,
+          "element_out": 481,
+          "entry": 137912,
+          "event": 8,
+          "id": 17624943,
+          "index": 5,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 17624943,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "d",
+          "club_id": 19,
+          "club_name": "Spurs",
+          "club_short_name": "TOT",
+          "element_id": 401,
+          "first_name": "Omar",
+          "news": "Calf injury - 75% chance of playing",
+          "official_draft_rank": 30,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Marmoush",
+          "web_name": "Marmoush"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 1,
+          "club_name": "Arsenal",
+          "club_short_name": "ARS",
+          "element_id": 25,
+          "first_name": "Viktor",
+          "news": "",
+          "official_draft_rank": 18,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Gyökeres",
+          "web_name": "Gyökeres"
+        },
+        "entry_id": 318564,
+        "entry_name": "La Liga es la mejor",
+        "event": 8,
+        "league_entry_id": 321694,
+        "priority": 8,
+        "raw": {
+          "added": "2026-10-20T21:19:55.823563Z",
+          "element_in": 401,
+          "element_out": 25,
+          "entry": 318564,
+          "event": 8,
+          "id": 17668207,
+          "index": 8,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 17668207,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 88,
+          "first_name": "Michael",
+          "news": "",
+          "official_draft_rank": 446,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Kayode",
+          "web_name": "Kayode"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 5,
+          "club_name": "Brighton",
+          "club_short_name": "BHA",
+          "element_id": 116,
+          "first_name": "Lewis",
+          "news": "",
+          "official_draft_rank": 452,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Dunk",
+          "web_name": "Dunk"
+        },
+        "entry_id": 138139,
+        "entry_name": "Jyllands Rubin",
+        "event": 8,
+        "league_entry_id": 138748,
+        "priority": 9,
+        "raw": {
+          "added": "2026-10-21T08:52:57.588766Z",
+          "element_in": 88,
+          "element_out": 116,
+          "entry": 138139,
+          "event": 8,
+          "id": 17745330,
+          "index": 9,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 17745330,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 16,
+          "club_name": "Man Utd",
+          "club_short_name": "MUN",
+          "element_id": 429,
+          "first_name": "Marcus",
+          "news": "Hip injury - 75% chance of playing",
+          "official_draft_rank": 31,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Rashford",
+          "web_name": "Rashford"
+        },
+        "entry_id": 250589,
+        "entry_name": "Senile Supersubs",
+        "event": 8,
+        "league_entry_id": 252790,
+        "priority": 1,
+        "raw": {
+          "added": "2026-10-22T10:00:30.604158Z",
+          "element_in": 156,
+          "element_out": 429,
+          "entry": 250589,
+          "event": 8,
+          "id": 18104175,
+          "index": 1,
+          "kind": "w",
+          "priority": 1,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18104175,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 86,
+          "first_name": "Keane",
+          "news": "",
+          "official_draft_rank": 137,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lewis-Potter",
+          "web_name": "Lewis-Potter"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 16,
+          "club_name": "Man Utd",
+          "club_short_name": "MUN",
+          "element_id": 429,
+          "first_name": "Marcus",
+          "news": "Hip injury - 75% chance of playing",
+          "official_draft_rank": 31,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Rashford",
+          "web_name": "Rashford"
+        },
+        "entry_id": 250589,
+        "entry_name": "Senile Supersubs",
+        "event": 8,
+        "league_entry_id": 252790,
+        "priority": 10,
+        "raw": {
+          "added": "2026-10-22T10:00:30.604184Z",
+          "element_in": 86,
+          "element_out": 429,
+          "entry": 250589,
+          "event": 8,
+          "id": 18104176,
+          "index": 10,
+          "kind": "w",
+          "priority": 2,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18104176,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 260,
+          "first_name": "Harry",
+          "news": "",
+          "official_draft_rank": 34,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Wilson",
+          "web_name": "Wilson"
+        },
+        "entry_id": 138032,
+        "entry_name": "Hyggemix",
+        "event": 8,
+        "league_entry_id": 138641,
+        "priority": 2,
+        "raw": {
+          "added": "2026-10-22T10:10:17.563233Z",
+          "element_in": 156,
+          "element_out": 260,
+          "entry": 138032,
+          "event": 8,
+          "id": 18107799,
+          "index": 2,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18107799,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 86,
+          "first_name": "Keane",
+          "news": "",
+          "official_draft_rank": 137,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lewis-Potter",
+          "web_name": "Lewis-Potter"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 260,
+          "first_name": "Harry",
+          "news": "",
+          "official_draft_rank": 34,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Wilson",
+          "web_name": "Wilson"
+        },
+        "entry_id": 138032,
+        "entry_name": "Hyggemix",
+        "event": 8,
+        "league_entry_id": 138641,
+        "priority": 3,
+        "raw": {
+          "added": "2026-10-22T10:10:17.563261Z",
+          "element_in": 86,
+          "element_out": 260,
+          "entry": 138032,
+          "event": 8,
+          "id": 18107800,
+          "index": 3,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18107800,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 6,
+          "club_name": "Chelsea",
+          "club_short_name": "CHE",
+          "element_id": 156,
+          "first_name": "Pedro",
+          "news": "",
+          "official_draft_rank": 39,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Lomba Neto",
+          "web_name": "Neto"
+        },
+        "element_out": {
+          "availability_status": "s",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 98,
+          "first_name": "Vitaly",
+          "news": "Suspended until 31 Oct",
+          "official_draft_rank": 284,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Janelt",
+          "web_name": "Janelt"
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 6,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661936Z",
+          "element_in": 156,
+          "element_out": 98,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211805,
+          "index": 6,
+          "kind": "w",
+          "priority": 1,
+          "result": "di"
+        },
+        "raw_kind": "w",
+        "raw_result": "di",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18211805,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 335,
+          "first_name": "Anton",
+          "news": "",
+          "official_draft_rank": 72,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Stach",
+          "web_name": "Stach"
+        },
+        "element_out": {
+          "availability_status": "s",
+          "club_id": 4,
+          "club_name": "Brentford",
+          "club_short_name": "BRE",
+          "element_id": 98,
+          "first_name": "Vitaly",
+          "news": "Suspended until 31 Oct",
+          "official_draft_rank": 284,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Janelt",
+          "web_name": "Janelt"
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 7,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661963Z",
+          "element_in": 335,
+          "element_out": 98,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211806,
+          "index": 7,
+          "kind": "w",
+          "priority": 2,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18211806,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 3,
+          "club_name": "Bournemouth",
+          "club_short_name": "BOU",
+          "element_id": 555,
+          "first_name": "António João",
+          "news": "",
+          "official_draft_rank": 407,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Pereira de Albuquerque Tavares da Silva",
+          "web_name": "Silva"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 389,
+          "first_name": "Matheus",
+          "news": "Unspecified injury - 75% chance of playing",
+          "official_draft_rank": 66,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Nunes",
+          "web_name": "Matheus N."
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 11,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661972Z",
+          "element_in": 555,
+          "element_out": 389,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211807,
+          "index": 11,
+          "kind": "w",
+          "priority": 3,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18211807,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 334,
+          "first_name": "Tarik",
+          "news": "",
+          "official_draft_rank": 391,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Muharemović",
+          "web_name": "Muharemović"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 389,
+          "first_name": "Matheus",
+          "news": "Unspecified injury - 75% chance of playing",
+          "official_draft_rank": 66,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Nunes",
+          "web_name": "Matheus N."
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 12,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661979Z",
+          "element_in": 334,
+          "element_out": 389,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211808,
+          "index": 12,
+          "kind": "w",
+          "priority": 4,
+          "result": "do"
+        },
+        "raw_kind": "w",
+        "raw_result": "do",
+        "result": null,
+        "timestamp": null,
+        "transaction_id": 18211808,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 7,
+          "club_name": "Coventry City",
+          "club_short_name": "COV",
+          "element_id": 598,
+          "first_name": "Sidiki",
+          "news": "",
+          "official_draft_rank": 421,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Cherif",
+          "web_name": "Cherif"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 19,
+          "club_name": "Spurs",
+          "club_short_name": "TOT",
+          "element_id": 526,
+          "first_name": "Dominic",
+          "news": "",
+          "official_draft_rank": 107,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Solanke-Mitchell",
+          "web_name": "Solanke"
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": 13,
+        "raw": {
+          "added": "2026-10-22T13:53:13.661986Z",
+          "element_in": 598,
+          "element_out": 526,
+          "entry": 42888,
+          "event": 8,
+          "id": 18211809,
+          "index": 13,
+          "kind": "w",
+          "priority": 5,
+          "result": "a"
+        },
+        "raw_kind": "w",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18211809,
+        "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 13,
+          "club_name": "Leeds",
+          "club_short_name": "LEE",
+          "element_id": 334,
+          "first_name": "Tarik",
+          "news": "",
+          "official_draft_rank": 391,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Muharemović",
+          "web_name": "Muharemović"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 14,
+          "club_name": "Liverpool",
+          "club_short_name": "LIV",
+          "element_id": 580,
+          "first_name": "Ronald",
+          "news": "",
+          "official_draft_rank": 233,
+          "position": "DEF",
+          "position_id": 2,
+          "second_name": "Araujo",
+          "web_name": "Araujo"
+        },
+        "entry_id": 42888,
+        "entry_name": "AGFs Førstehold",
+        "event": 8,
+        "league_entry_id": 42948,
+        "priority": null,
+        "raw": {
+          "added": "2026-10-22T21:02:16.130674Z",
+          "element_in": 334,
+          "element_out": 580,
+          "entry": 42888,
+          "event": 8,
+          "id": 18453117,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18453117,
+        "transaction_type": "free_agent"
       }
     ]
   },
@@ -591422,7 +593507,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-22T17:10:46.718327Z",
+    "generated_at": "2026-10-22T21:35:55.747846Z",
     "players": [
       {
         "availability_status": "a",
