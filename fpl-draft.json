@@ -193,14 +193,14 @@
         "web_name": "Mosquera"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": null,
         "draft_rank": 3,
         "element_type": 3,
         "first_name": "Bukayo",
         "id": 12,
         "minutes": 596,
-        "news": "Thigh injury - 75% chance of playing",
+        "news": "Thigh injury - 50% chance of playing",
         "second_name": "Saka",
         "status": "d",
         "team": 1,
@@ -8645,7 +8645,7 @@
         "first_name": "Takehiro",
         "id": 575,
         "minutes": 189,
-        "news": "Calf injury - Expected back 25 Oct",
+        "news": "Calf injury - Expected back 8 Nov",
         "second_name": "Tomiyasu",
         "status": "i",
         "team": 8,
@@ -9523,31 +9523,31 @@
         "web_name": "Ahanor"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 430,
         "element_type": 2,
         "first_name": "Ben",
         "id": 634,
         "minutes": 29,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "",
         "second_name": "Chilwell",
-        "status": "i",
+        "status": "a",
         "team": 8,
         "total_points": 8,
         "web_name": "Chilwell"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 247,
         "element_type": 3,
         "first_name": "Quinten",
         "id": 635,
         "minutes": 388,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Timber",
-        "status": "a",
+        "status": "d",
         "team": 8,
         "total_points": 17,
         "web_name": "Timber"
@@ -12527,13 +12527,13 @@
         "web_name": "Larsson"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 635,
         "first_name": "Quinten",
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 247,
         "position": "MID",
         "position_id": 3,
@@ -14837,13 +14837,13 @@
         "web_name": "Petrović"
       },
       {
-        "availability_status": "i",
+        "availability_status": "a",
         "club_id": 8,
         "club_name": "Crystal Palace",
         "club_short_name": "CRY",
         "element_id": 634,
         "first_name": "Ben",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "",
         "official_draft_rank": 430,
         "position": "DEF",
         "position_id": 2,
@@ -16663,7 +16663,7 @@
         "club_short_name": "CRY",
         "element_id": 575,
         "first_name": "Takehiro",
-        "news": "Calf injury - Expected back 25 Oct",
+        "news": "Calf injury - Expected back 8 Nov",
         "official_draft_rank": 570,
         "position": "DEF",
         "position_id": 2,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-21T21:43:08.382066Z",
+    "generated_at": "2026-10-22T04:45:59.205681Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19548,7 +19548,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Bukayo",
             "league_entry_id": 252790,
-            "news": "Thigh injury - 75% chance of playing",
+            "news": "Thigh injury - 50% chance of playing",
             "official_draft_rank": 3,
             "position": "MID",
             "position_id": 3,
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T21:43:10.236879Z",
+  "generated_at": "2026-10-22T04:46:00.053709Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -411443,14 +411443,14 @@
             "web_name": "Mosquera"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": null,
             "draft_rank": 3,
             "element_type": 3,
             "first_name": "Bukayo",
             "id": 12,
             "minutes": 596,
-            "news": "Thigh injury - 75% chance of playing",
+            "news": "Thigh injury - 50% chance of playing",
             "second_name": "Saka",
             "status": "d",
             "team": 1,
@@ -419895,7 +419895,7 @@
             "first_name": "Takehiro",
             "id": 575,
             "minutes": 189,
-            "news": "Calf injury - Expected back 25 Oct",
+            "news": "Calf injury - Expected back 8 Nov",
             "second_name": "Tomiyasu",
             "status": "i",
             "team": 8,
@@ -420773,31 +420773,31 @@
             "web_name": "Ahanor"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 430,
             "element_type": 2,
             "first_name": "Ben",
             "id": 634,
             "minutes": 29,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "",
             "second_name": "Chilwell",
-            "status": "i",
+            "status": "a",
             "team": 8,
             "total_points": 8,
             "web_name": "Chilwell"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 247,
             "element_type": 3,
             "first_name": "Quinten",
             "id": 635,
             "minutes": 388,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Timber",
-            "status": "a",
+            "status": "d",
             "team": 8,
             "total_points": 17,
             "web_name": "Timber"
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-21T21:43:10.236879Z",
+          "generated_at": "2026-10-22T04:46:00.053709Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-21T21:43:10.236879Z",
+        "generated_at": "2026-10-22T04:46:00.053709Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-21T21:43:08.380578Z",
+        "generated_at": "2026-10-22T04:45:59.203659Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-21T21:43:10.236814Z",
+        "generated_at": "2026-10-22T04:46:00.053636Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T21:43:09.604482Z",
+    "generated_at": "2026-10-22T04:45:59.936767Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792618987
+      "time": 1792644358
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-21T21:43:08.382099Z",
+    "generated_at": "2026-10-22T04:45:59.205729Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-21T21:43:10.236879Z",
+    "generated_at": "2026-10-22T04:46:00.053709Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-21T21:43:08.380578Z",
+    "generated_at": "2026-10-22T04:45:59.203659Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-21T21:43:10.236814Z",
+    "generated_at": "2026-10-22T04:46:00.053636Z",
     "players": [
       {
         "availability_status": "a",
