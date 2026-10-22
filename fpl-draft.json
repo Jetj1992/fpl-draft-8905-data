@@ -4018,16 +4018,16 @@
         "web_name": "Cairney"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 293,
         "element_type": 3,
         "first_name": "Saša",
         "id": 267,
         "minutes": 490,
-        "news": "Groin injury - 75% chance of playing",
+        "news": "Groin injury - Expected back 23 Oct",
         "second_name": "Lukić",
-        "status": "d",
+        "status": "i",
         "team": 12,
         "total_points": 15,
         "web_name": "Lukić"
@@ -13031,13 +13031,13 @@
         "web_name": "Kamada"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 12,
         "club_name": "Ipswich Town",
         "club_short_name": "IPS",
         "element_id": 267,
         "first_name": "Saša",
-        "news": "Groin injury - 75% chance of playing",
+        "news": "Groin injury - Expected back 23 Oct",
         "official_draft_rank": 293,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-22T11:53:02.276015Z",
+    "generated_at": "2026-10-22T17:10:45.552898Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-22T11:53:05.004221Z",
+  "generated_at": "2026-10-22T17:10:46.718386Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -415268,16 +415268,16 @@
             "web_name": "Cairney"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 293,
             "element_type": 3,
             "first_name": "Saša",
             "id": 267,
             "minutes": 490,
-            "news": "Groin injury - 75% chance of playing",
+            "news": "Groin injury - Expected back 23 Oct",
             "second_name": "Lukić",
-            "status": "d",
+            "status": "i",
             "team": 12,
             "total_points": 15,
             "web_name": "Lukić"
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-22T11:53:05.004221Z",
+          "generated_at": "2026-10-22T17:10:46.718386Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-22T11:53:05.004221Z",
+        "generated_at": "2026-10-22T17:10:46.718386Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486089,7 +486089,7 @@
           "source_available": true,
           "typed_records": 99
         },
-        "generated_at": "2026-10-22T11:53:02.274011Z",
+        "generated_at": "2026-10-22T17:10:45.550939Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -491354,7 +491354,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-22T11:53:05.004167Z",
+        "generated_at": "2026-10-22T17:10:46.718327Z",
         "players": [
           {
             "availability_status": "a",
@@ -558115,7 +558115,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-22T11:53:04.648688Z",
+    "generated_at": "2026-10-22T17:10:46.571719Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -558310,7 +558310,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792669979
+      "time": 1792689045
     },
     "choices": {
       "choices": [],
@@ -575263,7 +575263,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-22T11:53:02.276055Z",
+    "generated_at": "2026-10-22T17:10:45.552936Z",
     "pending_waiver_count": 46,
     "schema_version": 1,
     "source_available": true,
@@ -586116,7 +586116,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-22T11:53:05.004221Z",
+    "generated_at": "2026-10-22T17:10:46.718386Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -586157,7 +586157,7 @@
       "source_available": true,
       "typed_records": 99
     },
-    "generated_at": "2026-10-22T11:53:02.274011Z",
+    "generated_at": "2026-10-22T17:10:45.550939Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -591422,7 +591422,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-22T11:53:05.004167Z",
+    "generated_at": "2026-10-22T17:10:46.718327Z",
     "players": [
       {
         "availability_status": "a",
