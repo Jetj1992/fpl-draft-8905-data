@@ -965,7 +965,7 @@
         "first_name": "Veljko",
         "id": 63,
         "minutes": 0,
-        "news": "Thigh injury - Expected back 8 Nov",
+        "news": "Thigh injury - Expected back 31 Oct",
         "second_name": "Milosavljevic",
         "status": "i",
         "team": 3,
@@ -1153,16 +1153,16 @@
         "web_name": "Christie"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 345,
         "element_type": 3,
         "first_name": "Alex",
         "id": 76,
         "minutes": 17,
-        "news": "",
+        "news": "Hamstring injury - Unknown return date",
         "second_name": "Tóth",
-        "status": "a",
+        "status": "i",
         "team": 3,
         "total_points": 2,
         "web_name": "Tóth.A"
@@ -1183,14 +1183,14 @@
         "web_name": "Adli"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 22,
         "element_type": 3,
         "first_name": "Junior",
         "id": 78,
         "minutes": 0,
-        "news": "Foot injury - 50% chance of playing",
+        "news": "Foot injury - 75% chance of playing",
         "second_name": "Kroupi",
         "status": "d",
         "team": 3,
@@ -3943,16 +3943,16 @@
         "web_name": "Iwobi"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 163,
         "element_type": 3,
         "first_name": "Emile",
         "id": 262,
         "minutes": 41,
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "second_name": "Smith Rowe",
-        "status": "a",
+        "status": "d",
         "team": 10,
         "total_points": 3,
         "web_name": "Smith Rowe"
@@ -9583,16 +9583,16 @@
         "web_name": "Maitland-Niles"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 25,
         "draft_rank": 245,
         "element_type": 3,
         "first_name": "Hugo",
         "id": 638,
         "minutes": 40,
-        "news": "Groin injury - 25% chance of playing",
+        "news": "",
         "second_name": "Larsson",
-        "status": "d",
+        "status": "a",
         "team": 10,
         "total_points": 4,
         "web_name": "Larsson"
@@ -10223,12 +10223,26 @@
         "club_short_name": "BOU",
         "element_id": 78,
         "first_name": "Junior",
-        "news": "Foot injury - 50% chance of playing",
+        "news": "Foot injury - 75% chance of playing",
         "official_draft_rank": 22,
         "position": "MID",
         "position_id": 3,
         "second_name": "Kroupi",
         "web_name": "Kroupi.Jr"
+      },
+      {
+        "availability_status": "i",
+        "club_id": 16,
+        "club_name": "Man Utd",
+        "club_short_name": "MUN",
+        "element_id": 439,
+        "first_name": "Benjamin",
+        "news": "Shin injury - Unknown return date",
+        "official_draft_rank": 29,
+        "position": "FWD",
+        "position_id": 4,
+        "second_name": "Sesko",
+        "web_name": "Šeško"
       },
       {
         "availability_status": "d",
@@ -11547,13 +11561,13 @@
         "web_name": "Tonali"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 262,
         "first_name": "Emile",
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "official_draft_rank": 163,
         "position": "MID",
         "position_id": 3,
@@ -12307,20 +12321,6 @@
         "club_id": 12,
         "club_name": "Ipswich Town",
         "club_short_name": "IPS",
-        "element_id": 316,
-        "first_name": "Emersonn",
-        "news": "",
-        "official_draft_rank": 226,
-        "position": "FWD",
-        "position_id": 4,
-        "second_name": "Correia da Silva",
-        "web_name": "Emersonn"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 12,
-        "club_name": "Ipswich Town",
-        "club_short_name": "IPS",
         "element_id": 563,
         "first_name": "Daizen",
         "news": "",
@@ -12541,13 +12541,13 @@
         "web_name": "Ángel"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 638,
         "first_name": "Hugo",
-        "news": "Groin injury - 25% chance of playing",
+        "news": "",
         "official_draft_rank": 245,
         "position": "MID",
         "position_id": 3,
@@ -13611,7 +13611,7 @@
         "club_short_name": "BOU",
         "element_id": 63,
         "first_name": "Veljko",
-        "news": "Thigh injury - Expected back 8 Nov",
+        "news": "Thigh injury - Expected back 31 Oct",
         "official_draft_rank": 331,
         "position": "DEF",
         "position_id": 2,
@@ -13787,13 +13787,13 @@
         "web_name": "Jörgensen"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 3,
         "club_name": "Bournemouth",
         "club_short_name": "BOU",
         "element_id": 76,
         "first_name": "Alex",
-        "news": "",
+        "news": "Hamstring injury - Unknown return date",
         "official_draft_rank": 345,
         "position": "MID",
         "position_id": 3,
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-23T04:49:45.559790Z",
+    "generated_at": "2026-10-23T11:39:20.965298Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18522,6 +18522,23 @@
           },
           {
             "availability_status": "a",
+            "club_id": 12,
+            "club_name": "Ipswich Town",
+            "club_short_name": "IPS",
+            "element_id": 316,
+            "entry_id": 137879,
+            "entry_name": "AGF 2. hold",
+            "first_name": "Emersonn",
+            "league_entry_id": 138487,
+            "news": "",
+            "official_draft_rank": 226,
+            "position": "FWD",
+            "position_id": 4,
+            "second_name": "Correia da Silva",
+            "web_name": "Emersonn"
+          },
+          {
+            "availability_status": "a",
             "club_id": 11,
             "club_name": "Hull City",
             "club_short_name": "HUL",
@@ -18553,23 +18570,6 @@
             "position_id": 4,
             "second_name": "Wissa",
             "web_name": "Wissa"
-          },
-          {
-            "availability_status": "i",
-            "club_id": 16,
-            "club_name": "Man Utd",
-            "club_short_name": "MUN",
-            "element_id": 439,
-            "entry_id": 137879,
-            "entry_name": "AGF 2. hold",
-            "first_name": "Benjamin",
-            "league_entry_id": 138487,
-            "news": "Shin injury - Unknown return date",
-            "official_draft_rank": 29,
-            "position": "FWD",
-            "position_id": 4,
-            "second_name": "Sesko",
-            "web_name": "Šeško"
           }
         ]
       },
@@ -28598,8 +28598,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 6
+        "transactions_event": 1,
+        "transactions_total": 7
       }
     },
     "137912": {
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-23T04:49:48.931848Z",
+  "generated_at": "2026-10-23T11:39:22.629975Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -412215,7 +412215,7 @@
             "first_name": "Veljko",
             "id": 63,
             "minutes": 0,
-            "news": "Thigh injury - Expected back 8 Nov",
+            "news": "Thigh injury - Expected back 31 Oct",
             "second_name": "Milosavljevic",
             "status": "i",
             "team": 3,
@@ -412403,16 +412403,16 @@
             "web_name": "Christie"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 345,
             "element_type": 3,
             "first_name": "Alex",
             "id": 76,
             "minutes": 17,
-            "news": "",
+            "news": "Hamstring injury - Unknown return date",
             "second_name": "Tóth",
-            "status": "a",
+            "status": "i",
             "team": 3,
             "total_points": 2,
             "web_name": "Tóth.A"
@@ -412433,14 +412433,14 @@
             "web_name": "Adli"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 22,
             "element_type": 3,
             "first_name": "Junior",
             "id": 78,
             "minutes": 0,
-            "news": "Foot injury - 50% chance of playing",
+            "news": "Foot injury - 75% chance of playing",
             "second_name": "Kroupi",
             "status": "d",
             "team": 3,
@@ -415193,16 +415193,16 @@
             "web_name": "Iwobi"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 163,
             "element_type": 3,
             "first_name": "Emile",
             "id": 262,
             "minutes": 41,
-            "news": "",
+            "news": "Knock - 75% chance of playing",
             "second_name": "Smith Rowe",
-            "status": "a",
+            "status": "d",
             "team": 10,
             "total_points": 3,
             "web_name": "Smith Rowe"
@@ -420833,16 +420833,16 @@
             "web_name": "Maitland-Niles"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 25,
             "draft_rank": 245,
             "element_type": 3,
             "first_name": "Hugo",
             "id": 638,
             "minutes": 40,
-            "news": "Groin injury - 25% chance of playing",
+            "news": "",
             "second_name": "Larsson",
-            "status": "d",
+            "status": "a",
             "team": 10,
             "total_points": 4,
             "web_name": "Larsson"
@@ -423620,12 +423620,6 @@
             "status": "a"
           },
           {
-            "element": 316,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 451,
             "in_accepted_trade": false,
             "owner": null,
@@ -424778,6 +424772,12 @@
             "status": "l"
           },
           {
+            "element": 439,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 580,
             "in_accepted_trade": false,
             "owner": null,
@@ -425246,12 +425246,6 @@
             "status": "o"
           },
           {
-            "element": 439,
-            "in_accepted_trade": false,
-            "owner": 137879,
-            "status": "o"
-          },
-          {
             "element": 449,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -425333,6 +425327,12 @@
             "element": 286,
             "in_accepted_trade": false,
             "owner": 250589,
+            "status": "o"
+          },
+          {
+            "element": 316,
+            "in_accepted_trade": false,
+            "owner": 137879,
             "status": "o"
           },
           {
@@ -427633,12 +427633,6 @@
             "status": "a"
           },
           {
-            "element": 316,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 451,
             "in_accepted_trade": false,
             "owner": null,
@@ -428791,6 +428785,12 @@
             "status": "l"
           },
           {
+            "element": 439,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 580,
             "in_accepted_trade": false,
             "owner": null,
@@ -429259,12 +429259,6 @@
             "status": "o"
           },
           {
-            "element": 439,
-            "in_accepted_trade": false,
-            "owner": 137879,
-            "status": "o"
-          },
-          {
             "element": 449,
             "in_accepted_trade": false,
             "owner": 42888,
@@ -429346,6 +429340,12 @@
             "element": 286,
             "in_accepted_trade": false,
             "owner": 250589,
+            "status": "o"
+          },
+          {
+            "element": 316,
+            "in_accepted_trade": false,
+            "owner": 137879,
             "status": "o"
           },
           {
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-23T04:49:48.931848Z",
+          "generated_at": "2026-10-23T11:39:22.629975Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -484837,7 +484837,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-23T04:49:48.931848Z",
+        "generated_at": "2026-10-23T11:39:22.629975Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486246,18 +486246,30 @@
             "kind": "f",
             "priority": null,
             "result": "a"
+          },
+          {
+            "added": "2026-10-23T06:08:57.522318Z",
+            "element_in": 316,
+            "element_out": 439,
+            "entry": 137879,
+            "event": 8,
+            "id": 18468010,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
           }
         ]
       },
       "transactions_enriched": {
         "data_quality": {
           "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-          "records_enriched": 113,
-          "records_received": 113,
+          "records_enriched": 114,
+          "records_received": 114,
           "source_available": true,
-          "typed_records": 113
+          "typed_records": 114
         },
-        "generated_at": "2026-10-23T04:49:45.557780Z",
+        "generated_at": "2026-10-23T11:39:20.963342Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -492248,6 +492260,59 @@
             "timestamp": null,
             "transaction_id": 18453117,
             "transaction_type": "free_agent"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 12,
+              "club_name": "Ipswich Town",
+              "club_short_name": "IPS",
+              "element_id": 316,
+              "first_name": "Emersonn",
+              "news": "",
+              "official_draft_rank": 226,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Correia da Silva",
+              "web_name": "Emersonn"
+            },
+            "element_out": {
+              "availability_status": "i",
+              "club_id": 16,
+              "club_name": "Man Utd",
+              "club_short_name": "MUN",
+              "element_id": 439,
+              "first_name": "Benjamin",
+              "news": "Shin injury - Unknown return date",
+              "official_draft_rank": 29,
+              "position": "FWD",
+              "position_id": 4,
+              "second_name": "Sesko",
+              "web_name": "Šeško"
+            },
+            "entry_id": 137879,
+            "entry_name": "AGF 2. hold",
+            "event": 8,
+            "league_entry_id": 138487,
+            "priority": null,
+            "raw": {
+              "added": "2026-10-23T06:08:57.522318Z",
+              "element_in": 316,
+              "element_out": 439,
+              "entry": 137879,
+              "event": 8,
+              "id": 18468010,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 18468010,
+            "transaction_type": "free_agent"
           }
         ]
       },
@@ -492264,7 +492329,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-23T04:49:48.931795Z",
+        "generated_at": "2026-10-23T11:39:22.629921Z",
         "players": [
           {
             "availability_status": "a",
@@ -559025,7 +559090,7 @@
       "name": "Gameweek 7"
     },
     "gameweek": 7,
-    "generated_at": "2026-10-23T04:49:48.242973Z",
+    "generated_at": "2026-10-23T11:39:22.126774Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138748,
@@ -559220,7 +559285,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792730982
+      "time": 1792755559
     },
     "choices": {
       "choices": [],
@@ -561440,12 +561505,6 @@
           "status": "a"
         },
         {
-          "element": 316,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 451,
           "in_accepted_trade": false,
           "owner": null,
@@ -562598,6 +562657,12 @@
           "status": "l"
         },
         {
+          "element": 439,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 580,
           "in_accepted_trade": false,
           "owner": null,
@@ -563066,12 +563131,6 @@
           "status": "o"
         },
         {
-          "element": 439,
-          "in_accepted_trade": false,
-          "owner": 137879,
-          "status": "o"
-        },
-        {
           "element": 449,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -563153,6 +563212,12 @@
           "element": 286,
           "in_accepted_trade": false,
           "owner": 250589,
+          "status": "o"
+        },
+        {
+          "element": 316,
+          "in_accepted_trade": false,
+          "owner": 137879,
           "status": "o"
         },
         {
@@ -565453,12 +565518,6 @@
           "status": "a"
         },
         {
-          "element": 316,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 451,
           "in_accepted_trade": false,
           "owner": null,
@@ -566611,6 +566670,12 @@
           "status": "l"
         },
         {
+          "element": 439,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 580,
           "in_accepted_trade": false,
           "owner": null,
@@ -567079,12 +567144,6 @@
           "status": "o"
         },
         {
-          "element": 439,
-          "in_accepted_trade": false,
-          "owner": 137879,
-          "status": "o"
-        },
-        {
           "element": 449,
           "in_accepted_trade": false,
           "owner": 42888,
@@ -567166,6 +567225,12 @@
           "element": 286,
           "in_accepted_trade": false,
           "owner": 250589,
+          "status": "o"
+        },
+        {
+          "element": 316,
+          "in_accepted_trade": false,
+          "owner": 137879,
           "status": "o"
         },
         {
@@ -568628,6 +568693,18 @@
           "entry": 42888,
           "event": 8,
           "id": 18453117,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        {
+          "added": "2026-10-23T06:08:57.522318Z",
+          "element_in": 316,
+          "element_out": 439,
+          "entry": 137879,
+          "event": 8,
+          "id": 18468010,
           "index": null,
           "kind": "f",
           "priority": null,
@@ -576341,7 +576418,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-23T04:49:45.559829Z",
+    "generated_at": "2026-10-23T11:39:20.965340Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -587459,7 +587536,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-23T04:49:48.931848Z",
+    "generated_at": "2026-10-23T11:39:22.629975Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -587495,12 +587572,12 @@
   "transactions_enriched": {
     "data_quality": {
       "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-      "records_enriched": 113,
-      "records_received": 113,
+      "records_enriched": 114,
+      "records_received": 114,
       "source_available": true,
-      "typed_records": 113
+      "typed_records": 114
     },
-    "generated_at": "2026-10-23T04:49:45.557780Z",
+    "generated_at": "2026-10-23T11:39:20.963342Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -593491,6 +593568,59 @@
         "timestamp": null,
         "transaction_id": 18453117,
         "transaction_type": "free_agent"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 12,
+          "club_name": "Ipswich Town",
+          "club_short_name": "IPS",
+          "element_id": 316,
+          "first_name": "Emersonn",
+          "news": "",
+          "official_draft_rank": 226,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Correia da Silva",
+          "web_name": "Emersonn"
+        },
+        "element_out": {
+          "availability_status": "i",
+          "club_id": 16,
+          "club_name": "Man Utd",
+          "club_short_name": "MUN",
+          "element_id": 439,
+          "first_name": "Benjamin",
+          "news": "Shin injury - Unknown return date",
+          "official_draft_rank": 29,
+          "position": "FWD",
+          "position_id": 4,
+          "second_name": "Sesko",
+          "web_name": "Šeško"
+        },
+        "entry_id": 137879,
+        "entry_name": "AGF 2. hold",
+        "event": 8,
+        "league_entry_id": 138487,
+        "priority": null,
+        "raw": {
+          "added": "2026-10-23T06:08:57.522318Z",
+          "element_in": 316,
+          "element_out": 439,
+          "entry": 137879,
+          "event": 8,
+          "id": 18468010,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 18468010,
+        "transaction_type": "free_agent"
       }
     ]
   },
@@ -593507,7 +593637,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-23T04:49:48.931795Z",
+    "generated_at": "2026-10-23T11:39:22.629921Z",
     "players": [
       {
         "availability_status": "a",
