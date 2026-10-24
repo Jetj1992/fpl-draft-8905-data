@@ -84,7 +84,7 @@
         "second_name": "dos Santos Magalhães",
         "status": "a",
         "team": 1,
-        "total_points": 51,
+        "total_points": 52,
         "web_name": "Gabriel"
       },
       {
@@ -489,7 +489,7 @@
         "second_name": "Konsa Ngoyo",
         "status": "a",
         "team": 1,
-        "total_points": 40,
+        "total_points": 39,
         "web_name": "Konsa"
       },
       {
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-24T20:50:03.021010Z",
+    "generated_at": "2026-10-24T23:14:49.837256Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-24T20:50:04.622655Z",
+  "generated_at": "2026-10-24T23:14:54.028871Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -411363,7 +411363,7 @@
             "second_name": "dos Santos Magalhães",
             "status": "a",
             "team": 1,
-            "total_points": 51,
+            "total_points": 52,
             "web_name": "Gabriel"
           },
           {
@@ -411768,7 +411768,7 @@
             "second_name": "Konsa Ngoyo",
             "status": "a",
             "team": 1,
-            "total_points": 40,
+            "total_points": 39,
             "web_name": "Konsa"
           },
           {
@@ -473194,7 +473194,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-24T20:50:04.622655Z",
+          "generated_at": "2026-10-24T23:14:54.028871Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -477393,11 +477393,11 @@
                     "a": [],
                     "h": [
                       {
-                        "element": 31,
+                        "element": 4,
                         "value": 3
                       },
                       {
-                        "element": 4,
+                        "element": 31,
                         "value": 2
                       },
                       {
@@ -477410,16 +477410,20 @@
                   {
                     "a": [
                       {
-                        "element": 244,
-                        "value": 18
+                        "element": 242,
+                        "value": 19
                       },
                       {
-                        "element": 242,
-                        "value": 16
+                        "element": 244,
+                        "value": 15
+                      },
+                      {
+                        "element": 236,
+                        "value": 13
                       },
                       {
                         "element": 239,
-                        "value": 14
+                        "value": 12
                       },
                       {
                         "element": 249,
@@ -477430,19 +477434,11 @@
                         "value": 8
                       },
                       {
-                        "element": 232,
-                        "value": 8
-                      },
-                      {
                         "element": 246,
                         "value": 8
                       },
                       {
                         "element": 226,
-                        "value": 7
-                      },
-                      {
-                        "element": 236,
                         "value": 7
                       },
                       {
@@ -477458,6 +477454,10 @@
                         "value": 4
                       },
                       {
+                        "element": 232,
+                        "value": 2
+                      },
+                      {
                         "element": 243,
                         "value": 2
                       },
@@ -477468,12 +477468,12 @@
                     ],
                     "h": [
                       {
-                        "element": 31,
-                        "value": 43
+                        "element": 4,
+                        "value": 44
                       },
                       {
-                        "element": 4,
-                        "value": 42
+                        "element": 31,
+                        "value": 43
                       },
                       {
                         "element": 10,
@@ -477484,12 +477484,12 @@
                         "value": 29
                       },
                       {
-                        "element": 25,
-                        "value": 21
+                        "element": 13,
+                        "value": 23
                       },
                       {
-                        "element": 13,
-                        "value": 20
+                        "element": 25,
+                        "value": 21
                       },
                       {
                         "element": 7,
@@ -477505,22 +477505,22 @@
                       },
                       {
                         "element": 17,
-                        "value": 9
+                        "value": 6
                       },
                       {
                         "element": 26,
                         "value": 6
                       },
                       {
-                        "element": 8,
-                        "value": 4
+                        "element": 452,
+                        "value": 6
                       },
                       {
                         "element": 16,
-                        "value": 4
+                        "value": 5
                       },
                       {
-                        "element": 452,
+                        "element": 8,
                         "value": 4
                       },
                       {
@@ -477538,7 +477538,7 @@
                     "a": [
                       {
                         "element": 244,
-                        "value": 15
+                        "value": 16
                       },
                       {
                         "element": 232,
@@ -477592,7 +477592,7 @@
                     "h": [
                       {
                         "element": 4,
-                        "value": 12
+                        "value": 14
                       },
                       {
                         "element": 7,
@@ -477611,6 +477611,10 @@
                         "value": 4
                       },
                       {
+                        "element": 17,
+                        "value": 4
+                      },
+                      {
                         "element": 8,
                         "value": 3
                       },
@@ -477620,10 +477624,6 @@
                       },
                       {
                         "element": 16,
-                        "value": 3
-                      },
-                      {
-                        "element": 17,
                         "value": 3
                       },
                       {
@@ -478148,7 +478148,7 @@
                       },
                       {
                         "element": 525,
-                        "value": 26
+                        "value": 24
                       },
                       {
                         "element": 503,
@@ -478206,7 +478206,7 @@
                       },
                       {
                         "element": 164,
-                        "value": 13
+                        "value": 12
                       },
                       {
                         "element": 101,
@@ -478229,11 +478229,11 @@
                         "value": 6
                       },
                       {
-                        "element": 560,
-                        "value": 4
+                        "element": 136,
+                        "value": 3
                       },
                       {
-                        "element": 136,
+                        "element": 151,
                         "value": 3
                       },
                       {
@@ -478241,7 +478241,7 @@
                         "value": 3
                       },
                       {
-                        "element": 151,
+                        "element": 560,
                         "value": 2
                       },
                       {
@@ -478321,7 +478321,7 @@
                       },
                       {
                         "element": 159,
-                        "value": 10
+                        "value": 11
                       },
                       {
                         "element": 200,
@@ -483047,7 +483047,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-24T20:50:04.622655Z",
+        "generated_at": "2026-10-24T23:14:54.028871Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -484515,7 +484515,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-24T20:50:03.019731Z",
+        "generated_at": "2026-10-24T23:14:49.835574Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -490734,7 +490734,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-24T20:50:04.622612Z",
+        "generated_at": "2026-10-24T23:14:54.028821Z",
         "players": [
           {
             "availability_status": "a",
@@ -557495,7 +557495,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-24T20:50:04.097041Z",
+    "generated_at": "2026-10-24T23:14:52.557840Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 252790,
@@ -559973,7 +559973,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792875001
+      "time": 1792883687
     },
     "choices": {
       "choices": [],
@@ -573997,11 +573997,11 @@
             "a": [],
             "h": [
               {
-                "element": 31,
+                "element": 4,
                 "value": 3
               },
               {
-                "element": 4,
+                "element": 31,
                 "value": 2
               },
               {
@@ -574014,16 +574014,20 @@
           {
             "a": [
               {
-                "element": 244,
-                "value": 18
+                "element": 242,
+                "value": 19
               },
               {
-                "element": 242,
-                "value": 16
+                "element": 244,
+                "value": 15
+              },
+              {
+                "element": 236,
+                "value": 13
               },
               {
                 "element": 239,
-                "value": 14
+                "value": 12
               },
               {
                 "element": 249,
@@ -574034,19 +574038,11 @@
                 "value": 8
               },
               {
-                "element": 232,
-                "value": 8
-              },
-              {
                 "element": 246,
                 "value": 8
               },
               {
                 "element": 226,
-                "value": 7
-              },
-              {
-                "element": 236,
                 "value": 7
               },
               {
@@ -574062,6 +574058,10 @@
                 "value": 4
               },
               {
+                "element": 232,
+                "value": 2
+              },
+              {
                 "element": 243,
                 "value": 2
               },
@@ -574072,12 +574072,12 @@
             ],
             "h": [
               {
-                "element": 31,
-                "value": 43
+                "element": 4,
+                "value": 44
               },
               {
-                "element": 4,
-                "value": 42
+                "element": 31,
+                "value": 43
               },
               {
                 "element": 10,
@@ -574088,12 +574088,12 @@
                 "value": 29
               },
               {
-                "element": 25,
-                "value": 21
+                "element": 13,
+                "value": 23
               },
               {
-                "element": 13,
-                "value": 20
+                "element": 25,
+                "value": 21
               },
               {
                 "element": 7,
@@ -574109,22 +574109,22 @@
               },
               {
                 "element": 17,
-                "value": 9
+                "value": 6
               },
               {
                 "element": 26,
                 "value": 6
               },
               {
-                "element": 8,
-                "value": 4
+                "element": 452,
+                "value": 6
               },
               {
                 "element": 16,
-                "value": 4
+                "value": 5
               },
               {
-                "element": 452,
+                "element": 8,
                 "value": 4
               },
               {
@@ -574142,7 +574142,7 @@
             "a": [
               {
                 "element": 244,
-                "value": 15
+                "value": 16
               },
               {
                 "element": 232,
@@ -574196,7 +574196,7 @@
             "h": [
               {
                 "element": 4,
-                "value": 12
+                "value": 14
               },
               {
                 "element": 7,
@@ -574215,6 +574215,10 @@
                 "value": 4
               },
               {
+                "element": 17,
+                "value": 4
+              },
+              {
                 "element": 8,
                 "value": 3
               },
@@ -574224,10 +574228,6 @@
               },
               {
                 "element": 16,
-                "value": 3
-              },
-              {
-                "element": 17,
                 "value": 3
               },
               {
@@ -574752,7 +574752,7 @@
               },
               {
                 "element": 525,
-                "value": 26
+                "value": 24
               },
               {
                 "element": 503,
@@ -574810,7 +574810,7 @@
               },
               {
                 "element": 164,
-                "value": 13
+                "value": 12
               },
               {
                 "element": 101,
@@ -574833,11 +574833,11 @@
                 "value": 6
               },
               {
-                "element": 560,
-                "value": 4
+                "element": 136,
+                "value": 3
               },
               {
-                "element": 136,
+                "element": 151,
                 "value": 3
               },
               {
@@ -574845,7 +574845,7 @@
                 "value": 3
               },
               {
-                "element": 151,
+                "element": 560,
                 "value": 2
               },
               {
@@ -574925,7 +574925,7 @@
               },
               {
                 "element": 159,
-                "value": 10
+                "value": 11
               },
               {
                 "element": 200,
@@ -575260,7 +575260,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-24T20:50:03.021038Z",
+    "generated_at": "2026-10-24T23:14:49.837289Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -578877,11 +578877,11 @@
                 "a": [],
                 "h": [
                   {
-                    "element": 31,
+                    "element": 4,
                     "value": 3
                   },
                   {
-                    "element": 4,
+                    "element": 31,
                     "value": 2
                   },
                   {
@@ -578894,16 +578894,20 @@
               {
                 "a": [
                   {
-                    "element": 244,
-                    "value": 18
+                    "element": 242,
+                    "value": 19
                   },
                   {
-                    "element": 242,
-                    "value": 16
+                    "element": 244,
+                    "value": 15
+                  },
+                  {
+                    "element": 236,
+                    "value": 13
                   },
                   {
                     "element": 239,
-                    "value": 14
+                    "value": 12
                   },
                   {
                     "element": 249,
@@ -578914,19 +578918,11 @@
                     "value": 8
                   },
                   {
-                    "element": 232,
-                    "value": 8
-                  },
-                  {
                     "element": 246,
                     "value": 8
                   },
                   {
                     "element": 226,
-                    "value": 7
-                  },
-                  {
-                    "element": 236,
                     "value": 7
                   },
                   {
@@ -578942,6 +578938,10 @@
                     "value": 4
                   },
                   {
+                    "element": 232,
+                    "value": 2
+                  },
+                  {
                     "element": 243,
                     "value": 2
                   },
@@ -578952,12 +578952,12 @@
                 ],
                 "h": [
                   {
-                    "element": 31,
-                    "value": 43
+                    "element": 4,
+                    "value": 44
                   },
                   {
-                    "element": 4,
-                    "value": 42
+                    "element": 31,
+                    "value": 43
                   },
                   {
                     "element": 10,
@@ -578968,12 +578968,12 @@
                     "value": 29
                   },
                   {
-                    "element": 25,
-                    "value": 21
+                    "element": 13,
+                    "value": 23
                   },
                   {
-                    "element": 13,
-                    "value": 20
+                    "element": 25,
+                    "value": 21
                   },
                   {
                     "element": 7,
@@ -578989,22 +578989,22 @@
                   },
                   {
                     "element": 17,
-                    "value": 9
+                    "value": 6
                   },
                   {
                     "element": 26,
                     "value": 6
                   },
                   {
-                    "element": 8,
-                    "value": 4
+                    "element": 452,
+                    "value": 6
                   },
                   {
                     "element": 16,
-                    "value": 4
+                    "value": 5
                   },
                   {
-                    "element": 452,
+                    "element": 8,
                     "value": 4
                   },
                   {
@@ -579022,7 +579022,7 @@
                 "a": [
                   {
                     "element": 244,
-                    "value": 15
+                    "value": 16
                   },
                   {
                     "element": 232,
@@ -579076,7 +579076,7 @@
                 "h": [
                   {
                     "element": 4,
-                    "value": 12
+                    "value": 14
                   },
                   {
                     "element": 7,
@@ -579095,6 +579095,10 @@
                     "value": 4
                   },
                   {
+                    "element": 17,
+                    "value": 4
+                  },
+                  {
                     "element": 8,
                     "value": 3
                   },
@@ -579104,10 +579108,6 @@
                   },
                   {
                     "element": 16,
-                    "value": 3
-                  },
-                  {
-                    "element": 17,
                     "value": 3
                   },
                   {
@@ -579632,7 +579632,7 @@
                   },
                   {
                     "element": 525,
-                    "value": 26
+                    "value": 24
                   },
                   {
                     "element": 503,
@@ -579690,7 +579690,7 @@
                   },
                   {
                     "element": 164,
-                    "value": 13
+                    "value": 12
                   },
                   {
                     "element": 101,
@@ -579713,11 +579713,11 @@
                     "value": 6
                   },
                   {
-                    "element": 560,
-                    "value": 4
+                    "element": 136,
+                    "value": 3
                   },
                   {
-                    "element": 136,
+                    "element": 151,
                     "value": 3
                   },
                   {
@@ -579725,7 +579725,7 @@
                     "value": 3
                   },
                   {
-                    "element": 151,
+                    "element": 560,
                     "value": 2
                   },
                   {
@@ -579805,7 +579805,7 @@
                   },
                   {
                     "element": 159,
-                    "value": 10
+                    "value": 11
                   },
                   {
                     "element": 200,
@@ -584532,7 +584532,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-24T20:50:04.622655Z",
+    "generated_at": "2026-10-24T23:14:54.028871Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -584573,7 +584573,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-24T20:50:03.019731Z",
+    "generated_at": "2026-10-24T23:14:49.835574Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -590792,7 +590792,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-24T20:50:04.622612Z",
+    "generated_at": "2026-10-24T23:14:54.028821Z",
     "players": [
       {
         "availability_status": "a",
