@@ -7048,16 +7048,16 @@
         "web_name": "John"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 252,
         "element_type": 2,
         "first_name": "Neco",
         "id": 469,
         "minutes": 713,
-        "news": "",
+        "news": "Arm injury - 75% chance of playing",
         "second_name": "Williams",
-        "status": "a",
+        "status": "d",
         "team": 18,
         "total_points": 31,
         "web_name": "N.Williams"
@@ -8604,7 +8604,7 @@
         "second_name": "Morris Luís",
         "status": "a",
         "team": 12,
-        "total_points": 8,
+        "total_points": 10,
         "web_name": "Florentino"
       },
       {
@@ -18043,7 +18043,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-23T21:24:35.027326Z",
+    "generated_at": "2026-10-24T04:37:04.817544Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18894,7 +18894,7 @@
             "web_name": "J.Timber"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 18,
             "club_name": "Nott'm Forest",
             "club_short_name": "NFO",
@@ -18903,7 +18903,7 @@
             "entry_name": "Hyggemix",
             "first_name": "Neco",
             "league_entry_id": 138641,
-            "news": "",
+            "news": "Arm injury - 75% chance of playing",
             "official_draft_rank": 252,
             "position": "DEF",
             "position_id": 2,
@@ -28604,14 +28604,14 @@
     },
     "137912": {
       "entry": {
-        "event_points": 0,
+        "event_points": 7,
         "favourite_team": 2,
         "id": 137912,
         "league_set": [
           8905
         ],
         "name": "Grove Løjer",
-        "overall_points": 284,
+        "overall_points": 291,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28622,14 +28622,14 @@
     },
     "138032": {
       "entry": {
-        "event_points": 0,
+        "event_points": 8,
         "favourite_team": 11,
         "id": 138032,
         "league_set": [
           8905
         ],
         "name": "Hyggemix",
-        "overall_points": 268,
+        "overall_points": 276,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28658,14 +28658,14 @@
     },
     "250589": {
       "entry": {
-        "event_points": 0,
+        "event_points": 2,
         "favourite_team": null,
         "id": 250589,
         "league_set": [
           8905
         ],
         "name": "Senile Supersubs",
-        "overall_points": 219,
+        "overall_points": 221,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28694,14 +28694,14 @@
     },
     "42888": {
       "entry": {
-        "event_points": 0,
+        "event_points": 4,
         "favourite_team": 19,
         "id": 42888,
         "league_set": [
           8905
         ],
         "name": "AGFs Førstehold",
-        "overall_points": 312,
+        "overall_points": 316,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -29235,7 +29235,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-23T21:24:39.368794Z",
+  "generated_at": "2026-10-24T04:37:08.194609Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -418298,16 +418298,16 @@
             "web_name": "John"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 252,
             "element_type": 2,
             "first_name": "Neco",
             "id": 469,
             "minutes": 713,
-            "news": "",
+            "news": "Arm injury - 75% chance of playing",
             "second_name": "Williams",
-            "status": "a",
+            "status": "d",
             "team": 18,
             "total_points": 31,
             "web_name": "N.Williams"
@@ -419854,7 +419854,7 @@
             "second_name": "Morris Luís",
             "status": "a",
             "team": 12,
-            "total_points": 8,
+            "total_points": 10,
             "web_name": "Florentino"
           },
           {
@@ -465988,9 +465988,9 @@
             "event": 8,
             "finished": false,
             "league_entry_1": 252790,
-            "league_entry_1_points": 0,
+            "league_entry_1_points": 2,
             "league_entry_2": 42948,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 4,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -466010,9 +466010,9 @@
             "event": 8,
             "finished": false,
             "league_entry_1": 420622,
-            "league_entry_1_points": 0,
+            "league_entry_1_points": 3,
             "league_entry_2": 138641,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 8,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -466023,7 +466023,7 @@
             "league_entry_1": 138487,
             "league_entry_1_points": 0,
             "league_entry_2": 138520,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 7,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -473138,7 +473138,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-23T21:24:39.368794Z",
+          "generated_at": "2026-10-24T04:37:08.194609Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -476457,9 +476457,9 @@
                 "event": 8,
                 "finished": false,
                 "league_entry_1": 252790,
-                "league_entry_1_points": 0,
+                "league_entry_1_points": 2,
                 "league_entry_2": 42948,
-                "league_entry_2_points": 0,
+                "league_entry_2_points": 4,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -476479,9 +476479,9 @@
                 "event": 8,
                 "finished": false,
                 "league_entry_1": 420622,
-                "league_entry_1_points": 0,
+                "league_entry_1_points": 3,
                 "league_entry_2": 138641,
-                "league_entry_2_points": 0,
+                "league_entry_2_points": 8,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -476492,7 +476492,7 @@
                 "league_entry_1": 138487,
                 "league_entry_1_points": 0,
                 "league_entry_2": 138520,
-                "league_entry_2_points": 0,
+                "league_entry_2_points": 7,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -476633,7 +476633,7 @@
                       },
                       {
                         "element": 558,
-                        "value": 19
+                        "value": 17
                       },
                       {
                         "element": 480,
@@ -476648,15 +476648,19 @@
                         "value": 10
                       },
                       {
-                        "element": 483,
-                        "value": 8
-                      },
-                      {
                         "element": 471,
                         "value": 7
                       },
                       {
                         "element": 472,
+                        "value": 6
+                      },
+                      {
+                        "element": 482,
+                        "value": 5
+                      },
+                      {
+                        "element": 483,
                         "value": 5
                       },
                       {
@@ -476668,10 +476672,6 @@
                         "value": 2
                       },
                       {
-                        "element": 482,
-                        "value": 2
-                      },
-                      {
                         "element": 167,
                         "value": 1
                       }
@@ -476679,7 +476679,7 @@
                     "h": [
                       {
                         "element": 591,
-                        "value": 35
+                        "value": 39
                       },
                       {
                         "element": 305,
@@ -476698,23 +476698,23 @@
                         "value": 13
                       },
                       {
-                        "element": 592,
-                        "value": 9
+                        "element": 318,
+                        "value": 11
                       },
                       {
-                        "element": 316,
-                        "value": 8
+                        "element": 592,
+                        "value": 11
                       },
                       {
                         "element": 304,
                         "value": 7
                       },
                       {
-                        "element": 318,
-                        "value": 7
+                        "element": 259,
+                        "value": 5
                       },
                       {
-                        "element": 259,
+                        "element": 316,
                         "value": 5
                       },
                       {
@@ -476798,10 +476798,14 @@
                       },
                       {
                         "element": 571,
-                        "value": 11
+                        "value": 12
                       },
                       {
                         "element": 304,
+                        "value": 8
+                      },
+                      {
+                        "element": 592,
                         "value": 7
                       },
                       {
@@ -476813,8 +476817,12 @@
                         "value": 6
                       },
                       {
-                        "element": 592,
-                        "value": 6
+                        "element": 591,
+                        "value": 5
+                      },
+                      {
+                        "element": 640,
+                        "value": 4
                       },
                       {
                         "element": 313,
@@ -476822,14 +476830,6 @@
                       },
                       {
                         "element": 318,
-                        "value": 3
-                      },
-                      {
-                        "element": 591,
-                        "value": 3
-                      },
-                      {
-                        "element": 640,
                         "value": 3
                       },
                       {
@@ -481616,7 +481616,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-23T21:24:39.368794Z",
+        "generated_at": "2026-10-24T04:37:08.194609Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -483084,7 +483084,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-23T21:24:35.026130Z",
+        "generated_at": "2026-10-24T04:37:04.815548Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -489303,7 +489303,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-23T21:24:39.368757Z",
+        "generated_at": "2026-10-24T04:37:08.194548Z",
         "players": [
           {
             "availability_status": "a",
@@ -554579,9 +554579,9 @@
         "event": 8,
         "finished": false,
         "league_entry_1": 252790,
-        "league_entry_1_points": 0,
+        "league_entry_1_points": 2,
         "league_entry_2": 42948,
-        "league_entry_2_points": 0,
+        "league_entry_2_points": 4,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -554601,9 +554601,9 @@
         "event": 8,
         "finished": false,
         "league_entry_1": 420622,
-        "league_entry_1_points": 0,
+        "league_entry_1_points": 3,
         "league_entry_2": 138641,
-        "league_entry_2_points": 0,
+        "league_entry_2_points": 8,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -554614,7 +554614,7 @@
         "league_entry_1": 138487,
         "league_entry_1_points": 0,
         "league_entry_2": 138520,
-        "league_entry_2_points": 0,
+        "league_entry_2_points": 7,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -556064,7 +556064,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-23T21:24:37.833982Z",
+    "generated_at": "2026-10-24T04:37:06.625543Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -560244,7 +560244,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792790672
+      "time": 1792816622
     },
     "choices": {
       "choices": [],
@@ -573552,7 +573552,7 @@
               },
               {
                 "element": 558,
-                "value": 19
+                "value": 17
               },
               {
                 "element": 480,
@@ -573567,15 +573567,19 @@
                 "value": 10
               },
               {
-                "element": 483,
-                "value": 8
-              },
-              {
                 "element": 471,
                 "value": 7
               },
               {
                 "element": 472,
+                "value": 6
+              },
+              {
+                "element": 482,
+                "value": 5
+              },
+              {
+                "element": 483,
                 "value": 5
               },
               {
@@ -573587,10 +573591,6 @@
                 "value": 2
               },
               {
-                "element": 482,
-                "value": 2
-              },
-              {
                 "element": 167,
                 "value": 1
               }
@@ -573598,7 +573598,7 @@
             "h": [
               {
                 "element": 591,
-                "value": 35
+                "value": 39
               },
               {
                 "element": 305,
@@ -573617,23 +573617,23 @@
                 "value": 13
               },
               {
-                "element": 592,
-                "value": 9
+                "element": 318,
+                "value": 11
               },
               {
-                "element": 316,
-                "value": 8
+                "element": 592,
+                "value": 11
               },
               {
                 "element": 304,
                 "value": 7
               },
               {
-                "element": 318,
-                "value": 7
+                "element": 259,
+                "value": 5
               },
               {
-                "element": 259,
+                "element": 316,
                 "value": 5
               },
               {
@@ -573717,10 +573717,14 @@
               },
               {
                 "element": 571,
-                "value": 11
+                "value": 12
               },
               {
                 "element": 304,
+                "value": 8
+              },
+              {
+                "element": 592,
                 "value": 7
               },
               {
@@ -573732,8 +573736,12 @@
                 "value": 6
               },
               {
-                "element": 592,
-                "value": 6
+                "element": 591,
+                "value": 5
+              },
+              {
+                "element": 640,
+                "value": 4
               },
               {
                 "element": 313,
@@ -573741,14 +573749,6 @@
               },
               {
                 "element": 318,
-                "value": 3
-              },
-              {
-                "element": 591,
-                "value": 3
-              },
-              {
-                "element": 640,
                 "value": 3
               },
               {
@@ -574144,7 +574144,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-23T21:24:35.027349Z",
+    "generated_at": "2026-10-24T04:37:04.817593Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -576881,9 +576881,9 @@
             "event": 8,
             "finished": false,
             "league_entry_1": 252790,
-            "league_entry_1_points": 0,
+            "league_entry_1_points": 2,
             "league_entry_2": 42948,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 4,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -576903,9 +576903,9 @@
             "event": 8,
             "finished": false,
             "league_entry_1": 420622,
-            "league_entry_1_points": 0,
+            "league_entry_1_points": 3,
             "league_entry_2": 138641,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 8,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -576916,7 +576916,7 @@
             "league_entry_1": 138487,
             "league_entry_1_points": 0,
             "league_entry_2": 138520,
-            "league_entry_2_points": 0,
+            "league_entry_2_points": 7,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -577057,7 +577057,7 @@
                   },
                   {
                     "element": 558,
-                    "value": 19
+                    "value": 17
                   },
                   {
                     "element": 480,
@@ -577072,15 +577072,19 @@
                     "value": 10
                   },
                   {
-                    "element": 483,
-                    "value": 8
-                  },
-                  {
                     "element": 471,
                     "value": 7
                   },
                   {
                     "element": 472,
+                    "value": 6
+                  },
+                  {
+                    "element": 482,
+                    "value": 5
+                  },
+                  {
+                    "element": 483,
                     "value": 5
                   },
                   {
@@ -577092,10 +577096,6 @@
                     "value": 2
                   },
                   {
-                    "element": 482,
-                    "value": 2
-                  },
-                  {
                     "element": 167,
                     "value": 1
                   }
@@ -577103,7 +577103,7 @@
                 "h": [
                   {
                     "element": 591,
-                    "value": 35
+                    "value": 39
                   },
                   {
                     "element": 305,
@@ -577122,23 +577122,23 @@
                     "value": 13
                   },
                   {
-                    "element": 592,
-                    "value": 9
+                    "element": 318,
+                    "value": 11
                   },
                   {
-                    "element": 316,
-                    "value": 8
+                    "element": 592,
+                    "value": 11
                   },
                   {
                     "element": 304,
                     "value": 7
                   },
                   {
-                    "element": 318,
-                    "value": 7
+                    "element": 259,
+                    "value": 5
                   },
                   {
-                    "element": 259,
+                    "element": 316,
                     "value": 5
                   },
                   {
@@ -577222,10 +577222,14 @@
                   },
                   {
                     "element": 571,
-                    "value": 11
+                    "value": 12
                   },
                   {
                     "element": 304,
+                    "value": 8
+                  },
+                  {
+                    "element": 592,
                     "value": 7
                   },
                   {
@@ -577237,8 +577241,12 @@
                     "value": 6
                   },
                   {
-                    "element": 592,
-                    "value": 6
+                    "element": 591,
+                    "value": 5
+                  },
+                  {
+                    "element": 640,
+                    "value": 4
                   },
                   {
                     "element": 313,
@@ -577246,14 +577254,6 @@
                   },
                   {
                     "element": 318,
-                    "value": 3
-                  },
-                  {
-                    "element": 591,
-                    "value": 3
-                  },
-                  {
-                    "element": 640,
                     "value": 3
                   },
                   {
@@ -582041,7 +582041,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-23T21:24:39.368794Z",
+    "generated_at": "2026-10-24T04:37:08.194609Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -582082,7 +582082,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-23T21:24:35.026130Z",
+    "generated_at": "2026-10-24T04:37:04.815548Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -588301,7 +588301,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-23T21:24:39.368757Z",
+    "generated_at": "2026-10-24T04:37:08.194548Z",
     "players": [
       {
         "availability_status": "a",
