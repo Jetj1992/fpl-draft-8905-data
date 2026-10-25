@@ -7745,7 +7745,7 @@
         "first_name": "James",
         "id": 515,
         "minutes": 193,
-        "news": "Groin injury - 75% chance of playing",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Maddison",
         "status": "d",
         "team": 19,
@@ -10448,7 +10448,7 @@
         "club_short_name": "TOT",
         "element_id": 515,
         "first_name": "James",
-        "news": "Groin injury - 75% chance of playing",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 52,
         "position": "MID",
         "position_id": 3,
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-25T04:41:29.030295Z",
+    "generated_at": "2026-10-25T11:29:35.150490Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-25T04:41:30.970950Z",
+  "generated_at": "2026-10-25T11:29:37.934242Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -419024,7 +419024,7 @@
             "first_name": "James",
             "id": 515,
             "minutes": 193,
-            "news": "Groin injury - 75% chance of playing",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Maddison",
             "status": "d",
             "team": 19,
@@ -473194,7 +473194,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-25T04:41:30.970950Z",
+          "generated_at": "2026-10-25T11:29:37.934242Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -483047,7 +483047,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-25T04:41:30.970950Z",
+        "generated_at": "2026-10-25T11:29:37.934242Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -484515,7 +484515,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-25T04:41:29.028341Z",
+        "generated_at": "2026-10-25T11:29:35.148494Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -490734,7 +490734,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-25T04:41:30.970892Z",
+        "generated_at": "2026-10-25T11:29:37.934185Z",
         "players": [
           {
             "availability_status": "a",
@@ -557495,7 +557495,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-25T04:41:30.079262Z",
+    "generated_at": "2026-10-25T11:29:36.687771Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 252790,
@@ -559973,7 +559973,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792903288
+      "time": 1792927773
     },
     "choices": {
       "choices": [],
@@ -575260,7 +575260,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-25T04:41:29.030334Z",
+    "generated_at": "2026-10-25T11:29:35.150531Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -584532,7 +584532,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-25T04:41:30.970950Z",
+    "generated_at": "2026-10-25T11:29:37.934242Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -584573,7 +584573,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-25T04:41:29.028341Z",
+    "generated_at": "2026-10-25T11:29:35.148494Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -590792,7 +590792,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-25T04:41:30.970892Z",
+    "generated_at": "2026-10-25T11:29:37.934185Z",
     "players": [
       {
         "availability_status": "a",
