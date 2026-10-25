@@ -3624,7 +3624,7 @@
         "second_name": "Iroegbunam",
         "status": "a",
         "team": 11,
-        "total_points": 11,
+        "total_points": 13,
         "web_name": "Iroegbunam"
       },
       {
@@ -5454,7 +5454,7 @@
         "second_name": "Jacquet",
         "status": "a",
         "team": 14,
-        "total_points": 36,
+        "total_points": 38,
         "web_name": "Jacquet"
       },
       {
@@ -8514,7 +8514,7 @@
         "second_name": "Hornícek",
         "status": "a",
         "team": 17,
-        "total_points": 25,
+        "total_points": 24,
         "web_name": "Horníček"
       },
       {
@@ -8679,7 +8679,7 @@
         "second_name": "Stroud",
         "status": "a",
         "team": 11,
-        "total_points": 13,
+        "total_points": 15,
         "web_name": "Stroud"
       },
       {
@@ -8949,7 +8949,7 @@
         "second_name": "Dedic",
         "status": "a",
         "team": 17,
-        "total_points": 23,
+        "total_points": 24,
         "web_name": "Dedić"
       },
       {
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-25T20:51:06.350830Z",
+    "generated_at": "2026-10-25T23:16:27.229953Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-25T20:51:09.937367Z",
+  "generated_at": "2026-10-25T23:16:31.753931Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -414903,7 +414903,7 @@
             "second_name": "Iroegbunam",
             "status": "a",
             "team": 11,
-            "total_points": 11,
+            "total_points": 13,
             "web_name": "Iroegbunam"
           },
           {
@@ -416733,7 +416733,7 @@
             "second_name": "Jacquet",
             "status": "a",
             "team": 14,
-            "total_points": 36,
+            "total_points": 38,
             "web_name": "Jacquet"
           },
           {
@@ -419793,7 +419793,7 @@
             "second_name": "Hornícek",
             "status": "a",
             "team": 17,
-            "total_points": 25,
+            "total_points": 24,
             "web_name": "Horníček"
           },
           {
@@ -419958,7 +419958,7 @@
             "second_name": "Stroud",
             "status": "a",
             "team": 11,
-            "total_points": 13,
+            "total_points": 15,
             "web_name": "Stroud"
           },
           {
@@ -420228,7 +420228,7 @@
             "second_name": "Dedic",
             "status": "a",
             "team": 17,
-            "total_points": 23,
+            "total_points": 24,
             "web_name": "Dedić"
           },
           {
@@ -473194,7 +473194,7 @@
           "data_checked": true,
           "gameweek": 7,
           "gameweek_finished": true,
-          "generated_at": "2026-10-25T20:51:09.937367Z",
+          "generated_at": "2026-10-25T23:16:31.753931Z",
           "league_id": 8905,
           "recap_fingerprint": "498cad321c08d26afe71044b39b0c2a83fd58cf0ad38d389ec7d84253a96a46b",
           "recap_ready": true,
@@ -478474,11 +478474,11 @@
                         "value": 3
                       },
                       {
-                        "element": 567,
+                        "element": 593,
                         "value": 2
                       },
                       {
-                        "element": 593,
+                        "element": 567,
                         "value": 1
                       }
                     ],
@@ -478492,15 +478492,23 @@
                         "value": 36
                       },
                       {
+                        "element": 593,
+                        "value": 35
+                      },
+                      {
                         "element": 567,
                         "value": 33
                       },
                       {
-                        "element": 593,
-                        "value": 32
+                        "element": 453,
+                        "value": 27
                       },
                       {
                         "element": 448,
+                        "value": 26
+                      },
+                      {
+                        "element": 457,
                         "value": 26
                       },
                       {
@@ -478508,20 +478516,8 @@
                         "value": 25
                       },
                       {
-                        "element": 457,
-                        "value": 25
-                      },
-                      {
-                        "element": 453,
-                        "value": 24
-                      },
-                      {
                         "element": 446,
                         "value": 21
-                      },
-                      {
-                        "element": 460,
-                        "value": 13
                       },
                       {
                         "element": 458,
@@ -478529,6 +478525,10 @@
                       },
                       {
                         "element": 405,
+                        "value": 11
+                      },
+                      {
+                        "element": 460,
                         "value": 10
                       },
                       {
@@ -478544,17 +478544,21 @@
                         "value": 4
                       },
                       {
-                        "element": 456,
-                        "value": 4
-                      },
-                      {
                         "element": 462,
                         "value": 3
+                      },
+                      {
+                        "element": 456,
+                        "value": 2
                       }
                     ],
                     "h": [
                       {
                         "element": 214,
+                        "value": 12
+                      },
+                      {
+                        "element": 241,
                         "value": 12
                       },
                       {
@@ -478566,27 +478570,23 @@
                         "value": 11
                       },
                       {
-                        "element": 241,
-                        "value": 10
+                        "element": 202,
+                        "value": 9
                       },
                       {
-                        "element": 202,
-                        "value": 8
+                        "element": 588,
+                        "value": 9
                       },
                       {
                         "element": 647,
                         "value": 8
                       },
                       {
-                        "element": 588,
-                        "value": 7
+                        "element": 153,
+                        "value": 5
                       },
                       {
                         "element": 203,
-                        "value": 6
-                      },
-                      {
-                        "element": 153,
                         "value": 5
                       },
                       {
@@ -478627,15 +478627,15 @@
                         "value": 8
                       },
                       {
-                        "element": 464,
-                        "value": 7
+                        "element": 457,
+                        "value": 8
                       },
                       {
                         "element": 453,
                         "value": 6
                       },
                       {
-                        "element": 457,
+                        "element": 464,
                         "value": 6
                       },
                       {
@@ -478643,15 +478643,15 @@
                         "value": 5
                       },
                       {
-                        "element": 456,
-                        "value": 4
-                      },
-                      {
                         "element": 465,
                         "value": 4
                       },
                       {
                         "element": 454,
+                        "value": 3
+                      },
+                      {
+                        "element": 456,
                         "value": 3
                       },
                       {
@@ -478666,11 +478666,15 @@
                       },
                       {
                         "element": 202,
-                        "value": 12
+                        "value": 13
                       },
                       {
                         "element": 214,
                         "value": 10
+                      },
+                      {
+                        "element": 588,
+                        "value": 9
                       },
                       {
                         "element": 203,
@@ -478678,10 +478682,6 @@
                       },
                       {
                         "element": 211,
-                        "value": 7
-                      },
-                      {
-                        "element": 588,
                         "value": 7
                       },
                       {
@@ -478699,6 +478699,10 @@
                       {
                         "element": 204,
                         "value": 4
+                      },
+                      {
+                        "element": 223,
+                        "value": 1
                       },
                       {
                         "element": 224,
@@ -478828,6 +478832,10 @@
                         "value": 32
                       },
                       {
+                        "element": 565,
+                        "value": 21
+                      },
+                      {
                         "element": 97,
                         "value": 20
                       },
@@ -478840,10 +478848,6 @@
                         "value": 19
                       },
                       {
-                        "element": 565,
-                        "value": 17
-                      },
-                      {
                         "element": 86,
                         "value": 13
                       },
@@ -478853,7 +478857,7 @@
                       },
                       {
                         "element": 87,
-                        "value": 11
+                        "value": 10
                       },
                       {
                         "element": 105,
@@ -478899,19 +478903,19 @@
                       },
                       {
                         "element": 286,
-                        "value": 19
-                      },
-                      {
-                        "element": 290,
-                        "value": 16
+                        "value": 21
                       },
                       {
                         "element": 279,
                         "value": 15
                       },
                       {
-                        "element": 576,
+                        "element": 290,
                         "value": 15
+                      },
+                      {
+                        "element": 576,
+                        "value": 13
                       },
                       {
                         "element": 617,
@@ -478956,19 +478960,19 @@
                     "a": [
                       {
                         "element": 565,
-                        "value": 20
+                        "value": 23
                       },
                       {
                         "element": 88,
                         "value": 11
                       },
                       {
-                        "element": 85,
+                        "element": 87,
                         "value": 8
                       },
                       {
-                        "element": 87,
-                        "value": 8
+                        "element": 85,
+                        "value": 7
                       },
                       {
                         "element": 94,
@@ -478995,12 +478999,16 @@
                         "value": 5
                       },
                       {
-                        "element": 96,
+                        "element": 105,
                         "value": 4
                       },
                       {
-                        "element": 105,
-                        "value": 4
+                        "element": 96,
+                        "value": 3
+                      },
+                      {
+                        "element": 620,
+                        "value": 1
                       }
                     ],
                     "h": [
@@ -479009,16 +479017,16 @@
                         "value": 14
                       },
                       {
+                        "element": 240,
+                        "value": 12
+                      },
+                      {
                         "element": 279,
                         "value": 12
                       },
                       {
-                        "element": 240,
-                        "value": 11
-                      },
-                      {
                         "element": 576,
-                        "value": 11
+                        "value": 12
                       },
                       {
                         "element": 277,
@@ -479030,11 +479038,11 @@
                       },
                       {
                         "element": 280,
-                        "value": 6
+                        "value": 7
                       },
                       {
                         "element": 290,
-                        "value": 6
+                        "value": 5
                       },
                       {
                         "element": 563,
@@ -479183,14 +479191,14 @@
                     "a": [
                       {
                         "element": 124,
-                        "value": 19
+                        "value": 15
                       },
                       {
                         "element": 138,
-                        "value": 16
+                        "value": 15
                       },
                       {
-                        "element": 109,
+                        "element": 639,
                         "value": 13
                       },
                       {
@@ -479198,28 +479206,28 @@
                         "value": 12
                       },
                       {
-                        "element": 639,
-                        "value": 12
+                        "element": 109,
+                        "value": 11
                       },
                       {
                         "element": 116,
-                        "value": 7
+                        "value": 8
                       },
                       {
                         "element": 129,
-                        "value": 7
+                        "value": 8
                       },
                       {
                         "element": 115,
                         "value": 6
                       },
                       {
-                        "element": 119,
+                        "element": 504,
                         "value": 6
                       },
                       {
-                        "element": 504,
-                        "value": 6
+                        "element": 119,
+                        "value": 5
                       },
                       {
                         "element": 123,
@@ -479239,7 +479247,7 @@
                       },
                       {
                         "element": 114,
-                        "value": -11
+                        "value": -13
                       }
                     ],
                     "h": [
@@ -479253,11 +479261,7 @@
                       },
                       {
                         "element": 356,
-                        "value": 25
-                      },
-                      {
-                        "element": 366,
-                        "value": 24
+                        "value": 27
                       },
                       {
                         "element": 350,
@@ -479268,12 +479272,16 @@
                         "value": 23
                       },
                       {
+                        "element": 366,
+                        "value": 23
+                      },
+                      {
                         "element": 627,
-                        "value": 22
+                        "value": 21
                       },
                       {
                         "element": 362,
-                        "value": 18
+                        "value": 19
                       },
                       {
                         "element": 372,
@@ -479285,7 +479293,7 @@
                       },
                       {
                         "element": 371,
-                        "value": 9
+                        "value": 11
                       },
                       {
                         "element": 364,
@@ -479309,19 +479317,19 @@
                   {
                     "a": [
                       {
-                        "element": 116,
-                        "value": 8
-                      },
-                      {
                         "element": 119,
                         "value": 8
                       },
                       {
-                        "element": 639,
-                        "value": 8
+                        "element": 116,
+                        "value": 7
                       },
                       {
                         "element": 127,
+                        "value": 7
+                      },
+                      {
+                        "element": 639,
                         "value": 7
                       },
                       {
@@ -479333,6 +479341,10 @@
                         "value": 6
                       },
                       {
+                        "element": 115,
+                        "value": 5
+                      },
+                      {
                         "element": 124,
                         "value": 5
                       },
@@ -479341,19 +479353,15 @@
                         "value": 4
                       },
                       {
-                        "element": 115,
-                        "value": 4
-                      },
-                      {
                         "element": 123,
                         "value": 3
                       },
                       {
-                        "element": 125,
-                        "value": 2
+                        "element": 129,
+                        "value": 3
                       },
                       {
-                        "element": 129,
+                        "element": 125,
                         "value": 2
                       },
                       {
@@ -479364,7 +479372,11 @@
                     "h": [
                       {
                         "element": 356,
-                        "value": 12
+                        "value": 13
+                      },
+                      {
+                        "element": 371,
+                        "value": 11
                       },
                       {
                         "element": 372,
@@ -479375,7 +479387,7 @@
                         "value": 11
                       },
                       {
-                        "element": 371,
+                        "element": 362,
                         "value": 10
                       },
                       {
@@ -479387,12 +479399,8 @@
                         "value": 9
                       },
                       {
-                        "element": 362,
-                        "value": 8
-                      },
-                      {
                         "element": 367,
-                        "value": 7
+                        "value": 6
                       },
                       {
                         "element": 375,
@@ -479400,7 +479408,7 @@
                       },
                       {
                         "element": 358,
-                        "value": 4
+                        "value": 3
                       },
                       {
                         "element": 364,
@@ -479413,6 +479421,10 @@
                       {
                         "element": 379,
                         "value": 2
+                      },
+                      {
+                        "element": 381,
+                        "value": 1
                       }
                     ],
                     "identifier": "defensive_contribution"
@@ -479918,7 +479930,7 @@
                       },
                       {
                         "element": 330,
-                        "value": 22
+                        "value": 21
                       },
                       {
                         "element": 331,
@@ -479926,7 +479938,7 @@
                       },
                       {
                         "element": 345,
-                        "value": 17
+                        "value": 15
                       },
                       {
                         "element": 260,
@@ -479976,14 +479988,14 @@
                       },
                       {
                         "element": 536,
-                        "value": 18
-                      },
-                      {
-                        "element": 551,
-                        "value": 18
+                        "value": 20
                       },
                       {
                         "element": 544,
+                        "value": 17
+                      },
+                      {
+                        "element": 551,
                         "value": 17
                       },
                       {
@@ -479991,12 +480003,12 @@
                         "value": 14
                       },
                       {
-                        "element": 548,
+                        "element": 545,
                         "value": 12
                       },
                       {
-                        "element": 545,
-                        "value": 10
+                        "element": 548,
+                        "value": 12
                       },
                       {
                         "element": 533,
@@ -480033,7 +480045,7 @@
                       },
                       {
                         "element": 334,
-                        "value": 12
+                        "value": 13
                       },
                       {
                         "element": 338,
@@ -480079,7 +480091,7 @@
                     "h": [
                       {
                         "element": 539,
-                        "value": 19
+                        "value": 17
                       },
                       {
                         "element": 536,
@@ -484730,7 +484742,7 @@
             "waiver_pick": 6
           }
         ],
-        "generated_at": "2026-10-25T20:51:09.937367Z",
+        "generated_at": "2026-10-25T23:16:31.753931Z",
         "latest_complete_gameweek": 7,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -486198,7 +486210,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-25T20:51:06.349642Z",
+        "generated_at": "2026-10-25T23:16:27.228398Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -492417,7 +492429,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 7,
-        "generated_at": "2026-10-25T20:51:09.937321Z",
+        "generated_at": "2026-10-25T23:16:31.753882Z",
         "players": [
           {
             "availability_status": "d",
@@ -559178,11 +559190,11 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-25T20:51:07.528192Z",
+    "generated_at": "2026-10-25T23:16:31.367690Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
-        "current_margin": 8,
+        "current_margin": 7,
         "entry_1_id": 252790,
         "entry_1_name": "Senile Supersubs",
         "entry_1_remaining_players": 0,
@@ -559192,7 +559204,7 @@
         "entry_2_name": "AGFs Førstehold",
         "entry_2_remaining_players": 0,
         "entry_2_remaining_starters": 0,
-        "entry_2_score": 52,
+        "entry_2_score": 51,
         "gameweek": 8,
         "is_real_opponent": true,
         "key_match": true,
@@ -559220,12 +559232,12 @@
       },
       {
         "current_leader_entry_id": 138520,
-        "current_margin": 7,
+        "current_margin": 5,
         "entry_1_id": 138487,
         "entry_1_name": "AGF 2. hold",
         "entry_1_remaining_players": 0,
         "entry_1_remaining_starters": 0,
-        "entry_1_score": 53,
+        "entry_1_score": 55,
         "entry_2_id": 138520,
         "entry_2_name": "Grove Løjer",
         "entry_2_remaining_players": 0,
@@ -559260,12 +559272,12 @@
       },
       {
         "current_leader_entry_id": 138520,
-        "current_margin": 7,
+        "current_margin": 5,
         "entry_1_id": 138487,
         "entry_1_name": "AGF 2. hold",
         "entry_1_remaining_players": 0,
         "entry_1_remaining_starters": 0,
-        "entry_1_score": 53,
+        "entry_1_score": 55,
         "entry_2_id": 138520,
         "entry_2_name": "Grove Løjer",
         "entry_2_remaining_players": 0,
@@ -559279,7 +559291,7 @@
       },
       {
         "current_leader_entry_id": 42948,
-        "current_margin": 8,
+        "current_margin": 7,
         "entry_1_id": 252790,
         "entry_1_name": "Senile Supersubs",
         "entry_1_remaining_players": 0,
@@ -559289,7 +559301,7 @@
         "entry_2_name": "AGFs Førstehold",
         "entry_2_remaining_players": 0,
         "entry_2_remaining_starters": 0,
-        "entry_2_score": 52,
+        "entry_2_score": 51,
         "gameweek": 8,
         "is_real_opponent": true,
         "key_match": true,
@@ -559298,7 +559310,7 @@
       }
     ],
     "league_average_match": {
-      "current_margin": 9.0,
+      "current_margin": 9.166666666666664,
       "current_result": "loss",
       "entry_id": 138641,
       "entry_name": "Hyggemix",
@@ -559307,7 +559319,7 @@
       "gameweek": 8,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 51.0,
+      "opponent_average": 51.166666666666664,
       "opponent_average_source_entry_ids": [
         42948,
         138487,
@@ -559324,7 +559336,7 @@
         "entry_id": 42888,
         "entry_name": "AGFs Førstehold",
         "league_entry_id": 42948,
-        "live_score": 52,
+        "live_score": 51,
         "remaining_player_count": 0,
         "remaining_players": [],
         "remaining_starter_count": 0,
@@ -559335,7 +559347,7 @@
         "entry_id": 137879,
         "entry_name": "AGF 2. hold",
         "league_entry_id": 138487,
-        "live_score": 53,
+        "live_score": 55,
         "remaining_player_count": 0,
         "remaining_players": [],
         "remaining_starter_count": 0,
@@ -559411,7 +559423,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1792961463
+      "time": 1792970186
     },
     "choices": {
       "choices": [],
@@ -574516,11 +574528,11 @@
                 "value": 3
               },
               {
-                "element": 567,
+                "element": 593,
                 "value": 2
               },
               {
-                "element": 593,
+                "element": 567,
                 "value": 1
               }
             ],
@@ -574534,15 +574546,23 @@
                 "value": 36
               },
               {
+                "element": 593,
+                "value": 35
+              },
+              {
                 "element": 567,
                 "value": 33
               },
               {
-                "element": 593,
-                "value": 32
+                "element": 453,
+                "value": 27
               },
               {
                 "element": 448,
+                "value": 26
+              },
+              {
+                "element": 457,
                 "value": 26
               },
               {
@@ -574550,20 +574570,8 @@
                 "value": 25
               },
               {
-                "element": 457,
-                "value": 25
-              },
-              {
-                "element": 453,
-                "value": 24
-              },
-              {
                 "element": 446,
                 "value": 21
-              },
-              {
-                "element": 460,
-                "value": 13
               },
               {
                 "element": 458,
@@ -574571,6 +574579,10 @@
               },
               {
                 "element": 405,
+                "value": 11
+              },
+              {
+                "element": 460,
                 "value": 10
               },
               {
@@ -574586,17 +574598,21 @@
                 "value": 4
               },
               {
-                "element": 456,
-                "value": 4
-              },
-              {
                 "element": 462,
                 "value": 3
+              },
+              {
+                "element": 456,
+                "value": 2
               }
             ],
             "h": [
               {
                 "element": 214,
+                "value": 12
+              },
+              {
+                "element": 241,
                 "value": 12
               },
               {
@@ -574608,27 +574624,23 @@
                 "value": 11
               },
               {
-                "element": 241,
-                "value": 10
+                "element": 202,
+                "value": 9
               },
               {
-                "element": 202,
-                "value": 8
+                "element": 588,
+                "value": 9
               },
               {
                 "element": 647,
                 "value": 8
               },
               {
-                "element": 588,
-                "value": 7
+                "element": 153,
+                "value": 5
               },
               {
                 "element": 203,
-                "value": 6
-              },
-              {
-                "element": 153,
                 "value": 5
               },
               {
@@ -574669,15 +574681,15 @@
                 "value": 8
               },
               {
-                "element": 464,
-                "value": 7
+                "element": 457,
+                "value": 8
               },
               {
                 "element": 453,
                 "value": 6
               },
               {
-                "element": 457,
+                "element": 464,
                 "value": 6
               },
               {
@@ -574685,15 +574697,15 @@
                 "value": 5
               },
               {
-                "element": 456,
-                "value": 4
-              },
-              {
                 "element": 465,
                 "value": 4
               },
               {
                 "element": 454,
+                "value": 3
+              },
+              {
+                "element": 456,
                 "value": 3
               },
               {
@@ -574708,11 +574720,15 @@
               },
               {
                 "element": 202,
-                "value": 12
+                "value": 13
               },
               {
                 "element": 214,
                 "value": 10
+              },
+              {
+                "element": 588,
+                "value": 9
               },
               {
                 "element": 203,
@@ -574720,10 +574736,6 @@
               },
               {
                 "element": 211,
-                "value": 7
-              },
-              {
-                "element": 588,
                 "value": 7
               },
               {
@@ -574741,6 +574753,10 @@
               {
                 "element": 204,
                 "value": 4
+              },
+              {
+                "element": 223,
+                "value": 1
               },
               {
                 "element": 224,
@@ -574870,6 +574886,10 @@
                 "value": 32
               },
               {
+                "element": 565,
+                "value": 21
+              },
+              {
                 "element": 97,
                 "value": 20
               },
@@ -574882,10 +574902,6 @@
                 "value": 19
               },
               {
-                "element": 565,
-                "value": 17
-              },
-              {
                 "element": 86,
                 "value": 13
               },
@@ -574895,7 +574911,7 @@
               },
               {
                 "element": 87,
-                "value": 11
+                "value": 10
               },
               {
                 "element": 105,
@@ -574941,19 +574957,19 @@
               },
               {
                 "element": 286,
-                "value": 19
-              },
-              {
-                "element": 290,
-                "value": 16
+                "value": 21
               },
               {
                 "element": 279,
                 "value": 15
               },
               {
-                "element": 576,
+                "element": 290,
                 "value": 15
+              },
+              {
+                "element": 576,
+                "value": 13
               },
               {
                 "element": 617,
@@ -574998,19 +575014,19 @@
             "a": [
               {
                 "element": 565,
-                "value": 20
+                "value": 23
               },
               {
                 "element": 88,
                 "value": 11
               },
               {
-                "element": 85,
+                "element": 87,
                 "value": 8
               },
               {
-                "element": 87,
-                "value": 8
+                "element": 85,
+                "value": 7
               },
               {
                 "element": 94,
@@ -575037,12 +575053,16 @@
                 "value": 5
               },
               {
-                "element": 96,
+                "element": 105,
                 "value": 4
               },
               {
-                "element": 105,
-                "value": 4
+                "element": 96,
+                "value": 3
+              },
+              {
+                "element": 620,
+                "value": 1
               }
             ],
             "h": [
@@ -575051,16 +575071,16 @@
                 "value": 14
               },
               {
+                "element": 240,
+                "value": 12
+              },
+              {
                 "element": 279,
                 "value": 12
               },
               {
-                "element": 240,
-                "value": 11
-              },
-              {
                 "element": 576,
-                "value": 11
+                "value": 12
               },
               {
                 "element": 277,
@@ -575072,11 +575092,11 @@
               },
               {
                 "element": 280,
-                "value": 6
+                "value": 7
               },
               {
                 "element": 290,
-                "value": 6
+                "value": 5
               },
               {
                 "element": 563,
@@ -575225,14 +575245,14 @@
             "a": [
               {
                 "element": 124,
-                "value": 19
+                "value": 15
               },
               {
                 "element": 138,
-                "value": 16
+                "value": 15
               },
               {
-                "element": 109,
+                "element": 639,
                 "value": 13
               },
               {
@@ -575240,28 +575260,28 @@
                 "value": 12
               },
               {
-                "element": 639,
-                "value": 12
+                "element": 109,
+                "value": 11
               },
               {
                 "element": 116,
-                "value": 7
+                "value": 8
               },
               {
                 "element": 129,
-                "value": 7
+                "value": 8
               },
               {
                 "element": 115,
                 "value": 6
               },
               {
-                "element": 119,
+                "element": 504,
                 "value": 6
               },
               {
-                "element": 504,
-                "value": 6
+                "element": 119,
+                "value": 5
               },
               {
                 "element": 123,
@@ -575281,7 +575301,7 @@
               },
               {
                 "element": 114,
-                "value": -11
+                "value": -13
               }
             ],
             "h": [
@@ -575295,11 +575315,7 @@
               },
               {
                 "element": 356,
-                "value": 25
-              },
-              {
-                "element": 366,
-                "value": 24
+                "value": 27
               },
               {
                 "element": 350,
@@ -575310,12 +575326,16 @@
                 "value": 23
               },
               {
+                "element": 366,
+                "value": 23
+              },
+              {
                 "element": 627,
-                "value": 22
+                "value": 21
               },
               {
                 "element": 362,
-                "value": 18
+                "value": 19
               },
               {
                 "element": 372,
@@ -575327,7 +575347,7 @@
               },
               {
                 "element": 371,
-                "value": 9
+                "value": 11
               },
               {
                 "element": 364,
@@ -575351,19 +575371,19 @@
           {
             "a": [
               {
-                "element": 116,
-                "value": 8
-              },
-              {
                 "element": 119,
                 "value": 8
               },
               {
-                "element": 639,
-                "value": 8
+                "element": 116,
+                "value": 7
               },
               {
                 "element": 127,
+                "value": 7
+              },
+              {
+                "element": 639,
                 "value": 7
               },
               {
@@ -575375,6 +575395,10 @@
                 "value": 6
               },
               {
+                "element": 115,
+                "value": 5
+              },
+              {
                 "element": 124,
                 "value": 5
               },
@@ -575383,19 +575407,15 @@
                 "value": 4
               },
               {
-                "element": 115,
-                "value": 4
-              },
-              {
                 "element": 123,
                 "value": 3
               },
               {
-                "element": 125,
-                "value": 2
+                "element": 129,
+                "value": 3
               },
               {
-                "element": 129,
+                "element": 125,
                 "value": 2
               },
               {
@@ -575406,7 +575426,11 @@
             "h": [
               {
                 "element": 356,
-                "value": 12
+                "value": 13
+              },
+              {
+                "element": 371,
+                "value": 11
               },
               {
                 "element": 372,
@@ -575417,7 +575441,7 @@
                 "value": 11
               },
               {
-                "element": 371,
+                "element": 362,
                 "value": 10
               },
               {
@@ -575429,12 +575453,8 @@
                 "value": 9
               },
               {
-                "element": 362,
-                "value": 8
-              },
-              {
                 "element": 367,
-                "value": 7
+                "value": 6
               },
               {
                 "element": 375,
@@ -575442,7 +575462,7 @@
               },
               {
                 "element": 358,
-                "value": 4
+                "value": 3
               },
               {
                 "element": 364,
@@ -575455,6 +575475,10 @@
               {
                 "element": 379,
                 "value": 2
+              },
+              {
+                "element": 381,
+                "value": 1
               }
             ],
             "identifier": "defensive_contribution"
@@ -575960,7 +575984,7 @@
               },
               {
                 "element": 330,
-                "value": 22
+                "value": 21
               },
               {
                 "element": 331,
@@ -575968,7 +575992,7 @@
               },
               {
                 "element": 345,
-                "value": 17
+                "value": 15
               },
               {
                 "element": 260,
@@ -576018,14 +576042,14 @@
               },
               {
                 "element": 536,
-                "value": 18
-              },
-              {
-                "element": 551,
-                "value": 18
+                "value": 20
               },
               {
                 "element": 544,
+                "value": 17
+              },
+              {
+                "element": 551,
                 "value": 17
               },
               {
@@ -576033,12 +576057,12 @@
                 "value": 14
               },
               {
-                "element": 548,
+                "element": 545,
                 "value": 12
               },
               {
-                "element": 545,
-                "value": 10
+                "element": 548,
+                "value": 12
               },
               {
                 "element": 533,
@@ -576075,7 +576099,7 @@
               },
               {
                 "element": 334,
-                "value": 12
+                "value": 13
               },
               {
                 "element": 338,
@@ -576121,7 +576145,7 @@
             "h": [
               {
                 "element": 539,
-                "value": 19
+                "value": 17
               },
               {
                 "element": 536,
@@ -576381,7 +576405,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-25T20:51:06.350855Z",
+    "generated_at": "2026-10-25T23:16:27.229983Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -581079,11 +581103,11 @@
                     "value": 3
                   },
                   {
-                    "element": 567,
+                    "element": 593,
                     "value": 2
                   },
                   {
-                    "element": 593,
+                    "element": 567,
                     "value": 1
                   }
                 ],
@@ -581097,15 +581121,23 @@
                     "value": 36
                   },
                   {
+                    "element": 593,
+                    "value": 35
+                  },
+                  {
                     "element": 567,
                     "value": 33
                   },
                   {
-                    "element": 593,
-                    "value": 32
+                    "element": 453,
+                    "value": 27
                   },
                   {
                     "element": 448,
+                    "value": 26
+                  },
+                  {
+                    "element": 457,
                     "value": 26
                   },
                   {
@@ -581113,20 +581145,8 @@
                     "value": 25
                   },
                   {
-                    "element": 457,
-                    "value": 25
-                  },
-                  {
-                    "element": 453,
-                    "value": 24
-                  },
-                  {
                     "element": 446,
                     "value": 21
-                  },
-                  {
-                    "element": 460,
-                    "value": 13
                   },
                   {
                     "element": 458,
@@ -581134,6 +581154,10 @@
                   },
                   {
                     "element": 405,
+                    "value": 11
+                  },
+                  {
+                    "element": 460,
                     "value": 10
                   },
                   {
@@ -581149,17 +581173,21 @@
                     "value": 4
                   },
                   {
-                    "element": 456,
-                    "value": 4
-                  },
-                  {
                     "element": 462,
                     "value": 3
+                  },
+                  {
+                    "element": 456,
+                    "value": 2
                   }
                 ],
                 "h": [
                   {
                     "element": 214,
+                    "value": 12
+                  },
+                  {
+                    "element": 241,
                     "value": 12
                   },
                   {
@@ -581171,27 +581199,23 @@
                     "value": 11
                   },
                   {
-                    "element": 241,
-                    "value": 10
+                    "element": 202,
+                    "value": 9
                   },
                   {
-                    "element": 202,
-                    "value": 8
+                    "element": 588,
+                    "value": 9
                   },
                   {
                     "element": 647,
                     "value": 8
                   },
                   {
-                    "element": 588,
-                    "value": 7
+                    "element": 153,
+                    "value": 5
                   },
                   {
                     "element": 203,
-                    "value": 6
-                  },
-                  {
-                    "element": 153,
                     "value": 5
                   },
                   {
@@ -581232,15 +581256,15 @@
                     "value": 8
                   },
                   {
-                    "element": 464,
-                    "value": 7
+                    "element": 457,
+                    "value": 8
                   },
                   {
                     "element": 453,
                     "value": 6
                   },
                   {
-                    "element": 457,
+                    "element": 464,
                     "value": 6
                   },
                   {
@@ -581248,15 +581272,15 @@
                     "value": 5
                   },
                   {
-                    "element": 456,
-                    "value": 4
-                  },
-                  {
                     "element": 465,
                     "value": 4
                   },
                   {
                     "element": 454,
+                    "value": 3
+                  },
+                  {
+                    "element": 456,
                     "value": 3
                   },
                   {
@@ -581271,11 +581295,15 @@
                   },
                   {
                     "element": 202,
-                    "value": 12
+                    "value": 13
                   },
                   {
                     "element": 214,
                     "value": 10
+                  },
+                  {
+                    "element": 588,
+                    "value": 9
                   },
                   {
                     "element": 203,
@@ -581283,10 +581311,6 @@
                   },
                   {
                     "element": 211,
-                    "value": 7
-                  },
-                  {
-                    "element": 588,
                     "value": 7
                   },
                   {
@@ -581304,6 +581328,10 @@
                   {
                     "element": 204,
                     "value": 4
+                  },
+                  {
+                    "element": 223,
+                    "value": 1
                   },
                   {
                     "element": 224,
@@ -581433,6 +581461,10 @@
                     "value": 32
                   },
                   {
+                    "element": 565,
+                    "value": 21
+                  },
+                  {
                     "element": 97,
                     "value": 20
                   },
@@ -581445,10 +581477,6 @@
                     "value": 19
                   },
                   {
-                    "element": 565,
-                    "value": 17
-                  },
-                  {
                     "element": 86,
                     "value": 13
                   },
@@ -581458,7 +581486,7 @@
                   },
                   {
                     "element": 87,
-                    "value": 11
+                    "value": 10
                   },
                   {
                     "element": 105,
@@ -581504,19 +581532,19 @@
                   },
                   {
                     "element": 286,
-                    "value": 19
-                  },
-                  {
-                    "element": 290,
-                    "value": 16
+                    "value": 21
                   },
                   {
                     "element": 279,
                     "value": 15
                   },
                   {
-                    "element": 576,
+                    "element": 290,
                     "value": 15
+                  },
+                  {
+                    "element": 576,
+                    "value": 13
                   },
                   {
                     "element": 617,
@@ -581561,19 +581589,19 @@
                 "a": [
                   {
                     "element": 565,
-                    "value": 20
+                    "value": 23
                   },
                   {
                     "element": 88,
                     "value": 11
                   },
                   {
-                    "element": 85,
+                    "element": 87,
                     "value": 8
                   },
                   {
-                    "element": 87,
-                    "value": 8
+                    "element": 85,
+                    "value": 7
                   },
                   {
                     "element": 94,
@@ -581600,12 +581628,16 @@
                     "value": 5
                   },
                   {
-                    "element": 96,
+                    "element": 105,
                     "value": 4
                   },
                   {
-                    "element": 105,
-                    "value": 4
+                    "element": 96,
+                    "value": 3
+                  },
+                  {
+                    "element": 620,
+                    "value": 1
                   }
                 ],
                 "h": [
@@ -581614,16 +581646,16 @@
                     "value": 14
                   },
                   {
+                    "element": 240,
+                    "value": 12
+                  },
+                  {
                     "element": 279,
                     "value": 12
                   },
                   {
-                    "element": 240,
-                    "value": 11
-                  },
-                  {
                     "element": 576,
-                    "value": 11
+                    "value": 12
                   },
                   {
                     "element": 277,
@@ -581635,11 +581667,11 @@
                   },
                   {
                     "element": 280,
-                    "value": 6
+                    "value": 7
                   },
                   {
                     "element": 290,
-                    "value": 6
+                    "value": 5
                   },
                   {
                     "element": 563,
@@ -581788,14 +581820,14 @@
                 "a": [
                   {
                     "element": 124,
-                    "value": 19
+                    "value": 15
                   },
                   {
                     "element": 138,
-                    "value": 16
+                    "value": 15
                   },
                   {
-                    "element": 109,
+                    "element": 639,
                     "value": 13
                   },
                   {
@@ -581803,28 +581835,28 @@
                     "value": 12
                   },
                   {
-                    "element": 639,
-                    "value": 12
+                    "element": 109,
+                    "value": 11
                   },
                   {
                     "element": 116,
-                    "value": 7
+                    "value": 8
                   },
                   {
                     "element": 129,
-                    "value": 7
+                    "value": 8
                   },
                   {
                     "element": 115,
                     "value": 6
                   },
                   {
-                    "element": 119,
+                    "element": 504,
                     "value": 6
                   },
                   {
-                    "element": 504,
-                    "value": 6
+                    "element": 119,
+                    "value": 5
                   },
                   {
                     "element": 123,
@@ -581844,7 +581876,7 @@
                   },
                   {
                     "element": 114,
-                    "value": -11
+                    "value": -13
                   }
                 ],
                 "h": [
@@ -581858,11 +581890,7 @@
                   },
                   {
                     "element": 356,
-                    "value": 25
-                  },
-                  {
-                    "element": 366,
-                    "value": 24
+                    "value": 27
                   },
                   {
                     "element": 350,
@@ -581873,12 +581901,16 @@
                     "value": 23
                   },
                   {
+                    "element": 366,
+                    "value": 23
+                  },
+                  {
                     "element": 627,
-                    "value": 22
+                    "value": 21
                   },
                   {
                     "element": 362,
-                    "value": 18
+                    "value": 19
                   },
                   {
                     "element": 372,
@@ -581890,7 +581922,7 @@
                   },
                   {
                     "element": 371,
-                    "value": 9
+                    "value": 11
                   },
                   {
                     "element": 364,
@@ -581914,19 +581946,19 @@
               {
                 "a": [
                   {
-                    "element": 116,
-                    "value": 8
-                  },
-                  {
                     "element": 119,
                     "value": 8
                   },
                   {
-                    "element": 639,
-                    "value": 8
+                    "element": 116,
+                    "value": 7
                   },
                   {
                     "element": 127,
+                    "value": 7
+                  },
+                  {
+                    "element": 639,
                     "value": 7
                   },
                   {
@@ -581938,6 +581970,10 @@
                     "value": 6
                   },
                   {
+                    "element": 115,
+                    "value": 5
+                  },
+                  {
                     "element": 124,
                     "value": 5
                   },
@@ -581946,19 +581982,15 @@
                     "value": 4
                   },
                   {
-                    "element": 115,
-                    "value": 4
-                  },
-                  {
                     "element": 123,
                     "value": 3
                   },
                   {
-                    "element": 125,
-                    "value": 2
+                    "element": 129,
+                    "value": 3
                   },
                   {
-                    "element": 129,
+                    "element": 125,
                     "value": 2
                   },
                   {
@@ -581969,7 +582001,11 @@
                 "h": [
                   {
                     "element": 356,
-                    "value": 12
+                    "value": 13
+                  },
+                  {
+                    "element": 371,
+                    "value": 11
                   },
                   {
                     "element": 372,
@@ -581980,7 +582016,7 @@
                     "value": 11
                   },
                   {
-                    "element": 371,
+                    "element": 362,
                     "value": 10
                   },
                   {
@@ -581992,12 +582028,8 @@
                     "value": 9
                   },
                   {
-                    "element": 362,
-                    "value": 8
-                  },
-                  {
                     "element": 367,
-                    "value": 7
+                    "value": 6
                   },
                   {
                     "element": 375,
@@ -582005,7 +582037,7 @@
                   },
                   {
                     "element": 358,
-                    "value": 4
+                    "value": 3
                   },
                   {
                     "element": 364,
@@ -582018,6 +582050,10 @@
                   {
                     "element": 379,
                     "value": 2
+                  },
+                  {
+                    "element": 381,
+                    "value": 1
                   }
                 ],
                 "identifier": "defensive_contribution"
@@ -582523,7 +582559,7 @@
                   },
                   {
                     "element": 330,
-                    "value": 22
+                    "value": 21
                   },
                   {
                     "element": 331,
@@ -582531,7 +582567,7 @@
                   },
                   {
                     "element": 345,
-                    "value": 17
+                    "value": 15
                   },
                   {
                     "element": 260,
@@ -582581,14 +582617,14 @@
                   },
                   {
                     "element": 536,
-                    "value": 18
-                  },
-                  {
-                    "element": 551,
-                    "value": 18
+                    "value": 20
                   },
                   {
                     "element": 544,
+                    "value": 17
+                  },
+                  {
+                    "element": 551,
                     "value": 17
                   },
                   {
@@ -582596,12 +582632,12 @@
                     "value": 14
                   },
                   {
-                    "element": 548,
+                    "element": 545,
                     "value": 12
                   },
                   {
-                    "element": 545,
-                    "value": 10
+                    "element": 548,
+                    "value": 12
                   },
                   {
                     "element": 533,
@@ -582638,7 +582674,7 @@
                   },
                   {
                     "element": 334,
-                    "value": 12
+                    "value": 13
                   },
                   {
                     "element": 338,
@@ -582684,7 +582720,7 @@
                 "h": [
                   {
                     "element": 539,
-                    "value": 19
+                    "value": 17
                   },
                   {
                     "element": 536,
@@ -587336,7 +587372,7 @@
         "waiver_pick": 6
       }
     ],
-    "generated_at": "2026-10-25T20:51:09.937367Z",
+    "generated_at": "2026-10-25T23:16:31.753931Z",
     "latest_complete_gameweek": 7,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -587377,7 +587413,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-25T20:51:06.349642Z",
+    "generated_at": "2026-10-25T23:16:27.228398Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -593596,7 +593632,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 7,
-    "generated_at": "2026-10-25T20:51:09.937321Z",
+    "generated_at": "2026-10-25T23:16:31.753882Z",
     "players": [
       {
         "availability_status": "d",
