@@ -1348,16 +1348,16 @@
         "web_name": "Kayode"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 474,
         "element_type": 2,
         "first_name": "Rico",
         "id": 89,
         "minutes": 2,
-        "news": "",
+        "news": "Hip injury - Unknown return date",
         "second_name": "Henry",
-        "status": "a",
+        "status": "i",
         "team": 4,
         "total_points": 1,
         "web_name": "Henry"
@@ -1843,14 +1843,14 @@
         "web_name": "Mitoma"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 50,
         "draft_rank": 79,
         "element_type": 3,
         "first_name": "Yankuba",
         "id": 122,
         "minutes": 0,
-        "news": "Leg injury - 50% chance of playing",
+        "news": "Leg injury - 75% chance of playing",
         "second_name": "Minteh",
         "status": "d",
         "team": 5,
@@ -1963,14 +1963,14 @@
         "web_name": "Ayari"
       },
       {
-        "chance_of_playing_next_round": 25,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 25,
         "draft_rank": 271,
         "element_type": 2,
         "first_name": "Mats",
         "id": 130,
         "minutes": 156,
-        "news": "Knee injury - 25% chance of playing",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Wieffer",
         "status": "d",
         "team": 5,
@@ -2983,14 +2983,14 @@
         "web_name": "Bassette"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 50,
         "draft_rank": 249,
         "element_type": 1,
         "first_name": "Dean",
         "id": 198,
         "minutes": 270,
-        "news": "Foot injury - 50% chance of playing",
+        "news": "Foot injury - 75% chance of playing",
         "second_name": "Henderson",
         "status": "d",
         "team": 8,
@@ -3350,7 +3350,7 @@
         "first_name": "Jørgen",
         "id": 222,
         "minutes": 440,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Strand Larsen",
         "status": "d",
         "team": 8,
@@ -4933,14 +4933,14 @@
         "web_name": "Bijol"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 75,
         "draft_rank": 264,
         "element_type": 2,
         "first_name": "Pascal",
         "id": 328,
         "minutes": 154,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - 50% chance of playing",
         "second_name": "Struijk",
         "status": "d",
         "team": 5,
@@ -6898,16 +6898,16 @@
         "web_name": "Joelinton"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 171,
         "element_type": 3,
         "first_name": "Lewis",
         "id": 459,
         "minutes": 544,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Miley",
-        "status": "a",
+        "status": "d",
         "team": 17,
         "total_points": 15,
         "web_name": "L.Miley"
@@ -9500,7 +9500,7 @@
         "first_name": "José María",
         "id": 632,
         "minutes": 342,
-        "news": "Thigh injury - 75% chance of playing",
+        "news": "Hip injury - 75% chance of playing",
         "second_name": "Andrés Baixauli",
         "status": "d",
         "team": 5,
@@ -10672,7 +10672,7 @@
         "club_short_name": "BHA",
         "element_id": 122,
         "first_name": "Yankuba",
-        "news": "Leg injury - 50% chance of playing",
+        "news": "Leg injury - 75% chance of playing",
         "official_draft_rank": 79,
         "position": "MID",
         "position_id": 3,
@@ -10868,7 +10868,7 @@
         "club_short_name": "CRY",
         "element_id": 222,
         "first_name": "Jørgen",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 97,
         "position": "FWD",
         "position_id": 4,
@@ -11176,7 +11176,7 @@
         "club_short_name": "BHA",
         "element_id": 632,
         "first_name": "José María",
-        "news": "Thigh injury - 75% chance of playing",
+        "news": "Hip injury - 75% chance of playing",
         "official_draft_rank": 123,
         "position": "MID",
         "position_id": 3,
@@ -11660,13 +11660,13 @@
         "web_name": "Joelinton"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 17,
         "club_name": "Newcastle",
         "club_short_name": "NEW",
         "element_id": 459,
         "first_name": "Lewis",
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "official_draft_rank": 171,
         "position": "MID",
         "position_id": 3,
@@ -12730,7 +12730,7 @@
         "club_short_name": "BHA",
         "element_id": 328,
         "first_name": "Pascal",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - 50% chance of playing",
         "official_draft_rank": 264,
         "position": "DEF",
         "position_id": 2,
@@ -12814,7 +12814,7 @@
         "club_short_name": "BHA",
         "element_id": 130,
         "first_name": "Mats",
-        "news": "Knee injury - 25% chance of playing",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 271,
         "position": "DEF",
         "position_id": 2,
@@ -15356,13 +15356,13 @@
         "web_name": "Mazraoui"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 89,
         "first_name": "Rico",
-        "news": "",
+        "news": "Hip injury - Unknown return date",
         "official_draft_rank": 474,
         "position": "DEF",
         "position_id": 2,
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-27T15:21:36.662848Z",
+    "generated_at": "2026-10-27T22:14:00.350440Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19670,7 +19670,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Dean",
             "league_entry_id": 321694,
-            "news": "Foot injury - 50% chance of playing",
+            "news": "Foot injury - 75% chance of playing",
             "official_draft_rank": 249,
             "position": "GKP",
             "position_id": 1,
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-27T15:21:38.345210Z",
+  "generated_at": "2026-10-27T22:14:02.592280Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -493886,16 +493886,16 @@
             "web_name": "Kayode"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 474,
             "element_type": 2,
             "first_name": "Rico",
             "id": 89,
             "minutes": 2,
-            "news": "",
+            "news": "Hip injury - Unknown return date",
             "second_name": "Henry",
-            "status": "a",
+            "status": "i",
             "team": 4,
             "total_points": 1,
             "web_name": "Henry"
@@ -494381,14 +494381,14 @@
             "web_name": "Mitoma"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 50,
             "draft_rank": 79,
             "element_type": 3,
             "first_name": "Yankuba",
             "id": 122,
             "minutes": 0,
-            "news": "Leg injury - 50% chance of playing",
+            "news": "Leg injury - 75% chance of playing",
             "second_name": "Minteh",
             "status": "d",
             "team": 5,
@@ -494501,14 +494501,14 @@
             "web_name": "Ayari"
           },
           {
-            "chance_of_playing_next_round": 25,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 25,
             "draft_rank": 271,
             "element_type": 2,
             "first_name": "Mats",
             "id": 130,
             "minutes": 156,
-            "news": "Knee injury - 25% chance of playing",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Wieffer",
             "status": "d",
             "team": 5,
@@ -495521,14 +495521,14 @@
             "web_name": "Bassette"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 50,
             "draft_rank": 249,
             "element_type": 1,
             "first_name": "Dean",
             "id": 198,
             "minutes": 270,
-            "news": "Foot injury - 50% chance of playing",
+            "news": "Foot injury - 75% chance of playing",
             "second_name": "Henderson",
             "status": "d",
             "team": 8,
@@ -495888,7 +495888,7 @@
             "first_name": "Jørgen",
             "id": 222,
             "minutes": 440,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Strand Larsen",
             "status": "d",
             "team": 8,
@@ -497471,14 +497471,14 @@
             "web_name": "Bijol"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 75,
             "draft_rank": 264,
             "element_type": 2,
             "first_name": "Pascal",
             "id": 328,
             "minutes": 154,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - 50% chance of playing",
             "second_name": "Struijk",
             "status": "d",
             "team": 5,
@@ -499436,16 +499436,16 @@
             "web_name": "Joelinton"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 171,
             "element_type": 3,
             "first_name": "Lewis",
             "id": 459,
             "minutes": 544,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Miley",
-            "status": "a",
+            "status": "d",
             "team": 17,
             "total_points": 15,
             "web_name": "L.Miley"
@@ -502038,7 +502038,7 @@
             "first_name": "José María",
             "id": 632,
             "minutes": 342,
-            "news": "Thigh injury - 75% chance of playing",
+            "news": "Hip injury - 75% chance of playing",
             "second_name": "Andrés Baixauli",
             "status": "d",
             "team": 5,
@@ -554314,7 +554314,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-10-27T15:21:38.345210Z",
+          "generated_at": "2026-10-27T22:14:02.592280Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565792,7 +565792,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-27T15:21:38.345210Z",
+        "generated_at": "2026-10-27T22:14:02.592280Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567260,7 +567260,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-27T15:21:36.660892Z",
+        "generated_at": "2026-10-27T22:14:00.349170Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -567497,7 +567497,7 @@
               "club_short_name": "CRY",
               "element_id": 222,
               "first_name": "Jørgen",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Ankle injury - 75% chance of playing",
               "official_draft_rank": 97,
               "position": "FWD",
               "position_id": 4,
@@ -573479,7 +573479,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-10-27T15:21:38.345149Z",
+        "generated_at": "2026-10-27T22:14:02.592231Z",
         "players": [
           {
             "availability_status": "d",
@@ -640227,7 +640227,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-27T15:21:38.012638Z",
+    "generated_at": "2026-10-27T22:14:02.158722Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -640460,7 +640460,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793114495
+      "time": 1793139238
     },
     "choices": {
       "choices": [],
@@ -657442,7 +657442,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-27T15:21:36.662892Z",
+    "generated_at": "2026-10-27T22:14:00.350465Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -668361,7 +668361,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-27T15:21:38.345210Z",
+    "generated_at": "2026-10-27T22:14:02.592280Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668402,7 +668402,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-27T15:21:36.660892Z",
+    "generated_at": "2026-10-27T22:14:00.349170Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -668639,7 +668639,7 @@
           "club_short_name": "CRY",
           "element_id": 222,
           "first_name": "Jørgen",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Ankle injury - 75% chance of playing",
           "official_draft_rank": 97,
           "position": "FWD",
           "position_id": 4,
@@ -674621,7 +674621,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-10-27T15:21:38.345149Z",
+    "generated_at": "2026-10-27T22:14:02.592231Z",
     "players": [
       {
         "availability_status": "d",
