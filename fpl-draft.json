@@ -208,16 +208,16 @@
         "web_name": "Saka"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 14,
         "element_type": 3,
         "first_name": "Declan",
         "id": 13,
         "minutes": 670,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Rice",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 39,
         "web_name": "Rice"
@@ -253,16 +253,16 @@
         "web_name": "Ødegaard"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 46,
         "element_type": 3,
         "first_name": "Noni",
         "id": 16,
         "minutes": 248,
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Madueke",
-        "status": "a",
+        "status": "d",
         "team": 1,
         "total_points": 12,
         "web_name": "Madueke"
@@ -313,16 +313,16 @@
         "web_name": "Zubimendi"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 205,
         "element_type": 3,
         "first_name": "Max",
         "id": 20,
         "minutes": 19,
-        "news": "",
+        "news": "Suspended until 29 Nov",
         "second_name": "Dowman",
-        "status": "a",
+        "status": "s",
         "team": 1,
         "total_points": 2,
         "web_name": "Dowman"
@@ -10358,13 +10358,13 @@
         "web_name": "Kudus"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 1,
         "club_name": "Arsenal",
         "club_short_name": "ARS",
         "element_id": 16,
         "first_name": "Noni",
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 46,
         "position": "MID",
         "position_id": 3,
@@ -12052,13 +12052,13 @@
         "web_name": "Bouaddi"
       },
       {
-        "availability_status": "a",
+        "availability_status": "s",
         "club_id": 1,
         "club_name": "Arsenal",
         "club_short_name": "ARS",
         "element_id": 20,
         "first_name": "Max",
-        "news": "",
+        "news": "Suspended until 29 Nov",
         "official_draft_rank": 205,
         "position": "MID",
         "position_id": 3,
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-27T22:14:00.350440Z",
+    "generated_at": "2026-10-28T05:42:40.431624Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19551,7 +19551,7 @@
             "web_name": "Neto"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -19560,7 +19560,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Declan",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "official_draft_rank": 14,
             "position": "MID",
             "position_id": 3,
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-27T22:14:02.592280Z",
+  "generated_at": "2026-10-28T05:42:42.157925Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -492746,16 +492746,16 @@
             "web_name": "Saka"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 14,
             "element_type": 3,
             "first_name": "Declan",
             "id": 13,
             "minutes": 670,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Rice",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 39,
             "web_name": "Rice"
@@ -492791,16 +492791,16 @@
             "web_name": "Ødegaard"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 46,
             "element_type": 3,
             "first_name": "Noni",
             "id": 16,
             "minutes": 248,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Madueke",
-            "status": "a",
+            "status": "d",
             "team": 1,
             "total_points": 12,
             "web_name": "Madueke"
@@ -492851,16 +492851,16 @@
             "web_name": "Zubimendi"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 205,
             "element_type": 3,
             "first_name": "Max",
             "id": 20,
             "minutes": 19,
-            "news": "",
+            "news": "Suspended until 29 Nov",
             "second_name": "Dowman",
-            "status": "a",
+            "status": "s",
             "team": 1,
             "total_points": 2,
             "web_name": "Dowman"
@@ -554314,7 +554314,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-10-27T22:14:02.592280Z",
+          "generated_at": "2026-10-28T05:42:42.157925Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565792,7 +565792,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-27T22:14:02.592280Z",
+        "generated_at": "2026-10-28T05:42:42.157925Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567260,7 +567260,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-27T22:14:00.349170Z",
+        "generated_at": "2026-10-28T05:42:40.429662Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -573479,7 +573479,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-10-27T22:14:02.592231Z",
+        "generated_at": "2026-10-28T05:42:42.157871Z",
         "players": [
           {
             "availability_status": "d",
@@ -640227,7 +640227,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-27T22:14:02.158722Z",
+    "generated_at": "2026-10-28T05:42:41.595070Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -640460,7 +640460,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793139238
+      "time": 1793166159
     },
     "choices": {
       "choices": [],
@@ -657442,7 +657442,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-27T22:14:00.350465Z",
+    "generated_at": "2026-10-28T05:42:40.431663Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -668361,7 +668361,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-27T22:14:02.592280Z",
+    "generated_at": "2026-10-28T05:42:42.157925Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668402,7 +668402,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-27T22:14:00.349170Z",
+    "generated_at": "2026-10-28T05:42:40.429662Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -674621,7 +674621,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-10-27T22:14:02.592231Z",
+    "generated_at": "2026-10-28T05:42:42.157871Z",
     "players": [
       {
         "availability_status": "d",
