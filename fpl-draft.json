@@ -1843,16 +1843,16 @@
         "web_name": "Mitoma"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 79,
         "element_type": 3,
         "first_name": "Yankuba",
         "id": 122,
         "minutes": 0,
-        "news": "Leg injury - 75% chance of playing",
+        "news": "",
         "second_name": "Minteh",
-        "status": "d",
+        "status": "a",
         "team": 5,
         "total_points": 0,
         "web_name": "Minteh"
@@ -1963,16 +1963,16 @@
         "web_name": "Ayari"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 25,
         "draft_rank": 271,
         "element_type": 2,
         "first_name": "Mats",
         "id": 130,
         "minutes": 156,
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "second_name": "Wieffer",
-        "status": "d",
+        "status": "a",
         "team": 5,
         "total_points": 7,
         "web_name": "Wieffer"
@@ -2983,16 +2983,16 @@
         "web_name": "Bassette"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 249,
         "element_type": 1,
         "first_name": "Dean",
         "id": 198,
         "minutes": 270,
-        "news": "Foot injury - 75% chance of playing",
+        "news": "",
         "second_name": "Henderson",
-        "status": "d",
+        "status": "a",
         "team": 8,
         "total_points": 5,
         "web_name": "Henderson"
@@ -5503,16 +5503,16 @@
         "web_name": "Ramsay"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 19,
         "element_type": 3,
         "first_name": "Florian",
         "id": 366,
         "minutes": 621,
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "second_name": "Wirtz",
-        "status": "d",
+        "status": "a",
         "team": 14,
         "total_points": 31,
         "web_name": "Wirtz"
@@ -8128,16 +8128,16 @@
         "web_name": "Masuaku"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 565,
         "element_type": 2,
         "first_name": "Thomas",
         "id": 541,
         "minutes": 429,
-        "news": "Groin injury - 75% chance of playing",
+        "news": "",
         "second_name": "Meunier",
-        "status": "d",
+        "status": "a",
         "team": 20,
         "total_points": 15,
         "web_name": "Meunier"
@@ -10666,13 +10666,13 @@
         "web_name": "Richarlison"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 122,
         "first_name": "Yankuba",
-        "news": "Leg injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 79,
         "position": "MID",
         "position_id": 3,
@@ -12808,13 +12808,13 @@
         "web_name": "Pope"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 5,
         "club_name": "Brighton",
         "club_short_name": "BHA",
         "element_id": 130,
         "first_name": "Mats",
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 271,
         "position": "DEF",
         "position_id": 2,
@@ -16602,13 +16602,13 @@
         "web_name": "Phillips"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 541,
         "first_name": "Thomas",
-        "news": "Groin injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 565,
         "position": "DEF",
         "position_id": 2,
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-28T12:55:17.296329Z",
+    "generated_at": "2026-10-28T20:16:23.904709Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18533,7 +18533,7 @@
             "web_name": "Tzolis"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 14,
             "club_name": "Liverpool",
             "club_short_name": "LIV",
@@ -18542,7 +18542,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Florian",
             "league_entry_id": 138487,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 19,
             "position": "MID",
             "position_id": 3,
@@ -19661,7 +19661,7 @@
         "player_count": 15,
         "players": [
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 8,
             "club_name": "Crystal Palace",
             "club_short_name": "CRY",
@@ -19670,7 +19670,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Dean",
             "league_entry_id": 321694,
-            "news": "Foot injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 249,
             "position": "GKP",
             "position_id": 1,
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-28T12:55:20.071548Z",
+  "generated_at": "2026-10-28T20:16:26.932013Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -494381,16 +494381,16 @@
             "web_name": "Mitoma"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 79,
             "element_type": 3,
             "first_name": "Yankuba",
             "id": 122,
             "minutes": 0,
-            "news": "Leg injury - 75% chance of playing",
+            "news": "",
             "second_name": "Minteh",
-            "status": "d",
+            "status": "a",
             "team": 5,
             "total_points": 0,
             "web_name": "Minteh"
@@ -494501,16 +494501,16 @@
             "web_name": "Ayari"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 25,
             "draft_rank": 271,
             "element_type": 2,
             "first_name": "Mats",
             "id": 130,
             "minutes": 156,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "",
             "second_name": "Wieffer",
-            "status": "d",
+            "status": "a",
             "team": 5,
             "total_points": 7,
             "web_name": "Wieffer"
@@ -495521,16 +495521,16 @@
             "web_name": "Bassette"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 249,
             "element_type": 1,
             "first_name": "Dean",
             "id": 198,
             "minutes": 270,
-            "news": "Foot injury - 75% chance of playing",
+            "news": "",
             "second_name": "Henderson",
-            "status": "d",
+            "status": "a",
             "team": 8,
             "total_points": 5,
             "web_name": "Henderson"
@@ -498041,16 +498041,16 @@
             "web_name": "Ramsay"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 19,
             "element_type": 3,
             "first_name": "Florian",
             "id": 366,
             "minutes": 621,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "",
             "second_name": "Wirtz",
-            "status": "d",
+            "status": "a",
             "team": 14,
             "total_points": 31,
             "web_name": "Wirtz"
@@ -500666,16 +500666,16 @@
             "web_name": "Masuaku"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 565,
             "element_type": 2,
             "first_name": "Thomas",
             "id": 541,
             "minutes": 429,
-            "news": "Groin injury - 75% chance of playing",
+            "news": "",
             "second_name": "Meunier",
-            "status": "d",
+            "status": "a",
             "team": 20,
             "total_points": 15,
             "web_name": "Meunier"
@@ -554314,7 +554314,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-10-28T12:55:20.071548Z",
+          "generated_at": "2026-10-28T20:16:26.932013Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565792,7 +565792,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-28T12:55:20.071548Z",
+        "generated_at": "2026-10-28T20:16:26.932013Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567260,7 +567260,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-28T12:55:17.294141Z",
+        "generated_at": "2026-10-28T20:16:23.902677Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -573479,10 +573479,10 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-10-28T12:55:20.071469Z",
+        "generated_at": "2026-10-28T20:16:26.931936Z",
         "players": [
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "bench_points": null,
             "club_id": 14,
             "club_name": "Liverpool",
@@ -573523,7 +573523,7 @@
               "watched_player_points_counted": 6
             },
             "multiplier": 1,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 19,
             "owner": {
               "entry_id": 137879,
@@ -640227,7 +640227,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-28T12:55:19.680746Z",
+    "generated_at": "2026-10-28T20:16:26.221584Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -640460,7 +640460,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793192114
+      "time": 1793218581
     },
     "choices": {
       "choices": [],
@@ -657442,7 +657442,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-28T12:55:17.296379Z",
+    "generated_at": "2026-10-28T20:16:23.904766Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -668361,7 +668361,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-28T12:55:20.071548Z",
+    "generated_at": "2026-10-28T20:16:26.932013Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668402,7 +668402,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-28T12:55:17.294141Z",
+    "generated_at": "2026-10-28T20:16:23.902677Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -674621,10 +674621,10 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-10-28T12:55:20.071469Z",
+    "generated_at": "2026-10-28T20:16:26.931936Z",
     "players": [
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "bench_points": null,
         "club_id": 14,
         "club_name": "Liverpool",
@@ -674665,7 +674665,7 @@
           "watched_player_points_counted": 6
         },
         "multiplier": 1,
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 19,
         "owner": {
           "entry_id": 137879,
