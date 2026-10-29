@@ -3013,16 +3013,16 @@
         "web_name": "Benitez"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 64,
         "element_type": 2,
         "first_name": "Maxence",
         "id": 200,
         "minutes": 634,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Lacroix",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 24,
         "web_name": "Lacroix"
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-28T20:16:23.904709Z",
+    "generated_at": "2026-10-29T00:57:10.413315Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18431,7 +18431,7 @@
             "web_name": "Kerkez"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 6,
             "club_name": "Chelsea",
             "club_short_name": "CHE",
@@ -18440,7 +18440,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Maxence",
             "league_entry_id": 138487,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "official_draft_rank": 64,
             "position": "DEF",
             "position_id": 2,
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-28T20:16:26.932013Z",
+  "generated_at": "2026-10-29T00:57:12.320900Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -495551,16 +495551,16 @@
             "web_name": "Benitez"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 64,
             "element_type": 2,
             "first_name": "Maxence",
             "id": 200,
             "minutes": 634,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Lacroix",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 24,
             "web_name": "Lacroix"
@@ -554314,7 +554314,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-10-28T20:16:26.932013Z",
+          "generated_at": "2026-10-29T00:57:12.320900Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565792,7 +565792,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-28T20:16:26.932013Z",
+        "generated_at": "2026-10-29T00:57:12.320900Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567260,7 +567260,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-28T20:16:23.902677Z",
+        "generated_at": "2026-10-29T00:57:10.412012Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -573479,7 +573479,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-10-28T20:16:26.931936Z",
+        "generated_at": "2026-10-29T00:57:12.320828Z",
         "players": [
           {
             "availability_status": "a",
@@ -640227,7 +640227,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-28T20:16:26.221584Z",
+    "generated_at": "2026-10-29T00:57:11.765369Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -640460,7 +640460,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793218581
+      "time": 1793235429
     },
     "choices": {
       "choices": [],
@@ -657442,7 +657442,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-28T20:16:23.904766Z",
+    "generated_at": "2026-10-29T00:57:10.413353Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -668361,7 +668361,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-28T20:16:26.932013Z",
+    "generated_at": "2026-10-29T00:57:12.320900Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668402,7 +668402,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-28T20:16:23.902677Z",
+    "generated_at": "2026-10-29T00:57:10.412012Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -674621,7 +674621,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-10-28T20:16:26.931936Z",
+    "generated_at": "2026-10-29T00:57:12.320828Z",
     "players": [
       {
         "availability_status": "a",
