@@ -2173,16 +2173,16 @@
         "web_name": "Chalobah"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 269,
         "element_type": 2,
         "first_name": "Malo",
         "id": 144,
         "minutes": 274,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Gusto",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 5,
         "web_name": "Gusto"
@@ -2233,16 +2233,16 @@
         "web_name": "Tosin"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 492,
         "element_type": 2,
         "first_name": "Jorrel",
         "id": 148,
         "minutes": 412,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Hato",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 25,
         "web_name": "Hato"
@@ -2398,16 +2398,16 @@
         "web_name": "Gittens"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 143,
         "element_type": 3,
         "first_name": "Moisés",
         "id": 159,
         "minutes": 264,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Caicedo Corozo",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 8,
         "web_name": "Caicedo"
@@ -3013,14 +3013,14 @@
         "web_name": "Benitez"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": null,
         "draft_rank": 64,
         "element_type": 2,
         "first_name": "Maxence",
         "id": 200,
         "minutes": 634,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - 50% chance of playing",
         "second_name": "Lacroix",
         "status": "d",
         "team": 6,
@@ -3508,16 +3508,16 @@
         "web_name": "O'Brien"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 455,
         "element_type": 2,
         "first_name": "Vitalii",
         "id": 233,
         "minutes": 613,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Mykolenko",
-        "status": "d",
+        "status": "a",
         "team": 9,
         "total_points": 28,
         "web_name": "Mykolenko"
@@ -3583,16 +3583,16 @@
         "web_name": "Ndiaye"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 43,
         "element_type": 3,
         "first_name": "Jack",
         "id": 238,
         "minutes": 304,
-        "news": "Illness - 75% chance of playing",
+        "news": "",
         "second_name": "Grealish",
-        "status": "d",
+        "status": "a",
         "team": 9,
         "total_points": 10,
         "web_name": "Grealish"
@@ -6988,16 +6988,16 @@
         "web_name": "Wissa"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 96,
         "element_type": 4,
         "first_name": "William",
         "id": 465,
         "minutes": 177,
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Osula",
-        "status": "a",
+        "status": "d",
         "team": 17,
         "total_points": 14,
         "web_name": "Osula"
@@ -8008,16 +8008,16 @@
         "web_name": "Ballard"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 119,
         "element_type": 2,
         "first_name": "Nordi",
         "id": 533,
         "minutes": 591,
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "second_name": "Mukiele",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 20,
         "web_name": "Mukiele"
@@ -11114,13 +11114,13 @@
         "web_name": "Fofana"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 533,
         "first_name": "Nordi",
-        "news": "",
+        "news": "Knock - 75% chance of playing",
         "official_draft_rank": 119,
         "position": "DEF",
         "position_id": 2,
@@ -11366,13 +11366,13 @@
         "web_name": "Hill"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 159,
         "first_name": "Moisés",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 143,
         "position": "MID",
         "position_id": 3,
@@ -12780,13 +12780,13 @@
         "web_name": "Bijol"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 144,
         "first_name": "Malo",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 269,
         "position": "DEF",
         "position_id": 2,
@@ -15132,13 +15132,13 @@
         "web_name": "Digne"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 9,
         "club_name": "Everton",
         "club_short_name": "EVE",
         "element_id": 233,
         "first_name": "Vitalii",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 455,
         "position": "DEF",
         "position_id": 2,
@@ -15580,13 +15580,13 @@
         "web_name": "Chadi Riad"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 148,
         "first_name": "Jorrel",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 492,
         "position": "DEF",
         "position_id": 2,
@@ -18072,7 +18072,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-10-29T18:28:32.948211Z",
+    "generated_at": "2026-10-30T00:59:58.879176Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18440,7 +18440,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Maxence",
             "league_entry_id": 138487,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - 50% chance of playing",
             "official_draft_rank": 64,
             "position": "DEF",
             "position_id": 2,
@@ -18482,7 +18482,7 @@
             "web_name": "Barcola"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 9,
             "club_name": "Everton",
             "club_short_name": "EVE",
@@ -18491,7 +18491,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Jack",
             "league_entry_id": 138487,
-            "news": "Illness - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 43,
             "position": "MID",
             "position_id": 3,
@@ -18847,7 +18847,7 @@
             "web_name": "N.Jackson"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 17,
             "club_name": "Newcastle",
             "club_short_name": "NEW",
@@ -18856,7 +18856,7 @@
             "entry_name": "Grove Løjer",
             "first_name": "William",
             "league_entry_id": 138520,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "official_draft_rank": 96,
             "position": "FWD",
             "position_id": 4,
@@ -29264,7 +29264,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-29T18:28:34.061953Z",
+  "generated_at": "2026-10-30T01:00:00.469031Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -494711,16 +494711,16 @@
             "web_name": "Chalobah"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 269,
             "element_type": 2,
             "first_name": "Malo",
             "id": 144,
             "minutes": 274,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Gusto",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 5,
             "web_name": "Gusto"
@@ -494771,16 +494771,16 @@
             "web_name": "Tosin"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 492,
             "element_type": 2,
             "first_name": "Jorrel",
             "id": 148,
             "minutes": 412,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Hato",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 25,
             "web_name": "Hato"
@@ -494936,16 +494936,16 @@
             "web_name": "Gittens"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 143,
             "element_type": 3,
             "first_name": "Moisés",
             "id": 159,
             "minutes": 264,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Caicedo Corozo",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 8,
             "web_name": "Caicedo"
@@ -495551,14 +495551,14 @@
             "web_name": "Benitez"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": null,
             "draft_rank": 64,
             "element_type": 2,
             "first_name": "Maxence",
             "id": 200,
             "minutes": 634,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - 50% chance of playing",
             "second_name": "Lacroix",
             "status": "d",
             "team": 6,
@@ -496046,16 +496046,16 @@
             "web_name": "O'Brien"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 455,
             "element_type": 2,
             "first_name": "Vitalii",
             "id": 233,
             "minutes": 613,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Mykolenko",
-            "status": "d",
+            "status": "a",
             "team": 9,
             "total_points": 28,
             "web_name": "Mykolenko"
@@ -496121,16 +496121,16 @@
             "web_name": "Ndiaye"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 43,
             "element_type": 3,
             "first_name": "Jack",
             "id": 238,
             "minutes": 304,
-            "news": "Illness - 75% chance of playing",
+            "news": "",
             "second_name": "Grealish",
-            "status": "d",
+            "status": "a",
             "team": 9,
             "total_points": 10,
             "web_name": "Grealish"
@@ -499526,16 +499526,16 @@
             "web_name": "Wissa"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 96,
             "element_type": 4,
             "first_name": "William",
             "id": 465,
             "minutes": 177,
-            "news": "",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Osula",
-            "status": "a",
+            "status": "d",
             "team": 17,
             "total_points": 14,
             "web_name": "Osula"
@@ -500546,16 +500546,16 @@
             "web_name": "Ballard"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 119,
             "element_type": 2,
             "first_name": "Nordi",
             "id": 533,
             "minutes": 591,
-            "news": "",
+            "news": "Knock - 75% chance of playing",
             "second_name": "Mukiele",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 20,
             "web_name": "Mukiele"
@@ -554314,7 +554314,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-10-29T18:28:34.061953Z",
+          "generated_at": "2026-10-30T01:00:00.469031Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565792,7 +565792,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-10-29T18:28:34.061953Z",
+        "generated_at": "2026-10-30T01:00:00.469031Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567260,7 +567260,7 @@
           "source_available": true,
           "typed_records": 117
         },
-        "generated_at": "2026-10-29T18:28:32.946231Z",
+        "generated_at": "2026-10-30T00:59:58.877983Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -568643,13 +568643,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 9,
               "club_name": "Everton",
               "club_short_name": "EVE",
               "element_id": 238,
               "first_name": "Jack",
-              "news": "Illness - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 43,
               "position": "MID",
               "position_id": 3,
@@ -569558,13 +569558,13 @@
               "web_name": "Muharemović"
             },
             "element_out": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 20,
               "club_name": "Sunderland",
               "club_short_name": "SUN",
               "element_id": 533,
               "first_name": "Nordi",
-              "news": "",
+              "news": "Knock - 75% chance of playing",
               "official_draft_rank": 119,
               "position": "DEF",
               "position_id": 2,
@@ -571201,13 +571201,13 @@
               "web_name": "Bogle"
             },
             "element_out": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 6,
               "club_name": "Chelsea",
               "club_short_name": "CHE",
               "element_id": 144,
               "first_name": "Malo",
-              "news": "",
+              "news": "Unspecified injury - 75% chance of playing",
               "official_draft_rank": 269,
               "position": "DEF",
               "position_id": 2,
@@ -571784,13 +571784,13 @@
               "web_name": "Justin"
             },
             "element_out": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 6,
               "club_name": "Chelsea",
               "club_short_name": "CHE",
               "element_id": 144,
               "first_name": "Malo",
-              "news": "",
+              "news": "Unspecified injury - 75% chance of playing",
               "official_draft_rank": 269,
               "position": "DEF",
               "position_id": 2,
@@ -573479,7 +573479,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-10-29T18:28:34.061896Z",
+        "generated_at": "2026-10-30T01:00:00.468986Z",
         "players": [
           {
             "availability_status": "a",
@@ -640227,7 +640227,7 @@
       "name": "Gameweek 8"
     },
     "gameweek": 8,
-    "generated_at": "2026-10-29T18:28:33.794546Z",
+    "generated_at": "2026-10-30T00:59:59.905002Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -640460,7 +640460,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793298512
+      "time": 1793321997
     },
     "choices": {
       "choices": [],
@@ -657442,7 +657442,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-10-29T18:28:32.948250Z",
+    "generated_at": "2026-10-30T00:59:58.879200Z",
     "pending_waiver_count": 51,
     "schema_version": 1,
     "source_available": true,
@@ -659318,13 +659318,13 @@
           "web_name": "Bogle"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 6,
           "club_name": "Chelsea",
           "club_short_name": "CHE",
           "element_id": 144,
           "first_name": "Malo",
-          "news": "",
+          "news": "Unspecified injury - 75% chance of playing",
           "official_draft_rank": 269,
           "position": "DEF",
           "position_id": 2,
@@ -668361,7 +668361,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-10-29T18:28:34.061953Z",
+    "generated_at": "2026-10-30T01:00:00.469031Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668402,7 +668402,7 @@
       "source_available": true,
       "typed_records": 117
     },
-    "generated_at": "2026-10-29T18:28:32.946231Z",
+    "generated_at": "2026-10-30T00:59:58.877983Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -669785,13 +669785,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 9,
           "club_name": "Everton",
           "club_short_name": "EVE",
           "element_id": 238,
           "first_name": "Jack",
-          "news": "Illness - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 43,
           "position": "MID",
           "position_id": 3,
@@ -670700,13 +670700,13 @@
           "web_name": "Muharemović"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 20,
           "club_name": "Sunderland",
           "club_short_name": "SUN",
           "element_id": 533,
           "first_name": "Nordi",
-          "news": "",
+          "news": "Knock - 75% chance of playing",
           "official_draft_rank": 119,
           "position": "DEF",
           "position_id": 2,
@@ -672343,13 +672343,13 @@
           "web_name": "Bogle"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 6,
           "club_name": "Chelsea",
           "club_short_name": "CHE",
           "element_id": 144,
           "first_name": "Malo",
-          "news": "",
+          "news": "Unspecified injury - 75% chance of playing",
           "official_draft_rank": 269,
           "position": "DEF",
           "position_id": 2,
@@ -672926,13 +672926,13 @@
           "web_name": "Justin"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 6,
           "club_name": "Chelsea",
           "club_short_name": "CHE",
           "element_id": 144,
           "first_name": "Malo",
-          "news": "",
+          "news": "Unspecified injury - 75% chance of playing",
           "official_draft_rank": 269,
           "position": "DEF",
           "position_id": 2,
@@ -674621,7 +674621,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-10-29T18:28:34.061896Z",
+    "generated_at": "2026-10-30T01:00:00.468986Z",
     "players": [
       {
         "availability_status": "a",
