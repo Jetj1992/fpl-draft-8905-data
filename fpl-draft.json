@@ -8015,7 +8015,7 @@
         "first_name": "Nordi",
         "id": 533,
         "minutes": 591,
-        "news": "Knock - 75% chance of playing",
+        "news": "Concussion - 75% chance of playing",
         "second_name": "Mukiele",
         "status": "d",
         "team": 20,
@@ -8158,16 +8158,16 @@
         "web_name": "E.Le Fée"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 173,
         "element_type": 3,
         "first_name": "Habib",
         "id": 543,
         "minutes": 70,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Diarra",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 7,
         "web_name": "Diarra"
@@ -11121,7 +11121,7 @@
         "club_short_name": "SUN",
         "element_id": 533,
         "first_name": "Nordi",
-        "news": "Knock - 75% chance of playing",
+        "news": "Concussion - 75% chance of playing",
         "official_draft_rank": 119,
         "position": "DEF",
         "position_id": 2,
@@ -11675,13 +11675,13 @@
         "web_name": "Khusanov"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 543,
         "first_name": "Habib",
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "official_draft_rank": 173,
         "position": "MID",
         "position_id": 3,
@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-01T06:04:50.523677Z",
+    "generated_at": "2026-11-01T13:24:48.098875Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-01T06:04:53.676113Z",
+  "generated_at": "2026-11-01T13:24:50.043221Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -500582,7 +500582,7 @@
             "first_name": "Nordi",
             "id": 533,
             "minutes": 591,
-            "news": "Knock - 75% chance of playing",
+            "news": "Concussion - 75% chance of playing",
             "second_name": "Mukiele",
             "status": "d",
             "team": 20,
@@ -500725,16 +500725,16 @@
             "web_name": "E.Le Fée"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 173,
             "element_type": 3,
             "first_name": "Habib",
             "id": 543,
             "minutes": 70,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Diarra",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 7,
             "web_name": "Diarra"
@@ -554370,7 +554370,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-11-01T06:04:53.676113Z",
+          "generated_at": "2026-11-01T13:24:50.043221Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -565135,7 +565135,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-01T06:04:53.676113Z",
+        "generated_at": "2026-11-01T13:24:50.043221Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -566735,7 +566735,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-01T06:04:50.522498Z",
+        "generated_at": "2026-11-01T13:24:48.096861Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -569039,7 +569039,7 @@
               "club_short_name": "SUN",
               "element_id": 533,
               "first_name": "Nordi",
-              "news": "Knock - 75% chance of playing",
+              "news": "Concussion - 75% chance of playing",
               "official_draft_rank": 119,
               "position": "DEF",
               "position_id": 2,
@@ -573537,7 +573537,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-11-01T06:04:53.676076Z",
+        "generated_at": "2026-11-01T13:24:50.043168Z",
         "players": [
           {
             "availability_status": "a",
@@ -640285,7 +640285,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-01T06:04:52.916966Z",
+    "generated_at": "2026-11-01T13:24:49.284986Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -641958,7 +641958,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793513088
+      "time": 1793539487
     },
     "choices": {
       "choices": [],
@@ -658323,7 +658323,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-01T06:04:50.523702Z",
+    "generated_at": "2026-11-01T13:24:48.098919Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -668794,7 +668794,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-01T06:04:53.676113Z",
+    "generated_at": "2026-11-01T13:24:50.043221Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668835,7 +668835,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-01T06:04:50.522498Z",
+    "generated_at": "2026-11-01T13:24:48.096861Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -671139,7 +671139,7 @@
           "club_short_name": "SUN",
           "element_id": 533,
           "first_name": "Nordi",
-          "news": "Knock - 75% chance of playing",
+          "news": "Concussion - 75% chance of playing",
           "official_draft_rank": 119,
           "position": "DEF",
           "position_id": 2,
@@ -675637,7 +675637,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-11-01T06:04:53.676076Z",
+    "generated_at": "2026-11-01T13:24:50.043168Z",
     "players": [
       {
         "availability_status": "a",
