@@ -144,7 +144,7 @@
         "second_name": "Calafiori",
         "status": "a",
         "team": 1,
-        "total_points": 53,
+        "total_points": 51,
         "web_name": "Calafiori"
       },
       {
@@ -5539,7 +5539,7 @@
         "element_type": 3,
         "first_name": "Dominik",
         "id": 368,
-        "minutes": 502,
+        "minutes": 503,
         "news": "",
         "second_name": "Szoboszlai",
         "status": "a",
@@ -5644,7 +5644,7 @@
         "element_type": 3,
         "first_name": "Trey",
         "id": 375,
-        "minutes": 203,
+        "minutes": 202,
         "news": "",
         "second_name": "Nyoni",
         "status": "a",
@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-02T00:44:36.453308Z",
+    "generated_at": "2026-11-02T11:07:20.435419Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-02T00:44:39.529562Z",
+  "generated_at": "2026-11-02T11:07:23.523809Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -492711,7 +492711,7 @@
             "second_name": "Calafiori",
             "status": "a",
             "team": 1,
-            "total_points": 53,
+            "total_points": 51,
             "web_name": "Calafiori"
           },
           {
@@ -498106,7 +498106,7 @@
             "element_type": 3,
             "first_name": "Dominik",
             "id": 368,
-            "minutes": 502,
+            "minutes": 503,
             "news": "",
             "second_name": "Szoboszlai",
             "status": "a",
@@ -498211,7 +498211,7 @@
             "element_type": 3,
             "first_name": "Trey",
             "id": 375,
-            "minutes": 203,
+            "minutes": 202,
             "news": "",
             "second_name": "Nyoni",
             "status": "a",
@@ -554370,7 +554370,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-11-02T00:44:39.529562Z",
+          "generated_at": "2026-11-02T11:07:23.523809Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -560763,7 +560763,7 @@
                     "a": [
                       {
                         "element": 26,
-                        "value": 33
+                        "value": 34
                       },
                       {
                         "element": 13,
@@ -560778,16 +560778,20 @@
                         "value": 29
                       },
                       {
-                        "element": 5,
-                        "value": 23
+                        "element": 1,
+                        "value": 21
                       },
                       {
                         "element": 8,
-                        "value": 23
+                        "value": 21
                       },
                       {
-                        "element": 1,
-                        "value": 21
+                        "element": 5,
+                        "value": 20
+                      },
+                      {
+                        "element": 16,
+                        "value": 18
                       },
                       {
                         "element": 15,
@@ -560798,38 +560802,34 @@
                         "value": 14
                       },
                       {
-                        "element": 16,
-                        "value": 11
-                      },
-                      {
                         "element": 452,
                         "value": 9
+                      },
+                      {
+                        "element": 17,
+                        "value": 6
                       },
                       {
                         "element": 7,
                         "value": 4
                       },
                       {
-                        "element": 17,
-                        "value": 4
+                        "element": 9,
+                        "value": 3
                       },
                       {
                         "element": 25,
                         "value": 3
-                      },
-                      {
-                        "element": 9,
-                        "value": 2
                       }
                     ],
                     "h": [
                       {
-                        "element": 362,
+                        "element": 358,
                         "value": 14
                       },
                       {
-                        "element": 358,
-                        "value": 11
+                        "element": 362,
+                        "value": 14
                       },
                       {
                         "element": 368,
@@ -560897,11 +560897,11 @@
                         "value": 15
                       },
                       {
-                        "element": 8,
-                        "value": 10
+                        "element": 4,
+                        "value": 9
                       },
                       {
-                        "element": 4,
+                        "element": 8,
                         "value": 9
                       },
                       {
@@ -560909,20 +560909,20 @@
                         "value": 9
                       },
                       {
+                        "element": 5,
+                        "value": 8
+                      },
+                      {
                         "element": 15,
                         "value": 8
                       },
                       {
-                        "element": 5,
-                        "value": 7
-                      },
-                      {
                         "element": 16,
-                        "value": 7
+                        "value": 8
                       },
                       {
                         "element": 26,
-                        "value": 7
+                        "value": 8
                       },
                       {
                         "element": 452,
@@ -560941,22 +560941,22 @@
                         "value": 2
                       },
                       {
-                        "element": 25,
+                        "element": 17,
                         "value": 2
                       },
                       {
-                        "element": 17,
-                        "value": 1
+                        "element": 25,
+                        "value": 2
                       }
                     ],
                     "h": [
                       {
                         "element": 579,
-                        "value": 11
+                        "value": 12
                       },
                       {
                         "element": 372,
-                        "value": 10
+                        "value": 11
                       },
                       {
                         "element": 362,
@@ -560967,12 +560967,12 @@
                         "value": 7
                       },
                       {
-                        "element": 368,
+                        "element": 358,
                         "value": 7
                       },
                       {
-                        "element": 358,
-                        "value": 6
+                        "element": 368,
+                        "value": 7
                       },
                       {
                         "element": 375,
@@ -565493,7 +565493,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-02T00:44:39.529562Z",
+        "generated_at": "2026-11-02T11:07:23.523809Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567093,7 +567093,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-02T00:44:36.452049Z",
+        "generated_at": "2026-11-02T11:07:20.433412Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -573895,7 +573895,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-11-02T00:44:39.529522Z",
+        "generated_at": "2026-11-02T11:07:23.523752Z",
         "players": [
           {
             "availability_status": "a",
@@ -640643,7 +640643,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-02T00:44:37.748430Z",
+    "generated_at": "2026-11-02T11:07:22.248081Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138487,
@@ -640685,12 +640685,12 @@
       },
       {
         "current_leader_entry_id": 138748,
-        "current_margin": 21,
+        "current_margin": 19,
         "entry_1_id": 138748,
         "entry_1_name": "Jyllands Rubin",
         "entry_1_remaining_players": 2,
         "entry_1_remaining_starters": 0,
-        "entry_1_score": 51,
+        "entry_1_score": 49,
         "entry_2_id": 252790,
         "entry_2_name": "Senile Supersubs",
         "entry_2_remaining_players": 1,
@@ -640744,12 +640744,12 @@
       },
       {
         "current_leader_entry_id": 138748,
-        "current_margin": 21,
+        "current_margin": 19,
         "entry_1_id": 138748,
         "entry_1_name": "Jyllands Rubin",
         "entry_1_remaining_players": 2,
         "entry_1_remaining_starters": 0,
-        "entry_1_score": 51,
+        "entry_1_score": 49,
         "entry_2_id": 252790,
         "entry_2_name": "Senile Supersubs",
         "entry_2_remaining_players": 1,
@@ -640763,7 +640763,7 @@
       }
     ],
     "league_average_match": {
-      "current_margin": 8.166666666666664,
+      "current_margin": 8.5,
       "current_result": "win",
       "entry_id": 138520,
       "entry_name": "Grove Løjer",
@@ -640772,7 +640772,7 @@
       "gameweek": 9,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 45.833333333333336,
+      "opponent_average": 45.5,
       "opponent_average_source_entry_ids": [
         42948,
         138487,
@@ -641186,7 +641186,7 @@
         "entry_id": 138139,
         "entry_name": "Jyllands Rubin",
         "league_entry_id": 138748,
-        "live_score": 51,
+        "live_score": 49,
         "remaining_player_count": 2,
         "remaining_players": [
           {
@@ -641324,7 +641324,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793580274
+      "time": 1793617638
     },
     "choices": {
       "choices": [],
@@ -657771,7 +657771,7 @@
             "a": [
               {
                 "element": 26,
-                "value": 33
+                "value": 34
               },
               {
                 "element": 13,
@@ -657786,16 +657786,20 @@
                 "value": 29
               },
               {
-                "element": 5,
-                "value": 23
+                "element": 1,
+                "value": 21
               },
               {
                 "element": 8,
-                "value": 23
+                "value": 21
               },
               {
-                "element": 1,
-                "value": 21
+                "element": 5,
+                "value": 20
+              },
+              {
+                "element": 16,
+                "value": 18
               },
               {
                 "element": 15,
@@ -657806,38 +657810,34 @@
                 "value": 14
               },
               {
-                "element": 16,
-                "value": 11
-              },
-              {
                 "element": 452,
                 "value": 9
+              },
+              {
+                "element": 17,
+                "value": 6
               },
               {
                 "element": 7,
                 "value": 4
               },
               {
-                "element": 17,
-                "value": 4
+                "element": 9,
+                "value": 3
               },
               {
                 "element": 25,
                 "value": 3
-              },
-              {
-                "element": 9,
-                "value": 2
               }
             ],
             "h": [
               {
-                "element": 362,
+                "element": 358,
                 "value": 14
               },
               {
-                "element": 358,
-                "value": 11
+                "element": 362,
+                "value": 14
               },
               {
                 "element": 368,
@@ -657905,11 +657905,11 @@
                 "value": 15
               },
               {
-                "element": 8,
-                "value": 10
+                "element": 4,
+                "value": 9
               },
               {
-                "element": 4,
+                "element": 8,
                 "value": 9
               },
               {
@@ -657917,20 +657917,20 @@
                 "value": 9
               },
               {
+                "element": 5,
+                "value": 8
+              },
+              {
                 "element": 15,
                 "value": 8
               },
               {
-                "element": 5,
-                "value": 7
-              },
-              {
                 "element": 16,
-                "value": 7
+                "value": 8
               },
               {
                 "element": 26,
-                "value": 7
+                "value": 8
               },
               {
                 "element": 452,
@@ -657949,22 +657949,22 @@
                 "value": 2
               },
               {
-                "element": 25,
+                "element": 17,
                 "value": 2
               },
               {
-                "element": 17,
-                "value": 1
+                "element": 25,
+                "value": 2
               }
             ],
             "h": [
               {
                 "element": 579,
-                "value": 11
+                "value": 12
               },
               {
                 "element": 372,
-                "value": 10
+                "value": 11
               },
               {
                 "element": 362,
@@ -657975,12 +657975,12 @@
                 "value": 7
               },
               {
-                "element": 368,
+                "element": 358,
                 "value": 7
               },
               {
-                "element": 358,
-                "value": 6
+                "element": 368,
+                "value": 7
               },
               {
                 "element": 375,
@@ -658047,7 +658047,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-02T00:44:36.453335Z",
+    "generated_at": "2026-11-02T11:07:20.435476Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -664145,7 +664145,7 @@
                 "a": [
                   {
                     "element": 26,
-                    "value": 33
+                    "value": 34
                   },
                   {
                     "element": 13,
@@ -664160,16 +664160,20 @@
                     "value": 29
                   },
                   {
-                    "element": 5,
-                    "value": 23
+                    "element": 1,
+                    "value": 21
                   },
                   {
                     "element": 8,
-                    "value": 23
+                    "value": 21
                   },
                   {
-                    "element": 1,
-                    "value": 21
+                    "element": 5,
+                    "value": 20
+                  },
+                  {
+                    "element": 16,
+                    "value": 18
                   },
                   {
                     "element": 15,
@@ -664180,38 +664184,34 @@
                     "value": 14
                   },
                   {
-                    "element": 16,
-                    "value": 11
-                  },
-                  {
                     "element": 452,
                     "value": 9
+                  },
+                  {
+                    "element": 17,
+                    "value": 6
                   },
                   {
                     "element": 7,
                     "value": 4
                   },
                   {
-                    "element": 17,
-                    "value": 4
+                    "element": 9,
+                    "value": 3
                   },
                   {
                     "element": 25,
                     "value": 3
-                  },
-                  {
-                    "element": 9,
-                    "value": 2
                   }
                 ],
                 "h": [
                   {
-                    "element": 362,
+                    "element": 358,
                     "value": 14
                   },
                   {
-                    "element": 358,
-                    "value": 11
+                    "element": 362,
+                    "value": 14
                   },
                   {
                     "element": 368,
@@ -664279,11 +664279,11 @@
                     "value": 15
                   },
                   {
-                    "element": 8,
-                    "value": 10
+                    "element": 4,
+                    "value": 9
                   },
                   {
-                    "element": 4,
+                    "element": 8,
                     "value": 9
                   },
                   {
@@ -664291,20 +664291,20 @@
                     "value": 9
                   },
                   {
+                    "element": 5,
+                    "value": 8
+                  },
+                  {
                     "element": 15,
                     "value": 8
                   },
                   {
-                    "element": 5,
-                    "value": 7
-                  },
-                  {
                     "element": 16,
-                    "value": 7
+                    "value": 8
                   },
                   {
                     "element": 26,
-                    "value": 7
+                    "value": 8
                   },
                   {
                     "element": 452,
@@ -664323,22 +664323,22 @@
                     "value": 2
                   },
                   {
-                    "element": 25,
+                    "element": 17,
                     "value": 2
                   },
                   {
-                    "element": 17,
-                    "value": 1
+                    "element": 25,
+                    "value": 2
                   }
                 ],
                 "h": [
                   {
                     "element": 579,
-                    "value": 11
+                    "value": 12
                   },
                   {
                     "element": 372,
-                    "value": 10
+                    "value": 11
                   },
                   {
                     "element": 362,
@@ -664349,12 +664349,12 @@
                     "value": 7
                   },
                   {
-                    "element": 368,
+                    "element": 358,
                     "value": 7
                   },
                   {
-                    "element": 358,
-                    "value": 6
+                    "element": 368,
+                    "value": 7
                   },
                   {
                     "element": 375,
@@ -668876,7 +668876,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-02T00:44:39.529562Z",
+    "generated_at": "2026-11-02T11:07:23.523809Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668917,7 +668917,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-02T00:44:36.452049Z",
+    "generated_at": "2026-11-02T11:07:20.433412Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -675719,7 +675719,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-11-02T00:44:39.529522Z",
+    "generated_at": "2026-11-02T11:07:23.523752Z",
     "players": [
       {
         "availability_status": "a",
