@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-01T19:40:43.168393Z",
+    "generated_at": "2026-11-02T00:44:36.453308Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28644,14 +28644,14 @@
   "entries_public": {
     "137879": {
       "entry": {
-        "event_points": 29,
+        "event_points": 38,
         "favourite_team": 14,
         "id": 137879,
         "league_set": [
           8905
         ],
         "name": "AGF 2. hold",
-        "overall_points": 286,
+        "overall_points": 295,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28662,14 +28662,14 @@
     },
     "137912": {
       "entry": {
-        "event_points": 37,
+        "event_points": 40,
         "favourite_team": 2,
         "id": 137912,
         "league_set": [
           8905
         ],
         "name": "Grove Løjer",
-        "overall_points": 373,
+        "overall_points": 376,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28680,14 +28680,14 @@
     },
     "138032": {
       "entry": {
-        "event_points": 28,
+        "event_points": 47,
         "favourite_team": 11,
         "id": 138032,
         "league_set": [
           8905
         ],
         "name": "Hyggemix",
-        "overall_points": 335,
+        "overall_points": 354,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28698,14 +28698,14 @@
     },
     "138139": {
       "entry": {
-        "event_points": 34,
+        "event_points": 47,
         "favourite_team": null,
         "id": 138139,
         "league_set": [
           8905
         ],
         "name": "Jyllands Rubin",
-        "overall_points": 476,
+        "overall_points": 489,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28734,14 +28734,14 @@
     },
     "318564": {
       "entry": {
-        "event_points": 37,
+        "event_points": 55,
         "favourite_team": null,
         "id": 318564,
         "league_set": [
           8905
         ],
         "name": "La Liga es la mejor",
-        "overall_points": 454,
+        "overall_points": 472,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -28752,14 +28752,14 @@
     },
     "42888": {
       "entry": {
-        "event_points": 35,
+        "event_points": 39,
         "favourite_team": 19,
         "id": 42888,
         "league_set": [
           8905
         ],
         "name": "AGFs Førstehold",
-        "overall_points": 391,
+        "overall_points": 395,
         "region_code_long": "DNK",
         "region_code_short": "DK",
         "region_name": "Denmark",
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-01T19:40:46.808307Z",
+  "generated_at": "2026-11-02T00:44:39.529562Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -547384,9 +547384,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 42948,
-            "league_entry_1_points": 35,
+            "league_entry_1_points": 39,
             "league_entry_2": 138487,
-            "league_entry_2_points": 29,
+            "league_entry_2_points": 38,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -547395,9 +547395,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138520,
-            "league_entry_1_points": 37,
+            "league_entry_1_points": 40,
             "league_entry_2": 420622,
-            "league_entry_2_points": 31,
+            "league_entry_2_points": 40,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -547406,9 +547406,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138641,
-            "league_entry_1_points": 28,
+            "league_entry_1_points": 47,
             "league_entry_2": 321694,
-            "league_entry_2_points": 37,
+            "league_entry_2_points": 55,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -547417,7 +547417,7 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138748,
-            "league_entry_1_points": 34,
+            "league_entry_1_points": 47,
             "league_entry_2": 252790,
             "league_entry_2_points": 19,
             "started": true,
@@ -554370,7 +554370,7 @@
           "data_checked": true,
           "gameweek": 8,
           "gameweek_finished": true,
-          "generated_at": "2026-11-01T19:40:46.808307Z",
+          "generated_at": "2026-11-02T00:44:39.529562Z",
           "league_id": 8905,
           "recap_fingerprint": "449583101dacb87f4b691f5f99f78e759aba1c2f47022356b87c918332a9fa7a",
           "recap_ready": true,
@@ -557667,9 +557667,9 @@
                 "event": 9,
                 "finished": false,
                 "league_entry_1": 42948,
-                "league_entry_1_points": 35,
+                "league_entry_1_points": 39,
                 "league_entry_2": 138487,
-                "league_entry_2_points": 29,
+                "league_entry_2_points": 38,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -557678,9 +557678,9 @@
                 "event": 9,
                 "finished": false,
                 "league_entry_1": 138520,
-                "league_entry_1_points": 37,
+                "league_entry_1_points": 40,
                 "league_entry_2": 420622,
-                "league_entry_2_points": 31,
+                "league_entry_2_points": 40,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -557689,9 +557689,9 @@
                 "event": 9,
                 "finished": false,
                 "league_entry_1": 138641,
-                "league_entry_1_points": 28,
+                "league_entry_1_points": 47,
                 "league_entry_2": 321694,
-                "league_entry_2_points": 37,
+                "league_entry_2_points": 55,
                 "started": true,
                 "winning_league_entry": null,
                 "winning_method": null
@@ -557700,7 +557700,7 @@
                 "event": 9,
                 "finished": false,
                 "league_entry_1": 138748,
-                "league_entry_1_points": 34,
+                "league_entry_1_points": 47,
                 "league_entry_2": 252790,
                 "league_entry_2_points": 19,
                 "started": true,
@@ -565493,7 +565493,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-01T19:40:46.808307Z",
+        "generated_at": "2026-11-02T00:44:39.529562Z",
         "latest_complete_gameweek": 8,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -567093,7 +567093,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-01T19:40:43.167111Z",
+        "generated_at": "2026-11-02T00:44:36.452049Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -573895,7 +573895,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 8,
-        "generated_at": "2026-11-01T19:40:46.808264Z",
+        "generated_at": "2026-11-02T00:44:39.529522Z",
         "players": [
           {
             "availability_status": "a",
@@ -639202,9 +639202,9 @@
         "event": 9,
         "finished": false,
         "league_entry_1": 42948,
-        "league_entry_1_points": 35,
+        "league_entry_1_points": 39,
         "league_entry_2": 138487,
-        "league_entry_2_points": 29,
+        "league_entry_2_points": 38,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -639213,9 +639213,9 @@
         "event": 9,
         "finished": false,
         "league_entry_1": 138520,
-        "league_entry_1_points": 37,
+        "league_entry_1_points": 40,
         "league_entry_2": 420622,
-        "league_entry_2_points": 31,
+        "league_entry_2_points": 40,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -639224,9 +639224,9 @@
         "event": 9,
         "finished": false,
         "league_entry_1": 138641,
-        "league_entry_1_points": 28,
+        "league_entry_1_points": 47,
         "league_entry_2": 321694,
-        "league_entry_2_points": 37,
+        "league_entry_2_points": 55,
         "started": true,
         "winning_league_entry": null,
         "winning_method": null
@@ -639235,7 +639235,7 @@
         "event": 9,
         "finished": false,
         "league_entry_1": 138748,
-        "league_entry_1_points": 34,
+        "league_entry_1_points": 47,
         "league_entry_2": 252790,
         "league_entry_2_points": 19,
         "started": true,
@@ -640643,7 +640643,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-01T19:40:45.897410Z",
+    "generated_at": "2026-11-02T00:44:37.748430Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138487,
@@ -641324,7 +641324,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793562040
+      "time": 1793580274
     },
     "choices": {
       "choices": [],
@@ -649380,7 +649380,7 @@
       "current_event": 9,
       "current_event_finished": false,
       "next_event": 10,
-      "processing_status": "l",
+      "processing_status": "n",
       "trades_time_for_approval": true,
       "waivers_processed": false
     },
@@ -658047,7 +658047,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-01T19:40:43.168419Z",
+    "generated_at": "2026-11-02T00:44:36.453335Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -661049,9 +661049,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 42948,
-            "league_entry_1_points": 35,
+            "league_entry_1_points": 39,
             "league_entry_2": 138487,
-            "league_entry_2_points": 29,
+            "league_entry_2_points": 38,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -661060,9 +661060,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138520,
-            "league_entry_1_points": 37,
+            "league_entry_1_points": 40,
             "league_entry_2": 420622,
-            "league_entry_2_points": 31,
+            "league_entry_2_points": 40,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -661071,9 +661071,9 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138641,
-            "league_entry_1_points": 28,
+            "league_entry_1_points": 47,
             "league_entry_2": 321694,
-            "league_entry_2_points": 37,
+            "league_entry_2_points": 55,
             "started": true,
             "winning_league_entry": null,
             "winning_method": null
@@ -661082,7 +661082,7 @@
             "event": 9,
             "finished": false,
             "league_entry_1": 138748,
-            "league_entry_1_points": 34,
+            "league_entry_1_points": 47,
             "league_entry_2": 252790,
             "league_entry_2_points": 19,
             "started": true,
@@ -668876,7 +668876,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-01T19:40:46.808307Z",
+    "generated_at": "2026-11-02T00:44:39.529562Z",
     "latest_complete_gameweek": 8,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -668917,7 +668917,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-01T19:40:43.167111Z",
+    "generated_at": "2026-11-02T00:44:36.452049Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -675719,7 +675719,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 8,
-    "generated_at": "2026-11-01T19:40:46.808264Z",
+    "generated_at": "2026-11-02T00:44:39.529522Z",
     "players": [
       {
         "availability_status": "a",
