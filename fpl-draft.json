@@ -103,16 +103,16 @@
         "web_name": "J.Timber"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 70,
         "element_type": 2,
         "first_name": "William",
         "id": 6,
         "minutes": 0,
-        "news": "Back injury - Unknown return date",
+        "news": "Back injury - 75% chance of playing",
         "second_name": "Saliba",
-        "status": "i",
+        "status": "d",
         "team": 1,
         "total_points": 0,
         "web_name": "Saliba"
@@ -1978,16 +1978,16 @@
         "web_name": "Wieffer"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 303,
         "element_type": 3,
         "first_name": "Carlos",
         "id": 131,
         "minutes": 232,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Baleba",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 8,
         "web_name": "Baleba"
@@ -6478,16 +6478,16 @@
         "web_name": "Mount"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 91,
         "element_type": 3,
         "first_name": "Amad",
         "id": 431,
         "minutes": 301,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "second_name": "Diallo",
-        "status": "d",
+        "status": "a",
         "team": 16,
         "total_points": 7,
         "web_name": "Amad"
@@ -10793,13 +10793,13 @@
         "web_name": "Goretzka"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 431,
         "first_name": "Amad",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 91,
         "position": "MID",
         "position_id": 3,
@@ -13229,13 +13229,13 @@
         "web_name": "Barkley"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 131,
         "first_name": "Carlos",
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 303,
         "position": "MID",
         "position_id": 3,
@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-03T17:04:04.747919Z",
+    "generated_at": "2026-11-03T23:23:56.134029Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18477,7 +18477,7 @@
             "web_name": "Lacroix"
           },
           {
-            "availability_status": "i",
+            "availability_status": "d",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -18486,7 +18486,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "William",
             "league_entry_id": 138487,
-            "news": "Back injury - Unknown return date",
+            "news": "Back injury - 75% chance of playing",
             "official_draft_rank": 70,
             "position": "DEF",
             "position_id": 2,
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-03T17:04:06.553292Z",
+  "generated_at": "2026-11-03T23:23:58.403717Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -574449,16 +574449,16 @@
             "web_name": "J.Timber"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 70,
             "element_type": 2,
             "first_name": "William",
             "id": 6,
             "minutes": 0,
-            "news": "Back injury - Unknown return date",
+            "news": "Back injury - 75% chance of playing",
             "second_name": "Saliba",
-            "status": "i",
+            "status": "d",
             "team": 1,
             "total_points": 0,
             "web_name": "Saliba"
@@ -576324,16 +576324,16 @@
             "web_name": "Wieffer"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 303,
             "element_type": 3,
             "first_name": "Carlos",
             "id": 131,
             "minutes": 232,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Baleba",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 8,
             "web_name": "Baleba"
@@ -580824,16 +580824,16 @@
             "web_name": "Mount"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 91,
             "element_type": 3,
             "first_name": "Amad",
             "id": 431,
             "minutes": 301,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "",
             "second_name": "Diallo",
-            "status": "d",
+            "status": "a",
             "team": 16,
             "total_points": 7,
             "web_name": "Amad"
@@ -636249,7 +636249,7 @@
           "data_checked": true,
           "gameweek": 9,
           "gameweek_finished": true,
-          "generated_at": "2026-11-03T17:04:06.553292Z",
+          "generated_at": "2026-11-03T23:23:58.403717Z",
           "league_id": 8905,
           "recap_fingerprint": "4de7a863d1f34eba0966fae5d1ada99efff946845ea0f1d1f372582d6f264258",
           "recap_ready": true,
@@ -647391,7 +647391,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-03T17:04:06.553292Z",
+        "generated_at": "2026-11-03T23:23:58.403717Z",
         "latest_complete_gameweek": 9,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -648991,7 +648991,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-03T17:04:04.745698Z",
+        "generated_at": "2026-11-03T23:23:56.132467Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -655793,7 +655793,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 9,
-        "generated_at": "2026-11-03T17:04:06.553227Z",
+        "generated_at": "2026-11-03T23:23:58.403643Z",
         "players": [
           {
             "availability_status": "a",
@@ -722558,7 +722558,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-03T17:04:06.436772Z",
+    "generated_at": "2026-11-03T23:23:58.035921Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -722772,7 +722772,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793725443
+      "time": 1793748234
     },
     "choices": {
       "choices": [],
@@ -739831,7 +739831,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-03T17:04:04.747976Z",
+    "generated_at": "2026-11-03T23:23:56.134061Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -750948,7 +750948,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-03T17:04:06.553292Z",
+    "generated_at": "2026-11-03T23:23:58.403717Z",
     "latest_complete_gameweek": 9,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -750989,7 +750989,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-03T17:04:04.745698Z",
+    "generated_at": "2026-11-03T23:23:56.132467Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -757791,7 +757791,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 9,
-    "generated_at": "2026-11-03T17:04:06.553227Z",
+    "generated_at": "2026-11-03T23:23:58.403643Z",
     "players": [
       {
         "availability_status": "a",
