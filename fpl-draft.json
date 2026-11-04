@@ -1978,14 +1978,14 @@
         "web_name": "Wieffer"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 50,
         "chance_of_playing_this_round": 100,
         "draft_rank": 303,
         "element_type": 3,
         "first_name": "Carlos",
         "id": 131,
         "minutes": 232,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - 50% chance of playing",
         "second_name": "Baleba",
         "status": "d",
         "team": 16,
@@ -13235,7 +13235,7 @@
         "club_short_name": "MUN",
         "element_id": 131,
         "first_name": "Carlos",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "Hamstring injury - 50% chance of playing",
         "official_draft_rank": 303,
         "position": "MID",
         "position_id": 3,
@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-04T06:22:42.139430Z",
+    "generated_at": "2026-11-04T17:15:26.291783Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-04T06:22:44.146899Z",
+  "generated_at": "2026-11-04T17:15:28.710857Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -576324,14 +576324,14 @@
             "web_name": "Wieffer"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 50,
             "chance_of_playing_this_round": 100,
             "draft_rank": 303,
             "element_type": 3,
             "first_name": "Carlos",
             "id": 131,
             "minutes": 232,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "Hamstring injury - 50% chance of playing",
             "second_name": "Baleba",
             "status": "d",
             "team": 16,
@@ -636249,7 +636249,7 @@
           "data_checked": true,
           "gameweek": 9,
           "gameweek_finished": true,
-          "generated_at": "2026-11-04T06:22:44.146899Z",
+          "generated_at": "2026-11-04T17:15:28.710857Z",
           "league_id": 8905,
           "recap_fingerprint": "4de7a863d1f34eba0966fae5d1ada99efff946845ea0f1d1f372582d6f264258",
           "recap_ready": true,
@@ -647391,7 +647391,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-04T06:22:44.146899Z",
+        "generated_at": "2026-11-04T17:15:28.710857Z",
         "latest_complete_gameweek": 9,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -648991,7 +648991,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-04T06:22:42.138046Z",
+        "generated_at": "2026-11-04T17:15:26.289800Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -655793,7 +655793,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 9,
-        "generated_at": "2026-11-04T06:22:44.146819Z",
+        "generated_at": "2026-11-04T17:15:28.710799Z",
         "players": [
           {
             "availability_status": "a",
@@ -722558,7 +722558,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-04T06:22:43.826996Z",
+    "generated_at": "2026-11-04T17:15:28.338314Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -722772,7 +722772,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793773360
+      "time": 1793812524
     },
     "choices": {
       "choices": [],
@@ -739831,7 +739831,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-04T06:22:42.139464Z",
+    "generated_at": "2026-11-04T17:15:26.291826Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -750948,7 +750948,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-04T06:22:44.146899Z",
+    "generated_at": "2026-11-04T17:15:28.710857Z",
     "latest_complete_gameweek": 9,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -750989,7 +750989,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-04T06:22:42.138046Z",
+    "generated_at": "2026-11-04T17:15:26.289800Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -757791,7 +757791,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 9,
-    "generated_at": "2026-11-04T06:22:44.146819Z",
+    "generated_at": "2026-11-04T17:15:28.710799Z",
     "players": [
       {
         "availability_status": "a",
