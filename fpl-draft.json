@@ -103,16 +103,16 @@
         "web_name": "J.Timber"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 70,
         "element_type": 2,
         "first_name": "William",
         "id": 6,
         "minutes": 0,
-        "news": "Back injury - 75% chance of playing",
+        "news": "",
         "second_name": "Saliba",
-        "status": "d",
+        "status": "a",
         "team": 1,
         "total_points": 0,
         "web_name": "Saliba"
@@ -18101,7 +18101,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-04T17:15:26.291783Z",
+    "generated_at": "2026-11-04T23:39:57.220162Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18477,7 +18477,7 @@
             "web_name": "Lacroix"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 1,
             "club_name": "Arsenal",
             "club_short_name": "ARS",
@@ -18486,7 +18486,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "William",
             "league_entry_id": 138487,
-            "news": "Back injury - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 70,
             "position": "DEF",
             "position_id": 2,
@@ -29293,7 +29293,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-04T17:15:28.710857Z",
+  "generated_at": "2026-11-04T23:39:59.980382Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -574449,16 +574449,16 @@
             "web_name": "J.Timber"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 70,
             "element_type": 2,
             "first_name": "William",
             "id": 6,
             "minutes": 0,
-            "news": "Back injury - 75% chance of playing",
+            "news": "",
             "second_name": "Saliba",
-            "status": "d",
+            "status": "a",
             "team": 1,
             "total_points": 0,
             "web_name": "Saliba"
@@ -636249,7 +636249,7 @@
           "data_checked": true,
           "gameweek": 9,
           "gameweek_finished": true,
-          "generated_at": "2026-11-04T17:15:28.710857Z",
+          "generated_at": "2026-11-04T23:39:59.980382Z",
           "league_id": 8905,
           "recap_fingerprint": "4de7a863d1f34eba0966fae5d1ada99efff946845ea0f1d1f372582d6f264258",
           "recap_ready": true,
@@ -647391,7 +647391,7 @@
             "waiver_pick": 4
           }
         ],
-        "generated_at": "2026-11-04T17:15:28.710857Z",
+        "generated_at": "2026-11-04T23:39:59.980382Z",
         "latest_complete_gameweek": 9,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -648991,7 +648991,7 @@
           "source_available": true,
           "typed_records": 128
         },
-        "generated_at": "2026-11-04T17:15:26.289800Z",
+        "generated_at": "2026-11-04T23:39:57.218219Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -655793,7 +655793,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 9,
-        "generated_at": "2026-11-04T17:15:28.710799Z",
+        "generated_at": "2026-11-04T23:39:59.980317Z",
         "players": [
           {
             "availability_status": "a",
@@ -722558,7 +722558,7 @@
       "name": "Gameweek 9"
     },
     "gameweek": 9,
-    "generated_at": "2026-11-04T17:15:28.338314Z",
+    "generated_at": "2026-11-04T23:39:59.382518Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -722772,7 +722772,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1793812524
+      "time": 1793835595
     },
     "choices": {
       "choices": [],
@@ -730829,7 +730829,7 @@
       "current_event_finished": true,
       "next_event": 10,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -739831,7 +739831,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-04T17:15:26.291826Z",
+    "generated_at": "2026-11-04T23:39:57.220202Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -750948,7 +750948,7 @@
         "waiver_pick": 4
       }
     ],
-    "generated_at": "2026-11-04T17:15:28.710857Z",
+    "generated_at": "2026-11-04T23:39:59.980382Z",
     "latest_complete_gameweek": 9,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -750989,7 +750989,7 @@
       "source_available": true,
       "typed_records": 128
     },
-    "generated_at": "2026-11-04T17:15:26.289800Z",
+    "generated_at": "2026-11-04T23:39:57.218219Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -757791,7 +757791,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 9,
-    "generated_at": "2026-11-04T17:15:28.710799Z",
+    "generated_at": "2026-11-04T23:39:59.980317Z",
     "players": [
       {
         "availability_status": "a",
