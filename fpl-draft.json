@@ -4033,16 +4033,16 @@
         "web_name": "Lukić"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 174,
         "element_type": 3,
         "first_name": "Josh",
         "id": 268,
         "minutes": 806,
-        "news": "Groin injury - 75% chance of playing",
+        "news": "",
         "second_name": "King",
-        "status": "d",
+        "status": "a",
         "team": 10,
         "total_points": 39,
         "web_name": "King"
@@ -11761,13 +11761,13 @@
         "web_name": "Diarra"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 10,
         "club_name": "Fulham",
         "club_short_name": "FUL",
         "element_id": 268,
         "first_name": "Josh",
-        "news": "Groin injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 174,
         "position": "MID",
         "position_id": 3,
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-09T19:49:29.433074Z",
+    "generated_at": "2026-11-10T03:34:26.726946Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-09T19:49:32.443171Z",
+  "generated_at": "2026-11-10T03:34:28.669726Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -660569,16 +660569,16 @@
             "web_name": "Lukić"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 174,
             "element_type": 3,
             "first_name": "Josh",
             "id": 268,
             "minutes": 806,
-            "news": "Groin injury - 75% chance of playing",
+            "news": "",
             "second_name": "King",
-            "status": "d",
+            "status": "a",
             "team": 10,
             "total_points": 39,
             "web_name": "King"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-09T19:49:32.443171Z",
+          "generated_at": "2026-11-10T03:34:28.669726Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-09T19:49:32.443171Z",
+        "generated_at": "2026-11-10T03:34:28.669726Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-09T19:49:29.431830Z",
+        "generated_at": "2026-11-10T03:34:26.724924Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -735693,13 +735693,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 10,
               "club_name": "Fulham",
               "club_short_name": "FUL",
               "element_id": 268,
               "first_name": "Josh",
-              "news": "Groin injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 174,
               "position": "MID",
               "position_id": 3,
@@ -736396,13 +736396,13 @@
               "web_name": "Manzambi"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 10,
               "club_name": "Fulham",
               "club_short_name": "FUL",
               "element_id": 268,
               "first_name": "Josh",
-              "news": "Groin injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 174,
               "position": "MID",
               "position_id": 3,
@@ -736608,13 +736608,13 @@
               "web_name": "Bobb"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 10,
               "club_name": "Fulham",
               "club_short_name": "FUL",
               "element_id": 268,
               "first_name": "Josh",
-              "news": "Groin injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 174,
               "position": "MID",
               "position_id": 3,
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-09T19:49:32.443102Z",
+        "generated_at": "2026-11-10T03:34:28.669668Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-09T19:49:31.774663Z",
+    "generated_at": "2026-11-10T03:34:28.095401Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794253767
+      "time": 1794281665
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-09T19:49:29.433112Z",
+    "generated_at": "2026-11-10T03:34:26.727004Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -825456,13 +825456,13 @@
           "web_name": "Bobb"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 10,
           "club_name": "Fulham",
           "club_short_name": "FUL",
           "element_id": 268,
           "first_name": "Josh",
-          "news": "Groin injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 174,
           "position": "MID",
           "position_id": 3,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-09T19:49:32.443171Z",
+    "generated_at": "2026-11-10T03:34:28.669726Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-09T19:49:29.431830Z",
+    "generated_at": "2026-11-10T03:34:26.724924Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -838555,13 +838555,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 10,
           "club_name": "Fulham",
           "club_short_name": "FUL",
           "element_id": 268,
           "first_name": "Josh",
-          "news": "Groin injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 174,
           "position": "MID",
           "position_id": 3,
@@ -839258,13 +839258,13 @@
           "web_name": "Manzambi"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 10,
           "club_name": "Fulham",
           "club_short_name": "FUL",
           "element_id": 268,
           "first_name": "Josh",
-          "news": "Groin injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 174,
           "position": "MID",
           "position_id": 3,
@@ -839470,13 +839470,13 @@
           "web_name": "Bobb"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 10,
           "club_name": "Fulham",
           "club_short_name": "FUL",
           "element_id": 268,
           "first_name": "Josh",
-          "news": "Groin injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 174,
           "position": "MID",
           "position_id": 3,
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-09T19:49:32.443102Z",
+    "generated_at": "2026-11-10T03:34:28.669668Z",
     "players": [
       {
         "availability_status": "a",
