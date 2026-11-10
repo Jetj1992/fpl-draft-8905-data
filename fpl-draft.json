@@ -8293,16 +8293,16 @@
         "web_name": "N.Angulo"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 88,
         "element_type": 4,
         "first_name": "Brian",
         "id": 552,
         "minutes": 619,
-        "news": "",
+        "news": "Muscular injury - 75% chance of playing",
         "second_name": "Brobbey",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 32,
         "web_name": "Brobbey"
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-10T03:34:26.726946Z",
+    "generated_at": "2026-11-10T14:53:01.362385Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19952,7 +19952,7 @@
             "web_name": "Semenyo"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 20,
             "club_name": "Sunderland",
             "club_short_name": "SUN",
@@ -19961,7 +19961,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Brian",
             "league_entry_id": 321694,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "official_draft_rank": 88,
             "position": "FWD",
             "position_id": 4,
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-10T03:34:28.669726Z",
+  "generated_at": "2026-11-10T14:53:03.727680Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -664829,16 +664829,16 @@
             "web_name": "N.Angulo"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 88,
             "element_type": 4,
             "first_name": "Brian",
             "id": 552,
             "minutes": 619,
-            "news": "",
+            "news": "Muscular injury - 75% chance of playing",
             "second_name": "Brobbey",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 32,
             "web_name": "Brobbey"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-10T03:34:28.669726Z",
+          "generated_at": "2026-11-10T14:53:03.727680Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-10T03:34:28.669726Z",
+        "generated_at": "2026-11-10T14:53:03.727680Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-10T03:34:26.724924Z",
+        "generated_at": "2026-11-10T14:53:01.360754Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-10T03:34:28.669668Z",
+        "generated_at": "2026-11-10T14:53:03.727631Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-10T03:34:28.095401Z",
+    "generated_at": "2026-11-10T14:53:03.446184Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794281665
+      "time": 1794322379
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-10T03:34:26.727004Z",
+    "generated_at": "2026-11-10T14:53:01.362420Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-10T03:34:28.669726Z",
+    "generated_at": "2026-11-10T14:53:03.727680Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-10T03:34:26.724924Z",
+    "generated_at": "2026-11-10T14:53:01.360754Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-10T03:34:28.669668Z",
+    "generated_at": "2026-11-10T14:53:03.727631Z",
     "players": [
       {
         "availability_status": "a",
