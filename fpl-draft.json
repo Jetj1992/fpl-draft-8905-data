@@ -4303,16 +4303,16 @@
         "web_name": "McNair"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 377,
         "element_type": 3,
         "first_name": "Mohamed",
         "id": 286,
         "minutes": 685,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Belloumi",
-        "status": "a",
+        "status": "d",
         "team": 11,
         "total_points": 48,
         "web_name": "Belloumi"
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-10T14:53:01.362385Z",
+    "generated_at": "2026-11-10T21:17:56.919052Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19604,7 +19604,7 @@
             "web_name": "White"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 11,
             "club_name": "Hull City",
             "club_short_name": "HUL",
@@ -19613,7 +19613,7 @@
             "entry_name": "Senile Supersubs",
             "first_name": "Mohamed",
             "league_entry_id": 252790,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "official_draft_rank": 377,
             "position": "MID",
             "position_id": 3,
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-10T14:53:03.727680Z",
+  "generated_at": "2026-11-10T21:17:58.713254Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -660839,16 +660839,16 @@
             "web_name": "McNair"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 377,
             "element_type": 3,
             "first_name": "Mohamed",
             "id": 286,
             "minutes": 685,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Belloumi",
-            "status": "a",
+            "status": "d",
             "team": 11,
             "total_points": 48,
             "web_name": "Belloumi"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-10T14:53:03.727680Z",
+          "generated_at": "2026-11-10T21:17:58.713254Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-10T14:53:03.727680Z",
+        "generated_at": "2026-11-10T21:17:58.713254Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-10T14:53:01.360754Z",
+        "generated_at": "2026-11-10T21:17:56.917074Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -735428,13 +735428,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 11,
               "club_name": "Hull City",
               "club_short_name": "HUL",
               "element_id": 286,
               "first_name": "Mohamed",
-              "news": "",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 377,
               "position": "MID",
               "position_id": 3,
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-10T14:53:03.727631Z",
+        "generated_at": "2026-11-10T21:17:58.713198Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-10T14:53:03.446184Z",
+    "generated_at": "2026-11-10T21:17:58.493246Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794322379
+      "time": 1794345475
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-10T14:53:01.362420Z",
+    "generated_at": "2026-11-10T21:17:56.919112Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-10T14:53:03.727680Z",
+    "generated_at": "2026-11-10T21:17:58.713254Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-10T14:53:01.360754Z",
+    "generated_at": "2026-11-10T21:17:56.917074Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -838290,13 +838290,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 11,
           "club_name": "Hull City",
           "club_short_name": "HUL",
           "element_id": 286,
           "first_name": "Mohamed",
-          "news": "",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 377,
           "position": "MID",
           "position_id": 3,
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-10T14:53:03.727631Z",
+    "generated_at": "2026-11-10T21:17:58.713198Z",
     "players": [
       {
         "availability_status": "a",
