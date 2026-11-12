@@ -808,16 +808,16 @@
         "web_name": "Alysson"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 111,
         "element_type": 3,
         "first_name": "Johan",
         "id": 53,
         "minutes": 461,
-        "news": "",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Manzambi",
-        "status": "a",
+        "status": "d",
         "team": 2,
         "total_points": 40,
         "web_name": "Manzambi"
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-12T11:10:11.642299Z",
+    "generated_at": "2026-11-12T19:54:13.781513Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18340,7 +18340,7 @@
             "web_name": "Gibbs-White"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 2,
             "club_name": "Aston Villa",
             "club_short_name": "AVL",
@@ -18349,7 +18349,7 @@
             "entry_name": "AGFs Førstehold",
             "first_name": "Johan",
             "league_entry_id": 42948,
-            "news": "",
+            "news": "Calf injury - 75% chance of playing",
             "official_draft_rank": 111,
             "position": "MID",
             "position_id": 3,
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-12T11:10:13.151713Z",
+  "generated_at": "2026-11-12T19:54:15.706952Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -657344,16 +657344,16 @@
             "web_name": "Alysson"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 111,
             "element_type": 3,
             "first_name": "Johan",
             "id": 53,
             "minutes": 461,
-            "news": "",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Manzambi",
-            "status": "a",
+            "status": "d",
             "team": 2,
             "total_points": 40,
             "web_name": "Manzambi"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-12T11:10:13.151713Z",
+          "generated_at": "2026-11-12T19:54:15.706952Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-12T11:10:13.151713Z",
+        "generated_at": "2026-11-12T19:54:15.706952Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-12T11:10:11.640679Z",
+        "generated_at": "2026-11-12T19:54:13.779214Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -736382,13 +736382,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 2,
               "club_name": "Aston Villa",
               "club_short_name": "AVL",
               "element_id": 53,
               "first_name": "Johan",
-              "news": "",
+              "news": "Calf injury - 75% chance of playing",
               "official_draft_rank": 111,
               "position": "MID",
               "position_id": 3,
@@ -736435,13 +736435,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 2,
               "club_name": "Aston Villa",
               "club_short_name": "AVL",
               "element_id": 53,
               "first_name": "Johan",
-              "news": "",
+              "news": "Calf injury - 75% chance of playing",
               "official_draft_rank": 111,
               "position": "MID",
               "position_id": 3,
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-12T11:10:13.151665Z",
+        "generated_at": "2026-11-12T19:54:15.706892Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-12T11:10:12.850218Z",
+    "generated_at": "2026-11-12T19:54:15.450597Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794481811
+      "time": 1794513252
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-12T11:10:11.642332Z",
+    "generated_at": "2026-11-12T19:54:13.781558Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -825283,13 +825283,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 2,
           "club_name": "Aston Villa",
           "club_short_name": "AVL",
           "element_id": 53,
           "first_name": "Johan",
-          "news": "",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 111,
           "position": "MID",
           "position_id": 3,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-12T11:10:13.151713Z",
+    "generated_at": "2026-11-12T19:54:15.706952Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-12T11:10:11.640679Z",
+    "generated_at": "2026-11-12T19:54:13.779214Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -839244,13 +839244,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 2,
           "club_name": "Aston Villa",
           "club_short_name": "AVL",
           "element_id": 53,
           "first_name": "Johan",
-          "news": "",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 111,
           "position": "MID",
           "position_id": 3,
@@ -839297,13 +839297,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 2,
           "club_name": "Aston Villa",
           "club_short_name": "AVL",
           "element_id": 53,
           "first_name": "Johan",
-          "news": "",
+          "news": "Calf injury - 75% chance of playing",
           "official_draft_rank": 111,
           "position": "MID",
           "position_id": 3,
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-12T11:10:13.151665Z",
+    "generated_at": "2026-11-12T19:54:15.706892Z",
     "players": [
       {
         "availability_status": "a",
