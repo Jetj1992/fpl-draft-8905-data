@@ -6238,16 +6238,16 @@
         "web_name": "Heaton"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 75,
         "draft_rank": 86,
         "element_type": 3,
         "first_name": "Patrick",
         "id": 415,
         "minutes": 195,
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Dorgu",
-        "status": "a",
+        "status": "d",
         "team": 16,
         "total_points": 21,
         "web_name": "Dorgu"
@@ -10781,13 +10781,13 @@
         "web_name": "Buendía"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 415,
         "first_name": "Patrick",
-        "news": "",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 86,
         "position": "MID",
         "position_id": 3,
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-14T01:26:47.796706Z",
+    "generated_at": "2026-11-14T10:26:23.531683Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-14T01:26:49.161810Z",
+  "generated_at": "2026-11-14T10:26:25.826161Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -662774,16 +662774,16 @@
             "web_name": "Heaton"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 75,
             "draft_rank": 86,
             "element_type": 3,
             "first_name": "Patrick",
             "id": 415,
             "minutes": 195,
-            "news": "",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Dorgu",
-            "status": "a",
+            "status": "d",
             "team": 16,
             "total_points": 21,
             "web_name": "Dorgu"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-14T01:26:49.161810Z",
+          "generated_at": "2026-11-14T10:26:25.826161Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-14T01:26:49.161810Z",
+        "generated_at": "2026-11-14T10:26:25.826161Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-14T01:26:47.794941Z",
+        "generated_at": "2026-11-14T10:26:23.530501Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -732421,13 +732421,13 @@
               "web_name": "M.Sangaré"
             },
             "element_out": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 16,
               "club_name": "Man Utd",
               "club_short_name": "MUN",
               "element_id": 415,
               "first_name": "Patrick",
-              "news": "",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 86,
               "position": "MID",
               "position_id": 3,
@@ -733004,13 +733004,13 @@
               "web_name": "Elanga"
             },
             "element_out": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 16,
               "club_name": "Man Utd",
               "club_short_name": "MUN",
               "element_id": 415,
               "first_name": "Patrick",
-              "news": "",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 86,
               "position": "MID",
               "position_id": 3,
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-14T01:26:49.161753Z",
+        "generated_at": "2026-11-14T10:26:25.826118Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-14T01:26:48.836840Z",
+    "generated_at": "2026-11-14T10:26:25.432102Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794619607
+      "time": 1794651981
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-14T01:26:47.796747Z",
+    "generated_at": "2026-11-14T10:26:23.531709Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -823548,13 +823548,13 @@
           "web_name": "M.Sangaré"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 16,
           "club_name": "Man Utd",
           "club_short_name": "MUN",
           "element_id": 415,
           "first_name": "Patrick",
-          "news": "",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 86,
           "position": "MID",
           "position_id": 3,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-14T01:26:49.161810Z",
+    "generated_at": "2026-11-14T10:26:25.826161Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-14T01:26:47.794941Z",
+    "generated_at": "2026-11-14T10:26:23.530501Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -835283,13 +835283,13 @@
           "web_name": "M.Sangaré"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 16,
           "club_name": "Man Utd",
           "club_short_name": "MUN",
           "element_id": 415,
           "first_name": "Patrick",
-          "news": "",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 86,
           "position": "MID",
           "position_id": 3,
@@ -835866,13 +835866,13 @@
           "web_name": "Elanga"
         },
         "element_out": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 16,
           "club_name": "Man Utd",
           "club_short_name": "MUN",
           "element_id": 415,
           "first_name": "Patrick",
-          "news": "",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 86,
           "position": "MID",
           "position_id": 3,
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-14T01:26:49.161753Z",
+    "generated_at": "2026-11-14T10:26:25.826118Z",
     "players": [
       {
         "availability_status": "a",
