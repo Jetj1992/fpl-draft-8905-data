@@ -493,16 +493,16 @@
         "web_name": "Konsa"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 446,
         "element_type": 2,
         "first_name": "Matty",
         "id": 32,
         "minutes": 656,
-        "news": "",
+        "news": "Concussion - 75% chance of playing",
         "second_name": "Cash",
-        "status": "a",
+        "status": "d",
         "team": 2,
         "total_points": 18,
         "web_name": "Cash"
@@ -15149,13 +15149,13 @@
         "web_name": "Salia"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 32,
         "first_name": "Matty",
-        "news": "",
+        "news": "Concussion - 75% chance of playing",
         "official_draft_rank": 446,
         "position": "DEF",
         "position_id": 2,
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-15T06:31:46.022727Z",
+    "generated_at": "2026-11-15T16:21:43.882316Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-15T06:31:47.953975Z",
+  "generated_at": "2026-11-15T16:21:44.676589Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -657029,16 +657029,16 @@
             "web_name": "Konsa"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 446,
             "element_type": 2,
             "first_name": "Matty",
             "id": 32,
             "minutes": 656,
-            "news": "",
+            "news": "Concussion - 75% chance of playing",
             "second_name": "Cash",
-            "status": "a",
+            "status": "d",
             "team": 2,
             "total_points": 18,
             "web_name": "Cash"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-15T06:31:47.953975Z",
+          "generated_at": "2026-11-15T16:21:44.676589Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-15T06:31:47.953975Z",
+        "generated_at": "2026-11-15T16:21:44.676589Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-15T06:31:46.021127Z",
+        "generated_at": "2026-11-15T16:21:43.880314Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-15T06:31:47.953901Z",
+        "generated_at": "2026-11-15T16:21:44.676505Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-15T06:31:47.641605Z",
+    "generated_at": "2026-11-15T16:21:44.422708Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1794724304
+      "time": 1794759703
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-15T06:31:46.022762Z",
+    "generated_at": "2026-11-15T16:21:43.882359Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-15T06:31:47.953975Z",
+    "generated_at": "2026-11-15T16:21:44.676589Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-15T06:31:46.021127Z",
+    "generated_at": "2026-11-15T16:21:43.880314Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-15T06:31:47.953901Z",
+    "generated_at": "2026-11-15T16:21:44.676505Z",
     "players": [
       {
         "availability_status": "a",
