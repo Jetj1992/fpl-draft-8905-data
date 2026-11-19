@@ -1573,14 +1573,14 @@
         "web_name": "Dasilva"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 50,
         "draft_rank": 340,
         "element_type": 3,
         "first_name": "Frank",
         "id": 104,
         "minutes": 379,
-        "news": "Groin injury - 50% chance of playing",
+        "news": "Groin injury - 75% chance of playing",
         "second_name": "Onyeka",
         "status": "d",
         "team": 7,
@@ -2398,16 +2398,16 @@
         "web_name": "Gittens"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 75,
         "draft_rank": 143,
         "element_type": 3,
         "first_name": "Moisés",
         "id": 159,
         "minutes": 440,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Caicedo Corozo",
-        "status": "a",
+        "status": "d",
         "team": 6,
         "total_points": 14,
         "web_name": "Caicedo"
@@ -2608,14 +2608,14 @@
         "web_name": "Wilson"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 50,
         "draft_rank": 610,
         "element_type": 2,
         "first_name": "Bobby",
         "id": 173,
         "minutes": 676,
-        "news": "Calf injury - 50% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Thomas",
         "status": "d",
         "team": 7,
@@ -2803,16 +2803,16 @@
         "web_name": "Sakamoto"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 218,
         "element_type": 3,
         "first_name": "Ephron",
         "id": 186,
         "minutes": 326,
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Mason-Clark",
-        "status": "a",
+        "status": "d",
         "team": 7,
         "total_points": 10,
         "web_name": "Mason-Clark"
@@ -2915,7 +2915,7 @@
         "first_name": "Haji",
         "id": 193,
         "minutes": 0,
-        "news": "Thigh injury - Unknown return date",
+        "news": "Lack of match fitness - Unknown return date",
         "second_name": "Wright",
         "status": "i",
         "team": 7,
@@ -4978,16 +4978,16 @@
         "web_name": "Bogle"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 466,
         "element_type": 2,
         "first_name": "Gabriel",
         "id": 331,
         "minutes": 631,
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "",
         "second_name": "Gudmundsson",
-        "status": "d",
+        "status": "a",
         "team": 13,
         "total_points": 28,
         "web_name": "Gudmundsson"
@@ -5038,16 +5038,16 @@
         "web_name": "Muharemović"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 72,
         "element_type": 3,
         "first_name": "Anton",
         "id": 335,
         "minutes": 676,
-        "news": "Foot injury - 50% chance of playing",
+        "news": "",
         "second_name": "Stach",
-        "status": "d",
+        "status": "a",
         "team": 13,
         "total_points": 33,
         "web_name": "Stach"
@@ -7243,16 +7243,16 @@
         "web_name": "Anderson"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 92,
         "element_type": 3,
         "first_name": "Callum",
         "id": 482,
         "minutes": 45,
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "second_name": "Hudson-Odoi",
-        "status": "a",
+        "status": "i",
         "team": 18,
         "total_points": 4,
         "web_name": "Hudson-Odoi"
@@ -8173,16 +8173,16 @@
         "web_name": "Diarra"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 134,
         "element_type": 3,
         "first_name": "Granit",
         "id": 544,
         "minutes": 813,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "Calf injury - Unknown return date",
         "second_name": "Xhaka",
-        "status": "d",
+        "status": "i",
         "team": 20,
         "total_points": 33,
         "web_name": "Xhaka"
@@ -8293,16 +8293,16 @@
         "web_name": "N.Angulo"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 88,
         "element_type": 4,
         "first_name": "Brian",
         "id": 552,
         "minutes": 619,
-        "news": "Muscular injury - 75% chance of playing",
+        "news": "Muscular injury - Unknown return date",
         "second_name": "Brobbey",
-        "status": "d",
+        "status": "i",
         "team": 20,
         "total_points": 32,
         "web_name": "Brobbey"
@@ -8623,16 +8623,16 @@
         "web_name": "Sanchez"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 415,
         "element_type": 3,
         "first_name": "Caleb",
         "id": 574,
         "minutes": 647,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Yirenkyi",
-        "status": "a",
+        "status": "d",
         "team": 7,
         "total_points": 19,
         "web_name": "Yirenkyi"
@@ -10627,13 +10627,13 @@
         "web_name": "Gravenberch"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 13,
         "club_name": "Leeds",
         "club_short_name": "LEE",
         "element_id": 335,
         "first_name": "Anton",
-        "news": "Foot injury - 50% chance of playing",
+        "news": "",
         "official_draft_rank": 72,
         "position": "MID",
         "position_id": 3,
@@ -10851,13 +10851,13 @@
         "web_name": "Amad"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 18,
         "club_name": "Nott'm Forest",
         "club_short_name": "NFO",
         "element_id": 482,
         "first_name": "Callum",
-        "news": "",
+        "news": "Unspecified injury - Unknown return date",
         "official_draft_rank": 92,
         "position": "MID",
         "position_id": 3,
@@ -11341,13 +11341,13 @@
         "web_name": "Aaronson"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 544,
         "first_name": "Granit",
-        "news": "Calf injury - 75% chance of playing",
+        "news": "Calf injury - Unknown return date",
         "official_draft_rank": 134,
         "position": "MID",
         "position_id": 3,
@@ -11425,13 +11425,13 @@
         "web_name": "Wharton"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 159,
         "first_name": "Moisés",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 143,
         "position": "MID",
         "position_id": 3,
@@ -12307,13 +12307,13 @@
         "web_name": "Quenda"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 186,
         "first_name": "Ephron",
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 218,
         "position": "MID",
         "position_id": 3,
@@ -12355,7 +12355,7 @@
         "club_short_name": "COV",
         "element_id": 193,
         "first_name": "Haji",
-        "news": "Thigh injury - Unknown return date",
+        "news": "Lack of match fitness - Unknown return date",
         "official_draft_rank": 221,
         "position": "FWD",
         "position_id": 4,
@@ -13797,7 +13797,7 @@
         "club_short_name": "COV",
         "element_id": 104,
         "first_name": "Frank",
-        "news": "Groin injury - 50% chance of playing",
+        "news": "Groin injury - 75% chance of playing",
         "official_draft_rank": 340,
         "position": "MID",
         "position_id": 3,
@@ -14771,13 +14771,13 @@
         "web_name": "J.Angulo"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 574,
         "first_name": "Caleb",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 415,
         "position": "MID",
         "position_id": 3,
@@ -15331,13 +15331,13 @@
         "web_name": "Darlow"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 13,
         "club_name": "Leeds",
         "club_short_name": "LEE",
         "element_id": 331,
         "first_name": "Gabriel",
-        "news": "Hamstring injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 466,
         "position": "DEF",
         "position_id": 2,
@@ -17283,7 +17283,7 @@
         "club_short_name": "COV",
         "element_id": 173,
         "first_name": "Bobby",
-        "news": "Calf injury - 50% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "official_draft_rank": 610,
         "position": "DEF",
         "position_id": 2,
@@ -18159,7 +18159,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-19T11:40:07.249744Z",
+    "generated_at": "2026-11-19T20:37:32.552247Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -19952,7 +19952,7 @@
             "web_name": "Semenyo"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 20,
             "club_name": "Sunderland",
             "club_short_name": "SUN",
@@ -19961,7 +19961,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Brian",
             "league_entry_id": 321694,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "Muscular injury - Unknown return date",
             "official_draft_rank": 88,
             "position": "FWD",
             "position_id": 4,
@@ -29051,8 +29051,8 @@
       },
       {
         "data_checked": false,
-        "deadline_time": "2027-01-16T13:30:00Z",
-        "deadline_time_epoch": 1800106200,
+        "deadline_time": "2027-01-16T11:00:00Z",
+        "deadline_time_epoch": 1800097200,
         "finished": false,
         "id": 21,
         "is_current": false,
@@ -29073,8 +29073,8 @@
       },
       {
         "data_checked": false,
-        "deadline_time": "2027-01-30T13:30:00Z",
-        "deadline_time_epoch": 1801315800,
+        "deadline_time": "2027-01-30T11:00:00Z",
+        "deadline_time_epoch": 1801306800,
         "finished": false,
         "id": 23,
         "is_current": false,
@@ -29351,7 +29351,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-19T11:40:09.765059Z",
+  "generated_at": "2026-11-19T20:37:35.121794Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -658109,14 +658109,14 @@
             "web_name": "Dasilva"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 50,
             "draft_rank": 340,
             "element_type": 3,
             "first_name": "Frank",
             "id": 104,
             "minutes": 379,
-            "news": "Groin injury - 50% chance of playing",
+            "news": "Groin injury - 75% chance of playing",
             "second_name": "Onyeka",
             "status": "d",
             "team": 7,
@@ -658934,16 +658934,16 @@
             "web_name": "Gittens"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 75,
             "draft_rank": 143,
             "element_type": 3,
             "first_name": "Moisés",
             "id": 159,
             "minutes": 440,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Caicedo Corozo",
-            "status": "a",
+            "status": "d",
             "team": 6,
             "total_points": 14,
             "web_name": "Caicedo"
@@ -659144,14 +659144,14 @@
             "web_name": "Wilson"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 50,
             "draft_rank": 610,
             "element_type": 2,
             "first_name": "Bobby",
             "id": 173,
             "minutes": 676,
-            "news": "Calf injury - 50% chance of playing",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Thomas",
             "status": "d",
             "team": 7,
@@ -659339,16 +659339,16 @@
             "web_name": "Sakamoto"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 218,
             "element_type": 3,
             "first_name": "Ephron",
             "id": 186,
             "minutes": 326,
-            "news": "",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Mason-Clark",
-            "status": "a",
+            "status": "d",
             "team": 7,
             "total_points": 10,
             "web_name": "Mason-Clark"
@@ -659451,7 +659451,7 @@
             "first_name": "Haji",
             "id": 193,
             "minutes": 0,
-            "news": "Thigh injury - Unknown return date",
+            "news": "Lack of match fitness - Unknown return date",
             "second_name": "Wright",
             "status": "i",
             "team": 7,
@@ -661514,16 +661514,16 @@
             "web_name": "Bogle"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 466,
             "element_type": 2,
             "first_name": "Gabriel",
             "id": 331,
             "minutes": 631,
-            "news": "Hamstring injury - 75% chance of playing",
+            "news": "",
             "second_name": "Gudmundsson",
-            "status": "d",
+            "status": "a",
             "team": 13,
             "total_points": 28,
             "web_name": "Gudmundsson"
@@ -661574,16 +661574,16 @@
             "web_name": "Muharemović"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 72,
             "element_type": 3,
             "first_name": "Anton",
             "id": 335,
             "minutes": 676,
-            "news": "Foot injury - 50% chance of playing",
+            "news": "",
             "second_name": "Stach",
-            "status": "d",
+            "status": "a",
             "team": 13,
             "total_points": 33,
             "web_name": "Stach"
@@ -663779,16 +663779,16 @@
             "web_name": "Anderson"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 92,
             "element_type": 3,
             "first_name": "Callum",
             "id": 482,
             "minutes": 45,
-            "news": "",
+            "news": "Unspecified injury - Unknown return date",
             "second_name": "Hudson-Odoi",
-            "status": "a",
+            "status": "i",
             "team": 18,
             "total_points": 4,
             "web_name": "Hudson-Odoi"
@@ -664709,16 +664709,16 @@
             "web_name": "Diarra"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 134,
             "element_type": 3,
             "first_name": "Granit",
             "id": 544,
             "minutes": 813,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "Calf injury - Unknown return date",
             "second_name": "Xhaka",
-            "status": "d",
+            "status": "i",
             "team": 20,
             "total_points": 33,
             "web_name": "Xhaka"
@@ -664829,16 +664829,16 @@
             "web_name": "N.Angulo"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 88,
             "element_type": 4,
             "first_name": "Brian",
             "id": 552,
             "minutes": 619,
-            "news": "Muscular injury - 75% chance of playing",
+            "news": "Muscular injury - Unknown return date",
             "second_name": "Brobbey",
-            "status": "d",
+            "status": "i",
             "team": 20,
             "total_points": 32,
             "web_name": "Brobbey"
@@ -665159,16 +665159,16 @@
             "web_name": "Sanchez"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 415,
             "element_type": 3,
             "first_name": "Caleb",
             "id": 574,
             "minutes": 647,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Yirenkyi",
-            "status": "a",
+            "status": "d",
             "team": 7,
             "total_points": 19,
             "web_name": "Yirenkyi"
@@ -718839,7 +718839,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-19T11:40:09.765059Z",
+          "generated_at": "2026-11-19T20:37:35.121794Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -729894,7 +729894,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-19T11:40:09.765059Z",
+        "generated_at": "2026-11-19T20:37:35.121794Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731554,7 +731554,7 @@
           "source_available": true,
           "typed_records": 133
         },
-        "generated_at": "2026-11-19T11:40:07.248566Z",
+        "generated_at": "2026-11-19T20:37:32.550935Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -733467,13 +733467,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 335,
               "first_name": "Anton",
-              "news": "Foot injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 72,
               "position": "MID",
               "position_id": 3,
@@ -736488,13 +736488,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 335,
               "first_name": "Anton",
-              "news": "Foot injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 72,
               "position": "MID",
               "position_id": 3,
@@ -737283,13 +737283,13 @@
           },
           {
             "element_in": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 335,
               "first_name": "Anton",
-              "news": "Foot injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 72,
               "position": "MID",
               "position_id": 3,
@@ -737615,13 +737615,13 @@
               "web_name": "Ndoye"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 335,
               "first_name": "Anton",
-              "news": "Foot injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 72,
               "position": "MID",
               "position_id": 3,
@@ -738621,7 +738621,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-19T11:40:09.765010Z",
+        "generated_at": "2026-11-19T20:37:35.121750Z",
         "players": [
           {
             "availability_status": "a",
@@ -805630,7 +805630,7 @@
       "name": "Gameweek 10"
     },
     "gameweek": 10,
-    "generated_at": "2026-11-19T11:40:09.344317Z",
+    "generated_at": "2026-11-19T20:37:34.596638Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 321694,
@@ -805805,7 +805805,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795088404
+      "time": 1795120650
     },
     "choices": {
       "choices": [],
@@ -823103,7 +823103,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-19T11:40:07.249771Z",
+    "generated_at": "2026-11-19T20:37:32.552282Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -824117,13 +824117,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -825336,13 +825336,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -834375,7 +834375,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-19T11:40:09.765059Z",
+    "generated_at": "2026-11-19T20:37:35.121794Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834416,7 +834416,7 @@
       "source_available": true,
       "typed_records": 133
     },
-    "generated_at": "2026-11-19T11:40:07.248566Z",
+    "generated_at": "2026-11-19T20:37:32.550935Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -836329,13 +836329,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -839350,13 +839350,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -840145,13 +840145,13 @@
       },
       {
         "element_in": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -840477,13 +840477,13 @@
           "web_name": "Ndoye"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 335,
           "first_name": "Anton",
-          "news": "Foot injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 72,
           "position": "MID",
           "position_id": 3,
@@ -841483,7 +841483,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-19T11:40:09.765010Z",
+    "generated_at": "2026-11-19T20:37:35.121750Z",
     "players": [
       {
         "availability_status": "a",
