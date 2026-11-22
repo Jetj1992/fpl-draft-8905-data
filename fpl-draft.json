@@ -219,7 +219,7 @@
         "second_name": "Rice",
         "status": "a",
         "team": 1,
-        "total_points": 51,
+        "total_points": 53,
         "web_name": "Rice"
       },
       {
@@ -4595,7 +4595,7 @@
         "first_name": "Leif",
         "id": 305,
         "minutes": 982,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "second_name": "Davis",
         "status": "d",
         "team": 12,
@@ -6065,7 +6065,7 @@
         "first_name": "Sávio",
         "id": 403,
         "minutes": 355,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Hamstring injury - 75% chance of playing",
         "second_name": "Moreira de Oliveira",
         "status": "d",
         "team": 19,
@@ -7400,7 +7400,7 @@
         "first_name": "Taiwo",
         "id": 492,
         "minutes": 487,
-        "news": "Leg injury - 75% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Awoniyi",
         "status": "d",
         "team": 7,
@@ -10495,7 +10495,7 @@
         "club_short_name": "TOT",
         "element_id": 403,
         "first_name": "Sávio",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Hamstring injury - 75% chance of playing",
         "official_draft_rank": 51,
         "position": "MID",
         "position_id": 3,
@@ -11951,7 +11951,7 @@
         "club_short_name": "COV",
         "element_id": 492,
         "first_name": "Taiwo",
-        "news": "Leg injury - 75% chance of playing",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 188,
         "position": "FWD",
         "position_id": 4,
@@ -17775,7 +17775,7 @@
         "club_short_name": "IPS",
         "element_id": 305,
         "first_name": "Leif",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "Calf injury - 75% chance of playing",
         "official_draft_rank": 643,
         "position": "DEF",
         "position_id": 2,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-22T01:18:54.830219Z",
+    "generated_at": "2026-11-22T11:25:07.222597Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-22T01:18:57.628292Z",
+  "generated_at": "2026-11-22T11:25:11.221308Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -656813,7 +656813,7 @@
             "second_name": "Rice",
             "status": "a",
             "team": 1,
-            "total_points": 51,
+            "total_points": 53,
             "web_name": "Rice"
           },
           {
@@ -661189,7 +661189,7 @@
             "first_name": "Leif",
             "id": 305,
             "minutes": 982,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Calf injury - 75% chance of playing",
             "second_name": "Davis",
             "status": "d",
             "team": 12,
@@ -662659,7 +662659,7 @@
             "first_name": "Sávio",
             "id": 403,
             "minutes": 355,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "Hamstring injury - 75% chance of playing",
             "second_name": "Moreira de Oliveira",
             "status": "d",
             "team": 19,
@@ -663994,7 +663994,7 @@
             "first_name": "Taiwo",
             "id": 492,
             "minutes": 487,
-            "news": "Leg injury - 75% chance of playing",
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Awoniyi",
             "status": "d",
             "team": 7,
@@ -718951,7 +718951,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-22T01:18:57.628292Z",
+          "generated_at": "2026-11-22T11:25:11.221308Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -724130,11 +724130,11 @@
                     "a": [
                       {
                         "element": 14,
-                        "value": 34
+                        "value": 35
                       },
                       {
                         "element": 16,
-                        "value": 29
+                        "value": 32
                       },
                       {
                         "element": 15,
@@ -724146,22 +724146,22 @@
                       },
                       {
                         "element": 31,
-                        "value": 13
+                        "value": 15
                       },
                       {
                         "element": 13,
                         "value": 12
                       },
                       {
-                        "element": 4,
-                        "value": 6
-                      },
-                      {
                         "element": 5,
-                        "value": 6
+                        "value": 8
                       },
                       {
                         "element": 1,
+                        "value": 5
+                      },
+                      {
+                        "element": 4,
                         "value": 5
                       },
                       {
@@ -724204,7 +724204,7 @@
                       },
                       {
                         "element": 465,
-                        "value": 19
+                        "value": 18
                       },
                       {
                         "element": 460,
@@ -724231,16 +724231,16 @@
                         "value": 3
                       },
                       {
+                        "element": 450,
+                        "value": 3
+                      },
+                      {
                         "element": 454,
                         "value": 3
                       },
                       {
                         "element": 457,
                         "value": 3
-                      },
-                      {
-                        "element": 450,
-                        "value": 2
                       },
                       {
                         "element": 462,
@@ -724251,8 +724251,12 @@
                         "value": 2
                       },
                       {
+                        "element": 449,
+                        "value": -1
+                      },
+                      {
                         "element": 593,
-                        "value": -3
+                        "value": -4
                       }
                     ],
                     "identifier": "bps"
@@ -724261,10 +724265,14 @@
                     "a": [
                       {
                         "element": 13,
-                        "value": 11
+                        "value": 12
                       },
                       {
                         "element": 16,
+                        "value": 9
+                      },
+                      {
+                        "element": 31,
                         "value": 7
                       },
                       {
@@ -724273,10 +724281,6 @@
                       },
                       {
                         "element": 26,
-                        "value": 6
-                      },
-                      {
-                        "element": 31,
                         "value": 6
                       },
                       {
@@ -724292,15 +724296,15 @@
                         "value": 4
                       },
                       {
+                        "element": 15,
+                        "value": 4
+                      },
+                      {
                         "element": 557,
                         "value": 4
                       },
                       {
                         "element": 7,
-                        "value": 3
-                      },
-                      {
-                        "element": 15,
                         "value": 3
                       },
                       {
@@ -729045,7 +729049,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-22T01:18:57.628292Z",
+        "generated_at": "2026-11-22T11:25:11.221308Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -730753,7 +730757,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-22T01:18:54.828515Z",
+        "generated_at": "2026-11-22T11:25:07.221408Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -732845,7 +732849,7 @@
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -734262,7 +734266,7 @@
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -734368,7 +734372,7 @@
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -734965,7 +734969,7 @@
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -735018,7 +735022,7 @@
               "club_short_name": "TOT",
               "element_id": 403,
               "first_name": "Sávio",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "Hamstring injury - 75% chance of playing",
               "official_draft_rank": 51,
               "position": "MID",
               "position_id": 3,
@@ -738032,7 +738036,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-22T01:18:57.628243Z",
+        "generated_at": "2026-11-22T11:25:11.221265Z",
         "players": [
           {
             "availability_status": "a",
@@ -805041,7 +805045,7 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-22T01:18:56.759450Z",
+    "generated_at": "2026-11-22T11:25:09.878725Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 42948,
@@ -805083,12 +805087,12 @@
       },
       {
         "current_leader_entry_id": 252790,
-        "current_margin": 6,
+        "current_margin": 8,
         "entry_1_id": 252790,
         "entry_1_name": "Senile Supersubs",
         "entry_1_remaining_players": 5,
         "entry_1_remaining_starters": 3,
-        "entry_1_score": 12,
+        "entry_1_score": 14,
         "entry_2_id": 321694,
         "entry_2_name": "La Liga es la mejor",
         "entry_2_remaining_players": 8,
@@ -805104,12 +805108,12 @@
     "key_matchups": [
       {
         "current_leader_entry_id": 252790,
-        "current_margin": 6,
+        "current_margin": 8,
         "entry_1_id": 252790,
         "entry_1_name": "Senile Supersubs",
         "entry_1_remaining_players": 5,
         "entry_1_remaining_starters": 3,
-        "entry_1_score": 12,
+        "entry_1_score": 14,
         "entry_2_id": 321694,
         "entry_2_name": "La Liga es la mejor",
         "entry_2_remaining_players": 8,
@@ -805161,7 +805165,7 @@
       }
     ],
     "league_average_match": {
-      "current_margin": 27.333333333333332,
+      "current_margin": 27.0,
       "current_result": "win",
       "entry_id": 138748,
       "entry_name": "Jyllands Rubin",
@@ -805170,7 +805174,7 @@
       "gameweek": 11,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 23.666666666666668,
+      "opponent_average": 24.0,
       "opponent_average_source_entry_ids": [
         42948,
         138487,
@@ -806194,7 +806198,7 @@
         "entry_id": 250589,
         "entry_name": "Senile Supersubs",
         "league_entry_id": 252790,
-        "live_score": 12,
+        "live_score": 14,
         "remaining_player_count": 5,
         "remaining_players": [
           {
@@ -806759,7 +806763,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795310332
+      "time": 1795346705
     },
     "choices": {
       "choices": [],
@@ -822622,11 +822626,11 @@
             "a": [
               {
                 "element": 14,
-                "value": 34
+                "value": 35
               },
               {
                 "element": 16,
-                "value": 29
+                "value": 32
               },
               {
                 "element": 15,
@@ -822638,22 +822642,22 @@
               },
               {
                 "element": 31,
-                "value": 13
+                "value": 15
               },
               {
                 "element": 13,
                 "value": 12
               },
               {
-                "element": 4,
-                "value": 6
-              },
-              {
                 "element": 5,
-                "value": 6
+                "value": 8
               },
               {
                 "element": 1,
+                "value": 5
+              },
+              {
+                "element": 4,
                 "value": 5
               },
               {
@@ -822696,7 +822700,7 @@
               },
               {
                 "element": 465,
-                "value": 19
+                "value": 18
               },
               {
                 "element": 460,
@@ -822723,16 +822727,16 @@
                 "value": 3
               },
               {
+                "element": 450,
+                "value": 3
+              },
+              {
                 "element": 454,
                 "value": 3
               },
               {
                 "element": 457,
                 "value": 3
-              },
-              {
-                "element": 450,
-                "value": 2
               },
               {
                 "element": 462,
@@ -822743,8 +822747,12 @@
                 "value": 2
               },
               {
+                "element": 449,
+                "value": -1
+              },
+              {
                 "element": 593,
-                "value": -3
+                "value": -4
               }
             ],
             "identifier": "bps"
@@ -822753,10 +822761,14 @@
             "a": [
               {
                 "element": 13,
-                "value": 11
+                "value": 12
               },
               {
                 "element": 16,
+                "value": 9
+              },
+              {
+                "element": 31,
                 "value": 7
               },
               {
@@ -822765,10 +822777,6 @@
               },
               {
                 "element": 26,
-                "value": 6
-              },
-              {
-                "element": 31,
                 "value": 6
               },
               {
@@ -822784,15 +822792,15 @@
                 "value": 4
               },
               {
+                "element": 15,
+                "value": 4
+              },
+              {
                 "element": 557,
                 "value": 4
               },
               {
                 "element": 7,
-                "value": 3
-              },
-              {
-                "element": 15,
                 "value": 3
               },
               {
@@ -823120,7 +823128,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-22T01:18:54.830252Z",
+    "generated_at": "2026-11-22T11:25:07.222654Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -824882,7 +824890,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -825161,7 +825169,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -828515,11 +828523,11 @@
                 "a": [
                   {
                     "element": 14,
-                    "value": 34
+                    "value": 35
                   },
                   {
                     "element": 16,
-                    "value": 29
+                    "value": 32
                   },
                   {
                     "element": 15,
@@ -828531,22 +828539,22 @@
                   },
                   {
                     "element": 31,
-                    "value": 13
+                    "value": 15
                   },
                   {
                     "element": 13,
                     "value": 12
                   },
                   {
-                    "element": 4,
-                    "value": 6
-                  },
-                  {
                     "element": 5,
-                    "value": 6
+                    "value": 8
                   },
                   {
                     "element": 1,
+                    "value": 5
+                  },
+                  {
+                    "element": 4,
                     "value": 5
                   },
                   {
@@ -828589,7 +828597,7 @@
                   },
                   {
                     "element": 465,
-                    "value": 19
+                    "value": 18
                   },
                   {
                     "element": 460,
@@ -828616,16 +828624,16 @@
                     "value": 3
                   },
                   {
+                    "element": 450,
+                    "value": 3
+                  },
+                  {
                     "element": 454,
                     "value": 3
                   },
                   {
                     "element": 457,
                     "value": 3
-                  },
-                  {
-                    "element": 450,
-                    "value": 2
                   },
                   {
                     "element": 462,
@@ -828636,8 +828644,12 @@
                     "value": 2
                   },
                   {
+                    "element": 449,
+                    "value": -1
+                  },
+                  {
                     "element": 593,
-                    "value": -3
+                    "value": -4
                   }
                 ],
                 "identifier": "bps"
@@ -828646,10 +828658,14 @@
                 "a": [
                   {
                     "element": 13,
-                    "value": 11
+                    "value": 12
                   },
                   {
                     "element": 16,
+                    "value": 9
+                  },
+                  {
+                    "element": 31,
                     "value": 7
                   },
                   {
@@ -828658,10 +828674,6 @@
                   },
                   {
                     "element": 26,
-                    "value": 6
-                  },
-                  {
-                    "element": 31,
                     "value": 6
                   },
                   {
@@ -828677,15 +828689,15 @@
                     "value": 4
                   },
                   {
+                    "element": 15,
+                    "value": 4
+                  },
+                  {
                     "element": 557,
                     "value": 4
                   },
                   {
                     "element": 7,
-                    "value": 3
-                  },
-                  {
-                    "element": 15,
                     "value": 3
                   },
                   {
@@ -833431,7 +833443,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-22T01:18:57.628292Z",
+    "generated_at": "2026-11-22T11:25:11.221308Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -833472,7 +833484,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-22T01:18:54.828515Z",
+    "generated_at": "2026-11-22T11:25:07.221408Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -835564,7 +835576,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -836981,7 +836993,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -837087,7 +837099,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -837684,7 +837696,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -837737,7 +837749,7 @@
           "club_short_name": "TOT",
           "element_id": 403,
           "first_name": "Sávio",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "Hamstring injury - 75% chance of playing",
           "official_draft_rank": 51,
           "position": "MID",
           "position_id": 3,
@@ -840751,7 +840763,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-22T01:18:57.628243Z",
+    "generated_at": "2026-11-22T11:25:11.221265Z",
     "players": [
       {
         "availability_status": "a",
