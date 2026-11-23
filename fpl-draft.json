@@ -493,16 +493,16 @@
         "web_name": "Konsa"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 0,
         "draft_rank": 447,
         "element_type": 2,
         "first_name": "Matty",
         "id": 32,
         "minutes": 656,
-        "news": "Concussion - Expected back 28 Nov",
+        "news": "Concussion - 75% chance of playing",
         "second_name": "Cash",
-        "status": "i",
+        "status": "d",
         "team": 2,
         "total_points": 18,
         "web_name": "Cash"
@@ -5113,16 +5113,16 @@
         "web_name": "Longstaff"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 392,
         "element_type": 3,
         "first_name": "Joe",
         "id": 340,
         "minutes": 128,
-        "news": "",
+        "news": "Thigh injury - Unknown return date",
         "second_name": "Gelhardt",
-        "status": "a",
+        "status": "i",
         "team": 11,
         "total_points": 13,
         "web_name": "Gelhardt"
@@ -5848,16 +5848,16 @@
         "web_name": "Guéhi"
       },
       {
-        "chance_of_playing_next_round": 50,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 50,
         "draft_rank": 66,
         "element_type": 2,
         "first_name": "Matheus",
         "id": 389,
         "minutes": 513,
-        "news": "Unspecified injury - 50% chance of playing",
+        "news": "",
         "second_name": "Nunes",
-        "status": "d",
+        "status": "a",
         "team": 15,
         "total_points": 22,
         "web_name": "Matheus N."
@@ -7509,7 +7509,7 @@
         "second_name": "Porro Sauceda",
         "status": "a",
         "team": 19,
-        "total_points": 28,
+        "total_points": 27,
         "web_name": "Pedro Porro"
       },
       {
@@ -9084,7 +9084,7 @@
         "second_name": "Williams-Barnett",
         "status": "a",
         "team": 19,
-        "total_points": 14,
+        "total_points": 15,
         "web_name": "Williams-Barnett"
       },
       {
@@ -10629,13 +10629,13 @@
         "web_name": "Allan"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 15,
         "club_name": "Man City",
         "club_short_name": "MCI",
         "element_id": 389,
         "first_name": "Matheus",
-        "news": "Unspecified injury - 50% chance of playing",
+        "news": "",
         "official_draft_rank": 66,
         "position": "DEF",
         "position_id": 2,
@@ -14507,13 +14507,13 @@
         "web_name": "Mehmeti"
       },
       {
-        "availability_status": "a",
+        "availability_status": "i",
         "club_id": 11,
         "club_name": "Hull City",
         "club_short_name": "HUL",
         "element_id": 340,
         "first_name": "Joe",
-        "news": "",
+        "news": "Thigh injury - Unknown return date",
         "official_draft_rank": 392,
         "position": "MID",
         "position_id": 3,
@@ -15179,13 +15179,13 @@
         "web_name": "Salia"
       },
       {
-        "availability_status": "i",
+        "availability_status": "d",
         "club_id": 2,
         "club_name": "Aston Villa",
         "club_short_name": "AVL",
         "element_id": 32,
         "first_name": "Matty",
-        "news": "Concussion - Expected back 28 Nov",
+        "news": "Concussion - 75% chance of playing",
         "official_draft_rank": 447,
         "position": "DEF",
         "position_id": 2,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-23T01:43:44.286695Z",
+    "generated_at": "2026-11-23T12:40:44.506838Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-23T01:43:50.206201Z",
+  "generated_at": "2026-11-23T12:40:46.367440Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -657087,16 +657087,16 @@
             "web_name": "Konsa"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 0,
             "draft_rank": 447,
             "element_type": 2,
             "first_name": "Matty",
             "id": 32,
             "minutes": 656,
-            "news": "Concussion - Expected back 28 Nov",
+            "news": "Concussion - 75% chance of playing",
             "second_name": "Cash",
-            "status": "i",
+            "status": "d",
             "team": 2,
             "total_points": 18,
             "web_name": "Cash"
@@ -661707,16 +661707,16 @@
             "web_name": "Longstaff"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 392,
             "element_type": 3,
             "first_name": "Joe",
             "id": 340,
             "minutes": 128,
-            "news": "",
+            "news": "Thigh injury - Unknown return date",
             "second_name": "Gelhardt",
-            "status": "a",
+            "status": "i",
             "team": 11,
             "total_points": 13,
             "web_name": "Gelhardt"
@@ -662442,16 +662442,16 @@
             "web_name": "Guéhi"
           },
           {
-            "chance_of_playing_next_round": 50,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 50,
             "draft_rank": 66,
             "element_type": 2,
             "first_name": "Matheus",
             "id": 389,
             "minutes": 513,
-            "news": "Unspecified injury - 50% chance of playing",
+            "news": "",
             "second_name": "Nunes",
-            "status": "d",
+            "status": "a",
             "team": 15,
             "total_points": 22,
             "web_name": "Matheus N."
@@ -664103,7 +664103,7 @@
             "second_name": "Porro Sauceda",
             "status": "a",
             "team": 19,
-            "total_points": 28,
+            "total_points": 27,
             "web_name": "Pedro Porro"
           },
           {
@@ -665678,7 +665678,7 @@
             "second_name": "Williams-Barnett",
             "status": "a",
             "team": 19,
-            "total_points": 14,
+            "total_points": 15,
             "web_name": "Williams-Barnett"
           },
           {
@@ -718951,7 +718951,7 @@
           "data_checked": true,
           "gameweek": 10,
           "gameweek_finished": true,
-          "generated_at": "2026-11-23T01:43:50.206201Z",
+          "generated_at": "2026-11-23T12:40:46.367440Z",
           "league_id": 8905,
           "recap_fingerprint": "bb22ebe36c348c7d178dbab46cd720427229d5c9dcd2e90eb490fc234f042cf1",
           "recap_ready": true,
@@ -723700,7 +723700,7 @@
                     "a": [
                       {
                         "element": 300,
-                        "value": 8
+                        "value": 7
                       }
                     ],
                     "h": [
@@ -723715,11 +723715,11 @@
                     "a": [],
                     "h": [
                       {
-                        "element": 499,
+                        "element": 601,
                         "value": 3
                       },
                       {
-                        "element": 601,
+                        "element": 499,
                         "value": 2
                       },
                       {
@@ -723732,12 +723732,12 @@
                   {
                     "a": [
                       {
-                        "element": 300,
-                        "value": 25
-                      },
-                      {
                         "element": 267,
                         "value": 23
+                      },
+                      {
+                        "element": 300,
+                        "value": 22
                       },
                       {
                         "element": 591,
@@ -723794,12 +723794,12 @@
                     ],
                     "h": [
                       {
-                        "element": 499,
-                        "value": 44
+                        "element": 601,
+                        "value": 45
                       },
                       {
-                        "element": 601,
-                        "value": 43
+                        "element": 499,
+                        "value": 44
                       },
                       {
                         "element": 526,
@@ -723807,7 +723807,7 @@
                       },
                       {
                         "element": 498,
-                        "value": 34
+                        "value": 33
                       },
                       {
                         "element": 496,
@@ -729765,7 +729765,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-23T01:43:50.206201Z",
+        "generated_at": "2026-11-23T12:40:46.367440Z",
         "latest_complete_gameweek": 10,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -731473,7 +731473,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-23T01:43:44.284669Z",
+        "generated_at": "2026-11-23T12:40:44.504779Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -735520,13 +735520,13 @@
               "web_name": "Vuskovic"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 389,
               "first_name": "Matheus",
-              "news": "Unspecified injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 66,
               "position": "DEF",
               "position_id": 2,
@@ -735573,13 +735573,13 @@
               "web_name": "Bogle"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 389,
               "first_name": "Matheus",
-              "news": "Unspecified injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 66,
               "position": "DEF",
               "position_id": 2,
@@ -737269,13 +737269,13 @@
               "web_name": "Silva"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 389,
               "first_name": "Matheus",
-              "news": "Unspecified injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 66,
               "position": "DEF",
               "position_id": 2,
@@ -737322,13 +737322,13 @@
               "web_name": "Muharemović"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 15,
               "club_name": "Man City",
               "club_short_name": "MCI",
               "element_id": 389,
               "first_name": "Matheus",
-              "news": "Unspecified injury - 50% chance of playing",
+              "news": "",
               "official_draft_rank": 66,
               "position": "DEF",
               "position_id": 2,
@@ -738752,7 +738752,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 10,
-        "generated_at": "2026-11-23T01:43:50.206140Z",
+        "generated_at": "2026-11-23T12:40:46.367383Z",
         "players": [
           {
             "availability_status": "a",
@@ -805761,16 +805761,16 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-23T01:43:49.027501Z",
+    "generated_at": "2026-11-23T12:40:45.646692Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
-        "current_margin": 4,
+        "current_margin": 5,
         "entry_1_id": 42948,
         "entry_1_name": "AGFs Førstehold",
         "entry_1_remaining_players": 2,
         "entry_1_remaining_starters": 1,
-        "entry_1_score": 44,
+        "entry_1_score": 43,
         "entry_2_id": 138520,
         "entry_2_name": "Grove Løjer",
         "entry_2_remaining_players": 2,
@@ -805824,12 +805824,12 @@
     "key_matchups": [
       {
         "current_leader_entry_id": 138520,
-        "current_margin": 4,
+        "current_margin": 5,
         "entry_1_id": 42948,
         "entry_1_name": "AGFs Førstehold",
         "entry_1_remaining_players": 2,
         "entry_1_remaining_starters": 1,
-        "entry_1_score": 44,
+        "entry_1_score": 43,
         "entry_2_id": 138520,
         "entry_2_name": "Grove Løjer",
         "entry_2_remaining_players": 2,
@@ -805881,7 +805881,7 @@
       }
     ],
     "league_average_match": {
-      "current_margin": 29.333333333333336,
+      "current_margin": 29.5,
       "current_result": "win",
       "entry_id": 138748,
       "entry_name": "Jyllands Rubin",
@@ -805890,7 +805890,7 @@
       "gameweek": 11,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 39.666666666666664,
+      "opponent_average": 39.5,
       "opponent_average_source_entry_ids": [
         42948,
         138487,
@@ -805907,7 +805907,7 @@
         "entry_id": 42888,
         "entry_name": "AGFs Førstehold",
         "league_entry_id": 42948,
-        "live_score": 44,
+        "live_score": 43,
         "remaining_player_count": 2,
         "remaining_players": [
           {
@@ -806373,7 +806373,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795398222
+      "time": 1795437643
     },
     "choices": {
       "choices": [],
@@ -821806,7 +821806,7 @@
             "a": [
               {
                 "element": 300,
-                "value": 8
+                "value": 7
               }
             ],
             "h": [
@@ -821821,11 +821821,11 @@
             "a": [],
             "h": [
               {
-                "element": 499,
+                "element": 601,
                 "value": 3
               },
               {
-                "element": 601,
+                "element": 499,
                 "value": 2
               },
               {
@@ -821838,12 +821838,12 @@
           {
             "a": [
               {
-                "element": 300,
-                "value": 25
-              },
-              {
                 "element": 267,
                 "value": 23
+              },
+              {
+                "element": 300,
+                "value": 22
               },
               {
                 "element": 591,
@@ -821900,12 +821900,12 @@
             ],
             "h": [
               {
-                "element": 499,
-                "value": 44
+                "element": 601,
+                "value": 45
               },
               {
-                "element": 601,
-                "value": 43
+                "element": 499,
+                "value": 44
               },
               {
                 "element": 526,
@@ -821913,7 +821913,7 @@
               },
               {
                 "element": 498,
-                "value": 34
+                "value": 33
               },
               {
                 "element": 496,
@@ -823454,7 +823454,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-23T01:43:44.286751Z",
+    "generated_at": "2026-11-23T12:40:44.506887Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -825383,13 +825383,13 @@
           "web_name": "Vuskovic"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -825436,13 +825436,13 @@
           "web_name": "Bogle"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -826125,13 +826125,13 @@
           "web_name": "Muharemović"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -828419,7 +828419,7 @@
                 "a": [
                   {
                     "element": 300,
-                    "value": 8
+                    "value": 7
                   }
                 ],
                 "h": [
@@ -828434,11 +828434,11 @@
                 "a": [],
                 "h": [
                   {
-                    "element": 499,
+                    "element": 601,
                     "value": 3
                   },
                   {
-                    "element": 601,
+                    "element": 499,
                     "value": 2
                   },
                   {
@@ -828451,12 +828451,12 @@
               {
                 "a": [
                   {
-                    "element": 300,
-                    "value": 25
-                  },
-                  {
                     "element": 267,
                     "value": 23
+                  },
+                  {
+                    "element": 300,
+                    "value": 22
                   },
                   {
                     "element": 591,
@@ -828513,12 +828513,12 @@
                 ],
                 "h": [
                   {
-                    "element": 499,
-                    "value": 44
+                    "element": 601,
+                    "value": 45
                   },
                   {
-                    "element": 601,
-                    "value": 43
+                    "element": 499,
+                    "value": 44
                   },
                   {
                     "element": 526,
@@ -828526,7 +828526,7 @@
                   },
                   {
                     "element": 498,
-                    "value": 34
+                    "value": 33
                   },
                   {
                     "element": 496,
@@ -834485,7 +834485,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-23T01:43:50.206201Z",
+    "generated_at": "2026-11-23T12:40:46.367440Z",
     "latest_complete_gameweek": 10,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -834526,7 +834526,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-23T01:43:44.284669Z",
+    "generated_at": "2026-11-23T12:40:44.504779Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -838573,13 +838573,13 @@
           "web_name": "Vuskovic"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -838626,13 +838626,13 @@
           "web_name": "Bogle"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -840322,13 +840322,13 @@
           "web_name": "Silva"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -840375,13 +840375,13 @@
           "web_name": "Muharemović"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 15,
           "club_name": "Man City",
           "club_short_name": "MCI",
           "element_id": 389,
           "first_name": "Matheus",
-          "news": "Unspecified injury - 50% chance of playing",
+          "news": "",
           "official_draft_rank": 66,
           "position": "DEF",
           "position_id": 2,
@@ -841805,7 +841805,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 10,
-    "generated_at": "2026-11-23T01:43:50.206140Z",
+    "generated_at": "2026-11-23T12:40:46.367383Z",
     "players": [
       {
         "availability_status": "a",
