@@ -6313,16 +6313,16 @@
         "web_name": "Martinez"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": null,
         "draft_rank": 306,
         "element_type": 2,
         "first_name": "Leny",
         "id": 420,
         "minutes": 447,
-        "news": "Suspended until 2 Dec",
+        "news": "",
         "second_name": "Yoro",
-        "status": "s",
+        "status": "a",
         "team": 16,
         "total_points": 9,
         "web_name": "Yoro"
@@ -13345,13 +13345,13 @@
         "web_name": "Gruev"
       },
       {
-        "availability_status": "s",
+        "availability_status": "a",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 420,
         "first_name": "Leny",
-        "news": "Suspended until 2 Dec",
+        "news": "",
         "official_draft_rank": 306,
         "position": "DEF",
         "position_id": 2,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-24T13:43:20.153636Z",
+    "generated_at": "2026-11-24T23:53:53.391175Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -28998,10 +28998,10 @@
         "name": "Gameweek 10"
       },
       {
-        "data_checked": false,
+        "data_checked": true,
         "deadline_time": "2026-11-21T11:00:00Z",
         "deadline_time_epoch": 1795258800,
-        "finished": false,
+        "finished": true,
         "id": 11,
         "is_current": true,
         "is_next": false,
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-24T13:43:23.036298Z",
+  "generated_at": "2026-11-24T23:53:54.673654Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -745529,16 +745529,16 @@
             "web_name": "Martinez"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": null,
             "draft_rank": 306,
             "element_type": 2,
             "first_name": "Leny",
             "id": 420,
             "minutes": 447,
-            "news": "Suspended until 2 Dec",
+            "news": "",
             "second_name": "Yoro",
-            "status": "s",
+            "status": "a",
             "team": 16,
             "total_points": 9,
             "web_name": "Yoro"
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-24T13:43:23.036298Z",
+          "generated_at": "2026-11-24T23:53:54.673654Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -804518,10 +804518,10 @@
               }
             ],
             "event": {
-              "data_checked": false,
+              "data_checked": true,
               "deadline_time": "2026-11-21T11:00:00Z",
               "deadline_time_epoch": 1795258800,
-              "finished": false,
+              "finished": true,
               "id": 11,
               "is_current": true,
               "is_next": false,
@@ -812799,7 +812799,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-24T13:43:23.036298Z",
+        "generated_at": "2026-11-24T23:53:54.673654Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -812807,7 +812807,7 @@
           "available": true,
           "gameweek": 11,
           "key_matchups": 1,
-          "status": "in_progress"
+          "status": "finished"
         },
         "next_deadline": {
           "deadline_time_copenhagen": "2026-11-27T19:30:00+01:00",
@@ -814507,7 +814507,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-24T13:43:20.151462Z",
+        "generated_at": "2026-11-24T23:53:53.389823Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -821786,7 +821786,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-24T13:43:23.036232Z",
+        "generated_at": "2026-11-24T23:53:54.673591Z",
         "players": [
           {
             "availability_status": "a",
@@ -889008,12 +889008,12 @@
     },
     "event": {
       "deadline_time": "2026-11-21T11:00:00Z",
-      "finished": false,
+      "finished": true,
       "is_current": true,
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-24T13:43:22.880824Z",
+    "generated_at": "2026-11-24T23:53:54.509485Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
@@ -889196,7 +889196,7 @@
       }
     ],
     "schema_version": 1,
-    "status": "in_progress"
+    "status": "finished"
   },
   "optional_endpoints": {
     "bootstrap_dynamic": {
@@ -889208,7 +889208,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795527797
+      "time": 1795564432
     },
     "choices": {
       "choices": [],
@@ -906632,7 +906632,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-24T13:43:20.153692Z",
+    "generated_at": "2026-11-24T23:53:53.391208Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -909676,10 +909676,10 @@
           }
         ],
         "event": {
-          "data_checked": false,
+          "data_checked": true,
           "deadline_time": "2026-11-21T11:00:00Z",
           "deadline_time_epoch": 1795258800,
-          "finished": false,
+          "finished": true,
           "id": 11,
           "is_current": true,
           "is_next": false,
@@ -917958,7 +917958,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-24T13:43:23.036298Z",
+    "generated_at": "2026-11-24T23:53:54.673654Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -917966,7 +917966,7 @@
       "available": true,
       "gameweek": 11,
       "key_matchups": 1,
-      "status": "in_progress"
+      "status": "finished"
     },
     "next_deadline": {
       "deadline_time_copenhagen": "2026-11-27T19:30:00+01:00",
@@ -917999,7 +917999,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-24T13:43:20.151462Z",
+    "generated_at": "2026-11-24T23:53:53.389823Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -925278,7 +925278,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-24T13:43:23.036232Z",
+    "generated_at": "2026-11-24T23:53:54.673591Z",
     "players": [
       {
         "availability_status": "a",
