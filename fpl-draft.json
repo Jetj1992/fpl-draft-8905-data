@@ -1723,16 +1723,16 @@
         "web_name": "F.Kadıoğlu"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 481,
         "element_type": 2,
         "first_name": "Olivier",
         "id": 114,
         "minutes": 848,
-        "news": "",
+        "news": "Illness - 75% chance of playing",
         "second_name": "Boscagli",
-        "status": "a",
+        "status": "d",
         "team": 5,
         "total_points": 51,
         "web_name": "Boscagli"
@@ -5518,16 +5518,16 @@
         "web_name": "Wirtz"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 27,
         "element_type": 3,
         "first_name": "Cody",
         "id": 367,
         "minutes": 601,
-        "news": "Calf injury - 75% chance of playing",
+        "news": "Calf injury - Expected back 2 Dec",
         "second_name": "Gakpo",
-        "status": "d",
+        "status": "i",
         "team": 14,
         "total_points": 40,
         "web_name": "Gakpo"
@@ -5578,16 +5578,16 @@
         "web_name": "Chiesa"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 75,
         "draft_rank": 68,
         "element_type": 3,
         "first_name": "Ryan",
         "id": 371,
         "minutes": 341,
-        "news": "Foot injury - 75% chance of playing",
+        "news": "Foot injury - Unknown return date",
         "second_name": "Gravenberch",
-        "status": "d",
+        "status": "i",
         "team": 14,
         "total_points": 11,
         "web_name": "Gravenberch"
@@ -7243,16 +7243,16 @@
         "web_name": "Anderson"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 92,
         "element_type": 3,
         "first_name": "Callum",
         "id": 482,
         "minutes": 45,
-        "news": "Unspecified injury - Unknown return date",
+        "news": "",
         "second_name": "Hudson-Odoi",
-        "status": "i",
+        "status": "a",
         "team": 18,
         "total_points": 4,
         "web_name": "Hudson-Odoi"
@@ -10657,13 +10657,13 @@
         "web_name": "E.Le Fée"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 14,
         "club_name": "Liverpool",
         "club_short_name": "LIV",
         "element_id": 371,
         "first_name": "Ryan",
-        "news": "Foot injury - 75% chance of playing",
+        "news": "Foot injury - Unknown return date",
         "official_draft_rank": 68,
         "position": "MID",
         "position_id": 3,
@@ -10895,13 +10895,13 @@
         "web_name": "Amad"
       },
       {
-        "availability_status": "i",
+        "availability_status": "a",
         "club_id": 18,
         "club_name": "Nott'm Forest",
         "club_short_name": "NFO",
         "element_id": 482,
         "first_name": "Callum",
-        "news": "Unspecified injury - Unknown return date",
+        "news": "",
         "official_draft_rank": 92,
         "position": "MID",
         "position_id": 3,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-25T08:34:26.198727Z",
+    "generated_at": "2026-11-25T19:15:51.911340Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18805,7 +18805,7 @@
             "web_name": "Araujo"
           },
           {
-            "availability_status": "a",
+            "availability_status": "d",
             "club_id": 5,
             "club_name": "Brighton",
             "club_short_name": "BHA",
@@ -18814,7 +18814,7 @@
             "entry_name": "Grove Løjer",
             "first_name": "Olivier",
             "league_entry_id": 138520,
-            "news": "",
+            "news": "Illness - 75% chance of playing",
             "official_draft_rank": 481,
             "position": "DEF",
             "position_id": 2,
@@ -19959,7 +19959,7 @@
             "web_name": "Cunha"
           },
           {
-            "availability_status": "d",
+            "availability_status": "i",
             "club_id": 14,
             "club_name": "Liverpool",
             "club_short_name": "LIV",
@@ -19968,7 +19968,7 @@
             "entry_name": "La Liga es la mejor",
             "first_name": "Cody",
             "league_entry_id": 321694,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "Calf injury - Expected back 2 Dec",
             "official_draft_rank": 27,
             "position": "MID",
             "position_id": 3,
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-25T08:34:28.858361Z",
+  "generated_at": "2026-11-25T19:15:53.455401Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -740939,16 +740939,16 @@
             "web_name": "F.Kadıoğlu"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 481,
             "element_type": 2,
             "first_name": "Olivier",
             "id": 114,
             "minutes": 848,
-            "news": "",
+            "news": "Illness - 75% chance of playing",
             "second_name": "Boscagli",
-            "status": "a",
+            "status": "d",
             "team": 5,
             "total_points": 51,
             "web_name": "Boscagli"
@@ -744734,16 +744734,16 @@
             "web_name": "Wirtz"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 27,
             "element_type": 3,
             "first_name": "Cody",
             "id": 367,
             "minutes": 601,
-            "news": "Calf injury - 75% chance of playing",
+            "news": "Calf injury - Expected back 2 Dec",
             "second_name": "Gakpo",
-            "status": "d",
+            "status": "i",
             "team": 14,
             "total_points": 40,
             "web_name": "Gakpo"
@@ -744794,16 +744794,16 @@
             "web_name": "Chiesa"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 75,
             "draft_rank": 68,
             "element_type": 3,
             "first_name": "Ryan",
             "id": 371,
             "minutes": 341,
-            "news": "Foot injury - 75% chance of playing",
+            "news": "Foot injury - Unknown return date",
             "second_name": "Gravenberch",
-            "status": "d",
+            "status": "i",
             "team": 14,
             "total_points": 11,
             "web_name": "Gravenberch"
@@ -746459,16 +746459,16 @@
             "web_name": "Anderson"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 92,
             "element_type": 3,
             "first_name": "Callum",
             "id": 482,
             "minutes": 45,
-            "news": "Unspecified injury - Unknown return date",
+            "news": "",
             "second_name": "Hudson-Odoi",
-            "status": "i",
+            "status": "a",
             "team": 18,
             "total_points": 4,
             "web_name": "Hudson-Odoi"
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-25T08:34:28.858361Z",
+          "generated_at": "2026-11-25T19:15:53.455401Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -812799,7 +812799,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-25T08:34:28.858361Z",
+        "generated_at": "2026-11-25T19:15:53.455401Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -814507,7 +814507,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-25T08:34:26.197510Z",
+        "generated_at": "2026-11-25T19:15:51.908314Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -815851,13 +815851,13 @@
               "web_name": "Barcola"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "i",
               "club_id": 14,
               "club_name": "Liverpool",
               "club_short_name": "LIV",
               "element_id": 371,
               "first_name": "Ryan",
-              "news": "Foot injury - 75% chance of playing",
+              "news": "Foot injury - Unknown return date",
               "official_draft_rank": 68,
               "position": "MID",
               "position_id": 3,
@@ -815904,13 +815904,13 @@
               "web_name": "Grealish"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "i",
               "club_id": 14,
               "club_name": "Liverpool",
               "club_short_name": "LIV",
               "element_id": 371,
               "first_name": "Ryan",
-              "news": "Foot injury - 75% chance of playing",
+              "news": "Foot injury - Unknown return date",
               "official_draft_rank": 68,
               "position": "MID",
               "position_id": 3,
@@ -818805,13 +818805,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "d",
               "club_id": 5,
               "club_name": "Brighton",
               "club_short_name": "BHA",
               "element_id": 114,
               "first_name": "Olivier",
-              "news": "",
+              "news": "Illness - 75% chance of playing",
               "official_draft_rank": 481,
               "position": "DEF",
               "position_id": 2,
@@ -821786,7 +821786,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-25T08:34:28.858329Z",
+        "generated_at": "2026-11-25T19:15:53.455343Z",
         "players": [
           {
             "availability_status": "a",
@@ -889013,7 +889013,7 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-25T08:34:28.239155Z",
+    "generated_at": "2026-11-25T19:15:53.014790Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
@@ -889208,7 +889208,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795595663
+      "time": 1795634151
     },
     "choices": {
       "choices": [],
@@ -897313,7 +897313,7 @@
       "current_event_finished": true,
       "next_event": 12,
       "processing_status": "n",
-      "trades_time_for_approval": true,
+      "trades_time_for_approval": false,
       "waivers_processed": false
     },
     "trades": {
@@ -906632,7 +906632,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-25T08:34:26.198752Z",
+    "generated_at": "2026-11-25T19:15:51.911402Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -907342,13 +907342,13 @@
           "web_name": "Barcola"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 14,
           "club_name": "Liverpool",
           "club_short_name": "LIV",
           "element_id": 371,
           "first_name": "Ryan",
-          "news": "Foot injury - 75% chance of playing",
+          "news": "Foot injury - Unknown return date",
           "official_draft_rank": 68,
           "position": "MID",
           "position_id": 3,
@@ -917958,7 +917958,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-25T08:34:28.858361Z",
+    "generated_at": "2026-11-25T19:15:53.455401Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -917999,7 +917999,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-25T08:34:26.197510Z",
+    "generated_at": "2026-11-25T19:15:51.908314Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -919343,13 +919343,13 @@
           "web_name": "Barcola"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 14,
           "club_name": "Liverpool",
           "club_short_name": "LIV",
           "element_id": 371,
           "first_name": "Ryan",
-          "news": "Foot injury - 75% chance of playing",
+          "news": "Foot injury - Unknown return date",
           "official_draft_rank": 68,
           "position": "MID",
           "position_id": 3,
@@ -919396,13 +919396,13 @@
           "web_name": "Grealish"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "i",
           "club_id": 14,
           "club_name": "Liverpool",
           "club_short_name": "LIV",
           "element_id": 371,
           "first_name": "Ryan",
-          "news": "Foot injury - 75% chance of playing",
+          "news": "Foot injury - Unknown return date",
           "official_draft_rank": 68,
           "position": "MID",
           "position_id": 3,
@@ -922297,13 +922297,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "d",
           "club_id": 5,
           "club_name": "Brighton",
           "club_short_name": "BHA",
           "element_id": 114,
           "first_name": "Olivier",
-          "news": "",
+          "news": "Illness - 75% chance of playing",
           "official_draft_rank": 481,
           "position": "DEF",
           "position_id": 2,
@@ -925278,7 +925278,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-25T08:34:28.858329Z",
+    "generated_at": "2026-11-25T19:15:53.455343Z",
     "players": [
       {
         "availability_status": "a",
