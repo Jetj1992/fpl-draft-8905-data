@@ -2398,16 +2398,16 @@
         "web_name": "Gittens"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 100,
         "draft_rank": 143,
         "element_type": 3,
         "first_name": "Moisés",
         "id": 159,
         "minutes": 461,
-        "news": "Back injury - 75% chance of playing",
+        "news": "",
         "second_name": "Caicedo Corozo",
-        "status": "d",
+        "status": "a",
         "team": 6,
         "total_points": 15,
         "web_name": "Caicedo"
@@ -7393,16 +7393,16 @@
         "web_name": "Igor Jesus"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": 100,
         "draft_rank": 188,
         "element_type": 4,
         "first_name": "Taiwo",
         "id": 492,
         "minutes": 487,
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "Ankle injury - Unknown return date",
         "second_name": "Awoniyi",
-        "status": "d",
+        "status": "i",
         "team": 7,
         "total_points": 21,
         "web_name": "Awoniyi"
@@ -11455,13 +11455,13 @@
         "web_name": "Wharton"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 6,
         "club_name": "Chelsea",
         "club_short_name": "CHE",
         "element_id": 159,
         "first_name": "Moisés",
-        "news": "Back injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 143,
         "position": "MID",
         "position_id": 3,
@@ -11945,13 +11945,13 @@
         "web_name": "Gallagher"
       },
       {
-        "availability_status": "d",
+        "availability_status": "i",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 492,
         "first_name": "Taiwo",
-        "news": "Ankle injury - 75% chance of playing",
+        "news": "Ankle injury - Unknown return date",
         "official_draft_rank": 188,
         "position": "FWD",
         "position_id": 4,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-26T03:34:16.852875Z",
+    "generated_at": "2026-11-26T16:54:16.487480Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-26T03:34:19.177747Z",
+  "generated_at": "2026-11-26T16:54:19.058460Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -741614,16 +741614,16 @@
             "web_name": "Gittens"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 100,
             "draft_rank": 143,
             "element_type": 3,
             "first_name": "Moisés",
             "id": 159,
             "minutes": 461,
-            "news": "Back injury - 75% chance of playing",
+            "news": "",
             "second_name": "Caicedo Corozo",
-            "status": "d",
+            "status": "a",
             "team": 6,
             "total_points": 15,
             "web_name": "Caicedo"
@@ -746609,16 +746609,16 @@
             "web_name": "Igor Jesus"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": 100,
             "draft_rank": 188,
             "element_type": 4,
             "first_name": "Taiwo",
             "id": 492,
             "minutes": 487,
-            "news": "Ankle injury - 75% chance of playing",
+            "news": "Ankle injury - Unknown return date",
             "second_name": "Awoniyi",
-            "status": "d",
+            "status": "i",
             "team": 7,
             "total_points": 21,
             "web_name": "Awoniyi"
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-26T03:34:19.177747Z",
+          "generated_at": "2026-11-26T16:54:19.058460Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -812799,7 +812799,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-26T03:34:19.177747Z",
+        "generated_at": "2026-11-26T16:54:19.058460Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -814507,7 +814507,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-26T03:34:16.850601Z",
+        "generated_at": "2026-11-26T16:54:16.486211Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -821786,7 +821786,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-26T03:34:19.177674Z",
+        "generated_at": "2026-11-26T16:54:19.058408Z",
         "players": [
           {
             "availability_status": "a",
@@ -889013,7 +889013,7 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-26T03:34:18.767471Z",
+    "generated_at": "2026-11-26T16:54:18.511069Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
@@ -889208,7 +889208,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795664054
+      "time": 1795712054
     },
     "choices": {
       "choices": [],
@@ -906632,7 +906632,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-26T03:34:16.852931Z",
+    "generated_at": "2026-11-26T16:54:16.487506Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -917958,7 +917958,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-26T03:34:19.177747Z",
+    "generated_at": "2026-11-26T16:54:19.058460Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -917999,7 +917999,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-26T03:34:16.850601Z",
+    "generated_at": "2026-11-26T16:54:16.486211Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -925278,7 +925278,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-26T03:34:19.177674Z",
+    "generated_at": "2026-11-26T16:54:19.058408Z",
     "players": [
       {
         "availability_status": "a",
