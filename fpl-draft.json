@@ -4888,16 +4888,16 @@
         "web_name": "Mehmeti"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 466,
         "element_type": 1,
         "first_name": "Karl",
         "id": 325,
         "minutes": 0,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Darlow",
-        "status": "d",
+        "status": "a",
         "team": 16,
         "total_points": 0,
         "web_name": "Darlow"
@@ -5668,16 +5668,16 @@
         "web_name": "Bajcetic"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 54,
         "element_type": 3,
         "first_name": "Victor",
         "id": 377,
         "minutes": 473,
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "second_name": "Munoz",
-        "status": "a",
+        "status": "d",
         "team": 14,
         "total_points": 33,
         "web_name": "Munoz"
@@ -6358,16 +6358,16 @@
         "web_name": "Mazraoui"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 449,
         "element_type": 2,
         "first_name": "Luke",
         "id": 423,
         "minutes": 425,
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "second_name": "Shaw",
-        "status": "d",
+        "status": "a",
         "team": 16,
         "total_points": 12,
         "web_name": "Shaw"
@@ -10517,13 +10517,13 @@
         "web_name": "Maddison"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 14,
         "club_name": "Liverpool",
         "club_short_name": "LIV",
         "element_id": 377,
         "first_name": "Victor",
-        "news": "",
+        "news": "Knee injury - 75% chance of playing",
         "official_draft_rank": 54,
         "position": "MID",
         "position_id": 3,
@@ -15193,13 +15193,13 @@
         "web_name": "Cash"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 423,
         "first_name": "Luke",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 449,
         "position": "DEF",
         "position_id": 2,
@@ -15333,13 +15333,13 @@
         "web_name": "Reinildo"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 16,
         "club_name": "Man Utd",
         "club_short_name": "MUN",
         "element_id": 325,
         "first_name": "Karl",
-        "news": "Unspecified injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 466,
         "position": "GKP",
         "position_id": 1,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-25T19:15:51.911340Z",
+    "generated_at": "2026-11-26T03:34:16.852875Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-25T19:15:53.455401Z",
+  "generated_at": "2026-11-26T03:34:19.177747Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -744104,16 +744104,16 @@
             "web_name": "Mehmeti"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 466,
             "element_type": 1,
             "first_name": "Karl",
             "id": 325,
             "minutes": 0,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Darlow",
-            "status": "d",
+            "status": "a",
             "team": 16,
             "total_points": 0,
             "web_name": "Darlow"
@@ -744884,16 +744884,16 @@
             "web_name": "Bajcetic"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 54,
             "element_type": 3,
             "first_name": "Victor",
             "id": 377,
             "minutes": 473,
-            "news": "",
+            "news": "Knee injury - 75% chance of playing",
             "second_name": "Munoz",
-            "status": "a",
+            "status": "d",
             "team": 14,
             "total_points": 33,
             "web_name": "Munoz"
@@ -745574,16 +745574,16 @@
             "web_name": "Mazraoui"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 449,
             "element_type": 2,
             "first_name": "Luke",
             "id": 423,
             "minutes": 425,
-            "news": "Unspecified injury - 75% chance of playing",
+            "news": "",
             "second_name": "Shaw",
-            "status": "d",
+            "status": "a",
             "team": 16,
             "total_points": 12,
             "web_name": "Shaw"
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-25T19:15:53.455401Z",
+          "generated_at": "2026-11-26T03:34:19.177747Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -812799,7 +812799,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-25T19:15:53.455401Z",
+        "generated_at": "2026-11-26T03:34:19.177747Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -814507,7 +814507,7 @@
           "source_available": true,
           "typed_records": 137
         },
-        "generated_at": "2026-11-25T19:15:51.908314Z",
+        "generated_at": "2026-11-26T03:34:16.850601Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -821522,13 +821522,13 @@
               "web_name": "Robertson"
             },
             "element_out": {
-              "availability_status": "d",
+              "availability_status": "a",
               "club_id": 16,
               "club_name": "Man Utd",
               "club_short_name": "MUN",
               "element_id": 423,
               "first_name": "Luke",
-              "news": "Unspecified injury - 75% chance of playing",
+              "news": "",
               "official_draft_rank": 449,
               "position": "DEF",
               "position_id": 2,
@@ -821786,7 +821786,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-25T19:15:53.455343Z",
+        "generated_at": "2026-11-26T03:34:19.177674Z",
         "players": [
           {
             "availability_status": "a",
@@ -889013,7 +889013,7 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-25T19:15:53.014790Z",
+    "generated_at": "2026-11-26T03:34:18.767471Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
@@ -889208,7 +889208,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795634151
+      "time": 1795664054
     },
     "choices": {
       "choices": [],
@@ -906632,7 +906632,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-25T19:15:51.911402Z",
+    "generated_at": "2026-11-26T03:34:16.852931Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -917958,7 +917958,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-25T19:15:53.455401Z",
+    "generated_at": "2026-11-26T03:34:19.177747Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -917999,7 +917999,7 @@
       "source_available": true,
       "typed_records": 137
     },
-    "generated_at": "2026-11-25T19:15:51.908314Z",
+    "generated_at": "2026-11-26T03:34:16.850601Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -925014,13 +925014,13 @@
           "web_name": "Robertson"
         },
         "element_out": {
-          "availability_status": "d",
+          "availability_status": "a",
           "club_id": 16,
           "club_name": "Man Utd",
           "club_short_name": "MUN",
           "element_id": 423,
           "first_name": "Luke",
-          "news": "Unspecified injury - 75% chance of playing",
+          "news": "",
           "official_draft_rank": 449,
           "position": "DEF",
           "position_id": 2,
@@ -925278,7 +925278,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-25T19:15:53.455343Z",
+    "generated_at": "2026-11-26T03:34:19.177674Z",
     "players": [
       {
         "availability_status": "a",
