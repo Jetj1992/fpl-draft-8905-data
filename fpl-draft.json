@@ -1505,7 +1505,7 @@
         "first_name": "Antoni",
         "id": 99,
         "minutes": 0,
-        "news": "Knee injury - Unknown return date",
+        "news": "Lack of match fitness - Expected back 5 Dec",
         "second_name": "Milambo",
         "status": "i",
         "team": 4,
@@ -1565,7 +1565,7 @@
         "first_name": "Josh",
         "id": 103,
         "minutes": 0,
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Lack of match fitness - Expected back 5 Dec",
         "second_name": "Dasilva",
         "status": "i",
         "team": 4,
@@ -8038,16 +8038,16 @@
         "web_name": "Hume"
       },
       {
-        "chance_of_playing_next_round": 100,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": 100,
         "draft_rank": 254,
         "element_type": 2,
         "first_name": "Omar",
         "id": 535,
         "minutes": 209,
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "second_name": "Alderete",
-        "status": "a",
+        "status": "d",
         "team": 20,
         "total_points": 1,
         "web_name": "Alderete"
@@ -10265,20 +10265,6 @@
         "web_name": "Haaland"
       },
       {
-        "availability_status": "a",
-        "club_id": 18,
-        "club_name": "Nott'm Forest",
-        "club_short_name": "NFO",
-        "element_id": 480,
-        "first_name": "Morgan",
-        "news": "",
-        "official_draft_rank": 9,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Gibbs-White",
-        "web_name": "Gibbs-White"
-      },
-      {
         "availability_status": "u",
         "club_id": 2,
         "club_name": "Aston Villa",
@@ -10319,6 +10305,34 @@
         "position_id": 3,
         "second_name": "Doku",
         "web_name": "Doku"
+      },
+      {
+        "availability_status": "d",
+        "club_id": 3,
+        "club_name": "Bournemouth",
+        "club_short_name": "BOU",
+        "element_id": 78,
+        "first_name": "Junior",
+        "news": "Illness - 75% chance of playing",
+        "official_draft_rank": 22,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Kroupi",
+        "web_name": "Kroupi.Jr"
+      },
+      {
+        "availability_status": "a",
+        "club_id": 15,
+        "club_name": "Man City",
+        "club_short_name": "MCI",
+        "element_id": 155,
+        "first_name": "Enzo",
+        "news": "",
+        "official_draft_rank": 25,
+        "position": "MID",
+        "position_id": 3,
+        "second_name": "Fernández",
+        "web_name": "Enzo"
       },
       {
         "availability_status": "i",
@@ -11047,20 +11061,6 @@
         "position_id": 3,
         "second_name": "Elanga",
         "web_name": "Elanga"
-      },
-      {
-        "availability_status": "a",
-        "club_id": 14,
-        "club_name": "Liverpool",
-        "club_short_name": "LIV",
-        "element_id": 369,
-        "first_name": "Rio",
-        "news": "",
-        "official_draft_rank": 104,
-        "position": "MID",
-        "position_id": 3,
-        "second_name": "Ngumoha",
-        "web_name": "Ngumoha"
       },
       {
         "availability_status": "a",
@@ -12673,13 +12673,13 @@
         "web_name": "Richards"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 20,
         "club_name": "Sunderland",
         "club_short_name": "SUN",
         "element_id": 535,
         "first_name": "Omar",
-        "news": "",
+        "news": "Unspecified injury - 75% chance of playing",
         "official_draft_rank": 254,
         "position": "DEF",
         "position_id": 2,
@@ -14051,7 +14051,7 @@
         "club_short_name": "BRE",
         "element_id": 103,
         "first_name": "Josh",
-        "news": "Hamstring injury - Unknown return date",
+        "news": "Lack of match fitness - Expected back 5 Dec",
         "official_draft_rank": 357,
         "position": "MID",
         "position_id": 3,
@@ -14065,7 +14065,7 @@
         "club_short_name": "BRE",
         "element_id": 99,
         "first_name": "Antoni",
-        "news": "Knee injury - Unknown return date",
+        "news": "Lack of match fitness - Expected back 5 Dec",
         "official_draft_rank": 358,
         "position": "MID",
         "position_id": 3,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-27T01:44:33.492598Z",
+    "generated_at": "2026-11-27T12:20:14.836549Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18908,37 +18908,20 @@
           },
           {
             "availability_status": "a",
-            "club_id": 15,
-            "club_name": "Man City",
-            "club_short_name": "MCI",
-            "element_id": 155,
+            "club_id": 18,
+            "club_name": "Nott'm Forest",
+            "club_short_name": "NFO",
+            "element_id": 480,
             "entry_id": 137912,
             "entry_name": "Grove Løjer",
-            "first_name": "Enzo",
+            "first_name": "Morgan",
             "league_entry_id": 138520,
             "news": "",
-            "official_draft_rank": 25,
+            "official_draft_rank": 9,
             "position": "MID",
             "position_id": 3,
-            "second_name": "Fernández",
-            "web_name": "Enzo"
-          },
-          {
-            "availability_status": "d",
-            "club_id": 3,
-            "club_name": "Bournemouth",
-            "club_short_name": "BOU",
-            "element_id": 78,
-            "entry_id": 137912,
-            "entry_name": "Grove Løjer",
-            "first_name": "Junior",
-            "league_entry_id": 138520,
-            "news": "Illness - 75% chance of playing",
-            "official_draft_rank": 22,
-            "position": "MID",
-            "position_id": 3,
-            "second_name": "Kroupi",
-            "web_name": "Kroupi.Jr"
+            "second_name": "Gibbs-White",
+            "web_name": "Gibbs-White"
           },
           {
             "availability_status": "a",
@@ -18956,6 +18939,23 @@
             "position_id": 3,
             "second_name": "Kudus",
             "web_name": "Kudus"
+          },
+          {
+            "availability_status": "a",
+            "club_id": 14,
+            "club_name": "Liverpool",
+            "club_short_name": "LIV",
+            "element_id": 369,
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "first_name": "Rio",
+            "league_entry_id": 138520,
+            "news": "",
+            "official_draft_rank": 104,
+            "position": "MID",
+            "position_id": 3,
+            "second_name": "Ngumoha",
+            "web_name": "Ngumoha"
           },
           {
             "availability_status": "a",
@@ -28790,8 +28790,8 @@
         "region_code_short": "DK",
         "region_name": "Denmark",
         "started_event": 1,
-        "transactions_event": 0,
-        "transactions_total": 16
+        "transactions_event": 2,
+        "transactions_total": 18
       }
     },
     "138032": {
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-27T01:44:35.164991Z",
+  "generated_at": "2026-11-27T12:20:16.930702Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -740721,7 +740721,7 @@
             "first_name": "Antoni",
             "id": 99,
             "minutes": 0,
-            "news": "Knee injury - Unknown return date",
+            "news": "Lack of match fitness - Expected back 5 Dec",
             "second_name": "Milambo",
             "status": "i",
             "team": 4,
@@ -740781,7 +740781,7 @@
             "first_name": "Josh",
             "id": 103,
             "minutes": 0,
-            "news": "Hamstring injury - Unknown return date",
+            "news": "Lack of match fitness - Expected back 5 Dec",
             "second_name": "Dasilva",
             "status": "i",
             "team": 4,
@@ -747254,16 +747254,16 @@
             "web_name": "Hume"
           },
           {
-            "chance_of_playing_next_round": 100,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": 100,
             "draft_rank": 254,
             "element_type": 2,
             "first_name": "Omar",
             "id": 535,
             "minutes": 209,
-            "news": "",
+            "news": "Unspecified injury - 75% chance of playing",
             "second_name": "Alderete",
-            "status": "a",
+            "status": "d",
             "team": 20,
             "total_points": 1,
             "web_name": "Alderete"
@@ -750368,12 +750368,6 @@
             "status": "a"
           },
           {
-            "element": 480,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 317,
             "in_accepted_trade": false,
             "owner": null,
@@ -752102,12 +752096,6 @@
             "status": "a"
           },
           {
-            "element": 369,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 76,
             "in_accepted_trade": false,
             "owner": null,
@@ -752864,7 +752852,19 @@
             "status": "l"
           },
           {
+            "element": 155,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 449,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 78,
             "in_accepted_trade": false,
             "owner": null,
             "status": "l"
@@ -753080,6 +753080,12 @@
             "status": "o"
           },
           {
+            "element": 480,
+            "in_accepted_trade": false,
+            "owner": 137912,
+            "status": "o"
+          },
+          {
             "element": 12,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -753227,12 +753233,6 @@
             "element": 427,
             "in_accepted_trade": false,
             "owner": 138139,
-            "status": "o"
-          },
-          {
-            "element": 155,
-            "in_accepted_trade": false,
-            "owner": 137912,
             "status": "o"
           },
           {
@@ -753428,12 +753428,6 @@
             "status": "o"
           },
           {
-            "element": 78,
-            "in_accepted_trade": false,
-            "owner": 137912,
-            "status": "o"
-          },
-          {
             "element": 249,
             "in_accepted_trade": false,
             "owner": 137912,
@@ -753449,6 +753443,12 @@
             "element": 504,
             "in_accepted_trade": false,
             "owner": 250589,
+            "status": "o"
+          },
+          {
+            "element": 369,
+            "in_accepted_trade": false,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -754417,12 +754417,6 @@
             "status": "a"
           },
           {
-            "element": 480,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 317,
             "in_accepted_trade": false,
             "owner": null,
@@ -756151,12 +756145,6 @@
             "status": "a"
           },
           {
-            "element": 369,
-            "in_accepted_trade": false,
-            "owner": null,
-            "status": "a"
-          },
-          {
             "element": 76,
             "in_accepted_trade": false,
             "owner": null,
@@ -756913,7 +756901,19 @@
             "status": "l"
           },
           {
+            "element": 155,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
             "element": 449,
+            "in_accepted_trade": false,
+            "owner": null,
+            "status": "l"
+          },
+          {
+            "element": 78,
             "in_accepted_trade": false,
             "owner": null,
             "status": "l"
@@ -757129,6 +757129,12 @@
             "status": "o"
           },
           {
+            "element": 480,
+            "in_accepted_trade": false,
+            "owner": 137912,
+            "status": "o"
+          },
+          {
             "element": 12,
             "in_accepted_trade": false,
             "owner": 250589,
@@ -757276,12 +757282,6 @@
             "element": 427,
             "in_accepted_trade": false,
             "owner": 138139,
-            "status": "o"
-          },
-          {
-            "element": 155,
-            "in_accepted_trade": false,
-            "owner": 137912,
             "status": "o"
           },
           {
@@ -757477,12 +757477,6 @@
             "status": "o"
           },
           {
-            "element": 78,
-            "in_accepted_trade": false,
-            "owner": 137912,
-            "status": "o"
-          },
-          {
             "element": 249,
             "in_accepted_trade": false,
             "owner": 137912,
@@ -757498,6 +757492,12 @@
             "element": 504,
             "in_accepted_trade": false,
             "owner": 250589,
+            "status": "o"
+          },
+          {
+            "element": 369,
+            "in_accepted_trade": false,
+            "owner": 137912,
             "status": "o"
           },
           {
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-27T01:44:35.164991Z",
+          "generated_at": "2026-11-27T12:20:16.930702Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -812799,7 +812799,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-27T01:44:35.164991Z",
+        "generated_at": "2026-11-27T12:20:16.930702Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -814544,18 +814544,42 @@
             "kind": "w",
             "priority": 3,
             "result": "a"
+          },
+          {
+            "added": "2026-11-27T07:39:59.244297Z",
+            "element_in": 480,
+            "element_out": 78,
+            "entry": 137912,
+            "event": 12,
+            "id": 23483741,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
+          },
+          {
+            "added": "2026-11-27T07:46:25.042724Z",
+            "element_in": 369,
+            "element_out": 155,
+            "entry": 137912,
+            "event": 12,
+            "id": 23483985,
+            "index": null,
+            "kind": "f",
+            "priority": null,
+            "result": "a"
           }
         ]
       },
       "transactions_enriched": {
         "data_quality": {
           "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-          "records_enriched": 141,
-          "records_received": 141,
+          "records_enriched": 143,
+          "records_received": 143,
           "source_available": true,
-          "typed_records": 141
+          "typed_records": 143
         },
-        "generated_at": "2026-11-27T01:44:33.491361Z",
+        "generated_at": "2026-11-27T12:20:14.835279Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -822030,6 +822054,112 @@
             "timestamp": null,
             "transaction_id": 23297079,
             "transaction_type": "waiver"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 18,
+              "club_name": "Nott'm Forest",
+              "club_short_name": "NFO",
+              "element_id": 480,
+              "first_name": "Morgan",
+              "news": "",
+              "official_draft_rank": 9,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Gibbs-White",
+              "web_name": "Gibbs-White"
+            },
+            "element_out": {
+              "availability_status": "d",
+              "club_id": 3,
+              "club_name": "Bournemouth",
+              "club_short_name": "BOU",
+              "element_id": 78,
+              "first_name": "Junior",
+              "news": "Illness - 75% chance of playing",
+              "official_draft_rank": 22,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Kroupi",
+              "web_name": "Kroupi.Jr"
+            },
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "event": 12,
+            "league_entry_id": 138520,
+            "priority": null,
+            "raw": {
+              "added": "2026-11-27T07:39:59.244297Z",
+              "element_in": 480,
+              "element_out": 78,
+              "entry": 137912,
+              "event": 12,
+              "id": 23483741,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 23483741,
+            "transaction_type": "free_agent"
+          },
+          {
+            "element_in": {
+              "availability_status": "a",
+              "club_id": 14,
+              "club_name": "Liverpool",
+              "club_short_name": "LIV",
+              "element_id": 369,
+              "first_name": "Rio",
+              "news": "",
+              "official_draft_rank": 104,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Ngumoha",
+              "web_name": "Ngumoha"
+            },
+            "element_out": {
+              "availability_status": "a",
+              "club_id": 15,
+              "club_name": "Man City",
+              "club_short_name": "MCI",
+              "element_id": 155,
+              "first_name": "Enzo",
+              "news": "",
+              "official_draft_rank": 25,
+              "position": "MID",
+              "position_id": 3,
+              "second_name": "Fernández",
+              "web_name": "Enzo"
+            },
+            "entry_id": 137912,
+            "entry_name": "Grove Løjer",
+            "event": 12,
+            "league_entry_id": 138520,
+            "priority": null,
+            "raw": {
+              "added": "2026-11-27T07:46:25.042724Z",
+              "element_in": 369,
+              "element_out": 155,
+              "entry": 137912,
+              "event": 12,
+              "id": 23483985,
+              "index": null,
+              "kind": "f",
+              "priority": null,
+              "result": "a"
+            },
+            "raw_kind": "f",
+            "raw_result": "a",
+            "result": "accepted",
+            "timestamp": null,
+            "transaction_id": 23483985,
+            "transaction_type": "free_agent"
           }
         ]
       },
@@ -822046,7 +822176,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-27T01:44:35.164942Z",
+        "generated_at": "2026-11-27T12:20:16.930655Z",
         "players": [
           {
             "availability_status": "a",
@@ -889273,7 +889403,7 @@
       "name": "Gameweek 11"
     },
     "gameweek": 11,
-    "generated_at": "2026-11-27T01:44:34.643651Z",
+    "generated_at": "2026-11-27T12:20:16.453933Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": 138520,
@@ -889468,7 +889598,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795743871
+      "time": 1795782013
     },
     "choices": {
       "choices": [],
@@ -890375,12 +890505,6 @@
         },
         {
           "element": 307,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
-          "element": 480,
           "in_accepted_trade": false,
           "owner": null,
           "status": "a"
@@ -892114,12 +892238,6 @@
           "status": "a"
         },
         {
-          "element": 369,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 76,
           "in_accepted_trade": false,
           "owner": null,
@@ -892876,7 +892994,19 @@
           "status": "l"
         },
         {
+          "element": 155,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 449,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 78,
           "in_accepted_trade": false,
           "owner": null,
           "status": "l"
@@ -893092,6 +893222,12 @@
           "status": "o"
         },
         {
+          "element": 480,
+          "in_accepted_trade": false,
+          "owner": 137912,
+          "status": "o"
+        },
+        {
           "element": 12,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -893239,12 +893375,6 @@
           "element": 427,
           "in_accepted_trade": false,
           "owner": 138139,
-          "status": "o"
-        },
-        {
-          "element": 155,
-          "in_accepted_trade": false,
-          "owner": 137912,
           "status": "o"
         },
         {
@@ -893440,12 +893570,6 @@
           "status": "o"
         },
         {
-          "element": 78,
-          "in_accepted_trade": false,
-          "owner": 137912,
-          "status": "o"
-        },
-        {
           "element": 249,
           "in_accepted_trade": false,
           "owner": 137912,
@@ -893461,6 +893585,12 @@
           "element": 504,
           "in_accepted_trade": false,
           "owner": 250589,
+          "status": "o"
+        },
+        {
+          "element": 369,
+          "in_accepted_trade": false,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -894429,12 +894559,6 @@
           "status": "a"
         },
         {
-          "element": 480,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 317,
           "in_accepted_trade": false,
           "owner": null,
@@ -896163,12 +896287,6 @@
           "status": "a"
         },
         {
-          "element": 369,
-          "in_accepted_trade": false,
-          "owner": null,
-          "status": "a"
-        },
-        {
           "element": 76,
           "in_accepted_trade": false,
           "owner": null,
@@ -896925,7 +897043,19 @@
           "status": "l"
         },
         {
+          "element": 155,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
           "element": 449,
+          "in_accepted_trade": false,
+          "owner": null,
+          "status": "l"
+        },
+        {
+          "element": 78,
           "in_accepted_trade": false,
           "owner": null,
           "status": "l"
@@ -897141,6 +897271,12 @@
           "status": "o"
         },
         {
+          "element": 480,
+          "in_accepted_trade": false,
+          "owner": 137912,
+          "status": "o"
+        },
+        {
           "element": 12,
           "in_accepted_trade": false,
           "owner": 250589,
@@ -897288,12 +897424,6 @@
           "element": 427,
           "in_accepted_trade": false,
           "owner": 138139,
-          "status": "o"
-        },
-        {
-          "element": 155,
-          "in_accepted_trade": false,
-          "owner": 137912,
           "status": "o"
         },
         {
@@ -897489,12 +897619,6 @@
           "status": "o"
         },
         {
-          "element": 78,
-          "in_accepted_trade": false,
-          "owner": 137912,
-          "status": "o"
-        },
-        {
           "element": 249,
           "in_accepted_trade": false,
           "owner": 137912,
@@ -897510,6 +897634,12 @@
           "element": 504,
           "in_accepted_trade": false,
           "owner": 250589,
+          "status": "o"
+        },
+        {
+          "element": 369,
+          "in_accepted_trade": false,
+          "owner": 137912,
           "status": "o"
         },
         {
@@ -899287,6 +899417,30 @@
           "index": 4,
           "kind": "w",
           "priority": 3,
+          "result": "a"
+        },
+        {
+          "added": "2026-11-27T07:39:59.244297Z",
+          "element_in": 480,
+          "element_out": 78,
+          "entry": 137912,
+          "event": 12,
+          "id": 23483741,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        {
+          "added": "2026-11-27T07:46:25.042724Z",
+          "element_in": 369,
+          "element_out": 155,
+          "entry": 137912,
+          "event": 12,
+          "id": 23483985,
+          "index": null,
+          "kind": "f",
+          "priority": null,
           "result": "a"
         }
       ]
@@ -906940,7 +907094,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-27T01:44:33.492624Z",
+    "generated_at": "2026-11-27T12:20:14.836575Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -918266,7 +918420,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-27T01:44:35.164991Z",
+    "generated_at": "2026-11-27T12:20:16.930702Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -918302,12 +918456,12 @@
   "transactions_enriched": {
     "data_quality": {
       "note": "Only records with an explicit recognized kind are labelled waiver, free_agent, trade or draft.",
-      "records_enriched": 141,
-      "records_received": 141,
+      "records_enriched": 143,
+      "records_received": 143,
       "source_available": true,
-      "typed_records": 141
+      "typed_records": 143
     },
-    "generated_at": "2026-11-27T01:44:33.491361Z",
+    "generated_at": "2026-11-27T12:20:14.835279Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -925782,6 +925936,112 @@
         "timestamp": null,
         "transaction_id": 23297079,
         "transaction_type": "waiver"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 18,
+          "club_name": "Nott'm Forest",
+          "club_short_name": "NFO",
+          "element_id": 480,
+          "first_name": "Morgan",
+          "news": "",
+          "official_draft_rank": 9,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Gibbs-White",
+          "web_name": "Gibbs-White"
+        },
+        "element_out": {
+          "availability_status": "d",
+          "club_id": 3,
+          "club_name": "Bournemouth",
+          "club_short_name": "BOU",
+          "element_id": 78,
+          "first_name": "Junior",
+          "news": "Illness - 75% chance of playing",
+          "official_draft_rank": 22,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Kroupi",
+          "web_name": "Kroupi.Jr"
+        },
+        "entry_id": 137912,
+        "entry_name": "Grove Løjer",
+        "event": 12,
+        "league_entry_id": 138520,
+        "priority": null,
+        "raw": {
+          "added": "2026-11-27T07:39:59.244297Z",
+          "element_in": 480,
+          "element_out": 78,
+          "entry": 137912,
+          "event": 12,
+          "id": 23483741,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 23483741,
+        "transaction_type": "free_agent"
+      },
+      {
+        "element_in": {
+          "availability_status": "a",
+          "club_id": 14,
+          "club_name": "Liverpool",
+          "club_short_name": "LIV",
+          "element_id": 369,
+          "first_name": "Rio",
+          "news": "",
+          "official_draft_rank": 104,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Ngumoha",
+          "web_name": "Ngumoha"
+        },
+        "element_out": {
+          "availability_status": "a",
+          "club_id": 15,
+          "club_name": "Man City",
+          "club_short_name": "MCI",
+          "element_id": 155,
+          "first_name": "Enzo",
+          "news": "",
+          "official_draft_rank": 25,
+          "position": "MID",
+          "position_id": 3,
+          "second_name": "Fernández",
+          "web_name": "Enzo"
+        },
+        "entry_id": 137912,
+        "entry_name": "Grove Løjer",
+        "event": 12,
+        "league_entry_id": 138520,
+        "priority": null,
+        "raw": {
+          "added": "2026-11-27T07:46:25.042724Z",
+          "element_in": 369,
+          "element_out": 155,
+          "entry": 137912,
+          "event": 12,
+          "id": 23483985,
+          "index": null,
+          "kind": "f",
+          "priority": null,
+          "result": "a"
+        },
+        "raw_kind": "f",
+        "raw_result": "a",
+        "result": "accepted",
+        "timestamp": null,
+        "transaction_id": 23483985,
+        "transaction_type": "free_agent"
       }
     ]
   },
@@ -925798,7 +926058,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-27T01:44:35.164942Z",
+    "generated_at": "2026-11-27T12:20:16.930655Z",
     "players": [
       {
         "availability_status": "a",
