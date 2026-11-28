@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-27T23:27:46.006582Z",
+    "generated_at": "2026-11-28T07:49:04.537530Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-27T23:27:54.110560Z",
+  "generated_at": "2026-11-28T07:49:08.501694Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-27T23:27:54.110560Z",
+          "generated_at": "2026-11-28T07:49:08.501694Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -804704,12 +804704,12 @@
                         "value": 9
                       },
                       {
-                        "element": 164,
-                        "value": 5
+                        "element": 149,
+                        "value": 6
                       },
                       {
-                        "element": 149,
-                        "value": 4
+                        "element": 164,
+                        "value": 5
                       },
                       {
                         "element": 152,
@@ -804739,15 +804739,15 @@
                       },
                       {
                         "element": 486,
-                        "value": 27
+                        "value": 25
+                      },
+                      {
+                        "element": 167,
+                        "value": 20
                       },
                       {
                         "element": 558,
                         "value": 20
-                      },
-                      {
-                        "element": 167,
-                        "value": 19
                       },
                       {
                         "element": 474,
@@ -804796,7 +804796,7 @@
                     "a": [
                       {
                         "element": 159,
-                        "value": 18
+                        "value": 17
                       },
                       {
                         "element": 161,
@@ -804819,16 +804819,16 @@
                         "value": 5
                       },
                       {
-                        "element": 40,
-                        "value": 4
-                      },
-                      {
                         "element": 145,
                         "value": 4
                       },
                       {
                         "element": 156,
                         "value": 4
+                      },
+                      {
+                        "element": 40,
+                        "value": 3
                       },
                       {
                         "element": 149,
@@ -804842,7 +804842,7 @@
                     "h": [
                       {
                         "element": 486,
-                        "value": 13
+                        "value": 14
                       },
                       {
                         "element": 472,
@@ -804861,15 +804861,15 @@
                         "value": 7
                       },
                       {
-                        "element": 558,
-                        "value": 7
-                      },
-                      {
                         "element": 167,
                         "value": 6
                       },
                       {
                         "element": 469,
+                        "value": 6
+                      },
+                      {
+                        "element": 558,
                         "value": 6
                       },
                       {
@@ -809647,7 +809647,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-27T23:27:54.110560Z",
+        "generated_at": "2026-11-28T07:49:08.501694Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -811451,7 +811451,7 @@
           "source_available": true,
           "typed_records": 145
         },
-        "generated_at": "2026-11-27T23:27:46.005210Z",
+        "generated_at": "2026-11-28T07:49:04.535542Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -819154,7 +819154,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-27T23:27:54.110497Z",
+        "generated_at": "2026-11-28T07:49:08.501633Z",
         "players": [
           {
             "availability_status": "a",
@@ -886381,7 +886381,7 @@
       "name": "Gameweek 12"
     },
     "gameweek": 12,
-    "generated_at": "2026-11-27T23:27:50.029331Z",
+    "generated_at": "2026-11-28T07:49:07.946763Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": null,
@@ -890538,7 +890538,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795822064
+      "time": 1795852144
     },
     "choices": {
       "choices": [],
@@ -904293,12 +904293,12 @@
                 "value": 9
               },
               {
-                "element": 164,
-                "value": 5
+                "element": 149,
+                "value": 6
               },
               {
-                "element": 149,
-                "value": 4
+                "element": 164,
+                "value": 5
               },
               {
                 "element": 152,
@@ -904328,15 +904328,15 @@
               },
               {
                 "element": 486,
-                "value": 27
+                "value": 25
+              },
+              {
+                "element": 167,
+                "value": 20
               },
               {
                 "element": 558,
                 "value": 20
-              },
-              {
-                "element": 167,
-                "value": 19
               },
               {
                 "element": 474,
@@ -904385,7 +904385,7 @@
             "a": [
               {
                 "element": 159,
-                "value": 18
+                "value": 17
               },
               {
                 "element": 161,
@@ -904408,16 +904408,16 @@
                 "value": 5
               },
               {
-                "element": 40,
-                "value": 4
-              },
-              {
                 "element": 145,
                 "value": 4
               },
               {
                 "element": 156,
                 "value": 4
+              },
+              {
+                "element": 40,
+                "value": 3
               },
               {
                 "element": 149,
@@ -904431,7 +904431,7 @@
             "h": [
               {
                 "element": 486,
-                "value": 13
+                "value": 14
               },
               {
                 "element": 472,
@@ -904450,15 +904450,15 @@
                 "value": 7
               },
               {
-                "element": 558,
-                "value": 7
-              },
-              {
                 "element": 167,
                 "value": 6
               },
               {
                 "element": 469,
+                "value": 6
+              },
+              {
+                "element": 558,
                 "value": 6
               },
               {
@@ -904858,7 +904858,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-27T23:27:46.006618Z",
+    "generated_at": "2026-11-28T07:49:04.537574Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -908088,12 +908088,12 @@
                     "value": 9
                   },
                   {
-                    "element": 164,
-                    "value": 5
+                    "element": 149,
+                    "value": 6
                   },
                   {
-                    "element": 149,
-                    "value": 4
+                    "element": 164,
+                    "value": 5
                   },
                   {
                     "element": 152,
@@ -908123,15 +908123,15 @@
                   },
                   {
                     "element": 486,
-                    "value": 27
+                    "value": 25
+                  },
+                  {
+                    "element": 167,
+                    "value": 20
                   },
                   {
                     "element": 558,
                     "value": 20
-                  },
-                  {
-                    "element": 167,
-                    "value": 19
                   },
                   {
                     "element": 474,
@@ -908180,7 +908180,7 @@
                 "a": [
                   {
                     "element": 159,
-                    "value": 18
+                    "value": 17
                   },
                   {
                     "element": 161,
@@ -908203,16 +908203,16 @@
                     "value": 5
                   },
                   {
-                    "element": 40,
-                    "value": 4
-                  },
-                  {
                     "element": 145,
                     "value": 4
                   },
                   {
                     "element": 156,
                     "value": 4
+                  },
+                  {
+                    "element": 40,
+                    "value": 3
                   },
                   {
                     "element": 149,
@@ -908226,7 +908226,7 @@
                 "h": [
                   {
                     "element": 486,
-                    "value": 13
+                    "value": 14
                   },
                   {
                     "element": 472,
@@ -908245,15 +908245,15 @@
                     "value": 7
                   },
                   {
-                    "element": 558,
-                    "value": 7
-                  },
-                  {
                     "element": 167,
                     "value": 6
                   },
                   {
                     "element": 469,
+                    "value": 6
+                  },
+                  {
+                    "element": 558,
                     "value": 6
                   },
                   {
@@ -913032,7 +913032,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-27T23:27:54.110560Z",
+    "generated_at": "2026-11-28T07:49:08.501694Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -913073,7 +913073,7 @@
       "source_available": true,
       "typed_records": 145
     },
-    "generated_at": "2026-11-27T23:27:46.005210Z",
+    "generated_at": "2026-11-28T07:49:04.535542Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -920776,7 +920776,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-27T23:27:54.110497Z",
+    "generated_at": "2026-11-28T07:49:08.501633Z",
     "players": [
       {
         "availability_status": "a",
