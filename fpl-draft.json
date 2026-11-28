@@ -664,12 +664,12 @@
         "element_type": 3,
         "first_name": "Youri",
         "id": 43,
-        "minutes": 717,
+        "minutes": 799,
         "news": "",
         "second_name": "Tielemans",
         "status": "a",
         "team": 16,
-        "total_points": 35,
+        "total_points": 37,
         "web_name": "Tielemans"
       },
       {
@@ -1249,12 +1249,12 @@
         "element_type": 1,
         "first_name": "Caoimhín",
         "id": 82,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Kelleher",
         "status": "a",
         "team": 4,
-        "total_points": 41,
+        "total_points": 48,
         "web_name": "Kelleher"
       },
       {
@@ -1294,12 +1294,12 @@
         "element_type": 2,
         "first_name": "Sepp",
         "id": 85,
-        "minutes": 408,
+        "minutes": 498,
         "news": "",
         "second_name": "van den Berg",
         "status": "a",
         "team": 4,
-        "total_points": 20,
+        "total_points": 29,
         "web_name": "Van den Berg"
       },
       {
@@ -1309,12 +1309,12 @@
         "element_type": 3,
         "first_name": "Keane",
         "id": 86,
-        "minutes": 846,
+        "minutes": 936,
         "news": "",
         "second_name": "Lewis-Potter",
         "status": "a",
         "team": 4,
-        "total_points": 55,
+        "total_points": 58,
         "web_name": "Lewis-Potter"
       },
       {
@@ -1324,12 +1324,12 @@
         "element_type": 2,
         "first_name": "Kristoffer",
         "id": 87,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Ajer",
         "status": "a",
         "team": 4,
-        "total_points": 48,
+        "total_points": 60,
         "web_name": "Ajer"
       },
       {
@@ -1339,12 +1339,12 @@
         "element_type": 2,
         "first_name": "Michael",
         "id": 88,
-        "minutes": 834,
+        "minutes": 924,
         "news": "",
         "second_name": "Kayode",
         "status": "a",
         "team": 4,
-        "total_points": 40,
+        "total_points": 49,
         "web_name": "Kayode"
       },
       {
@@ -1384,12 +1384,12 @@
         "element_type": 2,
         "first_name": "Ethan",
         "id": 91,
-        "minutes": 822,
+        "minutes": 912,
         "news": "",
         "second_name": "Pinnock",
         "status": "a",
         "team": 7,
-        "total_points": 31,
+        "total_points": 32,
         "web_name": "Pinnock"
       },
       {
@@ -1429,12 +1429,12 @@
         "element_type": 3,
         "first_name": "Kevin",
         "id": 94,
-        "minutes": 801,
+        "minutes": 838,
         "news": "",
         "second_name": "Schade",
         "status": "a",
         "team": 4,
-        "total_points": 47,
+        "total_points": 53,
         "web_name": "Schade"
       },
       {
@@ -1444,12 +1444,12 @@
         "element_type": 3,
         "first_name": "Dango",
         "id": 95,
-        "minutes": 505,
+        "minutes": 591,
         "news": "",
         "second_name": "Ouattara",
         "status": "a",
         "team": 4,
-        "total_points": 29,
+        "total_points": 43,
         "web_name": "O.Dango"
       },
       {
@@ -1459,12 +1459,12 @@
         "element_type": 3,
         "first_name": "Mikkel",
         "id": 96,
-        "minutes": 442,
+        "minutes": 511,
         "news": "",
         "second_name": "Damsgaard",
         "status": "a",
         "team": 4,
-        "total_points": 22,
+        "total_points": 25,
         "web_name": "Damsgaard"
       },
       {
@@ -1474,12 +1474,12 @@
         "element_type": 3,
         "first_name": "Mathias",
         "id": 97,
-        "minutes": 332,
+        "minutes": 352,
         "news": "",
         "second_name": "Jensen",
         "status": "a",
         "team": 4,
-        "total_points": 18,
+        "total_points": 19,
         "web_name": "Jensen"
       },
       {
@@ -1489,12 +1489,12 @@
         "element_type": 3,
         "first_name": "Vitaly",
         "id": 98,
-        "minutes": 891,
+        "minutes": 981,
         "news": "",
         "second_name": "Janelt",
         "status": "a",
         "team": 4,
-        "total_points": 47,
+        "total_points": 50,
         "web_name": "Janelt"
       },
       {
@@ -1519,7 +1519,7 @@
         "element_type": 3,
         "first_name": "Fábio",
         "id": 100,
-        "minutes": 12,
+        "minutes": 15,
         "news": "",
         "second_name": "Freitas Gouveia Carvalho",
         "status": "a",
@@ -1558,16 +1558,16 @@
         "web_name": "Yarmoliuk"
       },
       {
-        "chance_of_playing_next_round": 0,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 0,
         "draft_rank": 357,
         "element_type": 3,
         "first_name": "Josh",
         "id": 103,
         "minutes": 0,
-        "news": "Lack of match fitness - Expected back 5 Dec",
+        "news": "",
         "second_name": "Dasilva",
-        "status": "i",
+        "status": "a",
         "team": 4,
         "total_points": 0,
         "web_name": "Dasilva"
@@ -1579,12 +1579,12 @@
         "element_type": 3,
         "first_name": "Frank",
         "id": 104,
-        "minutes": 398,
+        "minutes": 460,
         "news": "",
         "second_name": "Onyeka",
         "status": "a",
         "team": 7,
-        "total_points": 13,
+        "total_points": 15,
         "web_name": "Onyeka"
       },
       {
@@ -1594,12 +1594,12 @@
         "element_type": 3,
         "first_name": "Jaidon",
         "id": 105,
-        "minutes": 553,
+        "minutes": 639,
         "news": "",
         "second_name": "Anthony",
         "status": "a",
         "team": 4,
-        "total_points": 37,
+        "total_points": 40,
         "web_name": "Anthony"
       },
       {
@@ -1633,18 +1633,18 @@
         "web_name": "Furo"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 75,
         "chance_of_playing_this_round": null,
         "draft_rank": 215,
         "element_type": 4,
         "first_name": "Callum",
         "id": 108,
-        "minutes": 147,
-        "news": "",
+        "minutes": 199,
+        "news": "Ankle injury - 75% chance of playing",
         "second_name": "Wilson",
-        "status": "a",
+        "status": "d",
         "team": 4,
-        "total_points": 8,
+        "total_points": 20,
         "web_name": "Wilson"
       },
       {
@@ -1669,12 +1669,12 @@
         "element_type": 1,
         "first_name": "Carl",
         "id": 110,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Rushworth",
         "status": "a",
         "team": 7,
-        "total_points": 28,
+        "total_points": 30,
         "web_name": "Rushworth"
       },
       {
@@ -2614,12 +2614,12 @@
         "element_type": 2,
         "first_name": "Bobby",
         "id": 173,
-        "minutes": 766,
+        "minutes": 856,
         "news": "",
         "second_name": "Thomas",
         "status": "a",
         "team": 7,
-        "total_points": 35,
+        "total_points": 36,
         "web_name": "Thomas"
       },
       {
@@ -2644,12 +2644,12 @@
         "element_type": 2,
         "first_name": "Milan",
         "id": 175,
-        "minutes": 900,
+        "minutes": 990,
         "news": "",
         "second_name": "van Ewijk",
         "status": "a",
         "team": 7,
-        "total_points": 21,
+        "total_points": 22,
         "web_name": "van Ewijk"
       },
       {
@@ -2659,7 +2659,7 @@
         "element_type": 2,
         "first_name": "Jay",
         "id": 176,
-        "minutes": 894,
+        "minutes": 984,
         "news": "",
         "second_name": "Dasilva",
         "status": "a",
@@ -2764,12 +2764,12 @@
         "element_type": 3,
         "first_name": "Jack",
         "id": 183,
-        "minutes": 820,
+        "minutes": 882,
         "news": "",
         "second_name": "Rudoni",
         "status": "a",
         "team": 7,
-        "total_points": 49,
+        "total_points": 51,
         "web_name": "Rudoni"
       },
       {
@@ -2779,12 +2779,12 @@
         "element_type": 3,
         "first_name": "Matt",
         "id": 184,
-        "minutes": 786,
+        "minutes": 813,
         "news": "",
         "second_name": "Grimes",
         "status": "a",
         "team": 7,
-        "total_points": 20,
+        "total_points": 21,
         "web_name": "Grimes"
       },
       {
@@ -2794,25 +2794,25 @@
         "element_type": 3,
         "first_name": "Tatsuhiro",
         "id": 185,
-        "minutes": 488,
+        "minutes": 551,
         "news": "",
         "second_name": "Sakamoto",
         "status": "a",
         "team": 7,
-        "total_points": 21,
+        "total_points": 23,
         "web_name": "Sakamoto"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 218,
         "element_type": 3,
         "first_name": "Ephron",
         "id": 186,
         "minutes": 326,
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "second_name": "Mason-Clark",
-        "status": "d",
+        "status": "a",
         "team": 7,
         "total_points": 10,
         "web_name": "Mason-Clark"
@@ -2839,12 +2839,12 @@
         "element_type": 3,
         "first_name": "Victor",
         "id": 188,
-        "minutes": 297,
+        "minutes": 310,
         "news": "",
         "second_name": "Torp",
         "status": "a",
         "team": 7,
-        "total_points": 14,
+        "total_points": 15,
         "web_name": "Torp"
       },
       {
@@ -2929,12 +2929,12 @@
         "element_type": 4,
         "first_name": "Brandon",
         "id": 194,
-        "minutes": 515,
+        "minutes": 541,
         "news": "",
         "second_name": "Thomas-Asante",
         "status": "a",
         "team": 7,
-        "total_points": 27,
+        "total_points": 28,
         "web_name": "Thomas-Asante"
       },
       {
@@ -2944,12 +2944,12 @@
         "element_type": 4,
         "first_name": "Ellis",
         "id": 195,
-        "minutes": 116,
+        "minutes": 143,
         "news": "",
         "second_name": "Simms",
         "status": "a",
         "team": 7,
-        "total_points": 10,
+        "total_points": 11,
         "web_name": "Simms"
       },
       {
@@ -3919,12 +3919,12 @@
         "element_type": 3,
         "first_name": "Harry",
         "id": 260,
-        "minutes": 326,
+        "minutes": 346,
         "news": "",
         "second_name": "Wilson",
         "status": "a",
         "team": 13,
-        "total_points": 16,
+        "total_points": 17,
         "web_name": "Wilson"
       },
       {
@@ -4963,18 +4963,18 @@
         "web_name": "Rodon"
       },
       {
-        "chance_of_playing_next_round": null,
+        "chance_of_playing_next_round": 0,
         "chance_of_playing_this_round": null,
         "draft_rank": 456,
         "element_type": 2,
         "first_name": "Jayden",
         "id": 330,
-        "minutes": 895,
-        "news": "",
+        "minutes": 985,
+        "news": "Suspended until 5 Dec",
         "second_name": "Bogle",
-        "status": "a",
+        "status": "s",
         "team": 13,
-        "total_points": 62,
+        "total_points": 67,
         "web_name": "Bogle"
       },
       {
@@ -4984,12 +4984,12 @@
         "element_type": 2,
         "first_name": "Gabriel",
         "id": 331,
-        "minutes": 721,
+        "minutes": 803,
         "news": "",
         "second_name": "Gudmundsson",
         "status": "a",
         "team": 13,
-        "total_points": 29,
+        "total_points": 40,
         "web_name": "Gudmundsson"
       },
       {
@@ -4999,12 +4999,12 @@
         "element_type": 2,
         "first_name": "James",
         "id": 332,
-        "minutes": 971,
+        "minutes": 1061,
         "news": "",
         "second_name": "Justin",
         "status": "a",
         "team": 13,
-        "total_points": 55,
+        "total_points": 61,
         "web_name": "Justin"
       },
       {
@@ -5029,12 +5029,12 @@
         "element_type": 2,
         "first_name": "Tarik",
         "id": 334,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Muharemović",
         "status": "a",
         "team": 13,
-        "total_points": 58,
+        "total_points": 66,
         "web_name": "Muharemović"
       },
       {
@@ -5044,12 +5044,12 @@
         "element_type": 3,
         "first_name": "Anton",
         "id": 335,
-        "minutes": 680,
+        "minutes": 700,
         "news": "",
         "second_name": "Stach",
         "status": "a",
         "team": 13,
-        "total_points": 34,
+        "total_points": 35,
         "web_name": "Stach"
       },
       {
@@ -5059,12 +5059,12 @@
         "element_type": 3,
         "first_name": "Noah",
         "id": 336,
-        "minutes": 552,
+        "minutes": 621,
         "news": "",
         "second_name": "Okafor",
         "status": "a",
         "team": 13,
-        "total_points": 43,
+        "total_points": 46,
         "web_name": "Okafor"
       },
       {
@@ -5074,12 +5074,12 @@
         "element_type": 3,
         "first_name": "Brenden",
         "id": 337,
-        "minutes": 300,
+        "minutes": 320,
         "news": "",
         "second_name": "Aaronson",
         "status": "a",
         "team": 13,
-        "total_points": 19,
+        "total_points": 20,
         "web_name": "Aaronson"
       },
       {
@@ -5089,12 +5089,12 @@
         "element_type": 3,
         "first_name": "Ethan",
         "id": 338,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Ampadu",
         "status": "a",
         "team": 13,
-        "total_points": 38,
+        "total_points": 44,
         "web_name": "Ampadu"
       },
       {
@@ -5104,12 +5104,12 @@
         "element_type": 3,
         "first_name": "Sean",
         "id": 339,
-        "minutes": 225,
+        "minutes": 294,
         "news": "",
         "second_name": "Longstaff",
         "status": "a",
         "team": 13,
-        "total_points": 8,
+        "total_points": 27,
         "web_name": "Longstaff"
       },
       {
@@ -5194,12 +5194,12 @@
         "element_type": 3,
         "first_name": "Tanaka",
         "id": 345,
-        "minutes": 718,
+        "minutes": 787,
         "news": "",
         "second_name": "Ao",
         "status": "a",
         "team": 13,
-        "total_points": 29,
+        "total_points": 32,
         "web_name": "Tanaka"
       },
       {
@@ -5209,12 +5209,12 @@
         "element_type": 4,
         "first_name": "Dominic",
         "id": 346,
-        "minutes": 953,
+        "minutes": 1029,
         "news": "",
         "second_name": "Calvert-Lewin",
         "status": "a",
         "team": 13,
-        "total_points": 48,
+        "total_points": 55,
         "web_name": "Calvert-Lewin"
       },
       {
@@ -5224,12 +5224,12 @@
         "element_type": 4,
         "first_name": "Lukas",
         "id": 347,
-        "minutes": 197,
+        "minutes": 210,
         "news": "",
         "second_name": "Nmecha",
         "status": "a",
         "team": 13,
-        "total_points": 13,
+        "total_points": 14,
         "web_name": "Nmecha"
       },
       {
@@ -5794,12 +5794,12 @@
         "element_type": 1,
         "first_name": "James",
         "id": 385,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Trafford",
         "status": "a",
         "team": 13,
-        "total_points": 56,
+        "total_points": 63,
         "web_name": "Trafford"
       },
       {
@@ -6199,7 +6199,7 @@
         "element_type": 1,
         "first_name": "Senne",
         "id": 412,
-        "minutes": 990,
+        "minutes": 1080,
         "news": "",
         "second_name": "Lammens",
         "status": "a",
@@ -6244,12 +6244,12 @@
         "element_type": 3,
         "first_name": "Patrick",
         "id": 415,
-        "minutes": 259,
+        "minutes": 328,
         "news": "",
         "second_name": "Dorgu",
         "status": "a",
         "team": 16,
-        "total_points": 23,
+        "total_points": 25,
         "web_name": "Dorgu"
       },
       {
@@ -6274,7 +6274,7 @@
         "element_type": 2,
         "first_name": "Diogo",
         "id": 417,
-        "minutes": 802,
+        "minutes": 892,
         "news": "",
         "second_name": "Dalot Teixeira",
         "status": "a",
@@ -6289,12 +6289,12 @@
         "element_type": 2,
         "first_name": "Harry",
         "id": 418,
-        "minutes": 923,
+        "minutes": 1013,
         "news": "",
         "second_name": "Maguire",
         "status": "a",
         "team": 16,
-        "total_points": 19,
+        "total_points": 18,
         "web_name": "Maguire"
       },
       {
@@ -6304,12 +6304,12 @@
         "element_type": 2,
         "first_name": "Lisandro",
         "id": 419,
-        "minutes": 672,
+        "minutes": 717,
         "news": "",
         "second_name": "Martínez",
         "status": "a",
         "team": 16,
-        "total_points": 9,
+        "total_points": 8,
         "web_name": "Martinez"
       },
       {
@@ -6319,12 +6319,12 @@
         "element_type": 2,
         "first_name": "Leny",
         "id": 420,
-        "minutes": 447,
+        "minutes": 537,
         "news": "",
         "second_name": "Yoro",
         "status": "a",
         "team": 16,
-        "total_points": 9,
+        "total_points": 8,
         "web_name": "Yoro"
       },
       {
@@ -6364,7 +6364,7 @@
         "element_type": 2,
         "first_name": "Luke",
         "id": 423,
-        "minutes": 425,
+        "minutes": 470,
         "news": "",
         "second_name": "Shaw",
         "status": "a",
@@ -6403,18 +6403,18 @@
         "web_name": "Fredricson"
       },
       {
-        "chance_of_playing_next_round": 75,
+        "chance_of_playing_next_round": 100,
         "chance_of_playing_this_round": 75,
         "draft_rank": 2,
         "element_type": 3,
         "first_name": "Bruno",
         "id": 426,
-        "minutes": 900,
-        "news": "Illness - 75% chance of playing",
+        "minutes": 990,
+        "news": "",
         "second_name": "Borges Fernandes",
-        "status": "d",
+        "status": "a",
         "team": 16,
-        "total_points": 47,
+        "total_points": 51,
         "web_name": "B.Fernandes"
       },
       {
@@ -6424,12 +6424,12 @@
         "element_type": 3,
         "first_name": "Bryan",
         "id": 427,
-        "minutes": 913,
+        "minutes": 958,
         "news": "",
         "second_name": "Mbeumo",
         "status": "a",
         "team": 16,
-        "total_points": 47,
+        "total_points": 48,
         "web_name": "Mbeumo"
       },
       {
@@ -6439,12 +6439,12 @@
         "element_type": 3,
         "first_name": "Matheus",
         "id": 428,
-        "minutes": 748,
+        "minutes": 775,
         "news": "",
         "second_name": "Santos Carneiro da Cunha",
         "status": "a",
         "team": 16,
-        "total_points": 46,
+        "total_points": 47,
         "web_name": "Cunha"
       },
       {
@@ -6469,12 +6469,12 @@
         "element_type": 3,
         "first_name": "Mason",
         "id": 430,
-        "minutes": 189,
+        "minutes": 196,
         "news": "",
         "second_name": "Mount",
         "status": "a",
         "team": 16,
-        "total_points": 7,
+        "total_points": 8,
         "web_name": "Mount"
       },
       {
@@ -6484,12 +6484,12 @@
         "element_type": 3,
         "first_name": "Amad",
         "id": 431,
-        "minutes": 366,
+        "minutes": 411,
         "news": "",
         "second_name": "Diallo",
         "status": "a",
         "team": 16,
-        "total_points": 9,
+        "total_points": 10,
         "web_name": "Amad"
       },
       {
@@ -6499,12 +6499,12 @@
         "element_type": 3,
         "first_name": "Kobbie",
         "id": 432,
-        "minutes": 652,
+        "minutes": 742,
         "news": "",
         "second_name": "Mainoo",
         "status": "a",
         "team": 16,
-        "total_points": 34,
+        "total_points": 36,
         "web_name": "Mainoo"
       },
       {
@@ -6544,12 +6544,12 @@
         "element_type": 3,
         "first_name": "Shea",
         "id": 435,
-        "minutes": 46,
+        "minutes": 66,
         "news": "",
         "second_name": "Lacey",
         "status": "a",
         "team": 16,
-        "total_points": 3,
+        "total_points": 4,
         "web_name": "Lacey"
       },
       {
@@ -6619,12 +6619,12 @@
         "element_type": 4,
         "first_name": "Joshua",
         "id": 440,
-        "minutes": 134,
+        "minutes": 196,
         "news": "",
         "second_name": "Zirkzee",
         "status": "a",
         "team": 16,
-        "total_points": 10,
+        "total_points": 12,
         "web_name": "Zirkzee"
       },
       {
@@ -8359,12 +8359,12 @@
         "element_type": 3,
         "first_name": "Mamadou",
         "id": 556,
-        "minutes": 621,
+        "minutes": 711,
         "news": "",
         "second_name": "Sangaré",
         "status": "a",
         "team": 4,
-        "total_points": 33,
+        "total_points": 36,
         "web_name": "M.Sangaré"
       },
       {
@@ -8779,12 +8779,12 @@
         "element_type": 3,
         "first_name": "Gustavo",
         "id": 584,
-        "minutes": 71,
+        "minutes": 147,
         "news": "",
         "second_name": "Hamer",
         "status": "a",
         "team": 7,
-        "total_points": 7,
+        "total_points": 9,
         "web_name": "Hamer"
       },
       {
@@ -8989,12 +8989,12 @@
         "element_type": 4,
         "first_name": "Sidiki",
         "id": 598,
-        "minutes": 298,
+        "minutes": 360,
         "news": "",
         "second_name": "Cherif",
         "status": "a",
         "team": 7,
-        "total_points": 19,
+        "total_points": 21,
         "web_name": "Cherif"
       },
       {
@@ -9004,12 +9004,12 @@
         "element_type": 2,
         "first_name": "Nico",
         "id": 599,
-        "minutes": 771,
+        "minutes": 861,
         "news": "",
         "second_name": "Elvedi",
         "status": "a",
         "team": 13,
-        "total_points": 30,
+        "total_points": 38,
         "web_name": "Elvedi"
       },
       {
@@ -9319,12 +9319,12 @@
         "element_type": 2,
         "first_name": "El Hadji Malick",
         "id": 620,
-        "minutes": 201,
+        "minutes": 204,
         "news": "",
         "second_name": "Diouf",
         "status": "a",
         "team": 4,
-        "total_points": 7,
+        "total_points": 8,
         "web_name": "Diouf"
       },
       {
@@ -9724,12 +9724,12 @@
         "element_type": 2,
         "first_name": "Melvin",
         "id": 647,
-        "minutes": 64,
+        "minutes": 71,
         "news": "",
         "second_name": "Bard",
         "status": "a",
         "team": 13,
-        "total_points": 3,
+        "total_points": 4,
         "web_name": "Bard"
       },
       {
@@ -9844,12 +9844,12 @@
         "element_type": 3,
         "first_name": "Yann",
         "id": 655,
-        "minutes": 212,
+        "minutes": 239,
         "news": "",
         "second_name": "Gboho",
         "status": "a",
         "team": 7,
-        "total_points": 12,
+        "total_points": 13,
         "web_name": "Gboho"
       },
       {
@@ -9859,12 +9859,12 @@
         "element_type": 2,
         "first_name": "Stephen",
         "id": 656,
-        "minutes": 397,
+        "minutes": 487,
         "news": "",
         "second_name": "Mfuni",
         "status": "a",
         "team": 7,
-        "total_points": 22,
+        "total_points": 25,
         "web_name": "Mfuni"
       },
       {
@@ -12267,13 +12267,13 @@
         "web_name": "Fábio Vieira"
       },
       {
-        "availability_status": "a",
+        "availability_status": "d",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 108,
         "first_name": "Callum",
-        "news": "",
+        "news": "Ankle injury - 75% chance of playing",
         "official_draft_rank": 215,
         "position": "FWD",
         "position_id": 4,
@@ -12309,13 +12309,13 @@
         "web_name": "Quenda"
       },
       {
-        "availability_status": "d",
+        "availability_status": "a",
         "club_id": 7,
         "club_name": "Coventry City",
         "club_short_name": "COV",
         "element_id": 186,
         "first_name": "Ephron",
-        "news": "Knee injury - 75% chance of playing",
+        "news": "",
         "official_draft_rank": 218,
         "position": "MID",
         "position_id": 3,
@@ -14045,13 +14045,13 @@
         "web_name": "Arrizabalaga"
       },
       {
-        "availability_status": "i",
+        "availability_status": "a",
         "club_id": 4,
         "club_name": "Brentford",
         "club_short_name": "BRE",
         "element_id": 103,
         "first_name": "Josh",
-        "news": "Lack of match fitness - Expected back 5 Dec",
+        "news": "",
         "official_draft_rank": 357,
         "position": "MID",
         "position_id": 3,
@@ -18217,7 +18217,7 @@
         "web_name": "Hjelde"
       }
     ],
-    "generated_at": "2026-11-28T07:49:04.537530Z",
+    "generated_at": "2026-11-28T17:32:54.811080Z",
     "league_id": 8905,
     "owned_player_count": 105,
     "rosters": [
@@ -18525,7 +18525,7 @@
             "web_name": "Roefs"
           },
           {
-            "availability_status": "a",
+            "availability_status": "s",
             "club_id": 13,
             "club_name": "Leeds",
             "club_short_name": "LEE",
@@ -18534,7 +18534,7 @@
             "entry_name": "AGF 2. hold",
             "first_name": "Jayden",
             "league_entry_id": 138487,
-            "news": "",
+            "news": "Suspended until 5 Dec",
             "official_draft_rank": 456,
             "position": "DEF",
             "position_id": 2,
@@ -18873,7 +18873,7 @@
             "web_name": "Virgil"
           },
           {
-            "availability_status": "d",
+            "availability_status": "a",
             "club_id": 16,
             "club_name": "Man Utd",
             "club_short_name": "MUN",
@@ -18882,7 +18882,7 @@
             "entry_name": "Grove Løjer",
             "first_name": "Bruno",
             "league_entry_id": 138520,
-            "news": "Illness - 75% chance of playing",
+            "news": "",
             "official_draft_rank": 2,
             "position": "MID",
             "position_id": 3,
@@ -29409,7 +29409,7 @@
       }
     ]
   },
-  "generated_at": "2026-11-28T07:49:08.501694Z",
+  "generated_at": "2026-11-28T17:32:56.657412Z",
   "history": {
     "gw-02": {
       "bootstrap_compact": {
@@ -739880,12 +739880,12 @@
             "element_type": 3,
             "first_name": "Youri",
             "id": 43,
-            "minutes": 717,
+            "minutes": 799,
             "news": "",
             "second_name": "Tielemans",
             "status": "a",
             "team": 16,
-            "total_points": 35,
+            "total_points": 37,
             "web_name": "Tielemans"
           },
           {
@@ -740465,12 +740465,12 @@
             "element_type": 1,
             "first_name": "Caoimhín",
             "id": 82,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Kelleher",
             "status": "a",
             "team": 4,
-            "total_points": 41,
+            "total_points": 48,
             "web_name": "Kelleher"
           },
           {
@@ -740510,12 +740510,12 @@
             "element_type": 2,
             "first_name": "Sepp",
             "id": 85,
-            "minutes": 408,
+            "minutes": 498,
             "news": "",
             "second_name": "van den Berg",
             "status": "a",
             "team": 4,
-            "total_points": 20,
+            "total_points": 29,
             "web_name": "Van den Berg"
           },
           {
@@ -740525,12 +740525,12 @@
             "element_type": 3,
             "first_name": "Keane",
             "id": 86,
-            "minutes": 846,
+            "minutes": 936,
             "news": "",
             "second_name": "Lewis-Potter",
             "status": "a",
             "team": 4,
-            "total_points": 55,
+            "total_points": 58,
             "web_name": "Lewis-Potter"
           },
           {
@@ -740540,12 +740540,12 @@
             "element_type": 2,
             "first_name": "Kristoffer",
             "id": 87,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Ajer",
             "status": "a",
             "team": 4,
-            "total_points": 48,
+            "total_points": 60,
             "web_name": "Ajer"
           },
           {
@@ -740555,12 +740555,12 @@
             "element_type": 2,
             "first_name": "Michael",
             "id": 88,
-            "minutes": 834,
+            "minutes": 924,
             "news": "",
             "second_name": "Kayode",
             "status": "a",
             "team": 4,
-            "total_points": 40,
+            "total_points": 49,
             "web_name": "Kayode"
           },
           {
@@ -740600,12 +740600,12 @@
             "element_type": 2,
             "first_name": "Ethan",
             "id": 91,
-            "minutes": 822,
+            "minutes": 912,
             "news": "",
             "second_name": "Pinnock",
             "status": "a",
             "team": 7,
-            "total_points": 31,
+            "total_points": 32,
             "web_name": "Pinnock"
           },
           {
@@ -740645,12 +740645,12 @@
             "element_type": 3,
             "first_name": "Kevin",
             "id": 94,
-            "minutes": 801,
+            "minutes": 838,
             "news": "",
             "second_name": "Schade",
             "status": "a",
             "team": 4,
-            "total_points": 47,
+            "total_points": 53,
             "web_name": "Schade"
           },
           {
@@ -740660,12 +740660,12 @@
             "element_type": 3,
             "first_name": "Dango",
             "id": 95,
-            "minutes": 505,
+            "minutes": 591,
             "news": "",
             "second_name": "Ouattara",
             "status": "a",
             "team": 4,
-            "total_points": 29,
+            "total_points": 43,
             "web_name": "O.Dango"
           },
           {
@@ -740675,12 +740675,12 @@
             "element_type": 3,
             "first_name": "Mikkel",
             "id": 96,
-            "minutes": 442,
+            "minutes": 511,
             "news": "",
             "second_name": "Damsgaard",
             "status": "a",
             "team": 4,
-            "total_points": 22,
+            "total_points": 25,
             "web_name": "Damsgaard"
           },
           {
@@ -740690,12 +740690,12 @@
             "element_type": 3,
             "first_name": "Mathias",
             "id": 97,
-            "minutes": 332,
+            "minutes": 352,
             "news": "",
             "second_name": "Jensen",
             "status": "a",
             "team": 4,
-            "total_points": 18,
+            "total_points": 19,
             "web_name": "Jensen"
           },
           {
@@ -740705,12 +740705,12 @@
             "element_type": 3,
             "first_name": "Vitaly",
             "id": 98,
-            "minutes": 891,
+            "minutes": 981,
             "news": "",
             "second_name": "Janelt",
             "status": "a",
             "team": 4,
-            "total_points": 47,
+            "total_points": 50,
             "web_name": "Janelt"
           },
           {
@@ -740735,7 +740735,7 @@
             "element_type": 3,
             "first_name": "Fábio",
             "id": 100,
-            "minutes": 12,
+            "minutes": 15,
             "news": "",
             "second_name": "Freitas Gouveia Carvalho",
             "status": "a",
@@ -740774,16 +740774,16 @@
             "web_name": "Yarmoliuk"
           },
           {
-            "chance_of_playing_next_round": 0,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 0,
             "draft_rank": 357,
             "element_type": 3,
             "first_name": "Josh",
             "id": 103,
             "minutes": 0,
-            "news": "Lack of match fitness - Expected back 5 Dec",
+            "news": "",
             "second_name": "Dasilva",
-            "status": "i",
+            "status": "a",
             "team": 4,
             "total_points": 0,
             "web_name": "Dasilva"
@@ -740795,12 +740795,12 @@
             "element_type": 3,
             "first_name": "Frank",
             "id": 104,
-            "minutes": 398,
+            "minutes": 460,
             "news": "",
             "second_name": "Onyeka",
             "status": "a",
             "team": 7,
-            "total_points": 13,
+            "total_points": 15,
             "web_name": "Onyeka"
           },
           {
@@ -740810,12 +740810,12 @@
             "element_type": 3,
             "first_name": "Jaidon",
             "id": 105,
-            "minutes": 553,
+            "minutes": 639,
             "news": "",
             "second_name": "Anthony",
             "status": "a",
             "team": 4,
-            "total_points": 37,
+            "total_points": 40,
             "web_name": "Anthony"
           },
           {
@@ -740849,18 +740849,18 @@
             "web_name": "Furo"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 75,
             "chance_of_playing_this_round": null,
             "draft_rank": 215,
             "element_type": 4,
             "first_name": "Callum",
             "id": 108,
-            "minutes": 147,
-            "news": "",
+            "minutes": 199,
+            "news": "Ankle injury - 75% chance of playing",
             "second_name": "Wilson",
-            "status": "a",
+            "status": "d",
             "team": 4,
-            "total_points": 8,
+            "total_points": 20,
             "web_name": "Wilson"
           },
           {
@@ -740885,12 +740885,12 @@
             "element_type": 1,
             "first_name": "Carl",
             "id": 110,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Rushworth",
             "status": "a",
             "team": 7,
-            "total_points": 28,
+            "total_points": 30,
             "web_name": "Rushworth"
           },
           {
@@ -741830,12 +741830,12 @@
             "element_type": 2,
             "first_name": "Bobby",
             "id": 173,
-            "minutes": 766,
+            "minutes": 856,
             "news": "",
             "second_name": "Thomas",
             "status": "a",
             "team": 7,
-            "total_points": 35,
+            "total_points": 36,
             "web_name": "Thomas"
           },
           {
@@ -741860,12 +741860,12 @@
             "element_type": 2,
             "first_name": "Milan",
             "id": 175,
-            "minutes": 900,
+            "minutes": 990,
             "news": "",
             "second_name": "van Ewijk",
             "status": "a",
             "team": 7,
-            "total_points": 21,
+            "total_points": 22,
             "web_name": "van Ewijk"
           },
           {
@@ -741875,7 +741875,7 @@
             "element_type": 2,
             "first_name": "Jay",
             "id": 176,
-            "minutes": 894,
+            "minutes": 984,
             "news": "",
             "second_name": "Dasilva",
             "status": "a",
@@ -741980,12 +741980,12 @@
             "element_type": 3,
             "first_name": "Jack",
             "id": 183,
-            "minutes": 820,
+            "minutes": 882,
             "news": "",
             "second_name": "Rudoni",
             "status": "a",
             "team": 7,
-            "total_points": 49,
+            "total_points": 51,
             "web_name": "Rudoni"
           },
           {
@@ -741995,12 +741995,12 @@
             "element_type": 3,
             "first_name": "Matt",
             "id": 184,
-            "minutes": 786,
+            "minutes": 813,
             "news": "",
             "second_name": "Grimes",
             "status": "a",
             "team": 7,
-            "total_points": 20,
+            "total_points": 21,
             "web_name": "Grimes"
           },
           {
@@ -742010,25 +742010,25 @@
             "element_type": 3,
             "first_name": "Tatsuhiro",
             "id": 185,
-            "minutes": 488,
+            "minutes": 551,
             "news": "",
             "second_name": "Sakamoto",
             "status": "a",
             "team": 7,
-            "total_points": 21,
+            "total_points": 23,
             "web_name": "Sakamoto"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 218,
             "element_type": 3,
             "first_name": "Ephron",
             "id": 186,
             "minutes": 326,
-            "news": "Knee injury - 75% chance of playing",
+            "news": "",
             "second_name": "Mason-Clark",
-            "status": "d",
+            "status": "a",
             "team": 7,
             "total_points": 10,
             "web_name": "Mason-Clark"
@@ -742055,12 +742055,12 @@
             "element_type": 3,
             "first_name": "Victor",
             "id": 188,
-            "minutes": 297,
+            "minutes": 310,
             "news": "",
             "second_name": "Torp",
             "status": "a",
             "team": 7,
-            "total_points": 14,
+            "total_points": 15,
             "web_name": "Torp"
           },
           {
@@ -742145,12 +742145,12 @@
             "element_type": 4,
             "first_name": "Brandon",
             "id": 194,
-            "minutes": 515,
+            "minutes": 541,
             "news": "",
             "second_name": "Thomas-Asante",
             "status": "a",
             "team": 7,
-            "total_points": 27,
+            "total_points": 28,
             "web_name": "Thomas-Asante"
           },
           {
@@ -742160,12 +742160,12 @@
             "element_type": 4,
             "first_name": "Ellis",
             "id": 195,
-            "minutes": 116,
+            "minutes": 143,
             "news": "",
             "second_name": "Simms",
             "status": "a",
             "team": 7,
-            "total_points": 10,
+            "total_points": 11,
             "web_name": "Simms"
           },
           {
@@ -743135,12 +743135,12 @@
             "element_type": 3,
             "first_name": "Harry",
             "id": 260,
-            "minutes": 326,
+            "minutes": 346,
             "news": "",
             "second_name": "Wilson",
             "status": "a",
             "team": 13,
-            "total_points": 16,
+            "total_points": 17,
             "web_name": "Wilson"
           },
           {
@@ -744179,18 +744179,18 @@
             "web_name": "Rodon"
           },
           {
-            "chance_of_playing_next_round": null,
+            "chance_of_playing_next_round": 0,
             "chance_of_playing_this_round": null,
             "draft_rank": 456,
             "element_type": 2,
             "first_name": "Jayden",
             "id": 330,
-            "minutes": 895,
-            "news": "",
+            "minutes": 985,
+            "news": "Suspended until 5 Dec",
             "second_name": "Bogle",
-            "status": "a",
+            "status": "s",
             "team": 13,
-            "total_points": 62,
+            "total_points": 67,
             "web_name": "Bogle"
           },
           {
@@ -744200,12 +744200,12 @@
             "element_type": 2,
             "first_name": "Gabriel",
             "id": 331,
-            "minutes": 721,
+            "minutes": 803,
             "news": "",
             "second_name": "Gudmundsson",
             "status": "a",
             "team": 13,
-            "total_points": 29,
+            "total_points": 40,
             "web_name": "Gudmundsson"
           },
           {
@@ -744215,12 +744215,12 @@
             "element_type": 2,
             "first_name": "James",
             "id": 332,
-            "minutes": 971,
+            "minutes": 1061,
             "news": "",
             "second_name": "Justin",
             "status": "a",
             "team": 13,
-            "total_points": 55,
+            "total_points": 61,
             "web_name": "Justin"
           },
           {
@@ -744245,12 +744245,12 @@
             "element_type": 2,
             "first_name": "Tarik",
             "id": 334,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Muharemović",
             "status": "a",
             "team": 13,
-            "total_points": 58,
+            "total_points": 66,
             "web_name": "Muharemović"
           },
           {
@@ -744260,12 +744260,12 @@
             "element_type": 3,
             "first_name": "Anton",
             "id": 335,
-            "minutes": 680,
+            "minutes": 700,
             "news": "",
             "second_name": "Stach",
             "status": "a",
             "team": 13,
-            "total_points": 34,
+            "total_points": 35,
             "web_name": "Stach"
           },
           {
@@ -744275,12 +744275,12 @@
             "element_type": 3,
             "first_name": "Noah",
             "id": 336,
-            "minutes": 552,
+            "minutes": 621,
             "news": "",
             "second_name": "Okafor",
             "status": "a",
             "team": 13,
-            "total_points": 43,
+            "total_points": 46,
             "web_name": "Okafor"
           },
           {
@@ -744290,12 +744290,12 @@
             "element_type": 3,
             "first_name": "Brenden",
             "id": 337,
-            "minutes": 300,
+            "minutes": 320,
             "news": "",
             "second_name": "Aaronson",
             "status": "a",
             "team": 13,
-            "total_points": 19,
+            "total_points": 20,
             "web_name": "Aaronson"
           },
           {
@@ -744305,12 +744305,12 @@
             "element_type": 3,
             "first_name": "Ethan",
             "id": 338,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Ampadu",
             "status": "a",
             "team": 13,
-            "total_points": 38,
+            "total_points": 44,
             "web_name": "Ampadu"
           },
           {
@@ -744320,12 +744320,12 @@
             "element_type": 3,
             "first_name": "Sean",
             "id": 339,
-            "minutes": 225,
+            "minutes": 294,
             "news": "",
             "second_name": "Longstaff",
             "status": "a",
             "team": 13,
-            "total_points": 8,
+            "total_points": 27,
             "web_name": "Longstaff"
           },
           {
@@ -744410,12 +744410,12 @@
             "element_type": 3,
             "first_name": "Tanaka",
             "id": 345,
-            "minutes": 718,
+            "minutes": 787,
             "news": "",
             "second_name": "Ao",
             "status": "a",
             "team": 13,
-            "total_points": 29,
+            "total_points": 32,
             "web_name": "Tanaka"
           },
           {
@@ -744425,12 +744425,12 @@
             "element_type": 4,
             "first_name": "Dominic",
             "id": 346,
-            "minutes": 953,
+            "minutes": 1029,
             "news": "",
             "second_name": "Calvert-Lewin",
             "status": "a",
             "team": 13,
-            "total_points": 48,
+            "total_points": 55,
             "web_name": "Calvert-Lewin"
           },
           {
@@ -744440,12 +744440,12 @@
             "element_type": 4,
             "first_name": "Lukas",
             "id": 347,
-            "minutes": 197,
+            "minutes": 210,
             "news": "",
             "second_name": "Nmecha",
             "status": "a",
             "team": 13,
-            "total_points": 13,
+            "total_points": 14,
             "web_name": "Nmecha"
           },
           {
@@ -745010,12 +745010,12 @@
             "element_type": 1,
             "first_name": "James",
             "id": 385,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Trafford",
             "status": "a",
             "team": 13,
-            "total_points": 56,
+            "total_points": 63,
             "web_name": "Trafford"
           },
           {
@@ -745415,7 +745415,7 @@
             "element_type": 1,
             "first_name": "Senne",
             "id": 412,
-            "minutes": 990,
+            "minutes": 1080,
             "news": "",
             "second_name": "Lammens",
             "status": "a",
@@ -745460,12 +745460,12 @@
             "element_type": 3,
             "first_name": "Patrick",
             "id": 415,
-            "minutes": 259,
+            "minutes": 328,
             "news": "",
             "second_name": "Dorgu",
             "status": "a",
             "team": 16,
-            "total_points": 23,
+            "total_points": 25,
             "web_name": "Dorgu"
           },
           {
@@ -745490,7 +745490,7 @@
             "element_type": 2,
             "first_name": "Diogo",
             "id": 417,
-            "minutes": 802,
+            "minutes": 892,
             "news": "",
             "second_name": "Dalot Teixeira",
             "status": "a",
@@ -745505,12 +745505,12 @@
             "element_type": 2,
             "first_name": "Harry",
             "id": 418,
-            "minutes": 923,
+            "minutes": 1013,
             "news": "",
             "second_name": "Maguire",
             "status": "a",
             "team": 16,
-            "total_points": 19,
+            "total_points": 18,
             "web_name": "Maguire"
           },
           {
@@ -745520,12 +745520,12 @@
             "element_type": 2,
             "first_name": "Lisandro",
             "id": 419,
-            "minutes": 672,
+            "minutes": 717,
             "news": "",
             "second_name": "Martínez",
             "status": "a",
             "team": 16,
-            "total_points": 9,
+            "total_points": 8,
             "web_name": "Martinez"
           },
           {
@@ -745535,12 +745535,12 @@
             "element_type": 2,
             "first_name": "Leny",
             "id": 420,
-            "minutes": 447,
+            "minutes": 537,
             "news": "",
             "second_name": "Yoro",
             "status": "a",
             "team": 16,
-            "total_points": 9,
+            "total_points": 8,
             "web_name": "Yoro"
           },
           {
@@ -745580,7 +745580,7 @@
             "element_type": 2,
             "first_name": "Luke",
             "id": 423,
-            "minutes": 425,
+            "minutes": 470,
             "news": "",
             "second_name": "Shaw",
             "status": "a",
@@ -745619,18 +745619,18 @@
             "web_name": "Fredricson"
           },
           {
-            "chance_of_playing_next_round": 75,
+            "chance_of_playing_next_round": 100,
             "chance_of_playing_this_round": 75,
             "draft_rank": 2,
             "element_type": 3,
             "first_name": "Bruno",
             "id": 426,
-            "minutes": 900,
-            "news": "Illness - 75% chance of playing",
+            "minutes": 990,
+            "news": "",
             "second_name": "Borges Fernandes",
-            "status": "d",
+            "status": "a",
             "team": 16,
-            "total_points": 47,
+            "total_points": 51,
             "web_name": "B.Fernandes"
           },
           {
@@ -745640,12 +745640,12 @@
             "element_type": 3,
             "first_name": "Bryan",
             "id": 427,
-            "minutes": 913,
+            "minutes": 958,
             "news": "",
             "second_name": "Mbeumo",
             "status": "a",
             "team": 16,
-            "total_points": 47,
+            "total_points": 48,
             "web_name": "Mbeumo"
           },
           {
@@ -745655,12 +745655,12 @@
             "element_type": 3,
             "first_name": "Matheus",
             "id": 428,
-            "minutes": 748,
+            "minutes": 775,
             "news": "",
             "second_name": "Santos Carneiro da Cunha",
             "status": "a",
             "team": 16,
-            "total_points": 46,
+            "total_points": 47,
             "web_name": "Cunha"
           },
           {
@@ -745685,12 +745685,12 @@
             "element_type": 3,
             "first_name": "Mason",
             "id": 430,
-            "minutes": 189,
+            "minutes": 196,
             "news": "",
             "second_name": "Mount",
             "status": "a",
             "team": 16,
-            "total_points": 7,
+            "total_points": 8,
             "web_name": "Mount"
           },
           {
@@ -745700,12 +745700,12 @@
             "element_type": 3,
             "first_name": "Amad",
             "id": 431,
-            "minutes": 366,
+            "minutes": 411,
             "news": "",
             "second_name": "Diallo",
             "status": "a",
             "team": 16,
-            "total_points": 9,
+            "total_points": 10,
             "web_name": "Amad"
           },
           {
@@ -745715,12 +745715,12 @@
             "element_type": 3,
             "first_name": "Kobbie",
             "id": 432,
-            "minutes": 652,
+            "minutes": 742,
             "news": "",
             "second_name": "Mainoo",
             "status": "a",
             "team": 16,
-            "total_points": 34,
+            "total_points": 36,
             "web_name": "Mainoo"
           },
           {
@@ -745760,12 +745760,12 @@
             "element_type": 3,
             "first_name": "Shea",
             "id": 435,
-            "minutes": 46,
+            "minutes": 66,
             "news": "",
             "second_name": "Lacey",
             "status": "a",
             "team": 16,
-            "total_points": 3,
+            "total_points": 4,
             "web_name": "Lacey"
           },
           {
@@ -745835,12 +745835,12 @@
             "element_type": 4,
             "first_name": "Joshua",
             "id": 440,
-            "minutes": 134,
+            "minutes": 196,
             "news": "",
             "second_name": "Zirkzee",
             "status": "a",
             "team": 16,
-            "total_points": 10,
+            "total_points": 12,
             "web_name": "Zirkzee"
           },
           {
@@ -747575,12 +747575,12 @@
             "element_type": 3,
             "first_name": "Mamadou",
             "id": 556,
-            "minutes": 621,
+            "minutes": 711,
             "news": "",
             "second_name": "Sangaré",
             "status": "a",
             "team": 4,
-            "total_points": 33,
+            "total_points": 36,
             "web_name": "M.Sangaré"
           },
           {
@@ -747995,12 +747995,12 @@
             "element_type": 3,
             "first_name": "Gustavo",
             "id": 584,
-            "minutes": 71,
+            "minutes": 147,
             "news": "",
             "second_name": "Hamer",
             "status": "a",
             "team": 7,
-            "total_points": 7,
+            "total_points": 9,
             "web_name": "Hamer"
           },
           {
@@ -748205,12 +748205,12 @@
             "element_type": 4,
             "first_name": "Sidiki",
             "id": 598,
-            "minutes": 298,
+            "minutes": 360,
             "news": "",
             "second_name": "Cherif",
             "status": "a",
             "team": 7,
-            "total_points": 19,
+            "total_points": 21,
             "web_name": "Cherif"
           },
           {
@@ -748220,12 +748220,12 @@
             "element_type": 2,
             "first_name": "Nico",
             "id": 599,
-            "minutes": 771,
+            "minutes": 861,
             "news": "",
             "second_name": "Elvedi",
             "status": "a",
             "team": 13,
-            "total_points": 30,
+            "total_points": 38,
             "web_name": "Elvedi"
           },
           {
@@ -748535,12 +748535,12 @@
             "element_type": 2,
             "first_name": "El Hadji Malick",
             "id": 620,
-            "minutes": 201,
+            "minutes": 204,
             "news": "",
             "second_name": "Diouf",
             "status": "a",
             "team": 4,
-            "total_points": 7,
+            "total_points": 8,
             "web_name": "Diouf"
           },
           {
@@ -748940,12 +748940,12 @@
             "element_type": 2,
             "first_name": "Melvin",
             "id": 647,
-            "minutes": 64,
+            "minutes": 71,
             "news": "",
             "second_name": "Bard",
             "status": "a",
             "team": 13,
-            "total_points": 3,
+            "total_points": 4,
             "web_name": "Bard"
           },
           {
@@ -749060,12 +749060,12 @@
             "element_type": 3,
             "first_name": "Yann",
             "id": 655,
-            "minutes": 212,
+            "minutes": 239,
             "news": "",
             "second_name": "Gboho",
             "status": "a",
             "team": 7,
-            "total_points": 12,
+            "total_points": 13,
             "web_name": "Gboho"
           },
           {
@@ -749075,12 +749075,12 @@
             "element_type": 2,
             "first_name": "Stephen",
             "id": 656,
-            "minutes": 397,
+            "minutes": 487,
             "news": "",
             "second_name": "Mfuni",
             "status": "a",
             "team": 7,
-            "total_points": 22,
+            "total_points": 25,
             "web_name": "Mfuni"
           },
           {
@@ -801737,7 +801737,7 @@
           "data_checked": true,
           "gameweek": 11,
           "gameweek_finished": true,
-          "generated_at": "2026-11-28T07:49:08.501694Z",
+          "generated_at": "2026-11-28T17:32:56.657412Z",
           "league_id": 8905,
           "recap_fingerprint": "25bc4d776945de7b7f43326a0a9d8b6e11892236ed87bd859e9564cd92498d49",
           "recap_ready": true,
@@ -804907,39 +804907,740 @@
                 "code": 2645311,
                 "event": 12,
                 "finished": false,
-                "finished_provisional": false,
+                "finished_provisional": true,
                 "id": 117,
                 "kickoff_time": "2026-11-28T15:00:00Z",
-                "minutes": 0,
+                "minutes": 90,
                 "provisional_start_time": false,
                 "pulse_id": 0,
-                "started": false,
-                "stats": [],
+                "started": true,
+                "stats": [
+                  {
+                    "a": [],
+                    "h": [
+                      {
+                        "element": 339,
+                        "value": 2
+                      },
+                      {
+                        "element": 346,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "goals_scored"
+                  },
+                  {
+                    "a": [],
+                    "h": [
+                      {
+                        "element": 331,
+                        "value": 1
+                      },
+                      {
+                        "element": 338,
+                        "value": 1
+                      },
+                      {
+                        "element": 339,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "assists"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "own_goals"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_saved"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_missed"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 176,
+                        "value": 1
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 330,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "yellow_cards"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "red_cards"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 110,
+                        "value": 3
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 385,
+                        "value": 3
+                      }
+                    ],
+                    "identifier": "saves"
+                  },
+                  {
+                    "a": [],
+                    "h": [
+                      {
+                        "element": 339,
+                        "value": 3
+                      },
+                      {
+                        "element": 331,
+                        "value": 2
+                      },
+                      {
+                        "element": 346,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "bonus"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 584,
+                        "value": 16
+                      },
+                      {
+                        "element": 104,
+                        "value": 12
+                      },
+                      {
+                        "element": 656,
+                        "value": 10
+                      },
+                      {
+                        "element": 183,
+                        "value": 9
+                      },
+                      {
+                        "element": 185,
+                        "value": 9
+                      },
+                      {
+                        "element": 655,
+                        "value": 9
+                      },
+                      {
+                        "element": 110,
+                        "value": 8
+                      },
+                      {
+                        "element": 599,
+                        "value": 5
+                      },
+                      {
+                        "element": 184,
+                        "value": 3
+                      },
+                      {
+                        "element": 188,
+                        "value": 3
+                      },
+                      {
+                        "element": 194,
+                        "value": 3
+                      },
+                      {
+                        "element": 195,
+                        "value": 3
+                      },
+                      {
+                        "element": 173,
+                        "value": 2
+                      },
+                      {
+                        "element": 175,
+                        "value": -4
+                      },
+                      {
+                        "element": 91,
+                        "value": -5
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 339,
+                        "value": 67
+                      },
+                      {
+                        "element": 331,
+                        "value": 44
+                      },
+                      {
+                        "element": 346,
+                        "value": 43
+                      },
+                      {
+                        "element": 385,
+                        "value": 32
+                      },
+                      {
+                        "element": 334,
+                        "value": 30
+                      },
+                      {
+                        "element": 598,
+                        "value": 28
+                      },
+                      {
+                        "element": 332,
+                        "value": 26
+                      },
+                      {
+                        "element": 338,
+                        "value": 17
+                      },
+                      {
+                        "element": 336,
+                        "value": 16
+                      },
+                      {
+                        "element": 345,
+                        "value": 16
+                      },
+                      {
+                        "element": 330,
+                        "value": 14
+                      },
+                      {
+                        "element": 335,
+                        "value": 6
+                      },
+                      {
+                        "element": 260,
+                        "value": 5
+                      },
+                      {
+                        "element": 337,
+                        "value": 4
+                      },
+                      {
+                        "element": 347,
+                        "value": 4
+                      },
+                      {
+                        "element": 641,
+                        "value": 4
+                      }
+                    ],
+                    "identifier": "bps"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 104,
+                        "value": 10
+                      },
+                      {
+                        "element": 656,
+                        "value": 10
+                      },
+                      {
+                        "element": 176,
+                        "value": 9
+                      },
+                      {
+                        "element": 91,
+                        "value": 8
+                      },
+                      {
+                        "element": 173,
+                        "value": 8
+                      },
+                      {
+                        "element": 175,
+                        "value": 6
+                      },
+                      {
+                        "element": 183,
+                        "value": 6
+                      },
+                      {
+                        "element": 185,
+                        "value": 6
+                      },
+                      {
+                        "element": 584,
+                        "value": 5
+                      },
+                      {
+                        "element": 184,
+                        "value": 2
+                      },
+                      {
+                        "element": 655,
+                        "value": 2
+                      },
+                      {
+                        "element": 194,
+                        "value": 1
+                      },
+                      {
+                        "element": 195,
+                        "value": 1
+                      },
+                      {
+                        "element": 599,
+                        "value": 1
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 598,
+                        "value": 19
+                      },
+                      {
+                        "element": 334,
+                        "value": 17
+                      },
+                      {
+                        "element": 339,
+                        "value": 7
+                      },
+                      {
+                        "element": 345,
+                        "value": 7
+                      },
+                      {
+                        "element": 336,
+                        "value": 6
+                      },
+                      {
+                        "element": 335,
+                        "value": 5
+                      },
+                      {
+                        "element": 338,
+                        "value": 5
+                      },
+                      {
+                        "element": 346,
+                        "value": 4
+                      },
+                      {
+                        "element": 260,
+                        "value": 3
+                      },
+                      {
+                        "element": 330,
+                        "value": 3
+                      },
+                      {
+                        "element": 331,
+                        "value": 3
+                      },
+                      {
+                        "element": 332,
+                        "value": 3
+                      },
+                      {
+                        "element": 641,
+                        "value": 3
+                      },
+                      {
+                        "element": 337,
+                        "value": 1
+                      },
+                      {
+                        "element": 347,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "defensive_contribution"
+                  }
+                ],
                 "team_a": 7,
                 "team_a_difficulty": 3,
-                "team_a_score": null,
+                "team_a_score": 0,
                 "team_h": 13,
                 "team_h_difficulty": 2,
-                "team_h_score": null
+                "team_h_score": 3
               },
               {
                 "code": 2645312,
                 "event": 12,
                 "finished": false,
-                "finished_provisional": false,
+                "finished_provisional": true,
                 "id": 118,
                 "kickoff_time": "2026-11-28T15:00:00Z",
-                "minutes": 0,
+                "minutes": 90,
                 "provisional_start_time": false,
                 "pulse_id": 0,
-                "started": false,
-                "stats": [],
+                "started": true,
+                "stats": [
+                  {
+                    "a": [
+                      {
+                        "element": 108,
+                        "value": 2
+                      },
+                      {
+                        "element": 87,
+                        "value": 1
+                      },
+                      {
+                        "element": 94,
+                        "value": 1
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "goals_scored"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 95,
+                        "value": 3
+                      },
+                      {
+                        "element": 88,
+                        "value": 1
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "assists"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "own_goals"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_saved"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_missed"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 100,
+                        "value": 1
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 418,
+                        "value": 1
+                      },
+                      {
+                        "element": 419,
+                        "value": 1
+                      },
+                      {
+                        "element": 420,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "yellow_cards"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "red_cards"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 82,
+                        "value": 5
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "saves"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 108,
+                        "value": 3
+                      },
+                      {
+                        "element": 95,
+                        "value": 2
+                      },
+                      {
+                        "element": 85,
+                        "value": 1
+                      }
+                    ],
+                    "h": [],
+                    "identifier": "bonus"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 108,
+                        "value": 59
+                      },
+                      {
+                        "element": 95,
+                        "value": 53
+                      },
+                      {
+                        "element": 85,
+                        "value": 41
+                      },
+                      {
+                        "element": 88,
+                        "value": 38
+                      },
+                      {
+                        "element": 87,
+                        "value": 37
+                      },
+                      {
+                        "element": 82,
+                        "value": 36
+                      },
+                      {
+                        "element": 86,
+                        "value": 27
+                      },
+                      {
+                        "element": 94,
+                        "value": 19
+                      },
+                      {
+                        "element": 96,
+                        "value": 15
+                      },
+                      {
+                        "element": 98,
+                        "value": 11
+                      },
+                      {
+                        "element": 565,
+                        "value": 8
+                      },
+                      {
+                        "element": 105,
+                        "value": 7
+                      },
+                      {
+                        "element": 620,
+                        "value": 3
+                      },
+                      {
+                        "element": 97,
+                        "value": 2
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 432,
+                        "value": 19
+                      },
+                      {
+                        "element": 43,
+                        "value": 18
+                      },
+                      {
+                        "element": 426,
+                        "value": 16
+                      },
+                      {
+                        "element": 427,
+                        "value": 13
+                      },
+                      {
+                        "element": 431,
+                        "value": 11
+                      },
+                      {
+                        "element": 417,
+                        "value": 8
+                      },
+                      {
+                        "element": 435,
+                        "value": 8
+                      },
+                      {
+                        "element": 440,
+                        "value": 8
+                      },
+                      {
+                        "element": 415,
+                        "value": 7
+                      },
+                      {
+                        "element": 428,
+                        "value": 7
+                      },
+                      {
+                        "element": 430,
+                        "value": 3
+                      },
+                      {
+                        "element": 420,
+                        "value": -3
+                      },
+                      {
+                        "element": 423,
+                        "value": -5
+                      },
+                      {
+                        "element": 419,
+                        "value": -6
+                      },
+                      {
+                        "element": 412,
+                        "value": -8
+                      },
+                      {
+                        "element": 418,
+                        "value": -11
+                      }
+                    ],
+                    "identifier": "bps"
+                  },
+                  {
+                    "a": [
+                      {
+                        "element": 85,
+                        "value": 11
+                      },
+                      {
+                        "element": 86,
+                        "value": 11
+                      },
+                      {
+                        "element": 96,
+                        "value": 11
+                      },
+                      {
+                        "element": 565,
+                        "value": 11
+                      },
+                      {
+                        "element": 98,
+                        "value": 10
+                      },
+                      {
+                        "element": 87,
+                        "value": 9
+                      },
+                      {
+                        "element": 95,
+                        "value": 8
+                      },
+                      {
+                        "element": 105,
+                        "value": 6
+                      },
+                      {
+                        "element": 88,
+                        "value": 5
+                      },
+                      {
+                        "element": 94,
+                        "value": 3
+                      },
+                      {
+                        "element": 97,
+                        "value": 2
+                      },
+                      {
+                        "element": 100,
+                        "value": 1
+                      },
+                      {
+                        "element": 108,
+                        "value": 1
+                      }
+                    ],
+                    "h": [
+                      {
+                        "element": 426,
+                        "value": 12
+                      },
+                      {
+                        "element": 432,
+                        "value": 10
+                      },
+                      {
+                        "element": 43,
+                        "value": 8
+                      },
+                      {
+                        "element": 420,
+                        "value": 8
+                      },
+                      {
+                        "element": 417,
+                        "value": 7
+                      },
+                      {
+                        "element": 418,
+                        "value": 6
+                      },
+                      {
+                        "element": 419,
+                        "value": 5
+                      },
+                      {
+                        "element": 440,
+                        "value": 5
+                      },
+                      {
+                        "element": 415,
+                        "value": 4
+                      },
+                      {
+                        "element": 423,
+                        "value": 3
+                      },
+                      {
+                        "element": 427,
+                        "value": 3
+                      },
+                      {
+                        "element": 431,
+                        "value": 3
+                      },
+                      {
+                        "element": 428,
+                        "value": 2
+                      },
+                      {
+                        "element": 435,
+                        "value": 1
+                      }
+                    ],
+                    "identifier": "defensive_contribution"
+                  }
+                ],
                 "team_a": 4,
                 "team_a_difficulty": 3,
-                "team_a_score": null,
+                "team_a_score": 4,
                 "team_h": 16,
                 "team_h_difficulty": 3,
-                "team_h_score": null
+                "team_h_score": 0
               },
               {
                 "code": 2645310,
@@ -804951,8 +805652,64 @@
                 "minutes": 0,
                 "provisional_start_time": false,
                 "pulse_id": 0,
-                "started": false,
-                "stats": [],
+                "started": true,
+                "stats": [
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "goals_scored"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "assists"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "own_goals"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_saved"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "penalties_missed"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "yellow_cards"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "red_cards"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "saves"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "bonus"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "bps"
+                  },
+                  {
+                    "a": [],
+                    "h": [],
+                    "identifier": "defensive_contribution"
+                  }
+                ],
                 "team_a": 2,
                 "team_a_difficulty": 2,
                 "team_a_score": null,
@@ -809647,7 +810404,7 @@
             "waiver_pick": 5
           }
         ],
-        "generated_at": "2026-11-28T07:49:08.501694Z",
+        "generated_at": "2026-11-28T17:32:56.657412Z",
         "latest_complete_gameweek": 11,
         "league_id": 8905,
         "league_name": "OK Data Liga",
@@ -811451,7 +812208,7 @@
           "source_available": true,
           "typed_records": 145
         },
-        "generated_at": "2026-11-28T07:49:04.535542Z",
+        "generated_at": "2026-11-28T17:32:54.809799Z",
         "schema_version": 1,
         "transactions": [
           {
@@ -815166,13 +815923,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "s",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 330,
               "first_name": "Jayden",
-              "news": "",
+              "news": "Suspended until 5 Dec",
               "official_draft_rank": 456,
               "position": "DEF",
               "position_id": 2,
@@ -815378,13 +816135,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "s",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 330,
               "first_name": "Jayden",
-              "news": "",
+              "news": "Suspended until 5 Dec",
               "official_draft_rank": 456,
               "position": "DEF",
               "position_id": 2,
@@ -815537,13 +816294,13 @@
           },
           {
             "element_in": {
-              "availability_status": "a",
+              "availability_status": "s",
               "club_id": 13,
               "club_name": "Leeds",
               "club_short_name": "LEE",
               "element_id": 330,
               "first_name": "Jayden",
-              "news": "",
+              "news": "Suspended until 5 Dec",
               "official_draft_rank": 456,
               "position": "DEF",
               "position_id": 2,
@@ -819154,7 +819911,7 @@
           "watched_players_resolved": 1
         },
         "gameweek": 11,
-        "generated_at": "2026-11-28T07:49:08.501633Z",
+        "generated_at": "2026-11-28T17:32:56.657358Z",
         "players": [
           {
             "availability_status": "a",
@@ -886381,39 +887138,20 @@
       "name": "Gameweek 12"
     },
     "gameweek": 12,
-    "generated_at": "2026-11-28T07:49:07.946763Z",
+    "generated_at": "2026-11-28T17:32:55.916018Z",
     "h2h_matches": [
       {
         "current_leader_entry_id": null,
         "current_margin": 0,
         "entry_1_id": 138487,
         "entry_1_name": "AGF 2. hold",
-        "entry_1_remaining_players": 14,
-        "entry_1_remaining_starters": 11,
-        "entry_1_score": 0,
+        "entry_1_remaining_players": 12,
+        "entry_1_remaining_starters": 9,
+        "entry_1_score": 13,
         "entry_2_id": 321694,
         "entry_2_name": "La Liga es la mejor",
-        "entry_2_remaining_players": 15,
-        "entry_2_remaining_starters": 11,
-        "entry_2_score": 0,
-        "gameweek": 12,
-        "is_real_opponent": true,
-        "key_match": true,
-        "match_id": null,
-        "status": "live"
-      },
-      {
-        "current_leader_entry_id": 138520,
-        "current_margin": 2,
-        "entry_1_id": 138520,
-        "entry_1_name": "Grove Løjer",
-        "entry_1_remaining_players": 13,
-        "entry_1_remaining_starters": 11,
-        "entry_1_score": 15,
-        "entry_2_id": 252790,
-        "entry_2_name": "Senile Supersubs",
         "entry_2_remaining_players": 13,
-        "entry_2_remaining_starters": 9,
+        "entry_2_remaining_starters": 10,
         "entry_2_score": 13,
         "gameweek": 12,
         "is_real_opponent": true,
@@ -886422,18 +887160,37 @@
         "status": "live"
       },
       {
-        "current_leader_entry_id": 138641,
-        "current_margin": 5,
+        "current_leader_entry_id": 252790,
+        "current_margin": 6,
+        "entry_1_id": 138520,
+        "entry_1_name": "Grove Løjer",
+        "entry_1_remaining_players": 12,
+        "entry_1_remaining_starters": 10,
+        "entry_1_score": 20,
+        "entry_2_id": 252790,
+        "entry_2_name": "Senile Supersubs",
+        "entry_2_remaining_players": 10,
+        "entry_2_remaining_starters": 7,
+        "entry_2_score": 26,
+        "gameweek": 12,
+        "is_real_opponent": true,
+        "key_match": true,
+        "match_id": null,
+        "status": "live"
+      },
+      {
+        "current_leader_entry_id": null,
+        "current_margin": 0,
         "entry_1_id": 138641,
         "entry_1_name": "Hyggemix",
-        "entry_1_remaining_players": 12,
+        "entry_1_remaining_players": 11,
         "entry_1_remaining_starters": 9,
-        "entry_1_score": 5,
+        "entry_1_score": 8,
         "entry_2_id": 138748,
         "entry_2_name": "Jyllands Rubin",
-        "entry_2_remaining_players": 15,
-        "entry_2_remaining_starters": 11,
-        "entry_2_score": 0,
+        "entry_2_remaining_players": 13,
+        "entry_2_remaining_starters": 9,
+        "entry_2_score": 8,
         "gameweek": 12,
         "is_real_opponent": true,
         "key_match": true,
@@ -886447,32 +887204,13 @@
         "current_margin": 0,
         "entry_1_id": 138487,
         "entry_1_name": "AGF 2. hold",
-        "entry_1_remaining_players": 14,
-        "entry_1_remaining_starters": 11,
-        "entry_1_score": 0,
+        "entry_1_remaining_players": 12,
+        "entry_1_remaining_starters": 9,
+        "entry_1_score": 13,
         "entry_2_id": 321694,
         "entry_2_name": "La Liga es la mejor",
-        "entry_2_remaining_players": 15,
-        "entry_2_remaining_starters": 11,
-        "entry_2_score": 0,
-        "gameweek": 12,
-        "is_real_opponent": true,
-        "key_match": true,
-        "match_id": null,
-        "status": "live"
-      },
-      {
-        "current_leader_entry_id": 138520,
-        "current_margin": 2,
-        "entry_1_id": 138520,
-        "entry_1_name": "Grove Løjer",
-        "entry_1_remaining_players": 13,
-        "entry_1_remaining_starters": 11,
-        "entry_1_score": 15,
-        "entry_2_id": 252790,
-        "entry_2_name": "Senile Supersubs",
         "entry_2_remaining_players": 13,
-        "entry_2_remaining_starters": 9,
+        "entry_2_remaining_starters": 10,
         "entry_2_score": 13,
         "gameweek": 12,
         "is_real_opponent": true,
@@ -886481,18 +887219,37 @@
         "status": "live"
       },
       {
-        "current_leader_entry_id": 138641,
-        "current_margin": 5,
+        "current_leader_entry_id": null,
+        "current_margin": 0,
         "entry_1_id": 138641,
         "entry_1_name": "Hyggemix",
-        "entry_1_remaining_players": 12,
+        "entry_1_remaining_players": 11,
         "entry_1_remaining_starters": 9,
-        "entry_1_score": 5,
+        "entry_1_score": 8,
         "entry_2_id": 138748,
         "entry_2_name": "Jyllands Rubin",
-        "entry_2_remaining_players": 15,
-        "entry_2_remaining_starters": 11,
-        "entry_2_score": 0,
+        "entry_2_remaining_players": 13,
+        "entry_2_remaining_starters": 9,
+        "entry_2_score": 8,
+        "gameweek": 12,
+        "is_real_opponent": true,
+        "key_match": true,
+        "match_id": null,
+        "status": "live"
+      },
+      {
+        "current_leader_entry_id": 252790,
+        "current_margin": 6,
+        "entry_1_id": 138520,
+        "entry_1_name": "Grove Løjer",
+        "entry_1_remaining_players": 12,
+        "entry_1_remaining_starters": 10,
+        "entry_1_score": 20,
+        "entry_2_id": 252790,
+        "entry_2_name": "Senile Supersubs",
+        "entry_2_remaining_players": 10,
+        "entry_2_remaining_starters": 7,
+        "entry_2_score": 26,
         "gameweek": 12,
         "is_real_opponent": true,
         "key_match": true,
@@ -886501,16 +887258,16 @@
       }
     ],
     "league_average_match": {
-      "current_margin": 5.5,
-      "current_result": "loss",
+      "current_margin": 4.333333333333334,
+      "current_result": "win",
       "entry_id": 42948,
       "entry_name": "AGFs Førstehold",
-      "entry_remaining_players": 15,
-      "entry_score": 0,
+      "entry_remaining_players": 12,
+      "entry_score": 19,
       "gameweek": 12,
       "is_real_opponent": false,
       "match_id": null,
-      "opponent_average": 5.5,
+      "opponent_average": 14.666666666666666,
       "opponent_average_source_entry_ids": [
         138487,
         138520,
@@ -886527,12 +887284,12 @@
         "entry_id": 42888,
         "entry_name": "AGFs Førstehold",
         "league_entry_id": 42948,
-        "live_score": 0,
-        "remaining_player_count": 15,
+        "live_score": 19,
+        "remaining_player_count": 12,
         "remaining_players": [
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 597,
             "fixtures": [
               {
@@ -886542,7 +887299,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 1,
@@ -886577,29 +887334,6 @@
             "starter": true
           },
           {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 334,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 3,
-            "multiplier": 1,
-            "official_draft_rank": 391,
-            "player_name": "Muharemović",
-            "position": "DEF",
-            "season_total_points": 58,
-            "starter": true
-          },
-          {
             "club_name": "Spurs",
             "current_gw_points": 0,
             "element_id": 499,
@@ -886620,29 +887354,6 @@
             "player_name": "Pedro Porro",
             "position": "DEF",
             "season_total_points": 27,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 599,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 5,
-            "multiplier": 1,
-            "official_draft_rank": 571,
-            "player_name": "Elvedi",
-            "position": "DEF",
-            "season_total_points": 30,
             "starter": true
           },
           {
@@ -886670,7 +887381,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 53,
             "fixtures": [
               {
@@ -886680,7 +887391,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 7,
@@ -886716,7 +887427,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 45,
             "fixtures": [
               {
@@ -886726,7 +887437,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 9,
@@ -886851,36 +887562,13 @@
             "position": "DEF",
             "season_total_points": 13,
             "starter": false
-          },
-          {
-            "club_name": "Brentford",
-            "current_gw_points": 0,
-            "element_id": 106,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "away",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 16,
-                "opponent_club_name": "Man Utd",
-                "started": false
-              }
-            ],
-            "lineup_position": 15,
-            "multiplier": 1,
-            "official_draft_rank": 10,
-            "player_name": "Thiago",
-            "position": "FWD",
-            "season_total_points": 30,
-            "starter": false
           }
         ],
-        "remaining_starter_count": 11,
+        "remaining_starter_count": 9,
         "remaining_starting_players": [
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 597,
             "fixtures": [
               {
@@ -886890,7 +887578,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 1,
@@ -886925,29 +887613,6 @@
             "starter": true
           },
           {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 334,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 3,
-            "multiplier": 1,
-            "official_draft_rank": 391,
-            "player_name": "Muharemović",
-            "position": "DEF",
-            "season_total_points": 58,
-            "starter": true
-          },
-          {
             "club_name": "Spurs",
             "current_gw_points": 0,
             "element_id": 499,
@@ -886968,29 +887633,6 @@
             "player_name": "Pedro Porro",
             "position": "DEF",
             "season_total_points": 27,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 599,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 5,
-            "multiplier": 1,
-            "official_draft_rank": 571,
-            "player_name": "Elvedi",
-            "position": "DEF",
-            "season_total_points": 30,
             "starter": true
           },
           {
@@ -887018,7 +887660,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 53,
             "fixtures": [
               {
@@ -887028,7 +887670,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 7,
@@ -887064,7 +887706,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 45,
             "fixtures": [
               {
@@ -887074,7 +887716,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 9,
@@ -887138,32 +887780,9 @@
         "entry_id": 137879,
         "entry_name": "AGF 2. hold",
         "league_entry_id": 138487,
-        "live_score": 0,
-        "remaining_player_count": 14,
+        "live_score": 13,
+        "remaining_player_count": 12,
         "remaining_players": [
-          {
-            "club_name": "Brentford",
-            "current_gw_points": 0,
-            "element_id": 82,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "away",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 16,
-                "opponent_club_name": "Man Utd",
-                "started": false
-              }
-            ],
-            "lineup_position": 1,
-            "multiplier": 1,
-            "official_draft_rank": 246,
-            "player_name": "Kelleher",
-            "position": "GKP",
-            "season_total_points": 41,
-            "starter": true
-          },
           {
             "club_name": "Liverpool",
             "current_gw_points": 0,
@@ -887208,29 +887827,6 @@
             "player_name": "Kerkez",
             "position": "DEF",
             "season_total_points": 31,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 330,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 4,
-            "multiplier": 1,
-            "official_draft_rank": 456,
-            "player_name": "Bogle",
-            "position": "DEF",
-            "season_total_points": 62,
             "starter": true
           },
           {
@@ -887419,7 +888015,7 @@
           },
           {
             "club_name": "Ipswich Town",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 316,
             "fixtures": [
               {
@@ -887429,7 +888025,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 2,
                 "opponent_club_name": "Aston Villa",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 13,
@@ -887464,31 +888060,8 @@
             "starter": false
           }
         ],
-        "remaining_starter_count": 11,
+        "remaining_starter_count": 9,
         "remaining_starting_players": [
-          {
-            "club_name": "Brentford",
-            "current_gw_points": 0,
-            "element_id": 82,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "away",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 16,
-                "opponent_club_name": "Man Utd",
-                "started": false
-              }
-            ],
-            "lineup_position": 1,
-            "multiplier": 1,
-            "official_draft_rank": 246,
-            "player_name": "Kelleher",
-            "position": "GKP",
-            "season_total_points": 41,
-            "starter": true
-          },
           {
             "club_name": "Liverpool",
             "current_gw_points": 0,
@@ -887533,29 +888106,6 @@
             "player_name": "Kerkez",
             "position": "DEF",
             "season_total_points": 31,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 330,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 4,
-            "multiplier": 1,
-            "official_draft_rank": 456,
-            "player_name": "Bogle",
-            "position": "DEF",
-            "season_total_points": 62,
             "starter": true
           },
           {
@@ -887726,8 +888276,8 @@
         "entry_id": 137912,
         "entry_name": "Grove Løjer",
         "league_entry_id": 138520,
-        "live_score": 15,
-        "remaining_player_count": 13,
+        "live_score": 20,
+        "remaining_player_count": 12,
         "remaining_players": [
           {
             "club_name": "Liverpool",
@@ -887868,29 +888418,6 @@
             "starter": true
           },
           {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 426,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 2,
-            "player_name": "B.Fernandes",
-            "position": "MID",
-            "season_total_points": 47,
-            "starter": true
-          },
-          {
             "club_name": "Spurs",
             "current_gw_points": 0,
             "element_id": 512,
@@ -887961,7 +888488,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 166,
             "fixtures": [
               {
@@ -887971,7 +888498,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 11,
@@ -888029,7 +888556,7 @@
             "starter": false
           }
         ],
-        "remaining_starter_count": 11,
+        "remaining_starter_count": 10,
         "remaining_starting_players": [
           {
             "club_name": "Liverpool",
@@ -888170,29 +888697,6 @@
             "starter": true
           },
           {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 426,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 2,
-            "player_name": "B.Fernandes",
-            "position": "MID",
-            "season_total_points": 47,
-            "starter": true
-          },
-          {
             "club_name": "Spurs",
             "current_gw_points": 0,
             "element_id": 512,
@@ -888263,7 +888767,7 @@
           },
           {
             "club_name": "Aston Villa",
-            "current_gw_points": 0,
+            "current_gw_points": 1,
             "element_id": 166,
             "fixtures": [
               {
@@ -888273,7 +888777,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 11,
@@ -888291,8 +888795,8 @@
         "entry_id": 138032,
         "entry_name": "Hyggemix",
         "league_entry_id": 138641,
-        "live_score": 5,
-        "remaining_player_count": 12,
+        "live_score": 8,
+        "remaining_player_count": 11,
         "remaining_players": [
           {
             "club_name": "Arsenal",
@@ -888522,29 +889026,6 @@
             "player_name": "Donnarumma",
             "position": "GKP",
             "season_total_points": 35,
-            "starter": false
-          },
-          {
-            "club_name": "Brentford",
-            "current_gw_points": 0,
-            "element_id": 86,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "away",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 16,
-                "opponent_club_name": "Man Utd",
-                "started": false
-              }
-            ],
-            "lineup_position": 13,
-            "multiplier": 1,
-            "official_draft_rank": 137,
-            "player_name": "Lewis-Potter",
-            "position": "MID",
-            "season_total_points": 55,
             "starter": false
           },
           {
@@ -888787,8 +889268,8 @@
         "entry_id": 138139,
         "entry_name": "Jyllands Rubin",
         "league_entry_id": 138748,
-        "live_score": 0,
-        "remaining_player_count": 15,
+        "live_score": 8,
+        "remaining_player_count": 13,
         "remaining_players": [
           {
             "club_name": "Spurs",
@@ -888929,29 +889410,6 @@
             "starter": true
           },
           {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 427,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 12,
-            "player_name": "Mbeumo",
-            "position": "MID",
-            "season_total_points": 47,
-            "starter": true
-          },
-          {
             "club_name": "Bournemouth",
             "current_gw_points": 0,
             "element_id": 68,
@@ -888972,29 +889430,6 @@
             "player_name": "Tavernier",
             "position": "MID",
             "season_total_points": 66,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 346,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 9,
-            "multiplier": 1,
-            "official_draft_rank": 69,
-            "player_name": "Calvert-Lewin",
-            "position": "FWD",
-            "season_total_points": 48,
             "starter": true
           },
           {
@@ -889136,7 +889571,7 @@
             "starter": false
           }
         ],
-        "remaining_starter_count": 11,
+        "remaining_starter_count": 9,
         "remaining_starting_players": [
           {
             "club_name": "Spurs",
@@ -889277,29 +889712,6 @@
             "starter": true
           },
           {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 427,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 12,
-            "player_name": "Mbeumo",
-            "position": "MID",
-            "season_total_points": 47,
-            "starter": true
-          },
-          {
             "club_name": "Bournemouth",
             "current_gw_points": 0,
             "element_id": 68,
@@ -889320,29 +889732,6 @@
             "player_name": "Tavernier",
             "position": "MID",
             "season_total_points": 66,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 346,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 9,
-            "multiplier": 1,
-            "official_draft_rank": 69,
-            "player_name": "Calvert-Lewin",
-            "position": "FWD",
-            "season_total_points": 48,
             "starter": true
           },
           {
@@ -889398,32 +889787,9 @@
         "entry_id": 250589,
         "entry_name": "Senile Supersubs",
         "league_entry_id": 252790,
-        "live_score": 13,
-        "remaining_player_count": 13,
+        "live_score": 26,
+        "remaining_player_count": 10,
         "remaining_players": [
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 385,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 1,
-            "multiplier": 1,
-            "official_draft_rank": 338,
-            "player_name": "Trafford",
-            "position": "GKP",
-            "season_total_points": 56,
-            "starter": true
-          },
           {
             "club_name": "Brighton",
             "current_gw_points": 0,
@@ -889445,29 +889811,6 @@
             "player_name": "F.Kadıoğlu",
             "position": "DEF",
             "season_total_points": 29,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 332,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 3,
-            "multiplier": 1,
-            "official_draft_rank": 459,
-            "player_name": "Justin",
-            "position": "DEF",
-            "season_total_points": 55,
             "starter": true
           },
           {
@@ -889597,7 +889940,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 10,
@@ -889607,29 +889950,6 @@
             "position": "FWD",
             "season_total_points": 2,
             "starter": true
-          },
-          {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 412,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 12,
-            "multiplier": 1,
-            "official_draft_rank": 263,
-            "player_name": "Lammens",
-            "position": "GKP",
-            "season_total_points": 23,
-            "starter": false
           },
           {
             "club_name": "Arsenal",
@@ -889701,31 +890021,8 @@
             "starter": false
           }
         ],
-        "remaining_starter_count": 9,
+        "remaining_starter_count": 7,
         "remaining_starting_players": [
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 385,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 1,
-            "multiplier": 1,
-            "official_draft_rank": 338,
-            "player_name": "Trafford",
-            "position": "GKP",
-            "season_total_points": 56,
-            "starter": true
-          },
           {
             "club_name": "Brighton",
             "current_gw_points": 0,
@@ -889747,29 +890044,6 @@
             "player_name": "F.Kadıoğlu",
             "position": "DEF",
             "season_total_points": 29,
-            "starter": true
-          },
-          {
-            "club_name": "Leeds",
-            "current_gw_points": 0,
-            "element_id": 332,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 117,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 7,
-                "opponent_club_name": "Coventry City",
-                "started": false
-              }
-            ],
-            "lineup_position": 3,
-            "multiplier": 1,
-            "official_draft_rank": 459,
-            "player_name": "Justin",
-            "position": "DEF",
-            "season_total_points": 55,
             "starter": true
           },
           {
@@ -889899,7 +890173,7 @@
                 "kickoff_time": "2026-11-28T17:30:00Z",
                 "opponent_club_id": 12,
                 "opponent_club_name": "Ipswich Town",
-                "started": false
+                "started": true
               }
             ],
             "lineup_position": 10,
@@ -889917,8 +890191,8 @@
         "entry_id": 318564,
         "entry_name": "La Liga es la mejor",
         "league_entry_id": 321694,
-        "live_score": 0,
-        "remaining_player_count": 15,
+        "live_score": 13,
+        "remaining_player_count": 13,
         "remaining_players": [
           {
             "club_name": "Brighton",
@@ -890056,29 +890330,6 @@
             "player_name": "Gakpo",
             "position": "MID",
             "season_total_points": 40,
-            "starter": true
-          },
-          {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 428,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 13,
-            "player_name": "Cunha",
-            "position": "MID",
-            "season_total_points": 46,
             "starter": true
           },
           {
@@ -890220,29 +890471,6 @@
             "starter": false
           },
           {
-            "club_name": "Brentford",
-            "current_gw_points": 0,
-            "element_id": 87,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "away",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 16,
-                "opponent_club_name": "Man Utd",
-                "started": false
-              }
-            ],
-            "lineup_position": 14,
-            "multiplier": 1,
-            "official_draft_rank": 464,
-            "player_name": "Ajer",
-            "position": "DEF",
-            "season_total_points": 48,
-            "starter": false
-          },
-          {
             "club_name": "Man City",
             "current_gw_points": 0,
             "element_id": 397,
@@ -890266,7 +890494,7 @@
             "starter": false
           }
         ],
-        "remaining_starter_count": 11,
+        "remaining_starter_count": 10,
         "remaining_starting_players": [
           {
             "club_name": "Brighton",
@@ -890407,29 +890635,6 @@
             "starter": true
           },
           {
-            "club_name": "Man Utd",
-            "current_gw_points": 0,
-            "element_id": 428,
-            "fixtures": [
-              {
-                "finished": false,
-                "fixture_id": 118,
-                "home_or_away": "home",
-                "kickoff_time": "2026-11-28T15:00:00Z",
-                "opponent_club_id": 4,
-                "opponent_club_name": "Brentford",
-                "started": false
-              }
-            ],
-            "lineup_position": 7,
-            "multiplier": 1,
-            "official_draft_rank": 13,
-            "player_name": "Cunha",
-            "position": "MID",
-            "season_total_points": 46,
-            "starter": true
-          },
-          {
             "club_name": "Man City",
             "current_gw_points": 0,
             "element_id": 399,
@@ -890538,7 +890743,7 @@
       "entries": [],
       "leagues": [],
       "player": {},
-      "time": 1795852144
+      "time": 1795887174
     },
     "choices": {
       "choices": [],
@@ -904496,39 +904701,740 @@
         "code": 2645311,
         "event": 12,
         "finished": false,
-        "finished_provisional": false,
+        "finished_provisional": true,
         "id": 117,
         "kickoff_time": "2026-11-28T15:00:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
         "pulse_id": 0,
-        "started": false,
-        "stats": [],
+        "started": true,
+        "stats": [
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 339,
+                "value": 2
+              },
+              {
+                "element": 346,
+                "value": 1
+              }
+            ],
+            "identifier": "goals_scored"
+          },
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 331,
+                "value": 1
+              },
+              {
+                "element": 338,
+                "value": 1
+              },
+              {
+                "element": 339,
+                "value": 1
+              }
+            ],
+            "identifier": "assists"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "own_goals"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_saved"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_missed"
+          },
+          {
+            "a": [
+              {
+                "element": 176,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 330,
+                "value": 1
+              }
+            ],
+            "identifier": "yellow_cards"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "red_cards"
+          },
+          {
+            "a": [
+              {
+                "element": 110,
+                "value": 3
+              }
+            ],
+            "h": [
+              {
+                "element": 385,
+                "value": 3
+              }
+            ],
+            "identifier": "saves"
+          },
+          {
+            "a": [],
+            "h": [
+              {
+                "element": 339,
+                "value": 3
+              },
+              {
+                "element": 331,
+                "value": 2
+              },
+              {
+                "element": 346,
+                "value": 1
+              }
+            ],
+            "identifier": "bonus"
+          },
+          {
+            "a": [
+              {
+                "element": 584,
+                "value": 16
+              },
+              {
+                "element": 104,
+                "value": 12
+              },
+              {
+                "element": 656,
+                "value": 10
+              },
+              {
+                "element": 183,
+                "value": 9
+              },
+              {
+                "element": 185,
+                "value": 9
+              },
+              {
+                "element": 655,
+                "value": 9
+              },
+              {
+                "element": 110,
+                "value": 8
+              },
+              {
+                "element": 599,
+                "value": 5
+              },
+              {
+                "element": 184,
+                "value": 3
+              },
+              {
+                "element": 188,
+                "value": 3
+              },
+              {
+                "element": 194,
+                "value": 3
+              },
+              {
+                "element": 195,
+                "value": 3
+              },
+              {
+                "element": 173,
+                "value": 2
+              },
+              {
+                "element": 175,
+                "value": -4
+              },
+              {
+                "element": 91,
+                "value": -5
+              }
+            ],
+            "h": [
+              {
+                "element": 339,
+                "value": 67
+              },
+              {
+                "element": 331,
+                "value": 44
+              },
+              {
+                "element": 346,
+                "value": 43
+              },
+              {
+                "element": 385,
+                "value": 32
+              },
+              {
+                "element": 334,
+                "value": 30
+              },
+              {
+                "element": 598,
+                "value": 28
+              },
+              {
+                "element": 332,
+                "value": 26
+              },
+              {
+                "element": 338,
+                "value": 17
+              },
+              {
+                "element": 336,
+                "value": 16
+              },
+              {
+                "element": 345,
+                "value": 16
+              },
+              {
+                "element": 330,
+                "value": 14
+              },
+              {
+                "element": 335,
+                "value": 6
+              },
+              {
+                "element": 260,
+                "value": 5
+              },
+              {
+                "element": 337,
+                "value": 4
+              },
+              {
+                "element": 347,
+                "value": 4
+              },
+              {
+                "element": 641,
+                "value": 4
+              }
+            ],
+            "identifier": "bps"
+          },
+          {
+            "a": [
+              {
+                "element": 104,
+                "value": 10
+              },
+              {
+                "element": 656,
+                "value": 10
+              },
+              {
+                "element": 176,
+                "value": 9
+              },
+              {
+                "element": 91,
+                "value": 8
+              },
+              {
+                "element": 173,
+                "value": 8
+              },
+              {
+                "element": 175,
+                "value": 6
+              },
+              {
+                "element": 183,
+                "value": 6
+              },
+              {
+                "element": 185,
+                "value": 6
+              },
+              {
+                "element": 584,
+                "value": 5
+              },
+              {
+                "element": 184,
+                "value": 2
+              },
+              {
+                "element": 655,
+                "value": 2
+              },
+              {
+                "element": 194,
+                "value": 1
+              },
+              {
+                "element": 195,
+                "value": 1
+              },
+              {
+                "element": 599,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 598,
+                "value": 19
+              },
+              {
+                "element": 334,
+                "value": 17
+              },
+              {
+                "element": 339,
+                "value": 7
+              },
+              {
+                "element": 345,
+                "value": 7
+              },
+              {
+                "element": 336,
+                "value": 6
+              },
+              {
+                "element": 335,
+                "value": 5
+              },
+              {
+                "element": 338,
+                "value": 5
+              },
+              {
+                "element": 346,
+                "value": 4
+              },
+              {
+                "element": 260,
+                "value": 3
+              },
+              {
+                "element": 330,
+                "value": 3
+              },
+              {
+                "element": 331,
+                "value": 3
+              },
+              {
+                "element": 332,
+                "value": 3
+              },
+              {
+                "element": 641,
+                "value": 3
+              },
+              {
+                "element": 337,
+                "value": 1
+              },
+              {
+                "element": 347,
+                "value": 1
+              }
+            ],
+            "identifier": "defensive_contribution"
+          }
+        ],
         "team_a": 7,
         "team_a_difficulty": 3,
-        "team_a_score": null,
+        "team_a_score": 0,
         "team_h": 13,
         "team_h_difficulty": 2,
-        "team_h_score": null
+        "team_h_score": 3
       },
       {
         "code": 2645312,
         "event": 12,
         "finished": false,
-        "finished_provisional": false,
+        "finished_provisional": true,
         "id": 118,
         "kickoff_time": "2026-11-28T15:00:00Z",
-        "minutes": 0,
+        "minutes": 90,
         "provisional_start_time": false,
         "pulse_id": 0,
-        "started": false,
-        "stats": [],
+        "started": true,
+        "stats": [
+          {
+            "a": [
+              {
+                "element": 108,
+                "value": 2
+              },
+              {
+                "element": 87,
+                "value": 1
+              },
+              {
+                "element": 94,
+                "value": 1
+              }
+            ],
+            "h": [],
+            "identifier": "goals_scored"
+          },
+          {
+            "a": [
+              {
+                "element": 95,
+                "value": 3
+              },
+              {
+                "element": 88,
+                "value": 1
+              }
+            ],
+            "h": [],
+            "identifier": "assists"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "own_goals"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_saved"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_missed"
+          },
+          {
+            "a": [
+              {
+                "element": 100,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 418,
+                "value": 1
+              },
+              {
+                "element": 419,
+                "value": 1
+              },
+              {
+                "element": 420,
+                "value": 1
+              }
+            ],
+            "identifier": "yellow_cards"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "red_cards"
+          },
+          {
+            "a": [
+              {
+                "element": 82,
+                "value": 5
+              }
+            ],
+            "h": [],
+            "identifier": "saves"
+          },
+          {
+            "a": [
+              {
+                "element": 108,
+                "value": 3
+              },
+              {
+                "element": 95,
+                "value": 2
+              },
+              {
+                "element": 85,
+                "value": 1
+              }
+            ],
+            "h": [],
+            "identifier": "bonus"
+          },
+          {
+            "a": [
+              {
+                "element": 108,
+                "value": 59
+              },
+              {
+                "element": 95,
+                "value": 53
+              },
+              {
+                "element": 85,
+                "value": 41
+              },
+              {
+                "element": 88,
+                "value": 38
+              },
+              {
+                "element": 87,
+                "value": 37
+              },
+              {
+                "element": 82,
+                "value": 36
+              },
+              {
+                "element": 86,
+                "value": 27
+              },
+              {
+                "element": 94,
+                "value": 19
+              },
+              {
+                "element": 96,
+                "value": 15
+              },
+              {
+                "element": 98,
+                "value": 11
+              },
+              {
+                "element": 565,
+                "value": 8
+              },
+              {
+                "element": 105,
+                "value": 7
+              },
+              {
+                "element": 620,
+                "value": 3
+              },
+              {
+                "element": 97,
+                "value": 2
+              }
+            ],
+            "h": [
+              {
+                "element": 432,
+                "value": 19
+              },
+              {
+                "element": 43,
+                "value": 18
+              },
+              {
+                "element": 426,
+                "value": 16
+              },
+              {
+                "element": 427,
+                "value": 13
+              },
+              {
+                "element": 431,
+                "value": 11
+              },
+              {
+                "element": 417,
+                "value": 8
+              },
+              {
+                "element": 435,
+                "value": 8
+              },
+              {
+                "element": 440,
+                "value": 8
+              },
+              {
+                "element": 415,
+                "value": 7
+              },
+              {
+                "element": 428,
+                "value": 7
+              },
+              {
+                "element": 430,
+                "value": 3
+              },
+              {
+                "element": 420,
+                "value": -3
+              },
+              {
+                "element": 423,
+                "value": -5
+              },
+              {
+                "element": 419,
+                "value": -6
+              },
+              {
+                "element": 412,
+                "value": -8
+              },
+              {
+                "element": 418,
+                "value": -11
+              }
+            ],
+            "identifier": "bps"
+          },
+          {
+            "a": [
+              {
+                "element": 85,
+                "value": 11
+              },
+              {
+                "element": 86,
+                "value": 11
+              },
+              {
+                "element": 96,
+                "value": 11
+              },
+              {
+                "element": 565,
+                "value": 11
+              },
+              {
+                "element": 98,
+                "value": 10
+              },
+              {
+                "element": 87,
+                "value": 9
+              },
+              {
+                "element": 95,
+                "value": 8
+              },
+              {
+                "element": 105,
+                "value": 6
+              },
+              {
+                "element": 88,
+                "value": 5
+              },
+              {
+                "element": 94,
+                "value": 3
+              },
+              {
+                "element": 97,
+                "value": 2
+              },
+              {
+                "element": 100,
+                "value": 1
+              },
+              {
+                "element": 108,
+                "value": 1
+              }
+            ],
+            "h": [
+              {
+                "element": 426,
+                "value": 12
+              },
+              {
+                "element": 432,
+                "value": 10
+              },
+              {
+                "element": 43,
+                "value": 8
+              },
+              {
+                "element": 420,
+                "value": 8
+              },
+              {
+                "element": 417,
+                "value": 7
+              },
+              {
+                "element": 418,
+                "value": 6
+              },
+              {
+                "element": 419,
+                "value": 5
+              },
+              {
+                "element": 440,
+                "value": 5
+              },
+              {
+                "element": 415,
+                "value": 4
+              },
+              {
+                "element": 423,
+                "value": 3
+              },
+              {
+                "element": 427,
+                "value": 3
+              },
+              {
+                "element": 431,
+                "value": 3
+              },
+              {
+                "element": 428,
+                "value": 2
+              },
+              {
+                "element": 435,
+                "value": 1
+              }
+            ],
+            "identifier": "defensive_contribution"
+          }
+        ],
         "team_a": 4,
         "team_a_difficulty": 3,
-        "team_a_score": null,
+        "team_a_score": 4,
         "team_h": 16,
         "team_h_difficulty": 3,
-        "team_h_score": null
+        "team_h_score": 0
       },
       {
         "code": 2645310,
@@ -904540,8 +905446,64 @@
         "minutes": 0,
         "provisional_start_time": false,
         "pulse_id": 0,
-        "started": false,
-        "stats": [],
+        "started": true,
+        "stats": [
+          {
+            "a": [],
+            "h": [],
+            "identifier": "goals_scored"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "assists"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "own_goals"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_saved"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "penalties_missed"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "yellow_cards"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "red_cards"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "saves"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "bonus"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "bps"
+          },
+          {
+            "a": [],
+            "h": [],
+            "identifier": "defensive_contribution"
+          }
+        ],
         "team_a": 2,
         "team_a_difficulty": 2,
         "team_a_score": null,
@@ -904858,7 +905820,7 @@
     ]
   },
   "proposed_waivers": {
-    "generated_at": "2026-11-28T07:49:04.537574Z",
+    "generated_at": "2026-11-28T17:32:54.811115Z",
     "pending_waiver_count": 56,
     "schema_version": 1,
     "source_available": true,
@@ -906720,13 +907682,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "s",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 330,
           "first_name": "Jayden",
-          "news": "",
+          "news": "Suspended until 5 Dec",
           "official_draft_rank": 456,
           "position": "DEF",
           "position_id": 2,
@@ -906826,13 +907788,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "s",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 330,
           "first_name": "Jayden",
-          "news": "",
+          "news": "Suspended until 5 Dec",
           "official_draft_rank": 456,
           "position": "DEF",
           "position_id": 2,
@@ -908291,39 +909253,740 @@
             "code": 2645311,
             "event": 12,
             "finished": false,
-            "finished_provisional": false,
+            "finished_provisional": true,
             "id": 117,
             "kickoff_time": "2026-11-28T15:00:00Z",
-            "minutes": 0,
+            "minutes": 90,
             "provisional_start_time": false,
             "pulse_id": 0,
-            "started": false,
-            "stats": [],
+            "started": true,
+            "stats": [
+              {
+                "a": [],
+                "h": [
+                  {
+                    "element": 339,
+                    "value": 2
+                  },
+                  {
+                    "element": 346,
+                    "value": 1
+                  }
+                ],
+                "identifier": "goals_scored"
+              },
+              {
+                "a": [],
+                "h": [
+                  {
+                    "element": 331,
+                    "value": 1
+                  },
+                  {
+                    "element": 338,
+                    "value": 1
+                  },
+                  {
+                    "element": 339,
+                    "value": 1
+                  }
+                ],
+                "identifier": "assists"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "own_goals"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_saved"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_missed"
+              },
+              {
+                "a": [
+                  {
+                    "element": 176,
+                    "value": 1
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 330,
+                    "value": 1
+                  }
+                ],
+                "identifier": "yellow_cards"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "red_cards"
+              },
+              {
+                "a": [
+                  {
+                    "element": 110,
+                    "value": 3
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 385,
+                    "value": 3
+                  }
+                ],
+                "identifier": "saves"
+              },
+              {
+                "a": [],
+                "h": [
+                  {
+                    "element": 339,
+                    "value": 3
+                  },
+                  {
+                    "element": 331,
+                    "value": 2
+                  },
+                  {
+                    "element": 346,
+                    "value": 1
+                  }
+                ],
+                "identifier": "bonus"
+              },
+              {
+                "a": [
+                  {
+                    "element": 584,
+                    "value": 16
+                  },
+                  {
+                    "element": 104,
+                    "value": 12
+                  },
+                  {
+                    "element": 656,
+                    "value": 10
+                  },
+                  {
+                    "element": 183,
+                    "value": 9
+                  },
+                  {
+                    "element": 185,
+                    "value": 9
+                  },
+                  {
+                    "element": 655,
+                    "value": 9
+                  },
+                  {
+                    "element": 110,
+                    "value": 8
+                  },
+                  {
+                    "element": 599,
+                    "value": 5
+                  },
+                  {
+                    "element": 184,
+                    "value": 3
+                  },
+                  {
+                    "element": 188,
+                    "value": 3
+                  },
+                  {
+                    "element": 194,
+                    "value": 3
+                  },
+                  {
+                    "element": 195,
+                    "value": 3
+                  },
+                  {
+                    "element": 173,
+                    "value": 2
+                  },
+                  {
+                    "element": 175,
+                    "value": -4
+                  },
+                  {
+                    "element": 91,
+                    "value": -5
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 339,
+                    "value": 67
+                  },
+                  {
+                    "element": 331,
+                    "value": 44
+                  },
+                  {
+                    "element": 346,
+                    "value": 43
+                  },
+                  {
+                    "element": 385,
+                    "value": 32
+                  },
+                  {
+                    "element": 334,
+                    "value": 30
+                  },
+                  {
+                    "element": 598,
+                    "value": 28
+                  },
+                  {
+                    "element": 332,
+                    "value": 26
+                  },
+                  {
+                    "element": 338,
+                    "value": 17
+                  },
+                  {
+                    "element": 336,
+                    "value": 16
+                  },
+                  {
+                    "element": 345,
+                    "value": 16
+                  },
+                  {
+                    "element": 330,
+                    "value": 14
+                  },
+                  {
+                    "element": 335,
+                    "value": 6
+                  },
+                  {
+                    "element": 260,
+                    "value": 5
+                  },
+                  {
+                    "element": 337,
+                    "value": 4
+                  },
+                  {
+                    "element": 347,
+                    "value": 4
+                  },
+                  {
+                    "element": 641,
+                    "value": 4
+                  }
+                ],
+                "identifier": "bps"
+              },
+              {
+                "a": [
+                  {
+                    "element": 104,
+                    "value": 10
+                  },
+                  {
+                    "element": 656,
+                    "value": 10
+                  },
+                  {
+                    "element": 176,
+                    "value": 9
+                  },
+                  {
+                    "element": 91,
+                    "value": 8
+                  },
+                  {
+                    "element": 173,
+                    "value": 8
+                  },
+                  {
+                    "element": 175,
+                    "value": 6
+                  },
+                  {
+                    "element": 183,
+                    "value": 6
+                  },
+                  {
+                    "element": 185,
+                    "value": 6
+                  },
+                  {
+                    "element": 584,
+                    "value": 5
+                  },
+                  {
+                    "element": 184,
+                    "value": 2
+                  },
+                  {
+                    "element": 655,
+                    "value": 2
+                  },
+                  {
+                    "element": 194,
+                    "value": 1
+                  },
+                  {
+                    "element": 195,
+                    "value": 1
+                  },
+                  {
+                    "element": 599,
+                    "value": 1
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 598,
+                    "value": 19
+                  },
+                  {
+                    "element": 334,
+                    "value": 17
+                  },
+                  {
+                    "element": 339,
+                    "value": 7
+                  },
+                  {
+                    "element": 345,
+                    "value": 7
+                  },
+                  {
+                    "element": 336,
+                    "value": 6
+                  },
+                  {
+                    "element": 335,
+                    "value": 5
+                  },
+                  {
+                    "element": 338,
+                    "value": 5
+                  },
+                  {
+                    "element": 346,
+                    "value": 4
+                  },
+                  {
+                    "element": 260,
+                    "value": 3
+                  },
+                  {
+                    "element": 330,
+                    "value": 3
+                  },
+                  {
+                    "element": 331,
+                    "value": 3
+                  },
+                  {
+                    "element": 332,
+                    "value": 3
+                  },
+                  {
+                    "element": 641,
+                    "value": 3
+                  },
+                  {
+                    "element": 337,
+                    "value": 1
+                  },
+                  {
+                    "element": 347,
+                    "value": 1
+                  }
+                ],
+                "identifier": "defensive_contribution"
+              }
+            ],
             "team_a": 7,
             "team_a_difficulty": 3,
-            "team_a_score": null,
+            "team_a_score": 0,
             "team_h": 13,
             "team_h_difficulty": 2,
-            "team_h_score": null
+            "team_h_score": 3
           },
           {
             "code": 2645312,
             "event": 12,
             "finished": false,
-            "finished_provisional": false,
+            "finished_provisional": true,
             "id": 118,
             "kickoff_time": "2026-11-28T15:00:00Z",
-            "minutes": 0,
+            "minutes": 90,
             "provisional_start_time": false,
             "pulse_id": 0,
-            "started": false,
-            "stats": [],
+            "started": true,
+            "stats": [
+              {
+                "a": [
+                  {
+                    "element": 108,
+                    "value": 2
+                  },
+                  {
+                    "element": 87,
+                    "value": 1
+                  },
+                  {
+                    "element": 94,
+                    "value": 1
+                  }
+                ],
+                "h": [],
+                "identifier": "goals_scored"
+              },
+              {
+                "a": [
+                  {
+                    "element": 95,
+                    "value": 3
+                  },
+                  {
+                    "element": 88,
+                    "value": 1
+                  }
+                ],
+                "h": [],
+                "identifier": "assists"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "own_goals"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_saved"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_missed"
+              },
+              {
+                "a": [
+                  {
+                    "element": 100,
+                    "value": 1
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 418,
+                    "value": 1
+                  },
+                  {
+                    "element": 419,
+                    "value": 1
+                  },
+                  {
+                    "element": 420,
+                    "value": 1
+                  }
+                ],
+                "identifier": "yellow_cards"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "red_cards"
+              },
+              {
+                "a": [
+                  {
+                    "element": 82,
+                    "value": 5
+                  }
+                ],
+                "h": [],
+                "identifier": "saves"
+              },
+              {
+                "a": [
+                  {
+                    "element": 108,
+                    "value": 3
+                  },
+                  {
+                    "element": 95,
+                    "value": 2
+                  },
+                  {
+                    "element": 85,
+                    "value": 1
+                  }
+                ],
+                "h": [],
+                "identifier": "bonus"
+              },
+              {
+                "a": [
+                  {
+                    "element": 108,
+                    "value": 59
+                  },
+                  {
+                    "element": 95,
+                    "value": 53
+                  },
+                  {
+                    "element": 85,
+                    "value": 41
+                  },
+                  {
+                    "element": 88,
+                    "value": 38
+                  },
+                  {
+                    "element": 87,
+                    "value": 37
+                  },
+                  {
+                    "element": 82,
+                    "value": 36
+                  },
+                  {
+                    "element": 86,
+                    "value": 27
+                  },
+                  {
+                    "element": 94,
+                    "value": 19
+                  },
+                  {
+                    "element": 96,
+                    "value": 15
+                  },
+                  {
+                    "element": 98,
+                    "value": 11
+                  },
+                  {
+                    "element": 565,
+                    "value": 8
+                  },
+                  {
+                    "element": 105,
+                    "value": 7
+                  },
+                  {
+                    "element": 620,
+                    "value": 3
+                  },
+                  {
+                    "element": 97,
+                    "value": 2
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 432,
+                    "value": 19
+                  },
+                  {
+                    "element": 43,
+                    "value": 18
+                  },
+                  {
+                    "element": 426,
+                    "value": 16
+                  },
+                  {
+                    "element": 427,
+                    "value": 13
+                  },
+                  {
+                    "element": 431,
+                    "value": 11
+                  },
+                  {
+                    "element": 417,
+                    "value": 8
+                  },
+                  {
+                    "element": 435,
+                    "value": 8
+                  },
+                  {
+                    "element": 440,
+                    "value": 8
+                  },
+                  {
+                    "element": 415,
+                    "value": 7
+                  },
+                  {
+                    "element": 428,
+                    "value": 7
+                  },
+                  {
+                    "element": 430,
+                    "value": 3
+                  },
+                  {
+                    "element": 420,
+                    "value": -3
+                  },
+                  {
+                    "element": 423,
+                    "value": -5
+                  },
+                  {
+                    "element": 419,
+                    "value": -6
+                  },
+                  {
+                    "element": 412,
+                    "value": -8
+                  },
+                  {
+                    "element": 418,
+                    "value": -11
+                  }
+                ],
+                "identifier": "bps"
+              },
+              {
+                "a": [
+                  {
+                    "element": 85,
+                    "value": 11
+                  },
+                  {
+                    "element": 86,
+                    "value": 11
+                  },
+                  {
+                    "element": 96,
+                    "value": 11
+                  },
+                  {
+                    "element": 565,
+                    "value": 11
+                  },
+                  {
+                    "element": 98,
+                    "value": 10
+                  },
+                  {
+                    "element": 87,
+                    "value": 9
+                  },
+                  {
+                    "element": 95,
+                    "value": 8
+                  },
+                  {
+                    "element": 105,
+                    "value": 6
+                  },
+                  {
+                    "element": 88,
+                    "value": 5
+                  },
+                  {
+                    "element": 94,
+                    "value": 3
+                  },
+                  {
+                    "element": 97,
+                    "value": 2
+                  },
+                  {
+                    "element": 100,
+                    "value": 1
+                  },
+                  {
+                    "element": 108,
+                    "value": 1
+                  }
+                ],
+                "h": [
+                  {
+                    "element": 426,
+                    "value": 12
+                  },
+                  {
+                    "element": 432,
+                    "value": 10
+                  },
+                  {
+                    "element": 43,
+                    "value": 8
+                  },
+                  {
+                    "element": 420,
+                    "value": 8
+                  },
+                  {
+                    "element": 417,
+                    "value": 7
+                  },
+                  {
+                    "element": 418,
+                    "value": 6
+                  },
+                  {
+                    "element": 419,
+                    "value": 5
+                  },
+                  {
+                    "element": 440,
+                    "value": 5
+                  },
+                  {
+                    "element": 415,
+                    "value": 4
+                  },
+                  {
+                    "element": 423,
+                    "value": 3
+                  },
+                  {
+                    "element": 427,
+                    "value": 3
+                  },
+                  {
+                    "element": 431,
+                    "value": 3
+                  },
+                  {
+                    "element": 428,
+                    "value": 2
+                  },
+                  {
+                    "element": 435,
+                    "value": 1
+                  }
+                ],
+                "identifier": "defensive_contribution"
+              }
+            ],
             "team_a": 4,
             "team_a_difficulty": 3,
-            "team_a_score": null,
+            "team_a_score": 4,
             "team_h": 16,
             "team_h_difficulty": 3,
-            "team_h_score": null
+            "team_h_score": 0
           },
           {
             "code": 2645310,
@@ -908335,8 +909998,64 @@
             "minutes": 0,
             "provisional_start_time": false,
             "pulse_id": 0,
-            "started": false,
-            "stats": [],
+            "started": true,
+            "stats": [
+              {
+                "a": [],
+                "h": [],
+                "identifier": "goals_scored"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "assists"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "own_goals"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_saved"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "penalties_missed"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "yellow_cards"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "red_cards"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "saves"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "bonus"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "bps"
+              },
+              {
+                "a": [],
+                "h": [],
+                "identifier": "defensive_contribution"
+              }
+            ],
             "team_a": 2,
             "team_a_difficulty": 2,
             "team_a_score": null,
@@ -913032,7 +914751,7 @@
         "waiver_pick": 5
       }
     ],
-    "generated_at": "2026-11-28T07:49:08.501694Z",
+    "generated_at": "2026-11-28T17:32:56.657412Z",
     "latest_complete_gameweek": 11,
     "league_id": 8905,
     "league_name": "OK Data Liga",
@@ -913073,7 +914792,7 @@
       "source_available": true,
       "typed_records": 145
     },
-    "generated_at": "2026-11-28T07:49:04.535542Z",
+    "generated_at": "2026-11-28T17:32:54.809799Z",
     "schema_version": 1,
     "transactions": [
       {
@@ -916788,13 +918507,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "s",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 330,
           "first_name": "Jayden",
-          "news": "",
+          "news": "Suspended until 5 Dec",
           "official_draft_rank": 456,
           "position": "DEF",
           "position_id": 2,
@@ -917000,13 +918719,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "s",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 330,
           "first_name": "Jayden",
-          "news": "",
+          "news": "Suspended until 5 Dec",
           "official_draft_rank": 456,
           "position": "DEF",
           "position_id": 2,
@@ -917159,13 +918878,13 @@
       },
       {
         "element_in": {
-          "availability_status": "a",
+          "availability_status": "s",
           "club_id": 13,
           "club_name": "Leeds",
           "club_short_name": "LEE",
           "element_id": 330,
           "first_name": "Jayden",
-          "news": "",
+          "news": "Suspended until 5 Dec",
           "official_draft_rank": 456,
           "position": "DEF",
           "position_id": 2,
@@ -920776,7 +922495,7 @@
       "watched_players_resolved": 1
     },
     "gameweek": 11,
-    "generated_at": "2026-11-28T07:49:08.501633Z",
+    "generated_at": "2026-11-28T17:32:56.657358Z",
     "players": [
       {
         "availability_status": "a",
